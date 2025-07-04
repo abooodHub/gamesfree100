@@ -1,0 +1,21 @@
+{
+  "total_count": 2,
+  "free_list": [
+    [
+      "Figment",
+      "https://store.epicgames.com/en-US/p/figment",
+      "https://cdn1.epicgames.com/270e1d648a5e4060b7b441615c4da4d9/offer/EGS_Figment_BedtimeDigitalGames_S3-1360x766-db305dcf65ce7dd5d7c3adfe6afc6769.jpg",
+      "Figment is an action-adventure game that invites you to explore a unique surreal universe filled with music, humor and multi layered narrative.",
+      "2025-07-10 15:00:00"
+    ],
+    [
+      "Backpack Hero",
+      "https://store.epicgames.com/en-US/p/backpack-hero-449c5e",
+      "https://cdn1.epicgames.com/spt-assets/da842a6b6e324c39b54b16910856bdb3/backpack-hero-15jsl.jpg",
+      "The inventory management roguelike! Collect rare items, organize your backpack, and vanquish your foes!",
+      "2025-07-10 15:00:00"
+    ]
+  ],
+  "update_time": "2025-07-04 18:20:24",
+  "source": "Epic Games Store"
+}

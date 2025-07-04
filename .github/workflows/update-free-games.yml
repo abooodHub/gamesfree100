@@ -1,0 +1,55 @@
+name: Update Free Games from All Stores
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # كل 6 ساعات
+  workflow_dispatch:
+
+jobs:
+  update-free-games:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Steam balash.py
+        run: python balash.py
+        continue-on-error: true
+
+      - name: Run Epic Games balash.py
+        run: python epic_balash.py
+        continue-on-error: true
+
+      - name: Run GOG balash.py
+        run: python gog_balash.py
+        continue-on-error: true
+
+      - name: Run Ubisoft balash.py
+        run: python ubisoft_balash.py
+        continue-on-error: true
+
+      - name: Run PlayStation balash.py
+        run: python playstation_balash.py
+        continue-on-error: true
+
+      - name: Run Xbox balash.py
+        run: python xbox_balash.py
+        continue-on-error: true
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add *.json
+          git commit -m 'Update free games from all stores [bot]' || echo 'No changes to commit'
+          git push
