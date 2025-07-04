@@ -137,7 +137,7 @@ function gameCard(game) {
         let iconPath = '';
         switch (game._store) {
             case 'steam': iconPath = 'icons/steam.svg'; break;
-            case 'epic': iconPath = 'icons/epic.svg'; break;
+            case 'epic': iconPath = 'icons/Epic.svg'; break;
             case 'gog': iconPath = 'icons/gog.svg'; break;
             case 'ubisoft': iconPath = 'icons/ubisoft.svg'; break;
             case 'playstation': iconPath = 'icons/playstation.svg'; break;
