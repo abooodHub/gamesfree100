@@ -26,8 +26,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Debug - List files
+        run: |
+          echo "Current directory: $(pwd)"
+          echo "Python files available:"
+          ls -la *.py
+
       - name: Update timestamp in JSON files
-        run: python update_timestamp.py
+        run: |
+          echo "Starting timestamp update..."
+          python update_timestamp.py
+          echo "Timestamp update completed!"
 
       - name: Run Steam balash.py
         run: python balash.py
