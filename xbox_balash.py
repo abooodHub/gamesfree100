@@ -18,12 +18,11 @@ def get_xbox_free_games():
     """
     print("بدء جلب الألعاب المجانية من Xbox Store...")
     
-    # محاولة استخدام روابط مختلفة
+    # محاولة استخدام API أو صفحة مختلفة
     urls = [
-        "https://www.xbox.com/en-us/games/all-games?cat=free",
-        "https://www.xbox.com/en-us/games/free-games",
-        "https://www.xbox.com/en-us/games/all-games?price=free",
-        "https://www.xbox.com/en-us/games/all-games?filter=free"
+        "https://www.xbox.com/en-US/games/free-games",
+        "https://www.xbox.com/en-US/games/all-games?price=free",
+        "https://www.microsoft.com/en-us/store/collections/free-games"
     ]
     
     headers = {
@@ -47,20 +46,20 @@ def get_xbox_free_games():
             print("تم جلب البيانات بنجاح من Xbox")
             
             # محاولة استخراج الألعاب من HTML
-            game_elements = soup.find_all(['div', 'li', 'article'])
-            game_elements = [elem for elem in game_elements if elem.get('class') and any(keyword in ' '.join(elem.get('class')).lower() for keyword in ['game', 'product', 'tile', 'card', 'item'])]
+            game_elements = soup.find_all(['div', 'li'])
+            game_elements = [elem for elem in game_elements if elem.get('class') and any(keyword in ' '.join(elem.get('class')).lower() for keyword in ['game', 'product', 'tile', 'card'])]
             
             for element in game_elements:
                 try:
                     # البحث عن اسم اللعبة
-                    title_selectors = ['h3', 'h2', 'h1', 'span', 'div']
+                    title_selectors = ['h3', 'h2', 'span', 'div']
                     game_name = ""
                     
                     for selector in title_selectors:
                         title_elem = element.find(selector)
                         if title_elem and title_elem.get('class'):
                             class_text = ' '.join(title_elem.get('class')).lower()
-                            if any(keyword in class_text for keyword in ['title', 'name', 'product', 'game']):
+                            if any(keyword in class_text for keyword in ['title', 'name', 'product']):
                                 game_name = title_elem.get_text(strip=True)
                                 break
                     
@@ -86,11 +85,11 @@ def get_xbox_free_games():
                             image_url = "https:" + image_url
                     
                     # البحث عن الوصف
-                    desc_elem = element.find(['p', 'span', 'div'])
+                    desc_elem = element.find(['p', 'span'])
                     description = ""
                     if desc_elem and desc_elem.get('class'):
                         class_text = ' '.join(desc_elem.get('class')).lower()
-                        if any(keyword in class_text for keyword in ['desc', 'summary', 'description']):
+                        if any(keyword in class_text for keyword in ['desc', 'summary']):
                             description = desc_elem.get_text(strip=True)
                     
                     # البحث عن السعر
