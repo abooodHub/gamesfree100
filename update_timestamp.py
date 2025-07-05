@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 import json
 import datetime
-import os
 
 def update_timestamps():
     # الحصول على التوقيت الحالي
     current_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    print("Updating timestamps to: " + current_time)
     
     # قائمة ملفات JSON
     json_files = [
@@ -17,6 +17,8 @@ def update_timestamps():
         'xbox_goods_detail.json'
     ]
     
+    updated_count = 0
+    
     # تحديث كل ملف
     for file_path in json_files:
         try:
@@ -25,19 +27,28 @@ def update_timestamps():
                 data = json.load(f)
             
             # تحديث التوقيت
+            old_time = data.get('update_time', 'None')
             data['update_time'] = current_time
             
             # حفظ الملف
             with open(file_path, 'w', encoding='utf-8') as f:
                 json.dump(data, f, ensure_ascii=False, indent=2)
             
-            print(f'Updated timestamp in {file_path}')
+            print("Updated " + file_path + " (was: " + old_time + ")")
+            updated_count += 1
+            
         except Exception as e:
-            print(f'Error updating {file_path}: {e}')
+            print("Error updating " + file_path + ": " + str(e))
             # إنشاء ملف جديد إذا لم يكن موجوداً
-            with open(file_path, 'w', encoding='utf-8') as f:
-                json.dump({'update_time': current_time, 'free_list': [], 'discounted_list': []}, f, ensure_ascii=False, indent=2)
-            print(f'Created new {file_path}')
+            try:
+                with open(file_path, 'w', encoding='utf-8') as f:
+                    json.dump({'update_time': current_time, 'free_list': [], 'discounted_list': []}, f, ensure_ascii=False, indent=2)
+                print("Created new " + file_path)
+                updated_count += 1
+            except Exception as e2:
+                print("Failed to create " + file_path + ": " + str(e2))
+    
+    print("Successfully updated " + str(updated_count) + "/" + str(len(json_files)) + " files")
 
 if __name__ == '__main__':
     update_timestamps() 
