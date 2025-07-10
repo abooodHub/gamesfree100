@@ -1,0 +1,37 @@
+name: Test Timestamp Update
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: List files
+        run: |
+          echo "Current directory:"
+          pwd
+          echo "Files in directory:"
+          ls -la
+          echo "Python files:"
+          ls *.py
+
+      - name: Test timestamp update
+        run: |
+          echo "Testing timestamp update script..."
+          python update_timestamp.py
+          echo "Script completed successfully!"
+
+      - name: Show updated files
+        run: |
+          echo "Updated timestamps:"
+          cat free_goods_detail.json | grep update_time
+          cat epic_goods_detail.json | grep update_time 
