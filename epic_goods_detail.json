@@ -1,11 +1,24 @@
 {
-  "total_count": 2,
-  "free_list": [
+  "total_count": 6,
+  "free_games": [
+    [
+      "Sid Meier’s Civilization® VI Platinum Edition",
+      "https://store.epicgames.com/en-US/p/sid-meiers-civilization-vi",
+      "https://cdn1.epicgames.com/cd14dcaa4f3443f19f7169a980559c62/offer/EGS_SidMeiersCivilizationVIPlatinumEdition_FiraxisGames_Bundles_S1-2560x1440-377e869fc8f4efea4ff996b406859a4f.jpg",
+      "Sid Meier’s Civilization VI: Platinum Edition is the perfect entry point for PC gamers who have yet to experience the addictive gameplay that has made Civilization one of the greatest game series of all time.",
+      "79.99 USD",
+      "79.99 USD",
+      "خصم 100% - مجاني",
+      "2025-07-24 15:00:00"
+    ],
     [
       "Sky Racket",
       "https://store.epicgames.com/en-US/p/sky-racket-4cf23a",
       "https://cdn1.epicgames.com/spt/39e680de-9f71-4475-b5dd-e25ffc8ed026/sky-racket-offer-30e7f1bd.jpg",
       "Sky Racket is a game that mixes two classic genres from the Arcade era: Shoot’em up and Brick Breakers. In a world where you are unable to attack, using your racket to strike enemy bullets back at them is your only option! Bounce bullets back at your foes and save the galaxy!",
+      "14.99 USD",
+      "Free",
+      "خصم 100% - مجاني",
       "2025-07-17 15:00:00"
     ],
     [
@@ -13,9 +26,105 @@
       "https://store.epicgames.com/en-US/p/figment2-creed-valley",
       "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_Figment2CreedValley_BedtimeDigitalGames_S1_2560x1440-c799fc78fe47bda5cf8a1bb205ca134f",
       "Figment 2: Creed Valley is an action-adventure game set in the human mind. Nightmares are spreading chaos and have overrun once-peaceful lands. Join Dusty, The Mind’s courage, as you make your way through puzzles, musical boss fights and unique environments.",
+      "24.99 USD",
+      "Free",
+      "خصم 100% - مجاني",
       "2025-07-17 15:00:00"
+    ],
+    [
+      "Fortnite",
+      "https://store.epicgames.com/en-US/p/fortnite",
+      "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Ffortnite%2Fhome%2Ffortnite-br-1200x1600-1200x1600-63bb5bb2f96f.jpg",
+      "Fortnite is the completely free multiplayer game where you and your friends collaborate to create your dream world or compete against each other in Battle Royale.",
+      "Free",
+      "Free",
+      "مجاني دائماً",
+      null
+    ],
+    [
+      "Rocket League",
+      "https://store.epicgames.com/en-US/p/rocket-league",
+      "https://cdn1.epicgames.com/spt/9408a40499f647de8ecebfe41ae03c55/rocket-league-35bma.jpg",
+      "Winner or nominee of more than 150 'Game of the Year' awards, Rocket League is one of the most critically-acclaimed sports games of all time.",
+      "Free",
+      "Free",
+      "مجاني دائماً",
+      null
+    ],
+    [
+      "Fall Guys",
+      "https://store.epicgames.com/en-US/p/fall-guys",
+      "https://cdn1.epicgames.com/spt/b7c1c96f72274bbcb5fbbf93dd8b6dc5/fall-guys-offer-6ow21.jpg",
+      "Fall Guys is a free, cross-platform massively multiplayer party royale game where up to 60 players compete in rounds of escalating chaos until one victor remains!",
+      "Free",
+      "Free",
+      "مجاني دائماً",
+      null
     ]
   ],
-  "update_time": "2025-07-12 03:09:51",
+  "discounted_games": [],
+  "free_list": [
+    [
+      "Sid Meier’s Civilization® VI Platinum Edition",
+      "https://store.epicgames.com/en-US/p/sid-meiers-civilization-vi",
+      "https://cdn1.epicgames.com/cd14dcaa4f3443f19f7169a980559c62/offer/EGS_SidMeiersCivilizationVIPlatinumEdition_FiraxisGames_Bundles_S1-2560x1440-377e869fc8f4efea4ff996b406859a4f.jpg",
+      "Sid Meier’s Civilization VI: Platinum Edition is the perfect entry point for PC gamers who have yet to experience the addictive gameplay that has made Civilization one of the greatest game series of all time.",
+      "79.99 USD",
+      "79.99 USD",
+      "خصم 100% - مجاني",
+      "2025-07-24 15:00:00"
+    ],
+    [
+      "Sky Racket",
+      "https://store.epicgames.com/en-US/p/sky-racket-4cf23a",
+      "https://cdn1.epicgames.com/spt/39e680de-9f71-4475-b5dd-e25ffc8ed026/sky-racket-offer-30e7f1bd.jpg",
+      "Sky Racket is a game that mixes two classic genres from the Arcade era: Shoot’em up and Brick Breakers. In a world where you are unable to attack, using your racket to strike enemy bullets back at them is your only option! Bounce bullets back at your foes and save the galaxy!",
+      "14.99 USD",
+      "Free",
+      "خصم 100% - مجاني",
+      "2025-07-17 15:00:00"
+    ],
+    [
+      "Figment 2: Creed Valley",
+      "https://store.epicgames.com/en-US/p/figment2-creed-valley",
+      "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_Figment2CreedValley_BedtimeDigitalGames_S1_2560x1440-c799fc78fe47bda5cf8a1bb205ca134f",
+      "Figment 2: Creed Valley is an action-adventure game set in the human mind. Nightmares are spreading chaos and have overrun once-peaceful lands. Join Dusty, The Mind’s courage, as you make your way through puzzles, musical boss fights and unique environments.",
+      "24.99 USD",
+      "Free",
+      "خصم 100% - مجاني",
+      "2025-07-17 15:00:00"
+    ],
+    [
+      "Fortnite",
+      "https://store.epicgames.com/en-US/p/fortnite",
+      "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Ffortnite%2Fhome%2Ffortnite-br-1200x1600-1200x1600-63bb5bb2f96f.jpg",
+      "Fortnite is the completely free multiplayer game where you and your friends collaborate to create your dream world or compete against each other in Battle Royale.",
+      "Free",
+      "Free",
+      "مجاني دائماً",
+      null
+    ],
+    [
+      "Rocket League",
+      "https://store.epicgames.com/en-US/p/rocket-league",
+      "https://cdn1.epicgames.com/spt/9408a40499f647de8ecebfe41ae03c55/rocket-league-35bma.jpg",
+      "Winner or nominee of more than 150 'Game of the Year' awards, Rocket League is one of the most critically-acclaimed sports games of all time.",
+      "Free",
+      "Free",
+      "مجاني دائماً",
+      null
+    ],
+    [
+      "Fall Guys",
+      "https://store.epicgames.com/en-US/p/fall-guys",
+      "https://cdn1.epicgames.com/spt/b7c1c96f72274bbcb5fbbf93dd8b6dc5/fall-guys-offer-6ow21.jpg",
+      "Fall Guys is a free, cross-platform massively multiplayer party royale game where up to 60 players compete in rounds of escalating chaos until one victor remains!",
+      "Free",
+      "Free",
+      "مجاني دائماً",
+      null
+    ]
+  ],
+  "update_time": "2025-07-12 03:25:54",
   "source": "Epic Games Store"
 }
