@@ -22,15 +22,15 @@ const storeNames = {
         ubisoft: 'يوبيسوفت', 
         playstation: 'بلايستيشن', 
         xbox: 'إكس بوكس', 
-        all: 'ألعاب بخصم 100%', 
+        all: 'الألعاب المجانية والمخصومة', 
         shop: 'رابط الشراء', 
         old: 'السعر الأصلي', 
         new: 'السعر بعد الخصم', 
         update: 'آخر تحديث', 
-        noGames: 'لا توجد ألعاب بخصم 100% حالياً', 
+        noGames: 'لا توجد ألعاب مجانية حالياً', 
         percent: 'خصم',
         newGame: 'جديد',
-        newGamesFound: 'تم العثور على ألعاب بخصم 100% جديدة!',
+        newGamesFound: 'تم العثور على ألعاب مجانية جديدة!',
         notificationsEnabled: 'تم تفعيل التنبيهات',
         notificationsDisabled: 'تم إيقاف التنبيهات',
         viewNewGames: 'عرض الألعاب الجديدة',
@@ -44,15 +44,15 @@ const storeNames = {
         ubisoft: 'Ubisoft', 
         playstation: 'PlayStation', 
         xbox: 'Xbox', 
-        all: '100% OFF Games', 
+        all: 'Free & Discounted Games', 
         shop: 'Shop Link', 
         old: 'Old Price', 
         new: 'New Price', 
         update: 'Last Update', 
-        noGames: 'No 100% discount games found', 
+        noGames: 'No free games found', 
         percent: 'OFF',
         newGame: 'New',
-        newGamesFound: 'New 100% discount games found!',
+        newGamesFound: 'New free games found!',
         notificationsEnabled: 'Notifications enabled',
         notificationsDisabled: 'Notifications disabled',
         viewNewGames: 'View New Games',
@@ -424,7 +424,7 @@ function mergeAllGames() {
     allGames = [];
     Object.keys(gamesData).forEach(key => {
         if (gamesData[key]) {
-            // عرض الألعاب بخصم 100% فقط
+            // عرض الألعاب بخصم 100% فقط من Steam
             if (gamesData[key].discounted_games) {
                 gamesData[key].discounted_games.forEach(g => {
                     // إضافة فقط إذا كان الخصم 100%
@@ -442,8 +442,19 @@ function mergeAllGames() {
                     }
                 });
             }
-            // أضافة free_list أو free_games فقط إذا كانت تحتوي على خصم 100%
-            if (gamesData[key].free_list) {
+            // إضافة جميع الألعاب المجانية من Epic وباقي المتاجر (لأنها مجانية أصلاً)
+            if (gamesData[key].free_list && key !== 'steam') {
+                gamesData[key].free_list.forEach(g => {
+                    allGames.push({...g, _store: key});
+                });
+            }
+            if (gamesData[key].free_games && key !== 'steam') {
+                gamesData[key].free_games.forEach(g => {
+                    allGames.push({...g, _store: key});
+                });
+            }
+            // لـ Steam: إضافة فقط الألعاب التي تحتوي على خصم 100%
+            if (gamesData[key].free_list && key === 'steam') {
                 gamesData[key].free_list.forEach(g => {
                     // إضافة فقط إذا كان الخصم 100%
                     if (g[6] && g[6].includes('100%')) {
@@ -451,7 +462,7 @@ function mergeAllGames() {
                     }
                 });
             }
-            if (gamesData[key].free_games) {
+            if (gamesData[key].free_games && key === 'steam') {
                 gamesData[key].free_games.forEach(g => {
                     // إضافة فقط إذا كان الخصم 100%
                     if (g[6] && g[6].includes('100%')) {
@@ -462,7 +473,7 @@ function mergeAllGames() {
         }
     });
     
-    console.log(`تم دمج ${allGames.length} لعبة بخصم 100% من جميع المتاجر`);
+    console.log(`تم دمج ${allGames.length} لعبة (خصم 100% من Steam + ألعاب مجانية من باقي المتاجر)`);
 }
 
 // --- عرض الألعاب ---
