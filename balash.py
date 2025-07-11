@@ -7,6 +7,7 @@ import json
 import pytz
 import bs4
 from bs4 import Tag
+<<<<<<< HEAD
 import re
 
 # تحديث URL للبحث عن ألعاب مجانية بدلاً من العروض الخاصة فقط
@@ -24,6 +25,13 @@ THREAD_CNT = 8
 
 free_list = queue.Queue()
 discounted_games_list = queue.Queue()  # قائمة منفصلة للألعاب المخصومة
+=======
+
+API_URL_TEMPLATE = "https://store.steampowered.com/search/results/?query&specials=1&maxdiscount=100&start={pos}&count=100&infinite=1"
+THREAD_CNT = 8
+
+free_list = queue.Queue()
+>>>>>>> d75e3dd50d01477b9160d2bec409a1df28571f91
 
 def fetch_Steam_json_response(url):
     ''' Fetch json response from Steam API
@@ -33,6 +41,7 @@ def fetch_Steam_json_response(url):
     '''
     while True:
         try:
+<<<<<<< HEAD
             headers = {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
                 'Accept': 'application/json, text/plain, */*',
@@ -90,10 +99,25 @@ def get_free_goods(start, append_list = False, use_specials_url=False, use_free_
     use_free_temporary: if True, search for temporary free games
     use_high_discount: if True, search for high discount games
     use_all_games: if True, search in all games
+=======
+            with requests.get(url, timeout = 5) as response:
+                ret_json = response.json()
+            return ret_json
+        except Exception as e:
+            print(e)
+            time.sleep(10)
+            continue
+
+def get_free_goods(start, append_list = False):
+    ''' Extract 100%-discount goods list in a list of 100 products
+    start:          start page index
+    append_list:    if to append new found free goods to final list
+>>>>>>> d75e3dd50d01477b9160d2bec409a1df28571f91
 
     return:         goods_count
     '''
 
+<<<<<<< HEAD
     global free_list, discounted_games_list
     retry_time = 3
 
@@ -189,10 +213,29 @@ def get_free_goods(start, append_list = False, use_specials_url=False, use_free_
                 except Exception as e:
                     print(f"خطأ في معالجة لعبة: {e}")
                     continue
+=======
+    global free_list
+    retry_time = 3
+
+    while retry_time >= 0:
+        response_json = fetch_Steam_json_response(API_URL_TEMPLATE.format(pos = start))
+        try:
+            goods_html = response_json["results_html"]
+            page_parser = bs4.BeautifulSoup(goods_html, "html.parser")
+            # كل العناصر التي عليها خصم 100%
+            full_discounts_div = page_parser.find_all(name = "div", attrs = {"class":"search_discount_block", "data-discount":"100"})
+            sub_free_list = [
+                [
+                    div.parent.parent.parent.parent.find(name = "span", attrs = {"class":"title"}).get_text(),
+                    div.parent.parent.parent.parent.get("href"),
+                ] for div in full_discounts_div
+            ]
+>>>>>>> d75e3dd50d01477b9160d2bec409a1df28571f91
 
             if append_list:
                 for sub_free in sub_free_list:
                     free_list.put(sub_free)
+<<<<<<< HEAD
                 for sub_discounted in sub_discounted_list:
                     discounted_games_list.put(sub_discounted)
 
@@ -249,6 +292,44 @@ print("\n🔄 معالجة النتائج وإزالة التكرار...")
 final_discounted_list = []
 discounted_urls = set()
 
+=======
+
+            return len(sub_free_list)
+        except Exception as e:
+            print("get_free_goods: error on start = %d, remain retry %d time(s)" % (start, retry_time))
+            print(e)
+            retry_time -= 1
+    print("get_free_goods: error on start = %d, throw" % (start))
+
+    return 0
+
+print("بدء جلب الصفحة الأولى...")
+tryget_first_page = get_free_goods(0)
+print(f"عدد العناصر في الصفحة الأولى: {tryget_first_page}")
+total_count = tryget_first_page
+
+# جلب HTML الصفحة الأولى وحفظه للمعاينة
+try:
+    import requests
+    resp = requests.get(API_URL_TEMPLATE.format(pos=0), timeout=10)
+    if resp.ok:
+        data = resp.json()
+        with open("debug_steam.html", "w", encoding="utf-8") as f:
+            f.write(data.get("results_html", ""))
+        print("تم حفظ HTML الصفحة الأولى في debug_steam.html")
+except Exception as e:
+    print(f"تعذر حفظ HTML الصفحة الأولى: {e}")
+
+print("بدء جلب باقي الصفحات...")
+threads = ThreadPoolExecutor(max_workers = THREAD_CNT)
+futures = [threads.submit(get_free_goods, index, True) for index in range(0, total_count, 100)]
+wait(futures, return_when=ALL_COMPLETED)
+print("انتهى جلب جميع الصفحات.")
+
+# Process free list
+final_free_list = []
+free_names = set()
+>>>>>>> d75e3dd50d01477b9160d2bec409a1df28571f91
 def extract_appid_from_url(url):
     # رابط اللعبة يكون بهذا الشكل: https://store.steampowered.com/app/582660/Black_Desert/
     try:
@@ -260,6 +341,7 @@ def extract_appid_from_url(url):
     except Exception:
         pass
     return ''
+<<<<<<< HEAD
 
 # معالجة الألعاب المخصومة 100% فقط
 discounted_count = 0
@@ -273,12 +355,21 @@ while not discounted_games_list.empty():
     
     if game_url not in discounted_urls:
         discounted_urls.add(game_url)
+=======
+while not free_list.empty():
+    free_item = free_list.get()
+    game_name = free_item[0]
+    game_url = free_item[1]
+    if game_name not in free_names:
+        free_names.add(game_name)
+>>>>>>> d75e3dd50d01477b9160d2bec409a1df28571f91
         appid = extract_appid_from_url(game_url)
         if appid:
             header_url = f"https://cdn.cloudflare.steamstatic.com/steam/apps/{appid}/header.jpg"
             capsule_url = f"https://cdn.cloudflare.steamstatic.com/steam/apps/{appid}/capsule_616x353.jpg"
         else:
             header_url = capsule_url = "https://via.placeholder.com/300x150/222/fff?text=Steam"
+<<<<<<< HEAD
             
         final_discounted_list.append([game_name, game_url, header_url, capsule_url, old_price, new_price, discount_percent])
         discounted_count += 1
@@ -315,3 +406,41 @@ print("✅ تم حفظ البيانات بنجاح في ملف free_goods_detail
 print(f"\n🎉 تم الانتهاء من جلب الألعاب المخصومة!")
 print(f"💰 الألعاب بخصم 100%: {len(final_discounted_list)}")
 print(f"⏰ وقت التحديث: {datetime.datetime.now(tz=pytz.timezone('Asia/Shanghai')).strftime('%Y-%m-%d %H:%M:%S')}")
+=======
+        # جلب السعر من HTML الصفحة الأولى (أو من free_item إذا أضفتها هناك)
+        # سنعيد تحليل debug_steam.html للبحث عن السعر
+        old_price = new_price = ''
+        try:
+            with open('debug_steam.html', encoding='utf-8') as f:
+                soup = bs4.BeautifulSoup(f.read(), 'html.parser')
+                card = soup.find('a', href=game_url)
+                if isinstance(card, Tag):
+                    price_block = None
+                    for div in card.find_all('div'):
+                        if 'search_price' in div.get('class', []):
+                            price_block = div
+                            break
+                    if price_block:
+                        prices = price_block.get_text(strip=True).split('₩')
+                        if len(prices) == 2:
+                            old_price = prices[0].strip()
+                            new_price = prices[1].strip()
+                        else:
+                            old_price = price_block.get_text(strip=True)
+                            new_price = '0'
+        except Exception:
+            pass
+        final_free_list.append([game_name, game_url, header_url, capsule_url, old_price, new_price])
+
+print(f"عدد العناصر النهائية: {len(final_free_list)}")
+if len(final_free_list) == 0:
+    print("تحذير: لم يتم العثور على أي عناصر مجانية. قد يكون السبب عدم وجود عروض مجانية حالياً أو تغيّر شكل صفحة Steam.")
+
+with open("free_goods_detail.json", "w") as fp:
+    json.dump({
+        "total_count": len(final_free_list),
+        "free_list": final_free_list,
+        "update_time": datetime.datetime.now(tz=pytz.timezone("Asia/Shanghai")).strftime('%Y-%m-%d %H:%M:%S')
+    }, fp)
+print(f"تم تحديث قائمة العناصر المجانية بنجاح! عدد العناصر: {len(final_free_list)}")
+>>>>>>> d75e3dd50d01477b9160d2bec409a1df28571f91

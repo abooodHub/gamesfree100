@@ -199,6 +199,7 @@ html, body {
 .old-price {
   color: #e17055;
   text-decoration: line-through;
+<<<<<<< HEAD
   font-size: 0.9rem;
   opacity: 0.8;
 }
@@ -236,6 +237,9 @@ html, body {
 
 .price-value.current {
   color: var(--accent2);
+=======
+  font-size: 1.05em;
+>>>>>>> d75e3dd50d01477b9160d2bec409a1df28571f91
 }
 
 .new-price {

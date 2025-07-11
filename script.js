@@ -396,7 +396,10 @@ function fetchAllData() {
             .then(data => {
                 gamesData[key] = data;
                 loaded++;
+<<<<<<< HEAD
                 console.log(`تم تحميل ${key}: ${file}`);
+=======
+>>>>>>> d75e3dd50d01477b9160d2bec409a1df28571f91
                 if (loaded === totalFiles) {
                     mergeAllGames();
                     renderGames();
@@ -423,6 +426,7 @@ function fetchAllData() {
 function mergeAllGames() {
     allGames = [];
     Object.keys(gamesData).forEach(key => {
+<<<<<<< HEAD
         if (gamesData[key]) {
             // للتعامل مع البنية الجديدة (free_games و discounted_games)
             if (gamesData[key].free_games) {
@@ -442,6 +446,13 @@ function mergeAllGames() {
     });
     
     console.log(`تم دمج ${allGames.length} لعبة من جميع المتاجر`);
+=======
+        if (gamesData[key] && (gamesData[key].free_list || gamesData[key].discounted_list)) {
+            let arr = gamesData[key].free_list || gamesData[key].discounted_list;
+            arr.forEach(g => allGames.push({...g, _store: key}));
+        }
+    });
+>>>>>>> d75e3dd50d01477b9160d2bec409a1df28571f91
 }
 
 // --- عرض الألعاب ---
@@ -456,8 +467,11 @@ function renderGames() {
         list = allGames.filter(g => g._store === tab);
     }
     
+<<<<<<< HEAD
     console.log(`عرض ${list.length} لعبة للتبويب: ${tab}`);
     
+=======
+>>>>>>> d75e3dd50d01477b9160d2bec409a1df28571f91
     if (!list.length) {
         grid.innerHTML = `<div class="no-games">${storeNames[lang].noGames}</div>`;
         return;
@@ -505,6 +519,7 @@ function gameCard(game, isNew = false) {
     }
     
     let discount = '';
+<<<<<<< HEAD
     // التحقق من الخصم في البنية الجديدة (game[6] للخصم)
     if (game[6] && (game[6].includes('خصم') || game[6].includes('OFF') || game[6].includes('%'))) {
         discount = `<div class="discount-badge">${game[6]}</div>`;
@@ -543,12 +558,21 @@ function gameCard(game, isNew = false) {
         `;
     } else if (isValidPrice(game[5]) && isValidPrice(game[6]) && game[5] !== game[6]) {
         // للبنية القديمة
+=======
+    if (game[4] && (game[4].includes('خصم') || game[4].includes('OFF'))) {
+        discount = `<div class="discount-badge">${game[4]}</div>`;
+    }
+    
+    let priceRow = '';
+    if (game[5] && game[6]) {
+>>>>>>> d75e3dd50d01477b9160d2bec409a1df28571f91
         priceRow = `
             <div class="price-row">
                 <span class="old-price">${game[5]}</span>
                 <span class="new-price">${game[6]}</span>
             </div>
         `;
+<<<<<<< HEAD
         priceInfo = `
             <div class="price-info">
                 <span class="price-label" data-ar="السعر الأصلي" data-en="Original Price">السعر الأصلي:</span>
@@ -566,6 +590,8 @@ function gameCard(game, isNew = false) {
                 <span class="price-value current">${currentPrice}</span>
             </div>
         `;
+=======
+>>>>>>> d75e3dd50d01477b9160d2bec409a1df28571f91
     }
     
     let desc = '';
@@ -579,7 +605,11 @@ function gameCard(game, isNew = false) {
             ${discount}
             ${img}
             <div class="game-title">${escapeHtml(game[0])}</div>
+<<<<<<< HEAD
             ${priceInfo}
+=======
+            <div class="game-desc">${desc}</div>
+>>>>>>> d75e3dd50d01477b9160d2bec409a1df28571f91
             ${priceRow}
             <a href="${game[1]}" class="btn-shop" target="_blank" rel="noopener noreferrer">
                 ${storeNames[lang].shop}
