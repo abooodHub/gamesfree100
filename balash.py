@@ -283,20 +283,20 @@ print("\n🔄 معالجة النتائج وإزالة التكرار...")
 
 final_free_list = []
 final_discounted_list = []
-free_urls = set()
-discounted_urls = set()
+free_appids = set()  # استخدام app IDs بدلاً من URLs
+discounted_appids = set()
 
 def extract_appid_from_url(url):
-    # رابط اللعبة يكون بهذا الشكل: https://store.steampowered.com/app/582660/Black_Desert/
+    """استخراج app ID من رابط Steam"""
     try:
-        parts = url.split('/')
-        idx = parts.index('app')
-        appid = parts[idx+1]
-        if appid.isdigit():
-            return appid
+        import re
+        # البحث عن app ID في الرابط
+        match = re.search(r'/app/(\d+)/', url)
+        if match:
+            return match.group(1)
     except Exception:
         pass
-    return ''
+    return None
 
 # معالجة الألعاب المجانية الأصلية
 free_count = 0
@@ -307,15 +307,19 @@ while not free_list.empty():
     old_price = free_item[2] if len(free_item) > 2 else ""
     new_price = free_item[3] if len(free_item) > 3 else "مجاني"
     
-    if game_url not in free_urls:
-        free_urls.add(game_url)
-        appid = extract_appid_from_url(game_url)
-        if appid:
-            header_url = f"https://cdn.cloudflare.steamstatic.com/steam/apps/{appid}/header.jpg"
-            capsule_url = f"https://cdn.cloudflare.steamstatic.com/steam/apps/{appid}/capsule_616x353.jpg"
-        else:
-            header_url = capsule_url = "https://via.placeholder.com/300x150/222/fff?text=Steam"
+    appid = extract_appid_from_url(game_url)
+    
+    # التحقق من التكرار بناءً على app ID
+    if appid and appid not in free_appids:
+        free_appids.add(appid)
+        header_url = f"https://cdn.cloudflare.steamstatic.com/steam/apps/{appid}/header.jpg"
+        capsule_url = f"https://cdn.cloudflare.steamstatic.com/steam/apps/{appid}/capsule_616x353.jpg"
             
+        final_free_list.append([game_name, game_url, header_url, capsule_url, old_price, new_price])
+        free_count += 1
+    elif not appid and game_url not in [item[1] for item in final_free_list]:
+        # للألعاب التي لا تحتوي على app ID صالح
+        header_url = capsule_url = "https://via.placeholder.com/300x150/222/fff?text=Steam"
         final_free_list.append([game_name, game_url, header_url, capsule_url, old_price, new_price])
         free_count += 1
 
@@ -331,19 +335,34 @@ while not discounted_games_list.empty():
     new_price = discounted_item[3] if len(discounted_item) > 3 else "$0.00"
     discount_percent = discounted_item[4] if len(discounted_item) > 4 else "100%"
     
-    if game_url not in discounted_urls:
-        discounted_urls.add(game_url)
-        appid = extract_appid_from_url(game_url)
-        if appid:
-            header_url = f"https://cdn.cloudflare.steamstatic.com/steam/apps/{appid}/header.jpg"
-            capsule_url = f"https://cdn.cloudflare.steamstatic.com/steam/apps/{appid}/capsule_616x353.jpg"
-        else:
-            header_url = capsule_url = "https://via.placeholder.com/300x150/222/fff?text=Steam"
+    appid = extract_appid_from_url(game_url)
+    
+    # التحقق من التكرار بناءً على app ID
+    if appid and appid not in discounted_appids:
+        discounted_appids.add(appid)
+        header_url = f"https://cdn.cloudflare.steamstatic.com/steam/apps/{appid}/header.jpg"
+        capsule_url = f"https://cdn.cloudflare.steamstatic.com/steam/apps/{appid}/capsule_616x353.jpg"
             
+        final_discounted_list.append([game_name, game_url, header_url, capsule_url, old_price, new_price, discount_percent])
+        discounted_count += 1
+    elif not appid and game_url not in [item[1] for item in final_discounted_list]:
+        # للألعاب التي لا تحتوي على app ID صالح
+        header_url = capsule_url = "https://via.placeholder.com/300x150/222/fff?text=Steam"
         final_discounted_list.append([game_name, game_url, header_url, capsule_url, old_price, new_price, discount_percent])
         discounted_count += 1
 
 print(f"✅ تم معالجة {discounted_count} لعبة مخصومة فريدة")
+
+# إزالة التكرار بين القوائم (إذا كانت لعبة موجودة في كلا القائمتين)
+print("🔄 إزالة التكرار بين الألعاب المجانية والمخصومة...")
+final_free_filtered = []
+for free_game in final_free_list:
+    free_appid = extract_appid_from_url(free_game[1])
+    if free_appid not in discounted_appids:
+        final_free_filtered.append(free_game)
+
+final_free_list = final_free_filtered
+print(f"✅ تم تنظيف {len(final_free_list)} لعبة مجانية نهائية")
 
 print(f"\n📊 النتائج النهائية:")
 print(f"🎮 الألعاب المجانية الأصلية: {len(final_free_list)}")
