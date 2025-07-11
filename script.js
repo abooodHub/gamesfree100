@@ -442,15 +442,21 @@ function mergeAllGames() {
                     }
                 });
             }
-            // إضافة جميع الألعاب المجانية من Epic وباقي المتاجر (لأنها مجانية أصلاً)
+            // إضافة الألعاب بخصم 100% فقط من Epic وباقي المتاجر
             if (gamesData[key].free_list && key !== 'steam') {
                 gamesData[key].free_list.forEach(g => {
-                    allGames.push({...g, _store: key});
+                    // إضافة فقط إذا كان الخصم 100% وليس مجاني دائماً
+                    if (g[6] && g[6].includes('100%') && !g[6].includes('مجاني دائماً')) {
+                        allGames.push({...g, _store: key});
+                    }
                 });
             }
             if (gamesData[key].free_games && key !== 'steam') {
                 gamesData[key].free_games.forEach(g => {
-                    allGames.push({...g, _store: key});
+                    // إضافة فقط إذا كان الخصم 100% وليس مجاني دائماً
+                    if (g[6] && g[6].includes('100%') && !g[6].includes('مجاني دائماً')) {
+                        allGames.push({...g, _store: key});
+                    }
                 });
             }
             // لـ Steam: إضافة فقط الألعاب التي تحتوي على خصم 100%
@@ -473,7 +479,7 @@ function mergeAllGames() {
         }
     });
     
-    console.log(`تم دمج ${allGames.length} لعبة (خصم 100% من Steam + ألعاب مجانية من باقي المتاجر)`);
+    console.log(`تم دمج ${allGames.length} لعبة (خصم 100% من جميع المتاجر فقط)`);
 }
 
 // --- عرض الألعاب ---
