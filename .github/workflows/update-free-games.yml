@@ -1,0 +1,112 @@
+name: Update Free Games from All Stores
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # كل 6 ساعات
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-free-games:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip list
+
+      - name: Debug - List files
+        run: |
+          echo "Current directory: $(pwd)"
+          echo "Python files available:"
+          ls -la *.py
+          echo "JSON files available:"
+          ls -la *.json
+
+      - name: Update timestamp in JSON files
+        run: |
+          echo "Starting timestamp update..."
+          python update_timestamp.py
+          echo "Timestamp update completed!"
+
+      - name: Run Steam balash.py
+        run: |
+          echo "Running Steam script..."
+          python balash.py
+          echo "Steam script completed!"
+        continue-on-error: true
+
+      - name: Run Epic Games balash.py
+        run: |
+          echo "Running Epic script..."
+          python epic_balash.py
+          echo "Epic script completed!"
+        continue-on-error: true
+
+      - name: Run GOG balash.py
+        run: |
+          echo "Running GOG script..."
+          python gog_balash.py
+          echo "GOG script completed!"
+        continue-on-error: true
+
+      - name: Run Ubisoft balash.py
+        run: |
+          echo "Running Ubisoft script..."
+          python ubisoft_balash.py
+          echo "Ubisoft script completed!"
+        continue-on-error: true
+
+      - name: Run PlayStation balash.py
+        run: |
+          echo "Running PlayStation script..."
+          python playstation_balash.py
+          echo "PlayStation script completed!"
+        continue-on-error: true
+
+      - name: Run Xbox balash.py
+        run: |
+          echo "Running Xbox script..."
+          python xbox_balash.py
+          echo "Xbox script completed!"
+        continue-on-error: true
+
+      - name: Debug - Show final files
+        run: |
+          echo "Final JSON files:"
+          ls -la *.json
+          echo "File sizes:"
+          wc -l *.json
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected:"
+            git status --porcelain
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add *.json
+          git commit -m 'Update free games from all stores [bot]'
+          git push
