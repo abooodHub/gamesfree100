@@ -22,15 +22,15 @@ const storeNames = {
         ubisoft: 'يوبيسوفت', 
         playstation: 'بلايستيشن', 
         xbox: 'إكس بوكس', 
-        all: 'كل الألعاب', 
+        all: 'كل الألعاب المخصومة', 
         shop: 'رابط الشراء', 
         old: 'السعر الأصلي', 
         new: 'السعر بعد الخصم', 
         update: 'آخر تحديث', 
-        noGames: 'لا توجد ألعاب حالياً', 
+        noGames: 'لا توجد ألعاب مخصومة حالياً', 
         percent: 'خصم',
         newGame: 'جديد',
-        newGamesFound: 'تم العثور على ألعاب جديدة!',
+        newGamesFound: 'تم العثور على ألعاب مخصومة جديدة!',
         notificationsEnabled: 'تم تفعيل التنبيهات',
         notificationsDisabled: 'تم إيقاف التنبيهات',
         viewNewGames: 'عرض الألعاب الجديدة',
@@ -44,15 +44,15 @@ const storeNames = {
         ubisoft: 'Ubisoft', 
         playstation: 'PlayStation', 
         xbox: 'Xbox', 
-        all: 'All Games', 
+        all: 'All Discounted Games', 
         shop: 'Shop Link', 
         old: 'Old Price', 
         new: 'New Price', 
         update: 'Last Update', 
-        noGames: 'No games found', 
+        noGames: 'No discounted games found', 
         percent: 'OFF',
         newGame: 'New',
-        newGamesFound: 'New games found!',
+        newGamesFound: 'New discounted games found!',
         notificationsEnabled: 'Notifications enabled',
         notificationsDisabled: 'Notifications disabled',
         viewNewGames: 'View New Games',
@@ -424,24 +424,35 @@ function mergeAllGames() {
     allGames = [];
     Object.keys(gamesData).forEach(key => {
         if (gamesData[key]) {
-            // للتعامل مع البنية الجديدة (free_games و discounted_games)
-            if (gamesData[key].free_games) {
-                gamesData[key].free_games.forEach(g => allGames.push({...g, _store: key}));
-            }
+            // عرض الألعاب المخصومة فقط (وليس المجانية الأصلية)
             if (gamesData[key].discounted_games) {
                 gamesData[key].discounted_games.forEach(g => allGames.push({...g, _store: key}));
             }
-            // للتعامل مع البنية القديمة (free_list و discounted_list)
-            if (gamesData[key].free_list) {
-                gamesData[key].free_list.forEach(g => allGames.push({...g, _store: key}));
-            }
+            // للتعامل مع البنية القديمة (discounted_list فقط)
             if (gamesData[key].discounted_list) {
                 gamesData[key].discounted_list.forEach(g => allGames.push({...g, _store: key}));
+            }
+            // أضافة free_list أو free_games فقط إذا كانت تحتوي على ألعاب مخصومة فعلياً
+            if (gamesData[key].free_list) {
+                gamesData[key].free_list.forEach(g => {
+                    // إضافة فقط إذا كانت تحتوي على معلومات خصم
+                    if (g[6] && (g[6].includes('%') || g[6].includes('خصم') || g[6].includes('OFF'))) {
+                        allGames.push({...g, _store: key});
+                    }
+                });
+            }
+            if (gamesData[key].free_games) {
+                gamesData[key].free_games.forEach(g => {
+                    // إضافة فقط إذا كانت تحتوي على معلومات خصم
+                    if (g[6] && (g[6].includes('%') || g[6].includes('خصم') || g[6].includes('OFF'))) {
+                        allGames.push({...g, _store: key});
+                    }
+                });
             }
         }
     });
     
-    console.log(`تم دمج ${allGames.length} لعبة من جميع المتاجر`);
+    console.log(`تم دمج ${allGames.length} لعبة مخصومة من جميع المتاجر`);
 }
 
 // --- عرض الألعاب ---
