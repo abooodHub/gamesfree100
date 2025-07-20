@@ -451,10 +451,18 @@ function mergeAllGames() {
                     }
                 });
             }
+            // إضافة الألعاب من free_games فقط إذا لم تكن موجودة في free_list
             if (gamesData[key].free_games && key !== 'steam') {
+                const existingGames = new Set();
+                if (gamesData[key].free_list) {
+                    gamesData[key].free_list.forEach(g => {
+                        existingGames.add(`${g[0]}-${g[1]}`); // اسم اللعبة + الرابط
+                    });
+                }
                 gamesData[key].free_games.forEach(g => {
-                    // إضافة فقط إذا كان الخصم 100% وليس مجاني دائماً
-                    if (g[6] && g[6].includes('100%') && !g[6].includes('مجاني دائماً')) {
+                    const gameKey = `${g[0]}-${g[1]}`;
+                    // إضافة فقط إذا كان الخصم 100% وليس مجاني دائماً ولم تكن موجودة مسبقاً
+                    if (g[6] && g[6].includes('100%') && !g[6].includes('مجاني دائماً') && !existingGames.has(gameKey)) {
                         allGames.push({...g, _store: key});
                     }
                 });
@@ -468,10 +476,18 @@ function mergeAllGames() {
                     }
                 });
             }
+            // إضافة الألعاب من free_games فقط إذا لم تكن موجودة في free_list
             if (gamesData[key].free_games && key === 'steam') {
+                const existingGames = new Set();
+                if (gamesData[key].free_list) {
+                    gamesData[key].free_list.forEach(g => {
+                        existingGames.add(`${g[0]}-${g[1]}`); // اسم اللعبة + الرابط
+                    });
+                }
                 gamesData[key].free_games.forEach(g => {
-                    // إضافة فقط إذا كان الخصم 100%
-                    if (g[6] && g[6].includes('100%')) {
+                    const gameKey = `${g[0]}-${g[1]}`;
+                    // إضافة فقط إذا كان الخصم 100% ولم تكن موجودة مسبقاً
+                    if (g[6] && g[6].includes('100%') && !existingGames.has(gameKey)) {
                         allGames.push({...g, _store: key});
                     }
                 });

@@ -292,7 +292,6 @@ def save_epic_games_data(games_list):
             "total_count": len(games_list),
             "free_games": free_games,
             "discounted_games": discounted_games,
-            "free_list": games_list,  # للتوافق مع النسخة القديمة
             "update_time": datetime.datetime.now(tz=pytz.timezone("Asia/Shanghai")).strftime('%Y-%m-%d %H:%M:%S'),
             "source": "Epic Games Store"
         }
