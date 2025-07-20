@@ -1,5 +1,5 @@
 {
-  "total_count": 5,
+  "total_count": 2,
   "free_games": [
     [
       "Sid Meier’s Civilization® VI Platinum Edition",
@@ -20,39 +20,9 @@
       "19.99 USD",
       "خصم 100% - مجاني",
       "2025-07-31 15:00:00"
-    ],
-    [
-      "Fortnite",
-      "https://store.epicgames.com/en-US/p/fortnite",
-      "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Ffortnite%2Fhome%2Ffortnite-br-1200x1600-1200x1600-63bb5bb2f96f.jpg",
-      "Fortnite is the completely free multiplayer game where you and your friends collaborate to create your dream world or compete against each other in Battle Royale.",
-      "Free",
-      "Free",
-      "مجاني دائماً",
-      null
-    ],
-    [
-      "Rocket League",
-      "https://store.epicgames.com/en-US/p/rocket-league",
-      "https://cdn1.epicgames.com/spt/9408a40499f647de8ecebfe41ae03c55/rocket-league-35bma.jpg",
-      "Winner or nominee of more than 150 'Game of the Year' awards, Rocket League is one of the most critically-acclaimed sports games of all time.",
-      "Free",
-      "Free",
-      "مجاني دائماً",
-      null
-    ],
-    [
-      "Fall Guys",
-      "https://store.epicgames.com/en-US/p/fall-guys",
-      "https://cdn1.epicgames.com/spt/b7c1c96f72274bbcb5fbbf93dd8b6dc5/fall-guys-offer-6ow21.jpg",
-      "Fall Guys is a free, cross-platform massively multiplayer party royale game where up to 60 players compete in rounds of escalating chaos until one victor remains!",
-      "Free",
-      "Free",
-      "مجاني دائماً",
-      null
     ]
   ],
   "discounted_games": [],
-  "update_time": "2025-07-20 20:39:46",
+  "update_time": "2025-07-20 20:51:40",
   "source": "Epic Games Store"
 }

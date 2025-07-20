@@ -201,22 +201,8 @@ def get_epic_free_games():
             print(f"خطأ غير متوقع: {e}")
             continue
     
-    # محاولة جلب ألعاب إضافية من مصادر أخرى
-    try:
-        additional_games = get_epic_additional_games()
-        for game in additional_games:
-            # التحقق من عدم وجود اللعبة مسبقاً
-            game_exists = False
-            for existing_game in free_games:
-                if existing_game[0] == game[0]:
-                    game_exists = True
-                    break
-            
-            if not game_exists:
-                free_games.append(game)
-                print(f"تم إضافة لعبة إضافية: {game[0]}")
-    except Exception as e:
-        print(f"خطأ في جلب الألعاب الإضافية: {e}")
+    # لا نضيف الألعاب المجانية دائماً - فقط الألعاب التي عليها خصم 100%
+    print("تم تجاهل الألعاب المجانية دائماً - نريد فقط الألعاب التي عليها خصم 100%")
     
     print(f"إجمالي الألعاب المجانية من Epic: {len(free_games)}")
     return free_games
@@ -277,19 +263,15 @@ def save_epic_games_data(games_list):
         for game in games_list:
             discount_text = game[6] if len(game) > 6 else ""
             
-            # إذا كانت مجانية 100% أو مجانية دائماً
-            if (discount_text and ("100%" in discount_text or "مجاني دائماً" in discount_text)) or \
-               (game[5] == "Free" or game[5] == "مجاني"):
+            # فقط الألعاب التي عليها خصم 100% (وليس مجاني دائماً)
+            if discount_text and "100%" in discount_text and "مجاني دائماً" not in discount_text:
                 free_games.append(game)
-            # إذا كانت لديها خصم عالي
+            # إذا كانت لديها خصم عالي (90% أو أكثر)
             elif discount_text and any(x in discount_text for x in ["90%", "95%", "99%"]):
                 discounted_games.append(game)
-            else:
-                # افتراضياً نضعها في المجانية
-                free_games.append(game)
         
         data = {
-            "total_count": len(games_list),
+            "total_count": len(free_games),
             "free_games": free_games,
             "discounted_games": discounted_games,
             "update_time": datetime.datetime.now(tz=pytz.timezone("Asia/Shanghai")).strftime('%Y-%m-%d %H:%M:%S'),
