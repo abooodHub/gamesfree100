@@ -424,11 +424,11 @@ function mergeAllGames() {
     allGames = [];
     Object.keys(gamesData).forEach(key => {
         if (gamesData[key]) {
-            // عرض الألعاب بخصم عالي من Steam
+            // عرض الألعاب بخصم 100% فقط من Steam
             if (gamesData[key].discounted_games) {
                 gamesData[key].discounted_games.forEach(g => {
-                    // إضافة الألعاب بخصم 90% أو أكثر
-                    if (g[6] && (g[6].includes('100%') || g[6].includes('90%') || g[6].includes('95%') || g[6].includes('99%'))) {
+                    // إضافة فقط إذا كان الخصم 100%
+                    if (g[6] && g[6].includes('100%')) {
                         allGames.push({...g, _store: key});
                     }
                 });
@@ -436,58 +436,42 @@ function mergeAllGames() {
             // للتعامل مع البنية القديمة (discounted_list فقط)
             if (gamesData[key].discounted_list) {
                 gamesData[key].discounted_list.forEach(g => {
-                    // إضافة الألعاب بخصم 90% أو أكثر
-                    if (g[6] && (g[6].includes('100%') || g[6].includes('90%') || g[6].includes('95%') || g[6].includes('99%'))) {
+                    // إضافة فقط إذا كان الخصم 100%
+                    if (g[6] && g[6].includes('100%')) {
                         allGames.push({...g, _store: key});
                     }
                 });
             }
-            // إضافة جميع الألعاب المجانية من Epic وباقي المتاجر
+            // إضافة الألعاب بخصم 100% فقط من Epic وباقي المتاجر
             if (gamesData[key].free_list && key !== 'steam') {
                 gamesData[key].free_list.forEach(g => {
-                    // إضافة جميع الألعاب المجانية (خصم 100% أو مجاني دائماً)
-                    if (g[6] && (g[6].includes('100%') || g[6].includes('مجاني دائماً'))) {
+                    // إضافة فقط إذا كان الخصم 100% وليس مجاني دائماً
+                    if (g[6] && g[6].includes('100%') && !g[6].includes('مجاني دائماً')) {
                         allGames.push({...g, _store: key});
                     }
                 });
             }
-            // إضافة الألعاب من free_games فقط إذا لم تكن موجودة في free_list
             if (gamesData[key].free_games && key !== 'steam') {
-                const existingGames = new Set();
-                if (gamesData[key].free_list) {
-                    gamesData[key].free_list.forEach(g => {
-                        existingGames.add(`${g[0]}-${g[1]}`); // اسم اللعبة + الرابط
-                    });
-                }
                 gamesData[key].free_games.forEach(g => {
-                    const gameKey = `${g[0]}-${g[1]}`;
-                    // إضافة جميع الألعاب المجانية ولم تكن موجودة مسبقاً
-                    if (g[6] && (g[6].includes('100%') || g[6].includes('مجاني دائماً')) && !existingGames.has(gameKey)) {
+                    // إضافة فقط إذا كان الخصم 100% وليس مجاني دائماً
+                    if (g[6] && g[6].includes('100%') && !g[6].includes('مجاني دائماً')) {
                         allGames.push({...g, _store: key});
                     }
                 });
             }
-            // لـ Steam: إضافة جميع الألعاب المجانية
+            // لـ Steam: إضافة فقط الألعاب التي تحتوي على خصم 100%
             if (gamesData[key].free_list && key === 'steam') {
                 gamesData[key].free_list.forEach(g => {
-                    // إضافة جميع الألعاب المجانية (خصم 100% أو مجاني)
-                    if (g[6] && (g[6].includes('100%') || g[6].includes('مجاني'))) {
+                    // إضافة فقط إذا كان الخصم 100%
+                    if (g[6] && g[6].includes('100%')) {
                         allGames.push({...g, _store: key});
                     }
                 });
             }
-            // إضافة الألعاب من free_games فقط إذا لم تكن موجودة في free_list
             if (gamesData[key].free_games && key === 'steam') {
-                const existingGames = new Set();
-                if (gamesData[key].free_list) {
-                    gamesData[key].free_list.forEach(g => {
-                        existingGames.add(`${g[0]}-${g[1]}`); // اسم اللعبة + الرابط
-                    });
-                }
                 gamesData[key].free_games.forEach(g => {
-                    const gameKey = `${g[0]}-${g[1]}`;
-                    // إضافة جميع الألعاب المجانية ولم تكن موجودة مسبقاً
-                    if (g[6] && (g[6].includes('100%') || g[6].includes('مجاني')) && !existingGames.has(gameKey)) {
+                    // إضافة فقط إذا كان الخصم 100%
+                    if (g[6] && g[6].includes('100%')) {
                         allGames.push({...g, _store: key});
                     }
                 });
