@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>🎮 تواصل معنا | Contact Us - Games100</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="🎮 تواصل معنا | Contact Us - Games100">
+    <meta name="description" content="تواصل مع فريق Games100 للأسئلة والاقتراحات والدعم الفني. Contact Games100 team for questions, suggestions and technical support.">
+    <meta name="keywords" content="تواصل, contact, دعم, support, أسئلة, questions">
+    <meta name="author" content="Games100">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://gamesfree100.online/contact.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/steam.svg">
+    <link rel="apple-touch-icon" href="icons/steam.svg">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="page-styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">🎮 Games100 🌐</div>
+            <div class="header-nav">
+                <button class="lang-btn" id="langBtn">EN</button>
+                <a href="index.html" class="home-btn" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+            </div>
+        </header>
+        
+        <main class="page-content" role="main">
+            <div class="page-header">
+                <h1 class="page-title" data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</h1>
+                <p class="page-subtitle" data-ar="نحن هنا للإجابة على أسئلتك ومساعدتك" data-en="We're here to answer your questions and help you">نحن هنا للإجابة على أسئلتك ومساعدتك</p>
+            </div>
+
+            <div class="content-grid">
+                <section class="content-section">
+                    <div class="section-icon">📧</div>
+                    <h2 data-ar="البريد الإلكتروني" data-en="Email">البريد الإلكتروني</h2>
+                    <p data-ar="للاستفسارات العامة والدعم الفني" data-en="For general inquiries and technical support">للاستفسارات العامة والدعم الفني</p>
+                    <a href="mailto:info@gamesfree100.online" style="color: var(--accent2); font-weight: bold;">info@gamesfree100.online</a>
+                </section>
+
+                <section class="content-section">
+                    <div class="section-icon">⏰</div>
+                    <h2 data-ar="أوقات الرد" data-en="Response Times">أوقات الرد</h2>
+                    <p data-ar="نسعى للرد على جميع الرسائل خلال 24-48 ساعة" data-en="We strive to respond to all messages within 24-48 hours">نسعى للرد على جميع الرسائل خلال 24-48 ساعة</p>
+                </section>
+
+                <section class="content-section">
+                    <div class="section-icon">🔧</div>
+                    <h2 data-ar="الدعم الفني" data-en="Technical Support">الدعم الفني</h2>
+                    <p data-ar="مشاكل تقنية، أخطاء في الموقع، اقتراحات تحسين" data-en="Technical issues, website bugs, improvement suggestions">مشاكل تقنية، أخطاء في الموقع، اقتراحات تحسين</p>
+                </section>
+
+                <section class="content-section full-width">
+                    <div class="section-icon">📝</div>
+                    <h2 data-ar="نموذج التواصل" data-en="Contact Form">نموذج التواصل</h2>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label" data-ar="الاسم *" data-en="Name *">الاسم *</label>
+                            <input type="text" id="name" name="name" class="form-input" required 
+                                   data-ar-placeholder="أدخل اسمك الكامل" data-en-placeholder="Enter your full name"
+                                   placeholder="أدخل اسمك الكامل">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label" data-ar="البريد الإلكتروني *" data-en="Email *">البريد الإلكتروني *</label>
+                            <input type="email" id="email" name="email" class="form-input" required 
+                                   data-ar-placeholder="example@email.com" data-en-placeholder="example@email.com"
+                                   placeholder="example@email.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject" class="form-label" data-ar="الموضوع" data-en="Subject">الموضوع</label>
+                            <select id="subject" name="subject" class="form-input">
+                                <option value="" data-ar="اختر الموضوع" data-en="Select Subject">اختر الموضوع</option>
+                                <option value="general" data-ar="استفسار عام" data-en="General Inquiry">استفسار عام</option>
+                                <option value="technical" data-ar="دعم فني" data-en="Technical Support">دعم فني</option>
+                                <option value="suggestion" data-ar="اقتراح" data-en="Suggestion">اقتراح</option>
+                                <option value="bug" data-ar="بلاغ خطأ" data-en="Bug Report">بلاغ خطأ</option>
+                                <option value="other" data-ar="أخرى" data-en="Other">أخرى</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label" data-ar="الرسالة *" data-en="Message *">الرسالة *</label>
+                            <textarea id="message" name="message" class="form-textarea" required 
+                                      data-ar-placeholder="اكتب رسالتك هنا..." data-en-placeholder="Write your message here..."
+                                      placeholder="اكتب رسالتك هنا..."></textarea>
+                        </div>
+
+                        <button type="submit" class="form-submit" data-ar="إرسال الرسالة" data-en="Send Message">إرسال الرسالة</button>
+                    </form>
+                </section>
+
+                <section class="content-section full-width">
+                    <h2 data-ar="الأسئلة الشائعة" data-en="Frequently Asked Questions">الأسئلة الشائعة</h2>
+                    <div class="faq-grid">
+                        <div class="faq-item">
+                            <h3 data-ar="هل الموقع مجاني بالكامل؟" data-en="Is the website completely free?">هل الموقع مجاني بالكامل؟</h3>
+                            <p data-ar="نعم، جميع المعلومات والروابط متاحة مجاناً دون أي رسوم." data-en="Yes, all information and links are available for free without any fees.">نعم، جميع المعلومات والروابط متاحة مجاناً دون أي رسوم.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h3 data-ar="كم مرة يتم تحديث الألعاب؟" data-en="How often are games updated?">كم مرة يتم تحديث الألعاب؟</h3>
+                            <p data-ar="نحدث قوائم الألعاب يومياً للتأكد من دقة المعلومات." data-en="We update game lists daily to ensure information accuracy.">نحدث قوائم الألعاب يومياً للتأكد من دقة المعلومات.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h3 data-ar="هل تبيعون الألعاب؟" data-en="Do you sell games?">هل تبيعون الألعاب؟</h3>
+                            <p data-ar="لا، نحن نوفر معلومات وروابط للمتاجر الرسمية فقط." data-en="No, we only provide information and links to official stores.">لا، نحن نوفر معلومات وروابط للمتاجر الرسمية فقط.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h3 data-ar="كيف أبلغ عن رابط معطل؟" data-en="How do I report a broken link?">كيف أبلغ عن رابط معطل؟</h3>
+                            <p data-ar="استخدم نموذج التواصل أعلاه واختر 'بلاغ خطأ' من الموضوع." data-en="Use the contact form above and select 'Bug Report' from the subject.">استخدم نموذج التواصل أعلاه واختر 'بلاغ خطأ' من الموضوع.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer" role="contentinfo">
+            <div class="footer-container">
+                <div class="footer-grid">
+                    <div class="footer-section">
+                        <h3 class="footer-title" data-ar="معلومات الموقع" data-en="Site Information">معلومات الموقع</h3>
+                        <ul class="footer-links">
+                            <li><a href="about.html" data-ar="عن الموقع" data-en="About Us">عن الموقع</a></li>
+                            <li><a href="privacy.html" data-ar="سياسة الخصوصية" data-en="Privacy Policy">سياسة الخصوصية</a></li>
+                            <li><a href="terms.html" data-ar="شروط الاستخدام" data-en="Terms of Use">شروط الاستخدام</a></li>
+                            <li><a href="contact.html" data-ar="تمويل بنا" data-en="Contact Us">تمويل بنا</a></li>
+                            <li><a href="sitemap.html" data-ar="خريطة الموقع" data-en="Sitemap">خريطة الموقع</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3 class="footer-title" data-ar="المتاجر المدعومة" data-en="Supported Stores">المتاجر المدعومة</h3>
+                        <ul class="footer-links">
+                            <li><a href="index.html#steam"><img src="icons/steam.svg" class="footer-icon" alt="Steam"> Steam</a></li>
+                            <li><a href="index.html#epic"><img src="icons/Epic.svg" class="footer-icon" alt="Epic"> Epic Games</a></li>
+                            <li><a href="index.html#gog"><img src="icons/gog.svg" class="footer-icon" alt="GOG"> GOG</a></li>
+                            <li><a href="index.html#ubisoft"><img src="icons/ubisoft.svg" class="footer-icon" alt="Ubisoft"> Ubisoft</a></li>
+                            <li><a href="index.html#playstation"><img src="icons/playstation.svg" class="footer-icon" alt="PlayStation"> PlayStation</a></li>
+                            <li><a href="index.html#xbox"><img src="icons/xbox.svg" class="footer-icon" alt="Xbox"> Xbox</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3 class="footer-title" data-ar="إحصائيات الموقع" data-en="Site Statistics">إحصائيات الموقع</h3>
+                        <div class="footer-stats">
+                            <div class="stat-item">
+                                <span class="stat-value">100%</span>
+                                <span class="stat-label" data-ar="مجاني" data-en="Free">مجاني</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">6+</span>
+                                <span class="stat-label" data-ar="متاجر" data-en="Stores">متاجر</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">24/7</span>
+                                <span class="stat-label" data-ar="تحديث" data-en="Updates">تحديث</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="footer-logo">
+                        <span class="logo-text">🎮 Games100 🌐</span>
+                        <span class="logo-subtitle" data-ar="الألعاب مجانية 100%" data-en="100% Free Games">الألعاب مجانية 100%</span>
+                    </div>
+                    <div class="footer-copyright">
+                        <p data-ar="جميع الحقوق محفوظة © 2024 | Games100" data-en="All rights reserved © 2024 | Games100">جميع الحقوق محفوظة © 2024 | Games100</p>
+                        <p data-ar="موقع متخصص في عرض الألعاب المجانية من جميع المتاجر العالمية" data-en="Specialized website for displaying free games from all major gaming stores">موقع متخصص في عرض الألعاب المجانية من جميع المتاجر العالمية</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="page-script.js"></script>
+</body>
+</html> 
