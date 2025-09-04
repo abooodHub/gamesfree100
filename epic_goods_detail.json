@@ -1,28 +1,18 @@
 {
-  "total_count": 2,
+  "total_count": 1,
   "free_games": [
     [
-      "Machinarium",
-      "https://store.epicgames.com/en-US/p/machinarium-5e6c71",
-      "https://cdn1.epicgames.com/spt-assets/907d9edf585e4c23b971164cd1c452e2/machinarium-1n5ke.jpg",
-      "Machinarium is the award-winning independent adventure game developed by the makers of Samorost series, Botanicula and CHUCHEL. Help Josef the robot save his girlfriend Berta kidnapped by the Black Cap Brotherhood gang!",
-      "19.99 USD",
+      "Monument Valley",
+      "https://store.epicgames.com/en-US/p/monument-valley-1d99d3",
+      "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
+      "Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
+      "7.99 USD",
       "Free",
       "خصم 100% - مجاني",
-      "2025-09-04 15:00:00"
-    ],
-    [
-      "Make Way",
-      "https://store.epicgames.com/en-US/p/make-way-bddf5f",
-      "https://cdn1.epicgames.com/spt-assets/17b5c19c1e0e48e99cde4bc54dde505a/make-way-gf3ww.png",
-      "Speed around loops, dart through train crossings, drift around helter skelters, and unleash wacky weaponry in this modern take on classic top-down multiplayer racing games. The twist? You build the track.",
-      "14.99 USD",
-      "Free",
-      "خصم 100% - مجاني",
-      "2025-09-04 15:00:00"
+      "2025-09-11 15:00:00"
     ]
   ],
   "discounted_games": [],
-  "update_time": "2025-09-04 17:19:38",
+  "update_time": "2025-09-04 23:19:32",
   "source": "Epic Games Store"
 }
