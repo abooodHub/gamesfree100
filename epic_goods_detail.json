@@ -1,18 +1,38 @@
 {
-  "total_count": 1,
+  "total_count": 3,
   "free_games": [
     [
-      "Monument Valley",
-      "https://store.epicgames.com/en-US/p/monument-valley-1d99d3",
-      "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
-      "Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
+      "Ghostrunner 2",
+      "https://store.epicgames.com/en-US/p/ghostrunner-2",
+      "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
+      "Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
+      "39.99 USD",
+      "Free",
+      "خصم 100% - مجاني",
+      "2025-09-18 15:00:00"
+    ],
+    [
+      "The Battle of Polytopia",
+      "https://store.epicgames.com/en-US/p/the-battle-of-polytopia-12fed6",
+      "https://cdn1.epicgames.com/spt-assets/b312dfc1b33d459daa55a67d53a56223/the-battle-of-polytopia-1oi5a.png",
+      "Award-winning strategy game! Build your civilization, master tech, conquer tribes, and dominate the world map!",
+      "14.99 USD",
+      "Free",
+      "خصم 100% - مجاني",
+      "2025-09-18 15:00:00"
+    ],
+    [
+      "Monument Valley 2",
+      "https://store.epicgames.com/en-US/p/monument-valley-2-addd02",
+      "https://cdn1.epicgames.com/spt-assets/ec6e53ce95cc432d895dfb1285254bfd/monument-valley-2-1wse4.jpg",
+      "Discover illusionary pathways and delightful puzzles as you learn the secrets of The Sacred Geometry. Follow the heart warming story of Ro in her journey through motherhood. Rediscover independence through manipulating monuments and evolving paths to explore new worlds.",
       "7.99 USD",
       "Free",
       "خصم 100% - مجاني",
-      "2025-09-11 15:00:00"
+      "2025-09-18 15:00:00"
     ]
   ],
   "discounted_games": [],
-  "update_time": "2025-09-11 17:19:34",
+  "update_time": "2025-09-11 23:18:10",
   "source": "Epic Games Store"
 }
