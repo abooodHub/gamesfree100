@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎮 Games100 - ألعاب مجانية من جميع المتاجر العالمية</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="اكتشف أحدث الألعاب المجانية والمخصومة من Steam, Epic Games, GOG, Ubisoft, PlayStation, Xbox. تحديث يومي للألعاب المجانية والخصومات.">
+    <meta name="keywords" content="ألعاب مجانية, free games, epic games free, steam 100% off, gog free games, playstation free, xbox free, ubisoft free">
+    <meta name="author" content="Games100">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="🎮 Games100 - ألعاب مجانية من جميع المتاجر العالمية">
+    <meta property="og:description" content="اكتشف أحدث الألعاب المجانية والمخصومة من جميع المتاجر العالمية.">
+    <meta property="og:image" content="assets/icons/logo.svg">
+    <meta property="og:url" content="https://gamesfree100.online/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/icons/logo.svg">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Games100",
+        "url": "https://gamesfree100.online",
+        "description": "موقع متخصص في عرض الألعاب المجانية من جميع المتاجر العالمية",
+        "inLanguage": ["ar", "en"]
+    }
+    </script>
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QXTT04YVZT"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-QXTT04YVZT');
+    </script>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo">🎮</div>
+            <div class="loading-text">Games100</div>
+            <div class="loading-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-section">
+                <div class="logo">
+                    <span class="logo-icon">🎮</span>
+                    <span class="logo-text">Games100</span>
+                </div>
+                <div class="tagline" data-ar="الألعاب مجانية 100%" data-en="100% Free Games">الألعاب مجانية 100%</div>
+            </div>
+            
+            <nav class="header-nav">
+                <div class="nav-links">
+                    <a href="#" class="nav-link active" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+                </div>
+                <button class="lang-toggle" id="langToggle">
+                    <span class="lang-text">EN</span>
+                    <span class="lang-icon">🌐</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <!-- Update Info -->
+    <section class="update-section">
+        <div class="update-container">
+            <div class="update-info" id="updateInfo">
+                <span class="update-icon">🔄</span>
+                <span class="update-text" data-ar="آخر تحديث: جاري التحميل..." data-en="Last update: Loading...">آخر تحديث: جاري التحميل...</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Store Filter Tabs -->
+    <section class="store-filter-section">
+        <div class="store-filter-container">
+            <div class="store-filter-tabs">
+                <button class="store-filter-tab active" data-store="all">
+                    <span class="tab-icon">🎯</span>
+                    <span class="tab-text" data-ar="الكل" data-en="All">الكل</span>
+                </button>
+                <button class="store-filter-tab" data-store="steam">
+                    <img src="assets/icons/steam.svg" alt="Steam" class="tab-icon">
+                    <span class="tab-text">Steam</span>
+                </button>
+                <button class="store-filter-tab" data-store="epic">
+                    <img src="assets/icons/Epic.svg" alt="Epic" class="tab-icon">
+                    <span class="tab-text">Epic Games</span>
+                </button>
+                <button class="store-filter-tab" data-store="gog">
+                    <img src="assets/icons/gog.svg" alt="GOG" class="tab-icon">
+                    <span class="tab-text">GOG</span>
+                </button>
+                <button class="store-filter-tab" data-store="ubisoft">
+                    <img src="assets/icons/ubisoft.svg" alt="Ubisoft" class="tab-icon">
+                    <span class="tab-text">Ubisoft</span>
+                </button>
+                <button class="store-filter-tab" data-store="playstation">
+                    <img src="assets/icons/playstation.svg" alt="PlayStation" class="tab-icon">
+                    <span class="tab-text">PlayStation</span>
+                </button>
+                <button class="store-filter-tab" data-store="xbox">
+                    <img src="assets/icons/xbox.svg" alt="Xbox" class="tab-icon">
+                    <span class="tab-text">Xbox</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Games Grid -->
+    <main class="games-section">
+        <div class="games-container">
+            <div class="games-grid" id="gamesGrid">
+                <!-- Games will be loaded here -->
+            </div>
+            
+            <div class="no-games" id="noGames" style="display: none;">
+                <div class="no-games-icon">🎮</div>
+                <h3 class="no-games-title" data-ar="لا توجد ألعاب متاحة" data-en="No games available">لا توجد ألعاب متاحة</h3>
+                <p class="no-games-description" data-ar="جاري تحديث البيانات، يرجى المحاولة لاحقاً" data-en="Data is being updated, please try again later">جاري تحديث البيانات، يرجى المحاولة لاحقاً</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="footer-logo-icon">🎮</span>
+                        <span class="footer-logo-text">Games100</span>
+                    </div>
+                    <p class="footer-description" data-ar="موقع متخصص في عرض الألعاب المجانية من جميع المتاجر العالمية" data-en="Specialized website for displaying free games from all major gaming stores">موقع متخصص في عرض الألعاب المجانية من جميع المتاجر العالمية</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4 class="footer-title" data-ar="المتاجر" data-en="Stores">المتاجر</h4>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Steam</a></li>
+                            <li><a href="#" class="footer-link">Epic Games</a></li>
+                            <li><a href="#" class="footer-link">GOG</a></li>
+                            <li><a href="#" class="footer-link">Ubisoft</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-social">
+                    <a href="https://github.com/abooodHub" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <span class="social-icon">🐙</span>
+                        <span class="social-text">GitHub</span>
+                    </a>
+                    <a href="https://github.com/abooodHub/gamesfree100" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <span class="social-icon">📂</span>
+                        <span class="social-text">Repository</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
