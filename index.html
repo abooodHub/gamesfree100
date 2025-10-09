@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎮 Games100 - ألعاب مجانية 100% من جميع المتاجر</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="اكتشف أحدث الألعاب المجانية والمخصومة من Steam, Epic Games, GOG, Ubisoft, PlayStation, Xbox. تحديث يومي للألعاب المجانية والخصومات.">
+    <meta name="keywords" content="ألعاب مجانية, free games, epic games free, steam 100% off, gog free games, playstation free, xbox free, ubisoft free">
+    <meta name="author" content="Games100">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="🎮 Games100 - ألعاب مجانية من جميع المتاجر العالمية">
+    <meta property="og:description" content="اكتشف أحدث الألعاب المجانية والمخصومة من جميع المتاجر العالمية.">
+    <meta property="og:image" content="assets/icons/logo.svg">
+    <meta property="og:url" content="https://gamesfree100.online/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/icons/logo.svg">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Cairo:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles_new.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Games100",
+        "url": "https://gamesfree100.online",
+        "description": "موقع متخصص في عرض الألعاب المجانية من جميع المتاجر العالمية",
+        "inLanguage": ["ar", "en"]
+    }
+    </script>
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QXTT04YVZT"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-QXTT04YVZT');
+    </script>
+</head>
+<body>
+    <!-- Background Gradient -->
+    <div class="bg-gradient"></div>
+    <div class="bg-blur-shapes">
+        <div class="blur-shape blur-shape-1"></div>
+        <div class="blur-shape blur-shape-2"></div>
+        <div class="blur-shape blur-shape-3"></div>
+    </div>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo-container">
+                <div class="loading-logo">🎮</div>
+                <div class="loading-pulse"></div>
+            </div>
+            <div class="loading-text">Games100</div>
+            <div class="loading-subtitle" data-ar="جاري تحميل الألعاب المجانية..." data-en="Loading free games...">جاري تحميل الألعاب المجانية...</div>
+            <div class="loading-spinner">
+                <div class="spinner-dot"></div>
+                <div class="spinner-dot"></div>
+                <div class="spinner-dot"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-section">
+                <div class="logo">
+                    <span class="logo-icon">🎮</span>
+                    <span class="logo-text">Games100</span>
+                </div>
+                <div class="tagline" data-ar="الألعاب مجانية 100%" data-en="100% Free Games">الألعاب مجانية 100%</div>
+            </div>
+            
+            <nav class="header-nav">
+                <button class="theme-toggle" id="themeToggle" title="تبديل الوضع">
+                    <span class="theme-icon theme-icon-light">☀️</span>
+                    <span class="theme-icon theme-icon-dark">🌙</span>
+                </button>
+                <button class="lang-toggle" id="langToggle">
+                    <span class="lang-text">EN</span>
+                    <span class="lang-icon">🌐</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Update Info -->
+    <section class="update-section">
+        <div class="update-container">
+            <div class="update-info" id="updateInfo">
+                <span class="update-icon">🔄</span>
+                <span class="update-text" data-ar="آخر تحديث: جاري التحميل..." data-en="Last update: Loading...">آخر تحديث: جاري التحميل...</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Store Filter Tabs -->
+    <section class="store-filter-section">
+        <div class="store-filter-container">
+            <h2 class="section-title" data-ar="اختر المتجر" data-en="Choose Store">اختر المتجر</h2>
+            <div class="store-filter-tabs">
+                <button class="store-filter-tab active" data-store="all">
+                    <span class="tab-icon">🎯</span>
+                    <span class="tab-text" data-ar="الكل" data-en="All">الكل</span>
+                    <span class="tab-count">0</span>
+                </button>
+                <button class="store-filter-tab" data-store="steam">
+                    <img src="assets/icons/steam.svg" alt="Steam" class="tab-icon">
+                    <span class="tab-text">Steam</span>
+                    <span class="tab-count">0</span>
+                </button>
+                <button class="store-filter-tab" data-store="epic">
+                    <img src="assets/icons/Epic.svg" alt="Epic" class="tab-icon">
+                    <span class="tab-text">Epic Games</span>
+                    <span class="tab-count">0</span>
+                </button>
+                <button class="store-filter-tab" data-store="gog">
+                    <img src="assets/icons/gog.svg" alt="GOG" class="tab-icon">
+                    <span class="tab-text">GOG</span>
+                    <span class="tab-count">0</span>
+                </button>
+                <button class="store-filter-tab" data-store="ubisoft">
+                    <img src="assets/icons/ubisoft.svg" alt="Ubisoft" class="tab-icon">
+                    <span class="tab-text">Ubisoft</span>
+                    <span class="tab-count">0</span>
+                </button>
+                <button class="store-filter-tab" data-store="playstation">
+                    <img src="assets/icons/playstation.svg" alt="PlayStation" class="tab-icon">
+                    <span class="tab-text">PlayStation</span>
+                    <span class="tab-count">0</span>
+                </button>
+                <button class="store-filter-tab" data-store="xbox">
+                    <img src="assets/icons/xbox.svg" alt="Xbox" class="tab-icon">
+                    <span class="tab-text">Xbox</span>
+                    <span class="tab-count">0</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Games Grid -->
+    <main class="games-section">
+        <div class="games-container">
+            <div class="games-header">
+                <h2 class="section-title" data-ar="الألعاب المتاحة" data-en="Available Games">الألعاب المتاحة</h2>
+                <div class="games-filter">
+                    <button class="filter-btn active" data-filter="all">
+                        <span data-ar="الكل" data-en="All">الكل</span>
+                    </button>
+                    <button class="filter-btn" data-filter="free">
+                        <span data-ar="مجاني 100%" data-en="100% Free">مجاني 100%</span>
+                    </button>
+                    <button class="filter-btn" data-filter="discount">
+                        <span data-ar="خصومات" data-en="Discounts">خصومات</span>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="games-grid" id="gamesGrid">
+                <!-- Games will be loaded here -->
+            </div>
+            
+            <div class="no-games" id="noGames" style="display: none;">
+                <div class="no-games-animation">
+                    <div class="empty-state-icon">🎮</div>
+                    <div class="empty-state-waves">
+                        <div class="wave"></div>
+                        <div class="wave"></div>
+                        <div class="wave"></div>
+                    </div>
+                </div>
+                <h3 class="no-games-title" data-ar="لا توجد ألعاب متاحة حالياً" data-en="No games available right now">لا توجد ألعاب متاحة حالياً</h3>
+                <p class="no-games-description" data-ar="جاري تحديث البيانات، يرجى المحاولة لاحقاً أو اختر متجراً آخر" data-en="Data is being updated, please try again later or choose another store">
+                    جاري تحديث البيانات، يرجى المحاولة لاحقاً أو اختر متجراً آخر
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="footer-logo-icon">🎮</span>
+                        <span class="footer-logo-text">Games100</span>
+                    </div>
+                    <p class="footer-description" data-ar="موقع متخصص في عرض الألعاب المجانية من جميع المتاجر العالمية. نحدث بياناتنا يومياً لنقدم لك أحدث العروض والألعاب المجانية." data-en="Specialized website for displaying free games from all major gaming stores. We update our data daily to bring you the latest offers and free games.">
+                        موقع متخصص في عرض الألعاب المجانية من جميع المتاجر العالمية. نحدث بياناتنا يومياً لنقدم لك أحدث العروض والألعاب المجانية.
+                    </p>
+                </div>
+                
+                <div class="footer-stores">
+                    <h4 class="footer-title" data-ar="المتاجر المدعومة" data-en="Supported Stores">المتاجر المدعومة</h4>
+                    <div class="store-badges">
+                        <div class="store-badge">
+                            <img src="assets/icons/steam.svg" alt="Steam">
+                            <span>Steam</span>
+                        </div>
+                        <div class="store-badge">
+                            <img src="assets/icons/Epic.svg" alt="Epic Games">
+                            <span>Epic Games</span>
+                        </div>
+                        <div class="store-badge">
+                            <img src="assets/icons/gog.svg" alt="GOG">
+                            <span>GOG</span>
+                        </div>
+                        <div class="store-badge">
+                            <img src="assets/icons/ubisoft.svg" alt="Ubisoft">
+                            <span>Ubisoft</span>
+                        </div>
+                        <div class="store-badge">
+                            <img src="assets/icons/playstation.svg" alt="PlayStation">
+                            <span>PlayStation</span>
+                        </div>
+                        <div class="store-badge">
+                            <img src="assets/icons/xbox.svg" alt="Xbox">
+                            <span>Xbox</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-social">
+                    <a href="https://github.com/abooodHub" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <span class="social-icon">🐙</span>
+                        <span class="social-text">GitHub</span>
+                    </a>
+                    <a href="https://github.com/abooodHub/gamesfree100" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <span class="social-icon">⭐</span>
+                        <span class="social-text">Star on GitHub</span>
+                    </a>
+                </div>
+                <div class="footer-copyright">
+                    <p data-ar="© 2025 Games100. جميع الحقوق محفوظة" data-en="© 2025 Games100. All rights reserved">© 2025 Games100. جميع الحقوق محفوظة</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" title="العودة للأعلى">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M18 15L12 9L6 15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+name: Update Free Games from All Stores
+
+on:
+  schedule:
+    - cron: '0 3,9,15,21 * * *' # كل 6 ساعات (الساعات 3، 9، 15، 21 بتوقيت UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-free-games:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip list
+
+      - name: Debug - List files
+        run: |
+          echo "Current directory: $(pwd)"
+          echo "Python files in scripts directory:"
+          ls -la scripts/*.py
+          echo "JSON files available:"
+          ls -la data/*.json
+
+      - name: Update timestamp in JSON files
+        run: |
+          echo "Starting timestamp update..."
+          python scripts/update_timestamps.py
+          echo "Timestamp update completed!"
+
+      - name: Run Steam scraper
+        run: |
+          echo "Running Steam script..."
+          python scripts/steam_scraper.py
+          echo "Steam script completed!"
+        continue-on-error: true
+
+      - name: Run Epic Games scraper
+        run: |
+          echo "Running Epic script..."
+          python scripts/epic_scraper.py
+          echo "Epic script completed!"
+        continue-on-error: true
+
+      - name: Run GOG scraper
+        run: |
+          echo "Running GOG script..."
+          python scripts/gog_scraper.py
+          echo "GOG script completed!"
+        continue-on-error: true
+
+      - name: Run Ubisoft scraper
+        run: |
+          echo "Running Ubisoft script..."
+          python scripts/ubisoft_scraper.py
+          echo "Ubisoft script completed!"
+        continue-on-error: true
+
+      - name: Run PlayStation scraper
+        run: |
+          echo "Running PlayStation script..."
+          python scripts/playstation_scraper.py
+          echo "PlayStation script completed!"
+        continue-on-error: true
+
+      - name: Run Xbox scraper
+        run: |
+          echo "Running Xbox script..."
+          python scripts/xbox_scraper.py
+          echo "Xbox script completed!"
+        continue-on-error: true
+
+      - name: Debug - Show final files
+        run: |
+          echo "Final JSON files:"
+          ls -la data/*.json
+          echo "File sizes:"
+          wc -l data/*.json
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected:"
+            git status --porcelain
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/*.json
+          git commit -m 'Update free games from all stores [bot]'
+          git push
