@@ -1,18 +1,28 @@
 {
-  "total_count": 1,
+  "total_count": 2,
   "free_games": [
     [
-      "Fear the Spotlight",
-      "https://store.epicgames.com/en-US/p/fear-the-spotlight-97656f",
-      "https://cdn1.epicgames.com/spt-assets/7440e6952704438cbb2e4f4dff02e00a/fear-the-spotlight-1ioq7.jpg",
-      "Fear the Spotlight is an atmospheric third-person horror adventure with a disturbing mystery to unravel. Sneak into school after hours with Vivian and Amy, survive a séance gone wrong, solve tactile puzzles, and, whatever you do, stay out of the spotlight…",
+      "Bendy and the Ink Machine",
+      "https://store.epicgames.com/en-US/p/bendy-and-the-ink-machine-60cf5a",
+      "https://cdn1.epicgames.com/spt-assets/0b1283e5bfa64ad48f3862b79abc20b9/bendy-and-the-ink-machine-1e8cj.png",
+      "Bendy and the Ink Machine® is the first person puzzle action horror game that will forever ruin your childhood love of cartoons.",
       "19.99 USD",
       "Free",
       "خصم 100% - مجاني",
-      "2025-10-30 15:00:00"
+      "2025-11-06 16:00:00"
+    ],
+    [
+      "Five Nights at Freddy's: Into the Pit",
+      "https://store.epicgames.com/en-US/p/five-nights-at-freddys-into-the-pit-99c563",
+      "https://cdn1.epicgames.com/spt-assets/5c65df08b03a43eb8be026116ef8e979/five-nights-at-freddys-into-the-pit-1ng0s.png",
+      "Survive five nights of terror in this chilling adventure game. Travel between time periods to solve puzzles, gather clues, and outrun the threat pursuing you. Move swiftly and stay hidden, and you may just survive. But be careful—it's not just your own life that’s on the line.",
+      "19.99 USD",
+      "Free",
+      "خصم 100% - مجاني",
+      "2025-11-06 16:00:00"
     ]
   ],
   "discounted_games": [],
-  "update_time": "2025-10-30 17:12:55",
+  "update_time": "2025-10-30 23:13:04",
   "source": "Epic Games Store"
 }
