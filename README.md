@@ -102,16 +102,9 @@ gamesfree100/
 
 - **الموقع الرسمي**: [https://gamesfree100.online](https://gamesfree100.online)
 - **GitHub Repository**: [https://github.com/abooodHub/gamesfree100](https://github.com/abooodHub/gamesfree100)
-
-## 📞 التواصل
-
-- **المطور**: Games100 
-- **البريد الإلكتروني**: [contact@gamesfree100.online](mailto:contact@gamesfree100.online)
+ 
 - **GitHub**: [@abooodHub](https://github.com/abooodHub)
-
-## 📄 الترخيص
-
-هذا المشروع مرخص تحت رخصة MIT. راجع ملف [LICENSE](LICENSE) للتفاصيل.
+.
 
 </div>
 
