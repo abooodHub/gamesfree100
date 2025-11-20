@@ -64,32 +64,7 @@ jobs:
       - name: Validate JSON files
         run: |
           echo "Validating JSON files..."
-          python - << 'PY'
-import json, os
-
-files = [
-    'free_goods_detail.json',
-    'epic_goods_detail.json',
-    'gog_goods_detail.json',
-    'update_timestamp.json',
-]
-
-for f in files:
-    if not os.path.exists(f):
-        print(f"[warn] {f} not found")
-        continue
-    try:
-        s = open(f,'r',encoding='utf-8').read().strip()
-        if not s:
-            print(f"[fix] {f} empty -> writing {}")
-            open(f,'w',encoding='utf-8').write('{}')
-            continue
-        json.loads(s)
-        print(f"[ok] {f} valid")
-    except Exception as e:
-        print(f"[fix] {f} invalid JSON ({e}) -> writing {}")
-        open(f,'w',encoding='utf-8').write('{}')
-PY
+          python -c "import json, os\nfiles=['free_goods_detail.json','epic_goods_detail.json','gog_goods_detail.json','update_timestamp.json']\nfor f in files:\n    if not os.path.exists(f):\n        print(f'[warn] {f} not found')\n        continue\n    s = open(f,'r',encoding='utf-8').read().strip()\n    if not s:\n        print(f'[fix] {f} empty -> writing {{}}')\n        open(f,'w',encoding='utf-8').write('{}')\n        continue\n    try:\n        json.loads(s)\n        print(f'[ok] {f} valid')\n    except Exception as e:\n        print(f'[fix] {f} invalid JSON ({e}) -> writing {{}}')\n        open(f,'w',encoding='utf-8').write('{}')"
 
       - name: Debug - Show final JSON
         run: |
