@@ -133,43 +133,48 @@ function mergeAllGames() {
     Object.keys(gamesData).forEach(key => {
         const d = gamesData[key];
         if (!d) return;
-        if (d.discounted_games && Array.isArray(d.discounted_games)) {
+        const add = (g) => { allGames.push({ ...g, _store: key }); };
+        const isFreeText = (txt) => typeof txt === 'string' && (txt.includes('Free') || txt.includes('مجاني') || txt.includes('$0.00'));
+
+        if (Array.isArray(d.discounted_games)) {
             d.discounted_games.forEach(g => {
-                const p = g[6];
-                const np = g[5];
-                if ((p && p.includes('100%')) || (typeof np === 'string' && (np.includes('$0.00') || np.includes('Free') || np.includes('مجاني')))) {
-                    allGames.push({ ...g, _store: key });
-                }
+                const discount = g[6];
+                const newPrice = g[5];
+                if ((discount && discount.includes('100%')) || isFreeText(newPrice)) add(g);
             });
         }
-        if (d.discounted_list && Array.isArray(d.discounted_list)) {
+        if (Array.isArray(d.discounted_list)) {
             d.discounted_list.forEach(g => {
-                const p = g[6];
-                const np = g[5];
-                if ((p && p.includes('100%')) || (typeof np === 'string' && (np.includes('$0.00') || np.includes('Free') || np.includes('مجاني')))) {
-                    allGames.push({ ...g, _store: key });
+                const discount = g[6];
+                const newPrice = g[5];
+                if ((discount && discount.includes('100%')) || isFreeText(newPrice)) add(g);
+            });
+        }
+        if (Array.isArray(d.free_games)) {
+            d.free_games.forEach(g => {
+                const discount = g[6];
+                const newPrice = g[5];
+                if (key === 'epic') {
+                    if ((discount && !discount.includes('Coming Soon')) || isFreeText(newPrice)) add(g);
+                } else if (key === 'steam') {
+                    if (isFreeText(newPrice)) add(g);
+                } else {
+                    if (isFreeText(newPrice) || (discount && discount.includes('100%'))) add(g);
                 }
             });
         }
-        if (key !== 'steam') {
-            if (d.free_list && Array.isArray(d.free_list)) {
-                d.free_list.forEach(g => {
-                    const t = g[6];
-                    const np = g[5];
-                    if (((t && t.includes('100%')) || (typeof np === 'string' && (np.includes('Free') || np.includes('مجاني')))) && !(t && (t.includes('Coming Soon') || t.includes('مجاني دائماً')))) {
-                        allGames.push({ ...g, _store: key });
-                    }
-                });
-            }
-            if (d.free_games && Array.isArray(d.free_games)) {
-                d.free_games.forEach(g => {
-                    const t = g[6];
-                    const np = g[5];
-                    if (((t && t.includes('100%')) || (typeof np === 'string' && (np.includes('Free') || np.includes('مجاني')))) && !(t && (t.includes('Coming Soon') || t.includes('مجاني دائماً')))) {
-                        allGames.push({ ...g, _store: key });
-                    }
-                });
-            }
+        if (Array.isArray(d.free_list)) {
+            d.free_list.forEach(g => {
+                const discount = g[6];
+                const newPrice = g[5];
+                if (key === 'epic') {
+                    if ((discount && !discount.includes('Coming Soon')) || isFreeText(newPrice)) add(g);
+                } else if (key === 'steam') {
+                    if (isFreeText(newPrice)) add(g);
+                } else {
+                    if (isFreeText(newPrice) || (discount && discount.includes('100%'))) add(g);
+                }
+            });
         }
     });
     console.log(`تم دمج ${allGames.length} لعبة`);
