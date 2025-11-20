@@ -1,0 +1,114 @@
+name: Update Free Games from All Stores
+
+on:
+  schedule:
+    - cron: '0 3,9,15,21 * * *' # كل 6 ساعات (بتوقيت UTC)
+  workflow_dispatch:
+
+concurrency:
+  group: update-free-games
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-free-games:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Debug - List files
+        run: |
+          echo "Current directory: $(pwd)"
+          echo "Python files:"
+          ls -la *.py || true
+          echo "JSON files:"
+          ls -la *.json || true
+
+      - name: Update timestamp in JSON files
+        run: |
+          if [ -f update_timestamp.py ]; then python update_timestamp.py; else echo "update_timestamp.py not found"; fi
+
+      - name: Run Steam script (balash.py or steam.py)
+        run: |
+          if [ -f steam.py ]; then python steam.py; elif [ -f balash.py ]; then python balash.py; else echo "No Steam script found"; fi
+        continue-on-error: true
+
+      - name: Run Epic Games script
+        run: |
+          python epic_balash.py
+        continue-on-error: true
+
+      - name: Run GOG script
+        run: |
+          python gog_balash.py
+        continue-on-error: true
+
+      - name: Validate JSON files
+        run: |
+          echo "Validating JSON files..."
+          python - << 'PY'
+import json, os
+
+files = [
+    'free_goods_detail.json',
+    'epic_goods_detail.json',
+    'gog_goods_detail.json',
+    'update_timestamp.json',
+]
+
+for f in files:
+    if not os.path.exists(f):
+        print(f"[warn] {f} not found")
+        continue
+    try:
+        s = open(f,'r',encoding='utf-8').read().strip()
+        if not s:
+            print(f"[fix] {f} empty -> writing {}")
+            open(f,'w',encoding='utf-8').write('{}')
+            continue
+        json.loads(s)
+        print(f"[ok] {f} valid")
+    except Exception as e:
+        print(f"[fix] {f} invalid JSON ({e}) -> writing {}")
+        open(f,'w',encoding='utf-8').write('{}')
+PY
+
+      - name: Debug - Show final JSON
+        run: |
+          ls -lh *.json || true
+          wc -l *.json || true
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            git status --porcelain
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git pull --rebase
+          git add -A
+          git commit -m "Auto update free games [bot]"
+          git push
