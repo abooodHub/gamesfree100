@@ -131,63 +131,48 @@ function fetchAllData() {
 function mergeAllGames() {
     allGames = [];
     Object.keys(gamesData).forEach(key => {
-        if (gamesData[key]) {
-            // عرض الألعاب بخصم 100% فقط من Steam
-            if (gamesData[key].discounted_games) {
-                gamesData[key].discounted_games.forEach(g => {
-                    // إضافة فقط إذا كان الخصم 100%
-                    if (g[6] && g[6].includes('100%')) {
+        const d = gamesData[key];
+        if (!d) return;
+        if (d.discounted_games && Array.isArray(d.discounted_games)) {
+            d.discounted_games.forEach(g => {
+                const p = g[6];
+                const np = g[5];
+                if ((p && p.includes('100%')) || (typeof np === 'string' && (np.includes('$0.00') || np.includes('Free') || np.includes('مجاني')))) {
+                    allGames.push({ ...g, _store: key });
+                }
+            });
+        }
+        if (d.discounted_list && Array.isArray(d.discounted_list)) {
+            d.discounted_list.forEach(g => {
+                const p = g[6];
+                const np = g[5];
+                if ((p && p.includes('100%')) || (typeof np === 'string' && (np.includes('$0.00') || np.includes('Free') || np.includes('مجاني')))) {
+                    allGames.push({ ...g, _store: key });
+                }
+            });
+        }
+        if (key !== 'steam') {
+            if (d.free_list && Array.isArray(d.free_list)) {
+                d.free_list.forEach(g => {
+                    const t = g[6];
+                    const np = g[5];
+                    if (((t && t.includes('100%')) || (typeof np === 'string' && (np.includes('Free') || np.includes('مجاني')))) && !(t && (t.includes('Coming Soon') || t.includes('مجاني دائماً')))) {
                         allGames.push({ ...g, _store: key });
                     }
                 });
             }
-            // للتعامل مع البنية القديمة (discounted_list فقط)
-            if (gamesData[key].discounted_list) {
-                gamesData[key].discounted_list.forEach(g => {
-                    // إضافة فقط إذا كان الخصم 100%
-                    if (g[6] && g[6].includes('100%')) {
-                        allGames.push({ ...g, _store: key });
-                    }
-                });
-            }
-            // إضافة الألعاب بخصم 100% فقط من Epic وباقي المتاجر
-            if (gamesData[key].free_list && key !== 'steam') {
-                gamesData[key].free_list.forEach(g => {
-                    // إضافة الألعاب التي تحتوي على خصم 100% فقط (بدون Coming Soon) وليس مجاني دائماً
-                    if (g[6] && g[6].includes('100%') && !g[6].includes('Coming Soon') && !g[6].includes('مجاني دائماً')) {
-                        allGames.push({ ...g, _store: key });
-                    }
-                });
-            }
-            if (gamesData[key].free_games && key !== 'steam') {
-                gamesData[key].free_games.forEach(g => {
-                    // إضافة الألعاب التي تحتوي على خصم 100% فقط (بدون Coming Soon) وليس مجاني دائماً
-                    if (g[6] && g[6].includes('100%') && !g[6].includes('Coming Soon') && !g[6].includes('مجاني دائماً')) {
-                        allGames.push({ ...g, _store: key });
-                    }
-                });
-            }
-            // لـ Steam: إضافة فقط الألعاب التي تحتوي على خصم 100%
-            if (gamesData[key].free_list && key === 'steam') {
-                gamesData[key].free_list.forEach(g => {
-                    // إضافة فقط إذا كان الخصم 100%
-                    if (g[6] && g[6].includes('100%')) {
-                        allGames.push({ ...g, _store: key });
-                    }
-                });
-            }
-            if (gamesData[key].free_games && key === 'steam') {
-                gamesData[key].free_games.forEach(g => {
-                    // إضافة فقط إذا كان الخصم 100%
-                    if (g[6] && g[6].includes('100%')) {
+            if (d.free_games && Array.isArray(d.free_games)) {
+                d.free_games.forEach(g => {
+                    const t = g[6];
+                    const np = g[5];
+                    if (((t && t.includes('100%')) || (typeof np === 'string' && (np.includes('Free') || np.includes('مجاني')))) && !(t && (t.includes('Coming Soon') || t.includes('مجاني دائماً')))) {
                         allGames.push({ ...g, _store: key });
                     }
                 });
             }
         }
     });
-
-    console.log(`تم دمج ${allGames.length} لعبة (خصم 100% من جميع المتاجر فقط)`);
+    console.log(`تم دمج ${allGames.length} لعبة`);
 }
 
 // --- عرض الألعاب ---
