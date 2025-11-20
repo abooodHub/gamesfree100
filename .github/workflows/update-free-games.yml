@@ -64,7 +64,23 @@ jobs:
       - name: Validate JSON files
         run: |
           echo "Validating JSON files..."
-          python -c "import json, os\nfiles=['free_goods_detail.json','epic_goods_detail.json','gog_goods_detail.json','update_timestamp.json']\nfor f in files:\n    if not os.path.exists(f):\n        print(f'[warn] {f} not found')\n        continue\n    s = open(f,'r',encoding='utf-8').read().strip()\n    if not s:\n        print(f'[fix] {f} empty -> writing {{}}')\n        open(f,'w',encoding='utf-8').write('{}')\n        continue\n    try:\n        json.loads(s)\n        print(f'[ok] {f} valid')\n    except Exception as e:\n        print(f'[fix] {f} invalid JSON ({e}) -> writing {{}}')\n        open(f,'w',encoding='utf-8').write('{}')"
+          for f in free_goods_detail.json epic_goods_detail.json gog_goods_detail.json update_timestamp.json; do
+            if [ ! -f "$f" ]; then
+              echo "[warn] $f not found"
+              continue
+            fi
+            if [ ! -s "$f" ]; then
+              echo "[fix] $f empty -> writing {}"
+              echo '{}' > "$f"
+              continue
+            fi
+            if ! python -m json.tool < "$f" > /dev/null 2>&1; then
+              echo "[fix] $f invalid JSON -> writing {}"
+              echo '{}' > "$f"
+            else
+              echo "[ok] $f valid"
+            fi
+          done
 
       - name: Debug - Show final JSON
         run: |
