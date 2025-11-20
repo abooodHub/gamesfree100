@@ -55,8 +55,8 @@ pip install -r requirements.txt
 ```bash
 # تشغيل السكريبتات
 python balash.py
-python epic_balash.py
-python gog_balash.py
+python epic.py
+python gog.py
 
 # تشغيل خادم محلي
 python -m http.server 8000

@@ -136,22 +136,16 @@ def main():
     # جلب الألعاب المجانية من GOG
     gog_games = get_gog_free_games()
     
-    if gog_games:
-        # حفظ البيانات
-        if save_gog_games_data(gog_games):
-            print(f"✅ تم تحديث قائمة الألعاب المجانية من GOG بنجاح!")
-            print(f"📊 عدد الألعاب: {len(gog_games)}")
-            
-            # عرض قائمة الألعاب
+    if save_gog_games_data(gog_games):
+        print(f"✅ تم تحديث قائمة الألعاب المجانية من GOG بنجاح!")
+        print(f"📊 عدد الألعاب: {len(gog_games)}")
+        if gog_games:
             print("\n📋 قائمة الألعاب المجانية من GOG:")
             for i, game in enumerate(gog_games, 1):
                 print(f"{i}. {game[0]}")
                 print()
-        else:
-            print("❌ فشل في حفظ البيانات")
     else:
-        print("⚠️ لم يتم العثور على ألعاب مجانية من GOG حالياً")
-        print("قد يكون السبب عدم وجود عروض مجانية أو تغيّر في هيكل الموقع")
+        print("❌ فشل في حفظ البيانات")
 
 if __name__ == "__main__":
-    main() 
+    main()

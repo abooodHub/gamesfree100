@@ -8,7 +8,6 @@ import pytz
 import bs4
 from bs4 import Tag
 import re
-import os
 from typing import Optional, Tuple, List
 
 MONTHS = {
@@ -494,35 +493,32 @@ existing_discounted_games = []
 existing_appids = set()
 
 try:
+    import os
     if os.path.exists("free_goods_detail.json"):
-        with open("free_goods_detail.json", "r", encoding="utf-8") as fp:
-            existing_data = json.load(fp)
+        with open("free_goods_detail.json", "r", encoding="utf-8") as f:
+            data = json.load(f)
+            existing_free_games = data.get("free_games", [])
+            existing_discounted_games = data.get("discounted_games", [])
             
-            # قراءة الألعاب المجانية الموجودة
-            if "free_games" in existing_data:
-                existing_free_games = existing_data.get("free_games", [])
-                # استخراج app IDs الموجودة
-                for game in existing_free_games:
-                    if len(game) > 1:
-                        appid = extract_appid_from_url(game[1])
-                        if appid:
-                            existing_appids.add(appid)
+            # استخراج app IDs الموجودة
+            for game in existing_free_games:
+                if len(game) > 1:
+                    appid = extract_appid_from_url(game[1])
+                    if appid:
+                        existing_appids.add(appid)
             
-            # قراءة الألعاب المخصومة الموجودة (إذا كانت موجودة)
-            if "discounted_games" in existing_data:
-                existing_discounted_games = existing_data.get("discounted_games", [])
-                for game in existing_discounted_games:
-                    if len(game) > 1:
-                        appid = extract_appid_from_url(game[1])
-                        if appid:
-                            existing_appids.add(appid)
-        
-        print(f"✅ تم العثور على {len(existing_free_games)} لعبة مجانية و {len(existing_discounted_games)} لعبة مخصومة في الملف الحالي")
+            for game in existing_discounted_games:
+                if len(game) > 1:
+                    appid = extract_appid_from_url(game[1])
+                    if appid:
+                        existing_appids.add(appid)
+            
+            print(f"✅ تم تحميل {len(existing_free_games)} لعبة مجانية و {len(existing_discounted_games)} لعبة مخصومة من الملف السابق")
 except Exception as e:
-    print(f"⚠️  لم يتم العثور على بيانات سابقة أو حدث خطأ في القراءة: {e}")
+    print(f"⚠️ لم يتم العثور على بيانات سابقة أو حدث خطأ في القراءة: {e}")
 
 # دمج البيانات الجديدة مع القديمة
-print("\n🔄 دمج البيانات الجديدة مع الموجودة...")
+print("🔄 دمج البيانات...")
 merged_free_games = existing_free_games.copy()
 merged_discounted_games = existing_discounted_games.copy()
 
@@ -536,7 +532,6 @@ for game in final_free_list:
             existing_appids.add(appid)
             new_free_count += 1
         elif not appid and game[1] not in [g[1] for g in merged_free_games]:
-            # للألعاب بدون app ID، نتحقق من URL
             merged_free_games.append(game)
             new_free_count += 1
 
