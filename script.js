@@ -134,50 +134,39 @@ function mergeAllGames() {
         const d = gamesData[key];
         if (!d) return;
         const add = (g) => { allGames.push({ ...g, _store: key }); };
-        const isFreeText = (txt) => typeof txt === 'string' && (txt.includes('Free') || txt.includes('مجاني') || txt.includes('$0.00'));
 
+        // خصومات 100% فقط من جميع المتاجر
         if (Array.isArray(d.discounted_games)) {
             d.discounted_games.forEach(g => {
                 const discount = g[6];
-                const newPrice = g[5];
-                if ((discount && discount.includes('100%')) || isFreeText(newPrice)) add(g);
+                if (discount && discount.includes('100%')) add(g);
             });
         }
         if (Array.isArray(d.discounted_list)) {
             d.discounted_list.forEach(g => {
                 const discount = g[6];
-                const newPrice = g[5];
-                if ((discount && discount.includes('100%')) || isFreeText(newPrice)) add(g);
+                if (discount && discount.includes('100%')) add(g);
             });
         }
-        if (Array.isArray(d.free_games)) {
-            d.free_games.forEach(g => {
-                const discount = g[6];
-                const newPrice = g[5];
-                if (key === 'epic') {
-                    if ((discount && !discount.includes('Coming Soon')) || isFreeText(newPrice)) add(g);
-                } else if (key === 'steam') {
-                    if (isFreeText(newPrice)) add(g);
-                } else {
-                    if (isFreeText(newPrice) || (discount && discount.includes('100%'))) add(g);
-                }
-            });
+
+        // Epic فقط: خصم 100% من free_games/free_list مع استبعاد Coming Soon و"مجاني دائماً"
+        if (key !== 'steam') {
+            if (Array.isArray(d.free_games)) {
+                d.free_games.forEach(g => {
+                    const t = g[6];
+                    if (t && t.includes('100%') && !t.includes('Coming Soon') && !t.includes('مجاني دائماً')) add(g);
+                });
+            }
+            if (Array.isArray(d.free_list)) {
+                d.free_list.forEach(g => {
+                    const t = g[6];
+                    if (t && t.includes('100%') && !t.includes('Coming Soon') && !t.includes('مجاني دائماً')) add(g);
+                });
+            }
         }
-        if (Array.isArray(d.free_list)) {
-            d.free_list.forEach(g => {
-                const discount = g[6];
-                const newPrice = g[5];
-                if (key === 'epic') {
-                    if ((discount && !discount.includes('Coming Soon')) || isFreeText(newPrice)) add(g);
-                } else if (key === 'steam') {
-                    if (isFreeText(newPrice)) add(g);
-                } else {
-                    if (isFreeText(newPrice) || (discount && discount.includes('100%'))) add(g);
-                }
-            });
-        }
+        // Steam: تجاهل free_games/free_list لأنها ليست خصم 100%
     });
-    console.log(`تم دمج ${allGames.length} لعبة`);
+    console.log(`تم دمج ${allGames.length} لعبة (خصم 100% فقط)`);
 }
 
 // --- عرض الألعاب ---
