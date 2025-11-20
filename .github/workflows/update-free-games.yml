@@ -86,7 +86,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git pull --rebase
+          git config --global --add safe.directory "$PWD"
           git add -A
           git commit -m "Auto update free games [bot]"
           git push
