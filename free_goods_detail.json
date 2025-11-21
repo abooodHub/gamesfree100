@@ -1,5 +1,5 @@
 {
-  "total_count": 1305,
+  "total_count": 1312,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -8424,6 +8424,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/247000/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Reign of Guilds",
+      "https://store.steampowered.com/app/716350/Reign_of_Guilds/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/716350/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/716350/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "SAMURAI SHODOWN",
+      "https://store.steampowered.com/app/1342260/SAMURAI_SHODOWN/?snr=1_7_7_2300_150_13",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1342260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1342260/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -10946,7 +10962,57 @@
       "$2.99",
       "80%",
       null
+    ],
+    [
+      "THE KING OF FIGHTERS XIV STEAM EDITION",
+      "https://store.steampowered.com/app/571260/THE_KING_OF_FIGHTERS_XIV_STEAM_EDITION/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/571260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/571260/capsule_616x353.jpg",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "Duke Nukem Forever Collection",
+      "https://store.steampowered.com/sub/15361/?snr=1_7_7_2300_150_10",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.95",
+      "$9.98",
+      "75%",
+      null
+    ],
+    [
+      "Max Payne 2: The Fall of Max Payne",
+      "https://store.steampowered.com/app/12150/Max_Payne_2_The_Fall_of_Max_Payne/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/12150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/12150/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "RWBY: Arrowfell",
+      "https://store.steampowered.com/app/1982150/RWBY_Arrowfell/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1982150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1982150/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "USC: Counterforce",
+      "https://store.steampowered.com/app/1574870/USC_Counterforce/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1574870/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1574870/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2025-11-21 12:16:06"
+  "update_time": "2025-11-21 18:14:19"
 }
