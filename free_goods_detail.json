@@ -1,5 +1,5 @@
 {
-  "total_count": 1298,
+  "total_count": 1305,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -8400,6 +8400,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3388180/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "侠义九州之武林传奇",
+      "https://store.steampowered.com/app/3967270/_/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3967270/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3967270/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Alchemia Story",
+      "https://store.steampowered.com/app/2208530/Alchemia_Story/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2208530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2208530/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Talisman: Digital Classic Edition",
+      "https://store.steampowered.com/app/247000/Talisman_Digital_Classic_Edition/?snr=1_7_7_2300_150_11",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/247000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/247000/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -10882,7 +10906,47 @@
       "$11.24",
       "75%",
       null
+    ],
+    [
+      "Borderlands 2 Game of the Year",
+      "https://store.steampowered.com/sub/32848/?snr=1_7_7_2300_150_3",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$8.79",
+      "78%",
+      null
+    ],
+    [
+      "Park Beyond",
+      "https://store.steampowered.com/app/1368130/Park_Beyond/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1368130/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1368130/capsule_616x353.jpg",
+      "$74.99",
+      "$14.99",
+      "80%",
+      null
+    ],
+    [
+      "SENRAN KAGURA Bon Appétit! - Full Course",
+      "https://store.steampowered.com/app/514310/SENRAN_KAGURA_Bon_Apptit__Full_Course/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/514310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/514310/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Totally Reliable Delivery Service",
+      "https://store.steampowered.com/app/1011670/Totally_Reliable_Delivery_Service/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1011670/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1011670/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-11-21 06:40:40"
+  "update_time": "2025-11-21 12:16:06"
 }
