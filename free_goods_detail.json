@@ -1,5 +1,5 @@
 {
-  "total_count": 1312,
+  "total_count": 1336,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -8440,6 +8440,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1342260/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Warhammer: Vermintide 2 - Warrior Priest Cosmetic Upgrade",
+      "https://store.steampowered.com/app/1782451/Warhammer_Vermintide_2__Warrior_Priest_Cosmetic_Upgrade/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1782451/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1782451/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Warhammer: Vermintide 2 - Necromancer Cosmetic Upgrade",
+      "https://store.steampowered.com/app/2585640/Warhammer_Vermintide_2__Necromancer_Cosmetic_Upgrade/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2585640/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2585640/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Warhammer: Vermintide 2 - Sister of the Thorn Cosmetic Upgrade",
+      "https://store.steampowered.com/app/1629010/Warhammer_Vermintide_2__Sister_of_the_Thorn_Cosmetic_Upgrade/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1629010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1629010/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11012,7 +11036,217 @@
       "$1.99",
       "90%",
       null
+    ],
+    [
+      "Warhammer: Vermintide 2",
+      "https://store.steampowered.com/app/552500/Warhammer_Vermintide_2/?snr=1_7_7_230_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/552500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/552500/capsule_616x353.jpg",
+      "$29.99",
+      "$0.00",
+      "100%",
+      null
+    ],
+    [
+      "Halo: The Master Chief Collection",
+      "https://store.steampowered.com/app/976730/Halo_The_Master_Chief_Collection/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/976730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/976730/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Barro 2020",
+      "https://store.steampowered.com/app/1168660/Barro_2020/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1168660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1168660/capsule_616x353.jpg",
+      "$4.99",
+      "$0.49",
+      "90%",
+      null
+    ],
+    [
+      "Sunset Overdrive",
+      "https://store.steampowered.com/app/847370/Sunset_Overdrive/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/847370/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/847370/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Pillars of Eternity",
+      "https://store.steampowered.com/app/291650/Pillars_of_Eternity/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/291650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/291650/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Ori and the Will of the Wisps",
+      "https://store.steampowered.com/app/1057090/Ori_and_the_Will_of_the_Wisps/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1057090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1057090/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Celeste",
+      "https://store.steampowered.com/app/504230/Celeste/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/504230/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/504230/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "State of Decay 2: Juggernaut Edition",
+      "https://store.steampowered.com/app/495420/State_of_Decay_2_Juggernaut_Edition/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/495420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/495420/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Company of Heroes 2",
+      "https://store.steampowered.com/app/231430/Company_of_Heroes_2/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/231430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/231430/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "We Happy Few",
+      "https://store.steampowered.com/app/320240/We_Happy_Few/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/320240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/320240/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "Age of Empires III: Definitive Edition (Base Game)",
+      "https://store.steampowered.com/app/2477660/Age_of_Empires_III_Definitive_Edition_Base_Game/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2477660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2477660/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Quantum Break",
+      "https://store.steampowered.com/app/474960/Quantum_Break/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/474960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/474960/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Pillars of Eternity II: Deadfire",
+      "https://store.steampowered.com/app/560130/Pillars_of_Eternity_II_Deadfire/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/560130/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/560130/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Halo Wars: Definitive Edition",
+      "https://store.steampowered.com/app/459220/Halo_Wars_Definitive_Edition/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/459220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/459220/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Psychonauts 2",
+      "https://store.steampowered.com/app/607080/Psychonauts_2/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/607080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/607080/capsule_616x353.jpg",
+      "$59.99",
+      "$11.99",
+      "80%",
+      null
+    ],
+    [
+      "Brutal Legend",
+      "https://store.steampowered.com/app/225260/Brutal_Legend/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/225260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/225260/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Warhammer: Vermintide 2 - Collector's Edition Upgrade",
+      "https://store.steampowered.com/app/737040/Warhammer_Vermintide_2__Collectors_Edition_Upgrade/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/737040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/737040/capsule_616x353.jpg",
+      "$15.99",
+      "$1.59",
+      "90%",
+      null
+    ],
+    [
+      "Company of Heroes",
+      "https://store.steampowered.com/app/228200/Company_of_Heroes/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/228200/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/228200/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "State of Decay: YOSE",
+      "https://store.steampowered.com/app/329430/State_of_Decay_YOSE/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/329430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/329430/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Age of Empires: Definitive Edition",
+      "https://store.steampowered.com/app/1017900/Age_of_Empires_Definitive_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1017900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1017900/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Psychonauts",
+      "https://store.steampowered.com/app/3830/Psychonauts/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3830/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-11-21 18:14:19"
+  "update_time": "2025-11-22 00:13:20"
 }
