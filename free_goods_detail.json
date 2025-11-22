@@ -1,5 +1,5 @@
 {
-  "total_count": 1265,
+  "total_count": 1276,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8312,6 +8312,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3359740/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Starborne: Frontiers",
+      "https://store.steampowered.com/app/3021540/Starborne_Frontiers/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3021540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3021540/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Ashen Empires",
+      "https://store.steampowered.com/app/937380/Ashen_Empires/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/937380/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/937380/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Kota`s New Journey",
+      "https://store.steampowered.com/app/3270680/Kotas_New_Journey/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3270680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3270680/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Backyard Hockey '02",
+      "https://store.steampowered.com/app/3170590/Backyard_Hockey_02/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3170590/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3170590/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -10574,7 +10606,77 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "Mafia II: Definitive Edition",
+      "https://store.steampowered.com/sub/342913/?snr=1_7_7_2300_150_6",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Borderlands 2 Game of the Year",
+      "https://store.steampowered.com/sub/32848/?snr=1_7_7_2300_150_4",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$8.79",
+      "78%",
+      null
+    ],
+    [
+      "Torment: Tides of Numenera",
+      "https://store.steampowered.com/app/272270/Torment_Tides_of_Numenera/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/272270/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/272270/capsule_616x353.jpg",
+      "$34.99",
+      "$8.74",
+      "75%",
+      null
+    ],
+    [
+      "Full Throttle Remastered",
+      "https://store.steampowered.com/app/228360/Full_Throttle_Remastered/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/228360/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/228360/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Trover Saves the Universe",
+      "https://store.steampowered.com/app/1051200/Trover_Saves_the_Universe/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1051200/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1051200/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Wandersong",
+      "https://store.steampowered.com/app/530320/Wandersong/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/530320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/530320/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Homeworld: Deserts of Kharak",
+      "https://store.steampowered.com/app/281610/Homeworld_Deserts_of_Kharak/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/281610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/281610/capsule_616x353.jpg",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2025-11-22 12:14:06"
+  "update_time": "2025-11-22 18:13:28"
 }
