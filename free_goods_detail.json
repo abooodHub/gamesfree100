@@ -1,5 +1,5 @@
 {
-  "total_count": 1276,
+  "total_count": 1298,
   "free_games": [
     [
       "Where Winds Meet",
@@ -10676,7 +10676,227 @@
       "$4.99",
       "90%",
       null
+    ],
+    [
+      "Immortals Fenyx Rising",
+      "https://store.steampowered.com/app/2221920/Immortals_Fenyx_Rising/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2221920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2221920/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Far Cry® New Dawn",
+      "https://store.steampowered.com/app/939960/Far_Cry_New_Dawn/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/939960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/939960/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Tom Clancy's Ghost Recon® Breakpoint",
+      "https://store.steampowered.com/app/2231380/Tom_Clancys_Ghost_Recon_Breakpoint/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2231380/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2231380/capsule_616x353.jpg",
+      "$59.99",
+      "$5.99",
+      "90%",
+      null
+    ],
+    [
+      "Far Cry® 6",
+      "https://store.steampowered.com/app/2369390/Far_Cry_6/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2369390/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2369390/capsule_616x353.jpg",
+      "$59.99",
+      "$11.99",
+      "80%",
+      null
+    ],
+    [
+      "Watch_Dogs™",
+      "https://store.steampowered.com/app/243470/Watch_Dogs/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/243470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/243470/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Skull and Bones",
+      "https://store.steampowered.com/app/2853730/Skull_and_Bones/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2853730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2853730/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Tom Clancy’s Rainbow Six® Extraction",
+      "https://store.steampowered.com/app/2379390/Tom_Clancys_Rainbow_Six_Extraction/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2379390/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2379390/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Anno 2205™",
+      "https://store.steampowered.com/app/375910/Anno_2205/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/375910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/375910/capsule_616x353.jpg",
+      "$39.99",
+      "$5.99",
+      "85%",
+      null
+    ],
+    [
+      "Watch_Dogs® 2",
+      "https://store.steampowered.com/app/447040/Watch_Dogs_2/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/447040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/447040/capsule_616x353.jpg",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "STAR WARS Jedi: Fallen Order Deluxe Edition",
+      "https://store.steampowered.com/sub/401587/?snr=1_7_7_2300_150_4",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "Far Cry® 4",
+      "https://store.steampowered.com/app/298110/Far_Cry_4/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/298110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/298110/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "South Park™: The Fractured But Whole™",
+      "https://store.steampowered.com/app/488790/South_Park_The_Fractured_But_Whole/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/488790/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/488790/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Riders Republic",
+      "https://store.steampowered.com/app/2290180/Riders_Republic/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2290180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2290180/capsule_616x353.jpg",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
+    ],
+    [
+      "Old World",
+      "https://store.steampowered.com/app/597180/Old_World/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/597180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/597180/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Rayman® Legends",
+      "https://store.steampowered.com/app/242550/Rayman_Legends/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/242550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/242550/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Shadow Gambit: The Cursed Crew",
+      "https://store.steampowered.com/app/1545560/Shadow_Gambit_The_Cursed_Crew/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1545560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1545560/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Star Trek™: Bridge Crew",
+      "https://store.steampowered.com/app/527100/Star_Trek_Bridge_Crew/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/527100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/527100/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Heroes® of Might & Magic® III - HD Edition",
+      "https://store.steampowered.com/app/297000/Heroes_of_Might__Magic_III__HD_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/297000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/297000/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Gold Mining Simulator - Collector's Edition Upgrade",
+      "https://store.steampowered.com/app/715070/Gold_Mining_Simulator__Collectors_Edition_Upgrade/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/715070/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/715070/capsule_616x353.jpg",
+      "$9.99",
+      "$1.49",
+      "85%",
+      null
+    ],
+    [
+      "Age of Empires III: Definitive Edition - Mexico Civilization",
+      "https://store.steampowered.com/app/1817370/Age_of_Empires_III_Definitive_Edition__Mexico_Civilization/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1817370/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1817370/capsule_616x353.jpg",
+      "$5.99",
+      "$1.49",
+      "75%",
+      null
+    ],
+    [
+      "ReCore: Definitive Edition",
+      "https://store.steampowered.com/app/537450/ReCore_Definitive_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/537450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/537450/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "State of Decay 2 Two-Disc Soundtrack",
+      "https://store.steampowered.com/app/1249770/State_of_Decay_2_TwoDisc_Soundtrack/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1249770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1249770/capsule_616x353.jpg",
+      "$12.99",
+      "$3.24",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-11-22 18:13:28"
+  "update_time": "2025-11-23 00:12:42"
 }
