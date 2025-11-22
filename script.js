@@ -80,7 +80,9 @@ function fetchAllData() {
     showLoading();
 
     files.forEach(([key, file]) => {
-        fetch(file)
+        // إضافة timestamp لتجنب cache المتصفح
+        const cacheBuster = '?t=' + Date.now();
+        fetch(file + cacheBuster)
             .then(response => {
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
@@ -125,6 +127,22 @@ function fetchAllData() {
                 }
             });
     });
+
+    // إعداد auto-refresh للبيانات كل 6 ساعات
+    setupAutoRefresh();
+}
+
+// آلية auto-refresh للبيانات
+function setupAutoRefresh() {
+    // تحديث البيانات كل 6 ساعات (6 * 60 * 60 * 1000 = 21600000 ms)
+    const refreshInterval = 6 * 60 * 60 * 1000;
+
+    setInterval(() => {
+        console.log('🔄 تحديث تلقائي للبيانات...');
+        fetchAllData();
+    }, refreshInterval);
+
+    console.log('✅ تم تفعيل التحديث التلقائي كل 6 ساعات');
 }
 
 
