@@ -1,5 +1,5 @@
 {
-  "total_count": 1341,
+  "total_count": 1348,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8536,6 +8536,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2552850/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Gamer Stop Simulator : Prologue",
+      "https://store.steampowered.com/app/3811880/Gamer_Stop_Simulator__Prologue/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3811880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3811880/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11278,7 +11286,67 @@
       "$0.74",
       "85%",
       null
+    ],
+    [
+      "Poly Bridge",
+      "https://store.steampowered.com/app/367450/Poly_Bridge/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/367450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/367450/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "Funko Fusion",
+      "https://store.steampowered.com/app/1843310/Funko_Fusion/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1843310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1843310/capsule_616x353.jpg",
+      "$34.99",
+      "$6.99",
+      "80%",
+      null
+    ],
+    [
+      "Poly Bridge 2",
+      "https://store.steampowered.com/app/1062160/Poly_Bridge_2/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1062160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1062160/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Summer Memories",
+      "https://store.steampowered.com/app/1227890/Summer_Memories/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1227890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1227890/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Mafia II: Definitive Edition",
+      "https://store.steampowered.com/sub/342913/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Rayman Raving Rabbids™",
+      "https://store.steampowered.com/app/15080/Rayman_Raving_Rabbids/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/15080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/15080/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-11-23 18:13:24"
+  "update_time": "2025-11-24 00:13:19"
 }
