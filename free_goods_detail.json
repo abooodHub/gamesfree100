@@ -1,5 +1,5 @@
 {
-  "total_count": 1321,
+  "total_count": 1336,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8496,6 +8496,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1680550/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Nexus Rumble: The Ultimate Showdown",
+      "https://store.steampowered.com/app/3027820/Nexus_Rumble_The_Ultimate_Showdown/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3027820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3027820/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Whimsical Artefacts",
+      "https://store.steampowered.com/app/3604800/Whimsical_Artefacts/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3604800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3604800/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Unfortunate Spacemen",
+      "https://store.steampowered.com/app/408900/Unfortunate_Spacemen/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/408900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/408900/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "瘟疫清零计划 Project Zero",
+      "https://store.steampowered.com/app/2088250/_Project_Zero/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2088250/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2088250/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11088,7 +11120,117 @@
       "$3.99",
       "80%",
       null
+    ],
+    [
+      "Prince of Persia: Warrior Within™",
+      "https://store.steampowered.com/app/13500/Prince_of_Persia_Warrior_Within/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/13500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/13500/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Red Faction Guerrilla Re-Mars-tered",
+      "https://store.steampowered.com/app/667720/Red_Faction_Guerrilla_ReMarstered/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/667720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/667720/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Anno 2070™",
+      "https://store.steampowered.com/app/48240/Anno_2070/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/48240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/48240/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Tom Clancy's Rainbow Six® Vegas",
+      "https://store.steampowered.com/app/13540/Tom_Clancys_Rainbow_Six_Vegas/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/13540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/13540/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Prince of Persia: The Two Thrones™",
+      "https://store.steampowered.com/app/13530/Prince_of_Persia_The_Two_Thrones/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/13530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/13530/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Homefront®: The Revolution",
+      "https://store.steampowered.com/app/223100/Homefront_The_Revolution/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/223100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/223100/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Valiant Hearts: The Great War™ / Soldats Inconnus : Mémoires de la Grande Guerre™",
+      "https://store.steampowered.com/app/260230/Valiant_Hearts_The_Great_War__Soldats_Inconnus__Mmoires_de_la_Grande_Guerre/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/260230/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/260230/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Prince of Persia®",
+      "https://store.steampowered.com/app/19980/Prince_of_Persia/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/19980/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/19980/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Might & Magic® Heroes® VII",
+      "https://store.steampowered.com/app/321960/Might__Magic_Heroes_VII/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/321960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/321960/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Prince of Persia: The Forgotten Sands™",
+      "https://store.steampowered.com/app/33320/Prince_of_Persia_The_Forgotten_Sands/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/33320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/33320/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "PHOGS!",
+      "https://store.steampowered.com/app/850320/PHOGS/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/850320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/850320/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-11-23 06:55:09"
+  "update_time": "2025-11-23 12:14:30"
 }
