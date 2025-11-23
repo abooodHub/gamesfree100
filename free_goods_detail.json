@@ -1,5 +1,5 @@
 {
-  "total_count": 1336,
+  "total_count": 1341,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8528,6 +8528,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2088250/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Tricky Doors",
+      "https://store.steampowered.com/app/2552850/Tricky_Doors/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2552850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2552850/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11230,7 +11238,47 @@
       "$4.99",
       "80%",
       null
+    ],
+    [
+      "Tom Clancy’s Ghost Recon® Breakpoint Year 1 Pass",
+      "https://store.steampowered.com/app/2231410/Tom_Clancys_Ghost_Recon_Breakpoint_Year_1_Pass/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2231410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2231410/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Chorus",
+      "https://store.steampowered.com/app/1153640/Chorus/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1153640/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1153640/capsule_616x353.jpg",
+      "$24.99",
+      "$3.74",
+      "85%",
+      null
+    ],
+    [
+      "En Garde!",
+      "https://store.steampowered.com/app/1654660/En_Garde/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1654660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1654660/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Gold Mining Simulator  - Frankenstein Machinery",
+      "https://store.steampowered.com/app/773500/Gold_Mining_Simulator___Frankenstein_Machinery/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/773500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/773500/capsule_616x353.jpg",
+      "$4.99",
+      "$0.74",
+      "85%",
+      null
     ]
   ],
-  "update_time": "2025-11-23 12:14:30"
+  "update_time": "2025-11-23 18:13:24"
 }
