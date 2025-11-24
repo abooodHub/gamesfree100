@@ -1,5 +1,5 @@
 {
-  "total_count": 1348,
+  "total_count": 1354,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8544,6 +8544,54 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3811880/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "GRIME II Demo",
+      "https://store.steampowered.com/app/4025170/GRIME_II_Demo/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4025170/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4025170/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Farlands: Tiny Harvest",
+      "https://store.steampowered.com/app/3896460/Farlands_Tiny_Harvest/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3896460/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3896460/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "New Day",
+      "https://store.steampowered.com/app/2428440/New_Day/?snr=1_7_7_230_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2428440/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2428440/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Starsand Island Demo",
+      "https://store.steampowered.com/app/3864220/Starsand_Island_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3864220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3864220/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "QPet",
+      "https://store.steampowered.com/app/1093890/QPet/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1093890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1093890/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Paunch",
+      "https://store.steampowered.com/app/792220/Paunch/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/792220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/792220/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11348,5 +11396,5 @@
       null
     ]
   ],
-  "update_time": "2025-11-24 00:13:19"
+  "update_time": "2025-11-24 06:54:47"
 }
