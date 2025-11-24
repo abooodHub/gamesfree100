@@ -1,5 +1,5 @@
 {
-  "total_count": 1354,
+  "total_count": 1358,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8592,6 +8592,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/792220/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Fallout 4: Creation Kit",
+      "https://store.steampowered.com/app/1946160/Fallout_4_Creation_Kit/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1946160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1946160/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "PngTuber Maker",
+      "https://store.steampowered.com/app/2266940/PngTuber_Maker/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2266940/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2266940/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Talisman: Digital Classic Edition",
+      "https://store.steampowered.com/app/247000/Talisman_Digital_Classic_Edition/?snr=1_7_7_2300_150_12",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/247000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/247000/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11394,7 +11418,17 @@
       "$2.49",
       "75%",
       null
+    ],
+    [
+      "Barro",
+      "https://store.steampowered.com/app/618140/Barro/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/618140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/618140/capsule_616x353.jpg",
+      "$4.99",
+      "$0.49",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2025-11-24 06:54:47"
+  "update_time": "2025-11-24 12:19:35"
 }
