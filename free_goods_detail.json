@@ -1,5 +1,5 @@
 {
-  "total_count": 1358,
+  "total_count": 1360,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8616,6 +8616,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/247000/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Mystina : Remaster Online",
+      "https://store.steampowered.com/app/3750430/Mystina__Remaster_Online/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3750430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3750430/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11428,7 +11436,17 @@
       "$0.49",
       "90%",
       null
+    ],
+    [
+      "Wargame: Red Dragon",
+      "https://store.steampowered.com/app/251060/Wargame_Red_Dragon/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/251060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/251060/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-11-24 12:19:35"
+  "update_time": "2025-11-24 18:18:10"
 }
