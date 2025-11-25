@@ -1,5 +1,5 @@
 {
-  "total_count": 1452,
+  "total_count": 1462,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8736,6 +8736,46 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2839050/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "DK Online",
+      "https://store.steampowered.com/app/781030/DK_Online/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/781030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/781030/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Flag Clicker",
+      "https://store.steampowered.com/app/2996990/Flag_Clicker/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2996990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2996990/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Watch",
+      "https://store.steampowered.com/app/894060/Watch/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/894060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/894060/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Sky Clash: Lords of Clans 3D",
+      "https://store.steampowered.com/app/630140/Sky_Clash_Lords_of_Clans_3D/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/630140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/630140/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "PyramidValley: Reborn",
+      "https://store.steampowered.com/app/3618760/PyramidValley_Reborn/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3618760/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3618760/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12338,7 +12378,57 @@
       "$1.99",
       "80%",
       null
+    ],
+    [
+      "Mortal Kombat XL",
+      "https://store.steampowered.com/sub/128345/?snr=1_7_7_2300_150_6",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "The Elder Scrolls IV: Oblivion® Game of the Year Edition Deluxe (2009)",
+      "https://store.steampowered.com/app/900883/The_Elder_Scrolls_IV_Oblivion_Game_of_the_Year_Edition_Deluxe_2009/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/900883/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/900883/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Fallout Classic Collection",
+      "https://store.steampowered.com/sub/45615/?snr=1_7_7_2300_150_5",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "The Survivalists",
+      "https://store.steampowered.com/app/897450/The_Survivalists/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/897450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/897450/capsule_616x353.jpg",
+      "$32.99",
+      "$3.29",
+      "90%",
+      null
+    ],
+    [
+      "The Escapists",
+      "https://store.steampowered.com/app/298630/The_Escapists/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/298630/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/298630/capsule_616x353.jpg",
+      "$17.99",
+      "$3.59",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-11-25 06:46:08"
+  "update_time": "2025-11-25 12:18:30"
 }
