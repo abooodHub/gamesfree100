@@ -1,5 +1,5 @@
 {
-  "total_count": 1462,
+  "total_count": 1470,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8776,6 +8776,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3618760/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Magical Princess Demo",
+      "https://store.steampowered.com/app/4109100/Magical_Princess_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4109100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4109100/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12428,7 +12436,77 @@
       "$3.59",
       "80%",
       null
+    ],
+    [
+      "Oblivion Game of the Year Deluxe",
+      "https://store.steampowered.com/sub/1679/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Borderlands 2 Game of the Year",
+      "https://store.steampowered.com/sub/32848/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$8.79",
+      "78%",
+      null
+    ],
+    [
+      "Mafia II: Definitive Edition",
+      "https://store.steampowered.com/sub/342913/?snr=1_7_7_2300_150_10",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Gal*Gun Returns",
+      "https://store.steampowered.com/app/1425730/GalGun_Returns/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1425730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1425730/capsule_616x353.jpg",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "Bad North: Jotunn Edition",
+      "https://store.steampowered.com/app/688420/Bad_North_Jotunn_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/688420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/688420/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Praey for the Gods",
+      "https://store.steampowered.com/app/494430/Praey_for_the_Gods/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/494430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/494430/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Hitman: Blood Money",
+      "https://store.steampowered.com/app/6860/Hitman_Blood_Money/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6860/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6860/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2025-11-25 12:18:30"
+  "update_time": "2025-11-25 18:17:15"
 }
