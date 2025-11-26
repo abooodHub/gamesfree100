@@ -1,5 +1,5 @@
 {
-  "total_count": 1489,
+  "total_count": 1492,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8856,6 +8856,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/844870/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Zerowake GATES",
+      "https://store.steampowered.com/app/3709790/Zerowake_GATES/?snr=1_7_7_230_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3709790/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3709790/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "FANTATALE",
+      "https://store.steampowered.com/app/3301040/FANTATALE/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3301040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3301040/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12678,7 +12694,17 @@
       "$4.99",
       "90%",
       null
+    ],
+    [
+      "WRC Generations – The FIA WRC Official Game",
+      "https://store.steampowered.com/app/1953520/WRC_Generations__The_FIA_WRC_Official_Game/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1953520/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1953520/capsule_616x353.jpg",
+      "$39.99",
+      "$5.99",
+      "85%",
+      null
     ]
   ],
-  "update_time": "2025-11-26 06:45:16"
+  "update_time": "2025-11-26 12:17:58"
 }
