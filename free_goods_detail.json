@@ -1,5 +1,5 @@
 {
-  "total_count": 1227,
+  "total_count": 1241,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8088,6 +8088,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2790700/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "最强祖师",
+      "https://store.steampowered.com/app/2936220/_/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2936220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2936220/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Reign of Guilds",
+      "https://store.steampowered.com/app/716350/Reign_of_Guilds/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/716350/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/716350/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Heroes Of The Dark",
+      "https://store.steampowered.com/app/1851330/Heroes_Of_The_Dark/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1851330/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1851330/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Insanity Clicker",
+      "https://store.steampowered.com/app/393530/Insanity_Clicker/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/393530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/393530/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -10250,7 +10282,107 @@
       "$1.99",
       "90%",
       null
+    ],
+    [
+      "Oblivion Game of the Year Deluxe",
+      "https://store.steampowered.com/sub/1679/?snr=1_7_7_2300_150_9",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Titanfall® 2",
+      "https://store.steampowered.com/app/1237970/Titanfall_2/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1237970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1237970/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Fallout Classic Collection",
+      "https://store.steampowered.com/sub/45615/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Mortal Kombat 11 Ultimate",
+      "https://store.steampowered.com/sub/518699/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "Kerbal Space Program",
+      "https://store.steampowered.com/app/220200/Kerbal_Space_Program/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/220200/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/220200/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Mass Effect™ Legendary Edition",
+      "https://store.steampowered.com/app/1328670/Mass_Effect_Legendary_Edition/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1328670/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1328670/capsule_616x353.jpg",
+      "$59.99",
+      "$5.99",
+      "90%",
+      null
+    ],
+    [
+      "Resident Evil 2",
+      "https://store.steampowered.com/app/883710/Resident_Evil_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/883710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/883710/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "Coromon",
+      "https://store.steampowered.com/app/1218210/Coromon/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1218210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1218210/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Star Trek™: Bridge Crew",
+      "https://store.steampowered.com/app/527100/Star_Trek_Bridge_Crew/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/527100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/527100/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Heroes® of Might & Magic® III - HD Edition",
+      "https://store.steampowered.com/app/297000/Heroes_of_Might__Magic_III__HD_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/297000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/297000/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-11-26 16:05:30"
+  "update_time": "2025-11-26 21:35:35"
 }
