@@ -1,9 +1,13 @@
 name: Update Free Games
 
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 on:
   schedule:
-    - cron: '0 */6 * * *'   # كل 6 ساعات
-  workflow_dispatch:        # تشغيل يدوي
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
   push:
     paths:
       - ".github/workflows/update.yml"
@@ -16,26 +20,26 @@ jobs:
       contents: write
 
     steps:
-      - name: 🔹 1) Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: 🔹 2) Setup Python
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      - name: 🔹 3) Install dependencies
+      - name: Install dependencies
         run: |
           pip install -r requirements.txt
 
-      - name: 🔹 4) Run scripts
+      - name: Run scripts
         run: |
           python steam.py
           python epic.py
           python gog.py
           python update_timestamp.py
 
-      - name: 🔹 5) Commit changes
+      - name: Commit & push changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
