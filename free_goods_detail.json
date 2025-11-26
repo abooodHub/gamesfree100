@@ -1,5 +1,5 @@
 {
-  "total_count": 1492,
+  "total_count": 1493,
   "free_games": [
     [
       "Where Winds Meet",
@@ -12704,7 +12704,17 @@
       "$5.99",
       "85%",
       null
+    ],
+    [
+      "Mount & Blade: Warband",
+      "https://store.steampowered.com/app/48700/Mount__Blade_Warband/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/48700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/48700/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-11-26 12:17:58"
+  "update_time": "2025-11-26 15:37:06"
 }
