@@ -1,5 +1,5 @@
 {
-  "total_count": 1269,
+  "total_count": 1281,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8232,6 +8232,78 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3359740/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "The Complex: Found Footage",
+      "https://store.steampowered.com/app/1942120/The_Complex_Found_Footage/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1942120/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1942120/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Island Saver",
+      "https://store.steampowered.com/app/1210250/Island_Saver/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1210250/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1210250/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Grind Hero: MMORPG",
+      "https://store.steampowered.com/app/3882310/Grind_Hero_MMORPG/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3882310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3882310/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Haven & Hearth",
+      "https://store.steampowered.com/app/3051280/Haven__Hearth/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3051280/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3051280/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Mansions of Madness",
+      "https://store.steampowered.com/app/478980/Mansions_of_Madness/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/478980/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/478980/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Tank Team",
+      "https://store.steampowered.com/app/2587450/Tank_Team/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2587450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2587450/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Kota`s New Journey",
+      "https://store.steampowered.com/app/3270680/Kotas_New_Journey/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3270680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3270680/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "IdleTale",
+      "https://store.steampowered.com/app/3196540/IdleTale/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3196540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3196540/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Resident Evil 7 Teaser: Beginning Hour",
+      "https://store.steampowered.com/app/530620/Resident_Evil_7_Teaser_Beginning_Hour/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/530620/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/530620/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -10634,7 +10706,37 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "Oblivion Game of the Year Deluxe",
+      "https://store.steampowered.com/sub/1679/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Mafia II: Definitive Edition",
+      "https://store.steampowered.com/sub/342913/?snr=1_7_7_2300_150_9",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Torchlight II",
+      "https://store.steampowered.com/app/200710/Torchlight_II/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/200710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/200710/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-11-27 05:02:59"
+  "update_time": "2025-11-27 09:41:26"
 }
