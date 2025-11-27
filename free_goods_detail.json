@@ -1,5 +1,5 @@
 {
-  "total_count": 1281,
+  "total_count": 1287,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8304,6 +8304,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/530620/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "PANOPTYCA : Idle RPG Manager",
+      "https://store.steampowered.com/app/3882730/PANOPTYCA__Idle_RPG_Manager/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3882730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3882730/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "PyramidValley: Reborn",
+      "https://store.steampowered.com/app/3618760/PyramidValley_Reborn/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3618760/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3618760/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Zombie Panic! Source",
+      "https://store.steampowered.com/app/17500/Zombie_Panic_Source/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/17500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/17500/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -10736,7 +10760,37 @@
       "$3.99",
       "80%",
       null
+    ],
+    [
+      "Batman: Arkham Collection",
+      "https://store.steampowered.com/sub/320795/?snr=1_7_7_2300_150_2",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "Borderlands 2 Game of the Year",
+      "https://store.steampowered.com/sub/32848/?snr=1_7_7_2300_150_6",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$8.79",
+      "78%",
+      null
+    ],
+    [
+      "Heroes of Hammerwatch",
+      "https://store.steampowered.com/app/677120/Heroes_of_Hammerwatch/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/677120/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/677120/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-11-27 09:41:26"
+  "update_time": "2025-11-27 15:57:26"
 }
