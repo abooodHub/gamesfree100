@@ -1,5 +1,5 @@
 {
-  "total_count": 1287,
+  "total_count": 1311,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8328,6 +8328,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/17500/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "4STORY : The Original",
+      "https://store.steampowered.com/app/3609170/4STORY__The_Original/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3609170/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3609170/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Emporea: Realms of War and Magic",
+      "https://store.steampowered.com/app/416450/Emporea_Realms_of_War_and_Magic/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/416450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/416450/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Rumble Fighter: Unleashed",
+      "https://store.steampowered.com/app/357500/Rumble_Fighter_Unleashed/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/357500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/357500/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Shop Legends",
+      "https://store.steampowered.com/app/982300/Shop_Legends/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/982300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/982300/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -10790,7 +10822,207 @@
       "$3.74",
       "75%",
       null
+    ],
+    [
+      "Warhammer 40,000: Darktide",
+      "https://store.steampowered.com/app/1361210/Warhammer_40000_Darktide/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1361210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1361210/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Total War: WARHAMMER III",
+      "https://store.steampowered.com/app/1142710/Total_War_WARHAMMER_III/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1142710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1142710/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "Total War: ATTILA",
+      "https://store.steampowered.com/app/325610/Total_War_ATTILA/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/325610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/325610/capsule_616x353.jpg",
+      "$44.99",
+      "$11.24",
+      "75%",
+      null
+    ],
+    [
+      "The Witcher 3: Wild Hunt - Complete Edition",
+      "https://store.steampowered.com/sub/124923/?snr=1_7_7_2300_150_4",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "Total War: ROME II - Emperor Edition",
+      "https://store.steampowered.com/app/214950/Total_War_ROME_II__Emperor_Edition/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/214950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/214950/capsule_616x353.jpg",
+      "$59.99",
+      "$11.99",
+      "80%",
+      null
+    ],
+    [
+      "Total War: WARHAMMER",
+      "https://store.steampowered.com/app/364360/Total_War_WARHAMMER/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/364360/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/364360/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "Total War: SHOGUN 2",
+      "https://store.steampowered.com/app/201270/Total_War_SHOGUN_2/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/201270/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/201270/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Total War: THREE KINGDOMS",
+      "https://store.steampowered.com/app/779340/Total_War_THREE_KINGDOMS/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/779340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/779340/capsule_616x353.jpg",
+      "$59.99",
+      "$11.99",
+      "80%",
+      null
+    ],
+    [
+      "Total War: NAPOLEON – Definitive Edition",
+      "https://store.steampowered.com/app/34030/Total_War_NAPOLEON__Definitive_Edition/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/34030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/34030/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Total War: ROME REMASTERED",
+      "https://store.steampowered.com/app/885970/Total_War_ROME_REMASTERED/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/885970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/885970/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Total War: EMPIRE – Definitive Edition",
+      "https://store.steampowered.com/app/10500/Total_War_EMPIRE__Definitive_Edition/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/10500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/10500/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Total War: MEDIEVAL II – Definitive Edition",
+      "https://store.steampowered.com/app/4700/Total_War_MEDIEVAL_II__Definitive_Edition/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4700/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Black Mesa",
+      "https://store.steampowered.com/app/362890/Black_Mesa/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/362890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/362890/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "The Witcher 3: Wild Hunt",
+      "https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/capsule_616x353.jpg",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
+    ],
+    [
+      "Total War: WARHAMMER II",
+      "https://store.steampowered.com/app/594570/Total_War_WARHAMMER_II/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/594570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/594570/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "Total War: NAPOLEON - Definitive Edition",
+      "https://store.steampowered.com/sub/17093/?snr=1_7_7_2300_150_10",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Total War: MEDIEVAL II - Definitive Edition",
+      "https://store.steampowered.com/sub/460/?snr=1_7_7_2300_150_10",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Total War: PHARAOH",
+      "https://store.steampowered.com/app/1937780/Total_War_PHARAOH/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1937780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1937780/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Total War: Empire - Definitive Edition",
+      "https://store.steampowered.com/sub/17092/?snr=1_7_7_2300_150_10",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "The Bard's Tale Trilogy",
+      "https://store.steampowered.com/app/843260/The_Bards_Tale_Trilogy/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/843260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/843260/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-11-27 15:57:26"
+  "update_time": "2025-11-27 21:36:56"
 }
