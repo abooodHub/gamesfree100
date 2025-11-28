@@ -1,5 +1,5 @@
 {
-  "total_count": 1349,
+  "total_count": 1353,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8472,6 +8472,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/581130/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "MONSTER CARDS",
+      "https://store.steampowered.com/app/2010530/MONSTER_CARDS/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2010530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2010530/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11374,7 +11382,37 @@
       "$5.99",
       "76%",
       null
+    ],
+    [
+      "Total War: MEDIEVAL II - Definitive Edition",
+      "https://store.steampowered.com/sub/460/?snr=1_7_7_2300_150_6",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Total War: NAPOLEON - Definitive Edition",
+      "https://store.steampowered.com/sub/17093/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Thronebreaker: The Witcher Tales",
+      "https://store.steampowered.com/app/973760/Thronebreaker_The_Witcher_Tales/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/973760/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/973760/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-11-28 09:41:24"
+  "update_time": "2025-11-28 15:55:53"
 }
