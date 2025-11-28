@@ -1,5 +1,5 @@
 {
-  "total_count": 1353,
+  "total_count": 1362,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8480,6 +8480,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2010530/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Cubic Castles",
+      "https://store.steampowered.com/app/317470/Cubic_Castles/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/317470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/317470/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Pool Live Tour Max",
+      "https://store.steampowered.com/app/4061130/Pool_Live_Tour_Max/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4061130/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4061130/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Sonic Generations Collection",
+      "https://store.steampowered.com/app/71340/Sonic_Generations_Collection/?snr=1_7_7_2300_150_15",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/71340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/71340/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11412,7 +11436,67 @@
       "$3.99",
       "80%",
       null
+    ],
+    [
+      "Danganronpa 2: Goodbye Despair",
+      "https://store.steampowered.com/app/413420/Danganronpa_2_Goodbye_Despair/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/413420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/413420/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Danganronpa Another Episode: Ultra Despair Girls",
+      "https://store.steampowered.com/app/555950/Danganronpa_Another_Episode_Ultra_Despair_Girls/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/555950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/555950/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Danganronpa: Trigger Happy Havoc",
+      "https://store.steampowered.com/app/413410/Danganronpa_Trigger_Happy_Havoc/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/413410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/413410/capsule_616x353.jpg",
+      "$19.99",
+      "$1.19",
+      "94%",
+      null
+    ],
+    [
+      "Dishonored - Definitive Edition",
+      "https://store.steampowered.com/sub/31292/?snr=1_7_7_2300_150_6",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Friends vs Friends",
+      "https://store.steampowered.com/app/1785150/Friends_vs_Friends/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1785150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1785150/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Mortal Kombat XL",
+      "https://store.steampowered.com/sub/128345/?snr=1_7_7_2300_150_10",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-11-28 15:55:53"
+  "update_time": "2025-11-28 21:37:04"
 }
