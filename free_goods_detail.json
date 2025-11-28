@@ -1,5 +1,5 @@
 {
-  "total_count": 1311,
+  "total_count": 1336,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8360,6 +8360,46 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/982300/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Handy Dandy",
+      "https://store.steampowered.com/app/1234400/Handy_Dandy/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1234400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1234400/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Darza's Dominion",
+      "https://store.steampowered.com/app/1895130/Darzas_Dominion/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1895130/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1895130/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Miss Paint Demo",
+      "https://store.steampowered.com/app/2755990/Miss_Paint/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2755990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2755990/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Psychopomp",
+      "https://store.steampowered.com/app/2771670/Psychopomp/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2771670/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2771670/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "100 hidden frogs",
+      "https://store.steampowered.com/app/1806840/100_hidden_frogs/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1806840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1806840/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11022,7 +11062,207 @@
       "$2.99",
       "80%",
       null
+    ],
+    [
+      "The Witcher 3: Wild Hunt - Complete Edition",
+      "https://store.steampowered.com/sub/124923/?snr=1_7_7_2300_150_1",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "Mortal Kombat 11 Ultimate",
+      "https://store.steampowered.com/sub/518699/?snr=1_7_7_2300_150_9",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "Super Monkey Ball Banana Mania",
+      "https://store.steampowered.com/app/1316910/Super_Monkey_Ball_Banana_Mania/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1316910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1316910/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "A Total War Saga: THRONES OF BRITANNIA",
+      "https://store.steampowered.com/app/712100/A_Total_War_Saga_THRONES_OF_BRITANNIA/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/712100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/712100/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Super Mega Baseball™ 4",
+      "https://store.steampowered.com/app/1487210/Super_Mega_Baseball_4/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1487210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1487210/capsule_616x353.jpg",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "A Total War Saga: TROY",
+      "https://store.steampowered.com/app/1099410/A_Total_War_Saga_TROY/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1099410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1099410/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Total War: NAPOLEON - Definitive Edition",
+      "https://store.steampowered.com/sub/17093/?snr=1_7_7_2300_150_6",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Fallout Classic Collection",
+      "https://store.steampowered.com/sub/45615/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Mortal Kombat XL",
+      "https://store.steampowered.com/sub/128345/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "The Witcher 2: Assassins of Kings Enhanced Edition",
+      "https://store.steampowered.com/app/20920/The_Witcher_2_Assassins_of_Kings_Enhanced_Edition/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/20920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/20920/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Two Point Hospital",
+      "https://store.steampowered.com/app/535930/Two_Point_Hospital/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/535930/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/535930/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Warhammer 40,000: Space Marine - Anniversary Edition",
+      "https://store.steampowered.com/app/55150/Warhammer_40000_Space_Marine__Anniversary_Edition/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/55150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/55150/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Like a Dragon: Ishin!",
+      "https://store.steampowered.com/app/1805480/Like_a_Dragon_Ishin/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1805480/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1805480/capsule_616x353.jpg",
+      "$59.99",
+      "$11.99",
+      "80%",
+      null
+    ],
+    [
+      "The Witcher: Enhanced Edition Director's Cut",
+      "https://store.steampowered.com/app/20900/The_Witcher_Enhanced_Edition_Directors_Cut/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/20900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/20900/capsule_616x353.jpg",
+      "$9.99",
+      "$1.49",
+      "85%",
+      null
+    ],
+    [
+      "Total War: Empire - Definitive Edition",
+      "https://store.steampowered.com/sub/17092/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Two Point Campus",
+      "https://store.steampowered.com/app/1649080/Two_Point_Campus/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1649080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1649080/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Total War: MEDIEVAL II - Definitive Edition",
+      "https://store.steampowered.com/sub/460/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Warhammer 40,000: Dawn of War III",
+      "https://store.steampowered.com/app/285190/Warhammer_40000_Dawn_of_War_III/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/285190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/285190/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Clue/Cluedo: Classic Edition",
+      "https://store.steampowered.com/app/794800/ClueCluedo_Classic_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/794800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/794800/capsule_616x353.jpg",
+      "$16.99",
+      "$4.24",
+      "75%",
+      null
+    ],
+    [
+      "EA SPORTS™ PGA TOUR™",
+      "https://store.steampowered.com/app/1677350/EA_SPORTS_PGA_TOUR/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1677350/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1677350/capsule_616x353.jpg",
+      "$69.99",
+      "$6.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2025-11-27 21:36:56"
+  "update_time": "2025-11-28 05:02:26"
 }
