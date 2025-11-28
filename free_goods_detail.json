@@ -1,5 +1,5 @@
 {
-  "total_count": 1336,
+  "total_count": 1349,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8400,6 +8400,78 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1806840/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "On-Together: Virtual Co-Working Demo",
+      "https://store.steampowered.com/app/3707400/OnTogether_Virtual_CoWorking/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3707400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3707400/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "FrostBound Demo",
+      "https://store.steampowered.com/app/3693550/FrostBound_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3693550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3693550/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Phoenix 2",
+      "https://store.steampowered.com/app/2678070/Phoenix_2/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2678070/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2678070/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Backrooms: Realm of Shadows",
+      "https://store.steampowered.com/app/2327480/Backrooms_Realm_of_Shadows/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2327480/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2327480/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "侠义九州之武林传奇",
+      "https://store.steampowered.com/app/3967270/_/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3967270/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3967270/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Hide and Shriek",
+      "https://store.steampowered.com/app/480430/Hide_and_Shriek/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/480430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/480430/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "瘟疫清零计划 Project Zero",
+      "https://store.steampowered.com/app/2088250/_Project_Zero/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2088250/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2088250/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Street Fighter 6 Demo",
+      "https://store.steampowered.com/app/1364780/Street_Fighter_6/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1364780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1364780/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Metal Waltz: Anime tank girls",
+      "https://store.steampowered.com/app/581130/Metal_Waltz_Anime_tank_girls/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/581130/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/581130/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11262,7 +11334,47 @@
       "$6.99",
       "90%",
       null
+    ],
+    [
+      "Mortal Kombat 11 Ultimate",
+      "https://store.steampowered.com/sub/518699/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "Total War: NAPOLEON - Definitive Edition",
+      "https://store.steampowered.com/sub/17093/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Oblivion Game of the Year Deluxe",
+      "https://store.steampowered.com/sub/1679/?snr=1_7_7_2300_150_10",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Heads Will Roll: Reforged",
+      "https://store.steampowered.com/app/687800/Heads_Will_Roll_Reforged/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/687800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/687800/capsule_616x353.jpg",
+      "$24.99",
+      "$5.99",
+      "76%",
+      null
     ]
   ],
-  "update_time": "2025-11-28 05:02:26"
+  "update_time": "2025-11-28 09:41:24"
 }
