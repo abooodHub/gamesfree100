@@ -1,5 +1,5 @@
 {
-  "total_count": 1383,
+  "total_count": 1386,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8624,6 +8624,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3601140/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "The Lord of the Rings: Journeys in Middle-earth",
+      "https://store.steampowered.com/app/1003400/The_Lord_of_the_Rings_Journeys_in_Middleearth/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1003400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1003400/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11676,7 +11684,27 @@
       "$2.99",
       "90%",
       null
+    ],
+    [
+      "Total War: MEDIEVAL II - Definitive Edition",
+      "https://store.steampowered.com/sub/460/?snr=1_7_7_2300_150_9",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Total War: Empire - Definitive Edition",
+      "https://store.steampowered.com/sub/17092/?snr=1_7_7_2300_150_9",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-11-29 05:02:14"
+  "update_time": "2025-11-29 09:38:08"
 }
