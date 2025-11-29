@@ -1,5 +1,5 @@
 {
-  "total_count": 1386,
+  "total_count": 1391,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8632,6 +8632,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1003400/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "SolForge Fusion",
+      "https://store.steampowered.com/app/2400960/SolForge_Fusion/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2400960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2400960/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Hello Guest: Hello Neighbor 2 pre-alpha",
+      "https://store.steampowered.com/app/1504150/Hello_Guest_Hello_Neighbor_2_prealpha/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1504150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1504150/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Epic Roller Coasters",
+      "https://store.steampowered.com/app/787790/Epic_Roller_Coasters/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/787790/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/787790/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11704,7 +11728,27 @@
       "$6.24",
       "75%",
       null
+    ],
+    [
+      "Total War: Empire - Definitive Edition",
+      "https://store.steampowered.com/sub/17092/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "To the Moon",
+      "https://store.steampowered.com/app/206440/To_the_Moon/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/206440/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/206440/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-11-29 09:38:08"
+  "update_time": "2025-11-29 15:52:26"
 }
