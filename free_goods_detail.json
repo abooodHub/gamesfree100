@@ -1,5 +1,5 @@
 {
-  "total_count": 1462,
+  "total_count": 1465,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9168,6 +9168,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/247000/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Blind Box",
+      "https://store.steampowered.com/app/3836710/Blind_Box/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3836710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3836710/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Pixel Puzzles Junior Jigsaw",
+      "https://store.steampowered.com/app/455690/Pixel_Puzzles_Junior_Jigsaw/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/455690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/455690/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "DORONKO WANKO",
+      "https://store.steampowered.com/app/2512840/DORONKO_WANKO/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2512840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2512840/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12332,5 +12356,5 @@
       null
     ]
   ],
-  "update_time": "2025-11-29 21:36:23"
+  "update_time": "2025-11-30 05:22:56"
 }
