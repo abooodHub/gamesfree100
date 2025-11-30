@@ -1,5 +1,5 @@
 {
-  "total_count": 1469,
+  "total_count": 1471,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9224,6 +9224,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1926680/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "轮回修仙传 Demo",
+      "https://store.steampowered.com/app/3458620/_/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3458620/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3458620/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Winds of Valen",
+      "https://store.steampowered.com/app/4135880/Winds_of_Valen/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4135880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4135880/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12388,5 +12404,5 @@
       null
     ]
   ],
-  "update_time": "2025-11-30 09:39:21"
+  "update_time": "2025-11-30 15:51:50"
 }
