@@ -1,5 +1,5 @@
 {
-  "total_count": 1471,
+  "total_count": 1473,
   "free_games": [
     [
       "Where Winds Meet",
@@ -12402,7 +12402,27 @@
       "$2.49",
       "75%",
       null
+    ],
+    [
+      "Marvel vs. Capcom: Infinite",
+      "https://store.steampowered.com/app/493840/Marvel_vs_Capcom_Infinite/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/493840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/493840/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "The Gunk",
+      "https://store.steampowered.com/app/1087760/The_Gunk/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1087760/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1087760/capsule_616x353.jpg",
+      "$18.45",
+      "$1.00",
+      "95%",
+      null
     ]
   ],
-  "update_time": "2025-11-30 15:51:50"
+  "update_time": "2025-11-30 21:36:25"
 }
