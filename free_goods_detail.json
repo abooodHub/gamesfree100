@@ -1,5 +1,5 @@
 {
-  "total_count": 1465,
+  "total_count": 1469,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9192,6 +9192,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2512840/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "MR DONALD: SAVE VATICAN",
+      "https://store.steampowered.com/app/3520250/MR_DONALD_SAVE_VATICAN/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3520250/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3520250/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Harventure Demo",
+      "https://store.steampowered.com/app/4140980/Harventure_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4140980/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4140980/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Resident Evil 2 \"R.P.D. Demo\"",
+      "https://store.steampowered.com/app/1168280/Resident_Evil_2_RPD_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1168280/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1168280/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "FUCK PUTIN",
+      "https://store.steampowered.com/app/1926680/FUCK_PUTIN/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1926680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1926680/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12356,5 +12388,5 @@
       null
     ]
   ],
-  "update_time": "2025-11-30 05:22:56"
+  "update_time": "2025-11-30 09:39:21"
 }
