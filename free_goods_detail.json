@@ -1,5 +1,5 @@
 {
-  "total_count": 1479,
+  "total_count": 1492,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9248,6 +9248,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1871580/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Cats Hidden in Christmas",
+      "https://store.steampowered.com/app/2933990/Cats_Hidden_in_Christmas/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2933990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2933990/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12480,7 +12488,127 @@
       "$8.79",
       "78%",
       null
+    ],
+    [
+      "THE KING OF FIGHTERS XIV STEAM EDITION",
+      "https://store.steampowered.com/app/571260/THE_KING_OF_FIGHTERS_XIV_STEAM_EDITION/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/571260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/571260/capsule_616x353.jpg",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "EVERSPACE™ 2",
+      "https://store.steampowered.com/app/1128920/EVERSPACE_2/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1128920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1128920/capsule_616x353.jpg",
+      "$49.99",
+      "$12.49",
+      "75%",
+      null
+    ],
+    [
+      "Deadly Premonition 2: A Blessing in Disguise",
+      "https://store.steampowered.com/app/1271100/Deadly_Premonition_2_A_Blessing_in_Disguise/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1271100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1271100/capsule_616x353.jpg",
+      "$39.99",
+      "$1.99",
+      "95%",
+      null
+    ],
+    [
+      "Beyond: Two Souls",
+      "https://store.steampowered.com/app/960990/Beyond_Two_Souls/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/960990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/960990/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Heavy Rain",
+      "https://store.steampowered.com/app/960910/Heavy_Rain/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/960910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/960910/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Tom Clancy’s The Division® 2",
+      "https://store.steampowered.com/app/2221490/Tom_Clancys_The_Division_2/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2221490/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2221490/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Arma 3",
+      "https://store.steampowered.com/app/107410/Arma_3/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/107410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/107410/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Total War: Empire - Definitive Edition",
+      "https://store.steampowered.com/sub/17092/?snr=1_7_7_2300_150_6",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Wavetale",
+      "https://store.steampowered.com/app/1823930/Wavetale/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1823930/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1823930/capsule_616x353.jpg",
+      "$29.99",
+      "$1.49",
+      "95%",
+      null
+    ],
+    [
+      "White Shadows",
+      "https://store.steampowered.com/app/1158890/White_Shadows/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1158890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1158890/capsule_616x353.jpg",
+      "$19.99",
+      "$1.19",
+      "94%",
+      null
+    ],
+    [
+      "Wasteland 2: Director's Cut",
+      "https://store.steampowered.com/app/240760/Wasteland_2_Directors_Cut/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/240760/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/240760/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Risk of Rain (2013)",
+      "https://store.steampowered.com/app/248820/Risk_of_Rain_2013/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/248820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/248820/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-12-01 15:59:09"
+  "update_time": "2025-12-01 21:45:00"
 }
