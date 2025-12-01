@@ -1,5 +1,5 @@
 {
-  "total_count": 1473,
+  "total_count": 1477,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9240,6 +9240,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4135880/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Our Life: Now & Forever Demo",
+      "https://store.steampowered.com/app/1871580/Our_Life_Now__Forever_Demo/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1871580/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1871580/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12422,7 +12430,37 @@
       "$1.00",
       "95%",
       null
+    ],
+    [
+      "Total War: MEDIEVAL II - Definitive Edition",
+      "https://store.steampowered.com/sub/460/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Hitman: Blood Money",
+      "https://store.steampowered.com/app/6860/Hitman_Blood_Money/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6860/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6860/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "Just Cause 2",
+      "https://store.steampowered.com/app/8190/Just_Cause_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/8190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/8190/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2025-11-30 21:36:25"
+  "update_time": "2025-12-01 05:31:30"
 }
