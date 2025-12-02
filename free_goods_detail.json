@@ -1,5 +1,5 @@
 {
-  "total_count": 1492,
+  "total_count": 1501,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9256,6 +9256,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2933990/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Custom Fortress 2 - Open Beta",
+      "https://store.steampowered.com/app/3768450/Custom_Fortress_2__Open_Beta/?snr=1_7_7_230_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3768450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3768450/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Cloudheim Demo",
+      "https://store.steampowered.com/app/4017410/Cloudheim_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4017410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4017410/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Top Heroes",
+      "https://store.steampowered.com/app/4007740/Top_Heroes/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4007740/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4007740/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Ant Colony: Wild Forest Demo",
+      "https://store.steampowered.com/app/4054570/Ant_Colony_Wild_Forest_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4054570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4054570/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12608,7 +12640,57 @@
       "$1.99",
       "80%",
       null
+    ],
+    [
+      "Dustborn",
+      "https://store.steampowered.com/app/721180/Dustborn/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/721180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/721180/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Descenders",
+      "https://store.steampowered.com/app/681280/Descenders/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/681280/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/681280/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Wild Bastards",
+      "https://store.steampowered.com/app/1660840/Wild_Bastards/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1660840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1660840/capsule_616x353.jpg",
+      "$34.99",
+      "$8.74",
+      "75%",
+      null
+    ],
+    [
+      "Under The Waves",
+      "https://store.steampowered.com/app/1975440/Under_The_Waves/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1975440/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1975440/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Fahrenheit: Indigo Prophecy Remastered",
+      "https://store.steampowered.com/app/312840/Fahrenheit_Indigo_Prophecy_Remastered/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/312840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/312840/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2025-12-01 21:45:00"
+  "update_time": "2025-12-02 05:07:22"
 }
