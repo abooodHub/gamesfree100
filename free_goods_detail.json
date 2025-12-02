@@ -1,5 +1,5 @@
 {
-  "total_count": 1501,
+  "total_count": 1506,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9288,6 +9288,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4054570/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Shrimp",
+      "https://store.steampowered.com/app/3054490/Shrimp/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3054490/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3054490/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Clicker Cuties - Anime Idler",
+      "https://store.steampowered.com/app/3188910/Clicker_Cuties__Anime_Idler/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3188910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3188910/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12690,7 +12706,37 @@
       "$0.99",
       "90%",
       null
+    ],
+    [
+      "EVERSPACE™",
+      "https://store.steampowered.com/app/396750/EVERSPACE/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/396750/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/396750/capsule_616x353.jpg",
+      "$19.99",
+      "$0.99",
+      "95%",
+      null
+    ],
+    [
+      "Shenmue I & II",
+      "https://store.steampowered.com/app/758330/Shenmue_I__II/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/758330/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/758330/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Destiny 2: Lightfall",
+      "https://store.steampowered.com/app/1945340/Destiny_2_Lightfall/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1945340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1945340/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2025-12-02 05:07:22"
+  "update_time": "2025-12-02 09:42:39"
 }
