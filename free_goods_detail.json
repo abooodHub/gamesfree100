@@ -1,5 +1,5 @@
 {
-  "total_count": 1506,
+  "total_count": 1508,
   "free_games": [
     [
       "Where Winds Meet",
@@ -12736,7 +12736,27 @@
       "$2.99",
       "90%",
       null
+    ],
+    [
+      "Mafia II: Definitive Edition",
+      "https://store.steampowered.com/sub/342913/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Fallout Classic Collection",
+      "https://store.steampowered.com/sub/45615/?snr=1_7_7_2300_150_5",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-02 09:42:39"
+  "update_time": "2025-12-02 15:59:50"
 }
