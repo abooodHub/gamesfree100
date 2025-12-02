@@ -1,5 +1,5 @@
 {
-  "total_count": 1508,
+  "total_count": 1557,
   "free_games": [
     [
       "Where Winds Meet",
@@ -12756,7 +12756,497 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "Tom Clancy’s Ghost Recon® Breakpoint Year 1 Pass",
+      "https://store.steampowered.com/app/2231410/Tom_Clancys_Ghost_Recon_Breakpoint_Year_1_Pass/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2231410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2231410/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "The Surge",
+      "https://store.steampowered.com/app/378540/The_Surge/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/378540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/378540/capsule_616x353.jpg",
+      "$14.99",
+      "$1.94",
+      "87%",
+      null
+    ],
+    [
+      "Dark Deity",
+      "https://store.steampowered.com/app/1374840/Dark_Deity/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1374840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1374840/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "The Escapists",
+      "https://store.steampowered.com/app/298630/The_Escapists/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/298630/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/298630/capsule_616x353.jpg",
+      "$17.99",
+      "$3.59",
+      "80%",
+      null
+    ],
+    [
+      "Starpoint Gemini Warlords",
+      "https://store.steampowered.com/app/419480/Starpoint_Gemini_Warlords/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/419480/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/419480/capsule_616x353.jpg",
+      "$34.99",
+      "$5.24",
+      "85%",
+      null
+    ],
+    [
+      "SOS OPS!",
+      "https://store.steampowered.com/app/2475460/SOS_OPS/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2475460/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2475460/capsule_616x353.jpg",
+      "$5.99",
+      "$0.89",
+      "85%",
+      null
+    ],
+    [
+      "Burnout™ Paradise Remastered",
+      "https://store.steampowered.com/app/1238080/Burnout_Paradise_Remastered/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1238080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1238080/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Prince of Persia®: The Sands of Time",
+      "https://store.steampowered.com/app/13600/Prince_of_Persia_The_Sands_of_Time/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/13600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/13600/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "GRIS",
+      "https://store.steampowered.com/app/683320/GRIS/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/683320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/683320/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Lost in Random™",
+      "https://store.steampowered.com/app/1462570/Lost_in_Random/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1462570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1462570/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Techtonica",
+      "https://store.steampowered.com/app/1457320/Techtonica/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1457320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1457320/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Poly Bridge",
+      "https://store.steampowered.com/app/367450/Poly_Bridge/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/367450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/367450/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "Supraland",
+      "https://store.steampowered.com/app/813630/Supraland/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/813630/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/813630/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "SPORE™ Galactic Adventures",
+      "https://store.steampowered.com/app/24720/SPORE_Galactic_Adventures/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/24720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/24720/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Duke Nukem Forever",
+      "https://store.steampowered.com/app/57900/Duke_Nukem_Forever/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/57900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/57900/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "STAR WARS Jedi: Fallen Order Deluxe Edition",
+      "https://store.steampowered.com/sub/401587/?snr=1_7_7_2300_150_3",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "Mafia II: Definitive Edition",
+      "https://store.steampowered.com/sub/342913/?snr=1_7_7_2300_150_6",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Besiege",
+      "https://store.steampowered.com/app/346010/Besiege/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/346010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/346010/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "INDUSTRIA",
+      "https://store.steampowered.com/app/1172650/INDUSTRIA/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1172650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1172650/capsule_616x353.jpg",
+      "$19.99",
+      "$2.39",
+      "88%",
+      null
+    ],
+    [
+      "IL-2 Sturmovik: Battle of Normandy",
+      "https://store.steampowered.com/app/2118560/IL2_Sturmovik_Battle_of_Normandy/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2118560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2118560/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "Mortal Kombat 11 Ultimate",
+      "https://store.steampowered.com/sub/518699/?snr=1_7_7_2300_150_5",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "Total War: NAPOLEON - Definitive Edition",
+      "https://store.steampowered.com/sub/17093/?snr=1_7_7_2300_150_5",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Borderlands 2 Game of the Year",
+      "https://store.steampowered.com/sub/32848/?snr=1_7_7_2300_150_4",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$8.79",
+      "78%",
+      null
+    ],
+    [
+      "Day of the Tentacle Remastered",
+      "https://store.steampowered.com/app/388210/Day_of_the_Tentacle_Remastered/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/388210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/388210/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Rubber Bandits",
+      "https://store.steampowered.com/app/1206610/Rubber_Bandits/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1206610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1206610/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Mayhem Brawler",
+      "https://store.steampowered.com/app/1306720/Mayhem_Brawler/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1306720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1306720/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Lysfanga: The Time Shift Warrior",
+      "https://store.steampowered.com/app/2161620/Lysfanga_The_Time_Shift_Warrior/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2161620/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2161620/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Prince of Persia®",
+      "https://store.steampowered.com/app/19980/Prince_of_Persia/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/19980/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/19980/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "DIRT 5",
+      "https://store.steampowered.com/app/1038250/DIRT_5/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1038250/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1038250/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "SteamWorld Dig 2",
+      "https://store.steampowered.com/app/571310/SteamWorld_Dig_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/571310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/571310/capsule_616x353.jpg",
+      "$19.99",
+      "$1.19",
+      "94%",
+      null
+    ],
+    [
+      "Tom Clancy's Rainbow Six® Vegas 2",
+      "https://store.steampowered.com/app/15120/Tom_Clancys_Rainbow_Six_Vegas_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/15120/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/15120/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "F.E.A.R.",
+      "https://store.steampowered.com/app/21090/FEAR/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/21090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/21090/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "UBERMOSH",
+      "https://store.steampowered.com/app/357070/UBERMOSH/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/357070/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/357070/capsule_616x353.jpg",
+      "$4.99",
+      "$0.49",
+      "90%",
+      null
+    ],
+    [
+      "Scribblenauts Unmasked: A DC Comics Adventure",
+      "https://store.steampowered.com/app/249870/Scribblenauts_Unmasked_A_DC_Comics_Adventure/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/249870/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/249870/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "shapez",
+      "https://store.steampowered.com/app/1318690/shapez/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1318690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1318690/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "FlatOut 2",
+      "https://store.steampowered.com/app/2990/FlatOut_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2990/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Borderlands 2 VR",
+      "https://store.steampowered.com/app/991260/Borderlands_2_VR/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/991260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/991260/capsule_616x353.jpg",
+      "$49.99",
+      "$12.49",
+      "75%",
+      null
+    ],
+    [
+      "Hasbro's BATTLESHIP",
+      "https://store.steampowered.com/app/893050/Hasbros_BATTLESHIP/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/893050/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/893050/capsule_616x353.jpg",
+      "$12.49",
+      "$1.87",
+      "85%",
+      null
+    ],
+    [
+      "Hotel Renovator",
+      "https://store.steampowered.com/app/1214470/Hotel_Renovator/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1214470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1214470/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "WRC 9 FIA World Rally Championship",
+      "https://store.steampowered.com/app/1267540/WRC_9_FIA_World_Rally_Championship/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1267540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1267540/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Peggle™ Nights",
+      "https://store.steampowered.com/app/3540/Peggle_Nights/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3540/capsule_616x353.jpg",
+      "$4.99",
+      "$0.99",
+      "80%",
+      null
+    ],
+    [
+      "Tom Clancy’s Rainbow Six® Extraction",
+      "https://store.steampowered.com/app/2379390/Tom_Clancys_Rainbow_Six_Extraction/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2379390/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2379390/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "WRC 7 FIA World Rally Championship",
+      "https://store.steampowered.com/app/621830/WRC_7_FIA_World_Rally_Championship/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/621830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/621830/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Prince of Persia: Warrior Within™",
+      "https://store.steampowered.com/app/13500/Prince_of_Persia_Warrior_Within/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/13500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/13500/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "EVERSPACE™ - Encounters",
+      "https://store.steampowered.com/app/709150/EVERSPACE__Encounters/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/709150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/709150/capsule_616x353.jpg",
+      "$9.99",
+      "$1.49",
+      "85%",
+      null
+    ],
+    [
+      "Curious Expedition 2",
+      "https://store.steampowered.com/app/1040230/Curious_Expedition_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1040230/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1040230/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Castlevania: Lords of Shadow – Mirror of Fate HD",
+      "https://store.steampowered.com/app/282530/Castlevania_Lords_of_Shadow__Mirror_of_Fate_HD/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/282530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/282530/capsule_616x353.jpg",
+      "$14.99",
+      "$2.24",
+      "85%",
+      null
+    ],
+    [
+      "Invisible, Inc.",
+      "https://store.steampowered.com/app/243970/Invisible_Inc/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/243970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/243970/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Trover Saves the Universe",
+      "https://store.steampowered.com/app/1051200/Trover_Saves_the_Universe/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1051200/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1051200/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-02 15:59:50"
+  "update_time": "2025-12-02 21:43:23"
 }
