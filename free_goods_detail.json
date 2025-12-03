@@ -1,5 +1,5 @@
 {
-  "total_count": 1582,
+  "total_count": 1588,
   "free_games": [
     [
       "Where Winds Meet",
@@ -13486,7 +13486,67 @@
       "$2.99",
       "80%",
       null
+    ],
+    [
+      "Duke Nukem Forever Collection",
+      "https://store.steampowered.com/sub/15361/?snr=1_7_7_2300_150_9",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.95",
+      "$9.98",
+      "75%",
+      null
+    ],
+    [
+      "Mortal Kombat XL",
+      "https://store.steampowered.com/sub/128345/?snr=1_7_7_2300_150_5",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "IL-2 Sturmovik: Tank Crew - Clash at Prokhorovka",
+      "https://store.steampowered.com/app/1467120/IL2_Sturmovik_Tank_Crew__Clash_at_Prokhorovka/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1467120/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1467120/capsule_616x353.jpg",
+      "$79.99",
+      "$19.99",
+      "75%",
+      null
+    ],
+    [
+      "Nickelodeon All-Star Brawl",
+      "https://store.steampowered.com/app/1414850/Nickelodeon_AllStar_Brawl/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1414850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1414850/capsule_616x353.jpg",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "SLUDGE LIFE",
+      "https://store.steampowered.com/app/1144770/SLUDGE_LIFE/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1144770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1144770/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Watchmen: The End is Nigh",
+      "https://store.steampowered.com/app/21010/Watchmen_The_End_is_Nigh/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/21010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/21010/capsule_616x353.jpg",
+      "$4.99",
+      "$1.24",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-03 09:41:51"
+  "update_time": "2025-12-03 16:00:23"
 }
