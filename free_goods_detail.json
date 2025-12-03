@@ -1,5 +1,5 @@
 {
-  "total_count": 1575,
+  "total_count": 1582,
   "free_games": [
     [
       "Where Winds Meet",
@@ -13416,7 +13416,77 @@
       "$0.99",
       "80%",
       null
+    ],
+    [
+      "Shiren the Wanderer: The Tower of Fortune and the Dice of Fate",
+      "https://store.steampowered.com/app/1178790/Shiren_the_Wanderer_The_Tower_of_Fortune_and_the_Dice_of_Fate/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1178790/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1178790/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "PHOGS!",
+      "https://store.steampowered.com/app/850320/PHOGS/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/850320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/850320/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Yu-Gi-Oh! Legacy of the Duelist",
+      "https://store.steampowered.com/app/480650/YuGiOh_Legacy_of_the_Duelist/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/480650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/480650/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Garden Story",
+      "https://store.steampowered.com/app/1062140/Garden_Story/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1062140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1062140/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Bejeweled® 3",
+      "https://store.steampowered.com/app/78000/Bejeweled_3/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/78000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/78000/capsule_616x353.jpg",
+      "$4.99",
+      "$0.99",
+      "80%",
+      null
+    ],
+    [
+      "Finding Paradise",
+      "https://store.steampowered.com/app/337340/Finding_Paradise/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/337340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/337340/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Call of Juarez: Gunslinger",
+      "https://store.steampowered.com/app/204450/Call_of_Juarez_Gunslinger/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/204450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/204450/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-12-03 05:06:59"
+  "update_time": "2025-12-03 09:41:51"
 }
