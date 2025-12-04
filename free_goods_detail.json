@@ -1,5 +1,5 @@
 {
-  "total_count": 1627,
+  "total_count": 1630,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9368,6 +9368,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2554670/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "凡人修仙传奇",
+      "https://store.steampowered.com/app/3814570/_/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3814570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3814570/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -13930,7 +13938,27 @@
       "$1.99",
       "75%",
       null
+    ],
+    [
+      "STAR WARS Jedi: Fallen Order Deluxe Edition",
+      "https://store.steampowered.com/sub/401587/?snr=1_7_7_2300_150_2",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "The Lord of the Rings: Gollum™",
+      "https://store.steampowered.com/app/1265780/The_Lord_of_the_Rings_Gollum/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1265780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1265780/capsule_616x353.jpg",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-12-04 09:41:58"
+  "update_time": "2025-12-04 16:00:13"
 }
