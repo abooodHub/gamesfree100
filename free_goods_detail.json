@@ -1,5 +1,5 @@
 {
-  "total_count": 1630,
+  "total_count": 1696,
   "free_games": [
     [
       "Where Winds Meet",
@@ -13958,7 +13958,667 @@
       "$9.99",
       "80%",
       null
+    ],
+    [
+      "FOR HONOR™",
+      "https://store.steampowered.com/app/304390/FOR_HONOR/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/304390/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/304390/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "LEGO® DC Super-Villains",
+      "https://store.steampowered.com/app/829110/LEGO_DC_SuperVillains/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/829110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/829110/capsule_616x353.jpg",
+      "$39.99",
+      "$5.99",
+      "85%",
+      null
+    ],
+    [
+      "LEGO® Batman™ 3: Beyond Gotham",
+      "https://store.steampowered.com/app/313690/LEGO_Batman_3_Beyond_Gotham/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/313690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/313690/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Total War: MEDIEVAL II - Definitive Edition",
+      "https://store.steampowered.com/sub/460/?snr=1_7_7_2300_150_3",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Undertale",
+      "https://store.steampowered.com/app/391540/Undertale/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/391540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/391540/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Darkest Dungeon®",
+      "https://store.steampowered.com/app/262060/Darkest_Dungeon/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/262060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/262060/capsule_616x353.jpg",
+      "$24.99",
+      "$3.74",
+      "85%",
+      null
+    ],
+    [
+      "NUTS",
+      "https://store.steampowered.com/app/768450/NUTS/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/768450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/768450/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "LEGO® Marvel Super Heroes 2",
+      "https://store.steampowered.com/app/647830/LEGO_Marvel_Super_Heroes_2/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/647830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/647830/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Tiny Tina's Wonderlands",
+      "https://store.steampowered.com/app/1286680/Tiny_Tinas_Wonderlands/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1286680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1286680/capsule_616x353.jpg",
+      "$59.99",
+      "$11.99",
+      "80%",
+      null
+    ],
+    [
+      "HUMANKIND™",
+      "https://store.steampowered.com/app/1124300/HUMANKIND/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1124300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1124300/capsule_616x353.jpg",
+      "$49.99",
+      "$12.49",
+      "75%",
+      null
+    ],
+    [
+      "Killing Floor 2",
+      "https://store.steampowered.com/app/232090/Killing_Floor_2/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/232090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/232090/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "SHOGUN: Total War™ - Collection",
+      "https://store.steampowered.com/app/345240/SHOGUN_Total_War__Collection/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/345240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/345240/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "LEGO® Worlds",
+      "https://store.steampowered.com/app/332310/LEGO_Worlds/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/332310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/332310/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "The Escapists 2",
+      "https://store.steampowered.com/app/641990/The_Escapists_2/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/641990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/641990/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "BioShock Infinite",
+      "https://store.steampowered.com/app/8870/BioShock_Infinite/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/8870/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/8870/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Total War: NAPOLEON - Definitive Edition",
+      "https://store.steampowered.com/sub/17093/?snr=1_7_7_2300_150_4",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "LEGO® Star Wars™: The Skywalker Saga",
+      "https://store.steampowered.com/app/920210/LEGO_Star_Wars_The_Skywalker_Saga/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/920210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/920210/capsule_616x353.jpg",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "Chivalry 2",
+      "https://store.steampowered.com/app/1824220/Chivalry_2/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1824220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1824220/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Tom Clancy’s The Division™",
+      "https://store.steampowered.com/app/365590/Tom_Clancys_The_Division/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/365590/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/365590/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Total War: Empire - Definitive Edition",
+      "https://store.steampowered.com/sub/17092/?snr=1_7_7_2300_150_4",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "LEGO® Star Wars™ - The Complete Saga",
+      "https://store.steampowered.com/app/32440/LEGO_Star_Wars__The_Complete_Saga/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/32440/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/32440/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "LEGO® Harry Potter™ Collection",
+      "https://store.steampowered.com/app/2950340/LEGO_Harry_Potter_Collection/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2950340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2950340/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Mortal Kombat 11 Ultimate",
+      "https://store.steampowered.com/sub/518699/?snr=1_7_7_2300_150_4",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "Medieval: Total War™ - Collection",
+      "https://store.steampowered.com/app/345260/Medieval_Total_War__Collection/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/345260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/345260/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "LEGO® MARVEL's Avengers",
+      "https://store.steampowered.com/app/405310/LEGO_MARVELs_Avengers/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/405310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/405310/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "We Were Here Too",
+      "https://store.steampowered.com/app/677160/We_Were_Here_Too/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/677160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/677160/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "FlatOut: Ultimate Carnage Collector's Edition",
+      "https://store.steampowered.com/app/12360/FlatOut_Ultimate_Carnage_Collectors_Edition/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/12360/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/12360/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Car Mechanic Simulator 2015",
+      "https://store.steampowered.com/app/320300/Car_Mechanic_Simulator_2015/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/320300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/320300/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "ENDLESS™ Space 2",
+      "https://store.steampowered.com/app/392110/ENDLESS_Space_2/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/392110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/392110/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Rebel Galaxy Outlaw",
+      "https://store.steampowered.com/app/910830/Rebel_Galaxy_Outlaw/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/910830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/910830/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "LEGO® The Hobbit™",
+      "https://store.steampowered.com/app/285160/LEGO_The_Hobbit/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/285160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/285160/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Valiant Hearts: The Great War™ / Soldats Inconnus : Mémoires de la Grande Guerre™",
+      "https://store.steampowered.com/app/260230/Valiant_Hearts_The_Great_War__Soldats_Inconnus__Mmoires_de_la_Grande_Guerre/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/260230/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/260230/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "LEGO® Jurassic World",
+      "https://store.steampowered.com/app/352400/LEGO_Jurassic_World/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "LEGO® Indiana Jones™ 2: The Adventure Continues",
+      "https://store.steampowered.com/app/32450/LEGO_Indiana_Jones_2_The_Adventure_Continues/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/32450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/32450/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "LEGO® Batman™: The Videogame",
+      "https://store.steampowered.com/app/21000/LEGO_Batman_The_Videogame/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/21000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/21000/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "LEGO® City Undercover",
+      "https://store.steampowered.com/app/578330/LEGO_City_Undercover/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/578330/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/578330/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "LEGO® Star Wars™ III - The Clone Wars™",
+      "https://store.steampowered.com/app/32510/LEGO_Star_Wars_III__The_Clone_Wars/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/32510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/32510/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "LEGO® Indiana Jones™: The Original Adventures",
+      "https://store.steampowered.com/app/32330/LEGO_Indiana_Jones_The_Original_Adventures/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/32330/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/32330/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "LEGO® The Lord of the Rings™",
+      "https://store.steampowered.com/app/214510/LEGO_The_Lord_of_the_Rings/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/214510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/214510/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "LEGO® Star Wars™: The Skywalker Saga Galactic Edition",
+      "https://store.steampowered.com/sub/785847/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$69.99",
+      "$13.99",
+      "80%",
+      null
+    ],
+    [
+      "LEGO® Pirates of the Caribbean: The Video Game",
+      "https://store.steampowered.com/app/311770/LEGO_Pirates_of_the_Caribbean_The_Video_Game/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/311770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/311770/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "LEGO® Marvel™ Super Heroes",
+      "https://store.steampowered.com/app/249130/LEGO_Marvel_Super_Heroes/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/249130/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/249130/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "BioShock™",
+      "https://store.steampowered.com/app/7670/BioShock/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7670/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7670/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Shift Happens",
+      "https://store.steampowered.com/app/359840/Shift_Happens/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/359840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/359840/capsule_616x353.jpg",
+      "$15.99",
+      "$1.59",
+      "90%",
+      null
+    ],
+    [
+      "Golf With Your Friends",
+      "https://store.steampowered.com/app/431240/Golf_With_Your_Friends/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/431240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/431240/capsule_616x353.jpg",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "Slay the Spire",
+      "https://store.steampowered.com/app/646570/Slay_the_Spire/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/646570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/646570/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Still Wakes the Deep",
+      "https://store.steampowered.com/app/1622910/Still_Wakes_the_Deep/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1622910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1622910/capsule_616x353.jpg",
+      "$34.99",
+      "$8.74",
+      "75%",
+      null
+    ],
+    [
+      "VRMark",
+      "https://store.steampowered.com/app/464170/VRMark/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/464170/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/464170/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Killing Floor",
+      "https://store.steampowered.com/app/1250/Killing_Floor/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1250/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1250/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Kingdom: New Lands",
+      "https://store.steampowered.com/app/496300/Kingdom_New_Lands/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/496300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/496300/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Rayman Raving Rabbids™",
+      "https://store.steampowered.com/app/15080/Rayman_Raving_Rabbids/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/15080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/15080/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "JETT: The Far Shore + Given Time",
+      "https://store.steampowered.com/app/1761600/JETT_The_Far_Shore__Given_Time/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1761600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1761600/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "The Beast Inside",
+      "https://store.steampowered.com/app/792300/The_Beast_Inside/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/792300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/792300/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "Rock 'N' Roll Defense",
+      "https://store.steampowered.com/app/438480/Rock_N_Roll_Defense/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/438480/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/438480/capsule_616x353.jpg",
+      "$4.99",
+      "$0.49",
+      "90%",
+      null
+    ],
+    [
+      "Killer Frequency",
+      "https://store.steampowered.com/app/1903620/Killer_Frequency/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1903620/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1903620/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "The Alien Cube",
+      "https://store.steampowered.com/app/1099220/The_Alien_Cube/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1099220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1099220/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "The Silver Case",
+      "https://store.steampowered.com/app/476650/The_Silver_Case/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/476650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/476650/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Thief Simulator VR",
+      "https://store.steampowered.com/app/1019550/Thief_Simulator_VR/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1019550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1019550/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "TowerFall Ascension",
+      "https://store.steampowered.com/app/251470/TowerFall_Ascension/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/251470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/251470/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Hitman 2: Silent Assassin",
+      "https://store.steampowered.com/app/6850/Hitman_2_Silent_Assassin/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6850/capsule_616x353.jpg",
+      "$8.99",
+      "$0.89",
+      "90%",
+      null
+    ],
+    [
+      "Monster Sanctuary",
+      "https://store.steampowered.com/app/814370/Monster_Sanctuary/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/814370/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/814370/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "After Us",
+      "https://store.steampowered.com/app/1406810/After_Us/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1406810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1406810/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Motorcycle Mechanic Simulator 2021",
+      "https://store.steampowered.com/app/1078760/Motorcycle_Mechanic_Simulator_2021/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1078760/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1078760/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "The LEGO® NINJAGO® Movie Video Game",
+      "https://store.steampowered.com/app/640590/The_LEGO_NINJAGO_Movie_Video_Game/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/640590/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/640590/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Into The Flames",
+      "https://store.steampowered.com/app/1222300/Into_The_Flames/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1222300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1222300/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Partisans 1941",
+      "https://store.steampowered.com/app/1227530/Partisans_1941/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1227530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1227530/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
     ]
   ],
-  "update_time": "2025-12-04 16:00:13"
+  "update_time": "2025-12-04 21:43:03"
 }
