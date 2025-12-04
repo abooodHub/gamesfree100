@@ -1,5 +1,5 @@
 {
-  "total_count": 1605,
+  "total_count": 1626,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9352,6 +9352,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4054110/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Eriksholm: The Stolen Dream Demo",
+      "https://store.steampowered.com/app/3675810/Eriksholm_The_Stolen_Dream_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3675810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3675810/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Stormshot",
+      "https://store.steampowered.com/app/2554670/Stormshot/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2554670/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2554670/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -13714,7 +13730,197 @@
       "$1.99",
       "90%",
       null
+    ],
+    [
+      "Death's Door",
+      "https://store.steampowered.com/app/894020/Deaths_Door/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/894020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/894020/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Call of the Sea",
+      "https://store.steampowered.com/app/1042490/Call_of_the_Sea/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1042490/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1042490/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Shadow Tactics: Blades of the Shogun",
+      "https://store.steampowered.com/app/418240/Shadow_Tactics_Blades_of_the_Shogun/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/418240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/418240/capsule_616x353.jpg",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
+    ],
+    [
+      "Alba: A Wildlife Adventure",
+      "https://store.steampowered.com/app/1337010/Alba_A_Wildlife_Adventure/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1337010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1337010/capsule_616x353.jpg",
+      "$16.99",
+      "$3.39",
+      "80%",
+      null
+    ],
+    [
+      "Tank Mechanic Simulator",
+      "https://store.steampowered.com/app/407130/Tank_Mechanic_Simulator/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/407130/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/407130/capsule_616x353.jpg",
+      "$19.99",
+      "$3.19",
+      "84%",
+      null
+    ],
+    [
+      "Car Mechanic Simulator 2018",
+      "https://store.steampowered.com/app/645630/Car_Mechanic_Simulator_2018/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/645630/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/645630/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Witch It",
+      "https://store.steampowered.com/app/559650/Witch_It/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/559650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/559650/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Joe Danger 2: The Movie",
+      "https://store.steampowered.com/app/242110/Joe_Danger_2_The_Movie/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/242110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/242110/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "Duke Nukem Forever Collection",
+      "https://store.steampowered.com/sub/15361/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.95",
+      "$9.98",
+      "75%",
+      null
+    ],
+    [
+      "Unrailed!",
+      "https://store.steampowered.com/app/1016920/Unrailed/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1016920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1016920/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "The Last Campfire",
+      "https://store.steampowered.com/app/990630/The_Last_Campfire/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/990630/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/990630/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "Flintlock: The Siege of Dawn",
+      "https://store.steampowered.com/app/1832040/Flintlock_The_Siege_of_Dawn/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1832040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1832040/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Fling to the Finish",
+      "https://store.steampowered.com/app/1054430/Fling_to_the_Finish/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1054430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1054430/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Joe Danger",
+      "https://store.steampowered.com/app/229890/Joe_Danger/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/229890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/229890/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "Endzone - A World Apart",
+      "https://store.steampowered.com/app/933820/Endzone__A_World_Apart/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/933820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/933820/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "Shadow Tactics: Aiko's Choice",
+      "https://store.steampowered.com/app/1579380/Shadow_Tactics_Aikos_Choice/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1579380/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1579380/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Mass Effect (2007)",
+      "https://store.steampowered.com/app/17460/Mass_Effect_2007/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/17460/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/17460/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Iratus: Lord of the Dead",
+      "https://store.steampowered.com/app/807120/Iratus_Lord_of_the_Dead/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/807120/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/807120/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "PCMark 10",
+      "https://store.steampowered.com/app/524390/PCMark_10/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/524390/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/524390/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-03 21:42:10"
+  "update_time": "2025-12-04 05:08:07"
 }
