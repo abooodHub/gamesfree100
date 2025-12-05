@@ -1,5 +1,5 @@
 {
-  "total_count": 1750,
+  "total_count": 1752,
   "free_games": [
     [
       "Where Winds Meet",
@@ -15144,7 +15144,27 @@
       "$3.24",
       "75%",
       null
+    ],
+    [
+      "Darkest Dungeon Soundtrack",
+      "https://store.steampowered.com/app/345800/Darkest_Dungeon_Soundtrack/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/345800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/345800/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Project Warlock",
+      "https://store.steampowered.com/app/893680/Project_Warlock/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/893680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/893680/capsule_616x353.jpg",
+      "$12.00",
+      "$1.80",
+      "85%",
+      null
     ]
   ],
-  "update_time": "2025-12-05 09:42:11"
+  "update_time": "2025-12-05 15:57:11"
 }
