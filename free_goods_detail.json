@@ -1,5 +1,5 @@
 {
-  "total_count": 1736,
+  "total_count": 1750,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9400,6 +9400,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2482190/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Band of Crusaders Demo",
+      "https://store.steampowered.com/app/4053860/Band_of_Crusaders_Demo/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4053860/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4053860/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "PANICORE Demo",
+      "https://store.steampowered.com/app/2695940/PANICORE/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2695940/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2695940/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Toy Smash Kaboom! Demo",
+      "https://store.steampowered.com/app/3573070/Toy_Smash_Kaboom/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3573070/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3573070/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "An Eggstremely Hard Game: Demo",
+      "https://store.steampowered.com/app/4154710/An_Eggstremely_Hard_Game_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4154710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4154710/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -15012,7 +15044,107 @@
       "$9.99",
       "80%",
       null
+    ],
+    [
+      "LEGO Batman Trilogy",
+      "https://store.steampowered.com/sub/53403/?snr=1_7_7_2300_150_1",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "Born of Bread",
+      "https://store.steampowered.com/app/1555140/Born_of_Bread/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1555140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1555140/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "ENDLESS™ Space 2 - Supremacy",
+      "https://store.steampowered.com/app/806780/ENDLESS_Space_2__Supremacy/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/806780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/806780/capsule_616x353.jpg",
+      "$12.99",
+      "$3.24",
+      "75%",
+      null
+    ],
+    [
+      "ENDLESS™ Space 2 - Vaulters",
+      "https://store.steampowered.com/app/733140/ENDLESS_Space_2__Vaulters/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/733140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/733140/capsule_616x353.jpg",
+      "$10.99",
+      "$2.74",
+      "75%",
+      null
+    ],
+    [
+      "ENDLESS™ Space 2 - Awakening",
+      "https://store.steampowered.com/app/1128540/ENDLESS_Space_2__Awakening/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1128540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1128540/capsule_616x353.jpg",
+      "$12.99",
+      "$3.24",
+      "75%",
+      null
+    ],
+    [
+      "Soulstice",
+      "https://store.steampowered.com/app/1602080/Soulstice/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1602080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1602080/capsule_616x353.jpg",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
+    ],
+    [
+      "Yoku's Island Express",
+      "https://store.steampowered.com/app/334940/Yokus_Island_Express/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/334940/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/334940/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Tchia",
+      "https://store.steampowered.com/app/1496590/Tchia/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1496590/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1496590/capsule_616x353.jpg",
+      "$34.99",
+      "$8.74",
+      "75%",
+      null
+    ],
+    [
+      "WRC 8 FIA World Rally Championship",
+      "https://store.steampowered.com/app/1004750/WRC_8_FIA_World_Rally_Championship/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1004750/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1004750/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "ENDLESS™ Space 2 - Penumbra",
+      "https://store.steampowered.com/app/988440/ENDLESS_Space_2__Penumbra/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/988440/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/988440/capsule_616x353.jpg",
+      "$12.99",
+      "$3.24",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-05 05:08:13"
+  "update_time": "2025-12-05 09:42:11"
 }
