@@ -1,5 +1,5 @@
 {
-  "total_count": 1752,
+  "total_count": 1761,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9432,6 +9432,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4154710/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Nova Roma Demo",
+      "https://store.steampowered.com/app/2426560/Nova_Roma_Demo/?snr=1_7_7_230_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2426560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2426560/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Baccarat Online: Baccarist",
+      "https://store.steampowered.com/app/3673460/Baccarat_Online_Baccarist/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3673460/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3673460/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Estella Demo",
+      "https://store.steampowered.com/app/4195920/Estella_Demo/?snr=1_7_7_230_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4195920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4195920/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -15164,7 +15188,67 @@
       "$1.80",
       "85%",
       null
+    ],
+    [
+      "Arise: A Simple Story",
+      "https://store.steampowered.com/app/866140/Arise_A_Simple_Story/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/866140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/866140/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Symphonic Rain",
+      "https://store.steampowered.com/app/629650/Symphonic_Rain/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/629650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/629650/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Rogue Heroes: Ruins of Tasos",
+      "https://store.steampowered.com/app/787810/Rogue_Heroes_Ruins_of_Tasos/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/787810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/787810/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Vampire: The Masquerade - Reckoning of New York",
+      "https://store.steampowered.com/app/2658720/Vampire_The_Masquerade__Reckoning_of_New_York/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2658720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2658720/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Redout: Enhanced Edition",
+      "https://store.steampowered.com/app/517710/Redout_Enhanced_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/517710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/517710/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Monster Energy Supercross - The Official Videogame 6",
+      "https://store.steampowered.com/app/2058750/Monster_Energy_Supercross__The_Official_Videogame_6/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2058750/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2058750/capsule_616x353.jpg",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2025-12-05 15:57:11"
+  "update_time": "2025-12-05 21:37:41"
 }
