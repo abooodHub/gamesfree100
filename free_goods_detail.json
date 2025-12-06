@@ -1,5 +1,5 @@
 {
-  "total_count": 1778,
+  "total_count": 1790,
   "free_games": [
     [
       "Where Winds Meet",
@@ -15406,7 +15406,127 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "Far Cry® Primal",
+      "https://store.steampowered.com/app/371660/Far_Cry_Primal/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/371660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/371660/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "The Crew™ 2",
+      "https://store.steampowered.com/app/646910/The_Crew_2/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/646910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/646910/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Far Cry 3",
+      "https://store.steampowered.com/app/220240/Far_Cry_3/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/220240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/220240/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Tom Clancy's Ghost Recon® Wildlands",
+      "https://store.steampowered.com/app/460930/Tom_Clancys_Ghost_Recon_Wildlands/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/460930/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/460930/capsule_616x353.jpg",
+      "$49.99",
+      "$7.49",
+      "85%",
+      null
+    ],
+    [
+      "Far Cry 3 - Blood Dragon",
+      "https://store.steampowered.com/app/233270/Far_Cry_3__Blood_Dragon/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/233270/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/233270/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Far Cry® 5",
+      "https://store.steampowered.com/app/552520/Far_Cry_5/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/552520/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/552520/capsule_616x353.jpg",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "The Crew Motorfest",
+      "https://store.steampowered.com/app/2698940/The_Crew_Motorfest/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2698940/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2698940/capsule_616x353.jpg",
+      "$69.99",
+      "$13.99",
+      "80%",
+      null
+    ],
+    [
+      "South Park™: The Stick of Truth™",
+      "https://store.steampowered.com/app/213670/South_Park_The_Stick_of_Truth/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/213670/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/213670/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Nine Parchments",
+      "https://store.steampowered.com/app/471550/Nine_Parchments/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/471550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/471550/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Trine 2: Complete Story",
+      "https://store.steampowered.com/app/35720/Trine_2_Complete_Story/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/35720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/35720/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Broken Edge",
+      "https://store.steampowered.com/app/1947070/Broken_Edge/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1947070/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1947070/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Lumencraft",
+      "https://store.steampowered.com/app/1713810/Lumencraft/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1713810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1713810/capsule_616x353.jpg",
+      "$19.99",
+      "$2.59",
+      "87%",
+      null
     ]
   ],
-  "update_time": "2025-12-06 15:52:54"
+  "update_time": "2025-12-06 21:35:56"
 }
