@@ -1,5 +1,5 @@
 {
-  "total_count": 1775,
+  "total_count": 1778,
   "free_games": [
     [
       "Where Winds Meet",
@@ -15376,7 +15376,37 @@
       "$1.74",
       "93%",
       null
+    ],
+    [
+      "Rocket Knight",
+      "https://store.steampowered.com/app/19030/Rocket_Knight/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/19030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/19030/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Reignbreaker",
+      "https://store.steampowered.com/app/2129810/Reignbreaker/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2129810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2129810/capsule_616x353.jpg",
+      "$24.88",
+      "$4.96",
+      "80%",
+      null
+    ],
+    [
+      "SUPER CRAZY RHYTHM CASTLE",
+      "https://store.steampowered.com/app/1812560/SUPER_CRAZY_RHYTHM_CASTLE/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1812560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1812560/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-06 09:38:05"
+  "update_time": "2025-12-06 15:52:54"
 }
