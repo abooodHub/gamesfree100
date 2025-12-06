@@ -1,5 +1,5 @@
 {
-  "total_count": 1761,
+  "total_count": 1769,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9456,6 +9456,46 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4195920/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Queen's Domain Demo",
+      "https://store.steampowered.com/app/4081520/Queens_Domain_Demo/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4081520/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4081520/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Party Bots",
+      "https://store.steampowered.com/app/1859860/Party_Bots/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1859860/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1859860/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "MineMogul Demo",
+      "https://store.steampowered.com/app/3846120/MineMogul/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3846120/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3846120/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Last Flag Demo",
+      "https://store.steampowered.com/app/2721340/Last_Flag/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2721340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2721340/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Car Dealer Simulator Demo",
+      "https://store.steampowered.com/app/2404880/Car_Dealer_Simulator/?snr=1_7_7_230_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2404880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2404880/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -15248,7 +15288,37 @@
       "$4.99",
       "90%",
       null
+    ],
+    [
+      "Trine 4: The Nightmare Prince",
+      "https://store.steampowered.com/app/690640/Trine_4_The_Nightmare_Prince/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/690640/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/690640/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "LEGO® Star Wars™: The Skywalker Saga Galactic Edition",
+      "https://store.steampowered.com/sub/785847/?snr=1_7_7_2300_150_2",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$69.99",
+      "$13.99",
+      "80%",
+      null
+    ],
+    [
+      "ScourgeBringer",
+      "https://store.steampowered.com/app/1037020/ScourgeBringer/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1037020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1037020/capsule_616x353.jpg",
+      "$16.99",
+      "$3.39",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-12-05 21:37:41"
+  "update_time": "2025-12-06 05:01:40"
 }
