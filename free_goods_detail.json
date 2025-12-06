@@ -1,5 +1,5 @@
 {
-  "total_count": 1769,
+  "total_count": 1775,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9496,6 +9496,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2404880/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Starsand Island Demo",
+      "https://store.steampowered.com/app/3864220/Starsand_Island_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3864220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3864220/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -15318,7 +15326,57 @@
       "$3.39",
       "80%",
       null
+    ],
+    [
+      "Trials Fusion™",
+      "https://store.steampowered.com/app/245490/Trials_Fusion/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/245490/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/245490/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "The Hong Kong Massacre",
+      "https://store.steampowered.com/app/741510/The_Hong_Kong_Massacre/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/741510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/741510/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Vernal Edge",
+      "https://store.steampowered.com/app/1546710/Vernal_Edge/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1546710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1546710/capsule_616x353.jpg",
+      "$16.99",
+      "$3.39",
+      "80%",
+      null
+    ],
+    [
+      "Sweet Transit",
+      "https://store.steampowered.com/app/1612770/Sweet_Transit/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1612770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1612770/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Tower of Time",
+      "https://store.steampowered.com/app/617480/Tower_of_Time/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/617480/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/617480/capsule_616x353.jpg",
+      "$24.99",
+      "$1.74",
+      "93%",
+      null
     ]
   ],
-  "update_time": "2025-12-06 05:01:40"
+  "update_time": "2025-12-06 09:38:05"
 }
