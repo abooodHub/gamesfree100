@@ -1,5 +1,5 @@
 {
-  "total_count": 1790,
+  "total_count": 1799,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9504,6 +9504,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3864220/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Tiny Bunny: Prologue",
+      "https://store.steampowered.com/app/1249880/Tiny_Bunny_Prologue/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1249880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1249880/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Im Bann Der Dunklen Jagd",
+      "https://store.steampowered.com/app/3232660/Im_Bann_Der_Dunklen_Jagd/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3232660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3232660/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -15526,7 +15542,77 @@
       "$2.59",
       "87%",
       null
+    ],
+    [
+      "Guacamelee! 2",
+      "https://store.steampowered.com/app/534550/Guacamelee_2/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/534550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/534550/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Watch Dogs®: Legion",
+      "https://store.steampowered.com/app/2239550/Watch_Dogs_Legion/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2239550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2239550/capsule_616x353.jpg",
+      "$59.99",
+      "$5.99",
+      "90%",
+      null
+    ],
+    [
+      "Splendor",
+      "https://store.steampowered.com/app/376680/Splendor/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/376680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/376680/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Gravel",
+      "https://store.steampowered.com/app/558260/Gravel/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/558260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/558260/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Guacamelee! Super Turbo Championship Edition",
+      "https://store.steampowered.com/app/275390/Guacamelee_Super_Turbo_Championship_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/275390/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/275390/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Trine Enchanted Edition",
+      "https://store.steampowered.com/app/35700/Trine_Enchanted_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/35700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/35700/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Batman™: Arkham Origins Blackgate - Deluxe Edition",
+      "https://store.steampowered.com/app/267490/Batman_Arkham_Origins_Blackgate__Deluxe_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/267490/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/267490/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-12-06 21:35:56"
+  "update_time": "2025-12-07 05:23:23"
 }
