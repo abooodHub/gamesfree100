@@ -1,5 +1,5 @@
 {
-  "total_count": 1802,
+  "total_count": 1804,
   "free_games": [
     [
       "Where Winds Meet",
@@ -15636,7 +15636,27 @@
       "$3.99",
       "80%",
       null
+    ],
+    [
+      "INFRA",
+      "https://store.steampowered.com/app/251110/INFRA/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/251110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/251110/capsule_616x353.jpg",
+      "$29.99",
+      "$6.59",
+      "78%",
+      null
+    ],
+    [
+      "Total War: MEDIEVAL II - Definitive Edition",
+      "https://store.steampowered.com/sub/460/?snr=1_7_7_2300_150_2",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-07 09:37:51"
+  "update_time": "2025-12-07 15:51:28"
 }
