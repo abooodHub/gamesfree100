@@ -1,5 +1,5 @@
 {
-  "total_count": 1799,
+  "total_count": 1802,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9520,6 +9520,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3232660/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "The Willowmist Emporium of Antiques & Curiosities Demo",
+      "https://store.steampowered.com/app/3477910/The_Willowmist_Emporium_of_Antiques__Curiosities/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3477910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3477910/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Night Shippers Demo",
+      "https://store.steampowered.com/app/3964660/Night_Shippers_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3964660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3964660/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Operation: Tango - Friend Pass",
+      "https://store.steampowered.com/app/1377150/Operation_Tango__Friend_Pass/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1377150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1377150/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -15614,5 +15638,5 @@
       null
     ]
   ],
-  "update_time": "2025-12-07 05:23:23"
+  "update_time": "2025-12-07 09:37:51"
 }
