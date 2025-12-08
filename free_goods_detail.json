@@ -1,5 +1,5 @@
 {
-  "total_count": 1817,
+  "total_count": 1849,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9608,6 +9608,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3956320/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Esports Manager 2026 Demo",
+      "https://store.steampowered.com/app/4006000/Esports_Manager_2026_Demo/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4006000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4006000/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Fate Trigger",
+      "https://store.steampowered.com/app/3092530/Fate_Trigger/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3092530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3092530/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -15770,7 +15786,307 @@
       "$0.49",
       "90%",
       null
+    ],
+    [
+      "theHunter: Call of the Wild™",
+      "https://store.steampowered.com/app/518790/theHunter_Call_of_the_Wild/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/518790/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/518790/capsule_616x353.jpg",
+      "$19.99",
+      "$2.19",
+      "89%",
+      null
+    ],
+    [
+      "Nuclear Nightmare",
+      "https://store.steampowered.com/app/2909110/Nuclear_Nightmare/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2909110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2909110/capsule_616x353.jpg",
+      "$6.99",
+      "$1.39",
+      "80%",
+      null
+    ],
+    [
+      "Solasta: Crown of the Magister",
+      "https://store.steampowered.com/app/1096530/Solasta_Crown_of_the_Magister/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1096530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1096530/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Frostpunk",
+      "https://store.steampowered.com/app/323190/Frostpunk/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/323190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/323190/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Steelrising",
+      "https://store.steampowered.com/app/1283400/Steelrising/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/capsule_616x353.jpg",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "Generation Zero®",
+      "https://store.steampowered.com/app/704270/Generation_Zero/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/704270/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/704270/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Metro Exodus",
+      "https://store.steampowered.com/app/412020/Metro_Exodus/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/412020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/412020/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "F1® Manager 2024",
+      "https://store.steampowered.com/app/2591280/F1_Manager_2024/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2591280/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2591280/capsule_616x353.jpg",
+      "$34.99",
+      "$8.74",
+      "75%",
+      null
+    ],
+    [
+      "Styx: Master of Shadows",
+      "https://store.steampowered.com/app/242640/Styx_Master_of_Shadows/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/242640/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/242640/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Ad Infinitum",
+      "https://store.steampowered.com/app/1234430/Ad_Infinitum/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1234430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1234430/capsule_616x353.jpg",
+      "$34.99",
+      "$5.24",
+      "85%",
+      null
+    ],
+    [
+      "Hypnospace Outlaw",
+      "https://store.steampowered.com/app/844590/Hypnospace_Outlaw/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/844590/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/844590/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Frostpunk: The Last Autumn",
+      "https://store.steampowered.com/app/1146960/Frostpunk_The_Last_Autumn/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1146960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1146960/capsule_616x353.jpg",
+      "$16.99",
+      "$2.54",
+      "85%",
+      null
+    ],
+    [
+      "Dying Light: Definitive 10th Anniversary Edition",
+      "https://store.steampowered.com/sub/1265945/?snr=1_7_7_2300_150_9",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "Edge Of Eternity",
+      "https://store.steampowered.com/app/269190/Edge_Of_Eternity/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/269190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/269190/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Mordheim: City of the Damned",
+      "https://store.steampowered.com/app/276810/Mordheim_City_of_the_Damned/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/276810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/276810/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Death Road to Canada",
+      "https://store.steampowered.com/app/252610/Death_Road_to_Canada/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/252610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/252610/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Alan Wake",
+      "https://store.steampowered.com/app/108710/Alan_Wake/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/108710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/108710/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "Moonlighter",
+      "https://store.steampowered.com/app/606150/Moonlighter/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/606150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/606150/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Control Ultimate Edition",
+      "https://store.steampowered.com/app/870780/Control_Ultimate_Edition/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/870780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/870780/capsule_616x353.jpg",
+      "$39.99",
+      "$5.99",
+      "85%",
+      null
+    ],
+    [
+      "Metro 2033 Redux",
+      "https://store.steampowered.com/app/286690/Metro_2033_Redux/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/286690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/286690/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "The Quarry",
+      "https://store.steampowered.com/app/1577120/The_Quarry/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1577120/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1577120/capsule_616x353.jpg",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "Styx: Shards of Darkness",
+      "https://store.steampowered.com/app/355790/Styx_Shards_of_Darkness/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/355790/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/355790/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "This War of Mine",
+      "https://store.steampowered.com/app/282070/This_War_of_Mine/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/282070/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/282070/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Metro: Last Light Redux",
+      "https://store.steampowered.com/app/287390/Metro_Last_Light_Redux/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/287390/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/287390/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Wrestling Empire",
+      "https://store.steampowered.com/app/1620340/Wrestling_Empire/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1620340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1620340/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Cursed to Golf",
+      "https://store.steampowered.com/app/1726120/Cursed_to_Golf/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1726120/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1726120/capsule_616x353.jpg",
+      "$19.99",
+      "$1.19",
+      "94%",
+      null
+    ],
+    [
+      "Clash: Artifacts of Chaos",
+      "https://store.steampowered.com/app/1430680/Clash_Artifacts_of_Chaos/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1430680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1430680/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "MXGP 2020 - The Official Motocross Videogame",
+      "https://store.steampowered.com/app/1259800/MXGP_2020__The_Official_Motocross_Videogame/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1259800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1259800/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Tribes of Midgard",
+      "https://store.steampowered.com/app/858820/Tribes_of_Midgard/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/858820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/858820/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Farmer's Dynasty",
+      "https://store.steampowered.com/app/678900/Farmers_Dynasty/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/678900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/678900/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-12-08 15:58:32"
+  "update_time": "2025-12-08 21:42:08"
 }
