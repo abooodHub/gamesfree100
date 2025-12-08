@@ -1,5 +1,5 @@
 {
-  "total_count": 1808,
+  "total_count": 1813,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9544,6 +9544,46 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1377150/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Light Up The Town Demo",
+      "https://store.steampowered.com/app/3419910/Light_Up_The_Town/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3419910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3419910/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Star Wars Outlaws - Free Demo",
+      "https://store.steampowered.com/app/3515950/Star_Wars_Outlaws__Free_Demo/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3515950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3515950/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "THE JOY OF CREATION Demo",
+      "https://store.steampowered.com/app/2948730/THE_JOY_OF_CREATION/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2948730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2948730/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Myrmidon",
+      "https://store.steampowered.com/app/3247270/Myrmidon/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3247270/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3247270/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "100 Christmas Cats",
+      "https://store.steampowered.com/app/2687190/100_Christmas_Cats/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2687190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2687190/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -15698,5 +15738,5 @@
       null
     ]
   ],
-  "update_time": "2025-12-07 21:36:01"
+  "update_time": "2025-12-08 05:09:09"
 }
