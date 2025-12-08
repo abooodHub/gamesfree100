@@ -1,5 +1,5 @@
 {
-  "total_count": 1816,
+  "total_count": 1817,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9600,6 +9600,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1568540/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Inotia 4",
+      "https://store.steampowered.com/app/3956320/Inotia_4/?snr=1_7_7_230_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3956320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3956320/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -15764,5 +15772,5 @@
       null
     ]
   ],
-  "update_time": "2025-12-08 09:46:41"
+  "update_time": "2025-12-08 15:58:32"
 }
