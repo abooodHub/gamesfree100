@@ -1,5 +1,5 @@
 {
-  "total_count": 1902,
+  "total_count": 1909,
   "free_games": [
     [
       "Where Winds Meet",
@@ -16610,7 +16610,77 @@
       "$1.99",
       "90%",
       null
+    ],
+    [
+      "Alan Wake Franchise",
+      "https://store.steampowered.com/sub/15407/?snr=1_7_7_2300_150_6",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "Unusual Findings",
+      "https://store.steampowered.com/app/1605320/Unusual_Findings/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1605320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1605320/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "LEGO Batman Trilogy",
+      "https://store.steampowered.com/sub/53403/?snr=1_7_7_2300_150_3",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "Alaskan Road Truckers",
+      "https://store.steampowered.com/app/849100/Alaskan_Road_Truckers/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/849100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/849100/capsule_616x353.jpg",
+      "$21.99",
+      "$5.49",
+      "75%",
+      null
+    ],
+    [
+      "Grand Mountain Adventure: Wonderlands",
+      "https://store.steampowered.com/app/1247360/Grand_Mountain_Adventure_Wonderlands/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1247360/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1247360/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "SAMURAI SHODOWN NEOGEO COLLECTION",
+      "https://store.steampowered.com/app/999660/SAMURAI_SHODOWN_NEOGEO_COLLECTION/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/999660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/999660/capsule_616x353.jpg",
+      "$39.99",
+      "$5.99",
+      "85%",
+      null
+    ],
+    [
+      "GROSS",
+      "https://store.steampowered.com/app/1647420/GROSS/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1647420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1647420/capsule_616x353.jpg",
+      "$12.99",
+      "$1.94",
+      "85%",
+      null
     ]
   ],
-  "update_time": "2025-12-09 09:43:05"
+  "update_time": "2025-12-09 16:00:43"
 }
