@@ -1,5 +1,5 @@
 {
-  "total_count": 1892,
+  "total_count": 1902,
   "free_games": [
     [
       "Where Winds Meet",
@@ -16510,7 +16510,107 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "Dying Light: Definitive 10th Anniversary Edition",
+      "https://store.steampowered.com/sub/1265945/?snr=1_7_7_2300_150_1",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "Alan Wake Franchise",
+      "https://store.steampowered.com/sub/15407/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "Total War: MEDIEVAL II - Definitive Edition",
+      "https://store.steampowered.com/sub/460/?snr=1_7_7_2300_150_4",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Football, Tactics & Glory",
+      "https://store.steampowered.com/app/375530/Football_Tactics__Glory/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/375530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/375530/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Paper Dolls Soundtrack",
+      "https://store.steampowered.com/app/1376680/Paper_Dolls_Soundtrack/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1376680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1376680/capsule_616x353.jpg",
+      "$3.99",
+      "$0.71",
+      "82%",
+      null
+    ],
+    [
+      "Wolcen: Lords of Mayhem",
+      "https://store.steampowered.com/app/424370/Wolcen_Lords_of_Mayhem/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/424370/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/424370/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Alan Wake's American Nightmare",
+      "https://store.steampowered.com/app/202750/Alan_Wakes_American_Nightmare/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/202750/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/202750/capsule_616x353.jpg",
+      "$8.99",
+      "$0.89",
+      "90%",
+      null
+    ],
+    [
+      "Metro Exodus - Sam's Story",
+      "https://store.steampowered.com/app/889921/Metro_Exodus__Sams_Story/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/889921/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/889921/capsule_616x353.jpg",
+      "$9.99",
+      "$1.49",
+      "85%",
+      null
+    ],
+    [
+      "Ravenbound",
+      "https://store.steampowered.com/app/1307660/Ravenbound/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1307660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1307660/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "CryoFall",
+      "https://store.steampowered.com/app/829590/CryoFall/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/829590/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/829590/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2025-12-09 05:08:21"
+  "update_time": "2025-12-09 09:43:05"
 }
