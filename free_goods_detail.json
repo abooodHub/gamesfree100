@@ -1,5 +1,5 @@
 {
-  "total_count": 1909,
+  "total_count": 1918,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9648,6 +9648,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1131190/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "The Thaumaturge: Digital Deluxe Content",
+      "https://store.steampowered.com/app/2777010/The_Thaumaturge_Digital_Deluxe_Content/?snr=1_7_7_2300_150_15",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2777010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2777010/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -16680,7 +16688,87 @@
       "$1.94",
       "85%",
       null
+    ],
+    [
+      "Warhammer 40,000: Gladius - Relics of War",
+      "https://store.steampowered.com/app/489630/Warhammer_40000_Gladius__Relics_of_War/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/489630/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/489630/capsule_616x353.jpg",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
+    ],
+    [
+      "Outlast",
+      "https://store.steampowered.com/app/238320/Outlast/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/238320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/238320/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Outlast 2",
+      "https://store.steampowered.com/app/414700/Outlast_2/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/414700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/414700/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Alan Wake Collector's Edition Extras",
+      "https://store.steampowered.com/app/108726/Alan_Wake_Collectors_Edition_Extras/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/108726/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/108726/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "Saturnalia",
+      "https://store.steampowered.com/app/916350/Saturnalia/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/916350/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/916350/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Metro Exodus - The Two Colonels",
+      "https://store.steampowered.com/app/889920/Metro_Exodus__The_Two_Colonels/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/889920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/889920/capsule_616x353.jpg",
+      "$6.99",
+      "$1.04",
+      "85%",
+      null
+    ],
+    [
+      "Anomaly 2",
+      "https://store.steampowered.com/app/236730/Anomaly_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/236730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/236730/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "Mr.President!",
+      "https://store.steampowered.com/app/507010/MrPresident/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/507010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/507010/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-12-09 16:00:43"
+  "update_time": "2025-12-09 21:37:54"
 }
