@@ -1,5 +1,5 @@
 {
-  "total_count": 1849,
+  "total_count": 1892,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9624,6 +9624,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3092530/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Skate Story Demo",
+      "https://store.steampowered.com/app/1263240/Skate_Story/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1263240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1263240/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "UNBEATABLE [white label]",
+      "https://store.steampowered.com/app/1290490/UNBEATABLE_white_label/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1290490/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1290490/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "NERTS! Online",
+      "https://store.steampowered.com/app/1131190/NERTS_Online/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1131190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1131190/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -16086,7 +16110,407 @@
       "$3.99",
       "80%",
       null
+    ],
+    [
+      "Move or Die",
+      "https://store.steampowered.com/app/323850/Move_or_Die/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/323850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/323850/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Ultimate Fishing® Simulator",
+      "https://store.steampowered.com/app/468920/Ultimate_Fishing_Simulator/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/468920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/468920/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Bramble: The Mountain King",
+      "https://store.steampowered.com/app/1623940/Bramble_The_Mountain_King/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1623940/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1623940/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "SpeedRunners",
+      "https://store.steampowered.com/app/207140/SpeedRunners/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/207140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/207140/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Furi",
+      "https://store.steampowered.com/app/423230/Furi/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/423230/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/423230/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Mutant Football League",
+      "https://store.steampowered.com/app/529520/Mutant_Football_League/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/529520/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/529520/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Blair Witch",
+      "https://store.steampowered.com/app/1092660/Blair_Witch/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1092660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1092660/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Motorsport Manager",
+      "https://store.steampowered.com/app/415200/Motorsport_Manager/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/415200/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/415200/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Dying Light: Definitive 10th Anniversary Edition",
+      "https://store.steampowered.com/sub/1265945/?snr=1_7_7_2300_150_2",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "Children of Morta",
+      "https://store.steampowered.com/app/330020/Children_of_Morta/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/330020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/330020/capsule_616x353.jpg",
+      "$21.99",
+      "$3.29",
+      "85%",
+      null
+    ],
+    [
+      "Alan Wake Franchise",
+      "https://store.steampowered.com/sub/15407/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "Soundfall",
+      "https://store.steampowered.com/app/1608700/Soundfall/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1608700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1608700/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Captain Tsubasa: Rise of New Champions",
+      "https://store.steampowered.com/app/1163550/Captain_Tsubasa_Rise_of_New_Champions/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1163550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1163550/capsule_616x353.jpg",
+      "$39.99",
+      "$4.79",
+      "88%",
+      null
+    ],
+    [
+      "LEGO® Star Wars™: The Skywalker Saga Galactic Edition",
+      "https://store.steampowered.com/sub/785847/?snr=1_7_7_2300_150_3",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$69.99",
+      "$13.99",
+      "80%",
+      null
+    ],
+    [
+      "Dungeons 3",
+      "https://store.steampowered.com/app/493900/Dungeons_3/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/493900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/493900/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "The Red Strings Club",
+      "https://store.steampowered.com/app/589780/The_Red_Strings_Club/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/589780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/589780/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Stronghold Crusader 2",
+      "https://store.steampowered.com/app/232890/Stronghold_Crusader_2/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/232890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/232890/capsule_616x353.jpg",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
+    ],
+    [
+      "Brewmaster: Beer Brewing Simulator",
+      "https://store.steampowered.com/app/1569200/Brewmaster_Beer_Brewing_Simulator/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1569200/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1569200/capsule_616x353.jpg",
+      "$17.99",
+      "$3.59",
+      "80%",
+      null
+    ],
+    [
+      "Observation",
+      "https://store.steampowered.com/app/906100/Observation/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/906100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/906100/capsule_616x353.jpg",
+      "$27.98",
+      "$5.78",
+      "79%",
+      null
+    ],
+    [
+      "SRPG Studio",
+      "https://store.steampowered.com/app/857320/SRPG_Studio/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/857320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/857320/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "Owlboy",
+      "https://store.steampowered.com/app/115800/Owlboy/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/115800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/115800/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Frostpunk: The Rifts",
+      "https://store.steampowered.com/app/1125020/Frostpunk_The_Rifts/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1125020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1125020/capsule_616x353.jpg",
+      "$4.99",
+      "$1.24",
+      "75%",
+      null
+    ],
+    [
+      "Moonlighter: Between Dimensions",
+      "https://store.steampowered.com/app/1121580/Moonlighter_Between_Dimensions/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1121580/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1121580/capsule_616x353.jpg",
+      "$6.99",
+      "$1.04",
+      "85%",
+      null
+    ],
+    [
+      "AEW: Fight Forever",
+      "https://store.steampowered.com/app/1913210/AEW_Fight_Forever/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1913210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1913210/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "This War of Mine: The Little Ones",
+      "https://store.steampowered.com/app/481090/This_War_of_Mine_The_Little_Ones/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/481090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/481090/capsule_616x353.jpg",
+      "$4.99",
+      "$1.24",
+      "75%",
+      null
+    ],
+    [
+      "Beat Cop",
+      "https://store.steampowered.com/app/461950/Beat_Cop/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/461950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/461950/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "Monster Prom 2: Monster Camp",
+      "https://store.steampowered.com/app/1140270/Monster_Prom_2_Monster_Camp/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1140270/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1140270/capsule_616x353.jpg",
+      "$11.99",
+      "$2.99",
+      "75%",
+      null
+    ],
+    [
+      "Heave Ho",
+      "https://store.steampowered.com/app/905340/Heave_Ho/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/905340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/905340/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "NBA 2K Playgrounds 2",
+      "https://store.steampowered.com/app/726590/NBA_2K_Playgrounds_2/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/726590/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/726590/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Frostpunk: On The Edge",
+      "https://store.steampowered.com/app/1147010/Frostpunk_On_The_Edge/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1147010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1147010/capsule_616x353.jpg",
+      "$12.99",
+      "$3.24",
+      "75%",
+      null
+    ],
+    [
+      "Observer: System Redux",
+      "https://store.steampowered.com/app/1386900/Observer_System_Redux/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1386900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1386900/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Mind Scanners",
+      "https://store.steampowered.com/app/1389550/Mind_Scanners/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1389550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1389550/capsule_616x353.jpg",
+      "$16.99",
+      "$2.54",
+      "85%",
+      null
+    ],
+    [
+      "Death and Taxes",
+      "https://store.steampowered.com/app/1166290/Death_and_Taxes/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1166290/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1166290/capsule_616x353.jpg",
+      "$12.99",
+      "$1.94",
+      "85%",
+      null
+    ],
+    [
+      "Stronghold: Warlords",
+      "https://store.steampowered.com/app/907650/Stronghold_Warlords/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/907650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/907650/capsule_616x353.jpg",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
+    ],
+    [
+      "Super Blood Hockey",
+      "https://store.steampowered.com/app/532190/Super_Blood_Hockey/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/532190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/532190/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "The Escapists: The Walking Dead",
+      "https://store.steampowered.com/app/388060/The_Escapists_The_Walking_Dead/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/388060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/388060/capsule_616x353.jpg",
+      "$17.99",
+      "$1.79",
+      "90%",
+      null
+    ],
+    [
+      "SILT",
+      "https://store.steampowered.com/app/1325890/SILT/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1325890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1325890/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Visual Novel Maker",
+      "https://store.steampowered.com/app/495480/Visual_Novel_Maker/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/495480/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/495480/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "Blair Witch Deluxe Edition",
+      "https://store.steampowered.com/sub/388292/?snr=1_7_7_2300_150_10",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$34.99",
+      "$6.99",
+      "80%",
+      null
+    ],
+    [
+      "Franchise Hockey Manager 10",
+      "https://store.steampowered.com/app/2384610/Franchise_Hockey_Manager_10/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2384610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2384610/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-08 21:42:08"
+  "update_time": "2025-12-09 05:08:21"
 }
