@@ -1,5 +1,5 @@
 {
-  "total_count": 1918,
+  "total_count": 1933,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9656,6 +9656,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2777010/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Death Howl Demo",
+      "https://store.steampowered.com/app/3365740/Death_Howl_Demo/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3365740/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3365740/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Hoop Land Demo",
+      "https://store.steampowered.com/app/2453660/Hoop_Land/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2453660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2453660/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Songs of Syx Demo",
+      "https://store.steampowered.com/app/1162750/Songs_of_Syx/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1162750/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1162750/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "全网公敌：诡村",
+      "https://store.steampowered.com/app/3194070/_/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3194070/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3194070/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -16768,7 +16800,117 @@
       "$1.99",
       "80%",
       null
+    ],
+    [
+      "SNK HEROINES Tag Team Frenzy",
+      "https://store.steampowered.com/app/794580/SNK_HEROINES_Tag_Team_Frenzy/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/794580/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/794580/capsule_616x353.jpg",
+      "$49.99",
+      "$7.49",
+      "85%",
+      null
+    ],
+    [
+      "Fantasy General II",
+      "https://store.steampowered.com/app/1025440/Fantasy_General_II/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1025440/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1025440/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "SNK 40th ANNIVERSARY COLLECTION",
+      "https://store.steampowered.com/app/865940/SNK_40th_ANNIVERSARY_COLLECTION/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/865940/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/865940/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Tormented Souls",
+      "https://store.steampowered.com/app/1367590/Tormented_Souls/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1367590/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1367590/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Loop Hero",
+      "https://store.steampowered.com/app/1282730/Loop_Hero/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1282730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1282730/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Field of Glory II: Medieval",
+      "https://store.steampowered.com/app/1368870/Field_of_Glory_II_Medieval/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1368870/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1368870/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "NEOGEO POCKET COLOR SELECTION Vol.2",
+      "https://store.steampowered.com/app/1983850/NEOGEO_POCKET_COLOR_SELECTION_Vol2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1983850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1983850/capsule_616x353.jpg",
+      "$39.99",
+      "$5.99",
+      "85%",
+      null
+    ],
+    [
+      "Sanctum 2",
+      "https://store.steampowered.com/app/210770/Sanctum_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/210770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/210770/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Bassmaster® Fishing",
+      "https://store.steampowered.com/app/1449500/Bassmaster_Fishing/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1449500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1449500/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "NEOGEO POCKET COLOR SELECTION Vol. 1 Steam Edition",
+      "https://store.steampowered.com/app/1586350/NEOGEO_POCKET_COLOR_SELECTION_Vol_1_Steam_Edition/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1586350/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1586350/capsule_616x353.jpg",
+      "$39.99",
+      "$5.99",
+      "85%",
+      null
+    ],
+    [
+      "Chroma Squad",
+      "https://store.steampowered.com/app/251130/Chroma_Squad/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/251130/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/251130/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-09 21:37:54"
+  "update_time": "2025-12-10 05:10:10"
 }
