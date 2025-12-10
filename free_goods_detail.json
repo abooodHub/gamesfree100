@@ -1,5 +1,5 @@
 {
-  "total_count": 1933,
+  "total_count": 1934,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9688,6 +9688,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3194070/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "The Path Into The Abyss Demo",
+      "https://store.steampowered.com/app/3725100/The_Path_Into_The_Abyss_Demo/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3725100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3725100/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -16912,5 +16920,5 @@
       null
     ]
   ],
-  "update_time": "2025-12-10 05:10:10"
+  "update_time": "2025-12-10 09:43:45"
 }
