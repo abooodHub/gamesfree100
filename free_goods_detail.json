@@ -1,5 +1,5 @@
 {
-  "total_count": 1934,
+  "total_count": 1941,
   "free_games": [
     [
       "Where Winds Meet",
@@ -16918,7 +16918,77 @@
       "$3.74",
       "75%",
       null
+    ],
+    [
+      "Conan Exiles",
+      "https://store.steampowered.com/app/440900/Conan_Exiles/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/440900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/440900/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Men of War: Assault Squad 2",
+      "https://store.steampowered.com/app/244450/Men_of_War_Assault_Squad_2/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/244450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/244450/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "The Callisto Protocol™",
+      "https://store.steampowered.com/app/1544020/The_Callisto_Protocol/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1544020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1544020/capsule_616x353.jpg",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "LEGO Batman Trilogy",
+      "https://store.steampowered.com/sub/53403/?snr=1_7_7_2300_150_4",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "Blasphemous",
+      "https://store.steampowered.com/app/774361/Blasphemous/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/774361/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/774361/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "Farm Manager 2021",
+      "https://store.steampowered.com/app/1123830/Farm_Manager_2021/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1123830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1123830/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Crypt of the NecroDancer",
+      "https://store.steampowered.com/app/247080/Crypt_of_the_NecroDancer/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/247080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/247080/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-12-10 16:00:57"
+  "update_time": "2025-12-10 21:40:31"
 }
