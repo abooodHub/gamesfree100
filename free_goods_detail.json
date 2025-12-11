@@ -1,5 +1,5 @@
 {
-  "total_count": 1962,
+  "total_count": 1970,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9712,6 +9712,46 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3858370/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Bits & Bops Demo",
+      "https://store.steampowered.com/app/1929290/Bits__Bops/?snr=1_7_7_230_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1929290/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1929290/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Netherworld Covenant Demo",
+      "https://store.steampowered.com/app/2735580/Netherworld_Covenant/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2735580/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2735580/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Bladesong Demo",
+      "https://store.steampowered.com/app/3107000/Bladesong_Demo/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3107000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3107000/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Underminer",
+      "https://store.steampowered.com/app/2735870/Underminer/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2735870/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2735870/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "The End of History Demo",
+      "https://store.steampowered.com/app/2953520/The_End_of_History/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2953520/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2953520/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -17194,7 +17234,37 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "GRAVEN",
+      "https://store.steampowered.com/app/1371690/GRAVEN/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1371690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1371690/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Moons of Madness",
+      "https://store.steampowered.com/app/1012840/Moons_of_Madness/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1012840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1012840/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Realpolitiks 3: Earth and Beyond",
+      "https://store.steampowered.com/app/2298690/Realpolitiks_3_Earth_and_Beyond/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2298690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2298690/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-11 05:11:52"
+  "update_time": "2025-12-11 09:45:17"
 }
