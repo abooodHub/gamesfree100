@@ -1,5 +1,5 @@
 {
-  "total_count": 1970,
+  "total_count": 1975,
   "free_games": [
     [
       "Where Winds Meet",
@@ -17264,7 +17264,57 @@
       "$6.24",
       "75%",
       null
+    ],
+    [
+      "Space Rangers HD: A War Apart",
+      "https://store.steampowered.com/app/214730/Space_Rangers_HD_A_War_Apart/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/214730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/214730/capsule_616x353.jpg",
+      "$14.99",
+      "$2.24",
+      "85%",
+      null
+    ],
+    [
+      "VED",
+      "https://store.steampowered.com/app/1182420/VED/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1182420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1182420/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "The Pegasus Expedition",
+      "https://store.steampowered.com/app/1521070/The_Pegasus_Expedition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1521070/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1521070/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Fell Seal: Arbiter's Mark - Missions and Monsters",
+      "https://store.steampowered.com/app/1155320/Fell_Seal_Arbiters_Mark__Missions_and_Monsters/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1155320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1155320/capsule_616x353.jpg",
+      "$12.99",
+      "$1.94",
+      "85%",
+      null
+    ],
+    [
+      "WWE 2K BATTLEGROUNDS",
+      "https://store.steampowered.com/app/1142100/WWE_2K_BATTLEGROUNDS/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1142100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1142100/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-12-11 09:45:17"
+  "update_time": "2025-12-11 16:02:20"
 }
