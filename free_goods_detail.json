@@ -1,5 +1,5 @@
 {
-  "total_count": 1941,
+  "total_count": 1962,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9696,6 +9696,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3725100/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Molili AI Friends: Your AI Desk Pal",
+      "https://store.steampowered.com/app/4141770/Molili_AI_Friends_Your_AI_Desk_Pal/?snr=1_7_7_230_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4141770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4141770/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Figure Shop Simulator: Prologue",
+      "https://store.steampowered.com/app/3858370/Figure_Shop_Simulator_Prologue/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3858370/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3858370/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -16988,7 +17004,197 @@
       "$2.99",
       "80%",
       null
+    ],
+    [
+      "Lords and Villeins",
+      "https://store.steampowered.com/app/1287530/Lords_and_Villeins/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1287530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1287530/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "King's Bounty: Warriors of the North",
+      "https://store.steampowered.com/app/203350/Kings_Bounty_Warriors_of_the_North/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/203350/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/203350/capsule_616x353.jpg",
+      "$9.99",
+      "$1.49",
+      "85%",
+      null
+    ],
+    [
+      "Dread Templar",
+      "https://store.steampowered.com/app/1334730/Dread_Templar/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1334730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1334730/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "RIDE 5",
+      "https://store.steampowered.com/app/1650010/RIDE_5/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1650010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1650010/capsule_616x353.jpg",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "Men of War II",
+      "https://store.steampowered.com/app/1128860/Men_of_War_II/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1128860/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1128860/capsule_616x353.jpg",
+      "$44.99",
+      "$11.24",
+      "75%",
+      null
+    ],
+    [
+      "Monster Jam™ Showdown",
+      "https://store.steampowered.com/app/2350280/Monster_Jam_Showdown/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2350280/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2350280/capsule_616x353.jpg",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "Fell Seal: Arbiter's Mark",
+      "https://store.steampowered.com/app/699170/Fell_Seal_Arbiters_Mark/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/699170/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/699170/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Forgive Me Father",
+      "https://store.steampowered.com/app/1590910/Forgive_Me_Father/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1590910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1590910/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "IL-2 Sturmovik: Desert Wings - Tobruk",
+      "https://store.steampowered.com/app/1049440/IL2_Sturmovik_Desert_Wings__Tobruk/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1049440/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1049440/capsule_616x353.jpg",
+      "$39.98",
+      "$7.98",
+      "80%",
+      null
+    ],
+    [
+      "IL-2 Sturmovik: Cliffs of Dover Blitz Edition",
+      "https://store.steampowered.com/app/754530/IL2_Sturmovik_Cliffs_of_Dover_Blitz_Edition/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/754530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/754530/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Field of Glory II",
+      "https://store.steampowered.com/app/660160/Field_of_Glory_II/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/660160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/660160/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Diluvian Ultra",
+      "https://store.steampowered.com/app/1306970/Diluvian_Ultra/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1306970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1306970/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "HOT WHEELS UNLEASHED™ 2 - Turbocharged",
+      "https://store.steampowered.com/app/2051120/HOT_WHEELS_UNLEASHED_2__Turbocharged/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2051120/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2051120/capsule_616x353.jpg",
+      "$49.99",
+      "$7.49",
+      "85%",
+      null
+    ],
+    [
+      "Mutant Year Zero: Road to Eden",
+      "https://store.steampowered.com/app/760060/Mutant_Year_Zero_Road_to_Eden/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/760060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/760060/capsule_616x353.jpg",
+      "$34.99",
+      "$8.74",
+      "75%",
+      null
+    ],
+    [
+      "X-Morph: Defense",
+      "https://store.steampowered.com/app/408410/XMorph_Defense/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/408410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/408410/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "WRATH: Aeon of Ruin",
+      "https://store.steampowered.com/app/1000410/WRATH_Aeon_of_Ruin/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1000410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1000410/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Men of War: Assault Squad",
+      "https://store.steampowered.com/app/64000/Men_of_War_Assault_Squad/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/64000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/64000/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "Deep Sky Derelicts",
+      "https://store.steampowered.com/app/698640/Deep_Sky_Derelicts/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/698640/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/698640/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Dreamfall: The Longest Journey",
+      "https://store.steampowered.com/app/6300/Dreamfall_The_Longest_Journey/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6300/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-10 21:40:31"
+  "update_time": "2025-12-11 05:11:52"
 }
