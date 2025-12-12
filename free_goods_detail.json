@@ -1,5 +1,5 @@
 {
-  "total_count": 2150,
+  "total_count": 2166,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9848,6 +9848,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/433090/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Differences Online",
+      "https://store.steampowered.com/app/3462600/Differences_Online/?snr=1_7_7_230_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3462600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3462600/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Razortron 2000: Soundtrack",
+      "https://store.steampowered.com/app/545170/Razortron_2000_Soundtrack/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/545170/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/545170/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -19040,7 +19056,147 @@
       "$13.74",
       "75%",
       null
+    ],
+    [
+      "Green Hell",
+      "https://store.steampowered.com/app/815370/Green_Hell/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/815370/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/815370/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Amnesia: The Bunker",
+      "https://store.steampowered.com/app/1944430/Amnesia_The_Bunker/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1944430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1944430/capsule_616x353.jpg",
+      "$24.99",
+      "$3.74",
+      "85%",
+      null
+    ],
+    [
+      "Mega Man 11",
+      "https://store.steampowered.com/app/742300/Mega_Man_11/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/742300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/742300/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Sniper Ghost Warrior Gold Edition",
+      "https://store.steampowered.com/sub/11762/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$7.99",
+      "$0.79",
+      "90%",
+      null
+    ],
+    [
+      "Mega Man Legacy Collection 2",
+      "https://store.steampowered.com/app/495050/Mega_Man_Legacy_Collection_2/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/495050/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/495050/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "SOMA",
+      "https://store.steampowered.com/app/282140/SOMA/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/282140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/282140/capsule_616x353.jpg",
+      "$29.99",
+      "$1.49",
+      "95%",
+      null
+    ],
+    [
+      "XCOM®: Chimera Squad",
+      "https://store.steampowered.com/app/882100/XCOM_Chimera_Squad/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/882100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/882100/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Risen",
+      "https://store.steampowered.com/app/40300/Risen/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/40300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/40300/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Darksiders II Deathinitive Edition Soundtrack",
+      "https://store.steampowered.com/app/417380/Darksiders_II_Deathinitive_Edition_Soundtrack/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/417380/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/417380/capsule_616x353.jpg",
+      "$4.99",
+      "$1.24",
+      "75%",
+      null
+    ],
+    [
+      "ArcaniA",
+      "https://store.steampowered.com/app/39690/ArcaniA/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/39690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/39690/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Lawn Mowing Simulator",
+      "https://store.steampowered.com/app/1480560/Lawn_Mowing_Simulator/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1480560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1480560/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Titan Quest: Atlantis",
+      "https://store.steampowered.com/app/1071200/Titan_Quest_Atlantis/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1071200/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1071200/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "One Piece Burning Blood",
+      "https://store.steampowered.com/app/425220/One_Piece_Burning_Blood/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/425220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/425220/capsule_616x353.jpg",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "Just Ignore Them",
+      "https://store.steampowered.com/app/561770/Just_Ignore_Them/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/561770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/561770/capsule_616x353.jpg",
+      "$3.99",
+      "$0.00",
+      "100%",
+      null
     ]
   ],
-  "update_time": "2025-12-12 15:59:14"
+  "update_time": "2025-12-12 21:41:25"
 }
