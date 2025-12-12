@@ -1,5 +1,5 @@
 {
-  "total_count": 2140,
+  "total_count": 2150,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9832,6 +9832,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3406910/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "HANEHOLO!",
+      "https://store.steampowered.com/app/2971290/HANEHOLO/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2971290/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2971290/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "XCOM 2: Alien Hunters",
+      "https://store.steampowered.com/app/433090/XCOM_2_Alien_Hunters/?snr=1_7_7_2300_150_14",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/433090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/433090/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -18944,7 +18960,87 @@
       "$0.99",
       "80%",
       null
+    ],
+    [
+      "Monster Hunter Rise + Sunbreak",
+      "https://store.steampowered.com/sub/692569/?snr=1_7_7_2300_150_1",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$59.99",
+      "$9.59",
+      "84%",
+      null
+    ],
+    [
+      "SMILE GAME BUILDER",
+      "https://store.steampowered.com/app/483950/SMILE_GAME_BUILDER/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/483950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/483950/capsule_616x353.jpg",
+      "$69.99",
+      "$13.99",
+      "80%",
+      null
+    ],
+    [
+      "Battle Chasers: Nightwar",
+      "https://store.steampowered.com/app/451020/Battle_Chasers_Nightwar/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/451020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/451020/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Tales & Tactics",
+      "https://store.steampowered.com/app/1652250/Tales__Tactics/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1652250/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1652250/capsule_616x353.jpg",
+      "$17.99",
+      "$3.59",
+      "80%",
+      null
+    ],
+    [
+      "XCOM: Enemy Within",
+      "https://store.steampowered.com/app/225340/XCOM_Enemy_Within/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/225340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/225340/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "The Walking Dead: Michonne - A Telltale Miniseries",
+      "https://store.steampowered.com/app/429570/The_Walking_Dead_Michonne__A_Telltale_Miniseries/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/429570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/429570/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "Expeditions: Viking",
+      "https://store.steampowered.com/app/445190/Expeditions_Viking/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/445190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/445190/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "F1® Manager 2023",
+      "https://store.steampowered.com/app/2287220/F1_Manager_2023/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2287220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2287220/capsule_616x353.jpg",
+      "$54.99",
+      "$13.74",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-12 09:44:09"
+  "update_time": "2025-12-12 15:59:14"
 }
