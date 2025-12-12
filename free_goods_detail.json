@@ -1,5 +1,5 @@
 {
-  "total_count": 2121,
+  "total_count": 2140,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9808,6 +9808,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/433091/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "PRAGMATA SKETCHBOOK - DEMO",
+      "https://store.steampowered.com/app/3357650/PRAGMATA/?snr=1_7_7_230_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3357650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3357650/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Fighting Fantasy Classics",
+      "https://store.steampowered.com/app/856880/Fighting_Fantasy_Classics/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/856880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/856880/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Game Of Fate 3：Clash Of Crowns Demo",
+      "https://store.steampowered.com/app/3406910/Game_Of_Fate_3Clash_Of_Crowns/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3406910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3406910/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -18760,7 +18784,167 @@
       "$5.99",
       "80%",
       null
+    ],
+    [
+      "SWORD ART ONLINE Alicization Lycoris",
+      "https://store.steampowered.com/app/1009290/SWORD_ART_ONLINE_Alicization_Lycoris/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1009290/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1009290/capsule_616x353.jpg",
+      "$59.99",
+      "$9.59",
+      "84%",
+      null
+    ],
+    [
+      "Tomb Raider: Anniversary",
+      "https://store.steampowered.com/app/8000/Tomb_Raider_Anniversary/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/8000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/8000/capsule_616x353.jpg",
+      "$8.99",
+      "$0.98",
+      "89%",
+      null
+    ],
+    [
+      "Tomb Raider: Legend",
+      "https://store.steampowered.com/app/7000/Tomb_Raider_Legend/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/7000/capsule_616x353.jpg",
+      "$6.99",
+      "$0.97",
+      "86%",
+      null
+    ],
+    [
+      "Tomb Raider: Underworld",
+      "https://store.steampowered.com/app/8140/Tomb_Raider_Underworld/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/8140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/8140/capsule_616x353.jpg",
+      "$8.99",
+      "$0.98",
+      "89%",
+      null
+    ],
+    [
+      "Dying Light: Definitive 10th Anniversary Edition",
+      "https://store.steampowered.com/sub/1265945/?snr=1_7_7_2300_150_3",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "Alan Wake Franchise",
+      "https://store.steampowered.com/sub/15407/?snr=1_7_7_2300_150_5",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "RESIDENT EVIL 2 / BIOHAZARD RE:2 Deluxe Edition",
+      "https://store.steampowered.com/sub/281610/?snr=1_7_7_2300_150_4",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$12.49",
+      "75%",
+      null
+    ],
+    [
+      "This Is the Police",
+      "https://store.steampowered.com/app/443810/This_Is_the_Police/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/443810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/443810/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "LARA CROFT AND THE TEMPLE OF OSIRIS™",
+      "https://store.steampowered.com/app/289690/LARA_CROFT_AND_THE_TEMPLE_OF_OSIRIS/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/289690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/289690/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Sword Art Online: Hollow Realization Deluxe Edition",
+      "https://store.steampowered.com/app/607890/Sword_Art_Online_Hollow_Realization_Deluxe_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/607890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/607890/capsule_616x353.jpg",
+      "$49.99",
+      "$7.49",
+      "85%",
+      null
+    ],
+    [
+      "Assassin's Creed® Valhalla - The Siege of Paris",
+      "https://store.steampowered.com/app/2210141/Assassins_Creed_Valhalla__The_Siege_of_Paris/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2210141/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2210141/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "Assassin's Creed® Valhalla - Wrath of the Druids",
+      "https://store.steampowered.com/app/2210142/Assassins_Creed_Valhalla__Wrath_of_the_Druids/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2210142/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2210142/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "PAC-MAN™ Championship Edition DX+",
+      "https://store.steampowered.com/app/236450/PACMAN_Championship_Edition_DX/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/236450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/236450/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Lara Croft and the Guardian of Light",
+      "https://store.steampowered.com/app/35130/Lara_Croft_and_the_Guardian_of_Light/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/35130/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/35130/capsule_616x353.jpg",
+      "$9.99",
+      "$1.49",
+      "85%",
+      null
+    ],
+    [
+      "Darksiders Genesis - Digital Extras",
+      "https://store.steampowered.com/app/1203440/Darksiders_Genesis__Digital_Extras/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1203440/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1203440/capsule_616x353.jpg",
+      "$7.99",
+      "$1.99",
+      "75%",
+      null
+    ],
+    [
+      "Assassin's Creed® Syndicate - The Dreadful Crimes",
+      "https://store.steampowered.com/app/452960/Assassins_Creed_Syndicate__The_Dreadful_Crimes/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/452960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/452960/capsule_616x353.jpg",
+      "$4.99",
+      "$0.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-12-12 05:11:45"
+  "update_time": "2025-12-12 09:44:09"
 }
