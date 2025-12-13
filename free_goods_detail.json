@@ -1,5 +1,5 @@
 {
-  "total_count": 2188,
+  "total_count": 2195,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9920,6 +9920,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3288210/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Monster Hunter Rise: Sunbreak Demo",
+      "https://store.steampowered.com/app/1836450/Monster_Hunter_Rise_Sunbreak_Demo/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1836450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1836450/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Resident Evil 4 Chainsaw Demo",
+      "https://store.steampowered.com/app/2231770/Resident_Evil_4_Chainsaw_Demo/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2231770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2231770/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "女皇请调教男宠-策略.卡牌.养成.游戏",
+      "https://store.steampowered.com/app/3818080/_/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3818080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3818080/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -19402,7 +19426,47 @@
       "$2.24",
       "85%",
       null
+    ],
+    [
+      "MX vs. ATV Reflex",
+      "https://store.steampowered.com/app/55140/MX_vs_ATV_Reflex/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/55140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/55140/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Hacknet",
+      "https://store.steampowered.com/app/365450/Hacknet/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/365450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/365450/capsule_616x353.jpg",
+      "$9.99",
+      "$1.49",
+      "85%",
+      null
+    ],
+    [
+      "Warhammer: Chaosbane",
+      "https://store.steampowered.com/app/774241/Warhammer_Chaosbane/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/774241/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/774241/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Gladiator Guild Manager",
+      "https://store.steampowered.com/app/1043260/Gladiator_Guild_Manager/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1043260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1043260/capsule_616x353.jpg",
+      "$23.98",
+      "$4.66",
+      "81%",
+      null
     ]
   ],
-  "update_time": "2025-12-13 05:04:42"
+  "update_time": "2025-12-13 09:39:51"
 }
