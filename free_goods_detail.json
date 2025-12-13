@@ -1,5 +1,5 @@
 {
-  "total_count": 2196,
+  "total_count": 2209,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9944,6 +9944,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3818080/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Total Tank Simulator 2 Demo",
+      "https://store.steampowered.com/app/3981460/Total_Tank_Simulator_2/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3981460/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3981460/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "SAS：绝响诡计 | Case 0 风暴蝴蝶",
+      "https://store.steampowered.com/app/3628380/SAS__Case_0/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3628380/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3628380/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -19476,7 +19492,117 @@
       "$3.99",
       "80%",
       null
+    ],
+    [
+      "Kingdom Come: Deliverance",
+      "https://store.steampowered.com/app/379430/Kingdom_Come_Deliverance/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/379430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/379430/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Kingdom Come: Deliverance Royal Edition",
+      "https://store.steampowered.com/sub/368776/?snr=1_7_7_2300_150_5",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "War Hospital",
+      "https://store.steampowered.com/app/1553000/War_Hospital/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1553000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1553000/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "KitHack Model Club",
+      "https://store.steampowered.com/app/2107090/KitHack_Model_Club/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2107090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2107090/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Dead Island Definitive Edition",
+      "https://store.steampowered.com/app/383150/Dead_Island_Definitive_Edition/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/383150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/383150/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Outpath",
+      "https://store.steampowered.com/app/2237970/Outpath/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2237970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2237970/capsule_616x353.jpg",
+      "$23.98",
+      "$5.50",
+      "77%",
+      null
+    ],
+    [
+      "Just Die Already",
+      "https://store.steampowered.com/app/979070/Just_Die_Already/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/979070/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/979070/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Saints Row",
+      "https://store.steampowered.com/app/742420/Saints_Row/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/742420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/742420/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Hunting Simulator 2",
+      "https://store.steampowered.com/app/1135910/Hunting_Simulator_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1135910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1135910/capsule_616x353.jpg",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
+    ],
+    [
+      "Saints Row®: The Third™ Remastered",
+      "https://store.steampowered.com/app/978300/Saints_Row_The_Third_Remastered/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/978300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/978300/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Empyreal",
+      "https://store.steampowered.com/app/1377700/Empyreal/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1377700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1377700/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-13 15:53:41"
+  "update_time": "2025-12-13 21:36:17"
 }
