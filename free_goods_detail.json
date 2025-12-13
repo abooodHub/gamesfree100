@@ -1,5 +1,5 @@
 {
-  "total_count": 2166,
+  "total_count": 2188,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9864,6 +9864,62 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/545170/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Nighthold: Number 1",
+      "https://store.steampowered.com/app/3823970/Nighthold_Number_1/?snr=1_7_7_230_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3823970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3823970/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "AUDIOMECH Demo",
+      "https://store.steampowered.com/app/4211230/AUDIOMECH_Demo/?snr=1_7_7_230_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4211230/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4211230/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Half-Life Legacy",
+      "https://store.steampowered.com/app/3619040/HalfLife_Legacy/?snr=1_7_7_230_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3619040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3619040/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Solasta II Demo",
+      "https://store.steampowered.com/app/2975950/Solasta_II/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2975950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2975950/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "MAID MOVING BOXES",
+      "https://store.steampowered.com/app/3917620/MAID_MOVING_BOXES/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3917620/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3917620/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Half-Life Arena",
+      "https://store.steampowered.com/app/3771220/HalfLife_Arena/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3771220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3771220/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Super Meat Boy 3D Demo",
+      "https://store.steampowered.com/app/3288210/Super_Meat_Boy_3D/?snr=1_7_7_230_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3288210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3288210/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -19196,7 +19252,157 @@
       "$0.00",
       "100%",
       null
+    ],
+    [
+      "Penumbra Overture",
+      "https://store.steampowered.com/app/22180/Penumbra_Overture/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/22180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/22180/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Werewolf: The Apocalypse - Earthblood",
+      "https://store.steampowered.com/app/679110/Werewolf_The_Apocalypse__Earthblood/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/679110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/679110/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Bomber Crew",
+      "https://store.steampowered.com/app/537800/Bomber_Crew/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/537800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/537800/capsule_616x353.jpg",
+      "$15.99",
+      "$2.39",
+      "85%",
+      null
+    ],
+    [
+      "Vampire: The Masquerade – Swansong",
+      "https://store.steampowered.com/app/1299510/Vampire_The_Masquerade__Swansong/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1299510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1299510/capsule_616x353.jpg",
+      "$49.99",
+      "$7.49",
+      "85%",
+      null
+    ],
+    [
+      "Turnip Boy Commits Tax Evasion",
+      "https://store.steampowered.com/app/1205450/Turnip_Boy_Commits_Tax_Evasion/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1205450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1205450/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Amnesia: A Machine for Pigs",
+      "https://store.steampowered.com/app/239200/Amnesia_A_Machine_for_Pigs/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/239200/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/239200/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "The Messenger",
+      "https://store.steampowered.com/app/764790/The_Messenger/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/764790/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/764790/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Amnesia: Rebirth",
+      "https://store.steampowered.com/app/999220/Amnesia_Rebirth/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/999220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/999220/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Amnesia: The Dark Descent",
+      "https://store.steampowered.com/app/57300/Amnesia_The_Dark_Descent/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/57300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/57300/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Sniper Ghost Warrior Contracts Digital Deluxe Edition",
+      "https://store.steampowered.com/sub/453455/?snr=1_7_7_2300_150_10",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
+    ],
+    [
+      "Sword Art Online: Lost Song",
+      "https://store.steampowered.com/app/840720/Sword_Art_Online_Lost_Song/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/840720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/840720/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Aquarium Designer",
+      "https://store.steampowered.com/app/1339000/Aquarium_Designer/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1339000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1339000/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Bee Simulator",
+      "https://store.steampowered.com/app/914750/Bee_Simulator/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/914750/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/914750/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Landlord's Super",
+      "https://store.steampowered.com/app/1127840/Landlords_Super/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1127840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1127840/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Sniper Elite: Nazi Zombie Army 2",
+      "https://store.steampowered.com/app/247910/Sniper_Elite_Nazi_Zombie_Army_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/247910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/247910/capsule_616x353.jpg",
+      "$14.99",
+      "$2.24",
+      "85%",
+      null
     ]
   ],
-  "update_time": "2025-12-12 21:41:25"
+  "update_time": "2025-12-13 05:04:42"
 }
