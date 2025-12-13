@@ -1,5 +1,5 @@
 {
-  "total_count": 2195,
+  "total_count": 2196,
   "free_games": [
     [
       "Where Winds Meet",
@@ -19466,7 +19466,17 @@
       "$4.66",
       "81%",
       null
+    ],
+    [
+      "The Pale Beyond",
+      "https://store.steampowered.com/app/1266030/The_Pale_Beyond/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1266030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1266030/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-12-13 09:39:51"
+  "update_time": "2025-12-13 15:53:41"
 }
