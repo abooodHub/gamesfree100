@@ -1,5 +1,5 @@
 {
-  "total_count": 2219,
+  "total_count": 2229,
   "free_games": [
     [
       "Where Winds Meet",
@@ -9960,6 +9960,54 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3628380/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Half-Life: Restored",
+      "https://store.steampowered.com/app/1283930/HalfLife_Restored/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1283930/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1283930/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Outhold Demo",
+      "https://store.steampowered.com/app/3781820/Outhold_Demo/?snr=1_7_7_230_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3781820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3781820/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Summer Delicious Simulator: Prologue",
+      "https://store.steampowered.com/app/4199540/Summer_Delicious_Simulator_Prologue/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4199540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4199540/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Formula Evolution 2025",
+      "https://store.steampowered.com/app/3273660/Formula_Evolution_2025/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3273660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3273660/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "TEKKEN 8 - DEMO",
+      "https://store.steampowered.com/app/1778820/TEKKEN_8/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1778820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1778820/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "SCP: Nine-Tailed Fox",
+      "https://store.steampowered.com/app/1304510/SCP_NineTailed_Fox/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1304510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1304510/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -19702,7 +19750,47 @@
       "$9.99",
       "75%",
       null
+    ],
+    [
+      "Gungrave G.O.R.E",
+      "https://store.steampowered.com/app/1630110/Gungrave_GORE/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1630110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1630110/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Saints Row: Gat out of Hell",
+      "https://store.steampowered.com/app/301910/Saints_Row_Gat_out_of_Hell/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/301910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/301910/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Movavi Video Editor Plus 2022 - Video Editing Software",
+      "https://store.steampowered.com/app/1783530/Movavi_Video_Editor_Plus_2022__Video_Editing_Software/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1783530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1783530/capsule_616x353.jpg",
+      "$79.99",
+      "$7.99",
+      "90%",
+      null
+    ],
+    [
+      "Embr",
+      "https://store.steampowered.com/app/1062830/Embr/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1062830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1062830/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-12-14 05:24:14"
+  "update_time": "2025-12-14 09:40:03"
 }
