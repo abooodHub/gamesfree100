@@ -1,5 +1,5 @@
 {
-  "total_count": 2229,
+  "total_count": 2232,
   "free_games": [
     [
       "Where Winds Meet",
@@ -10008,6 +10008,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1304510/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Pass The Fear Demo",
+      "https://store.steampowered.com/app/3561220/Pass_The_Fear/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3561220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3561220/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -19790,7 +19798,27 @@
       "$3.99",
       "80%",
       null
+    ],
+    [
+      "Zefyr: A Thief's Melody",
+      "https://store.steampowered.com/app/1344990/Zefyr_A_Thiefs_Melody/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1344990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1344990/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Encased: A Sci-Fi Post-Apocalyptic RPG",
+      "https://store.steampowered.com/app/921800/Encased_A_SciFi_PostApocalyptic_RPG/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/921800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/921800/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2025-12-14 09:40:03"
+  "update_time": "2025-12-14 15:53:30"
 }
