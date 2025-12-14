@@ -1,5 +1,5 @@
 {
-  "total_count": 2232,
+  "total_count": 2233,
   "free_games": [
     [
       "Where Winds Meet",
@@ -19818,7 +19818,17 @@
       "$2.99",
       "90%",
       null
+    ],
+    [
+      "Are You Smarter Than A 5th Grader",
+      "https://store.steampowered.com/app/1521160/Are_You_Smarter_Than_A_5th_Grader/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1521160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1521160/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2025-12-14 15:53:30"
+  "update_time": "2025-12-14 21:37:36"
 }
