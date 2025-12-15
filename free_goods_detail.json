@@ -1,5 +1,5 @@
 {
-  "total_count": 2233,
+  "total_count": 2239,
   "free_games": [
     [
       "Where Winds Meet",
@@ -10016,6 +10016,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3561220/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "A Game About Feeding A Black Hole Demo",
+      "https://store.steampowered.com/app/4041100/A_Game_About_Feeding_A_Black_Hole_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4041100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4041100/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "100 Radioactive Cats",
+      "https://store.steampowered.com/app/4212340/100_Radioactive_Cats/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4212340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4212340/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Scribble Bots Demo",
+      "https://store.steampowered.com/app/3904960/Scribble_Bots/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3904960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3904960/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Foobar Zero",
+      "https://store.steampowered.com/app/2841320/Foobar_Zero/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2841320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2841320/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -19828,7 +19860,27 @@
       "$2.99",
       "90%",
       null
+    ],
+    [
+      "Superflight",
+      "https://store.steampowered.com/app/732430/Superflight/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/732430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/732430/capsule_616x353.jpg",
+      "$2.99",
+      "$0.59",
+      "80%",
+      null
+    ],
+    [
+      "The Chant",
+      "https://store.steampowered.com/app/1577250/The_Chant/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1577250/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1577250/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2025-12-14 21:37:36"
+  "update_time": "2025-12-15 05:21:46"
 }
