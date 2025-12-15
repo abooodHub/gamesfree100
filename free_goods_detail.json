@@ -1,5 +1,5 @@
 {
-  "total_count": 2241,
+  "total_count": 2242,
   "free_games": [
     [
       "Where Winds Meet",
@@ -19900,7 +19900,17 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "RESIDENT EVIL 2 / BIOHAZARD RE:2 Deluxe Edition",
+      "https://store.steampowered.com/sub/281610/?snr=1_7_7_2300_150_3",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$12.49",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-15 09:47:56"
+  "update_time": "2025-12-15 16:03:05"
 }
