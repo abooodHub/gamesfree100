@@ -1,5 +1,5 @@
 {
-  "total_count": 2239,
+  "total_count": 2241,
   "free_games": [
     [
       "Where Winds Meet",
@@ -19880,7 +19880,27 @@
       "$2.49",
       "90%",
       null
+    ],
+    [
+      "Ultimate Fishing® Simulator 2",
+      "https://store.steampowered.com/app/1136380/Ultimate_Fishing_Simulator_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1136380/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1136380/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "MY HERO ONE'S JUSTICE",
+      "https://store.steampowered.com/app/748360/MY_HERO_ONES_JUSTICE/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/748360/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/748360/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-15 05:21:46"
+  "update_time": "2025-12-15 09:47:56"
 }
