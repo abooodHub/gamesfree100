@@ -1,5 +1,5 @@
 {
-  "total_count": 2242,
+  "total_count": 2255,
   "free_games": [
     [
       "Where Winds Meet",
@@ -10048,6 +10048,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2841320/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Farm Manager",
+      "https://store.steampowered.com/app/3759820/Farm_Manager/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3759820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3759820/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -19910,7 +19918,127 @@
       "$12.49",
       "75%",
       null
+    ],
+    [
+      "House Flipper VR",
+      "https://store.steampowered.com/app/1194700/House_Flipper_VR/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1194700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1194700/capsule_616x353.jpg",
+      "$19.99",
+      "$0.99",
+      "95%",
+      null
+    ],
+    [
+      "Sniper Elite: Nazi Zombie Army",
+      "https://store.steampowered.com/app/227100/Sniper_Elite_Nazi_Zombie_Army/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/227100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/227100/capsule_616x353.jpg",
+      "$14.99",
+      "$2.24",
+      "85%",
+      null
+    ],
+    [
+      "SpellForce 3 Fallen God",
+      "https://store.steampowered.com/app/1154040/SpellForce_3_Fallen_God/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1154040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1154040/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Evil Genius",
+      "https://store.steampowered.com/app/3720/Evil_Genius/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3720/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "Lara Croft GO",
+      "https://store.steampowered.com/app/540840/Lara_Croft_GO/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/540840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/540840/capsule_616x353.jpg",
+      "$9.99",
+      "$1.49",
+      "85%",
+      null
+    ],
+    [
+      "SpellForce 3 Soul Harvest",
+      "https://store.steampowered.com/app/817540/SpellForce_3_Soul_Harvest/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/817540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/817540/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Pesterquest",
+      "https://store.steampowered.com/app/1144030/Pesterquest/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1144030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1144030/capsule_616x353.jpg",
+      "$11.99",
+      "$1.79",
+      "85%",
+      null
+    ],
+    [
+      "BAJA: Edge of Control HD",
+      "https://store.steampowered.com/app/623090/BAJA_Edge_of_Control_HD/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/623090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/623090/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Assassin's Creed® Origins - The Hidden Ones",
+      "https://store.steampowered.com/app/662350/Assassins_Creed_Origins__The_Hidden_Ones/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/662350/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/662350/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "Assassin's Creed Syndicate - Jack The Ripper",
+      "https://store.steampowered.com/app/405080/Assassins_Creed_Syndicate__Jack_The_Ripper/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/405080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/405080/capsule_616x353.jpg",
+      "$14.99",
+      "$2.24",
+      "85%",
+      null
+    ],
+    [
+      "Golfie",
+      "https://store.steampowered.com/app/1579020/Golfie/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1579020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1579020/capsule_616x353.jpg",
+      "$17.99",
+      "$1.79",
+      "90%",
+      null
+    ],
+    [
+      "One Gun Guy",
+      "https://store.steampowered.com/app/1200580/One_Gun_Guy/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1200580/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1200580/capsule_616x353.jpg",
+      "$4.99",
+      "$0.00",
+      "100%",
+      null
     ]
   ],
-  "update_time": "2025-12-15 16:03:05"
+  "update_time": "2025-12-15 21:42:41"
 }
