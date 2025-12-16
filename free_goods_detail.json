@@ -1,5 +1,5 @@
 {
-  "total_count": 2255,
+  "total_count": 2265,
   "free_games": [
     [
       "Where Winds Meet",
@@ -10056,6 +10056,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3759820/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Tainted Grail: The Fall of Avalon Demo",
+      "https://store.steampowered.com/app/2346630/Tainted_Grail_The_Fall_of_Avalon_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2346630/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2346630/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "FRUKT Demo",
+      "https://store.steampowered.com/app/3880400/FRUKT/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3880400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3880400/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Retrocycles",
+      "https://store.steampowered.com/app/1306180/Retrocycles/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1306180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1306180/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -20038,7 +20062,77 @@
       "$0.00",
       "100%",
       null
+    ],
+    [
+      "Tainted Grail: Conquest",
+      "https://store.steampowered.com/app/1199030/Tainted_Grail_Conquest/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1199030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1199030/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Blue Fire",
+      "https://store.steampowered.com/app/1220150/Blue_Fire/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1220150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1220150/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "NAMCO MUSEUM ARCHIVES Vol 2",
+      "https://store.steampowered.com/app/1254620/NAMCO_MUSEUM_ARCHIVES_Vol_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1254620/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1254620/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Dungeon of the ENDLESS™",
+      "https://store.steampowered.com/app/249050/Dungeon_of_the_ENDLESS/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/249050/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/249050/capsule_616x353.jpg",
+      "$11.99",
+      "$2.99",
+      "75%",
+      null
+    ],
+    [
+      "Valfaris: Mecha Therion",
+      "https://store.steampowered.com/app/1647920/Valfaris_Mecha_Therion/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1647920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1647920/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "NAMCO MUSEUM ARCHIVES Vol 1",
+      "https://store.steampowered.com/app/1250250/NAMCO_MUSEUM_ARCHIVES_Vol_1/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1250250/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1250250/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Valfaris",
+      "https://store.steampowered.com/app/600130/Valfaris/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/600130/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/600130/capsule_616x353.jpg",
+      "$24.99",
+      "$3.74",
+      "85%",
+      null
     ]
   ],
-  "update_time": "2025-12-15 21:42:41"
+  "update_time": "2025-12-16 05:12:41"
 }
