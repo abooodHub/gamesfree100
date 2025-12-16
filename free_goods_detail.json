@@ -1,5 +1,5 @@
 {
-  "total_count": 2273,
+  "total_count": 2276,
   "free_games": [
     [
       "Where Winds Meet",
@@ -20210,7 +20210,37 @@
       "$3.99",
       "80%",
       null
+    ],
+    [
+      "Risen 3 - Titan Lords",
+      "https://store.steampowered.com/app/249230/Risen_3__Titan_Lords/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/249230/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/249230/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Accel World VS. Sword Art Online Deluxe Edition",
+      "https://store.steampowered.com/app/607880/Accel_World_VS_Sword_Art_Online_Deluxe_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/607880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/607880/capsule_616x353.jpg",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "Risen 2: Dark Waters",
+      "https://store.steampowered.com/app/40390/Risen_2_Dark_Waters/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/40390/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/40390/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-16 09:45:03"
+  "update_time": "2025-12-16 16:01:26"
 }
