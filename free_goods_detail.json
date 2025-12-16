@@ -1,5 +1,5 @@
 {
-  "total_count": 2265,
+  "total_count": 2273,
   "free_games": [
     [
       "Where Winds Meet",
@@ -10080,6 +10080,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1306180/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "REAL MOON",
+      "https://store.steampowered.com/app/4143610/REAL_MOON/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4143610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4143610/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -20132,7 +20140,77 @@
       "$3.74",
       "85%",
       null
+    ],
+    [
+      "Kingdom Come: Deliverance Royal Edition",
+      "https://store.steampowered.com/sub/368776/?snr=1_7_7_2300_150_2",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Groove Coaster",
+      "https://store.steampowered.com/app/744060/Groove_Coaster/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/744060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/744060/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "ONE PIECE PIRATE WARRIORS 3 Gold Edition",
+      "https://store.steampowered.com/sub/70503/?snr=1_7_7_2300_150_9",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$51.98",
+      "$5.19",
+      "90%",
+      null
+    ],
+    [
+      "Invincible Presents: Atom Eve",
+      "https://store.steampowered.com/app/2060870/Invincible_Presents_Atom_Eve/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2060870/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2060870/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "The Big Con",
+      "https://store.steampowered.com/app/1139280/The_Big_Con/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1139280/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1139280/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "Hazel Sky",
+      "https://store.steampowered.com/app/1094920/Hazel_Sky/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1094920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1094920/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "Beyond Contact",
+      "https://store.steampowered.com/app/877010/Beyond_Contact/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/877010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/877010/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-12-16 05:12:41"
+  "update_time": "2025-12-16 09:45:03"
 }
