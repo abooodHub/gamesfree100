@@ -1,5 +1,5 @@
 {
-  "total_count": 2294,
+  "total_count": 2312,
   "free_games": [
     [
       "Where Winds Meet",
@@ -20416,7 +20416,187 @@
       "$4.39",
       "80%",
       null
+    ],
+    [
+      "This Is the Police 2",
+      "https://store.steampowered.com/app/785740/This_Is_the_Police_2/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/785740/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/785740/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Yumeutsutsu Re:Master",
+      "https://store.steampowered.com/app/1058140/Yumeutsutsu_ReMaster/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1058140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1058140/capsule_616x353.jpg",
+      "$64.99",
+      "$16.24",
+      "75%",
+      null
+    ],
+    [
+      "Sword Art Online Re: Hollow Fragment",
+      "https://store.steampowered.com/app/638650/Sword_Art_Online_Re_Hollow_Fragment/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/638650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/638650/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "TOKYO GHOUL:re [CALL to EXIST]",
+      "https://store.steampowered.com/app/756530/TOKYO_GHOULre_CALL_to_EXIST/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/756530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/756530/capsule_616x353.jpg",
+      "$59.99",
+      "$9.59",
+      "84%",
+      null
+    ],
+    [
+      "Tools Up! Ultimate Edition",
+      "https://store.steampowered.com/app/2551920/Tools_Up_Ultimate_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2551920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2551920/capsule_616x353.jpg",
+      "$34.99",
+      "$6.99",
+      "80%",
+      null
+    ],
+    [
+      "Train Station Renovation",
+      "https://store.steampowered.com/app/914010/Train_Station_Renovation/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/914010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/914010/capsule_616x353.jpg",
+      "$18.99",
+      "$2.84",
+      "85%",
+      null
+    ],
+    [
+      "Nurse Love Addiction",
+      "https://store.steampowered.com/app/485040/Nurse_Love_Addiction/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/485040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/485040/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Deadly Days",
+      "https://store.steampowered.com/app/740080/Deadly_Days/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/740080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/740080/capsule_616x353.jpg",
+      "$11.99",
+      "$0.95",
+      "92%",
+      null
+    ],
+    [
+      "Nurse Love Syndrome",
+      "https://store.steampowered.com/app/1023690/Nurse_Love_Syndrome/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1023690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1023690/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Gord",
+      "https://store.steampowered.com/app/1351210/Gord/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1351210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1351210/capsule_616x353.jpg",
+      "$34.99",
+      "$3.49",
+      "90%",
+      null
+    ],
+    [
+      "Vampire: The Masquerade - Coteries of New York",
+      "https://store.steampowered.com/app/1096410/Vampire_The_Masquerade__Coteries_of_New_York/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1096410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1096410/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Monster Jam Steel Titans 2",
+      "https://store.steampowered.com/app/1205480/Monster_Jam_Steel_Titans_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1205480/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1205480/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "WRC 5 FIA World Rally Championship",
+      "https://store.steampowered.com/app/354160/WRC_5_FIA_World_Rally_Championship/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/354160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/354160/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "Aces & Adventures",
+      "https://store.steampowered.com/app/1815570/Aces__Adventures/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1815570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1815570/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Escapists 2 - Glorious Regime Prison",
+      "https://store.steampowered.com/app/666350/Escapists_2__Glorious_Regime_Prison/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/666350/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/666350/capsule_616x353.jpg",
+      "$3.99",
+      "$0.99",
+      "75%",
+      null
+    ],
+    [
+      "Morbid: The Seven Acolytes",
+      "https://store.steampowered.com/app/1140890/Morbid_The_Seven_Acolytes/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1140890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1140890/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "BLACK CLOVER: QUARTET KNIGHTS",
+      "https://store.steampowered.com/app/714080/BLACK_CLOVER_QUARTET_KNIGHTS/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/714080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/714080/capsule_616x353.jpg",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "Sayonara Umihara Kawase",
+      "https://store.steampowered.com/app/378750/Sayonara_Umihara_Kawase/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/378750/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/378750/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-12-17 16:01:14"
+  "update_time": "2025-12-17 21:43:40"
 }
