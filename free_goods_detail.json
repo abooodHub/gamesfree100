@@ -1,5 +1,5 @@
 {
-  "total_count": 2281,
+  "total_count": 2287,
   "free_games": [
     [
       "Where Winds Meet",
@@ -10086,6 +10086,14 @@
       "https://store.steampowered.com/app/4143610/REAL_MOON/?snr=1_7_7_230_150_9",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4143610/header.jpg",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4143610/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Pax Autocratica: Prologue",
+      "https://store.steampowered.com/app/4107120/Pax_Autocratica_Prologue/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4107120/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4107120/capsule_616x353.jpg",
       "",
       "مجاني"
     ]
@@ -20290,7 +20298,57 @@
       "$1.74",
       "75%",
       null
+    ],
+    [
+      "The Addams Family: Mansion Mayhem",
+      "https://store.steampowered.com/app/1543830/The_Addams_Family_Mansion_Mayhem/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1543830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1543830/capsule_616x353.jpg",
+      "$39.99",
+      "$1.99",
+      "95%",
+      null
+    ],
+    [
+      "Blaze and the Monster Machines: Axle City Racers",
+      "https://store.steampowered.com/app/1434330/Blaze_and_the_Monster_Machines_Axle_City_Racers/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1434330/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1434330/capsule_616x353.jpg",
+      "$39.99",
+      "$1.99",
+      "95%",
+      null
+    ],
+    [
+      "JoJo Siwa: Worldwide Party",
+      "https://store.steampowered.com/app/1910300/JoJo_Siwa_Worldwide_Party/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1910300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1910300/capsule_616x353.jpg",
+      "$39.99",
+      "$1.99",
+      "95%",
+      null
+    ],
+    [
+      "One Hand Clapping",
+      "https://store.steampowered.com/app/893720/One_Hand_Clapping/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/893720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/893720/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "MUSYNX",
+      "https://store.steampowered.com/app/952040/MUSYNX/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/952040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/952040/capsule_616x353.jpg",
+      "$3.99",
+      "$0.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-16 21:42:33"
+  "update_time": "2025-12-17 05:07:20"
 }
