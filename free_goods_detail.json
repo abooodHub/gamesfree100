@@ -1,5 +1,5 @@
 {
-  "total_count": 2287,
+  "total_count": 2293,
   "free_games": [
     [
       "Where Winds Meet",
@@ -10094,6 +10094,14 @@
       "https://store.steampowered.com/app/4107120/Pax_Autocratica_Prologue/?snr=1_7_7_230_150_9",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4107120/header.jpg",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4107120/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Fracctal TCG",
+      "https://store.steampowered.com/app/3752950/Fracctal_TCG/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3752950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3752950/capsule_616x353.jpg",
       "",
       "مجاني"
     ]
@@ -20348,7 +20356,57 @@
       "$0.99",
       "75%",
       null
+    ],
+    [
+      "EDGE&TRIGGER",
+      "https://store.steampowered.com/sub/66335/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$4.99",
+      "$0.49",
+      "90%",
+      null
+    ],
+    [
+      "Sniper Ghost Warrior Contracts Digital Deluxe Edition",
+      "https://store.steampowered.com/sub/453455/?snr=1_7_7_2300_150_9",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
+    ],
+    [
+      "Dead Island Retro Revenge",
+      "https://store.steampowered.com/app/337360/Dead_Island_Retro_Revenge/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/337360/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/337360/capsule_616x353.jpg",
+      "$4.99",
+      "$0.99",
+      "80%",
+      null
+    ],
+    [
+      "DRAGON BALL: THE BREAKERS",
+      "https://store.steampowered.com/app/1276760/DRAGON_BALL_THE_BREAKERS/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1276760/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1276760/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Gothic II: Gold Edition",
+      "https://store.steampowered.com/app/39510/Gothic_II_Gold_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/39510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/39510/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-17 05:07:20"
+  "update_time": "2025-12-17 09:44:48"
 }
