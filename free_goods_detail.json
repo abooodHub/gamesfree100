@@ -1,5 +1,5 @@
 {
-  "total_count": 2293,
+  "total_count": 2294,
   "free_games": [
     [
       "Where Winds Meet",
@@ -20406,7 +20406,17 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "Trine 3: The Artifacts of Power",
+      "https://store.steampowered.com/app/319910/Trine_3_The_Artifacts_of_Power/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/319910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/319910/capsule_616x353.jpg",
+      "$21.99",
+      "$4.39",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-12-17 09:44:48"
+  "update_time": "2025-12-17 16:01:14"
 }
