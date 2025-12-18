@@ -1,5 +1,5 @@
 {
-  "total_count": 2345,
+  "total_count": 2352,
   "free_games": [
     [
       "Where Winds Meet",
@@ -20914,7 +20914,77 @@
       "$1.99",
       "90%",
       null
+    ],
+    [
+      "RESIDENT EVIL 2 / BIOHAZARD RE:2 Deluxe Edition",
+      "https://store.steampowered.com/sub/281610/?snr=1_7_7_2300_150_2",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$12.49",
+      "75%",
+      null
+    ],
+    [
+      "Conan Unconquered",
+      "https://store.steampowered.com/app/989690/Conan_Unconquered/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/989690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/989690/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Virgo Versus The Zodiac",
+      "https://store.steampowered.com/app/920320/Virgo_Versus_The_Zodiac/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/920320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/920320/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "The Longest Journey + Dreamfall",
+      "https://store.steampowered.com/sub/320/?snr=1_7_7_2300_150_10",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Giana Sisters: Twisted Dreams",
+      "https://store.steampowered.com/app/223220/Giana_Sisters_Twisted_Dreams/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/223220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/223220/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "Nickelodeon Kart Racers 3: Slime Speedway",
+      "https://store.steampowered.com/app/1620040/Nickelodeon_Kart_Racers_3_Slime_Speedway/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1620040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1620040/capsule_616x353.jpg",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "Barro 22",
+      "https://store.steampowered.com/app/1797610/Barro_22/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1797610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1797610/capsule_616x353.jpg",
+      "$4.99",
+      "$0.49",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2025-12-18 09:44:23"
+  "update_time": "2025-12-18 15:59:33"
 }
