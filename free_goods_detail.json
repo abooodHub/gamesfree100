@@ -1,5 +1,5 @@
 {
-  "total_count": 2312,
+  "total_count": 2335,
   "free_games": [
     [
       "Where Winds Meet",
@@ -10102,6 +10102,54 @@
       "https://store.steampowered.com/app/3752950/Fracctal_TCG/?snr=1_7_7_230_150_9",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3752950/header.jpg",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3752950/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Surfpunk Demo",
+      "https://store.steampowered.com/app/4225130/Surfpunk_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4225130/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4225130/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Elevator Demo",
+      "https://store.steampowered.com/app/4225420/Elevator_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4225420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4225420/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "CODEX MORTIS Demo",
+      "https://store.steampowered.com/app/4095390/CODEX_MORTIS_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4095390/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4095390/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "How Many Dudes? Demo",
+      "https://store.steampowered.com/app/3934270/How_Many_Dudes/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3934270/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3934270/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Dead Weight: Prologue",
+      "https://store.steampowered.com/app/4129790/Dead_Weight_Prologue/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4129790/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4129790/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "XCOM 2: Anarchy's Children",
+      "https://store.steampowered.com/app/433080/XCOM_2_Anarchys_Children/?snr=1_7_7_2300_150_15",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/433080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/433080/capsule_616x353.jpg",
       "",
       "مجاني"
     ]
@@ -20596,7 +20644,177 @@
       "$2.99",
       "80%",
       null
+    ],
+    [
+      "Nimbatus - The Space Drone Constructor",
+      "https://store.steampowered.com/app/383840/Nimbatus__The_Space_Drone_Constructor/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/383840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/383840/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Copy Kitty",
+      "https://store.steampowered.com/app/349250/Copy_Kitty/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/349250/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/349250/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Tom Clancy's Ghost Recon Wildlands - Year 2 Pass",
+      "https://store.steampowered.com/app/832700/Tom_Clancys_Ghost_Recon_Wildlands__Year_2_Pass/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/832700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/832700/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Road 96: Mile 0",
+      "https://store.steampowered.com/app/2095340/Road_96_Mile_0/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2095340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2095340/capsule_616x353.jpg",
+      "$12.96",
+      "$3.24",
+      "75%",
+      null
+    ],
+    [
+      "King's Bounty II",
+      "https://store.steampowered.com/app/1135300/Kings_Bounty_II/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1135300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1135300/capsule_616x353.jpg",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
+    ],
+    [
+      "Thief Gold",
+      "https://store.steampowered.com/app/211600/Thief_Gold/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/211600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/211600/capsule_616x353.jpg",
+      "$6.99",
+      "$1.74",
+      "75%",
+      null
+    ],
+    [
+      "IL-2 Sturmovik: 1946",
+      "https://store.steampowered.com/app/15320/IL2_Sturmovik_1946/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/15320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/15320/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Tools Up!",
+      "https://store.steampowered.com/app/1004490/Tools_Up/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1004490/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1004490/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Thief: Deadly Shadows",
+      "https://store.steampowered.com/app/6980/Thief_Deadly_Shadows/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6980/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6980/capsule_616x353.jpg",
+      "$8.99",
+      "$1.79",
+      "80%",
+      null
+    ],
+    [
+      "One Piece: Unlimited World Red - Deluxe Edition",
+      "https://store.steampowered.com/app/571720/One_Piece_Unlimited_World_Red__Deluxe_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/571720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/571720/capsule_616x353.jpg",
+      "$39.99",
+      "$4.79",
+      "88%",
+      null
+    ],
+    [
+      "Lucius",
+      "https://store.steampowered.com/app/218640/Lucius/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/218640/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/218640/capsule_616x353.jpg",
+      "$9.99",
+      "$1.49",
+      "85%",
+      null
+    ],
+    [
+      "The Escapists 2 - Dungeons and Duct Tape",
+      "https://store.steampowered.com/app/821170/The_Escapists_2__Dungeons_and_Duct_Tape/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/821170/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/821170/capsule_616x353.jpg",
+      "$3.99",
+      "$0.99",
+      "75%",
+      null
+    ],
+    [
+      "Men of War: Assault Squad 2 - Airborne",
+      "https://store.steampowered.com/app/357760/Men_of_War_Assault_Squad_2__Airborne/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/357760/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/357760/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "GAROU: MARK OF THE WOLVES",
+      "https://store.steampowered.com/app/366240/GAROU_MARK_OF_THE_WOLVES/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/366240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/366240/capsule_616x353.jpg",
+      "$9.99",
+      "$1.49",
+      "85%",
+      null
+    ],
+    [
+      "de Blob",
+      "https://store.steampowered.com/app/532320/de_Blob/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/532320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/532320/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Sphinx and the Cursed Mummy",
+      "https://store.steampowered.com/app/606710/Sphinx_and_the_Cursed_Mummy/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/606710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/606710/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Kingdoms of Amalur: Re-Reckoning - Fatesworn",
+      "https://store.steampowered.com/app/1278260/Kingdoms_of_Amalur_ReReckoning__Fatesworn/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1278260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1278260/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-17 21:43:40"
+  "update_time": "2025-12-18 05:08:23"
 }
