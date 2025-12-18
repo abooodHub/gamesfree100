@@ -1,5 +1,5 @@
 {
-  "total_count": 2335,
+  "total_count": 2345,
   "free_games": [
     [
       "Where Winds Meet",
@@ -20814,7 +20814,107 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "Sacred Gold",
+      "https://store.steampowered.com/app/12320/Sacred_Gold/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/12320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/12320/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Hiveswap Friendsim",
+      "https://store.steampowered.com/app/833040/Hiveswap_Friendsim/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/833040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/833040/capsule_616x353.jpg",
+      "$12.99",
+      "$1.94",
+      "85%",
+      null
+    ],
+    [
+      "ONE PUNCH MAN: A HERO NOBODY KNOWS",
+      "https://store.steampowered.com/app/991560/ONE_PUNCH_MAN_A_HERO_NOBODY_KNOWS/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/991560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/991560/capsule_616x353.jpg",
+      "$59.99",
+      "$5.99",
+      "90%",
+      null
+    ],
+    [
+      "The Escapists 2 - Big Top Breakout",
+      "https://store.steampowered.com/app/784930/The_Escapists_2__Big_Top_Breakout/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/784930/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/784930/capsule_616x353.jpg",
+      "$3.99",
+      "$0.99",
+      "75%",
+      null
+    ],
+    [
+      "de Blob 2",
+      "https://store.steampowered.com/app/563190/de_Blob_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/563190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/563190/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Metamorphosis",
+      "https://store.steampowered.com/app/1025410/Metamorphosis/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1025410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1025410/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "The Escapists 2 - Wicked Ward",
+      "https://store.steampowered.com/app/716580/The_Escapists_2__Wicked_Ward/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/716580/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/716580/capsule_616x353.jpg",
+      "$3.99",
+      "$0.99",
+      "75%",
+      null
+    ],
+    [
+      "OlliOlli World",
+      "https://store.steampowered.com/app/1190170/OlliOlli_World/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1190170/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1190170/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Homestead Arcana",
+      "https://store.steampowered.com/app/1867520/Homestead_Arcana/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1867520/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1867520/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Fury Unleashed",
+      "https://store.steampowered.com/app/465200/Fury_Unleashed/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/465200/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/465200/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2025-12-18 05:08:23"
+  "update_time": "2025-12-18 09:44:23"
 }
