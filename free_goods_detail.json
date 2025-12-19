@@ -1,5 +1,5 @@
 {
-  "total_count": 2434,
+  "total_count": 2438,
   "free_games": [
     [
       "Where Winds Meet",
@@ -10158,6 +10158,14 @@
       "https://store.steampowered.com/app/2104890/RoadCraft/?snr=1_7_7_230_150_10",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2104890/header.jpg",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2104890/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Wild Terra Online",
+      "https://store.steampowered.com/app/500710/Wild_Terra_Online/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/500710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/500710/capsule_616x353.jpg",
       "",
       "مجاني"
     ]
@@ -21802,7 +21810,37 @@
       "$3.99",
       "80%",
       null
+    ],
+    [
+      "LEGO® Star Wars™: The Skywalker Saga Galactic Edition",
+      "https://store.steampowered.com/sub/785847/?snr=1_7_7_2300_150_6",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$69.99",
+      "$13.99",
+      "80%",
+      null
+    ],
+    [
+      "Resident Evil 7 Gold Edition & Village Gold Edition",
+      "https://store.steampowered.com/sub/1252652/?snr=1_7_7_2300_150_4",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$79.99",
+      "$19.99",
+      "75%",
+      null
+    ],
+    [
+      "STAR WARS Jedi: Fallen Order Deluxe Edition",
+      "https://store.steampowered.com/sub/401587/?snr=1_7_7_2300_150_10",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2025-12-19 09:42:01"
+  "update_time": "2025-12-19 15:58:02"
 }
