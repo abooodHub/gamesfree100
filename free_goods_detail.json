@@ -1,5 +1,5 @@
 {
-  "total_count": 2438,
+  "total_count": 2448,
   "free_games": [
     [
       "Where Winds Meet",
@@ -10166,6 +10166,22 @@
       "https://store.steampowered.com/app/500710/Wild_Terra_Online/?snr=1_7_7_230_150_10",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/500710/header.jpg",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/500710/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Lootbane Demo",
+      "https://store.steampowered.com/app/4151480/Lootbane_Demo/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4151480/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4151480/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "The Legend of Heroes: Trails beyond the Horizon Story Demo",
+      "https://store.steampowered.com/app/3316940/The_Legend_of_Heroes_Trails_beyond_the_Horizon/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3316940/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3316940/capsule_616x353.jpg",
       "",
       "مجاني"
     ]
@@ -21840,7 +21856,87 @@
       "$4.99",
       "90%",
       null
+    ],
+    [
+      "STAR WARS Jedi: Fallen Order Deluxe Edition",
+      "https://store.steampowered.com/sub/401587/?snr=1_7_7_2300_150_9",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "Monster Hunter Rise + Sunbreak",
+      "https://store.steampowered.com/sub/692569/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$59.99",
+      "$9.59",
+      "84%",
+      null
+    ],
+    [
+      "Dying Light: Definitive 10th Anniversary Edition",
+      "https://store.steampowered.com/sub/1265945/?snr=1_7_7_2300_150_10",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "Aliens: Fireteam Elite",
+      "https://store.steampowered.com/app/1549970/Aliens_Fireteam_Elite/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1549970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1549970/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Steel Division 2",
+      "https://store.steampowered.com/app/919640/Steel_Division_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/919640/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/919640/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Planescape: Torment: Enhanced Edition",
+      "https://store.steampowered.com/app/466300/Planescape_Torment_Enhanced_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/466300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/466300/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Outward Definitive Edition",
+      "https://store.steampowered.com/app/794260/Outward_Definitive_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/794260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/794260/capsule_616x353.jpg",
+      "$39.99",
+      "$4.79",
+      "88%",
+      null
+    ],
+    [
+      "Banana Hell: Mountain of Madness",
+      "https://store.steampowered.com/app/2068520/Banana_Hell_Mountain_of_Madness/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2068520/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2068520/capsule_616x353.jpg",
+      "$0.99",
+      "$0.00",
+      "100%",
+      null
     ]
   ],
-  "update_time": "2025-12-19 15:58:02"
+  "update_time": "2025-12-19 21:40:22"
 }
