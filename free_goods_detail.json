@@ -1,5 +1,5 @@
 {
-  "total_count": 2455,
+  "total_count": 2456,
   "free_games": [
     [
       "Where Winds Meet",
@@ -22000,7 +22000,17 @@
       "$0.99",
       "90%",
       null
+    ],
+    [
+      "Kingdom Come: Deliverance Royal Edition",
+      "https://store.steampowered.com/sub/368776/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-12-20 05:04:29"
+  "update_time": "2025-12-20 09:40:31"
 }
