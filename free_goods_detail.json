@@ -1,5 +1,5 @@
 {
-  "total_count": 2456,
+  "total_count": 2458,
   "free_games": [
     [
       "Where Winds Meet",
@@ -10206,6 +10206,14 @@
       "https://store.steampowered.com/app/50620/Darksiders/?snr=1_7_7_230_150_20",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/50620/header.jpg",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/50620/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "MINOS: Home A-Labyrinth",
+      "https://store.steampowered.com/app/4162630/MINOS_Home_ALabyrinth/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4162630/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4162630/capsule_616x353.jpg",
       "",
       "مجاني"
     ]
@@ -22010,7 +22018,17 @@
       "$7.99",
       "80%",
       null
+    ],
+    [
+      "LEGO Batman Trilogy",
+      "https://store.steampowered.com/sub/53403/?snr=1_7_7_2300_150_10",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2025-12-20 09:40:31"
+  "update_time": "2025-12-20 15:53:26"
 }
