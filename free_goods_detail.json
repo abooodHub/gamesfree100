@@ -1,5 +1,5 @@
 {
-  "total_count": 2458,
+  "total_count": 2459,
   "free_games": [
     [
       "Where Winds Meet",
@@ -22028,7 +22028,17 @@
       "$4.99",
       "90%",
       null
+    ],
+    [
+      "Undercroft warriors",
+      "https://store.steampowered.com/app/2547140/Undercroft_warriors/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2547140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2547140/capsule_616x353.jpg",
+      "$2.99",
+      "$0.00",
+      "100%",
+      null
     ]
   ],
-  "update_time": "2025-12-20 15:53:26"
+  "update_time": "2025-12-20 21:35:51"
 }
