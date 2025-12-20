@@ -1,5 +1,5 @@
 {
-  "total_count": 2448,
+  "total_count": 2455,
   "free_games": [
     [
       "Where Winds Meet",
@@ -10182,6 +10182,30 @@
       "https://store.steampowered.com/app/3316940/The_Legend_of_Heroes_Trails_beyond_the_Horizon/?snr=1_7_7_230_150_8",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3316940/header.jpg",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3316940/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "LANESPLIT Demo",
+      "https://store.steampowered.com/app/3278310/LANESPLIT/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3278310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3278310/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Plinbo Demo",
+      "https://store.steampowered.com/app/3948580/Plinbo_Roguelike_Plinko/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3948580/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3948580/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Darksiders™",
+      "https://store.steampowered.com/app/50620/Darksiders/?snr=1_7_7_230_150_20",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/50620/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/50620/capsule_616x353.jpg",
       "",
       "مجاني"
     ]
@@ -21936,7 +21960,47 @@
       "$0.00",
       "100%",
       null
+    ],
+    [
+      "Monster Hunter Rise + Sunbreak",
+      "https://store.steampowered.com/sub/692569/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$59.99",
+      "$9.59",
+      "84%",
+      null
+    ],
+    [
+      "PC Building Simulator",
+      "https://store.steampowered.com/app/621060/PC_Building_Simulator/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/621060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/621060/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Resident Evil 7 Gold Edition & Village Gold Edition",
+      "https://store.steampowered.com/sub/1252652/?snr=1_7_7_2300_150_6",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$79.99",
+      "$19.99",
+      "75%",
+      null
+    ],
+    [
+      "People Playground",
+      "https://store.steampowered.com/app/1118200/People_Playground/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1118200/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1118200/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2025-12-19 21:40:22"
+  "update_time": "2025-12-20 05:04:29"
 }
