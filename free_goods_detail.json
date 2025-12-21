@@ -1,5 +1,5 @@
 {
-  "total_count": 2461,
+  "total_count": 2463,
   "free_games": [
     [
       "Where Winds Meet",
@@ -22056,7 +22056,27 @@
       "$4.99",
       "90%",
       null
+    ],
+    [
+      "STAR WARS Jedi: Fallen Order Deluxe Edition",
+      "https://store.steampowered.com/sub/401587/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "The Deed: Dynasty",
+      "https://store.steampowered.com/app/460960/The_Deed_Dynasty/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/460960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/460960/capsule_616x353.jpg",
+      "$2.99",
+      "$0.00",
+      "100%",
+      null
     ]
   ],
-  "update_time": "2025-12-21 15:54:03"
+  "update_time": "2025-12-21 21:37:46"
 }
