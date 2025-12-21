@@ -1,5 +1,5 @@
 {
-  "total_count": 2459,
+  "total_count": 2461,
   "free_games": [
     [
       "Where Winds Meet",
@@ -10214,6 +10214,14 @@
       "https://store.steampowered.com/app/4162630/MINOS_Home_ALabyrinth/?snr=1_7_7_230_150_10",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4162630/header.jpg",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4162630/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Trails in the Sky 1st Chapter Demo",
+      "https://store.steampowered.com/app/3375780/Trails_in_the_Sky_1st_Chapter/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3375780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3375780/capsule_616x353.jpg",
       "",
       "مجاني"
     ]
@@ -22038,7 +22046,17 @@
       "$0.00",
       "100%",
       null
+    ],
+    [
+      "LEGO Batman Trilogy",
+      "https://store.steampowered.com/sub/53403/?snr=1_7_7_2300_150_9",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2025-12-21 05:24:12"
+  "update_time": "2025-12-21 09:40:46"
 }
