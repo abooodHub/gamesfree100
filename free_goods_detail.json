@@ -1,5 +1,5 @@
 {
-  "total_count": 2467,
+  "total_count": 2468,
   "free_games": [
     [
       "Where Winds Meet",
@@ -22112,7 +22112,17 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "Train Sim World® 6: Spirit of Steam: Liverpool Lime Street - Crewe Route Add-On",
+      "https://store.steampowered.com/app/3662830/Train_Sim_World_6_Spirit_of_Steam_Liverpool_Lime_Street__Crewe_Route_AddOn/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3662830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3662830/capsule_616x353.jpg",
+      "$39.99",
+      "$0.00",
+      "100%",
+      null
     ]
   ],
-  "update_time": "2025-12-22 15:58:28"
+  "update_time": "2025-12-22 21:41:01"
 }
