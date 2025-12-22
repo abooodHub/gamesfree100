@@ -1,5 +1,5 @@
 {
-  "total_count": 2466,
+  "total_count": 2467,
   "free_games": [
     [
       "Where Winds Meet",
@@ -10230,6 +10230,14 @@
       "https://store.steampowered.com/app/4169300/Operation_Outbreak/?snr=1_7_7_230_150_10",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4169300/header.jpg",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4169300/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Jgsw",
+      "https://store.steampowered.com/app/1627610/Jgsw/?snr=1_7_7_230_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1627610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1627610/capsule_616x353.jpg",
       "",
       "مجاني"
     ]
@@ -22106,5 +22114,5 @@
       null
     ]
   ],
-  "update_time": "2025-12-22 09:46:37"
+  "update_time": "2025-12-22 15:58:28"
 }
