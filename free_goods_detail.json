@@ -1,5 +1,5 @@
 {
-  "total_count": 1303,
+  "total_count": 1312,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8096,6 +8096,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3359740/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Sky Clash: Lords of Clans 3D",
+      "https://store.steampowered.com/app/630140/Sky_Clash_Lords_of_Clans_3D/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/630140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/630140/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "SCP: Nine-Tailed Fox",
+      "https://store.steampowered.com/app/1304510/SCP_NineTailed_Fox/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1304510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1304510/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11008,7 +11024,77 @@
       "$2.49",
       "75%",
       null
+    ],
+    [
+      "LEGO® Star Wars™: The Skywalker Saga Galactic Edition",
+      "https://store.steampowered.com/sub/785847/?snr=1_7_7_2300_150_5",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$69.99",
+      "$13.99",
+      "80%",
+      null
+    ],
+    [
+      "STAR WARS Jedi: Fallen Order Deluxe Edition",
+      "https://store.steampowered.com/sub/401587/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "Dying Light: Definitive 10th Anniversary Edition",
+      "https://store.steampowered.com/sub/1265945/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "NARUTO TO BORUTO: SHINOBI STRIKER",
+      "https://store.steampowered.com/app/633230/NARUTO_TO_BORUTO_SHINOBI_STRIKER/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/633230/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/633230/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Tiny Tina's Wonderlands",
+      "https://store.steampowered.com/app/1286680/Tiny_Tinas_Wonderlands/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1286680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1286680/capsule_616x353.jpg",
+      "$59.99",
+      "$11.99",
+      "80%",
+      null
+    ],
+    [
+      "Mafia III: Definitive Edition",
+      "https://store.steampowered.com/app/360430/Mafia_III_Definitive_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/360430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/360430/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Watch_Dogs™",
+      "https://store.steampowered.com/app/243470/Watch_Dogs/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/243470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/243470/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-23 09:45:55"
+  "update_time": "2025-12-23 16:00:07"
 }
