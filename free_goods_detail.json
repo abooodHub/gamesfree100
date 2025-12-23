@@ -1,5 +1,5 @@
 {
-  "total_count": 1312,
+  "total_count": 1321,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8112,6 +8112,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1304510/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Baccarat Online: Baccarist",
+      "https://store.steampowered.com/app/3673460/Baccarat_Online_Baccarist/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3673460/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3673460/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11094,7 +11102,87 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "Batman: Arkham Collection",
+      "https://store.steampowered.com/sub/320795/?snr=1_7_7_2300_150_5",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "Resident Evil 7 Gold Edition & Village Gold Edition",
+      "https://store.steampowered.com/sub/1252652/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$79.99",
+      "$19.99",
+      "75%",
+      null
+    ],
+    [
+      "Monster Hunter Rise + Sunbreak",
+      "https://store.steampowered.com/sub/692569/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$59.99",
+      "$9.59",
+      "84%",
+      null
+    ],
+    [
+      "LEGO Batman Trilogy",
+      "https://store.steampowered.com/sub/53403/?snr=1_7_7_2300_150_10",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "The Outer Worlds: Spacer's Choice Edition",
+      "https://store.steampowered.com/app/1920490/The_Outer_Worlds_Spacers_Choice_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1920490/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1920490/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "Bloodstained: Ritual of the Night",
+      "https://store.steampowered.com/app/692850/Bloodstained_Ritual_of_the_Night/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/692850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/692850/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Assassin's Creed™: Director's Cut Edition",
+      "https://store.steampowered.com/app/15100/Assassins_Creed_Directors_Cut_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/15100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/15100/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Kynseed",
+      "https://store.steampowered.com/app/758870/Kynseed/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/758870/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/758870/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-23 16:00:07"
+  "update_time": "2025-12-23 21:41:49"
 }
