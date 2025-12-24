@@ -1,5 +1,5 @@
 {
-  "total_count": 1321,
+  "total_count": 1330,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8120,6 +8120,62 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3673460/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Species: Unknown Demo",
+      "https://store.steampowered.com/app/2747330/Species_Unknown/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2747330/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2747330/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "QPet",
+      "https://store.steampowered.com/app/1093890/QPet/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1093890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1093890/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Summer Delicious Simulator: Prologue",
+      "https://store.steampowered.com/app/4199540/Summer_Delicious_Simulator_Prologue/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4199540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4199540/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Boba Cafe Simulator Demo",
+      "https://store.steampowered.com/app/3683840/Boba_Cafe_Simulator_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3683840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3683840/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Deus Ex: Revision",
+      "https://store.steampowered.com/app/397550/Deus_Ex_Revision/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/397550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/397550/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Waterpark Simulator Demo",
+      "https://store.steampowered.com/app/3730180/Waterpark_Simulator_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3730180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3730180/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Light Up The Town Demo",
+      "https://store.steampowered.com/app/3419910/Light_Up_The_Town/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3419910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3419910/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11182,7 +11238,27 @@
       "$6.24",
       "75%",
       null
+    ],
+    [
+      "Kingdom Come: Deliverance Royal Edition",
+      "https://store.steampowered.com/sub/368776/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Dead Space™ 3",
+      "https://store.steampowered.com/app/1238060/Dead_Space_3/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1238060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1238060/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-12-23 21:41:49"
+  "update_time": "2025-12-24 05:10:27"
 }
