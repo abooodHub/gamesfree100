@@ -1,5 +1,5 @@
 {
-  "total_count": 1330,
+  "total_count": 1335,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8176,6 +8176,46 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3419910/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Clicker Cuties - Anime Idler",
+      "https://store.steampowered.com/app/3188910/Clicker_Cuties__Anime_Idler/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3188910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3188910/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Argentum Online",
+      "https://store.steampowered.com/app/1956740/Argentum_Online/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1956740/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1956740/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "GPRO - Classic racing manager",
+      "https://store.steampowered.com/app/2169220/GPRO__Classic_racing_manager/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2169220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2169220/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Sniper 3D Assassin: Free to Play",
+      "https://store.steampowered.com/app/922320/Sniper_3D_Assassin_Free_to_Play/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/922320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/922320/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Shrimp",
+      "https://store.steampowered.com/app/3054490/Shrimp/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3054490/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3054490/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11260,5 +11300,5 @@
       null
     ]
   ],
-  "update_time": "2025-12-24 05:10:27"
+  "update_time": "2025-12-24 09:45:41"
 }
