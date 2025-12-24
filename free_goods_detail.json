@@ -1,5 +1,5 @@
 {
-  "total_count": 1335,
+  "total_count": 1337,
   "free_games": [
     [
       "Where Winds Meet",
@@ -11298,7 +11298,27 @@
       "$3.99",
       "80%",
       null
+    ],
+    [
+      "STAR WARS Jedi: Fallen Order Deluxe Edition",
+      "https://store.steampowered.com/sub/401587/?snr=1_7_7_2300_150_10",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "Digimon World: Next Order",
+      "https://store.steampowered.com/app/1530160/Digimon_World_Next_Order/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1530160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1530160/capsule_616x353.jpg",
+      "$59.99",
+      "$9.59",
+      "84%",
+      null
     ]
   ],
-  "update_time": "2025-12-24 09:45:41"
+  "update_time": "2025-12-24 15:57:49"
 }
