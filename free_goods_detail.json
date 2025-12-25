@@ -1,5 +1,5 @@
 {
-  "total_count": 1355,
+  "total_count": 1356,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8320,6 +8320,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2512840/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "KurtzPel",
+      "https://store.steampowered.com/app/844870/KurtzPel/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/844870/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/844870/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11474,5 +11482,5 @@
       null
     ]
   ],
-  "update_time": "2025-12-25 09:43:53"
+  "update_time": "2025-12-25 15:57:56"
 }
