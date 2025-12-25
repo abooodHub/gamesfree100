@@ -1,5 +1,5 @@
 {
-  "total_count": 1347,
+  "total_count": 1355,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8264,6 +8264,62 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3601140/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Vegas Craps by Pokerist",
+      "https://store.steampowered.com/app/3601450/Vegas_Craps_by_Pokerist/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3601450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3601450/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Alchemia Story",
+      "https://store.steampowered.com/app/2208530/Alchemia_Story/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2208530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2208530/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "M.A.R.S.",
+      "https://store.steampowered.com/app/314430/MARS/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/314430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/314430/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Long Live Santa!",
+      "https://store.steampowered.com/app/763410/Long_Live_Santa/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/763410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/763410/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "DYO",
+      "https://store.steampowered.com/app/791470/DYO/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/791470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/791470/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "瘟疫清零计划 Project Zero",
+      "https://store.steampowered.com/app/2088250/_Project_Zero/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2088250/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2088250/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "DORONKO WANKO",
+      "https://store.steampowered.com/app/2512840/DORONKO_WANKO/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2512840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2512840/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11406,7 +11462,17 @@
       "$9.99",
       "80%",
       null
+    ],
+    [
+      "Digimon Story Cyber Sleuth: Complete Edition",
+      "https://store.steampowered.com/app/1042550/Digimon_Story_Cyber_Sleuth_Complete_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1042550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1042550/capsule_616x353.jpg",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-12-25 05:12:56"
+  "update_time": "2025-12-25 09:43:53"
 }
