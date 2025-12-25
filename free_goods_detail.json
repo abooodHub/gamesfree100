@@ -1,5 +1,5 @@
 {
-  "total_count": 1356,
+  "total_count": 1361,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8328,6 +8328,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/844870/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "OneBit Adventure",
+      "https://store.steampowered.com/app/1688320/OneBit_Adventure/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1688320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1688320/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11480,7 +11488,47 @@
       "$9.99",
       "80%",
       null
+    ],
+    [
+      "Kingdom Come: Deliverance Royal Edition",
+      "https://store.steampowered.com/sub/368776/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Sonic Mania",
+      "https://store.steampowered.com/app/584400/Sonic_Mania/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/584400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/584400/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Bugsnax",
+      "https://store.steampowered.com/app/674140/Bugsnax/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/674140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/674140/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Caveman World: Mountains of Unga Boonga",
+      "https://store.steampowered.com/app/462960/Caveman_World_Mountains_of_Unga_Boonga/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/462960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/462960/capsule_616x353.jpg",
+      "$1.99",
+      "$0.00",
+      "100%",
+      null
     ]
   ],
-  "update_time": "2025-12-25 15:57:56"
+  "update_time": "2025-12-25 21:39:47"
 }
