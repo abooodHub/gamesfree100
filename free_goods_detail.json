@@ -1,5 +1,5 @@
 {
-  "total_count": 1337,
+  "total_count": 1347,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8216,6 +8216,54 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3054490/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Winds of Valen",
+      "https://store.steampowered.com/app/4135880/Winds_of_Valen/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4135880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4135880/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Tank Team",
+      "https://store.steampowered.com/app/2587450/Tank_Team/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2587450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2587450/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Ashen Empires",
+      "https://store.steampowered.com/app/937380/Ashen_Empires/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/937380/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/937380/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "FIND ALL: Christmas",
+      "https://store.steampowered.com/app/3343590/FIND_ALL_Christmas/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3343590/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3343590/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Road to Vostok Demo",
+      "https://store.steampowered.com/app/1963610/Road_to_Vostok/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1963610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1963610/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Sonic Racing: CrossWorlds Demo",
+      "https://store.steampowered.com/app/3601140/Sonic_Racing_CrossWorlds_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3601140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3601140/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11318,7 +11366,47 @@
       "$9.59",
       "84%",
       null
+    ],
+    [
+      "LEGO® Star Wars™: The Skywalker Saga Galactic Edition",
+      "https://store.steampowered.com/sub/785847/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$69.99",
+      "$13.99",
+      "80%",
+      null
+    ],
+    [
+      "Kingdom Come: Deliverance Royal Edition",
+      "https://store.steampowered.com/sub/368776/?snr=1_7_7_2300_150_9",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Monster Hunter Rise + Sunbreak",
+      "https://store.steampowered.com/sub/692569/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$59.99",
+      "$9.59",
+      "84%",
+      null
+    ],
+    [
+      "Dying Light: Definitive 10th Anniversary Edition",
+      "https://store.steampowered.com/sub/1265945/?snr=1_7_7_2300_150_10",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-12-24 21:54:43"
+  "update_time": "2025-12-25 05:12:56"
 }
