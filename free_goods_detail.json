@@ -1,5 +1,5 @@
 {
-  "total_count": 1361,
+  "total_count": 1364,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8336,6 +8336,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1688320/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Idle Sphere",
+      "https://store.steampowered.com/app/3217600/Idle_Sphere/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3217600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3217600/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "宝姉妹 | スクラッチシミュレーター",
+      "https://store.steampowered.com/app/4235540/_/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4235540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4235540/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11528,7 +11544,17 @@
       "$0.00",
       "100%",
       null
+    ],
+    [
+      "CARRION",
+      "https://store.steampowered.com/app/953490/CARRION/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/953490/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/953490/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-12-25 21:39:47"
+  "update_time": "2025-12-26 05:11:52"
 }
