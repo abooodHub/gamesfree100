@@ -1,5 +1,5 @@
 {
-  "total_count": 1364,
+  "total_count": 1372,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8352,6 +8352,62 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4235540/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "The Backrooms Deluxe 2",
+      "https://store.steampowered.com/app/4066790/The_Backrooms_Deluxe_2/?snr=1_7_7_230_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4066790/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4066790/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "ChilloutVR",
+      "https://store.steampowered.com/app/661130/ChilloutVR/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/661130/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/661130/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Drift Experience Japan",
+      "https://store.steampowered.com/app/2293410/Drift_Experience_Japan/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2293410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2293410/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "MR DONALD: SAVE VATICAN",
+      "https://store.steampowered.com/app/3520250/MR_DONALD_SAVE_VATICAN/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3520250/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3520250/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Formula Evolution 2024",
+      "https://store.steampowered.com/app/2456080/Formula_Evolution_2024/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2456080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2456080/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Copa Petrobras de Marcas",
+      "https://store.steampowered.com/app/359800/Copa_Petrobras_de_Marcas/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/359800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/359800/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "FALLSTRUKTUR",
+      "https://store.steampowered.com/app/3674270/FALLSTRUKTUR/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3674270/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3674270/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11554,7 +11610,17 @@
       "$3.99",
       "80%",
       null
+    ],
+    [
+      "Generation Zero®",
+      "https://store.steampowered.com/app/704270/Generation_Zero/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/704270/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/704270/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-26 05:11:52"
+  "update_time": "2025-12-26 09:43:12"
 }
