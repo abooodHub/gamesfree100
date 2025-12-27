@@ -1,5 +1,5 @@
 {
-  "total_count": 1379,
+  "total_count": 1381,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8440,6 +8440,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2289970/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Emporea: Realms of War and Magic",
+      "https://store.steampowered.com/app/416450/Emporea_Realms_of_War_and_Magic/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/416450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/416450/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "FUCK PUTIN",
+      "https://store.steampowered.com/app/1926680/FUCK_PUTIN/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1926680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1926680/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11684,5 +11700,5 @@
       null
     ]
   ],
-  "update_time": "2025-12-27 09:41:39"
+  "update_time": "2025-12-27 15:55:33"
 }
