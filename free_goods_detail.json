@@ -1,5 +1,5 @@
 {
-  "total_count": 1372,
+  "total_count": 1374,
   "free_games": [
     [
       "Where Winds Meet",
@@ -11620,7 +11620,27 @@
       "$6.24",
       "75%",
       null
+    ],
+    [
+      "Ultimate Epic Battle Simulator 2",
+      "https://store.steampowered.com/app/1468720/Ultimate_Epic_Battle_Simulator_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1468720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1468720/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "ENDLESS™ Space 2",
+      "https://store.steampowered.com/app/392110/ENDLESS_Space_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/392110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/392110/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-26 21:39:41"
+  "update_time": "2025-12-27 05:09:37"
 }
