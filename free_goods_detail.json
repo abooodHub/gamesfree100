@@ -1,5 +1,5 @@
 {
-  "total_count": 1374,
+  "total_count": 1379,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8408,6 +8408,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3674270/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Arcadegeddon",
+      "https://store.steampowered.com/app/1515640/Arcadegeddon/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1515640/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1515640/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Drunk Driving Simulator",
+      "https://store.steampowered.com/app/3852460/Drunk_Driving_Simulator/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3852460/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3852460/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Infected Shelter",
+      "https://store.steampowered.com/app/926390/Infected_Shelter/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/926390/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/926390/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "In Sink: A Co-Op Escape Prologue",
+      "https://store.steampowered.com/app/2289970/In_Sink_A_CoOp_Escape_Prologue/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2289970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2289970/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11640,7 +11672,17 @@
       "$9.99",
       "75%",
       null
+    ],
+    [
+      "Fallout Classic Collection",
+      "https://store.steampowered.com/sub/45615/?snr=1_7_7_2300_150_9",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-27 05:09:37"
+  "update_time": "2025-12-27 09:41:39"
 }
