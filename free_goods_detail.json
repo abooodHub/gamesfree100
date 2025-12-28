@@ -1,5 +1,5 @@
 {
-  "total_count": 1389,
+  "total_count": 1393,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8520,6 +8520,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1064610/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Shiina Taki's Decameron",
+      "https://store.steampowered.com/app/3269960/Shiina_Takis_Decameron/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3269960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3269960/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Clockwork Cleanup",
+      "https://store.steampowered.com/app/4158400/Clockwork_Cleanup/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4158400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4158400/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11762,7 +11778,27 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "Resident Evil 7 Gold Edition & Village Gold Edition",
+      "https://store.steampowered.com/sub/1252652/?snr=1_7_7_2300_150_4",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$79.99",
+      "$19.99",
+      "75%",
+      null
+    ],
+    [
+      "Aliens: Fireteam Elite",
+      "https://store.steampowered.com/app/1549970/Aliens_Fireteam_Elite/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1549970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1549970/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-12-28 05:30:44"
+  "update_time": "2025-12-28 09:41:32"
 }
