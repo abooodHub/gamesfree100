@@ -1,5 +1,5 @@
 {
-  "total_count": 1381,
+  "total_count": 1389,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8456,6 +8456,70 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1926680/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "The Bottle Of The Heart",
+      "https://store.steampowered.com/app/1052180/The_Bottle_Of_The_Heart/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1052180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1052180/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Unfortunate Spacemen",
+      "https://store.steampowered.com/app/408900/Unfortunate_Spacemen/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/408900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/408900/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Rune Dice Demo",
+      "https://store.steampowered.com/app/3989510/Rune_Dice_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3989510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3989510/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Chained Beasts Demo",
+      "https://store.steampowered.com/app/3978510/Chained_Beasts_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3978510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3978510/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Factorio Demo",
+      "https://store.steampowered.com/app/427520/Factorio/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/427520/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/427520/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "At Home Alone Final",
+      "https://store.steampowered.com/app/1740100/At_Home_Alone_Final/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1740100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1740100/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Bombergrounds: Reborn",
+      "https://store.steampowered.com/app/1104450/Bombergrounds_Reborn/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1104450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1104450/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Neon Beats",
+      "https://store.steampowered.com/app/1064610/Neon_Beats/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1064610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1064610/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11700,5 +11764,5 @@
       null
     ]
   ],
-  "update_time": "2025-12-27 21:38:16"
+  "update_time": "2025-12-28 05:30:44"
 }
