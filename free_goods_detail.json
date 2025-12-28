@@ -1,5 +1,5 @@
 {
-  "total_count": 1393,
+  "total_count": 1394,
   "free_games": [
     [
       "Where Winds Meet",
@@ -11798,7 +11798,17 @@
       "$5.99",
       "80%",
       null
+    ],
+    [
+      "Kingdoms of Amalur: Re-Reckoning",
+      "https://store.steampowered.com/app/1041720/Kingdoms_of_Amalur_ReReckoning/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1041720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1041720/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-28 15:55:44"
+  "update_time": "2025-12-28 21:39:05"
 }
