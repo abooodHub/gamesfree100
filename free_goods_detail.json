@@ -1,5 +1,5 @@
 {
-  "total_count": 1401,
+  "total_count": 1403,
   "free_games": [
     [
       "Where Winds Meet",
@@ -11872,7 +11872,27 @@
       "$9.99",
       "75%",
       null
+    ],
+    [
+      "Monster Hunter Rise + Sunbreak",
+      "https://store.steampowered.com/sub/692569/?snr=1_7_7_2300_150_5",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$59.99",
+      "$9.59",
+      "84%",
+      null
+    ],
+    [
+      "TRANSFORMERS: BATTLEGROUNDS",
+      "https://store.steampowered.com/app/1177000/TRANSFORMERS_BATTLEGROUNDS/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1177000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1177000/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2025-12-29 09:48:18"
+  "update_time": "2025-12-29 16:01:08"
 }
