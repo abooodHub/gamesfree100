@@ -1,5 +1,5 @@
 {
-  "total_count": 1397,
+  "total_count": 1401,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8552,6 +8552,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1680550/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "TERPENIE",
+      "https://store.steampowered.com/app/4028600/TERPENIE/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4028600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4028600/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11834,7 +11842,37 @@
       "$9.99",
       "75%",
       null
+    ],
+    [
+      "Fallout Classic Collection",
+      "https://store.steampowered.com/sub/45615/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Batman: Arkham Collection",
+      "https://store.steampowered.com/sub/320795/?snr=1_7_7_2300_150_3",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "Warhammer 40,000: Space Marine - Anniversary Edition",
+      "https://store.steampowered.com/app/55150/Warhammer_40000_Space_Marine__Anniversary_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/55150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/55150/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-29 05:28:00"
+  "update_time": "2025-12-29 09:48:18"
 }
