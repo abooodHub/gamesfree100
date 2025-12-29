@@ -1,5 +1,5 @@
 {
-  "total_count": 1394,
+  "total_count": 1397,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8536,6 +8536,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4158400/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Motor Town : Behind The Wheel Demo",
+      "https://store.steampowered.com/app/1369670/Motor_Town_Behind_The_Wheel/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1369670/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1369670/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Impact Point",
+      "https://store.steampowered.com/app/1680550/Impact_Point/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1680550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1680550/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11808,7 +11824,17 @@
       "$9.99",
       "75%",
       null
+    ],
+    [
+      "Fallout 4: Game of the Year Edition",
+      "https://store.steampowered.com/sub/199943/?snr=1_7_7_2300_150_1",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-28 21:39:05"
+  "update_time": "2025-12-29 05:28:00"
 }
