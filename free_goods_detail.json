@@ -1,5 +1,5 @@
 {
-  "total_count": 1403,
+  "total_count": 1404,
   "free_games": [
     [
       "Where Winds Meet",
@@ -11892,7 +11892,17 @@
       "$2.49",
       "90%",
       null
+    ],
+    [
+      "Call of the Wild: The Angler™",
+      "https://store.steampowered.com/app/1408610/Call_of_the_Wild_The_Angler/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1408610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1408610/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-29 16:01:08"
+  "update_time": "2025-12-29 21:40:40"
 }
