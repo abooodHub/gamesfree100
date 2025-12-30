@@ -1,5 +1,5 @@
 {
-  "total_count": 1404,
+  "total_count": 1412,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8560,6 +8560,62 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4028600/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "ShatterRush Open Pre-Alpha",
+      "https://store.steampowered.com/app/3947610/ShatterRush_Open_PreAlpha/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3947610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3947610/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Run Zeus Run",
+      "https://store.steampowered.com/app/715510/Run_Zeus_Run/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/715510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/715510/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Skillshot City",
+      "https://store.steampowered.com/app/308600/Skillshot_City/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/308600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/308600/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "projectM Music Visualizer",
+      "https://store.steampowered.com/app/1358800/projectM_Music_Visualizer/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1358800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1358800/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Peggle Extreme",
+      "https://store.steampowered.com/app/3483/Peggle_Extreme/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3483/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3483/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Artifact",
+      "https://store.steampowered.com/app/583950/Artifact/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/583950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/583950/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Arma II: DayZ Mod",
+      "https://store.steampowered.com/app/224580/Arma_II_DayZ_Mod/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/224580/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/224580/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11902,7 +11958,17 @@
       "$7.49",
       "75%",
       null
+    ],
+    [
+      "LEGO® Star Wars™: The Skywalker Saga Galactic Edition",
+      "https://store.steampowered.com/sub/785847/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$69.99",
+      "$13.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-12-29 21:40:40"
+  "update_time": "2025-12-30 05:18:51"
 }
