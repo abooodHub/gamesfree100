@@ -1,5 +1,5 @@
 {
-  "total_count": 1412,
+  "total_count": 1413,
   "free_games": [
     [
       "Where Winds Meet",
@@ -11968,7 +11968,17 @@
       "$13.99",
       "80%",
       null
+    ],
+    [
+      "Friends vs Friends",
+      "https://store.steampowered.com/app/1785150/Friends_vs_Friends/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1785150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1785150/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2025-12-30 05:18:51"
+  "update_time": "2025-12-30 09:44:21"
 }
