@@ -1,5 +1,5 @@
 {
-  "total_count": 1413,
+  "total_count": 1414,
   "free_games": [
     [
       "Where Winds Meet",
@@ -11978,7 +11978,17 @@
       "$2.49",
       "75%",
       null
+    ],
+    [
+      "River City Ransom: Underground",
+      "https://store.steampowered.com/app/422810/River_City_Ransom_Underground/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/422810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/422810/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
     ]
   ],
-  "update_time": "2025-12-30 15:59:54"
+  "update_time": "2025-12-30 21:42:10"
 }
