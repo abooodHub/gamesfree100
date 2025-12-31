@@ -1,5 +1,5 @@
 {
-  "total_count": 1414,
+  "total_count": 1416,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8616,6 +8616,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/224580/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Scale the Depths Demo",
+      "https://store.steampowered.com/app/3821770/Scale_the_Depths_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3821770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3821770/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "妹居物语 Demo",
+      "https://store.steampowered.com/app/4027870/_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4027870/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4027870/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11990,5 +12006,5 @@
       null
     ]
   ],
-  "update_time": "2025-12-30 21:42:10"
+  "update_time": "2025-12-31 05:19:18"
 }
