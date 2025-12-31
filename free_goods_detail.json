@@ -1,5 +1,5 @@
 {
-  "total_count": 1418,
+  "total_count": 1419,
   "free_games": [
     [
       "Where Winds Meet",
@@ -12024,7 +12024,17 @@
       "$3.99",
       "80%",
       null
+    ],
+    [
+      "Dishonored®: Death of the Outsider™",
+      "https://store.steampowered.com/app/614570/Dishonored_Death_of_the_Outsider/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/614570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/614570/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-12-31 09:44:42"
+  "update_time": "2025-12-31 15:58:11"
 }
