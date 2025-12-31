@@ -1,5 +1,5 @@
 {
-  "total_count": 1416,
+  "total_count": 1418,
   "free_games": [
     [
       "Where Winds Meet",
@@ -12004,7 +12004,27 @@
       "$2.99",
       "85%",
       null
+    ],
+    [
+      "Injustice™ 2",
+      "https://store.steampowered.com/app/627270/Injustice_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/627270/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/627270/capsule_616x353.jpg",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "LEGO® The Lord of the Rings™",
+      "https://store.steampowered.com/app/214510/LEGO_The_Lord_of_the_Rings/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/214510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/214510/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2025-12-31 05:19:18"
+  "update_time": "2025-12-31 09:44:42"
 }
