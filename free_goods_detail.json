@@ -1,5 +1,5 @@
 {
-  "total_count": 1422,
+  "total_count": 1424,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8640,6 +8640,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2527500/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Number Factory",
+      "https://store.steampowered.com/app/2865430/Number_Factory/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2865430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2865430/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "ゆんゆん電波シンドローム Demo",
+      "https://store.steampowered.com/app/4074930/_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4074930/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4074930/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12064,5 +12080,5 @@
       null
     ]
   ],
-  "update_time": "2026-01-01 09:44:44"
+  "update_time": "2026-01-01 15:58:20"
 }
