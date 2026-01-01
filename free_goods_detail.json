@@ -1,5 +1,5 @@
 {
-  "total_count": 1420,
+  "total_count": 1422,
   "free_games": [
     [
       "Where Winds Meet",
@@ -12042,7 +12042,27 @@
       "$5.99",
       "80%",
       null
+    ],
+    [
+      "Fallout Classic Collection",
+      "https://store.steampowered.com/sub/45615/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Skullgirls 2nd Encore",
+      "https://store.steampowered.com/app/245170/Skullgirls_2nd_Encore/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/245170/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/245170/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-01-01 05:30:51"
+  "update_time": "2026-01-01 09:44:44"
 }
