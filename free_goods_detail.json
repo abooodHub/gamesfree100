@@ -1,5 +1,5 @@
 {
-  "total_count": 1431,
+  "total_count": 1434,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8704,6 +8704,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3689660/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Pixel Puzzles Traditional Jigsaw Puzzles",
+      "https://store.steampowered.com/app/1058200/Pixel_Puzzles_Traditional_Jigsaw_Puzzles/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1058200/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1058200/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Pixel Puzzles Illustrations & Anime Jigsaw Puzzles",
+      "https://store.steampowered.com/app/1005240/Pixel_Puzzles_Illustrations__Anime_Jigsaw_Puzzles/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1005240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1005240/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Tales of Escape",
+      "https://store.steampowered.com/app/587860/Tales_of_Escape/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/587860/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/587860/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12138,5 +12162,5 @@
       null
     ]
   ],
-  "update_time": "2026-01-02 09:45:01"
+  "update_time": "2026-01-02 15:57:03"
 }
