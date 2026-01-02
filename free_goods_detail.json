@@ -1,5 +1,5 @@
 {
-  "total_count": 1434,
+  "total_count": 1436,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8728,6 +8728,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/587860/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "The wild darkness",
+      "https://store.steampowered.com/app/4123780/The_wild_darkness/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4123780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4123780/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Space Aces",
+      "https://store.steampowered.com/app/4220440/Space_Aces/?snr=1_7_7_230_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4220440/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4220440/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12162,5 +12178,5 @@
       null
     ]
   ],
-  "update_time": "2026-01-02 15:57:03"
+  "update_time": "2026-01-02 21:39:50"
 }
