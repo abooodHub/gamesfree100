@@ -1,5 +1,5 @@
 {
-  "total_count": 1424,
+  "total_count": 1431,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8656,6 +8656,54 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4074930/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Retrocycles",
+      "https://store.steampowered.com/app/1306180/Retrocycles/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1306180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1306180/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Pathogenic Demo",
+      "https://store.steampowered.com/app/4029380/Pathogenic_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4029380/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4029380/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Ghostrunner Demo",
+      "https://store.steampowered.com/app/1139900/Ghostrunner/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1139900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1139900/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Swelter",
+      "https://store.steampowered.com/app/1815330/Swelter/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1815330/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1815330/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Ale & Tale Tavern: First Pints",
+      "https://store.steampowered.com/app/2870840/Ale__Tale_Tavern_First_Pints/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2870840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2870840/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Night Patrol Rules",
+      "https://store.steampowered.com/app/3689660/Night_Patrol_Rules/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3689660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3689660/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12078,7 +12126,17 @@
       "$2.49",
       "90%",
       null
+    ],
+    [
+      "RPG Maker MV",
+      "https://store.steampowered.com/app/363890/RPG_Maker_MV/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/363890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/363890/capsule_616x353.jpg",
+      "$79.99",
+      "$11.99",
+      "85%",
+      null
     ]
   ],
-  "update_time": "2026-01-01 21:40:10"
+  "update_time": "2026-01-02 05:21:38"
 }
