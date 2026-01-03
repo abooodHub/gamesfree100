@@ -1,5 +1,5 @@
 {
-  "total_count": 1436,
+  "total_count": 1440,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8744,6 +8744,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4220440/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Gamblers Table Demo",
+      "https://store.steampowered.com/app/3747250/Gamblers_Table_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3747250/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3747250/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "REFLEXIA Prototype ver.",
+      "https://store.steampowered.com/app/1997680/REFLEXIA_Prototype_ver/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1997680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1997680/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "The Elder Scrolls: Arena",
+      "https://store.steampowered.com/app/1812290/The_Elder_Scrolls_Arena/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1812290/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1812290/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "IO Auto Clicker",
+      "https://store.steampowered.com/app/4090430/IO_Auto_Clicker/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4090430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4090430/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12178,5 +12210,5 @@
       null
     ]
   ],
-  "update_time": "2026-01-02 21:39:50"
+  "update_time": "2026-01-03 05:08:28"
 }
