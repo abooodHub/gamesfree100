@@ -1,5 +1,5 @@
 {
-  "total_count": 1440,
+  "total_count": 1442,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8776,6 +8776,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4090430/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Starborne: Frontiers",
+      "https://store.steampowered.com/app/3021540/Starborne_Frontiers/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3021540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3021540/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12208,7 +12216,17 @@
       "$11.99",
       "85%",
       null
+    ],
+    [
+      "Billie's Wheelie",
+      "https://store.steampowered.com/app/3180310/Billies_Wheelie/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3180310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3180310/capsule_616x353.jpg",
+      "$4.99",
+      "$0.00",
+      "100%",
+      null
     ]
   ],
-  "update_time": "2026-01-03 15:55:15"
+  "update_time": "2026-01-03 21:38:16"
 }
