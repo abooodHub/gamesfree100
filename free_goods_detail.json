@@ -1,5 +1,5 @@
 {
-  "total_count": 1443,
+  "total_count": 1445,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8792,6 +8792,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3273680/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Town to City Demo",
+      "https://store.steampowered.com/app/3653800/Town_to_City_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3653800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3653800/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "NERTS! Online",
+      "https://store.steampowered.com/app/1131190/NERTS_Online/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1131190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1131190/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12236,5 +12252,5 @@
       null
     ]
   ],
-  "update_time": "2026-01-04 05:32:18"
+  "update_time": "2026-01-04 09:42:15"
 }
