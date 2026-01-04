@@ -1,5 +1,5 @@
 {
-  "total_count": 1445,
+  "total_count": 1446,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8808,6 +8808,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1131190/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Poker Fate - ACG Texas Hold'em",
+      "https://store.steampowered.com/app/4042800/Poker_Fate__ACG_Texas_Holdem/?snr=1_7_7_230_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4042800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4042800/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12252,5 +12260,5 @@
       null
     ]
   ],
-  "update_time": "2026-01-04 09:42:15"
+  "update_time": "2026-01-04 15:55:57"
 }
