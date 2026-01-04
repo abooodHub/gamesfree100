@@ -1,5 +1,5 @@
 {
-  "total_count": 1442,
+  "total_count": 1443,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8784,6 +8784,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3021540/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Supercar Evolution 2025",
+      "https://store.steampowered.com/app/3273680/Supercar_Evolution_2025/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3273680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3273680/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12228,5 +12236,5 @@
       null
     ]
   ],
-  "update_time": "2026-01-03 21:38:16"
+  "update_time": "2026-01-04 05:32:18"
 }
