@@ -1,5 +1,5 @@
 {
-  "total_count": 1449,
+  "total_count": 1452,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8824,6 +8824,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3707400/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "BATTALION: Legacy",
+      "https://store.steampowered.com/app/489940/BATTALION_Legacy/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/489940/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/489940/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12286,7 +12294,27 @@
       "$3.99",
       "80%",
       null
+    ],
+    [
+      "Dying Light: Definitive 10th Anniversary Edition",
+      "https://store.steampowered.com/sub/1265945/?snr=1_7_7_2300_150_6",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "Resident Evil 7 Gold Edition & Village Gold Edition",
+      "https://store.steampowered.com/sub/1252652/?snr=1_7_7_2300_150_3",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$79.99",
+      "$19.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-01-05 09:51:35"
+  "update_time": "2026-01-05 16:03:18"
 }
