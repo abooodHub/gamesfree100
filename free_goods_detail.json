@@ -1,5 +1,5 @@
 {
-  "total_count": 1452,
+  "total_count": 1475,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8832,6 +8832,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/489940/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "XCOM 2: Shen's Last Gift",
+      "https://store.steampowered.com/app/433091/XCOM_2_Shens_Last_Gift/?snr=1_7_7_2300_150_11",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/433091/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/433091/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12314,7 +12322,227 @@
       "$19.99",
       "75%",
       null
+    ],
+    [
+      "Catherine Classic",
+      "https://store.steampowered.com/app/893180/Catherine_Classic/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/893180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/893180/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Killer Frequency",
+      "https://store.steampowered.com/app/1903620/Killer_Frequency/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1903620/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1903620/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "EARTH DEFENSE FORCE 5",
+      "https://store.steampowered.com/app/1007040/EARTH_DEFENSE_FORCE_5/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1007040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1007040/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "Company of Heroes 2",
+      "https://store.steampowered.com/app/231430/Company_of_Heroes_2/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/231430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/231430/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Soul Hackers 2",
+      "https://store.steampowered.com/app/1777620/Soul_Hackers_2/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1777620/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1777620/capsule_616x353.jpg",
+      "$59.99",
+      "$11.99",
+      "80%",
+      null
+    ],
+    [
+      "Dragon's Dogma: Dark Arisen",
+      "https://store.steampowered.com/app/367500/Dragons_Dogma_Dark_Arisen/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/367500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/367500/capsule_616x353.jpg",
+      "$29.99",
+      "$4.79",
+      "84%",
+      null
+    ],
+    [
+      "POSTAL 2",
+      "https://store.steampowered.com/app/223470/POSTAL_2/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/223470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/223470/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "POSTAL: Brain Damaged",
+      "https://store.steampowered.com/app/1359980/POSTAL_Brain_Damaged/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1359980/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1359980/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "BLACKTAIL",
+      "https://store.steampowered.com/app/1532690/BLACKTAIL/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1532690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1532690/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Breathedge",
+      "https://store.steampowered.com/app/738520/Breathedge/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/738520/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/738520/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Electrician Simulator",
+      "https://store.steampowered.com/app/1080020/Electrician_Simulator/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1080020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1080020/capsule_616x353.jpg",
+      "$17.99",
+      "$0.89",
+      "95%",
+      null
+    ],
+    [
+      "Necromunda: Hired Gun",
+      "https://store.steampowered.com/app/1222370/Necromunda_Hired_Gun/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1222370/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1222370/capsule_616x353.jpg",
+      "$39.99",
+      "$5.99",
+      "85%",
+      null
+    ],
+    [
+      "Disco Elysium - Soundtrack and Artbooklet",
+      "https://store.steampowered.com/app/1173140/Disco_Elysium__Soundtrack_and_Artbooklet/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1173140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1173140/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Worms Reloaded",
+      "https://store.steampowered.com/app/22600/Worms_Reloaded/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/22600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/22600/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Dead Island 2 - Haus",
+      "https://store.steampowered.com/app/2813100/Dead_Island_2__Haus/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2813100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2813100/capsule_616x353.jpg",
+      "$6.99",
+      "$1.39",
+      "80%",
+      null
+    ],
+    [
+      "Katamari Damacy REROLL",
+      "https://store.steampowered.com/app/848350/Katamari_Damacy_REROLL/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/848350/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/848350/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Axiom Verge",
+      "https://store.steampowered.com/app/332200/Axiom_Verge/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/332200/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/332200/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Exoprimal",
+      "https://store.steampowered.com/app/1286320/Exoprimal/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1286320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1286320/capsule_616x353.jpg",
+      "$59.99",
+      "$9.59",
+      "84%",
+      null
+    ],
+    [
+      "Jurassic Park Classic Games Collection",
+      "https://store.steampowered.com/app/2673080/Jurassic_Park_Classic_Games_Collection/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2673080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2673080/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "The Surge",
+      "https://store.steampowered.com/app/378540/The_Surge/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/378540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/378540/capsule_616x353.jpg",
+      "$14.99",
+      "$1.94",
+      "87%",
+      null
+    ],
+    [
+      "THE HOUSE OF THE DEAD: Remake",
+      "https://store.steampowered.com/app/1694600/THE_HOUSE_OF_THE_DEAD_Remake/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1694600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1694600/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "Niche - a genetics survival game",
+      "https://store.steampowered.com/app/440650/Niche__a_genetics_survival_game/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/440650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/440650/capsule_616x353.jpg",
+      "$17.99",
+      "$4.49",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-01-05 16:03:18"
+  "update_time": "2026-01-05 21:43:42"
 }
