@@ -1,5 +1,5 @@
 {
-  "total_count": 1446,
+  "total_count": 1449,
   "free_games": [
     [
       "Where Winds Meet",
@@ -8816,6 +8816,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4042800/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "On-Together: Virtual Co-Working Demo",
+      "https://store.steampowered.com/app/3707400/OnTogether_Virtual_CoWorking/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3707400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3707400/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12258,7 +12266,27 @@
       "$0.00",
       "100%",
       null
+    ],
+    [
+      "Kingdom Come: Deliverance Royal Edition",
+      "https://store.steampowered.com/sub/368776/?snr=1_7_7_2300_150_5",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Dead Space™ 2",
+      "https://store.steampowered.com/app/47780/Dead_Space_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/47780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/47780/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-05 05:31:46"
+  "update_time": "2026-01-05 09:51:35"
 }
