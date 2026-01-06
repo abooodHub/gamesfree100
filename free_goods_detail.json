@@ -1,5 +1,5 @@
 {
-  "total_count": 1444,
+  "total_count": 1467,
   "free_games": [
     [
       "Warframe",
@@ -12426,7 +12426,237 @@
       "$0.99",
       "75%",
       null
+    ],
+    [
+      "A Plague Tale: Innocence",
+      "https://store.steampowered.com/app/752590/A_Plague_Tale_Innocence/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/752590/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/752590/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Tropico 3: Gold Edition",
+      "https://store.steampowered.com/sub/6253/?snr=1_7_7_2300_150_6",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "AI War 2",
+      "https://store.steampowered.com/app/573410/AI_War_2/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/573410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/573410/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Hell Architect",
+      "https://store.steampowered.com/app/1063980/Hell_Architect/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1063980/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1063980/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Exoprimal Deluxe Edition",
+      "https://store.steampowered.com/sub/905071/?snr=1_7_7_2300_150_5",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$69.99",
+      "$14.69",
+      "79%",
+      null
+    ],
+    [
+      "Miraculous - Paris Under Siege",
+      "https://store.steampowered.com/app/2676410/Miraculous__Paris_Under_Siege/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2676410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2676410/capsule_616x353.jpg",
+      "$49.99",
+      "$12.49",
+      "75%",
+      null
+    ],
+    [
+      "DragonRoad",
+      "https://store.steampowered.com/app/3380340/DragonRoad/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3380340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3380340/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "My Furry Dictator 🐾",
+      "https://store.steampowered.com/app/1719460/My_Furry_Dictator/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1719460/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1719460/capsule_616x353.jpg",
+      "$4.99",
+      "$0.49",
+      "90%",
+      null
+    ],
+    [
+      "CoH 2 - OKW Commander: Scavenge Doctrine",
+      "https://store.steampowered.com/app/297514/CoH_2__OKW_Commander_Scavenge_Doctrine/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/297514/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/297514/capsule_616x353.jpg",
+      "$3.99",
+      "$0.99",
+      "75%",
+      null
+    ],
+    [
+      "CoH 2 - German Commander: Encirclement Doctrine",
+      "https://store.steampowered.com/app/249094/CoH_2__German_Commander_Encirclement_Doctrine/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/249094/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/249094/capsule_616x353.jpg",
+      "$3.99",
+      "$0.99",
+      "75%",
+      null
+    ],
+    [
+      "Gravity Field",
+      "https://store.steampowered.com/app/1425250/Gravity_Field/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1425250/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1425250/capsule_616x353.jpg",
+      "$29.99",
+      "$1.49",
+      "95%",
+      null
+    ],
+    [
+      "CoH 2 - US Forces Commander: Rifle Company",
+      "https://store.steampowered.com/app/297512/CoH_2__US_Forces_Commander_Rifle_Company/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/297512/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/297512/capsule_616x353.jpg",
+      "$3.99",
+      "$0.99",
+      "75%",
+      null
+    ],
+    [
+      "Frederic: Resurrection of Music Director's Cut",
+      "https://store.steampowered.com/app/453100/Frederic_Resurrection_of_Music_Directors_Cut/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/453100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/453100/capsule_616x353.jpg",
+      "$5.99",
+      "$0.89",
+      "85%",
+      null
+    ],
+    [
+      "NUMANUIN",
+      "https://store.steampowered.com/app/2261040/NUMANUIN/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2261040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2261040/capsule_616x353.jpg",
+      "$4.99",
+      "$0.49",
+      "90%",
+      null
+    ],
+    [
+      "Tavern Cards",
+      "https://store.steampowered.com/app/1221240/Tavern_Cards/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1221240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1221240/capsule_616x353.jpg",
+      "$29.99",
+      "$1.49",
+      "95%",
+      null
+    ],
+    [
+      "月球坠落时 Moon Fall",
+      "https://store.steampowered.com/app/1092400/_Moon_Fall/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1092400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1092400/capsule_616x353.jpg",
+      "$14.99",
+      "$2.54",
+      "83%",
+      null
+    ],
+    [
+      "Submarine Titans",
+      "https://store.steampowered.com/app/1259380/Submarine_Titans/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1259380/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1259380/capsule_616x353.jpg",
+      "$4.99",
+      "$0.99",
+      "80%",
+      null
+    ],
+    [
+      "YORG.io",
+      "https://store.steampowered.com/app/880580/YORGio/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/880580/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/880580/capsule_616x353.jpg",
+      "$3.99",
+      "$0.79",
+      "80%",
+      null
+    ],
+    [
+      "CoH 2 - Soviet Commander: Soviet Industry Tactics",
+      "https://store.steampowered.com/app/249082/CoH_2__Soviet_Commander_Soviet_Industry_Tactics/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/249082/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/249082/capsule_616x353.jpg",
+      "$3.99",
+      "$0.99",
+      "75%",
+      null
+    ],
+    [
+      "THE IMPOSSIBLE",
+      "https://store.steampowered.com/app/1363850/THE_IMPOSSIBLE/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1363850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1363850/capsule_616x353.jpg",
+      "$4.99",
+      "$0.89",
+      "82%",
+      null
+    ],
+    [
+      "Outward Soundtrack",
+      "https://store.steampowered.com/app/1244560/Outward_Soundtrack/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1244560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1244560/capsule_616x353.jpg",
+      "$7.99",
+      "$1.19",
+      "85%",
+      null
+    ],
+    [
+      "The Book of Shadows",
+      "https://store.steampowered.com/app/1419870/The_Book_of_Shadows/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1419870/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1419870/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "Apocalipsis",
+      "https://store.steampowered.com/app/505330/Apocalipsis/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/505330/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/505330/capsule_616x353.jpg",
+      "$6.99",
+      "$0.76",
+      "89%",
+      null
     ]
   ],
-  "update_time": "2026-01-06 09:47:57"
+  "update_time": "2026-01-06 16:01:00"
 }
