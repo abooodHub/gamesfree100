@@ -1,5 +1,5 @@
 {
-  "total_count": 1467,
+  "total_count": 1508,
   "free_games": [
     [
       "Warframe",
@@ -8064,6 +8064,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2015760/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Alchemia Story",
+      "https://store.steampowered.com/app/2208530/Alchemia_Story/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2208530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2208530/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "最强祖师",
+      "https://store.steampowered.com/app/2936220/_/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2936220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2936220/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Rustangelo",
+      "https://store.steampowered.com/app/527440/Rustangelo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/527440/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/527440/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12656,7 +12680,387 @@
       "$0.76",
       "89%",
       null
+    ],
+    [
+      "Borderlands 2 Game of the Year",
+      "https://store.steampowered.com/sub/32848/?snr=1_7_7_2300_150_2",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$8.79",
+      "78%",
+      null
+    ],
+    [
+      "Verdun",
+      "https://store.steampowered.com/app/242860/Verdun/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/242860/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/242860/capsule_616x353.jpg",
+      "$59.99",
+      "$11.99",
+      "80%",
+      null
+    ],
+    [
+      "Summer Memories",
+      "https://store.steampowered.com/app/1227890/Summer_Memories/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1227890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1227890/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Isonzo",
+      "https://store.steampowered.com/app/1556790/Isonzo/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1556790/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1556790/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Hacker Simulator",
+      "https://store.steampowered.com/app/1754840/Hacker_Simulator/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1754840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1754840/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Exoprimal Deluxe Edition",
+      "https://store.steampowered.com/sub/905071/?snr=1_7_7_2300_150_4",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$69.99",
+      "$14.69",
+      "79%",
+      null
+    ],
+    [
+      "Star Renegades",
+      "https://store.steampowered.com/app/651670/Star_Renegades/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/651670/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/651670/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Alien Breed 2: Assault",
+      "https://store.steampowered.com/app/22650/Alien_Breed_2_Assault/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/22650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/22650/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "SOS OPS!",
+      "https://store.steampowered.com/app/2475460/SOS_OPS/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2475460/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2475460/capsule_616x353.jpg",
+      "$5.99",
+      "$0.89",
+      "85%",
+      null
+    ],
+    [
+      "Bot Vice",
+      "https://store.steampowered.com/app/491040/Bot_Vice/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/491040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/491040/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Treasure Hunter Claire",
+      "https://store.steampowered.com/app/828070/Treasure_Hunter_Claire/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/828070/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/828070/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Regions Of Ruin",
+      "https://store.steampowered.com/app/680360/Regions_Of_Ruin/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/680360/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/680360/capsule_616x353.jpg",
+      "$11.99",
+      "$2.39",
+      "80%",
+      null
+    ],
+    [
+      "Leisure Suit Larry - Wet Dreams Dry Twice",
+      "https://store.steampowered.com/app/1373430/Leisure_Suit_Larry__Wet_Dreams_Dry_Twice/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1373430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1373430/capsule_616x353.jpg",
+      "$34.99",
+      "$1.74",
+      "95%",
+      null
+    ],
+    [
+      "CoH 2 - OKW Commander: Fortifications Doctrine",
+      "https://store.steampowered.com/app/297515/CoH_2__OKW_Commander_Fortifications_Doctrine/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/297515/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/297515/capsule_616x353.jpg",
+      "$3.99",
+      "$0.99",
+      "75%",
+      null
+    ],
+    [
+      "Beyond The Edge Of Owlsgard",
+      "https://store.steampowered.com/app/1709730/Beyond_The_Edge_Of_Owlsgard/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1709730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1709730/capsule_616x353.jpg",
+      "$24.99",
+      "$3.74",
+      "85%",
+      null
+    ],
+    [
+      "Train Valley 2",
+      "https://store.steampowered.com/app/602320/Train_Valley_2/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/602320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/602320/capsule_616x353.jpg",
+      "$14.99",
+      "$2.24",
+      "85%",
+      null
+    ],
+    [
+      "Leisure Suit Larry - Wet Dreams Don't Dry",
+      "https://store.steampowered.com/app/765870/Leisure_Suit_Larry__Wet_Dreams_Dont_Dry/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/765870/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/765870/capsule_616x353.jpg",
+      "$29.99",
+      "$1.49",
+      "95%",
+      null
+    ],
+    [
+      "Urbek City Builder",
+      "https://store.steampowered.com/app/1411740/Urbek_City_Builder/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1411740/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1411740/capsule_616x353.jpg",
+      "$18.99",
+      "$3.41",
+      "82%",
+      null
+    ],
+    [
+      "Tropico 3: Gold Edition",
+      "https://store.steampowered.com/sub/6253/?snr=1_7_7_2300_150_9",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Train Valley",
+      "https://store.steampowered.com/app/353640/Train_Valley/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/353640/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/353640/capsule_616x353.jpg",
+      "$9.99",
+      "$1.49",
+      "85%",
+      null
+    ],
+    [
+      "A Juggler's Tale",
+      "https://store.steampowered.com/app/1252830/A_Jugglers_Tale/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1252830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1252830/capsule_616x353.jpg",
+      "$17.99",
+      "$2.69",
+      "85%",
+      null
+    ],
+    [
+      "Spirit of the Island",
+      "https://store.steampowered.com/app/1592110/Spirit_of_the_Island/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1592110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1592110/capsule_616x353.jpg",
+      "$14.99",
+      "$2.24",
+      "85%",
+      null
+    ],
+    [
+      "CoH 2 - German Commander: Luftwaffe Supply Doctrine",
+      "https://store.steampowered.com/app/249087/CoH_2__German_Commander_Luftwaffe_Supply_Doctrine/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/249087/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/249087/capsule_616x353.jpg",
+      "$3.99",
+      "$0.99",
+      "75%",
+      null
+    ],
+    [
+      "Final Vendetta",
+      "https://store.steampowered.com/app/1891090/Final_Vendetta/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1891090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1891090/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Lilipalace",
+      "https://store.steampowered.com/app/867120/Lilipalace/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/867120/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/867120/capsule_616x353.jpg",
+      "$12.99",
+      "$2.59",
+      "80%",
+      null
+    ],
+    [
+      "CoH 2 - Soviet Commander: Tank Hunter Tactics",
+      "https://store.steampowered.com/app/249092/CoH_2__Soviet_Commander_Tank_Hunter_Tactics/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/249092/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/249092/capsule_616x353.jpg",
+      "$3.99",
+      "$0.99",
+      "75%",
+      null
+    ],
+    [
+      "Tracks of Thought",
+      "https://store.steampowered.com/app/1487630/Tracks_of_Thought/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1487630/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1487630/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Rise of Flight: Channel Battles",
+      "https://store.steampowered.com/app/356950/Rise_of_Flight_Channel_Battles/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/356950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/356950/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Strikey Sisters",
+      "https://store.steampowered.com/app/643880/Strikey_Sisters/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/643880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/643880/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Fall of Porcupine",
+      "https://store.steampowered.com/app/1710540/Fall_of_Porcupine/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1710540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1710540/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Company of Heroes 2 - Ardennes Assault: Fox Company Rangers",
+      "https://store.steampowered.com/app/323230/Company_of_Heroes_2__Ardennes_Assault_Fox_Company_Rangers/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/323230/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/323230/capsule_616x353.jpg",
+      "$4.99",
+      "$1.24",
+      "75%",
+      null
+    ],
+    [
+      "Orbital Bullet – The 360° Rogue-lite",
+      "https://store.steampowered.com/app/1167680/Orbital_Bullet__The_360_Roguelite/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1167680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1167680/capsule_616x353.jpg",
+      "$16.99",
+      "$1.69",
+      "90%",
+      null
+    ],
+    [
+      "DuelVox: Max Quality",
+      "https://store.steampowered.com/app/1587940/DuelVox_Max_Quality/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1587940/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1587940/capsule_616x353.jpg",
+      "$19.99",
+      "$1.19",
+      "94%",
+      null
+    ],
+    [
+      "CoH 2 - OKW Commander: Elite Armor Doctrine",
+      "https://store.steampowered.com/app/297513/CoH_2__OKW_Commander_Elite_Armor_Doctrine/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/297513/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/297513/capsule_616x353.jpg",
+      "$3.99",
+      "$0.99",
+      "75%",
+      null
+    ],
+    [
+      "AI War: Fleet Command",
+      "https://store.steampowered.com/app/40400/AI_War_Fleet_Command/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/40400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/40400/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Time Warpers",
+      "https://store.steampowered.com/app/676500/Time_Warpers/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/676500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/676500/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "CoH 2 - US Forces Commander: Mechanized Company",
+      "https://store.steampowered.com/app/297511/CoH_2__US_Forces_Commander_Mechanized_Company/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/297511/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/297511/capsule_616x353.jpg",
+      "$3.99",
+      "$0.99",
+      "75%",
+      null
+    ],
+    [
+      "Out of Reach",
+      "https://store.steampowered.com/app/327090/Out_of_Reach/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/327090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/327090/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-01-06 16:01:00"
+  "update_time": "2026-01-06 21:42:41"
 }
