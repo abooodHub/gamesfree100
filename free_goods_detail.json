@@ -1,5 +1,5 @@
 {
-  "total_count": 1529,
+  "total_count": 1543,
   "free_games": [
     [
       "Warframe",
@@ -8216,6 +8216,62 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3508630/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Parasite Mutant Demo",
+      "https://store.steampowered.com/app/4234670/Parasite_Mutant_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4234670/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4234670/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Closers",
+      "https://store.steampowered.com/app/215830/Closers/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/215830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/215830/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Number Factory",
+      "https://store.steampowered.com/app/2865430/Number_Factory/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2865430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2865430/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Coin",
+      "https://store.steampowered.com/app/3070500/Coin/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3070500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3070500/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Burger Shift: Team Rush: Prologue",
+      "https://store.steampowered.com/app/3821150/Burger_Shift_Team_Rush_Prologue/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3821150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3821150/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Heroes Of The Dark",
+      "https://store.steampowered.com/app/1851330/Heroes_Of_The_Dark/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1851330/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1851330/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Bombergrounds: Reborn",
+      "https://store.steampowered.com/app/1104450/Bombergrounds_Reborn/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1104450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1104450/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -13238,7 +13294,77 @@
       "$3.99",
       "90%",
       null
+    ],
+    [
+      "OVERPASS™",
+      "https://store.steampowered.com/app/970840/OVERPASS/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/970840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/970840/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Growth",
+      "https://store.steampowered.com/app/2300300/Growth/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2300300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2300300/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Fallen ~Makina and the City of Ruins~",
+      "https://store.steampowered.com/app/791330/Fallen_Makina_and_the_City_of_Ruins/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/791330/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/791330/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "West of Dead",
+      "https://store.steampowered.com/app/1016790/West_of_Dead/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1016790/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1016790/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Exoprimal Deluxe Edition",
+      "https://store.steampowered.com/sub/905071/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$69.99",
+      "$14.69",
+      "79%",
+      null
+    ],
+    [
+      "Time Loader",
+      "https://store.steampowered.com/app/1301950/Time_Loader/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1301950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1301950/capsule_616x353.jpg",
+      "$7.99",
+      "$1.19",
+      "85%",
+      null
+    ],
+    [
+      "Tower Princess",
+      "https://store.steampowered.com/app/1138650/Tower_Princess/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1138650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1138650/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-07 05:20:45"
+  "update_time": "2026-01-07 09:46:09"
 }
