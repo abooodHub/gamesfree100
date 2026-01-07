@@ -1,5 +1,5 @@
 {
-  "total_count": 1551,
+  "total_count": 1560,
   "free_games": [
     [
       "Warframe",
@@ -13440,7 +13440,97 @@
       "$0.49",
       "90%",
       null
+    ],
+    [
+      "Bad North: Jotunn Edition",
+      "https://store.steampowered.com/app/688420/Bad_North_Jotunn_Edition/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/688420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/688420/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Technicity",
+      "https://store.steampowered.com/app/781180/Technicity/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/781180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/781180/capsule_616x353.jpg",
+      "$17.99",
+      "$2.33",
+      "87%",
+      null
+    ],
+    [
+      "Pumpkin Jack",
+      "https://store.steampowered.com/app/1186640/Pumpkin_Jack/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1186640/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1186640/capsule_616x353.jpg",
+      "$29.99",
+      "$3.59",
+      "88%",
+      null
+    ],
+    [
+      "TERRACOTTA",
+      "https://store.steampowered.com/app/748020/TERRACOTTA/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/748020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/748020/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Snowtopia: Ski Resort Builder",
+      "https://store.steampowered.com/app/1124260/Snowtopia_Ski_Resort_Builder/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1124260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1124260/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "miniBONG",
+      "https://store.steampowered.com/app/2411910/miniBONG/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2411910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2411910/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "Cosplay Club",
+      "https://store.steampowered.com/app/1172180/Cosplay_Club/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1172180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1172180/capsule_616x353.jpg",
+      "$18.99",
+      "$4.74",
+      "75%",
+      null
+    ],
+    [
+      "Double Dragon Trilogy",
+      "https://store.steampowered.com/app/314150/Double_Dragon_Trilogy/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/314150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/314150/capsule_616x353.jpg",
+      "$5.99",
+      "$1.19",
+      "80%",
+      null
+    ],
+    [
+      "Plane Mechanic Simulator",
+      "https://store.steampowered.com/app/803980/Plane_Mechanic_Simulator/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/803980/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/803980/capsule_616x353.jpg",
+      "$11.99",
+      "$1.19",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-01-07 16:02:18"
+  "update_time": "2026-01-07 21:44:32"
 }
