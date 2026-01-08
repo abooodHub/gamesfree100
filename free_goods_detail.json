@@ -1,5 +1,5 @@
 {
-  "total_count": 1581,
+  "total_count": 1591,
   "free_games": [
     [
       "Warframe",
@@ -8360,6 +8360,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/630140/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Wildcard",
+      "https://store.steampowered.com/app/497120/Wildcard/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/497120/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/497120/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Godzilla x Kong: Titan Chasers",
+      "https://store.steampowered.com/app/3670140/Godzilla_x_Kong_Titan_Chasers/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3670140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3670140/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Hero Realms",
+      "https://store.steampowered.com/app/1569700/Hero_Realms/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1569700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1569700/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -13722,7 +13746,77 @@
       "$7.49",
       "75%",
       null
+    ],
+    [
+      "FixFox",
+      "https://store.steampowered.com/app/1696220/FixFox/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1696220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1696220/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Depraved",
+      "https://store.steampowered.com/app/762650/Depraved/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/762650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/762650/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "As Far As The Eye",
+      "https://store.steampowered.com/app/1119700/As_Far_As_The_Eye/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1119700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1119700/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Dandara: Trials of Fear Edition",
+      "https://store.steampowered.com/app/612390/Dandara_Trials_of_Fear_Edition/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/612390/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/612390/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Parcel Corps",
+      "https://store.steampowered.com/app/2015960/Parcel_Corps/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2015960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2015960/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Dofamine VR",
+      "https://store.steampowered.com/app/3002040/Dofamine_VR/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3002040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3002040/capsule_616x353.jpg",
+      "$9.99",
+      "$1.19",
+      "88%",
+      null
+    ],
+    [
+      "Nigate Tale",
+      "https://store.steampowered.com/app/1048350/Nigate_Tale/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1048350/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1048350/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-01-08 05:21:12"
+  "update_time": "2026-01-08 09:46:35"
 }
