@@ -1,5 +1,5 @@
 {
-  "total_count": 1598,
+  "total_count": 1622,
   "free_games": [
     [
       "Warframe",
@@ -8392,6 +8392,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3814570/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Cubic Castles",
+      "https://store.steampowered.com/app/317470/Cubic_Castles/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/317470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/317470/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Emporea: Realms of War and Magic",
+      "https://store.steampowered.com/app/416450/Emporea_Realms_of_War_and_Magic/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/416450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/416450/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Sniper Strike: Special Ops",
+      "https://store.steampowered.com/app/848500/Sniper_Strike_Special_Ops/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/848500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/848500/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -13884,7 +13908,217 @@
       "$1.11",
       "93%",
       null
+    ],
+    [
+      "Workers & Resources: Soviet Republic",
+      "https://store.steampowered.com/app/784150/Workers__Resources_Soviet_Republic/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/784150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/784150/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Old World",
+      "https://store.steampowered.com/app/597180/Old_World/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/597180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/597180/capsule_616x353.jpg",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
+    ],
+    [
+      "Kingdom Two Crowns",
+      "https://store.steampowered.com/app/701160/Kingdom_Two_Crowns/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/701160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/701160/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Atomic Heart",
+      "https://store.steampowered.com/app/668580/Atomic_Heart/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/668580/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/668580/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "Darkwood",
+      "https://store.steampowered.com/app/274520/Darkwood/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/274520/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/274520/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Vampyr",
+      "https://store.steampowered.com/app/427290/Vampyr/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/427290/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/427290/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "My Time at Portia",
+      "https://store.steampowered.com/app/666140/My_Time_at_Portia/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/666140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/666140/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Old World - Heroes of the Aegean",
+      "https://store.steampowered.com/app/1952840/Old_World__Heroes_of_the_Aegean/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1952840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1952840/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "Roadwarden",
+      "https://store.steampowered.com/app/1155970/Roadwarden/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1155970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1155970/capsule_616x353.jpg",
+      "$10.99",
+      "$2.74",
+      "75%",
+      null
+    ],
+    [
+      "Vampire's Fall: Origins",
+      "https://store.steampowered.com/app/1167950/Vampires_Fall_Origins/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1167950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1167950/capsule_616x353.jpg",
+      "$12.99",
+      "$1.94",
+      "85%",
+      null
+    ],
+    [
+      "Animal Shelter",
+      "https://store.steampowered.com/app/1239320/Animal_Shelter/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1239320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1239320/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Ginga Force",
+      "https://store.steampowered.com/app/885910/Ginga_Force/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/885910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/885910/capsule_616x353.jpg",
+      "$19.99",
+      "$0.99",
+      "95%",
+      null
+    ],
+    [
+      "Motorcycle Mechanic Simulator 2021",
+      "https://store.steampowered.com/app/1078760/Motorcycle_Mechanic_Simulator_2021/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1078760/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1078760/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Dr. Fetus' Mean Meat Machine",
+      "https://store.steampowered.com/app/2228030/Dr_Fetus_Mean_Meat_Machine/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2228030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2228030/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "GreedFall",
+      "https://store.steampowered.com/app/606880/GreedFall/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/606880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/606880/capsule_616x353.jpg",
+      "$34.99",
+      "$3.49",
+      "90%",
+      null
+    ],
+    [
+      "Kingdom: New Lands",
+      "https://store.steampowered.com/app/496300/Kingdom_New_Lands/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/496300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/496300/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Shadow Gambit: The Cursed Crew",
+      "https://store.steampowered.com/app/1545560/Shadow_Gambit_The_Cursed_Crew/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1545560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1545560/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Curse of the Dead Gods",
+      "https://store.steampowered.com/app/1123770/Curse_of_the_Dead_Gods/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1123770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1123770/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Oaken",
+      "https://store.steampowered.com/app/1348690/Oaken/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1348690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1348690/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Kingdom Two Crowns: OST",
+      "https://store.steampowered.com/app/988810/Kingdom_Two_Crowns_OST/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/988810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/988810/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Dawn of Anarchy",
+      "https://store.steampowered.com/app/2664880/Dawn_of_Anarchy/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2664880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2664880/capsule_616x353.jpg",
+      "$15.99",
+      "$0.79",
+      "95%",
+      null
     ]
   ],
-  "update_time": "2026-01-08 16:02:39"
+  "update_time": "2026-01-08 21:40:01"
 }
