@@ -1,5 +1,5 @@
 {
-  "total_count": 1591,
+  "total_count": 1598,
   "free_games": [
     [
       "Warframe",
@@ -8384,6 +8384,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1569700/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "凡人修仙传奇",
+      "https://store.steampowered.com/app/3814570/_/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3814570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3814570/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -13816,7 +13824,67 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "The Quinfall",
+      "https://store.steampowered.com/app/2294660/The_Quinfall/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2294660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2294660/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "Ever Forward",
+      "https://store.steampowered.com/app/1220370/Ever_Forward/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1220370/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1220370/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Guardian of the future",
+      "https://store.steampowered.com/app/1076610/Guardian_of_the_future/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1076610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1076610/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Iris and the Giant",
+      "https://store.steampowered.com/app/1127610/Iris_and_the_Giant/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1127610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1127610/capsule_616x353.jpg",
+      "$17.99",
+      "$3.59",
+      "80%",
+      null
+    ],
+    [
+      "Replik Survivors",
+      "https://store.steampowered.com/app/2306980/Replik_Survivors/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2306980/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2306980/capsule_616x353.jpg",
+      "$4.99",
+      "$0.99",
+      "80%",
+      null
+    ],
+    [
+      "Time Lock VR 1",
+      "https://store.steampowered.com/app/673450/Time_Lock_VR_1/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/673450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/673450/capsule_616x353.jpg",
+      "$15.99",
+      "$1.11",
+      "93%",
+      null
     ]
   ],
-  "update_time": "2026-01-08 09:46:35"
+  "update_time": "2026-01-08 16:02:39"
 }
