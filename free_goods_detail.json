@@ -1,5 +1,5 @@
 {
-  "total_count": 1648,
+  "total_count": 1662,
   "free_games": [
     [
       "Warframe",
@@ -8496,6 +8496,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1628070/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Shop Legends",
+      "https://store.steampowered.com/app/982300/Shop_Legends/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/982300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/982300/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Picma - Picture Enigmas",
+      "https://store.steampowered.com/app/2134030/Picma__Picture_Enigmas/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2134030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2134030/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14358,7 +14374,127 @@
       "$1.29",
       "90%",
       null
+    ],
+    [
+      "Pathologic 2",
+      "https://store.steampowered.com/app/505230/Pathologic_2/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/505230/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/505230/capsule_616x353.jpg",
+      "$34.99",
+      "$6.99",
+      "80%",
+      null
+    ],
+    [
+      "Pathologic 2: Marble Nest",
+      "https://store.steampowered.com/app/1141960/Pathologic_2_Marble_Nest/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1141960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1141960/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Scorn",
+      "https://store.steampowered.com/app/698670/Scorn/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/698670/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/698670/capsule_616x353.jpg",
+      "$49.99",
+      "$12.49",
+      "75%",
+      null
+    ],
+    [
+      "En Garde!",
+      "https://store.steampowered.com/app/1654660/En_Garde/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1654660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1654660/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Pathologic 2: Artbook",
+      "https://store.steampowered.com/app/1080220/Pathologic_2_Artbook/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1080220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1080220/capsule_616x353.jpg",
+      "$8.99",
+      "$1.79",
+      "80%",
+      null
+    ],
+    [
+      "Pathologic 2: Soundtrack",
+      "https://store.steampowered.com/app/1080230/Pathologic_2_Soundtrack/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1080230/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1080230/capsule_616x353.jpg",
+      "$8.99",
+      "$1.79",
+      "80%",
+      null
+    ],
+    [
+      "Bum Simulator",
+      "https://store.steampowered.com/app/855740/Bum_Simulator/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/855740/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/855740/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Bloodshore",
+      "https://store.steampowered.com/app/1490840/Bloodshore/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1490840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1490840/capsule_616x353.jpg",
+      "$14.99",
+      "$1.94",
+      "87%",
+      null
+    ],
+    [
+      "Eternights",
+      "https://store.steampowered.com/app/1402110/Eternights/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1402110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1402110/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Truberbrook / Trüberbrook",
+      "https://store.steampowered.com/app/757300/Truberbrook__Trberbrook/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/757300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/757300/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Late Shift",
+      "https://store.steampowered.com/app/584980/Late_Shift/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/584980/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/584980/capsule_616x353.jpg",
+      "$14.99",
+      "$3.59",
+      "76%",
+      null
+    ],
+    [
+      "Silver Chains",
+      "https://store.steampowered.com/app/975470/Silver_Chains/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/975470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/975470/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-01-09 16:01:53"
+  "update_time": "2026-01-09 21:43:33"
 }
