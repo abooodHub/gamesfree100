@@ -1,5 +1,5 @@
 {
-  "total_count": 1622,
+  "total_count": 1640,
   "free_games": [
     [
       "Warframe",
@@ -8416,6 +8416,70 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/848500/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "ShatterRush Open Pre-Alpha",
+      "https://store.steampowered.com/app/3947610/ShatterRush_Open_PreAlpha/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3947610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3947610/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Vital Shell Demo Disc",
+      "https://store.steampowered.com/app/3928280/Vital_Shell_Demo_Disc/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3928280/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3928280/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Subliminal Demo",
+      "https://store.steampowered.com/app/2300840/Subliminal/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2300840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2300840/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "FIGHT-QUEST Demo",
+      "https://store.steampowered.com/app/3685570/FIGHTQUEST/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3685570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3685570/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Whimsical Artefacts",
+      "https://store.steampowered.com/app/3604800/Whimsical_Artefacts/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3604800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3604800/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "FreestyleFootball R",
+      "https://store.steampowered.com/app/1826980/FreestyleFootball_R/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1826980/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1826980/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Stack to Ascension Demo",
+      "https://store.steampowered.com/app/3801310/Stack_to_Ascension_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3801310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3801310/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Finn Dorset's Institute For Livestock Replication",
+      "https://store.steampowered.com/app/3135530/Finn_Dorsets_Institute_For_Livestock_Replication/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3135530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3135530/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14118,7 +14182,107 @@
       "$0.79",
       "95%",
       null
+    ],
+    [
+      "Evil West",
+      "https://store.steampowered.com/app/1065310/Evil_West/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1065310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1065310/capsule_616x353.jpg",
+      "$49.99",
+      "$12.49",
+      "75%",
+      null
+    ],
+    [
+      "PHOGS!",
+      "https://store.steampowered.com/app/850320/PHOGS/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/850320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/850320/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Somerville",
+      "https://store.steampowered.com/app/1671410/Somerville/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1671410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1671410/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Lacuna – A Sci-Fi Noir Adventure",
+      "https://store.steampowered.com/app/1364100/Lacuna__A_SciFi_Noir_Adventure/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1364100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1364100/capsule_616x353.jpg",
+      "$15.99",
+      "$2.39",
+      "85%",
+      null
+    ],
+    [
+      "DreamWorks Dragons: Legends of The Nine Realms",
+      "https://store.steampowered.com/app/1721440/DreamWorks_Dragons_Legends_of_The_Nine_Realms/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1721440/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1721440/capsule_616x353.jpg",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "Darkwood - Artbook",
+      "https://store.steampowered.com/app/1161370/Darkwood__Artbook/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1161370/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1161370/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Everything",
+      "https://store.steampowered.com/app/582270/Everything/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/582270/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/582270/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Darkwood - Soundtrack",
+      "https://store.steampowered.com/app/1140120/Darkwood__Soundtrack/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1140120/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1140120/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Battle Axe",
+      "https://store.steampowered.com/app/1167300/Battle_Axe/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1167300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1167300/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Flipping Death",
+      "https://store.steampowered.com/app/626660/Flipping_Death/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/626660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/626660/capsule_616x353.jpg",
+      "$19.99",
+      "$1.19",
+      "94%",
+      null
     ]
   ],
-  "update_time": "2026-01-08 21:40:01"
+  "update_time": "2026-01-09 05:21:49"
 }
