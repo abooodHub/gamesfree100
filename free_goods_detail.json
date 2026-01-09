@@ -1,5 +1,5 @@
 {
-  "total_count": 1645,
+  "total_count": 1648,
   "free_games": [
     [
       "Warframe",
@@ -8480,6 +8480,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3135530/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Cards & Tankards",
+      "https://store.steampowered.com/app/1506850/Cards__Tankards/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1506850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1506850/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Iron Harvest - Iron Harvest 1920+",
+      "https://store.steampowered.com/app/1628070/Iron_Harvest__Iron_Harvest_1920/?snr=1_7_7_2300_150_14",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1628070/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1628070/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14332,7 +14348,17 @@
       "$6.87",
       "78%",
       null
+    ],
+    [
+      "Pathologic Classic HD",
+      "https://store.steampowered.com/app/384110/Pathologic_Classic_HD/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/384110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/384110/capsule_616x353.jpg",
+      "$12.99",
+      "$1.29",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-01-09 09:46:43"
+  "update_time": "2026-01-09 16:01:53"
 }
