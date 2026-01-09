@@ -1,5 +1,5 @@
 {
-  "total_count": 1640,
+  "total_count": 1645,
   "free_games": [
     [
       "Warframe",
@@ -14282,7 +14282,57 @@
       "$1.19",
       "94%",
       null
+    ],
+    [
+      "Colt Canyon",
+      "https://store.steampowered.com/app/940710/Colt_Canyon/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/940710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/940710/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Tinkertown",
+      "https://store.steampowered.com/app/1276660/Tinkertown/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1276660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1276660/capsule_616x353.jpg",
+      "$16.99",
+      "$1.69",
+      "90%",
+      null
+    ],
+    [
+      "Garlic Builder",
+      "https://store.steampowered.com/app/2512920/Garlic_Builder/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2512920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2512920/capsule_616x353.jpg",
+      "$7.99",
+      "$0.79",
+      "90%",
+      null
+    ],
+    [
+      "Natsuki Chronicles",
+      "https://store.steampowered.com/app/1175190/Natsuki_Chronicles/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1175190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1175190/capsule_616x353.jpg",
+      "$19.99",
+      "$0.99",
+      "95%",
+      null
+    ],
+    [
+      "Rally Mechanic Simulator",
+      "https://store.steampowered.com/app/1588090/Rally_Mechanic_Simulator/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1588090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1588090/capsule_616x353.jpg",
+      "$30.58",
+      "$6.87",
+      "78%",
+      null
     ]
   ],
-  "update_time": "2026-01-09 05:21:49"
+  "update_time": "2026-01-09 09:46:43"
 }
