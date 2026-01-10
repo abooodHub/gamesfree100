@@ -1,5 +1,5 @@
 {
-  "total_count": 1662,
+  "total_count": 1683,
   "free_games": [
     [
       "Warframe",
@@ -8512,6 +8512,54 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2134030/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Froggin' Around Demo",
+      "https://store.steampowered.com/app/4006090/Froggin_Around_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4006090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4006090/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Super-B",
+      "https://store.steampowered.com/app/3728650/SuperB/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3728650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3728650/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Dome Keeper Demo",
+      "https://store.steampowered.com/app/1650980/Dome_Keeper_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1650980/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1650980/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "江湖客栈-The Jianghu",
+      "https://store.steampowered.com/app/1881610/The_Jianghu/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1881610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1881610/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Dreadmyst",
+      "https://store.steampowered.com/app/4241850/Dreadmyst/?snr=1_7_7_230_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4241850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4241850/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "DORONKO WANKO",
+      "https://store.steampowered.com/app/2512840/DORONKO_WANKO/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2512840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2512840/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14494,7 +14542,157 @@
       "$2.49",
       "90%",
       null
+    ],
+    [
+      "Paper Trail",
+      "https://store.steampowered.com/app/1889740/Paper_Trail/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1889740/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1889740/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Ultros",
+      "https://store.steampowered.com/app/2386310/Ultros/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2386310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2386310/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Mr. Prepper",
+      "https://store.steampowered.com/app/761830/Mr_Prepper/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/761830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/761830/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Tchia",
+      "https://store.steampowered.com/app/1496590/Tchia/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1496590/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1496590/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Maid of Sker",
+      "https://store.steampowered.com/app/826940/Maid_of_Sker/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/826940/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/826940/capsule_616x353.jpg",
+      "$24.99",
+      "$4.74",
+      "81%",
+      null
+    ],
+    [
+      "Monster Boy and the Cursed Kingdom",
+      "https://store.steampowered.com/app/449610/Monster_Boy_and_the_Cursed_Kingdom/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/449610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/449610/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Flintlock: The Siege of Dawn",
+      "https://store.steampowered.com/app/1832040/Flintlock_The_Siege_of_Dawn/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1832040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1832040/capsule_616x353.jpg",
+      "$44.99",
+      "$11.24",
+      "75%",
+      null
+    ],
+    [
+      "The Coma 2: Vicious Sisters",
+      "https://store.steampowered.com/app/1045720/The_Coma_2_Vicious_Sisters/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1045720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1045720/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Sons of Valhalla",
+      "https://store.steampowered.com/app/1409830/Sons_of_Valhalla/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1409830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1409830/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "The Coma: Recut",
+      "https://store.steampowered.com/app/600090/The_Coma_Recut/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/600090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/600090/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "The Complex",
+      "https://store.steampowered.com/app/1107790/The_Complex/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1107790/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1107790/capsule_616x353.jpg",
+      "$14.99",
+      "$3.44",
+      "77%",
+      null
+    ],
+    [
+      "The Inner World - The Last Wind Monk",
+      "https://store.steampowered.com/app/613470/The_Inner_World__The_Last_Wind_Monk/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/613470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/613470/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Lawgivers",
+      "https://store.steampowered.com/app/683940/Lawgivers/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/683940/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/683940/capsule_616x353.jpg",
+      "$6.99",
+      "$1.74",
+      "75%",
+      null
+    ],
+    [
+      "Blossom Tales: The Sleeping King",
+      "https://store.steampowered.com/app/446810/Blossom_Tales_The_Sleeping_King/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/446810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/446810/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Niffelheim",
+      "https://store.steampowered.com/app/351100/Niffelheim/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/351100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/351100/capsule_616x353.jpg",
+      "$18.73",
+      "$3.73",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-09 21:43:33"
+  "update_time": "2026-01-10 05:11:34"
 }
