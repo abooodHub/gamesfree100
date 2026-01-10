@@ -1,5 +1,5 @@
 {
-  "total_count": 1683,
+  "total_count": 1691,
   "free_games": [
     [
       "Warframe",
@@ -8560,6 +8560,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2512840/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Backrooms Lost Runners Demo",
+      "https://store.steampowered.com/app/3971460/Backrooms_Lost_Runners_Demo/?snr=1_7_7_230_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3971460/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3971460/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "这是谐音梗 Demo",
+      "https://store.steampowered.com/app/4252240/_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4252240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4252240/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "九州青云劫",
+      "https://store.steampowered.com/app/4053780/_/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4053780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4053780/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Gamer Stop Simulator : Prologue",
+      "https://store.steampowered.com/app/3811880/Gamer_Stop_Simulator__Prologue/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3811880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3811880/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14692,7 +14724,47 @@
       "$3.73",
       "80%",
       null
+    ],
+    [
+      "Pets Hotel",
+      "https://store.steampowered.com/app/1714250/Pets_Hotel/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1714250/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1714250/capsule_616x353.jpg",
+      "$17.99",
+      "$4.31",
+      "76%",
+      null
+    ],
+    [
+      "The Inner World",
+      "https://store.steampowered.com/app/251430/The_Inner_World/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/251430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/251430/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "Guacamelee! Gold Edition",
+      "https://store.steampowered.com/app/214770/Guacamelee_Gold_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/214770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/214770/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "The Shore",
+      "https://store.steampowered.com/app/1297300/The_Shore/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1297300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1297300/capsule_616x353.jpg",
+      "$11.99",
+      "$2.63",
+      "78%",
+      null
     ]
   ],
-  "update_time": "2026-01-10 05:11:34"
+  "update_time": "2026-01-10 09:40:37"
 }
