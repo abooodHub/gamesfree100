@@ -1,5 +1,5 @@
 {
-  "total_count": 1691,
+  "total_count": 1692,
   "free_games": [
     [
       "Warframe",
@@ -14764,7 +14764,17 @@
       "$2.63",
       "78%",
       null
+    ],
+    [
+      "Dead Age 2: The Zombie Survival RPG",
+      "https://store.steampowered.com/app/951430/Dead_Age_2_The_Zombie_Survival_RPG/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/951430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/951430/capsule_616x353.jpg",
+      "$17.99",
+      "$1.79",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-01-10 09:40:37"
+  "update_time": "2026-01-10 15:55:21"
 }
