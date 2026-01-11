@@ -1,5 +1,5 @@
 {
-  "total_count": 1704,
+  "total_count": 1706,
   "free_games": [
     [
       "Warframe",
@@ -14882,7 +14882,27 @@
       "$1.99",
       "80%",
       null
+    ],
+    [
+      "Who Pressed Mute on Uncle Marcus?",
+      "https://store.steampowered.com/app/1628130/Who_Pressed_Mute_on_Uncle_Marcus/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1628130/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1628130/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Aggressors: Ancient Rome",
+      "https://store.steampowered.com/app/783210/Aggressors_Ancient_Rome/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/783210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/783210/capsule_616x353.jpg",
+      "$29.99",
+      "$5.69",
+      "81%",
+      null
     ]
   ],
-  "update_time": "2026-01-11 05:32:04"
+  "update_time": "2026-01-11 09:42:20"
 }
