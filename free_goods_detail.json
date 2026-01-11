@@ -1,5 +1,5 @@
 {
-  "total_count": 1697,
+  "total_count": 1704,
   "free_games": [
     [
       "Warframe",
@@ -8592,6 +8592,54 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3811880/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Rogue Masters",
+      "https://store.steampowered.com/app/1063590/Rogue_Masters/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1063590/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1063590/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "FRUKT Demo",
+      "https://store.steampowered.com/app/3880400/FRUKT/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3880400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3880400/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "In Sink: A Co-Op Escape Prologue",
+      "https://store.steampowered.com/app/2289970/In_Sink_A_CoOp_Escape_Prologue/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2289970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2289970/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Factorio Demo",
+      "https://store.steampowered.com/app/427520/Factorio/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/427520/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/427520/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "LANESPLIT Demo",
+      "https://store.steampowered.com/app/3278310/LANESPLIT/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3278310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3278310/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Celestial Empire: Prologue",
+      "https://store.steampowered.com/app/1509970/Celestial_Empire_Prologue/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1509970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1509970/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14824,7 +14872,17 @@
       "$0.99",
       "90%",
       null
+    ],
+    [
+      "Dear Esther: Landmark Edition",
+      "https://store.steampowered.com/app/520720/Dear_Esther_Landmark_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/520720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/520720/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-10 21:38:55"
+  "update_time": "2026-01-11 05:32:04"
 }
