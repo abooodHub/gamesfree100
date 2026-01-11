@@ -1,5 +1,5 @@
 {
-  "total_count": 1709,
+  "total_count": 1727,
   "free_games": [
     [
       "Warframe",
@@ -14928,7 +14928,187 @@
       "$5.99",
       "80%",
       null
+    ],
+    [
+      "Riders Republic",
+      "https://store.steampowered.com/app/2290180/Riders_Republic/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2290180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2290180/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Watch_Dogs® 2",
+      "https://store.steampowered.com/app/447040/Watch_Dogs_2/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/447040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/447040/capsule_616x353.jpg",
+      "$49.99",
+      "$7.49",
+      "85%",
+      null
+    ],
+    [
+      "Far Cry® 6",
+      "https://store.steampowered.com/app/2369390/Far_Cry_6/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2369390/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2369390/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "Far Cry® 4",
+      "https://store.steampowered.com/app/298110/Far_Cry_4/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/298110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/298110/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Tom Clancy's Ghost Recon® Breakpoint",
+      "https://store.steampowered.com/app/2231380/Tom_Clancys_Ghost_Recon_Breakpoint/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2231380/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2231380/capsule_616x353.jpg",
+      "$59.99",
+      "$11.99",
+      "80%",
+      null
+    ],
+    [
+      "Anno 1800",
+      "https://store.steampowered.com/app/916440/Anno_1800/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/916440/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/916440/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "Watch_Dogs™",
+      "https://store.steampowered.com/app/243470/Watch_Dogs/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/243470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/243470/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Far Cry® New Dawn",
+      "https://store.steampowered.com/app/939960/Far_Cry_New_Dawn/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/939960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/939960/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Tom Clancy’s Ghost Recon® Breakpoint Year 1 Pass",
+      "https://store.steampowered.com/app/2231410/Tom_Clancys_Ghost_Recon_Breakpoint_Year_1_Pass/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2231410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2231410/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "SteamWorld Dig",
+      "https://store.steampowered.com/app/252410/SteamWorld_Dig/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/252410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/252410/capsule_616x353.jpg",
+      "$9.99",
+      "$0.89",
+      "91%",
+      null
+    ],
+    [
+      "South Park™: The Fractured But Whole™ - Bring The Crunch",
+      "https://store.steampowered.com/app/564791/South_Park_The_Fractured_But_Whole__Bring_The_Crunch/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/564791/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/564791/capsule_616x353.jpg",
+      "$11.99",
+      "$2.99",
+      "75%",
+      null
+    ],
+    [
+      "SteamWorld Dig 2",
+      "https://store.steampowered.com/app/571310/SteamWorld_Dig_2/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/571310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/571310/capsule_616x353.jpg",
+      "$19.99",
+      "$1.19",
+      "94%",
+      null
+    ],
+    [
+      "Barn Finders",
+      "https://store.steampowered.com/app/991170/Barn_Finders/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/991170/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/991170/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "South Park™: The Fractured But Whole™ - From Dusk Till Casa Bonita",
+      "https://store.steampowered.com/app/564790/South_Park_The_Fractured_But_Whole__From_Dusk_Till_Casa_Bonita/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/564790/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/564790/capsule_616x353.jpg",
+      "$11.99",
+      "$2.99",
+      "75%",
+      null
+    ],
+    [
+      "Rusty Lake Paradise",
+      "https://store.steampowered.com/app/744190/Rusty_Lake_Paradise/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/744190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/744190/capsule_616x353.jpg",
+      "$3.99",
+      "$0.79",
+      "80%",
+      null
+    ],
+    [
+      "Watch_Dogs - Bad Blood",
+      "https://store.steampowered.com/app/293061/Watch_Dogs__Bad_Blood/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/293061/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/293061/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Aircraft Carrier Survival",
+      "https://store.steampowered.com/app/1021100/Aircraft_Carrier_Survival/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1021100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1021100/capsule_616x353.jpg",
+      "$19.99",
+      "$1.39",
+      "93%",
+      null
+    ],
+    [
+      "Exoprimal Deluxe Edition",
+      "https://store.steampowered.com/sub/905071/?snr=1_7_7_2300_150_10",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$69.99",
+      "$14.69",
+      "79%",
+      null
     ]
   ],
-  "update_time": "2026-01-11 15:56:24"
+  "update_time": "2026-01-11 21:38:52"
 }
