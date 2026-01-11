@@ -1,5 +1,5 @@
 {
-  "total_count": 1706,
+  "total_count": 1709,
   "free_games": [
     [
       "Warframe",
@@ -8640,6 +8640,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1509970/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "DOGWALK",
+      "https://store.steampowered.com/app/3775050/DOGWALK/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3775050/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3775050/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Warhammer: Vermintide 2 - Warrior Priest Cosmetic Upgrade",
+      "https://store.steampowered.com/app/1782451/Warhammer_Vermintide_2__Warrior_Priest_Cosmetic_Upgrade/?snr=1_7_7_2300_150_15",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1782451/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1782451/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14902,7 +14918,17 @@
       "$5.69",
       "81%",
       null
+    ],
+    [
+      "Heliborne Collection",
+      "https://store.steampowered.com/app/433530/Heliborne_Collection/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/433530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/433530/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-11 09:42:20"
+  "update_time": "2026-01-11 15:56:24"
 }
