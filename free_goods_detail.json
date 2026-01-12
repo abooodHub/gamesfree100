@@ -1,5 +1,5 @@
 {
-  "total_count": 1737,
+  "total_count": 1740,
   "free_games": [
     [
       "Warframe",
@@ -15192,7 +15192,37 @@
       "$1.04",
       "93%",
       null
+    ],
+    [
+      "Wordle 5",
+      "https://store.steampowered.com/app/1867190/Wordle_5/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1867190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1867190/capsule_616x353.jpg",
+      "$27.90",
+      "$2.79",
+      "90%",
+      null
+    ],
+    [
+      "Aliens VS Predator Collection",
+      "https://store.steampowered.com/sub/27828/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$23.99",
+      "$5.99",
+      "75%",
+      null
+    ],
+    [
+      "Feel The Snow",
+      "https://store.steampowered.com/app/538100/Feel_The_Snow/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/538100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/538100/capsule_616x353.jpg",
+      "$12.99",
+      "$2.59",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-12 09:49:56"
+  "update_time": "2026-01-12 16:04:15"
 }
