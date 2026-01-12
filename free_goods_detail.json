@@ -1,5 +1,5 @@
 {
-  "total_count": 1736,
+  "total_count": 1737,
   "free_games": [
     [
       "Warframe",
@@ -8712,6 +8712,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2829820/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "BEACHED",
+      "https://store.steampowered.com/app/1412190/BEACHED/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1412190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1412190/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -15186,5 +15194,5 @@
       null
     ]
   ],
-  "update_time": "2026-01-12 05:27:40"
+  "update_time": "2026-01-12 09:49:56"
 }
