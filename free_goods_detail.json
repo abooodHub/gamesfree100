@@ -1,5 +1,5 @@
 {
-  "total_count": 1727,
+  "total_count": 1736,
   "free_games": [
     [
       "Warframe",
@@ -8656,6 +8656,62 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1782451/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Long Knives",
+      "https://store.steampowered.com/app/3486280/Long_Knives/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3486280/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3486280/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Ale & Tale Tavern: First Pints",
+      "https://store.steampowered.com/app/2870840/Ale__Tale_Tavern_First_Pints/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2870840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2870840/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "The Planet Crafter Demo",
+      "https://store.steampowered.com/app/1284190/The_Planet_Crafter/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1284190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1284190/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "CRACKED",
+      "https://store.steampowered.com/app/3917010/CRACKED/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3917010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3917010/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "WW2 Rebuilder Demo",
+      "https://store.steampowered.com/app/1573280/WW2_Rebuilder/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1573280/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1573280/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Unfortunate Spacemen",
+      "https://store.steampowered.com/app/408900/Unfortunate_Spacemen/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/408900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/408900/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Celtic Heroes",
+      "https://store.steampowered.com/app/2829820/Celtic_Heroes/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2829820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2829820/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -15108,7 +15164,27 @@
       "$14.69",
       "79%",
       null
+    ],
+    [
+      "Far Cry® 4 Valley of the Yetis",
+      "https://store.steampowered.com/app/324344/Far_Cry_4_Valley_of_the_Yetis/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/324344/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/324344/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "SteamWorld Heist",
+      "https://store.steampowered.com/app/322190/SteamWorld_Heist/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/322190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/322190/capsule_616x353.jpg",
+      "$14.99",
+      "$1.04",
+      "93%",
+      null
     ]
   ],
-  "update_time": "2026-01-11 21:38:52"
+  "update_time": "2026-01-12 05:27:40"
 }
