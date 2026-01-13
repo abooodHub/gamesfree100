@@ -1,5 +1,5 @@
 {
-  "total_count": 1859,
+  "total_count": 1868,
   "free_games": [
     [
       "Warframe",
@@ -8808,6 +8808,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/314970/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "这是谐音梗 Demo",
+      "https://store.steampowered.com/app/4164310/_/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4164310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4164310/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -16390,7 +16398,87 @@
       "$5.80",
       "75%",
       null
+    ],
+    [
+      "Out of Space",
+      "https://store.steampowered.com/app/400080/Out_of_Space/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/400080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/400080/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Tex Murphy: Under a Killing Moon",
+      "https://store.steampowered.com/app/302350/Tex_Murphy_Under_a_Killing_Moon/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/302350/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/302350/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Garfield Lasagna Party",
+      "https://store.steampowered.com/app/2008410/Garfield_Lasagna_Party/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2008410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2008410/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Ash of Gods: Redemption",
+      "https://store.steampowered.com/app/691690/Ash_of_Gods_Redemption/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/691690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/691690/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Close Combat: Wacht am Rhein",
+      "https://store.steampowered.com/app/1272110/Close_Combat_Wacht_am_Rhein/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1272110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1272110/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "The Shapeshifting Detective",
+      "https://store.steampowered.com/app/898650/The_Shapeshifting_Detective/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/898650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/898650/capsule_616x353.jpg",
+      "$14.99",
+      "$2.54",
+      "83%",
+      null
+    ],
+    [
+      "Inspector Waffles",
+      "https://store.steampowered.com/app/1055850/Inspector_Waffles/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1055850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1055850/capsule_616x353.jpg",
+      "$12.99",
+      "$3.24",
+      "75%",
+      null
+    ],
+    [
+      "Initial Drift Online",
+      "https://store.steampowered.com/app/1456200/Initial_Drift_Online/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1456200/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1456200/capsule_616x353.jpg",
+      "$4.99",
+      "$0.00",
+      "100%",
+      null
     ]
   ],
-  "update_time": "2026-01-13 16:04:06"
+  "update_time": "2026-01-13 21:41:24"
 }
