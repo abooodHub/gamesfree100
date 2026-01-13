@@ -1,5 +1,5 @@
 {
-  "total_count": 1843,
+  "total_count": 1852,
   "free_games": [
     [
       "Warframe",
@@ -8760,6 +8760,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4245040/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "World of Talesworth: Idle MMO Simulator",
+      "https://store.steampowered.com/app/1177970/World_of_Talesworth_Idle_MMO_Simulator/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1177970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1177970/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Darza's Dominion",
+      "https://store.steampowered.com/app/1895130/Darzas_Dominion/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1895130/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1895130/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -16242,7 +16258,77 @@
       "$1.99",
       "75%",
       null
+    ],
+    [
+      "Sherlock Holmes: The Silver Earring",
+      "https://store.steampowered.com/app/11150/Sherlock_Holmes_The_Silver_Earring/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/11150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/11150/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "Cognition: An Erica Reed Thriller",
+      "https://store.steampowered.com/app/242780/Cognition_An_Erica_Reed_Thriller/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/242780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/242780/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Sherlock Holmes: The Mystery of the Persian Carpet",
+      "https://store.steampowered.com/app/11180/Sherlock_Holmes_The_Mystery_of_the_Persian_Carpet/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/11180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/11180/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "PSYCHO-PASS: Mandatory Happiness",
+      "https://store.steampowered.com/app/522880/PSYCHOPASS_Mandatory_Happiness/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/522880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/522880/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "FUR Squadron",
+      "https://store.steampowered.com/app/2269980/FUR_Squadron/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2269980/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2269980/capsule_616x353.jpg",
+      "$6.99",
+      "$1.39",
+      "80%",
+      null
+    ],
+    [
+      "Tiny Room Stories: Town Mystery",
+      "https://store.steampowered.com/app/1259640/Tiny_Room_Stories_Town_Mystery/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1259640/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1259640/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "Lysfanga: The Time Shift Warrior",
+      "https://store.steampowered.com/app/2161620/Lysfanga_The_Time_Shift_Warrior/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2161620/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2161620/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-01-13 05:19:12"
+  "update_time": "2026-01-13 09:46:50"
 }
