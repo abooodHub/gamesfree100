@@ -1,5 +1,5 @@
 {
-  "total_count": 1852,
+  "total_count": 1859,
   "free_games": [
     [
       "Warframe",
@@ -8776,6 +8776,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1895130/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "尸姬之梦 Demo",
+      "https://store.steampowered.com/app/2842800/Dream_of_Corpse_Lady/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2842800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2842800/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Puppet Master: The Game",
+      "https://store.steampowered.com/app/1757610/Puppet_Master_The_Game/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1757610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1757610/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Megastore Simulator: Prologue",
+      "https://store.steampowered.com/app/4148730/Megastore_Simulator_Prologue/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4148730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4148730/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Age of Conquest IV",
+      "https://store.steampowered.com/app/314970/Age_of_Conquest_IV/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/314970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/314970/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -16328,7 +16360,37 @@
       "$1.99",
       "90%",
       null
+    ],
+    [
+      "Sweet Transit",
+      "https://store.steampowered.com/app/1612770/Sweet_Transit/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1612770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1612770/capsule_616x353.jpg",
+      "$34.99",
+      "$6.99",
+      "80%",
+      null
+    ],
+    [
+      "Source of Madness",
+      "https://store.steampowered.com/app/1315610/Source_of_Madness/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1315610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1315610/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Ancestors Legacy",
+      "https://store.steampowered.com/app/620590/Ancestors_Legacy/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/620590/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/620590/capsule_616x353.jpg",
+      "$23.20",
+      "$5.80",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-01-13 09:46:50"
+  "update_time": "2026-01-13 16:04:06"
 }
