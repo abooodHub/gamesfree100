@@ -1,5 +1,5 @@
 {
-  "total_count": 1882,
+  "total_count": 1891,
   "free_games": [
     [
       "Warframe",
@@ -8872,6 +8872,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2092840/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Mining",
+      "https://store.steampowered.com/app/3347520/Mining/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3347520/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3347520/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Clicker Cuties - Anime Idler",
+      "https://store.steampowered.com/app/3188910/Clicker_Cuties__Anime_Idler/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3188910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3188910/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Shrimp",
+      "https://store.steampowered.com/app/3054490/Shrimp/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3054490/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3054490/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -16604,7 +16628,67 @@
       "$1.49",
       "90%",
       null
+    ],
+    [
+      "A Case of Distrust",
+      "https://store.steampowered.com/app/717610/A_Case_of_Distrust/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/717610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/717610/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Crimson Tactics: The Rise of The White Banner",
+      "https://store.steampowered.com/app/1480810/Crimson_Tactics_The_Rise_of_The_White_Banner/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1480810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1480810/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "PLAYNE : The Meditation Game",
+      "https://store.steampowered.com/app/865540/PLAYNE__The_Meditation_Game/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/865540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/865540/capsule_616x353.jpg",
+      "$14.99",
+      "$2.24",
+      "85%",
+      null
+    ],
+    [
+      "DETECTIVE - Stella Porta case",
+      "https://store.steampowered.com/app/2383220/DETECTIVE__Stella_Porta_case/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2383220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2383220/capsule_616x353.jpg",
+      "$10.99",
+      "$2.74",
+      "75%",
+      null
+    ],
+    [
+      "Tex Murphy: The Pandora Directive",
+      "https://store.steampowered.com/app/302360/Tex_Murphy_The_Pandora_Directive/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/302360/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/302360/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Super Mombo Quest",
+      "https://store.steampowered.com/app/1262040/Super_Mombo_Quest/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1262040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1262040/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-14 05:26:12"
+  "update_time": "2026-01-14 09:46:44"
 }
