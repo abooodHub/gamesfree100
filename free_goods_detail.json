@@ -1,5 +1,5 @@
 {
-  "total_count": 1895,
+  "total_count": 1900,
   "free_games": [
     [
       "Warframe",
@@ -16728,7 +16728,57 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "Tom Clancy’s The Division® 2",
+      "https://store.steampowered.com/app/2221490/Tom_Clancys_The_Division_2/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2221490/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2221490/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Slime Rancher",
+      "https://store.steampowered.com/app/433340/Slime_Rancher/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Friends vs Friends",
+      "https://store.steampowered.com/app/1785150/Friends_vs_Friends/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1785150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1785150/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Rubber Bandits",
+      "https://store.steampowered.com/app/1206610/Rubber_Bandits/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1206610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1206610/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Severed Steel",
+      "https://store.steampowered.com/app/1227690/Severed_Steel/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1227690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1227690/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-01-14 16:03:49"
+  "update_time": "2026-01-14 21:44:48"
 }
