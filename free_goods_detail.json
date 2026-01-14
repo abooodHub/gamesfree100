@@ -1,5 +1,5 @@
 {
-  "total_count": 1891,
+  "total_count": 1895,
   "free_games": [
     [
       "Warframe",
@@ -16688,7 +16688,47 @@
       "$3.99",
       "80%",
       null
+    ],
+    [
+      "Moonglow Bay",
+      "https://store.steampowered.com/app/1361400/Moonglow_Bay/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1361400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1361400/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "Monster Energy Supercross - The Official Videogame 4",
+      "https://store.steampowered.com/app/1304340/Monster_Energy_Supercross__The_Official_Videogame_4/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1304340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1304340/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Midnight Protocol",
+      "https://store.steampowered.com/app/1162700/Midnight_Protocol/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1162700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1162700/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Crowns and Pawns: Kingdom of Deceit",
+      "https://store.steampowered.com/app/1125910/Crowns_and_Pawns_Kingdom_of_Deceit/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1125910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1125910/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-01-14 09:46:44"
+  "update_time": "2026-01-14 16:03:49"
 }
