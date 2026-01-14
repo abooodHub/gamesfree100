@@ -1,5 +1,5 @@
 {
-  "total_count": 1868,
+  "total_count": 1882,
   "free_games": [
     [
       "Warframe",
@@ -8816,6 +8816,62 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4164310/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "EverSiege: Untold Ages Demo",
+      "https://store.steampowered.com/app/4210690/EverSiege_Untold_Ages_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4210690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4210690/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Styx: Blades of Greed Demo",
+      "https://store.steampowered.com/app/3290690/Styx_Blades_of_Greed/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3290690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3290690/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Spark & Kling",
+      "https://store.steampowered.com/app/2712910/Spark__Kling/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2712910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2712910/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Virtual City Playground®: Build Your Metropolis",
+      "https://store.steampowered.com/app/3760180/Virtual_City_Playground_Build_Your_Metropolis/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3760180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3760180/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Animal Shelter 2 Demo",
+      "https://store.steampowered.com/app/2658520/Animal_Shelter_2_Demo/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2658520/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2658520/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Insanity Clicker",
+      "https://store.steampowered.com/app/393530/Insanity_Clicker/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/393530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/393530/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "The Occultist Demo",
+      "https://store.steampowered.com/app/2092840/The_Occultist/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2092840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2092840/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -16478,7 +16534,77 @@
       "$0.00",
       "100%",
       null
+    ],
+    [
+      "Detective Di: The Silk Rose Murders",
+      "https://store.steampowered.com/app/792040/Detective_Di_The_Silk_Rose_Murders/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/792040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/792040/capsule_616x353.jpg",
+      "$10.99",
+      "$2.52",
+      "77%",
+      null
+    ],
+    [
+      "Night Call",
+      "https://store.steampowered.com/app/680380/Night_Call/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/680380/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/680380/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Through the Darkest of Times",
+      "https://store.steampowered.com/app/1003090/Through_the_Darkest_of_Times/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1003090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1003090/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Mighty No. 9",
+      "https://store.steampowered.com/app/314710/Mighty_No_9/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/314710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/314710/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Mech Armada",
+      "https://store.steampowered.com/app/1389360/Mech_Armada/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1389360/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1389360/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Siege Survival: Gloria Victis",
+      "https://store.steampowered.com/app/1167140/Siege_Survival_Gloria_Victis/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1167140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1167140/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "Detective Gallo",
+      "https://store.steampowered.com/app/556060/Detective_Gallo/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/556060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/556060/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-01-13 21:41:24"
+  "update_time": "2026-01-14 05:26:12"
 }
