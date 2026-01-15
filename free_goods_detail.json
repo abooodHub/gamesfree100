@@ -1,5 +1,5 @@
 {
-  "total_count": 1907,
+  "total_count": 1911,
   "free_games": [
     [
       "Warframe",
@@ -8936,6 +8936,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3639660/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "TDP4: Team Battle",
+      "https://store.steampowered.com/app/3363030/TDP4_Team_Battle/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3363030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3363030/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Fruit Stand Fortune",
+      "https://store.steampowered.com/app/3306030/Fruit_Stand_Fortune/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3306030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3306030/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -16838,7 +16854,27 @@
       "$1.49",
       "90%",
       null
+    ],
+    [
+      "Sanctum",
+      "https://store.steampowered.com/app/91600/Sanctum/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/91600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/91600/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Red Faction II",
+      "https://store.steampowered.com/app/20550/Red_Faction_II/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/20550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/20550/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-15 05:20:57"
+  "update_time": "2026-01-15 09:46:31"
 }
