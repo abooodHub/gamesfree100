@@ -1,5 +1,5 @@
 {
-  "total_count": 1917,
+  "total_count": 1930,
   "free_games": [
     [
       "Warframe",
@@ -8952,6 +8952,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3306030/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Warhammer: Vermintide 2 - Sister of the Thorn Cosmetic Upgrade",
+      "https://store.steampowered.com/app/1629010/Warhammer_Vermintide_2__Sister_of_the_Thorn_Cosmetic_Upgrade/?snr=1_7_7_2300_150_15",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1629010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1629010/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "New World: Aeternum",
+      "https://store.steampowered.com/app/1063730/New_World_Aeternum/?snr=1_7_7_230_150_19",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1063730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1063730/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -16934,7 +16950,117 @@
       "$6.99",
       "80%",
       null
+    ],
+    [
+      "Warhammer 40,000: Darktide",
+      "https://store.steampowered.com/app/1361210/Warhammer_40000_Darktide/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1361210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1361210/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Warhammer: Vermintide 2",
+      "https://store.steampowered.com/app/552500/Warhammer_Vermintide_2/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/552500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/552500/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Surgeon Simulator",
+      "https://store.steampowered.com/app/233720/Surgeon_Simulator/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/233720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/233720/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Surgeon Simulator: Experience Reality",
+      "https://store.steampowered.com/app/518920/Surgeon_Simulator_Experience_Reality/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/518920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/518920/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "RollerCoaster Tycoon® 3: Complete Edition",
+      "https://store.steampowered.com/app/1368820/RollerCoaster_Tycoon_3_Complete_Edition/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1368820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1368820/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "RollerCoaster Tycoon® Classic",
+      "https://store.steampowered.com/app/683900/RollerCoaster_Tycoon_Classic/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/683900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/683900/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "RollerCoaster Tycoon®: Deluxe",
+      "https://store.steampowered.com/app/285310/RollerCoaster_Tycoon_Deluxe/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/285310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/285310/capsule_616x353.jpg",
+      "$5.99",
+      "$1.49",
+      "75%",
+      null
+    ],
+    [
+      "Call of Juarez: Gunslinger",
+      "https://store.steampowered.com/app/204450/Call_of_Juarez_Gunslinger/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/204450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/204450/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Warhammer: End Times - Vermintide",
+      "https://store.steampowered.com/app/235540/Warhammer_End_Times__Vermintide/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/235540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/235540/capsule_616x353.jpg",
+      "$29.99",
+      "$2.09",
+      "93%",
+      null
+    ],
+    [
+      "Railway Empire",
+      "https://store.steampowered.com/app/503940/Railway_Empire/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/503940/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/503940/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Warhammer: Vermintide 2 - Collector's Edition Upgrade",
+      "https://store.steampowered.com/app/737040/Warhammer_Vermintide_2__Collectors_Edition_Upgrade/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/737040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/737040/capsule_616x353.jpg",
+      "$15.99",
+      "$3.19",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-15 16:02:23"
+  "update_time": "2026-01-15 21:49:23"
 }

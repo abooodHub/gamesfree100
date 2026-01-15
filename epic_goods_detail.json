@@ -1,18 +1,38 @@
 {
-  "total_count": 1,
+  "total_count": 3,
   "free_games": [
     [
-      "Bloons TD 6",
-      "https://store.epicgames.com/en-US/p/bloons-td-6-bf95a0",
-      "https://cdn1.epicgames.com/spt-assets/764b2d57552c436590f50318bd7587f9/bloons-td-6-offer-1jl6n.jpg",
-      "The Bloons are back and better than ever! Get ready for a massive 3D tower defense game designed to give you hours and hours of the best strategy gaming available.",
-      "13.99 USD",
+      "Styx: Master of Shadows",
+      "https://store.epicgames.com/en-US/p/ed109adce3c042f792f48d629221ac8b",
+      "https://cdn1.epicgames.com/spt-assets/45709e0bb07e43bd9e652991779d4dfa/styx-master-of-shadows-17of4.jpg",
+      "Styx: Master of Shadows is an infiltration game with RPG elements taking place in a dark fantasy universe, where you sneak, steal and assassinate your way through as Styx, a Goblin two-centuries of age.",
+      "19.99 USD",
       "Free",
       "خصم 100% - مجاني",
-      "2026-01-15 16:00:00"
+      "2026-01-22 16:00:00"
+    ],
+    [
+      "Styx: Shards of Darkness - Deluxe Edition",
+      "https://store.epicgames.com/en-US/p/styx-shards-of-darkness-77c030",
+      "https://cdn1.epicgames.com/spt-assets/6ccdf6a1518741f0842177137adc00b0/styx-shards-of-darkness-1bh52.jpg",
+      "Styx returns in a new stealth adventure! Explore and master huge open environments, sneak past or assassinate new enemies and bosses, and experiment with the new array of lethal abilities and weapons in our goblin assassin's arsenal.",
+      "19.99 USD",
+      "Free",
+      "خصم 100% - مجاني",
+      "2026-01-22 16:00:00"
+    ],
+    [
+      "Styx: Master of Shadows",
+      "https://store.epicgames.com/en-US/p/styx-master-of-shadows-4d9ab3",
+      "https://cdn1.epicgames.com/spt-assets/45709e0bb07e43bd9e652991779d4dfa/styx-master-of-shadows-17of4.jpg",
+      "Styx: Master of Shadows is an infiltration game with RPG elements taking place in a dark fantasy universe, where you sneak, steal and assassinate your way through as Styx, a Goblin two-centuries of age.",
+      "19.99 USD",
+      "Free",
+      "خصم 100% - مجاني",
+      "2026-01-22 16:00:00"
     ]
   ],
   "discounted_games": [],
-  "update_time": "2026-01-15 16:02:23",
+  "update_time": "2026-01-15 21:49:23",
   "source": "Epic Games Store"
 }
