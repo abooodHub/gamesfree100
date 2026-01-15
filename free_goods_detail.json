@@ -1,5 +1,5 @@
 {
-  "total_count": 1900,
+  "total_count": 1907,
   "free_games": [
     [
       "Warframe",
@@ -8896,6 +8896,46 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3054490/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "DateBoy",
+      "https://store.steampowered.com/app/4022300/DateBoy/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4022300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4022300/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "MaSzyna",
+      "https://store.steampowered.com/app/1033030/MaSzyna/?snr=1_7_7_230_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1033030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1033030/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Cairn Demo",
+      "https://store.steampowered.com/app/3170150/Cairn_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3170150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3170150/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Songs of Syx Demo",
+      "https://store.steampowered.com/app/1162750/Songs_of_Syx/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1162750/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1162750/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "From The Top Demo",
+      "https://store.steampowered.com/app/3639660/From_The_Top_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3639660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3639660/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -16778,7 +16818,27 @@
       "$2.49",
       "90%",
       null
+    ],
+    [
+      "Grindstone",
+      "https://store.steampowered.com/app/1818690/Grindstone/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1818690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1818690/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Moon Hunters",
+      "https://store.steampowered.com/app/320040/Moon_Hunters/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/320040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/320040/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-01-14 21:44:48"
+  "update_time": "2026-01-15 05:20:57"
 }
