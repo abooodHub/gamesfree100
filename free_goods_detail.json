@@ -1,5 +1,5 @@
 {
-  "total_count": 1950,
+  "total_count": 1953,
   "free_games": [
     [
       "Warframe",
@@ -8992,6 +8992,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2735630/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Starborne: Frontiers",
+      "https://store.steampowered.com/app/3021540/Starborne_Frontiers/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3021540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3021540/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -17254,7 +17262,27 @@
       "$1.99",
       "80%",
       null
+    ],
+    [
+      "Call of Juarez: Bound in Blood",
+      "https://store.steampowered.com/app/21980/Call_of_Juarez_Bound_in_Blood/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/21980/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/21980/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Call of Juarez",
+      "https://store.steampowered.com/app/3020/Call_of_Juarez/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3020/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-16 09:46:29"
+  "update_time": "2026-01-16 16:01:20"
 }
