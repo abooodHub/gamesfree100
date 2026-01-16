@@ -1,5 +1,5 @@
 {
-  "total_count": 1948,
+  "total_count": 1950,
   "free_games": [
     [
       "Warframe",
@@ -17234,7 +17234,27 @@
       "$2.99",
       "80%",
       null
+    ],
+    [
+      "Surgeon Simulator 2",
+      "https://store.steampowered.com/app/774791/Surgeon_Simulator_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/774791/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/774791/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Nuclear Blaze",
+      "https://store.steampowered.com/app/1662480/Nuclear_Blaze/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1662480/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1662480/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-16 05:22:28"
+  "update_time": "2026-01-16 09:46:29"
 }
