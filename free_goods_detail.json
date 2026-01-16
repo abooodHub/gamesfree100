@@ -1,5 +1,5 @@
 {
-  "total_count": 1953,
+  "total_count": 1982,
   "free_games": [
     [
       "Warframe",
@@ -9000,6 +9000,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3021540/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Baccarat Online: Baccarist",
+      "https://store.steampowered.com/app/3673460/Baccarat_Online_Baccarist/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3673460/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3673460/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -17282,7 +17290,287 @@
       "$1.99",
       "80%",
       null
+    ],
+    [
+      "Car Mechanic Simulator 2021",
+      "https://store.steampowered.com/app/1190000/Car_Mechanic_Simulator_2021/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1190000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1190000/capsule_616x353.jpg",
+      "$24.99",
+      "$4.74",
+      "81%",
+      null
+    ],
+    [
+      "Hello Neighbor",
+      "https://store.steampowered.com/app/521890/Hello_Neighbor/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/521890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/521890/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Graveyard Keeper",
+      "https://store.steampowered.com/app/599140/Graveyard_Keeper/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/599140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/599140/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Lawn Mowing Simulator",
+      "https://store.steampowered.com/app/1480560/Lawn_Mowing_Simulator/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1480560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1480560/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Thief Simulator",
+      "https://store.steampowered.com/app/704850/Thief_Simulator/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/704850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/704850/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Death's Door",
+      "https://store.steampowered.com/app/894020/Deaths_Door/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/894020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/894020/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Streets of Rogue",
+      "https://store.steampowered.com/app/512900/Streets_of_Rogue/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/512900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/512900/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "The Ascent",
+      "https://store.steampowered.com/app/979690/The_Ascent/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/979690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/979690/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Into The Flames",
+      "https://store.steampowered.com/app/1222300/Into_The_Flames/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1222300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1222300/capsule_616x353.jpg",
+      "$19.99",
+      "$2.59",
+      "87%",
+      null
+    ],
+    [
+      "For The King",
+      "https://store.steampowered.com/app/527230/For_The_King/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/527230/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/527230/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Bomber Crew",
+      "https://store.steampowered.com/app/537800/Bomber_Crew/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/537800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/537800/capsule_616x353.jpg",
+      "$15.99",
+      "$2.39",
+      "85%",
+      null
+    ],
+    [
+      "Psychonauts 2",
+      "https://store.steampowered.com/app/607080/Psychonauts_2/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/607080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/607080/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "Car Mechanic Simulator 2018",
+      "https://store.steampowered.com/app/645630/Car_Mechanic_Simulator_2018/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/645630/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/645630/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Monster Prom 2: Monster Camp",
+      "https://store.steampowered.com/app/1140270/Monster_Prom_2_Monster_Camp/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1140270/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1140270/capsule_616x353.jpg",
+      "$11.99",
+      "$2.99",
+      "75%",
+      null
+    ],
+    [
+      "Unrailed!",
+      "https://store.steampowered.com/app/1016920/Unrailed/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1016920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1016920/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Jazzpunk: Director's Cut",
+      "https://store.steampowered.com/app/250260/Jazzpunk_Directors_Cut/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/250260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/250260/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Broforce",
+      "https://store.steampowered.com/app/274190/Broforce/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/274190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/274190/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Tank Mechanic Simulator",
+      "https://store.steampowered.com/app/407130/Tank_Mechanic_Simulator/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/407130/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/407130/capsule_616x353.jpg",
+      "$19.99",
+      "$2.79",
+      "86%",
+      null
+    ],
+    [
+      "SpeedRunners",
+      "https://store.steampowered.com/app/207140/SpeedRunners/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/207140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/207140/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Graveyard Keeper - Stranger Sins",
+      "https://store.steampowered.com/app/1163770/Graveyard_Keeper__Stranger_Sins/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1163770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1163770/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Pikuniku",
+      "https://store.steampowered.com/app/572890/Pikuniku/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/572890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/572890/capsule_616x353.jpg",
+      "$12.99",
+      "$3.24",
+      "75%",
+      null
+    ],
+    [
+      "RollerCoaster Tycoon World™",
+      "https://store.steampowered.com/app/282560/RollerCoaster_Tycoon_World/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/282560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/282560/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "My Friend Pedro",
+      "https://store.steampowered.com/app/557340/My_Friend_Pedro/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/557340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/557340/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Graveyard Keeper - Game Of Crone",
+      "https://store.steampowered.com/app/1430990/Graveyard_Keeper__Game_Of_Crone/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1430990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1430990/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Clustertruck",
+      "https://store.steampowered.com/app/397950/Clustertruck/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/397950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/397950/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Punch Club 2: Fast Forward",
+      "https://store.steampowered.com/app/1161590/Punch_Club_2_Fast_Forward/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1161590/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1161590/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Despot's Game: Dystopian Battle Simulator",
+      "https://store.steampowered.com/app/1227280/Despots_Game_Dystopian_Battle_Simulator/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1227280/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1227280/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Graveyard Keeper - Better Save Soul",
+      "https://store.steampowered.com/app/1788370/Graveyard_Keeper__Better_Save_Soul/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1788370/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1788370/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-16 16:01:20"
+  "update_time": "2026-01-16 21:44:08"
 }
