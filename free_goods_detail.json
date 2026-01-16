@@ -1,5 +1,5 @@
 {
-  "total_count": 1930,
+  "total_count": 1948,
   "free_games": [
     [
       "Warframe",
@@ -8968,6 +8968,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1063730/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Wordatro! Demo",
+      "https://store.steampowered.com/app/3478820/Wordatro_Demo/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3478820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3478820/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Once Upon a Shell",
+      "https://store.steampowered.com/app/4107970/Once_Upon_a_Shell/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4107970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4107970/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Frostrain",
+      "https://store.steampowered.com/app/2735630/Frostrain/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2735630/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2735630/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -17060,7 +17084,157 @@
       "$3.19",
       "80%",
       null
+    ],
+    [
+      "WRC 8 FIA World Rally Championship",
+      "https://store.steampowered.com/app/1004750/WRC_8_FIA_World_Rally_Championship/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1004750/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1004750/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "WRC Generations – The FIA WRC Official Game",
+      "https://store.steampowered.com/app/1953520/WRC_Generations__The_FIA_WRC_Official_Game/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1953520/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1953520/capsule_616x353.jpg",
+      "$39.99",
+      "$5.99",
+      "85%",
+      null
+    ],
+    [
+      "WRC 10 FIA World Rally Championship",
+      "https://store.steampowered.com/app/1462810/WRC_10_FIA_World_Rally_Championship/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1462810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1462810/capsule_616x353.jpg",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "WRC 9 FIA World Rally Championship",
+      "https://store.steampowered.com/app/1267540/WRC_9_FIA_World_Rally_Championship/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1267540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1267540/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "TT Isle Of Man: Ride on the Edge 3",
+      "https://store.steampowered.com/app/1924170/TT_Isle_Of_Man_Ride_on_the_Edge_3/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1924170/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1924170/capsule_616x353.jpg",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "WRC 7 FIA World Rally Championship",
+      "https://store.steampowered.com/app/621830/WRC_7_FIA_World_Rally_Championship/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/621830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/621830/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "TT Isle of Man: Ride on the Edge",
+      "https://store.steampowered.com/app/626610/TT_Isle_of_Man_Ride_on_the_Edge/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/626610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/626610/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "TT Isle of Man: Ride on the Edge 2",
+      "https://store.steampowered.com/app/1082180/TT_Isle_of_Man_Ride_on_the_Edge_2/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1082180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1082180/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "RiMS Racing",
+      "https://store.steampowered.com/app/1346010/RiMS_Racing/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1346010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1346010/capsule_616x353.jpg",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "V-Rally 4",
+      "https://store.steampowered.com/app/658700/VRally_4/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/658700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/658700/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Farm Manager 2021",
+      "https://store.steampowered.com/app/1123830/Farm_Manager_2021/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1123830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1123830/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Summer in Mara",
+      "https://store.steampowered.com/app/962580/Summer_in_Mara/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/962580/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/962580/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Blade Runner: Enhanced Edition",
+      "https://store.steampowered.com/app/1678420/Blade_Runner_Enhanced_Edition/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1678420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1678420/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "WRC 6 FIA World Rally Championship",
+      "https://store.steampowered.com/app/458770/WRC_6_FIA_World_Rally_Championship/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/458770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/458770/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "Totally Reliable Delivery Service",
+      "https://store.steampowered.com/app/1011670/Totally_Reliable_Delivery_Service/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1011670/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1011670/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-15 21:49:23"
+  "update_time": "2026-01-16 05:22:28"
 }

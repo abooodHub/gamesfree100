@@ -1,9 +1,9 @@
 {
-  "total_count": 3,
+  "total_count": 2,
   "free_games": [
     [
       "Styx: Master of Shadows",
-      "https://store.epicgames.com/en-US/p/ed109adce3c042f792f48d629221ac8b",
+      "https://store.epicgames.com/en-US/p/styx-master-of-shadows-4d9ab3",
       "https://cdn1.epicgames.com/spt-assets/45709e0bb07e43bd9e652991779d4dfa/styx-master-of-shadows-17of4.jpg",
       "Styx: Master of Shadows is an infiltration game with RPG elements taking place in a dark fantasy universe, where you sneak, steal and assassinate your way through as Styx, a Goblin two-centuries of age.",
       "19.99 USD",
@@ -20,19 +20,9 @@
       "Free",
       "خصم 100% - مجاني",
       "2026-01-22 16:00:00"
-    ],
-    [
-      "Styx: Master of Shadows",
-      "https://store.epicgames.com/en-US/p/styx-master-of-shadows-4d9ab3",
-      "https://cdn1.epicgames.com/spt-assets/45709e0bb07e43bd9e652991779d4dfa/styx-master-of-shadows-17of4.jpg",
-      "Styx: Master of Shadows is an infiltration game with RPG elements taking place in a dark fantasy universe, where you sneak, steal and assassinate your way through as Styx, a Goblin two-centuries of age.",
-      "19.99 USD",
-      "Free",
-      "خصم 100% - مجاني",
-      "2026-01-22 16:00:00"
     ]
   ],
   "discounted_games": [],
-  "update_time": "2026-01-15 21:49:23",
+  "update_time": "2026-01-16 05:22:28",
   "source": "Epic Games Store"
 }
