@@ -1,5 +1,5 @@
 {
-  "total_count": 2028,
+  "total_count": 2034,
   "free_games": [
     [
       "Warframe",
@@ -9088,6 +9088,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3269960/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "修仙小屋",
+      "https://store.steampowered.com/app/2892880/_/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2892880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2892880/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Pox Nora",
+      "https://store.steampowered.com/app/201210/Pox_Nora/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/201210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/201210/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -18010,7 +18026,47 @@
       "$3.99",
       "80%",
       null
+    ],
+    [
+      "Robin Hood - Sherwood Builders",
+      "https://store.steampowered.com/app/1159420/Robin_Hood__Sherwood_Builders/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1159420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1159420/capsule_616x353.jpg",
+      "$29.99",
+      "$6.89",
+      "77%",
+      null
+    ],
+    [
+      "The Final Station",
+      "https://store.steampowered.com/app/435530/The_Final_Station/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/435530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/435530/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Guts and Glory",
+      "https://store.steampowered.com/app/537340/Guts_and_Glory/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/537340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/537340/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "CHUCHEL",
+      "https://store.steampowered.com/app/711660/CHUCHEL/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/711660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/711660/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-17 09:41:01"
+  "update_time": "2026-01-17 15:55:04"
 }
