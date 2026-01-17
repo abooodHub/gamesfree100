@@ -1,5 +1,5 @@
 {
-  "total_count": 2019,
+  "total_count": 2028,
   "free_games": [
     [
       "Warframe",
@@ -9056,6 +9056,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4195920/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Ye Guild Clerk!",
+      "https://store.steampowered.com/app/3715020/Ye_Guild_Clerk/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3715020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3715020/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Heartopia",
+      "https://store.steampowered.com/app/4025700/Heartopia/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4025700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4025700/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Project Homecoming Haven",
+      "https://store.steampowered.com/app/4096580/Project_Homecoming_Haven/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4096580/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4096580/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Shiina Taki's Decameron",
+      "https://store.steampowered.com/app/3269960/Shiina_Takis_Decameron/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3269960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3269960/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -17928,7 +17960,57 @@
       "$2.99",
       "85%",
       null
+    ],
+    [
+      "In Other Waters",
+      "https://store.steampowered.com/app/890720/In_Other_Waters/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/890720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/890720/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Party Hard",
+      "https://store.steampowered.com/app/356570/Party_Hard/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/356570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/356570/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Hello Neighbor: Hide and Seek",
+      "https://store.steampowered.com/app/960420/Hello_Neighbor_Hide_and_Seek/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/960420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/960420/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Happy's Humble Burger Farm",
+      "https://store.steampowered.com/app/1433340/Happys_Humble_Burger_Farm/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1433340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1433340/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Party Hard 2",
+      "https://store.steampowered.com/app/572430/Party_Hard_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/572430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/572430/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-17 05:09:51"
+  "update_time": "2026-01-17 09:41:01"
 }
