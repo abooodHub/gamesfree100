@@ -1,5 +1,5 @@
 {
-  "total_count": 2034,
+  "total_count": 2069,
   "free_games": [
     [
       "Warframe",
@@ -18066,7 +18066,357 @@
       "$1.99",
       "80%",
       null
+    ],
+    [
+      "FOR HONOR™",
+      "https://store.steampowered.com/app/304390/FOR_HONOR/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/304390/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/304390/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "The Crew Motorfest",
+      "https://store.steampowered.com/app/2698940/The_Crew_Motorfest/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2698940/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2698940/capsule_616x353.jpg",
+      "$69.99",
+      "$13.99",
+      "80%",
+      null
+    ],
+    [
+      "Far Cry® 5",
+      "https://store.steampowered.com/app/552520/Far_Cry_5/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/552520/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/552520/capsule_616x353.jpg",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "Far Cry® Primal",
+      "https://store.steampowered.com/app/371660/Far_Cry_Primal/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/371660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/371660/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Saints Row",
+      "https://store.steampowered.com/app/742420/Saints_Row/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/742420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/742420/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Dead Island Definitive Edition",
+      "https://store.steampowered.com/app/383150/Dead_Island_Definitive_Edition/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/383150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/383150/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Styx: Master of Shadows",
+      "https://store.steampowered.com/app/242640/Styx_Master_of_Shadows/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/242640/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/242640/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Styx: Shards of Darkness",
+      "https://store.steampowered.com/app/355790/Styx_Shards_of_Darkness/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/355790/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/355790/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Assassin's Creed® III Remastered",
+      "https://store.steampowered.com/app/911400/Assassins_Creed_III_Remastered/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/911400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/911400/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Kingdom Come: Deliverance Royal Edition",
+      "https://store.steampowered.com/sub/368776/?snr=1_7_7_2300_150_5",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Assassin's Creed® Unity",
+      "https://store.steampowered.com/app/289650/Assassins_Creed_Unity/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/289650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/289650/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Metro 2033 Redux",
+      "https://store.steampowered.com/app/286690/Metro_2033_Redux/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/286690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/286690/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Metro Exodus",
+      "https://store.steampowered.com/app/412020/Metro_Exodus/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/412020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/412020/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Assassin's Creed® Origins",
+      "https://store.steampowered.com/app/582160/Assassins_Creed_Origins/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/582160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/582160/capsule_616x353.jpg",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "Still Wakes the Deep",
+      "https://store.steampowered.com/app/1622910/Still_Wakes_the_Deep/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1622910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1622910/capsule_616x353.jpg",
+      "$34.99",
+      "$8.74",
+      "75%",
+      null
+    ],
+    [
+      "Tom Clancy's Ghost Recon® Wildlands",
+      "https://store.steampowered.com/app/460930/Tom_Clancys_Ghost_Recon_Wildlands/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/460930/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/460930/capsule_616x353.jpg",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "Kingdom Come: Deliverance",
+      "https://store.steampowered.com/app/379430/Kingdom_Come_Deliverance/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/379430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/379430/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Slay the Spire",
+      "https://store.steampowered.com/app/646570/Slay_the_Spire/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/646570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/646570/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Assassin's Creed® Odyssey",
+      "https://store.steampowered.com/app/812140/Assassins_Creed_Odyssey/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/812140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/812140/capsule_616x353.jpg",
+      "$59.99",
+      "$11.99",
+      "80%",
+      null
+    ],
+    [
+      "Undertale",
+      "https://store.steampowered.com/app/391540/Undertale/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/391540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/391540/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Assassin's Creed Valhalla",
+      "https://store.steampowered.com/app/2208920/Assassins_Creed_Valhalla/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2208920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2208920/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "South Park™: The Stick of Truth™",
+      "https://store.steampowered.com/app/213670/South_Park_The_Stick_of_Truth/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/213670/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/213670/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Dead Island: Riptide Definitive Edition",
+      "https://store.steampowered.com/app/383180/Dead_Island_Riptide_Definitive_Edition/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/383180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/383180/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Steelrising",
+      "https://store.steampowered.com/app/1283400/Steelrising/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/capsule_616x353.jpg",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "Partisans 1941",
+      "https://store.steampowered.com/app/1227530/Partisans_1941/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1227530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1227530/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Watch Dogs®: Legion",
+      "https://store.steampowered.com/app/2239550/Watch_Dogs_Legion/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2239550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2239550/capsule_616x353.jpg",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "Saints Row IV: Re-Elected",
+      "https://store.steampowered.com/app/206420/Saints_Row_IV_ReElected/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/206420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/206420/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Metro: Last Light Redux",
+      "https://store.steampowered.com/app/287390/Metro_Last_Light_Redux/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/287390/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/287390/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "The Witness",
+      "https://store.steampowered.com/app/210970/The_Witness/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/210970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/210970/capsule_616x353.jpg",
+      "$39.99",
+      "$7.19",
+      "82%",
+      null
+    ],
+    [
+      "The Lord of the Rings: Gollum™",
+      "https://store.steampowered.com/app/1265780/The_Lord_of_the_Rings_Gollum/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1265780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1265780/capsule_616x353.jpg",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "Crypt of the NecroDancer",
+      "https://store.steampowered.com/app/247080/Crypt_of_the_NecroDancer/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/247080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/247080/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Far Cry 3",
+      "https://store.steampowered.com/app/220240/Far_Cry_3/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/220240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/220240/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Far Cry 3 - Blood Dragon",
+      "https://store.steampowered.com/app/233270/Far_Cry_3__Blood_Dragon/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/233270/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/233270/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Saints Row®: The Third™ Remastered",
+      "https://store.steampowered.com/app/978300/Saints_Row_The_Third_Remastered/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/978300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/978300/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Smart Factory Tycoon",
+      "https://store.steampowered.com/app/1755300/Smart_Factory_Tycoon/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1755300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1755300/capsule_616x353.jpg",
+      "$14.99",
+      "$0.00",
+      "100%",
+      null
     ]
   ],
-  "update_time": "2026-01-17 15:55:04"
+  "update_time": "2026-01-17 21:38:16"
 }
