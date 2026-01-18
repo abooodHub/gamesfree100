@@ -1,5 +1,5 @@
 {
-  "total_count": 2079,
+  "total_count": 2082,
   "free_games": [
     [
       "Warframe",
@@ -9126,6 +9126,14 @@
       "https://store.steampowered.com/app/2010530/MONSTER_CARDS/?snr=1_7_7_230_150_10",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2010530/header.jpg",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2010530/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Pirates Vikings & Knights II",
+      "https://store.steampowered.com/app/17570/Pirates_Vikings__Knights_II/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/17570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/17570/capsule_616x353.jpg",
       "",
       "مجاني"
     ]
@@ -18510,7 +18518,27 @@
       "$3.79",
       "81%",
       null
+    ],
+    [
+      "Mordheim: City of the Damned",
+      "https://store.steampowered.com/app/276810/Mordheim_City_of_the_Damned/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/276810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/276810/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Edge Of Eternity",
+      "https://store.steampowered.com/app/269190/Edge_Of_Eternity/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/269190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/269190/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
     ]
   ],
-  "update_time": "2026-01-18 05:30:27"
+  "update_time": "2026-01-18 09:41:45"
 }
