@@ -1,5 +1,5 @@
 {
-  "total_count": 2069,
+  "total_count": 2079,
   "free_games": [
     [
       "Warframe",
@@ -9102,6 +9102,30 @@
       "https://store.steampowered.com/app/201210/Pox_Nora/?snr=1_7_7_230_150_10",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/201210/header.jpg",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/201210/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Forbidden Solitaire Demo",
+      "https://store.steampowered.com/app/3414580/Forbidden_Solitaire/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3414580/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3414580/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "MineMogul Demo",
+      "https://store.steampowered.com/app/3846120/MineMogul/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3846120/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3846120/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "MONSTER CARDS",
+      "https://store.steampowered.com/app/2010530/MONSTER_CARDS/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2010530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2010530/capsule_616x353.jpg",
       "",
       "مجاني"
     ]
@@ -18416,7 +18440,77 @@
       "$0.00",
       "100%",
       null
+    ],
+    [
+      "Assassin's Creed® Syndicate",
+      "https://store.steampowered.com/app/368500/Assassins_Creed_Syndicate/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/368500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/368500/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Kingdom Come: Deliverance Royal Edition",
+      "https://store.steampowered.com/sub/368776/?snr=1_7_7_2300_150_2",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Iron Harvest",
+      "https://store.steampowered.com/app/826630/Iron_Harvest/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/826630/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/826630/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Gungrave G.O.R.E",
+      "https://store.steampowered.com/app/1630110/Gungrave_GORE/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1630110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1630110/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Nickelodeon All-Star Brawl 2",
+      "https://store.steampowered.com/app/2017080/Nickelodeon_AllStar_Brawl_2/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2017080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2017080/capsule_616x353.jpg",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "Homefront®: The Revolution",
+      "https://store.steampowered.com/app/223100/Homefront_The_Revolution/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/223100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/223100/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Braid, Anniversary Edition",
+      "https://store.steampowered.com/app/499180/Braid_Anniversary_Edition/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/499180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/499180/capsule_616x353.jpg",
+      "$19.99",
+      "$3.79",
+      "81%",
+      null
     ]
   ],
-  "update_time": "2026-01-17 21:38:16"
+  "update_time": "2026-01-18 05:30:27"
 }
