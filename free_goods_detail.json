@@ -1,5 +1,5 @@
 {
-  "total_count": 2082,
+  "total_count": 2087,
   "free_games": [
     [
       "Warframe",
@@ -9134,6 +9134,14 @@
       "https://store.steampowered.com/app/17570/Pirates_Vikings__Knights_II/?snr=1_7_7_230_150_10",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/17570/header.jpg",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/17570/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Cheap Car Repair Demo",
+      "https://store.steampowered.com/app/3501610/Cheap_Car_Repair_Demo/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3501610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3501610/capsule_616x353.jpg",
       "",
       "مجاني"
     ]
@@ -18538,7 +18546,47 @@
       "$4.49",
       "85%",
       null
+    ],
+    [
+      "Saints Row: Gat out of Hell",
+      "https://store.steampowered.com/app/301910/Saints_Row_Gat_out_of_Hell/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/301910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/301910/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Scars Above",
+      "https://store.steampowered.com/app/1196090/Scars_Above/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1196090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1196090/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Hacknet",
+      "https://store.steampowered.com/app/365450/Hacknet/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/365450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/365450/capsule_616x353.jpg",
+      "$9.99",
+      "$1.49",
+      "85%",
+      null
+    ],
+    [
+      "Akimbot",
+      "https://store.steampowered.com/app/1843540/Akimbot/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1843540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1843540/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-18 09:41:45"
+  "update_time": "2026-01-18 15:55:21"
 }
