@@ -1,5 +1,5 @@
 {
-  "total_count": 2096,
+  "total_count": 2112,
   "free_games": [
     [
       "Warframe",
@@ -9150,6 +9150,46 @@
       "https://store.steampowered.com/app/2527690/Through_time_the_girl_puzzle/?snr=1_7_7_230_150_10",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2527690/header.jpg",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2527690/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Reincarnation Insurance Program Demo",
+      "https://store.steampowered.com/app/3985950/RIP__Reincarnation_Insurance_Program/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3985950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3985950/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Evil Egg",
+      "https://store.steampowered.com/app/3651950/Evil_Egg/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3651950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3651950/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "EmuDevz",
+      "https://store.steampowered.com/app/4260720/EmuDevz/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4260720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4260720/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Tales of Escape",
+      "https://store.steampowered.com/app/587860/Tales_of_Escape/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/587860/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/587860/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Mimpi Dreams",
+      "https://store.steampowered.com/app/444770/Mimpi_Dreams/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/444770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/444770/capsule_616x353.jpg",
       "",
       "مجاني"
     ]
@@ -18674,7 +18714,117 @@
       "$9.99",
       "75%",
       null
+    ],
+    [
+      "Democracy 4",
+      "https://store.steampowered.com/app/1410710/Democracy_4/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1410710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1410710/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Moonlighter",
+      "https://store.steampowered.com/app/606150/Moonlighter/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/606150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/606150/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "SWORD ART ONLINE Last Recollection",
+      "https://store.steampowered.com/app/1566880/SWORD_ART_ONLINE_Last_Recollection/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1566880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1566880/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "Definitely Not Fried Chicken",
+      "https://store.steampowered.com/app/1036240/Definitely_Not_Fried_Chicken/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1036240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1036240/capsule_616x353.jpg",
+      "$24.99",
+      "$3.74",
+      "85%",
+      null
+    ],
+    [
+      "The Walking Dead: Season Two",
+      "https://store.steampowered.com/app/261030/The_Walking_Dead_Season_Two/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/261030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/261030/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Frostpunk: The Last Autumn",
+      "https://store.steampowered.com/app/1146960/Frostpunk_The_Last_Autumn/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1146960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1146960/capsule_616x353.jpg",
+      "$16.99",
+      "$2.54",
+      "85%",
+      null
+    ],
+    [
+      "Atomicrops",
+      "https://store.steampowered.com/app/757320/Atomicrops/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/757320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/757320/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Tainted Grail: Conquest",
+      "https://store.steampowered.com/app/1199030/Tainted_Grail_Conquest/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1199030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1199030/capsule_616x353.jpg",
+      "$23.08",
+      "$5.09",
+      "78%",
+      null
+    ],
+    [
+      "Clash: Artifacts of Chaos",
+      "https://store.steampowered.com/app/1430680/Clash_Artifacts_of_Chaos/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1430680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1430680/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Frostpunk: On The Edge",
+      "https://store.steampowered.com/app/1147010/Frostpunk_On_The_Edge/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1147010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1147010/capsule_616x353.jpg",
+      "$12.99",
+      "$3.24",
+      "75%",
+      null
+    ],
+    [
+      "The Walking Dead: The Final Season",
+      "https://store.steampowered.com/app/866800/The_Walking_Dead_The_Final_Season/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/866800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/866800/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-01-18 21:37:31"
+  "update_time": "2026-01-19 05:27:44"
 }
