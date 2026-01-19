@@ -1,5 +1,5 @@
 {
-  "total_count": 2112,
+  "total_count": 2115,
   "free_games": [
     [
       "Warframe",
@@ -18824,7 +18824,37 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "Kingdom Come: Deliverance Royal Edition",
+      "https://store.steampowered.com/sub/368776/?snr=1_7_7_2300_150_1",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "The Walking Dead: A New Frontier",
+      "https://store.steampowered.com/app/536220/The_Walking_Dead_A_New_Frontier/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/536220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/536220/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Hexarchy",
+      "https://store.steampowered.com/app/1356810/Hexarchy/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1356810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1356810/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-01-19 05:27:44"
+  "update_time": "2026-01-19 09:51:44"
 }
