@@ -1,5 +1,5 @@
 {
-  "total_count": 2221,
+  "total_count": 2227,
   "free_games": [
     [
       "Warframe",
@@ -19904,7 +19904,67 @@
       "$2.99",
       "80%",
       null
+    ],
+    [
+      "One Piece Pirate Warriors 3",
+      "https://store.steampowered.com/app/331600/One_Piece_Pirate_Warriors_3/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/331600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/331600/capsule_616x353.jpg",
+      "$51.98",
+      "$5.19",
+      "90%",
+      null
+    ],
+    [
+      "Nimbatus - The Space Drone Constructor",
+      "https://store.steampowered.com/app/383840/Nimbatus__The_Space_Drone_Constructor/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/383840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/383840/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "CHANGE: A Homeless Survival Experience",
+      "https://store.steampowered.com/app/926140/CHANGE_A_Homeless_Survival_Experience/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/926140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/926140/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Born of Bread",
+      "https://store.steampowered.com/app/1555140/Born_of_Bread/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1555140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1555140/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Trine 3: The Artifacts of Power",
+      "https://store.steampowered.com/app/319910/Trine_3_The_Artifacts_of_Power/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/319910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/319910/capsule_616x353.jpg",
+      "$21.99",
+      "$4.39",
+      "80%",
+      null
+    ],
+    [
+      "BURIED STARS",
+      "https://store.steampowered.com/app/1025960/BURIED_STARS/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1025960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1025960/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-20 09:49:56"
+  "update_time": "2026-01-20 16:07:45"
 }
