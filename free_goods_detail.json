@@ -1,5 +1,5 @@
 {
-  "total_count": 2218,
+  "total_count": 2221,
   "free_games": [
     [
       "Warframe",
@@ -19874,7 +19874,37 @@
       "$2.99",
       "80%",
       null
+    ],
+    [
+      "Dungeon of the ENDLESS™",
+      "https://store.steampowered.com/app/249050/Dungeon_of_the_ENDLESS/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/249050/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/249050/capsule_616x353.jpg",
+      "$11.99",
+      "$2.99",
+      "75%",
+      null
+    ],
+    [
+      "Ride 2",
+      "https://store.steampowered.com/app/477770/Ride_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/477770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/477770/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "Trine Enchanted Edition",
+      "https://store.steampowered.com/app/35700/Trine_Enchanted_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/35700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/35700/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-20 05:22:50"
+  "update_time": "2026-01-20 09:49:56"
 }
