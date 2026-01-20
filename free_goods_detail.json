@@ -1,5 +1,5 @@
 {
-  "total_count": 2227,
+  "total_count": 2238,
   "free_games": [
     [
       "Warframe",
@@ -19964,7 +19964,117 @@
       "$7.99",
       "80%",
       null
+    ],
+    [
+      "Songs of Conquest",
+      "https://store.steampowered.com/app/867210/Songs_of_Conquest/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/867210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/867210/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Alan Wake",
+      "https://store.steampowered.com/app/108710/Alan_Wake/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/108710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/108710/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "Control Ultimate Edition",
+      "https://store.steampowered.com/app/870780/Control_Ultimate_Edition/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/870780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/870780/capsule_616x353.jpg",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
+    ],
+    [
+      "Nocturnal",
+      "https://store.steampowered.com/app/1634080/Nocturnal/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1634080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1634080/capsule_616x353.jpg",
+      "$16.99",
+      "$1.69",
+      "90%",
+      null
+    ],
+    [
+      "Captain Tsubasa: Rise of New Champions",
+      "https://store.steampowered.com/app/1163550/Captain_Tsubasa_Rise_of_New_Champions/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1163550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1163550/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "ONE PIECE PIRATE WARRIORS 3 Gold Edition",
+      "https://store.steampowered.com/sub/70503/?snr=1_7_7_2300_150_10",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$51.98",
+      "$5.19",
+      "90%",
+      null
+    ],
+    [
+      "Yoku's Island Express",
+      "https://store.steampowered.com/app/334940/Yokus_Island_Express/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/334940/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/334940/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "BELOW",
+      "https://store.steampowered.com/app/250680/BELOW/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/250680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/250680/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Hammerwatch II",
+      "https://store.steampowered.com/app/1538970/Hammerwatch_II/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1538970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1538970/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Draugen",
+      "https://store.steampowered.com/app/770390/Draugen/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/770390/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/770390/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Monstrum",
+      "https://store.steampowered.com/app/296710/Monstrum/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/296710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/296710/capsule_616x353.jpg",
+      "$17.99",
+      "$3.59",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-20 16:07:45"
+  "update_time": "2026-01-20 21:57:45"
 }
