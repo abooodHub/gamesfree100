@@ -1,5 +1,5 @@
 {
-  "total_count": 2252,
+  "total_count": 2256,
   "free_games": [
     [
       "Warframe",
@@ -20206,7 +20206,47 @@
       "$3.99",
       "80%",
       null
+    ],
+    [
+      "Star Dynasties",
+      "https://store.steampowered.com/app/1194590/Star_Dynasties/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1194590/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1194590/capsule_616x353.jpg",
+      "$30.99",
+      "$7.74",
+      "75%",
+      null
+    ],
+    [
+      "Monster Energy Supercross - The Official Videogame 2",
+      "https://store.steampowered.com/app/882020/Monster_Energy_Supercross__The_Official_Videogame_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/882020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/882020/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Teenage Mutant Ninja Turtles Arcade: Wrath of the Mutants",
+      "https://store.steampowered.com/app/2527580/Teenage_Mutant_Ninja_Turtles_Arcade_Wrath_of_the_Mutants/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2527580/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2527580/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "ONE PUNCH MAN: A HERO NOBODY KNOWS",
+      "https://store.steampowered.com/app/991560/ONE_PUNCH_MAN_A_HERO_NOBODY_KNOWS/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/991560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/991560/capsule_616x353.jpg",
+      "$59.99",
+      "$5.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-01-21 05:25:45"
+  "update_time": "2026-01-21 09:50:02"
 }
