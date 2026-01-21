@@ -1,5 +1,5 @@
 {
-  "total_count": 2256,
+  "total_count": 2261,
   "free_games": [
     [
       "Warframe",
@@ -9262,6 +9262,14 @@
       "https://store.steampowered.com/app/2398450/Classic_Marathon/?snr=1_7_7_230_150_10",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2398450/header.jpg",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2398450/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "The You Quiz - Friend's Pass",
+      "https://store.steampowered.com/app/3669740/The_You_Quiz/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3669740/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3669740/capsule_616x353.jpg",
       "",
       "مجاني"
     ]
@@ -20246,7 +20254,47 @@
       "$5.99",
       "90%",
       null
+    ],
+    [
+      "ONE PIECE PIRATE WARRIORS 3 Gold Edition",
+      "https://store.steampowered.com/sub/70503/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$51.98",
+      "$5.19",
+      "90%",
+      null
+    ],
+    [
+      "EDGE&TRIGGER",
+      "https://store.steampowered.com/sub/66335/?snr=1_7_7_2300_150_9",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$4.99",
+      "$0.49",
+      "90%",
+      null
+    ],
+    [
+      "Twin Mirror",
+      "https://store.steampowered.com/app/1552810/Twin_Mirror/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1552810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1552810/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Oozi: Earth Adventure",
+      "https://store.steampowered.com/app/257990/Oozi_Earth_Adventure/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/257990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/257990/capsule_616x353.jpg",
+      "$9.99",
+      "$1.49",
+      "85%",
+      null
     ]
   ],
-  "update_time": "2026-01-21 09:50:02"
+  "update_time": "2026-01-21 16:06:34"
 }
