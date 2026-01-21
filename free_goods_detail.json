@@ -1,5 +1,5 @@
 {
-  "total_count": 2261,
+  "total_count": 2270,
   "free_games": [
     [
       "Warframe",
@@ -20294,7 +20294,97 @@
       "$1.49",
       "85%",
       null
+    ],
+    [
+      "State of Decay 2: Juggernaut Edition",
+      "https://store.steampowered.com/app/495420/State_of_Decay_2_Juggernaut_Edition/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/495420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/495420/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Sunset Overdrive",
+      "https://store.steampowered.com/app/847370/Sunset_Overdrive/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/847370/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/847370/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Rise of Nations: Extended Edition",
+      "https://store.steampowered.com/app/287450/Rise_of_Nations_Extended_Edition/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/287450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/287450/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "EDGE&TRIGGER",
+      "https://store.steampowered.com/sub/66335/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$4.99",
+      "$0.49",
+      "90%",
+      null
+    ],
+    [
+      "X-Morph: Defense",
+      "https://store.steampowered.com/app/408410/XMorph_Defense/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/408410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/408410/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "State of Decay: YOSE",
+      "https://store.steampowered.com/app/329430/State_of_Decay_YOSE/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/329430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/329430/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Overcrowd: A Commute 'Em Up",
+      "https://store.steampowered.com/app/726110/Overcrowd_A_Commute_Em_Up/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/726110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/726110/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Hellblade: Senua's Sacrifice",
+      "https://store.steampowered.com/app/414340/Hellblade_Senuas_Sacrifice/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/414340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/414340/capsule_616x353.jpg",
+      "$69.99",
+      "$17.49",
+      "75%",
+      null
+    ],
+    [
+      "MotoGP™20",
+      "https://store.steampowered.com/app/1161490/MotoGP20/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1161490/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1161490/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
     ]
   ],
-  "update_time": "2026-01-21 16:06:34"
+  "update_time": "2026-01-21 21:54:19"
 }
