@@ -1,5 +1,5 @@
 {
-  "total_count": 2238,
+  "total_count": 2252,
   "free_games": [
     [
       "Warframe",
@@ -9230,6 +9230,38 @@
       "https://store.steampowered.com/app/3950020/Duet_Night_Abyss/?snr=1_7_7_230_150_7",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3950020/header.jpg",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3950020/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "One Turn Kill Demo",
+      "https://store.steampowered.com/app/3430320/One_Turn_Kill_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3430320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3430320/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Dagon: by H. P. Lovecraft",
+      "https://store.steampowered.com/app/1481400/Dagon_by_H_P_Lovecraft/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1481400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1481400/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Naica Online",
+      "https://store.steampowered.com/app/3562850/Naica_Online/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3562850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3562850/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Classic Marathon",
+      "https://store.steampowered.com/app/2398450/Classic_Marathon/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2398450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2398450/capsule_616x353.jpg",
       "",
       "مجاني"
     ]
@@ -20074,7 +20106,107 @@
       "$3.59",
       "80%",
       null
+    ],
+    [
+      "Alan Wake's American Nightmare",
+      "https://store.steampowered.com/app/202750/Alan_Wakes_American_Nightmare/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/202750/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/202750/capsule_616x353.jpg",
+      "$8.99",
+      "$0.89",
+      "90%",
+      null
+    ],
+    [
+      "Alan Wake Collector's Edition Extras",
+      "https://store.steampowered.com/app/108726/Alan_Wake_Collectors_Edition_Extras/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/108726/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/108726/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "Vampire: The Masquerade - Reckoning of New York",
+      "https://store.steampowered.com/app/2658720/Vampire_The_Masquerade__Reckoning_of_New_York/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2658720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2658720/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "ONE PIECE PIRATE WARRIORS 3 Gold Edition",
+      "https://store.steampowered.com/sub/70503/?snr=1_7_7_2300_150_9",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$51.98",
+      "$5.19",
+      "90%",
+      null
+    ],
+    [
+      "Vampire: The Masquerade - Shadows of New York",
+      "https://store.steampowered.com/app/1279630/Vampire_The_Masquerade__Shadows_of_New_York/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1279630/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1279630/capsule_616x353.jpg",
+      "$12.99",
+      "$2.59",
+      "80%",
+      null
+    ],
+    [
+      "ENDLESS™ Space 2 - Penumbra",
+      "https://store.steampowered.com/app/988440/ENDLESS_Space_2__Penumbra/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/988440/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/988440/capsule_616x353.jpg",
+      "$12.99",
+      "$3.24",
+      "75%",
+      null
+    ],
+    [
+      "ENDLESS™ Space 2 - Supremacy",
+      "https://store.steampowered.com/app/806780/ENDLESS_Space_2__Supremacy/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/806780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/806780/capsule_616x353.jpg",
+      "$12.99",
+      "$3.24",
+      "75%",
+      null
+    ],
+    [
+      "ENDLESS™ Space 2 - Awakening",
+      "https://store.steampowered.com/app/1128540/ENDLESS_Space_2__Awakening/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1128540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1128540/capsule_616x353.jpg",
+      "$12.99",
+      "$3.24",
+      "75%",
+      null
+    ],
+    [
+      "Soundfall",
+      "https://store.steampowered.com/app/1608700/Soundfall/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1608700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1608700/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Vampire: The Masquerade - Coteries of New York",
+      "https://store.steampowered.com/app/1096410/Vampire_The_Masquerade__Coteries_of_New_York/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1096410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1096410/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-20 21:57:45"
+  "update_time": "2026-01-21 05:25:45"
 }
