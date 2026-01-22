@@ -1,5 +1,5 @@
 {
-  "total_count": 2296,
+  "total_count": 2302,
   "free_games": [
     [
       "Warframe",
@@ -9342,6 +9342,22 @@
       "https://store.steampowered.com/app/3169620/Catwifhat/?snr=1_7_7_230_150_10",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3169620/header.jpg",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3169620/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "SolForge Fusion",
+      "https://store.steampowered.com/app/2400960/SolForge_Fusion/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2400960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2400960/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "SEGA FOOTBALL CLUB CHAMPIONS",
+      "https://store.steampowered.com/app/3271000/SEGA_FOOTBALL_CLUB_CHAMPIONS/?snr=1_7_7_230_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3271000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3271000/capsule_616x353.jpg",
       "",
       "مجاني"
     ]
@@ -20626,7 +20642,47 @@
       "$0.99",
       "80%",
       null
+    ],
+    [
+      "Ultimate Fishing® Simulator 2",
+      "https://store.steampowered.com/app/1136380/Ultimate_Fishing_Simulator_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1136380/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1136380/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Harmony: The Fall of Reverie",
+      "https://store.steampowered.com/app/1966420/Harmony_The_Fall_of_Reverie/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1966420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1966420/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "KitHack Model Club",
+      "https://store.steampowered.com/app/2107090/KitHack_Model_Club/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2107090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2107090/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "State of Decay: Year-One Survival Edition Soundtrack",
+      "https://store.steampowered.com/app/397220/State_of_Decay_YearOne_Survival_Edition_Soundtrack/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/397220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/397220/capsule_616x353.jpg",
+      "$4.99",
+      "$0.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-22 05:26:55"
+  "update_time": "2026-01-22 09:48:13"
 }
