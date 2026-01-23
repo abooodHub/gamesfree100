@@ -1,5 +1,5 @@
 {
-  "total_count": 2355,
+  "total_count": 2358,
   "free_games": [
     [
       "Warframe",
@@ -9398,6 +9398,14 @@
       "https://store.steampowered.com/app/202170/Sleeping_Dogs/?snr=1_7_7_2300_150_15",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/202170/header.jpg",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/202170/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Warhammer Combat Cards",
+      "https://store.steampowered.com/app/1641990/Warhammer_Combat_Cards/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1641990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1641990/capsule_616x353.jpg",
       "",
       "مجاني"
     ]
@@ -21202,7 +21210,27 @@
       "$14.99",
       "75%",
       null
+    ],
+    [
+      "Zero Escape: The Nonary Games",
+      "https://store.steampowered.com/app/477740/Zero_Escape_The_Nonary_Games/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/477740/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/477740/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Injustice™ 2 - Infinite Transforms",
+      "https://store.steampowered.com/app/814251/Injustice_2__Infinite_Transforms/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/814251/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/814251/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-23 16:04:29"
+  "update_time": "2026-01-23 21:46:11"
 }
