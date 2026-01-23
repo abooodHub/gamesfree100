@@ -1,5 +1,5 @@
 {
-  "total_count": 2352,
+  "total_count": 2353,
   "free_games": [
     [
       "Warframe",
@@ -21172,7 +21172,17 @@
       "$3.99",
       "80%",
       null
+    ],
+    [
+      "Weird RPG",
+      "https://store.steampowered.com/app/1902710/Weird_RPG/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1902710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1902710/capsule_616x353.jpg",
+      "$10.99",
+      "$2.19",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-23 05:23:09"
+  "update_time": "2026-01-23 09:47:45"
 }
