@@ -1,5 +1,5 @@
 {
-  "total_count": 2353,
+  "total_count": 2355,
   "free_games": [
     [
       "Warframe",
@@ -21182,7 +21182,27 @@
       "$2.19",
       "80%",
       null
+    ],
+    [
+      "Suicide Squad: Kill the Justice League - Digital Deluxe Edition Upgrade",
+      "https://store.steampowered.com/app/2716350/Suicide_Squad_Kill_the_Justice_League__Digital_Deluxe_Edition_Upgrade/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2716350/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2716350/capsule_616x353.jpg",
+      "$34.99",
+      "$1.74",
+      "95%",
+      null
+    ],
+    [
+      "SRPG Studio",
+      "https://store.steampowered.com/app/857320/SRPG_Studio/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/857320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/857320/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-01-23 09:47:45"
+  "update_time": "2026-01-23 16:04:29"
 }
