@@ -1,5 +1,5 @@
 {
-  "total_count": 2330,
+  "total_count": 2352,
   "free_games": [
     [
       "Warframe",
@@ -9366,6 +9366,38 @@
       "https://store.steampowered.com/app/1571390/Life_is_Strange_True_Colors__Deluxe_Upgrade/?snr=1_7_7_2300_150_12",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1571390/header.jpg",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1571390/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "VOIMA",
+      "https://store.steampowered.com/app/3869500/VOIMA/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3869500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3869500/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Cloudheim Demo",
+      "https://store.steampowered.com/app/4017410/Cloudheim_Demo/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4017410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4017410/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "RogueJack21 Demo",
+      "https://store.steampowered.com/app/3446840/RogueJack21/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3446840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3446840/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Sleeping Dogs",
+      "https://store.steampowered.com/app/202170/Sleeping_Dogs/?snr=1_7_7_2300_150_15",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/202170/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/202170/capsule_616x353.jpg",
       "",
       "مجاني"
     ]
@@ -20960,7 +20992,187 @@
       "$1.99",
       "80%",
       null
+    ],
+    [
+      "Batman: Arkham Collection",
+      "https://store.steampowered.com/sub/320795/?snr=1_7_7_2300_150_1",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "LEGO Batman Trilogy",
+      "https://store.steampowered.com/sub/53403/?snr=1_7_7_2300_150_1",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "Scribblenauts Unmasked: A DC Comics Adventure",
+      "https://store.steampowered.com/app/249870/Scribblenauts_Unmasked_A_DC_Comics_Adventure/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/249870/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/249870/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Max Payne 2: The Fall of Max Payne",
+      "https://store.steampowered.com/app/12150/Max_Payne_2_The_Fall_of_Max_Payne/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/12150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/12150/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Injustice: Gods Among Us Ultimate Edition",
+      "https://store.steampowered.com/app/242700/Injustice_Gods_Among_Us_Ultimate_Edition/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/242700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/242700/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Watchmen: The End is Nigh",
+      "https://store.steampowered.com/app/21010/Watchmen_The_End_is_Nigh/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/21010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/21010/capsule_616x353.jpg",
+      "$4.99",
+      "$1.24",
+      "75%",
+      null
+    ],
+    [
+      "Dokimon: Quest",
+      "https://store.steampowered.com/app/2019300/Dokimon_Quest/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2019300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2019300/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "Batman™: Arkham VR",
+      "https://store.steampowered.com/app/502820/Batman_Arkham_VR/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/502820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/502820/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Batman™: Arkham Origins Blackgate - Deluxe Edition",
+      "https://store.steampowered.com/app/267490/Batman_Arkham_Origins_Blackgate__Deluxe_Edition/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/267490/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/267490/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "LEGO® Batman™ 2: DC Super Heroes",
+      "https://store.steampowered.com/app/213330/LEGO_Batman_2_DC_Super_Heroes/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/213330/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/213330/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Supreme Commander 2",
+      "https://store.steampowered.com/app/40100/Supreme_Commander_2/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/40100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/40100/capsule_616x353.jpg",
+      "$12.99",
+      "$3.24",
+      "75%",
+      null
+    ],
+    [
+      "112 Operator",
+      "https://store.steampowered.com/app/793460/112_Operator/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/793460/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/793460/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Supreme Commander: Forged Alliance",
+      "https://store.steampowered.com/app/9420/Supreme_Commander_Forged_Alliance/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/9420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/9420/capsule_616x353.jpg",
+      "$12.99",
+      "$2.59",
+      "80%",
+      null
+    ],
+    [
+      "Splendor",
+      "https://store.steampowered.com/app/376680/Splendor/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/376680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/376680/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Murdered: Soul Suspect",
+      "https://store.steampowered.com/app/233290/Murdered_Soul_Suspect/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/233290/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/233290/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Supreme Commander",
+      "https://store.steampowered.com/app/9350/Supreme_Commander/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/9350/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/9350/capsule_616x353.jpg",
+      "$12.99",
+      "$2.59",
+      "80%",
+      null
+    ],
+    [
+      "Batman™: Arkham Origins - Cold, Cold Heart",
+      "https://store.steampowered.com/app/277830/Batman_Arkham_Origins__Cold_Cold_Heart/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/277830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/277830/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "The Pale Beyond",
+      "https://store.steampowered.com/app/1266030/The_Pale_Beyond/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1266030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1266030/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-22 21:46:15"
+  "update_time": "2026-01-23 05:23:09"
 }
