@@ -1,5 +1,5 @@
 {
-  "total_count": 1364,
+  "total_count": 1379,
   "free_games": [
     [
       "Dota 2",
@@ -8304,6 +8304,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3533730/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Double Shoulders",
+      "https://store.steampowered.com/app/3393620/Double_Shoulders/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3393620/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3393620/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "GPRO - Classic racing manager",
+      "https://store.steampowered.com/app/2169220/GPRO__Classic_racing_manager/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2169220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2169220/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11566,7 +11582,137 @@
       "$7.49",
       "85%",
       null
+    ],
+    [
+      "Submerged: Hidden Depths",
+      "https://store.steampowered.com/app/1614270/Submerged_Hidden_Depths/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1614270/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1614270/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Wantless : Solace at World’s End",
+      "https://store.steampowered.com/app/1807090/Wantless__Solace_at_Worlds_End/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1807090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1807090/capsule_616x353.jpg",
+      "$17.99",
+      "$3.95",
+      "78%",
+      null
+    ],
+    [
+      "Small World",
+      "https://store.steampowered.com/app/235620/Small_World/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/235620/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/235620/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Shadow Tactics: Aiko's Choice",
+      "https://store.steampowered.com/app/1579380/Shadow_Tactics_Aikos_Choice/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1579380/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1579380/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Dungeon Siege III",
+      "https://store.steampowered.com/app/39160/Dungeon_Siege_III/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/39160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/39160/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Guacamelee! 2",
+      "https://store.steampowered.com/app/534550/Guacamelee_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/534550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/534550/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Dreamfall Chapters",
+      "https://store.steampowered.com/app/237850/Dreamfall_Chapters/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/237850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/237850/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Happy's Humble Burger Farm",
+      "https://store.steampowered.com/app/1433340/Happys_Humble_Burger_Farm/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1433340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1433340/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "You Suck at Parking® - Complete Edition",
+      "https://store.steampowered.com/app/837880/You_Suck_at_Parking__Complete_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/837880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/837880/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Soulstice",
+      "https://store.steampowered.com/app/1602080/Soulstice/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1602080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1602080/capsule_616x353.jpg",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
+    ],
+    [
+      "ENDLESS™ Space 2 - Awakening",
+      "https://store.steampowered.com/app/1128540/ENDLESS_Space_2__Awakening/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1128540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1128540/capsule_616x353.jpg",
+      "$12.99",
+      "$3.24",
+      "75%",
+      null
+    ],
+    [
+      "The Bard's Tale ARPG: Remastered and Resnarkled",
+      "https://store.steampowered.com/app/41900/The_Bards_Tale_ARPG_Remastered_and_Resnarkled/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/41900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/41900/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Kiki",
+      "https://store.steampowered.com/app/2142680/Kiki/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2142680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2142680/capsule_616x353.jpg",
+      "$5.98",
+      "$0.00",
+      "100%",
+      null
     ]
   ],
-  "update_time": "2026-01-24 15:56:22"
+  "update_time": "2026-01-24 21:39:57"
 }
