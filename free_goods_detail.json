@@ -1,5 +1,5 @@
 {
-  "total_count": 1349,
+  "total_count": 1359,
   "free_games": [
     [
       "Dota 2",
@@ -8256,6 +8256,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3359740/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Cookard",
+      "https://store.steampowered.com/app/2919650/Cookard/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2919650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2919650/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Superball",
+      "https://store.steampowered.com/app/1059110/Superball/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1059110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1059110/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Whisk Demo",
+      "https://store.steampowered.com/app/4320000/Whisk_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4320000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4320000/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11428,7 +11452,77 @@
       "$1.99",
       "80%",
       null
+    ],
+    [
+      "Re:ZERO -Starting Life in Another World- The Prophecy of the Throne",
+      "https://store.steampowered.com/app/1277510/ReZERO_Starting_Life_in_Another_World_The_Prophecy_of_the_Throne/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1277510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1277510/capsule_616x353.jpg",
+      "$59.99",
+      "$11.99",
+      "80%",
+      null
+    ],
+    [
+      "STEINS;GATE: My Darling's Embrace",
+      "https://store.steampowered.com/app/970560/STEINSGATE_My_Darlings_Embrace/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/970560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/970560/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Honey, I Joined a Cult",
+      "https://store.steampowered.com/app/841190/Honey_I_Joined_a_Cult/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/841190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/841190/capsule_616x353.jpg",
+      "$21.99",
+      "$5.49",
+      "75%",
+      null
+    ],
+    [
+      "Dungeons of Sundaria",
+      "https://store.steampowered.com/app/587520/Dungeons_of_Sundaria/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/587520/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/587520/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "RiMS Racing",
+      "https://store.steampowered.com/app/1346010/RiMS_Racing/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1346010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1346010/capsule_616x353.jpg",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "Project Warlock",
+      "https://store.steampowered.com/app/893680/Project_Warlock/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/893680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/893680/capsule_616x353.jpg",
+      "$12.00",
+      "$2.40",
+      "80%",
+      null
+    ],
+    [
+      "The Red Lantern",
+      "https://store.steampowered.com/app/1053710/The_Red_Lantern/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1053710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1053710/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-24 05:12:26"
+  "update_time": "2026-01-24 09:42:26"
 }
