@@ -1,5 +1,5 @@
 {
-  "total_count": 1359,
+  "total_count": 1364,
   "free_games": [
     [
       "Dota 2",
@@ -8280,6 +8280,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4320000/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "最强祖师",
+      "https://store.steampowered.com/app/2936220/_/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2936220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2936220/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "飄流幻境M",
+      "https://store.steampowered.com/app/1481340/M/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1481340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1481340/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Warhammer 40,000: Boltgun - Words of Vengeance",
+      "https://store.steampowered.com/app/3533730/Warhammer_40000_Boltgun__Words_of_Vengeance/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3533730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3533730/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11522,7 +11546,27 @@
       "$4.99",
       "80%",
       null
+    ],
+    [
+      "Akimbot",
+      "https://store.steampowered.com/app/1843540/Akimbot/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1843540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1843540/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Vampire: The Masquerade – Swansong",
+      "https://store.steampowered.com/app/1299510/Vampire_The_Masquerade__Swansong/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1299510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1299510/capsule_616x353.jpg",
+      "$49.99",
+      "$7.49",
+      "85%",
+      null
     ]
   ],
-  "update_time": "2026-01-24 09:42:26"
+  "update_time": "2026-01-24 15:56:22"
 }
