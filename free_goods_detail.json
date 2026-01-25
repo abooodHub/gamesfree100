@@ -1,5 +1,5 @@
 {
-  "total_count": 1403,
+  "total_count": 1409,
   "free_games": [
     [
       "Dota 2",
@@ -8424,6 +8424,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/312990/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Vegas Craps by Pokerist",
+      "https://store.steampowered.com/app/3601450/Vegas_Craps_by_Pokerist/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3601450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3601450/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Zombie Panic! Source",
+      "https://store.steampowered.com/app/17500/Zombie_Panic_Source/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/17500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/17500/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11926,7 +11942,47 @@
       "$2.99",
       "85%",
       null
+    ],
+    [
+      "ENDLESS™ Space 2 - Penumbra",
+      "https://store.steampowered.com/app/988440/ENDLESS_Space_2__Penumbra/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/988440/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/988440/capsule_616x353.jpg",
+      "$12.99",
+      "$3.24",
+      "75%",
+      null
+    ],
+    [
+      "Submerged",
+      "https://store.steampowered.com/app/301860/Submerged/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/301860/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/301860/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "ENDLESS™ Space 2 - Supremacy",
+      "https://store.steampowered.com/app/806780/ENDLESS_Space_2__Supremacy/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/806780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/806780/capsule_616x353.jpg",
+      "$12.99",
+      "$3.24",
+      "75%",
+      null
+    ],
+    [
+      "ENDLESS™ Space 2 - Vaulters",
+      "https://store.steampowered.com/app/733140/ENDLESS_Space_2__Vaulters/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/733140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/733140/capsule_616x353.jpg",
+      "$10.99",
+      "$2.74",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-01-25 09:42:42"
+  "update_time": "2026-01-25 15:58:28"
 }
