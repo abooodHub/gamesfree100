@@ -1,5 +1,5 @@
 {
-  "total_count": 1389,
+  "total_count": 1403,
   "free_games": [
     [
       "Dota 2",
@@ -8336,6 +8336,94 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1026820/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Typing Farmer(Demo)",
+      "https://store.steampowered.com/app/4216670/Typing_Farmer/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4216670/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4216670/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "The Lord of the Rings: Journeys in Middle-earth",
+      "https://store.steampowered.com/app/1003400/The_Lord_of_the_Rings_Journeys_in_Middleearth/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1003400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1003400/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Welcome to the Game III Demo",
+      "https://store.steampowered.com/app/3869850/Welcome_to_the_Game_III/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3869850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3869850/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Mudborne Demo",
+      "https://store.steampowered.com/app/2355150/Mudborne_Frog_Management_Sim/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2355150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2355150/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "King's Quest",
+      "https://store.steampowered.com/app/345390/Kings_Quest/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/345390/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/345390/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Unfortunate Spacemen",
+      "https://store.steampowered.com/app/408900/Unfortunate_Spacemen/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/408900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/408900/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Life is Feudal: Arden",
+      "https://store.steampowered.com/app/3285700/Life_is_Feudal_Arden/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3285700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3285700/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "LANESPLIT Demo",
+      "https://store.steampowered.com/app/3278310/LANESPLIT/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3278310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3278310/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "New Day",
+      "https://store.steampowered.com/app/2428440/New_Day/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2428440/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2428440/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Rise of Flight United",
+      "https://store.steampowered.com/app/244050/Rise_of_Flight_United/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/244050/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/244050/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "The Expendabros",
+      "https://store.steampowered.com/app/312990/The_Expendabros/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/312990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/312990/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11808,7 +11896,37 @@
       "$3.99",
       "80%",
       null
+    ],
+    [
+      "Ride 2",
+      "https://store.steampowered.com/app/477770/Ride_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/477770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/477770/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "Cattails | Become a Cat!",
+      "https://store.steampowered.com/app/634160/Cattails__Become_a_Cat/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/634160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/634160/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Alex Kidd in Miracle World DX",
+      "https://store.steampowered.com/app/1333470/Alex_Kidd_in_Miracle_World_DX/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1333470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1333470/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
     ]
   ],
-  "update_time": "2026-01-25 05:34:13"
+  "update_time": "2026-01-25 09:42:42"
 }
