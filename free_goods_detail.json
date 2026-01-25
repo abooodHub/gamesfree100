@@ -1,5 +1,5 @@
 {
-  "total_count": 1379,
+  "total_count": 1389,
   "free_games": [
     [
       "Dota 2",
@@ -8320,6 +8320,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2169220/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Silly's Gameshow",
+      "https://store.steampowered.com/app/3674050/Sillys_Gameshow/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3674050/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3674050/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Coloring Game",
+      "https://store.steampowered.com/app/1026820/Coloring_Game/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1026820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1026820/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11712,7 +11728,87 @@
       "$0.00",
       "100%",
       null
+    ],
+    [
+      "Warpips",
+      "https://store.steampowered.com/app/1291010/Warpips/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1291010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1291010/capsule_616x353.jpg",
+      "$16.99",
+      "$2.54",
+      "85%",
+      null
+    ],
+    [
+      "Cat Quest",
+      "https://store.steampowered.com/app/593280/Cat_Quest/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/593280/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/593280/capsule_616x353.jpg",
+      "$12.99",
+      "$2.59",
+      "80%",
+      null
+    ],
+    [
+      "RollerCoaster Tycoon World™",
+      "https://store.steampowered.com/app/282560/RollerCoaster_Tycoon_World/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/282560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/282560/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Thief Simulator VR",
+      "https://store.steampowered.com/app/1019550/Thief_Simulator_VR/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1019550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1019550/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Monster Energy Supercross - The Official Videogame 2",
+      "https://store.steampowered.com/app/882020/Monster_Energy_Supercross__The_Official_Videogame_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/882020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/882020/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "ONE PIECE PIRATE WARRIORS 3 Gold Edition",
+      "https://store.steampowered.com/sub/70503/?snr=1_7_7_2300_150_10",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$51.98",
+      "$5.19",
+      "90%",
+      null
+    ],
+    [
+      "Dino D-Day",
+      "https://store.steampowered.com/app/70000/Dino_DDay/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/70000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/70000/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "CHANGE: A Homeless Survival Experience",
+      "https://store.steampowered.com/app/926140/CHANGE_A_Homeless_Survival_Experience/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/926140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/926140/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-24 21:39:57"
+  "update_time": "2026-01-25 05:34:13"
 }
