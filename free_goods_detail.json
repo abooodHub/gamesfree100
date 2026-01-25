@@ -1,5 +1,5 @@
 {
-  "total_count": 1409,
+  "total_count": 1426,
   "free_games": [
     [
       "Dota 2",
@@ -11982,7 +11982,177 @@
       "$2.74",
       "75%",
       null
+    ],
+    [
+      "Insurmountable",
+      "https://store.steampowered.com/app/1385100/Insurmountable/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1385100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1385100/capsule_616x353.jpg",
+      "$24.99",
+      "$3.99",
+      "84%",
+      null
+    ],
+    [
+      "EDGE&TRIGGER",
+      "https://store.steampowered.com/sub/66335/?snr=1_7_7_2300_150_9",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$4.99",
+      "$0.49",
+      "90%",
+      null
+    ],
+    [
+      "Star Dynasties",
+      "https://store.steampowered.com/app/1194590/Star_Dynasties/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1194590/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1194590/capsule_616x353.jpg",
+      "$30.99",
+      "$7.74",
+      "75%",
+      null
+    ],
+    [
+      "White Shadows",
+      "https://store.steampowered.com/app/1158890/White_Shadows/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1158890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1158890/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Kaze and the Wild Masks",
+      "https://store.steampowered.com/app/829280/Kaze_and_the_Wild_Masks/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/829280/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/829280/capsule_616x353.jpg",
+      "$14.99",
+      "$2.24",
+      "85%",
+      null
+    ],
+    [
+      "Of Orcs And Men",
+      "https://store.steampowered.com/app/216910/Of_Orcs_And_Men/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/216910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/216910/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "Goat Simulator: GoatZ",
+      "https://store.steampowered.com/app/344450/Goat_Simulator_GoatZ/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/344450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/344450/capsule_616x353.jpg",
+      "$4.99",
+      "$0.99",
+      "80%",
+      null
+    ],
+    [
+      "The Night of the Rabbit",
+      "https://store.steampowered.com/app/230820/The_Night_of_the_Rabbit/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/230820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/230820/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Mini Ninjas",
+      "https://store.steampowered.com/app/35000/Mini_Ninjas/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/35000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/35000/capsule_616x353.jpg",
+      "$9.99",
+      "$1.49",
+      "85%",
+      null
+    ],
+    [
+      "Goat Simulator: PAYDAY",
+      "https://store.steampowered.com/app/425840/Goat_Simulator_PAYDAY/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/425840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/425840/capsule_616x353.jpg",
+      "$4.99",
+      "$0.99",
+      "80%",
+      null
+    ],
+    [
+      "State of Decay: Year-One Survival Edition Soundtrack",
+      "https://store.steampowered.com/app/397220/State_of_Decay_YearOne_Survival_Edition_Soundtrack/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/397220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/397220/capsule_616x353.jpg",
+      "$4.99",
+      "$0.99",
+      "80%",
+      null
+    ],
+    [
+      "Goat Simulator: Original Soundtrack",
+      "https://store.steampowered.com/app/335350/Goat_Simulator_Original_Soundtrack/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/335350/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/335350/capsule_616x353.jpg",
+      "$5.99",
+      "$1.19",
+      "80%",
+      null
+    ],
+    [
+      "Goat Simulator: Waste of Space",
+      "https://store.steampowered.com/app/463720/Goat_Simulator_Waste_of_Space/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/463720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/463720/capsule_616x353.jpg",
+      "$4.99",
+      "$0.99",
+      "80%",
+      null
+    ],
+    [
+      "Spells & Secrets",
+      "https://store.steampowered.com/app/1518220/Spells__Secrets/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1518220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1518220/capsule_616x353.jpg",
+      "$24.99",
+      "$3.74",
+      "85%",
+      null
+    ],
+    [
+      "Hitman 2: Silent Assassin",
+      "https://store.steampowered.com/app/6850/Hitman_2_Silent_Assassin/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6850/capsule_616x353.jpg",
+      "$8.99",
+      "$0.89",
+      "90%",
+      null
+    ],
+    [
+      "ARMA: Cold War Assault",
+      "https://store.steampowered.com/app/65790/ARMA_Cold_War_Assault/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/65790/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/65790/capsule_616x353.jpg",
+      "$4.99",
+      "$0.99",
+      "80%",
+      null
+    ],
+    [
+      "Turbo Golf Racing",
+      "https://store.steampowered.com/app/1324350/Turbo_Golf_Racing/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1324350/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1324350/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-25 15:58:28"
+  "update_time": "2026-01-25 21:40:10"
 }
