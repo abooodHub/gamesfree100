@@ -1,5 +1,5 @@
 {
-  "total_count": 1426,
+  "total_count": 1443,
   "free_games": [
     [
       "Dota 2",
@@ -8440,6 +8440,62 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/17500/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Vampire's Kiss: Time Paradox Demo",
+      "https://store.steampowered.com/app/4207160/Vampires_Kiss_Time_Paradox/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4207160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4207160/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Beetleball Demo",
+      "https://store.steampowered.com/app/4231580/Beetleball_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4231580/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4231580/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Knight's Path: The Tournament",
+      "https://store.steampowered.com/app/2653240/Knights_Path_The_Tournament/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2653240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2653240/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "CRACKED",
+      "https://store.steampowered.com/app/3917010/CRACKED/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3917010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3917010/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Celestial Empire: Prologue",
+      "https://store.steampowered.com/app/1509970/Celestial_Empire_Prologue/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1509970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1509970/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "The Looker",
+      "https://store.steampowered.com/app/1985690/The_Looker/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1985690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1985690/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Warhammer: Vermintide 2 - Sister of the Thorn Cosmetic Upgrade",
+      "https://store.steampowered.com/app/1629010/Warhammer_Vermintide_2__Sister_of_the_Thorn_Cosmetic_Upgrade/?snr=1_7_7_2300_150_14",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1629010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1629010/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12152,7 +12208,107 @@
       "$1.99",
       "80%",
       null
+    ],
+    [
+      "Streets of Fury EX",
+      "https://store.steampowered.com/app/350910/Streets_of_Fury_EX/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/350910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/350910/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "Ad Infinitum",
+      "https://store.steampowered.com/app/1234430/Ad_Infinitum/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1234430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1234430/capsule_616x353.jpg",
+      "$34.99",
+      "$5.24",
+      "85%",
+      null
+    ],
+    [
+      "Arise: A Simple Story",
+      "https://store.steampowered.com/app/866140/Arise_A_Simple_Story/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/866140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/866140/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "DeathSprint 66",
+      "https://store.steampowered.com/app/1273560/DeathSprint_66/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1273560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1273560/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Chasing Tails ~A Promise in the Snow~",
+      "https://store.steampowered.com/app/1555110/Chasing_Tails_A_Promise_in_the_Snow/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1555110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1555110/capsule_616x353.jpg",
+      "$7.99",
+      "$0.79",
+      "90%",
+      null
+    ],
+    [
+      "Trine 3: The Artifacts of Power",
+      "https://store.steampowered.com/app/319910/Trine_3_The_Artifacts_of_Power/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/319910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/319910/capsule_616x353.jpg",
+      "$21.99",
+      "$4.39",
+      "80%",
+      null
+    ],
+    [
+      "ONE PUNCH MAN: A HERO NOBODY KNOWS",
+      "https://store.steampowered.com/app/991560/ONE_PUNCH_MAN_A_HERO_NOBODY_KNOWS/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/991560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/991560/capsule_616x353.jpg",
+      "$59.99",
+      "$5.99",
+      "90%",
+      null
+    ],
+    [
+      "Yoku's Island Express",
+      "https://store.steampowered.com/app/334940/Yokus_Island_Express/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/334940/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/334940/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Gord",
+      "https://store.steampowered.com/app/1351210/Gord/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1351210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1351210/capsule_616x353.jpg",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "In Other Waters",
+      "https://store.steampowered.com/app/890720/In_Other_Waters/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/890720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/890720/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-01-25 21:40:10"
+  "update_time": "2026-01-26 05:33:13"
 }
