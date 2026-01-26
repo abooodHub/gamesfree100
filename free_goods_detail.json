@@ -1,5 +1,5 @@
 {
-  "total_count": 1443,
+  "total_count": 1452,
   "free_games": [
     [
       "Dota 2",
@@ -8496,6 +8496,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1629010/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "NERTS! Online",
+      "https://store.steampowered.com/app/1131190/NERTS_Online/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1131190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1131190/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Operation: Tango - Friend Pass",
+      "https://store.steampowered.com/app/1377150/Operation_Tango__Friend_Pass/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1377150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1377150/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Smithworks",
+      "https://store.steampowered.com/app/1568540/Smithworks/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1568540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1568540/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12308,7 +12332,67 @@
       "$3.74",
       "75%",
       null
+    ],
+    [
+      "ONE PIECE PIRATE WARRIORS 3 Gold Edition",
+      "https://store.steampowered.com/sub/70503/?snr=1_7_7_2300_150_9",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$51.98",
+      "$5.19",
+      "90%",
+      null
+    ],
+    [
+      "Surgeon Simulator 2",
+      "https://store.steampowered.com/app/774791/Surgeon_Simulator_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/774791/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/774791/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "The Lord of the Rings: Gollum™",
+      "https://store.steampowered.com/app/1265780/The_Lord_of_the_Rings_Gollum/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1265780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1265780/capsule_616x353.jpg",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "EDGE&TRIGGER",
+      "https://store.steampowered.com/sub/66335/?snr=1_7_7_2300_150_10",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$4.99",
+      "$0.49",
+      "90%",
+      null
+    ],
+    [
+      "BURIED STARS",
+      "https://store.steampowered.com/app/1025960/BURIED_STARS/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1025960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1025960/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "BLACK CLOVER: QUARTET KNIGHTS",
+      "https://store.steampowered.com/app/714080/BLACK_CLOVER_QUARTET_KNIGHTS/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/714080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/714080/capsule_616x353.jpg",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-01-26 05:33:13"
+  "update_time": "2026-01-26 09:50:49"
 }
