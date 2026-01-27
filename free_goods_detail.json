@@ -1,5 +1,5 @@
 {
-  "total_count": 1578,
+  "total_count": 1622,
   "free_games": [
     [
       "Dota 2",
@@ -8624,6 +8624,102 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2987860/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Command & Conquer 3 Tiberium Wars™",
+      "https://store.steampowered.com/app/24790/Command__Conquer_3_Tiberium_Wars/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/24790/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/24790/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Command & Conquer™ Red Alert™ 3",
+      "https://store.steampowered.com/app/17480/Command__Conquer_Red_Alert_3/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/17480/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/17480/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Command & Conquer Renegade™",
+      "https://store.steampowered.com/app/2229890/Command__Conquer_Renegade/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2229890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2229890/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Command & Conquer Red Alert™ 2 and Yuri’s Revenge™",
+      "https://store.steampowered.com/app/2229850/Command__Conquer_Red_Alert_2_and_Yuris_Revenge/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2229850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2229850/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Command & Conquer™ Tiberian Sun™ and Firestorm™",
+      "https://store.steampowered.com/app/2229880/Command__Conquer_Tiberian_Sun_and_Firestorm/?snr=1_7_7_2300_150_11",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2229880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2229880/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Command & Conquer™ Generals Zero Hour",
+      "https://store.steampowered.com/app/2732960/Command__Conquer_Generals_Zero_Hour/?snr=1_7_7_2300_150_11",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2732960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2732960/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Command & Conquer™ Generals",
+      "https://store.steampowered.com/app/2229870/Command__Conquer_Generals/?snr=1_7_7_2300_150_11",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2229870/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2229870/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Command & Conquer™ and The Covert Operations™",
+      "https://store.steampowered.com/app/2229830/Command__Conquer_and_The_Covert_Operations/?snr=1_7_7_2300_150_11",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2229830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2229830/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Command & Conquer Red Alert™, Counterstrike™ and The Aftermath™",
+      "https://store.steampowered.com/app/2229840/Command__Conquer_Red_Alert_Counterstrike_and_The_Aftermath/?snr=1_7_7_2300_150_11",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2229840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2229840/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Command & Conquer: Red Alert 3 - Uprising",
+      "https://store.steampowered.com/app/24800/Command__Conquer_Red_Alert_3__Uprising/?snr=1_7_7_2300_150_11",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/24800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/24800/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Command & Conquer™ 3: Kane’s Wrath",
+      "https://store.steampowered.com/app/24810/Command__Conquer_3_Kanes_Wrath/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/24810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/24810/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Echoes of Elysium",
+      "https://store.steampowered.com/app/2644050/Echoes_of_Elysium/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2644050/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2644050/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -13626,7 +13722,327 @@
       "$1.99",
       "90%",
       null
+    ],
+    [
+      "Mass Effect™ Legendary Edition",
+      "https://store.steampowered.com/app/1328670/Mass_Effect_Legendary_Edition/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1328670/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1328670/capsule_616x353.jpg",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "SPORE™",
+      "https://store.steampowered.com/app/17390/SPORE/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/17390/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/17390/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "The Sims™ 4 Get Famous",
+      "https://store.steampowered.com/app/1235720/The_Sims_4_Get_Famous/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1235720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1235720/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Mass Effect™: Andromeda Deluxe Edition",
+      "https://store.steampowered.com/app/1238000/Mass_Effect_Andromeda_Deluxe_Edition/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1238000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1238000/capsule_616x353.jpg",
+      "$39.99",
+      "$5.99",
+      "85%",
+      null
+    ],
+    [
+      "Need for Speed™ Most Wanted",
+      "https://store.steampowered.com/app/1262560/Need_for_Speed_Most_Wanted/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1262560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1262560/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Alice: Madness Returns",
+      "https://store.steampowered.com/app/19680/Alice_Madness_Returns/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/19680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/19680/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Dragon Age™ Inquisition",
+      "https://store.steampowered.com/app/1222690/Dragon_Age_Inquisition/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1222690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1222690/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Unravel Two",
+      "https://store.steampowered.com/app/1225570/Unravel_Two/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1225570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1225570/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Dragon Age: Origins - Ultimate Edition",
+      "https://store.steampowered.com/app/47810/Dragon_Age_Origins__Ultimate_Edition/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/47810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/47810/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Need for Speed™ Heat",
+      "https://store.steampowered.com/app/1222680/Need_for_Speed_Heat/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1222680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1222680/capsule_616x353.jpg",
+      "$69.99",
+      "$6.99",
+      "90%",
+      null
+    ],
+    [
+      "Need for Speed™ Unbound",
+      "https://store.steampowered.com/app/1846380/Need_for_Speed_Unbound/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1846380/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1846380/capsule_616x353.jpg",
+      "$69.99",
+      "$9.79",
+      "86%",
+      null
+    ],
+    [
+      "STAR WARS Jedi: Survivor™",
+      "https://store.steampowered.com/app/1774580/STAR_WARS_Jedi_Survivor/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1774580/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1774580/capsule_616x353.jpg",
+      "$69.99",
+      "$8.39",
+      "88%",
+      null
+    ],
+    [
+      "Sniper Elite 5",
+      "https://store.steampowered.com/app/1029690/Sniper_Elite_5/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1029690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1029690/capsule_616x353.jpg",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "Titanfall® 2",
+      "https://store.steampowered.com/app/1237970/Titanfall_2/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1237970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1237970/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "A Way Out",
+      "https://store.steampowered.com/app/1222700/A_Way_Out/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1222700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1222700/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "STAR WARS™ Battlefront™ II",
+      "https://store.steampowered.com/app/1237950/STAR_WARS_Battlefront_II/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1237950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1237950/capsule_616x353.jpg",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
+    ],
+    [
+      "Dead Space",
+      "https://store.steampowered.com/app/1693980/Dead_Space/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1693980/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1693980/capsule_616x353.jpg",
+      "$59.99",
+      "$11.99",
+      "80%",
+      null
+    ],
+    [
+      "STAR WARS Jedi: Fallen Order™",
+      "https://store.steampowered.com/app/1172380/STAR_WARS_Jedi_Fallen_Order/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1172380/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1172380/capsule_616x353.jpg",
+      "$39.99",
+      "$3.19",
+      "92%",
+      null
+    ],
+    [
+      "SimCity™ 4 Deluxe Edition",
+      "https://store.steampowered.com/app/24780/SimCity_4_Deluxe_Edition/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/24780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/24780/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Dead Space™ 2",
+      "https://store.steampowered.com/app/47780/Dead_Space_2/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/47780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/47780/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "SPORE™ Galactic Adventures",
+      "https://store.steampowered.com/app/24720/SPORE_Galactic_Adventures/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/24720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/24720/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Dead Space™ 3",
+      "https://store.steampowered.com/app/1238060/Dead_Space_3/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1238060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1238060/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Need for Speed™",
+      "https://store.steampowered.com/app/1262540/Need_for_Speed/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1262540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1262540/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Zefyr: A Thief's Melody",
+      "https://store.steampowered.com/app/1344990/Zefyr_A_Thiefs_Melody/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1344990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1344990/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Peggle Deluxe",
+      "https://store.steampowered.com/app/3480/Peggle_Deluxe/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3480/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3480/capsule_616x353.jpg",
+      "$4.99",
+      "$0.99",
+      "80%",
+      null
+    ],
+    [
+      "STAR WARS Jedi: Fallen Order Deluxe Edition",
+      "https://store.steampowered.com/sub/401587/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$3.99",
+      "92%",
+      null
+    ],
+    [
+      "Need for Speed™ Hot Pursuit Remastered",
+      "https://store.steampowered.com/app/1328660/Need_for_Speed_Hot_Pursuit_Remastered/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1328660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1328660/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Super Mega Baseball™ 4",
+      "https://store.steampowered.com/app/1487210/Super_Mega_Baseball_4/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1487210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1487210/capsule_616x353.jpg",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "STAR WARS™ Battlefront",
+      "https://store.steampowered.com/app/1237980/STAR_WARS_Battlefront/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1237980/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1237980/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Prodigal",
+      "https://store.steampowered.com/app/1393820/Prodigal/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1393820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1393820/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Dragon Age II: Ultimate Edition",
+      "https://store.steampowered.com/app/1238040/Dragon_Age_II_Ultimate_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1238040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1238040/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Along the Edge",
+      "https://store.steampowered.com/app/504390/Along_the_Edge/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/504390/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/504390/capsule_616x353.jpg",
+      "$13.99",
+      "$0.00",
+      "100%",
+      null
     ]
   ],
-  "update_time": "2026-01-27 16:08:13"
+  "update_time": "2026-01-27 21:52:07"
 }
