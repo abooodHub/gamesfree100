@@ -1,5 +1,5 @@
 {
-  "total_count": 1567,
+  "total_count": 1578,
   "free_games": [
     [
       "Dota 2",
@@ -8592,6 +8592,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2600140/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Watch",
+      "https://store.steampowered.com/app/894060/Watch/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/894060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/894060/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Flag Clicker",
+      "https://store.steampowered.com/app/2996990/Flag_Clicker/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2996990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2996990/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Insanity Clicker",
+      "https://store.steampowered.com/app/393530/Insanity_Clicker/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/393530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/393530/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Rock the Islands",
+      "https://store.steampowered.com/app/2987860/Rock_the_Islands/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2987860/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2987860/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -13524,7 +13556,77 @@
       "$1.99",
       "80%",
       null
+    ],
+    [
+      "Green Hell",
+      "https://store.steampowered.com/app/815370/Green_Hell/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/815370/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/815370/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "Agatha Christie - Hercule Poirot: The London Case",
+      "https://store.steampowered.com/app/2223740/Agatha_Christie__Hercule_Poirot_The_London_Case/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2223740/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2223740/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Little Big Workshop",
+      "https://store.steampowered.com/app/574720/Little_Big_Workshop/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/574720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/574720/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Vampire: The Masquerade - Justice",
+      "https://store.steampowered.com/app/2431700/Vampire_The_Masquerade__Justice/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2431700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2431700/capsule_616x353.jpg",
+      "$31.98",
+      "$5.58",
+      "83%",
+      null
+    ],
+    [
+      "Sweet Transit",
+      "https://store.steampowered.com/app/1612770/Sweet_Transit/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1612770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1612770/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Kingdoms of Amalur: Re-Reckoning - Fatesworn",
+      "https://store.steampowered.com/app/1278260/Kingdoms_of_Amalur_ReReckoning__Fatesworn/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1278260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1278260/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Eldest Souls",
+      "https://store.steampowered.com/app/1108590/Eldest_Souls/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1108590/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1108590/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-01-27 09:49:16"
+  "update_time": "2026-01-27 16:08:13"
 }
