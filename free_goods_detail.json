@@ -1,5 +1,5 @@
 {
-  "total_count": 1556,
+  "total_count": 1567,
   "free_games": [
     [
       "Dota 2",
@@ -8576,6 +8576,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/50620/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "A2B Demo",
+      "https://store.steampowered.com/app/4344600/A2B_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4344600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4344600/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Please, Touch The Artwork 2",
+      "https://store.steampowered.com/app/2600140/Please_Touch_The_Artwork_2/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2600140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2600140/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -13418,7 +13434,97 @@
       "$2.49",
       "75%",
       null
+    ],
+    [
+      "BlazBlue: Chronophantasma Extend",
+      "https://store.steampowered.com/app/388750/BlazBlue_Chronophantasma_Extend/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/388750/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/388750/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Eternights",
+      "https://store.steampowered.com/app/1402110/Eternights/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1402110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1402110/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Guardians Frontline",
+      "https://store.steampowered.com/app/1481440/Guardians_Frontline/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1481440/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1481440/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Garfield Kart - Furious Racing",
+      "https://store.steampowered.com/app/1085510/Garfield_Kart__Furious_Racing/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1085510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1085510/capsule_616x353.jpg",
+      "$14.99",
+      "$2.24",
+      "85%",
+      null
+    ],
+    [
+      "de Blob 2",
+      "https://store.steampowered.com/app/563190/de_Blob_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/563190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/563190/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "MX vs. ATV Supercross Encore",
+      "https://store.steampowered.com/app/282050/MX_vs_ATV_Supercross_Encore/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/282050/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/282050/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "de Blob",
+      "https://store.steampowered.com/app/532320/de_Blob/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/532320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/532320/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "The Hong Kong Massacre",
+      "https://store.steampowered.com/app/741510/The_Hong_Kong_Massacre/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/741510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/741510/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "The Guild Gold Edition",
+      "https://store.steampowered.com/app/39520/The_Guild_Gold_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/39520/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/39520/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-27 05:29:04"
+  "update_time": "2026-01-27 09:49:16"
 }
