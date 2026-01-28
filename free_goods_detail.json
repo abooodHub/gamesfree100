@@ -1,5 +1,5 @@
 {
-  "total_count": 1651,
+  "total_count": 1663,
   "free_games": [
     [
       "Dota 2",
@@ -8792,6 +8792,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1997780/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "SAMURAI SHODOWN",
+      "https://store.steampowered.com/app/1342260/SAMURAI_SHODOWN/?snr=1_7_7_2300_150_13",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1342260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1342260/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14314,7 +14322,117 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "Fallout 76",
+      "https://store.steampowered.com/app/1151340/Fallout_76/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1151340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1151340/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Fallout 4",
+      "https://store.steampowered.com/app/377160/Fallout_4/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/377160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/377160/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Fallout: New Vegas",
+      "https://store.steampowered.com/app/22380/Fallout_New_Vegas/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/22380/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/22380/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Fallout 4: Game of the Year Edition",
+      "https://store.steampowered.com/sub/199943/?snr=1_7_7_2300_150_1",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Fallout 2: A Post Nuclear Role Playing Game",
+      "https://store.steampowered.com/app/38410/Fallout_2_A_Post_Nuclear_Role_Playing_Game/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/38410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/38410/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Fallout 3",
+      "https://store.steampowered.com/app/22300/Fallout_3/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/22300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/22300/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Fallout: A Post Nuclear Role Playing Game",
+      "https://store.steampowered.com/app/38400/Fallout_A_Post_Nuclear_Role_Playing_Game/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/38400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/38400/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Dungeon Defenders",
+      "https://store.steampowered.com/app/65800/Dungeon_Defenders/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/65800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/65800/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Fallout Tactics: Brotherhood of Steel",
+      "https://store.steampowered.com/app/38420/Fallout_Tactics_Brotherhood_of_Steel/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/38420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/38420/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Fallout Classic Collection",
+      "https://store.steampowered.com/sub/45615/?snr=1_7_7_2300_150_3",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Fallout 3: Game of the Year Edition",
+      "https://store.steampowered.com/app/22370/Fallout_3_Game_of_the_Year_Edition/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/22370/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/22370/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-01-28 16:08:12"
+  "update_time": "2026-01-28 21:48:40"
 }
