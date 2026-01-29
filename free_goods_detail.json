@@ -1,5 +1,5 @@
 {
-  "total_count": 1663,
+  "total_count": 1676,
   "free_games": [
     [
       "Dota 2",
@@ -8800,6 +8800,70 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1342260/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "HELLMART Demo",
+      "https://store.steampowered.com/app/4036410/HELLMART_Demo/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4036410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4036410/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Delivery & Beyond",
+      "https://store.steampowered.com/app/3376480/Delivery__Beyond/?snr=1_7_7_230_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3376480/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3376480/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "VIractal: World of Viractalia Demo",
+      "https://store.steampowered.com/app/3678540/VIractal_World_of_Viractalia_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3678540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3678540/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Extremely Realistic Siege Warfare Simulator",
+      "https://store.steampowered.com/app/1222210/Extremely_Realistic_Siege_Warfare_Simulator/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1222210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1222210/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Dies irae ~Amantes amentes~",
+      "https://store.steampowered.com/app/644540/Dies_irae_Amantes_amentes/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/644540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/644540/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Picma - Picture Enigmas",
+      "https://store.steampowered.com/app/2134030/Picma__Picture_Enigmas/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2134030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2134030/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Calyx Demo",
+      "https://store.steampowered.com/app/3400850/Calyx_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3400850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3400850/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Sky Clash: Lords of Clans 3D",
+      "https://store.steampowered.com/app/630140/Sky_Clash_Lords_of_Clans_3D/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/630140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/630140/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14432,7 +14496,57 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "Fallout Classic Collection",
+      "https://store.steampowered.com/sub/45615/?snr=1_7_7_2300_150_1",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Dungeon Defenders Ultimate Collection",
+      "https://store.steampowered.com/sub/15481/?snr=1_7_7_2300_150_4",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "Bramble: The Mountain King",
+      "https://store.steampowered.com/app/1623940/Bramble_The_Mountain_King/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1623940/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1623940/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Fallout 4 VR",
+      "https://store.steampowered.com/app/611660/Fallout_4_VR/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/611660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/611660/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "Dungeon Defenders: Awakened",
+      "https://store.steampowered.com/app/1101190/Dungeon_Defenders_Awakened/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1101190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1101190/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
     ]
   ],
-  "update_time": "2026-01-28 21:48:40"
+  "update_time": "2026-01-29 05:42:15"
 }
