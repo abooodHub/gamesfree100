@@ -1,5 +1,5 @@
 {
-  "total_count": 1676,
+  "total_count": 1693,
   "free_games": [
     [
       "Dota 2",
@@ -8864,6 +8864,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/630140/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Godzilla x Kong: Titan Chasers",
+      "https://store.steampowered.com/app/3670140/Godzilla_x_Kong_Titan_Chasers/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3670140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3670140/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Warhammer Combat Cards",
+      "https://store.steampowered.com/app/1641990/Warhammer_Combat_Cards/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1641990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1641990/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14546,7 +14562,157 @@
       "$4.49",
       "85%",
       null
+    ],
+    [
+      "Disney Infinity 3.0: Gold Edition",
+      "https://store.steampowered.com/app/541670/Disney_Infinity_30_Gold_Edition/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/541670/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/541670/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "SMILE GAME BUILDER",
+      "https://store.steampowered.com/app/483950/SMILE_GAME_BUILDER/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/483950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/483950/capsule_616x353.jpg",
+      "$69.99",
+      "$13.99",
+      "80%",
+      null
+    ],
+    [
+      "Flashing Lights - Police, Firefighting, Emergency Services (EMS) Simulator",
+      "https://store.steampowered.com/app/605740/Flashing_Lights__Police_Firefighting_Emergency_Services_EMS_Simulator/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/605740/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/605740/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Ranch Simulator: Build, Hunt, Farm",
+      "https://store.steampowered.com/app/1119730/Ranch_Simulator_Build_Hunt_Farm/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1119730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1119730/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Darkest Dungeon® II",
+      "https://store.steampowered.com/app/1940340/Darkest_Dungeon_II/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1940340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1940340/capsule_616x353.jpg",
+      "$51.98",
+      "$11.50",
+      "78%",
+      null
+    ],
+    [
+      "Darkest Dungeon®",
+      "https://store.steampowered.com/app/262060/Darkest_Dungeon/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/262060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/262060/capsule_616x353.jpg",
+      "$24.99",
+      "$1.99",
+      "92%",
+      null
+    ],
+    [
+      "LEGO® Indiana Jones™: The Original Adventures",
+      "https://store.steampowered.com/app/32330/LEGO_Indiana_Jones_The_Original_Adventures/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/32330/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/32330/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "LEGO® Star Wars™ III - The Clone Wars™",
+      "https://store.steampowered.com/app/32510/LEGO_Star_Wars_III__The_Clone_Wars/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/32510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/32510/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Disney Infinity 1.0: Gold Edition",
+      "https://store.steampowered.com/app/541640/Disney_Infinity_10_Gold_Edition/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/541640/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/541640/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "LEGO® Star Wars™ - The Complete Saga",
+      "https://store.steampowered.com/app/32440/LEGO_Star_Wars__The_Complete_Saga/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/32440/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/32440/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Disney Infinity 2.0: Gold Edition",
+      "https://store.steampowered.com/app/541660/Disney_Infinity_20_Gold_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/541660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/541660/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "LEGO® Pirates of the Caribbean: The Video Game",
+      "https://store.steampowered.com/app/311770/LEGO_Pirates_of_the_Caribbean_The_Video_Game/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/311770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/311770/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Jalopy",
+      "https://store.steampowered.com/app/446020/Jalopy/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/446020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/446020/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "Wars Across The World",
+      "https://store.steampowered.com/app/341040/Wars_Across_The_World/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/341040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/341040/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "Untrusted",
+      "https://store.steampowered.com/app/1502660/Untrusted/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1502660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1502660/capsule_616x353.jpg",
+      "$4.99",
+      "$0.00",
+      "100%",
+      null
     ]
   ],
-  "update_time": "2026-01-29 16:15:35"
+  "update_time": "2026-01-29 21:59:15"
 }
