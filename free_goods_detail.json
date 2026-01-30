@@ -1,5 +1,5 @@
 {
-  "total_count": 1693,
+  "total_count": 1723,
   "free_games": [
     [
       "Dota 2",
@@ -8880,6 +8880,62 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1641990/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Farlands: Tiny Harvest",
+      "https://store.steampowered.com/app/3896460/Farlands_Tiny_Harvest/?snr=1_7_7_230_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3896460/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3896460/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Nioh 3 Demo",
+      "https://store.steampowered.com/app/3681010/Nioh_3/?snr=1_7_7_230_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3681010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3681010/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Project: Gorgon Demo",
+      "https://store.steampowered.com/app/342940/Project_Gorgon/?snr=1_7_7_230_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/342940/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/342940/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Banker Simulator: Prologue",
+      "https://store.steampowered.com/app/3451020/Banker_Simulator_Prologue/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3451020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3451020/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "IO Auto Clicker",
+      "https://store.steampowered.com/app/4090430/IO_Auto_Clicker/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4090430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4090430/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "MENACE Demo",
+      "https://store.steampowered.com/app/2432870/MENACE_Demo/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2432870/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2432870/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Pax Autocratica Demo",
+      "https://store.steampowered.com/app/1067360/Pax_Autocratica/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1067360/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1067360/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14712,7 +14768,237 @@
       "$0.00",
       "100%",
       null
+    ],
+    [
+      "Disney•Pixar WALL-E",
+      "https://store.steampowered.com/app/331750/DisneyoPixar_WALLE/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/331750/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/331750/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Disney•Pixar Cars",
+      "https://store.steampowered.com/app/331160/DisneyoPixar_Cars/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/331160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/331160/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Disney G-Force",
+      "https://store.steampowered.com/app/319170/Disney_GForce/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/319170/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/319170/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Disney•Pixar Cars 2: The Video Game",
+      "https://store.steampowered.com/app/301760/DisneyoPixar_Cars_2_The_Video_Game/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/301760/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/301760/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Disney's Treasure Planet: Battle of Procyon",
+      "https://store.steampowered.com/app/331970/Disneys_Treasure_Planet_Battle_of_Procyon/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/331970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/331970/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Tracks - The Train Set Game",
+      "https://store.steampowered.com/app/657240/Tracks__The_Train_Set_Game/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/657240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/657240/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Disney•Pixar Cars Mater-National Championship",
+      "https://store.steampowered.com/app/332260/DisneyoPixar_Cars_MaterNational_Championship/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/332260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/332260/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Disney Bolt",
+      "https://store.steampowered.com/app/340990/Disney_Bolt/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/340990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/340990/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "TRON RUN/r",
+      "https://store.steampowered.com/app/392000/TRON_RUNr/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/392000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/392000/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Disney Pirates of the Caribbean: At Worlds End",
+      "https://store.steampowered.com/app/301980/Disney_Pirates_of_the_Caribbean_At_Worlds_End/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/301980/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/301980/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Disney Universe",
+      "https://store.steampowered.com/app/316260/Disney_Universe/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/316260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/316260/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Disney Tangled",
+      "https://store.steampowered.com/app/318950/Disney_Tangled/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/318950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/318950/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Disney Alice in Wonderland",
+      "https://store.steampowered.com/app/316030/Disney_Alice_in_Wonderland/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/316030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/316030/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Disney•Pixar Brave: The Video Game",
+      "https://store.steampowered.com/app/301830/DisneyoPixar_Brave_The_Video_Game/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/301830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/301830/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Disney Princess: Enchanted Journey",
+      "https://store.steampowered.com/app/322130/Disney_Princess_Enchanted_Journey/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/322130/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/322130/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Darkest Dungeon Soundtrack",
+      "https://store.steampowered.com/app/345800/Darkest_Dungeon_Soundtrack/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/345800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/345800/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Disney's Chicken Little",
+      "https://store.steampowered.com/app/339040/Disneys_Chicken_Little/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/339040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/339040/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "TRON 2.0",
+      "https://store.steampowered.com/app/327740/TRON_20/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/327740/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/327740/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Zombies Ate My Neighbors and Ghoul Patrol",
+      "https://store.steampowered.com/app/1137970/Zombies_Ate_My_Neighbors_and_Ghoul_Patrol/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1137970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1137970/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Disney•Pixar Toy Story 3: The Video Game",
+      "https://store.steampowered.com/app/300820/DisneyoPixar_Toy_Story_3_The_Video_Game/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/300820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/300820/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "LEGO® Indiana Jones™ 2: The Adventure Continues",
+      "https://store.steampowered.com/app/32450/LEGO_Indiana_Jones_2_The_Adventure_Continues/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/32450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/32450/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "ENDLESS™ Legend - Guardians",
+      "https://store.steampowered.com/app/357360/ENDLESS_Legend__Guardians/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/357360/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/357360/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "ENDLESS™ Legend - Inferno",
+      "https://store.steampowered.com/app/854750/ENDLESS_Legend__Inferno/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/854750/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/854750/capsule_616x353.jpg",
+      "$12.99",
+      "$3.24",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-01-29 21:59:15"
+  "update_time": "2026-01-30 05:42:31"
 }
