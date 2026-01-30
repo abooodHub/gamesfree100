@@ -1,5 +1,5 @@
 {
-  "total_count": 1730,
+  "total_count": 1731,
   "free_games": [
     [
       "Dota 2",
@@ -15062,7 +15062,17 @@
       "$3.24",
       "75%",
       null
+    ],
+    [
+      "Disney High School Musical 3: Senior Year Dance",
+      "https://store.steampowered.com/app/346060/Disney_High_School_Musical_3_Senior_Year_Dance/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/346060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/346060/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-01-30 10:02:01"
+  "update_time": "2026-01-30 16:13:57"
 }
