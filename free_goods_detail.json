@@ -1,5 +1,5 @@
 {
-  "total_count": 1731,
+  "total_count": 1737,
   "free_games": [
     [
       "Dota 2",
@@ -8960,6 +8960,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2088250/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Burglin' Gnomes Demo",
+      "https://store.steampowered.com/app/3844970/Burglin_Gnomes/?snr=1_7_7_230_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3844970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3844970/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -15072,7 +15080,57 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "Tower! Simulator 3",
+      "https://store.steampowered.com/app/2176130/Tower_Simulator_3/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2176130/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2176130/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "ENDLESS™ Legend - Symbiosis",
+      "https://store.steampowered.com/app/988450/ENDLESS_Legend__Symbiosis/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/988450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/988450/capsule_616x353.jpg",
+      "$12.99",
+      "$3.24",
+      "75%",
+      null
+    ],
+    [
+      "ENDLESS™ Legend - Shadows",
+      "https://store.steampowered.com/app/374500/ENDLESS_Legend__Shadows/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/374500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/374500/capsule_616x353.jpg",
+      "$12.99",
+      "$3.24",
+      "75%",
+      null
+    ],
+    [
+      "ENDLESS™ Space 2 - Untold Tales",
+      "https://store.steampowered.com/app/813410/ENDLESS_Space_2__Untold_Tales/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/813410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/813410/capsule_616x353.jpg",
+      "$2.99",
+      "$0.74",
+      "75%",
+      null
+    ],
+    [
+      "ENDLESS™ Space 2 - Lost Symphony",
+      "https://store.steampowered.com/app/813420/ENDLESS_Space_2__Lost_Symphony/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/813420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/813420/capsule_616x353.jpg",
+      "$2.99",
+      "$0.74",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-01-30 16:13:57"
+  "update_time": "2026-01-30 21:56:14"
 }
