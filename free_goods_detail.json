@@ -1,5 +1,5 @@
 {
-  "total_count": 1748,
+  "total_count": 1749,
   "free_games": [
     [
       "Dota 2",
@@ -15222,7 +15222,17 @@
       "$9.99",
       "80%",
       null
+    ],
+    [
+      "DUSK '82: ULTIMATE EDITION",
+      "https://store.steampowered.com/app/1465510/DUSK_82_ULTIMATE_EDITION/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1465510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1465510/capsule_616x353.jpg",
+      "$6.99",
+      "$1.74",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-01-31 05:38:16"
+  "update_time": "2026-01-31 09:52:00"
 }
