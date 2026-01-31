@@ -1,5 +1,5 @@
 {
-  "total_count": 1737,
+  "total_count": 1748,
   "free_games": [
     [
       "Dota 2",
@@ -8968,6 +8968,78 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3844970/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Motor Town : Behind The Wheel Demo",
+      "https://store.steampowered.com/app/1369670/Motor_Town_Behind_The_Wheel/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1369670/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1369670/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "We Gotta Go Demo",
+      "https://store.steampowered.com/app/4135850/We_Gotta_Go_Demo/?snr=1_7_7_230_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4135850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4135850/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Team Fortress 2 Classified",
+      "https://store.steampowered.com/app/3545060/Team_Fortress_2_Classified/?snr=1_7_7_230_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3545060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3545060/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "City Tales - Medieval Era Demo",
+      "https://store.steampowered.com/app/3265070/City_Tales__Medieval_Era/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3265070/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3265070/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Project N.E.K.O.",
+      "https://store.steampowered.com/app/4099310/Project_NEKO/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4099310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4099310/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Road to Vostok Demo",
+      "https://store.steampowered.com/app/1963610/Road_to_Vostok/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1963610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1963610/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Skillshot City",
+      "https://store.steampowered.com/app/308600/Skillshot_City/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/308600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/308600/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Resident Evil 4 Chainsaw Demo",
+      "https://store.steampowered.com/app/2231770/Resident_Evil_4_Chainsaw_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2231770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2231770/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "WWE 2K26",
+      "https://store.steampowered.com/app/3717070/WWE_2K26/?snr=1_7_7_230_150_11",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3717070/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3717070/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -15130,7 +15202,27 @@
       "$0.74",
       "75%",
       null
+    ],
+    [
+      "STAR WARS Jedi: Fallen Order Deluxe Edition",
+      "https://store.steampowered.com/sub/401587/?snr=1_7_7_2300_150_3",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$3.99",
+      "92%",
+      null
+    ],
+    [
+      "Dungeon Defenders Ultimate Collection",
+      "https://store.steampowered.com/sub/15481/?snr=1_7_7_2300_150_5",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-30 21:56:14"
+  "update_time": "2026-01-31 05:38:16"
 }
