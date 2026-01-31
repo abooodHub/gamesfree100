@@ -1,5 +1,5 @@
 {
-  "total_count": 1749,
+  "total_count": 1751,
   "free_games": [
     [
       "Dota 2",
@@ -15232,7 +15232,27 @@
       "$1.74",
       "75%",
       null
+    ],
+    [
+      "Survive the Nights",
+      "https://store.steampowered.com/app/541300/Survive_the_Nights/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/541300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/541300/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Loop Hero",
+      "https://store.steampowered.com/app/1282730/Loop_Hero/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1282730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1282730/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-01-31 16:04:40"
+  "update_time": "2026-01-31 21:44:04"
 }
