@@ -1,5 +1,5 @@
 {
-  "total_count": 1751,
+  "total_count": 1762,
   "free_games": [
     [
       "Dota 2",
@@ -9040,6 +9040,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3717070/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Scritchy Scratchy Demo",
+      "https://store.steampowered.com/app/4124780/Scritchy_Scratchy_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4124780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4124780/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -15252,7 +15260,107 @@
       "$2.99",
       "80%",
       null
+    ],
+    [
+      "Heat Signature",
+      "https://store.steampowered.com/app/268130/Heat_Signature/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/268130/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/268130/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Turok",
+      "https://store.steampowered.com/app/405820/Turok/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/405820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/405820/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Bridge Constructor Portal",
+      "https://store.steampowered.com/app/684410/Bridge_Constructor_Portal/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/684410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/684410/capsule_616x353.jpg",
+      "$9.99",
+      "$0.79",
+      "92%",
+      null
+    ],
+    [
+      "Turok 2: Seeds of Evil",
+      "https://store.steampowered.com/app/405830/Turok_2_Seeds_of_Evil/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/405830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/405830/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Bridge Constructor",
+      "https://store.steampowered.com/app/250460/Bridge_Constructor/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/250460/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/250460/capsule_616x353.jpg",
+      "$9.99",
+      "$0.79",
+      "92%",
+      null
+    ],
+    [
+      "Bridge Constructor Portal - Portal Proficiency",
+      "https://store.steampowered.com/app/1113550/Bridge_Constructor_Portal__Portal_Proficiency/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1113550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1113550/capsule_616x353.jpg",
+      "$3.99",
+      "$0.67",
+      "83%",
+      null
+    ],
+    [
+      "Bridge Constructor Medieval",
+      "https://store.steampowered.com/app/319850/Bridge_Constructor_Medieval/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/319850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/319850/capsule_616x353.jpg",
+      "$9.99",
+      "$0.79",
+      "92%",
+      null
+    ],
+    [
+      "Heads Will Roll: Reforged",
+      "https://store.steampowered.com/app/687800/Heads_Will_Roll_Reforged/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/687800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/687800/capsule_616x353.jpg",
+      "$24.99",
+      "$5.99",
+      "76%",
+      null
+    ],
+    [
+      "Shadow Man Remastered",
+      "https://store.steampowered.com/app/1413870/Shadow_Man_Remastered/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1413870/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1413870/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Bridge Constructor Playground",
+      "https://store.steampowered.com/app/279990/Bridge_Constructor_Playground/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/279990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/279990/capsule_616x353.jpg",
+      "$9.99",
+      "$0.79",
+      "92%",
+      null
     ]
   ],
-  "update_time": "2026-01-31 21:44:04"
+  "update_time": "2026-02-01 06:20:09"
 }
