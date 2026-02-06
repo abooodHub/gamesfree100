@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://gamesfree100.online/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow specific files
+# (removed) debug_steam.html no longer exists
+Disallow: /*.py
+Disallow: /requirements.txt
+Disallow: /.github/
+
+# Allow important files
+Allow: /index.html
+Allow: /styles.css
+Allow: /script.js
+Allow: /icons/
+Allow: /*.json
