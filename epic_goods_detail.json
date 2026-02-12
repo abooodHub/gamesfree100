@@ -1,1 +1,28 @@
-
+{
+  "total_count": 2,
+  "free_games": [
+    [
+      "Botany Manor",
+      "https://store.epicgames.com/en-US/p/botany-manor-e7c456",
+      "https://cdn1.epicgames.com/spt-assets/42d56a88c22d4eaa8977bf5528a2396b/botany-manor-1f7uq.jpg",
+      "Welcome to Botany Manor, a stately home in 19th century England. You play as inhabitant Arabella Greene, a retired botanist. Explore your house and gardens, filled with research, to figure out the ideal habitat of forgotten flora.",
+      "24.99 USD",
+      "Free",
+      "خصم 100% - مجاني",
+      "2026-02-12 16:00:00"
+    ],
+    [
+      "Poison Retro Set",
+      "https://store.epicgames.com/en-US/p/pixel-gun-3d-812855",
+      "https://cdn1.epicgames.com/spt-assets/65338dc60d204dcb98752745bab52374/pixel-gun-3d-1pp3a.jpg",
+      "Step back in time and forward into battle with the Poison Retro Set, inspired by the electrifying Arcade Season.",
+      "24.99 USD",
+      "Free",
+      "خصم 100% - مجاني",
+      "2026-02-12 16:00:00"
+    ]
+  ],
+  "discounted_games": [],
+  "update_time": "2026-02-12 16:25:50",
+  "source": "Epic Games Store"
+}
