@@ -1,5 +1,5 @@
 {
-  "total_count": 2,
+  "total_count": 4,
   "free_games": [
     [
       "Botany Manor",
@@ -20,9 +20,29 @@
       "Free",
       "خصم 100% - مجاني",
       "2026-02-12 16:00:00"
+    ],
+    [
+      "The Darkside Detective A Fumble in the Dark",
+      "https://store.epicgames.com/en-US/p/the-darkside-detective-a-fumble-in-the-dark-174fcf",
+      "https://cdn1.epicgames.com/spt-assets/0638bcc62d9f4ba2a53eb9093c54be31/the-darkside-detective-a-fumble-in-the-dark-offer-501mw.jpg",
+      "Join Detective McQueen as he puzzles his way through 6 cases, risking life and pixelated limb to solve the macabre mysteries that plague the poor town.",
+      "14.99 USD",
+      "Free",
+      "خصم 100% - مجاني",
+      "2026-02-19 16:00:00"
+    ],
+    [
+      "Nobody Wants to Die",
+      "https://store.epicgames.com/en-US/p/nobody-wants-to-die-fe21cd",
+      "https://cdn1.epicgames.com/spt-assets/dece0016082647a6af5759dbbedfc8eb/nobody-wants-to-die-13stz.jpg",
+      "Lose yourself in the dystopian world of New York, 2329. In this interactive noir story, lead the investigation using advanced technology as Detective James Karra, who risks it all in pursuit of a serial killer targeting the city’s elite.",
+      "24.99 USD",
+      "Free",
+      "خصم 100% - مجاني",
+      "2026-02-19 16:00:00"
     ]
   ],
   "discounted_games": [],
-  "update_time": "2026-02-12 16:25:50",
+  "update_time": "2026-02-12 22:13:09",
   "source": "Epic Games Store"
 }
