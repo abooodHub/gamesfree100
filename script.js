@@ -228,7 +228,7 @@ function mergeAllGames() {
             }
         };
 
-        // خصومات 100% فقط من جميع المتاجر
+        // 1. الألعاب بخصم 100% من جميع المتاجر
         if (Array.isArray(d.discounted_games)) {
             d.discounted_games.forEach(g => {
                 const discount = g[6];
@@ -242,8 +242,18 @@ function mergeAllGames() {
             });
         }
 
-        // Epic فقط: خصم 100% من free_games/free_list مع استبعاد Coming Soon و"مجاني دائماً"
-        if (key !== 'steam') {
+        // 2. Steam: الألعاب المجانية الأصلية (Free to Play)
+        if (key === 'steam') {
+            if (Array.isArray(d.free_games)) {
+                d.free_games.forEach(g => add(g));
+            }
+            if (Array.isArray(d.free_list)) {
+                d.free_list.forEach(g => add(g));
+            }
+        }
+
+        // 3. Epic: خصم 100% فقط (بدون Coming Soon أو مجاني دائماً)
+        if (key === 'epic') {
             if (Array.isArray(d.free_games)) {
                 d.free_games.forEach(g => {
                     const t = g[6];
@@ -257,9 +267,8 @@ function mergeAllGames() {
                 });
             }
         }
-        // Steam: تجاهل free_games/free_list لأنها ليست خصم 100%
     });
-    console.log(`تم دمج ${allGames.length} لعبة (خصم 100% فقط - بعد استبعاد المنتهية)`);
+    console.log(`تم دمج ${allGames.length} لعبة (بعد استبعاد المنتهية)`);
 }
 
 // --- عرض الألعاب ---
