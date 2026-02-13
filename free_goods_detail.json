@@ -1,5 +1,5 @@
 {
-  "total_count": 1377,
+  "total_count": 1385,
   "free_games": [
     [
       "Warframe",
@@ -8208,6 +8208,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3601450/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "英雄传奇",
+      "https://store.steampowered.com/app/3760740/_/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3760740/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3760740/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Reign of Guilds",
+      "https://store.steampowered.com/app/716350/Reign_of_Guilds/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/716350/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/716350/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "悠久之树",
+      "https://store.steampowered.com/app/3222960/_/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3222960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3222960/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Polyarmory: High Calibre Love",
+      "https://store.steampowered.com/app/4220820/Polyarmory_High_Calibre_Love/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4220820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4220820/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11720,7 +11752,47 @@
       "$2.99",
       "80%",
       null
+    ],
+    [
+      "Total War: EMPIRE - Definitive Edition",
+      "https://store.steampowered.com/sub/17092/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Mortal Kombat 11 Ultimate",
+      "https://store.steampowered.com/sub/518699/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "SD GUNDAM BATTLE ALLIANCE",
+      "https://store.steampowered.com/app/824550/SD_GUNDAM_BATTLE_ALLIANCE/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/824550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/824550/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "Thronebreaker: The Witcher Tales",
+      "https://store.steampowered.com/app/973760/Thronebreaker_The_Witcher_Tales/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/973760/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/973760/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-02-13 10:08:30"
+  "update_time": "2026-02-13 16:17:44"
 }
