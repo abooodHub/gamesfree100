@@ -1,5 +1,5 @@
 {
-  "total_count": 1385,
+  "total_count": 1401,
   "free_games": [
     [
       "Warframe",
@@ -8240,6 +8240,62 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4220820/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Vampire's Fall 2",
+      "https://store.steampowered.com/app/4264230/Vampires_Fall_2/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4264230/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4264230/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Angels Pact: Reversal World",
+      "https://store.steampowered.com/app/1477460/Angels_Pact_Reversal_World/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1477460/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1477460/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Stormshot",
+      "https://store.steampowered.com/app/2554670/Stormshot/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2554670/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2554670/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Cracking the Cryptic",
+      "https://store.steampowered.com/app/2085970/Cracking_the_Cryptic/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2085970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2085970/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "DK Online",
+      "https://store.steampowered.com/app/781030/DK_Online/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/781030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/781030/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "DarkOrbit Reloaded",
+      "https://store.steampowered.com/app/4054110/DarkOrbit_Reloaded/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4054110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4054110/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Sonic Generations Collection",
+      "https://store.steampowered.com/app/71340/Sonic_Generations_Collection/?snr=1_7_7_2300_150_12",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/71340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/71340/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11792,7 +11848,97 @@
       "$3.99",
       "80%",
       null
+    ],
+    [
+      "The Elder Scrolls V: Skyrim Special Edition",
+      "https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/489830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/489830/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Dishonored",
+      "https://store.steampowered.com/app/205100/Dishonored/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/205100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/205100/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "House Flipper",
+      "https://store.steampowered.com/app/613100/House_Flipper/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/613100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/613100/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Wolfenstein II: The New Colossus",
+      "https://store.steampowered.com/app/612880/Wolfenstein_II_The_New_Colossus/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/612880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/612880/capsule_616x353.jpg",
+      "$39.99",
+      "$5.99",
+      "85%",
+      null
+    ],
+    [
+      "The Elder Scrolls V: Skyrim VR",
+      "https://store.steampowered.com/app/611670/The_Elder_Scrolls_V_Skyrim_VR/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/611670/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/611670/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "Dying Light: Definitive 10th Anniversary Edition",
+      "https://store.steampowered.com/sub/1265945/?snr=1_7_7_2300_150_4",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "Wolfenstein: The New Order",
+      "https://store.steampowered.com/app/201810/Wolfenstein_The_New_Order/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/201810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/201810/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Prey",
+      "https://store.steampowered.com/app/480490/Prey/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/480490/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/480490/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Dishonored 2",
+      "https://store.steampowered.com/app/403640/Dishonored_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/403640/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/403640/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-02-13 16:17:44"
+  "update_time": "2026-02-13 22:01:24"
 }
