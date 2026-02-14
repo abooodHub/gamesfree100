@@ -1,5 +1,5 @@
 {
-  "total_count": 1449,
+  "total_count": 1453,
   "free_games": [
     [
       "Warframe",
@@ -8488,6 +8488,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1131190/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Mansions of Madness",
+      "https://store.steampowered.com/app/478980/Mansions_of_Madness/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/478980/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/478980/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12370,7 +12378,37 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "Torchlight III",
+      "https://store.steampowered.com/app/1030210/Torchlight_III/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1030210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1030210/capsule_616x353.jpg",
+      "$39.99",
+      "$5.99",
+      "85%",
+      null
+    ],
+    [
+      "Mortal Kombat XL",
+      "https://store.steampowered.com/sub/128345/?snr=1_7_7_2300_150_10",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Aliens: Colonial Marines Collection",
+      "https://store.steampowered.com/app/49540/Aliens_Colonial_Marines_Collection/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/49540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/49540/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-02-14 16:05:17"
+  "update_time": "2026-02-14 21:47:00"
 }
