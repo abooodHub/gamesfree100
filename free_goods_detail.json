@@ -1,5 +1,5 @@
 {
-  "total_count": 1440,
+  "total_count": 1446,
   "free_games": [
     [
       "Warframe",
@@ -8456,6 +8456,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1210250/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "The New Flesh",
+      "https://store.steampowered.com/app/3692660/The_New_Flesh/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3692660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3692660/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12288,7 +12296,57 @@
       "$5.99",
       "75%",
       null
+    ],
+    [
+      "Total War: Medieval II - Definitive Edition",
+      "https://store.steampowered.com/sub/460/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Total War: EMPIRE - Definitive Edition",
+      "https://store.steampowered.com/sub/17092/?snr=1_7_7_2300_150_6",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Dishonored - Definitive Edition",
+      "https://store.steampowered.com/sub/31292/?snr=1_7_7_2300_150_5",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Pinball FX - Williams Pinball Volume 2",
+      "https://store.steampowered.com/app/2370406/Pinball_FX__Williams_Pinball_Volume_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2370406/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2370406/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Tormented Souls",
+      "https://store.steampowered.com/app/1367590/Tormented_Souls/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1367590/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1367590/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-02-14 05:40:43"
+  "update_time": "2026-02-14 09:57:09"
 }
