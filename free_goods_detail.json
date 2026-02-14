@@ -1,5 +1,5 @@
 {
-  "total_count": 1446,
+  "total_count": 1449,
   "free_games": [
     [
       "Warframe",
@@ -8464,6 +8464,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3692660/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Idle Dyson Swarm",
+      "https://store.steampowered.com/app/4348570/Idle_Dyson_Swarm/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4348570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4348570/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "凡人修仙传奇",
+      "https://store.steampowered.com/app/3814570/_/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3814570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3814570/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "NERTS! Online",
+      "https://store.steampowered.com/app/1131190/NERTS_Online/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1131190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1131190/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12348,5 +12372,5 @@
       null
     ]
   ],
-  "update_time": "2026-02-14 09:57:09"
+  "update_time": "2026-02-14 16:05:17"
 }
