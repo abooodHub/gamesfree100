@@ -1,5 +1,5 @@
 {
-  "total_count": 1476,
+  "total_count": 1482,
   "free_games": [
     [
       "Warframe",
@@ -8624,6 +8624,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/719730/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Fracture Field Demo",
+      "https://store.steampowered.com/app/4310820/Fracture_Field_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4310820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4310820/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12606,7 +12614,57 @@
       "$0.76",
       "89%",
       null
+    ],
+    [
+      "Total War: Medieval II - Definitive Edition",
+      "https://store.steampowered.com/sub/460/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Oblivion Game of the Year Deluxe",
+      "https://store.steampowered.com/sub/1679/?snr=1_7_7_2300_150_6",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Mafia II: Definitive Edition",
+      "https://store.steampowered.com/sub/342913/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Samorost 3",
+      "https://store.steampowered.com/app/421120/Samorost_3/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/421120/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/421120/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Happy Game",
+      "https://store.steampowered.com/app/1206060/Happy_Game/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1206060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1206060/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-02-15 10:00:03"
+  "update_time": "2026-02-15 16:07:07"
 }
