@@ -1,5 +1,5 @@
 {
-  "total_count": 1482,
+  "total_count": 1484,
   "free_games": [
     [
       "Warframe",
@@ -12664,7 +12664,27 @@
       "$2.99",
       "80%",
       null
+    ],
+    [
+      "Kingdom Two Crowns",
+      "https://store.steampowered.com/app/701160/Kingdom_Two_Crowns/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/701160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/701160/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "WrestleQuest",
+      "https://store.steampowered.com/app/1867510/WrestleQuest/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1867510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1867510/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-02-15 16:07:07"
+  "update_time": "2026-02-15 21:48:05"
 }
