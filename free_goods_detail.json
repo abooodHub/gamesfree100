@@ -1,5 +1,5 @@
 {
-  "total_count": 1473,
+  "total_count": 1476,
   "free_games": [
     [
       "Warframe",
@@ -8600,6 +8600,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1610900/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "机械皇朝",
+      "https://store.steampowered.com/app/3848180/_/?snr=1_7_7_230_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3848180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3848180/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Gospodar's Tales Demo",
+      "https://store.steampowered.com/app/4350800/Gospodars_Tales_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4350800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4350800/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Uptasia",
+      "https://store.steampowered.com/app/719730/Uptasia/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/719730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/719730/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12584,5 +12608,5 @@
       null
     ]
   ],
-  "update_time": "2026-02-15 05:54:03"
+  "update_time": "2026-02-15 10:00:03"
 }
