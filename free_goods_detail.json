@@ -1,5 +1,5 @@
 {
-  "total_count": 1492,
+  "total_count": 1494,
   "free_games": [
     [
       "Warframe",
@@ -8680,6 +8680,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4036850/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "The Scouring Demo",
+      "https://store.steampowered.com/app/3354780/The_Scouring_Demo/?snr=1_7_7_230_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3354780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3354780/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12752,7 +12760,17 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "Dishonored - Definitive Edition",
+      "https://store.steampowered.com/sub/31292/?snr=1_7_7_2300_150_4",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-02-16 05:49:46"
+  "update_time": "2026-02-16 10:14:46"
 }
