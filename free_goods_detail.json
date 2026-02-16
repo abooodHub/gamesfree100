@@ -1,5 +1,5 @@
 {
-  "total_count": 1495,
+  "total_count": 1519,
   "free_games": [
     [
       "Warframe",
@@ -8696,6 +8696,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/715670/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Sakura Arms ~Radiant Duels~ Demo",
+      "https://store.steampowered.com/app/3446770/Sakura_Arms_Radiant_Duels/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3446770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3446770/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Horses of Hoofprint Bay Demo",
+      "https://store.steampowered.com/app/4335510/Horses_of_Hoofprint_Bay_Demo/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4335510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4335510/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Might & Magic Fates - Heroes TCG",
+      "https://store.steampowered.com/app/3918850/Might__Magic_Fates__Heroes_TCG/?snr=1_7_7_230_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3918850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3918850/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12778,7 +12802,217 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "The Dark Pictures Anthology: The Devil in Me",
+      "https://store.steampowered.com/app/1567020/The_Dark_Pictures_Anthology_The_Devil_in_Me/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1567020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1567020/capsule_616x353.jpg",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
+    ],
+    [
+      "The Dark Pictures Anthology: House of Ashes",
+      "https://store.steampowered.com/app/1281590/The_Dark_Pictures_Anthology_House_of_Ashes/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1281590/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1281590/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Rising Storm 2: Vietnam",
+      "https://store.steampowered.com/app/418460/Rising_Storm_2_Vietnam/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/418460/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/418460/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "The Dark Pictures Anthology: Man of Medan",
+      "https://store.steampowered.com/app/939850/The_Dark_Pictures_Anthology_Man_of_Medan/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/939850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/939850/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Maneater",
+      "https://store.steampowered.com/app/629820/Maneater/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/629820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/629820/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Outlast",
+      "https://store.steampowered.com/app/238320/Outlast/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/238320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/238320/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Plague Inc: Evolved",
+      "https://store.steampowered.com/app/246620/Plague_Inc_Evolved/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/246620/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/246620/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Chivalry 2",
+      "https://store.steampowered.com/app/1824220/Chivalry_2/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1824220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1824220/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "BATTLETECH",
+      "https://store.steampowered.com/app/637090/BATTLETECH/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/637090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/637090/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Killing Floor 2",
+      "https://store.steampowered.com/app/232090/Killing_Floor_2/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/232090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/232090/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Outlast 2",
+      "https://store.steampowered.com/app/414700/Outlast_2/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/414700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/414700/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Spiritfarer®: Farewell Edition",
+      "https://store.steampowered.com/app/972660/Spiritfarer_Farewell_Edition/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/972660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/972660/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Overcooked! 2",
+      "https://store.steampowered.com/app/728880/Overcooked_2/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/728880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/728880/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Kynseed",
+      "https://store.steampowered.com/app/758870/Kynseed/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/758870/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/758870/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Magicka 2",
+      "https://store.steampowered.com/app/238370/Magicka_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/238370/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/238370/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "The Dark Pictures Anthology: Little Hope",
+      "https://store.steampowered.com/app/1194630/The_Dark_Pictures_Anthology_Little_Hope/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1194630/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1194630/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "HOT WHEELS UNLEASHED™",
+      "https://store.steampowered.com/app/1271700/HOT_WHEELS_UNLEASHED/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1271700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1271700/capsule_616x353.jpg",
+      "$39.99",
+      "$5.99",
+      "85%",
+      null
+    ],
+    [
+      "Make Good Choices",
+      "https://store.steampowered.com/app/3410310/Make_Good_Choices/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3410310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3410310/capsule_616x353.jpg",
+      "$2.99",
+      "$0.74",
+      "75%",
+      null
+    ],
+    [
+      "Maneater: Truth Quest",
+      "https://store.steampowered.com/app/1611940/Maneater_Truth_Quest/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1611940/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1611940/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Jurassic Park Classic Games Collection",
+      "https://store.steampowered.com/app/2673080/Jurassic_Park_Classic_Games_Collection/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2673080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2673080/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Shelter 2",
+      "https://store.steampowered.com/app/275100/Shelter_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/275100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/275100/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-02-16 16:20:24"
+  "update_time": "2026-02-16 21:55:50"
 }
