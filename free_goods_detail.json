@@ -1,5 +1,5 @@
 {
-  "total_count": 1484,
+  "total_count": 1492,
   "free_games": [
     [
       "Warframe",
@@ -8632,6 +8632,54 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4310820/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "DateBoy",
+      "https://store.steampowered.com/app/4022300/DateBoy/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4022300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4022300/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Basement To The Sky Demo",
+      "https://store.steampowered.com/app/4258880/Basement_To_The_Sky/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4258880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4258880/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Watch",
+      "https://store.steampowered.com/app/894060/Watch/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/894060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/894060/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "DORONKO WANKO",
+      "https://store.steampowered.com/app/2512840/DORONKO_WANKO/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2512840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2512840/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Ale & Tale Tavern: First Pints",
+      "https://store.steampowered.com/app/2870840/Ale__Tale_Tavern_First_Pints/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2870840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2870840/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Monster Lab Simulator: Prologue",
+      "https://store.steampowered.com/app/4036850/Monster_Lab_Simulator_Prologue/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4036850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4036850/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12684,7 +12732,27 @@
       "$5.99",
       "80%",
       null
+    ],
+    [
+      "The Witcher 3: Wild Hunt - Complete Edition",
+      "https://store.steampowered.com/sub/124923/?snr=1_7_7_2300_150_2",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "Fear the Spotlight",
+      "https://store.steampowered.com/app/1959390/Fear_the_Spotlight/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1959390/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1959390/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-02-15 21:48:05"
+  "update_time": "2026-02-16 05:49:46"
 }
