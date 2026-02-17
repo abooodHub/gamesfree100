@@ -1,5 +1,5 @@
 {
-  "total_count": 1562,
+  "total_count": 1569,
   "free_games": [
     [
       "Warframe",
@@ -8824,6 +8824,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2996990/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Outbound Demo",
+      "https://store.steampowered.com/app/2938240/Outbound_Demo/?snr=1_7_7_230_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2938240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2938240/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Windrose Demo",
+      "https://store.steampowered.com/app/4291770/Windrose_Demo/?snr=1_7_7_230_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4291770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4291770/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -13416,7 +13432,57 @@
       "$14.99",
       "75%",
       null
+    ],
+    [
+      "RESIDENT EVIL 2 / BIOHAZARD RE:2 Deluxe Edition",
+      "https://store.steampowered.com/sub/281610/?snr=1_7_7_2300_150_4",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$12.49",
+      "75%",
+      null
+    ],
+    [
+      "MXGP 2021 - The Official Motocross Videogame",
+      "https://store.steampowered.com/app/1610470/MXGP_2021__The_Official_Motocross_Videogame/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1610470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1610470/capsule_616x353.jpg",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
+    ],
+    [
+      "Insurgency",
+      "https://store.steampowered.com/app/222880/Insurgency/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/222880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/222880/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Monster Energy Supercross - The Official Videogame 3",
+      "https://store.steampowered.com/app/1089830/Monster_Energy_Supercross__The_Official_Videogame_3/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1089830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1089830/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "Strike Suit Zero",
+      "https://store.steampowered.com/app/209540/Strike_Suit_Zero/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/209540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/209540/capsule_616x353.jpg",
+      "$19.98",
+      "$4.98",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-02-17 16:20:50"
+  "update_time": "2026-02-17 22:07:31"
 }
