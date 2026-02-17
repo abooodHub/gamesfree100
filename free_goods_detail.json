@@ -1,5 +1,5 @@
 {
-  "total_count": 1554,
+  "total_count": 1560,
   "free_games": [
     [
       "Warframe",
@@ -13340,7 +13340,67 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "Road Redemption",
+      "https://store.steampowered.com/app/300380/Road_Redemption/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/300380/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/300380/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Total War: NAPOLEON - Definitive Edition",
+      "https://store.steampowered.com/sub/17093/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Shadowrun: Hong Kong - Extended Edition",
+      "https://store.steampowered.com/app/346940/Shadowrun_Hong_Kong__Extended_Edition/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/346940/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/346940/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "CONVERGENCE: A League of Legends Story™",
+      "https://store.steampowered.com/app/1276800/CONVERGENCE_A_League_of_Legends_Story/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1276800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1276800/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Electrician Simulator",
+      "https://store.steampowered.com/app/1080020/Electrician_Simulator/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1080020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1080020/capsule_616x353.jpg",
+      "$17.99",
+      "$0.89",
+      "95%",
+      null
+    ],
+    [
+      "Onee Chanbara ORIGIN",
+      "https://store.steampowered.com/app/1232460/Onee_Chanbara_ORIGIN/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1232460/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1232460/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-02-17 05:45:59"
+  "update_time": "2026-02-17 10:09:16"
 }
