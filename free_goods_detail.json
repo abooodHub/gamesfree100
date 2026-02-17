@@ -1,5 +1,5 @@
 {
-  "total_count": 1560,
+  "total_count": 1562,
   "free_games": [
     [
       "Warframe",
@@ -8808,6 +8808,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3964660/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Rock the Islands",
+      "https://store.steampowered.com/app/2987860/Rock_the_Islands/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2987860/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2987860/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Flag Clicker",
+      "https://store.steampowered.com/app/2996990/Flag_Clicker/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2996990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2996990/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -13402,5 +13418,5 @@
       null
     ]
   ],
-  "update_time": "2026-02-17 10:09:16"
+  "update_time": "2026-02-17 16:20:50"
 }
