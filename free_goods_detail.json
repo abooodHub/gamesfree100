@@ -1,5 +1,5 @@
 {
-  "total_count": 1587,
+  "total_count": 1593,
   "free_games": [
     [
       "Warframe",
@@ -8936,6 +8936,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3411830/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Florensia",
+      "https://store.steampowered.com/app/384030/Florensia/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/384030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/384030/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Go Ape Ship!",
+      "https://store.steampowered.com/app/4037180/Go_Ape_Ship/?snr=1_7_7_230_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4037180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4037180/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -13638,7 +13654,47 @@
       "$4.24",
       "83%",
       null
+    ],
+    [
+      "Cooking Simulator",
+      "https://store.steampowered.com/app/641320/Cooking_Simulator/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/641320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/641320/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Monster Hunter Rise + Sunbreak",
+      "https://store.steampowered.com/sub/692569/?snr=1_7_7_2300_150_3",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$59.99",
+      "$9.59",
+      "84%",
+      null
+    ],
+    [
+      "Sherlock Holmes Chapter One",
+      "https://store.steampowered.com/app/1137300/Sherlock_Holmes_Chapter_One/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1137300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1137300/capsule_616x353.jpg",
+      "$44.99",
+      "$4.49",
+      "90%",
+      null
+    ],
+    [
+      "Company of Heroes 2",
+      "https://store.steampowered.com/app/231430/Company_of_Heroes_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/231430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/231430/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-02-18 16:22:31"
+  "update_time": "2026-02-18 22:05:46"
 }
