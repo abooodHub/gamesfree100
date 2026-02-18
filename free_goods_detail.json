@@ -1,5 +1,5 @@
 {
-  "total_count": 1569,
+  "total_count": 1578,
   "free_games": [
     [
       "Warframe",
@@ -8840,6 +8840,54 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4291770/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Dobbel Dungeon Demo",
+      "https://store.steampowered.com/app/3185680/Dobbel_Dungeon_Demo/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3185680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3185680/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Horde of Distraction Demo",
+      "https://store.steampowered.com/app/4407700/Horde_of_Distraction_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4407700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4407700/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Goblin Company Demo",
+      "https://store.steampowered.com/app/3864450/Goblin_Company/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3864450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3864450/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "World Capitals Quizzer",
+      "https://store.steampowered.com/app/2384860/World_Capitals_Quizzer/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2384860/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2384860/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Echoes of Mystralia Demo",
+      "https://store.steampowered.com/app/4378410/Echoes_of_Mystralia_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4378410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4378410/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "33 Immortals Demo",
+      "https://store.steampowered.com/app/4191960/33_Immortals_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4191960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4191960/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -13482,7 +13530,37 @@
       "$4.98",
       "75%",
       null
+    ],
+    [
+      "Oblivion Game of the Year Deluxe",
+      "https://store.steampowered.com/sub/1679/?snr=1_7_7_2300_150_9",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Resident Evil 7 Gold Edition & Village Gold Edition",
+      "https://store.steampowered.com/sub/1252652/?snr=1_7_7_2300_150_2",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$79.99",
+      "$19.99",
+      "75%",
+      null
+    ],
+    [
+      "RIDE 3",
+      "https://store.steampowered.com/app/759740/RIDE_3/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/759740/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/759740/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-02-17 22:07:31"
+  "update_time": "2026-02-18 05:49:10"
 }
