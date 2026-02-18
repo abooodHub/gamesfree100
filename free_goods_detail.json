@@ -1,5 +1,5 @@
 {
-  "total_count": 1583,
+  "total_count": 1587,
   "free_games": [
     [
       "Warframe",
@@ -8920,6 +8920,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1342260/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Clicker Cuties - Anime Idler",
+      "https://store.steampowered.com/app/3188910/Clicker_Cuties__Anime_Idler/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3188910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3188910/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Cards, the Universe and Everything",
+      "https://store.steampowered.com/app/3411830/Cards_the_Universe_and_Everything/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3411830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3411830/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -13602,7 +13618,27 @@
       "$9.59",
       "76%",
       null
+    ],
+    [
+      "Gal*Gun: Double Peace",
+      "https://store.steampowered.com/app/511740/GalGun_Double_Peace/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/511740/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/511740/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Star Renegades",
+      "https://store.steampowered.com/app/651670/Star_Renegades/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/651670/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/651670/capsule_616x353.jpg",
+      "$24.99",
+      "$4.24",
+      "83%",
+      null
     ]
   ],
-  "update_time": "2026-02-18 10:11:18"
+  "update_time": "2026-02-18 16:22:31"
 }
