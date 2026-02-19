@@ -1,5 +1,5 @@
 {
-  "total_count": 4,
+  "total_count": 6,
   "free_games": [
     [
       "Botany Manor",
@@ -40,9 +40,29 @@
       "Free",
       "خصم 100% - مجاني",
       "2026-02-19 16:00:00"
+    ],
+    [
+      "Return to Ash",
+      "https://store.epicgames.com/en-US/p/return-to-ash-dee3ff",
+      "https://cdn1.epicgames.com/spt-assets/07c1bf7c44dc4c2e8567923f03c7d307/return-to-ash-qcdax.png",
+      "“The hospital was empty. Quiet, and brighter than usual... like waking up on a snow day. But I didn't feel cold. I didn't feel much of anything.”",
+      "5.99 USD",
+      "Free",
+      "خصم 100% - مجاني",
+      "2026-02-26 16:00:00"
+    ],
+    [
+      "STALCRAFT: X Starter Edition",
+      "https://store.epicgames.com/en-US/p/stalcraft-x-057c4a",
+      "https://cdn1.epicgames.com/spt-assets/bed02187768e44afb05319f40660d9fa/stalcraft-x-1gxje.jpg",
+      "STALCRAFT: X is a free-to-play MMOFPS with RPG elements.\n\nStart exploring the world of the Zone with a Starter Pack. It includes everything you need for your initial raids: a 7-day Premium, weapons, armor, artifacts, and cosmetics.",
+      "24.99 USD",
+      "Free",
+      "خصم 100% - مجاني",
+      "2026-02-26 16:00:00"
     ]
   ],
   "discounted_games": [],
-  "update_time": "2026-02-19 16:23:54",
+  "update_time": "2026-02-19 22:01:08",
   "source": "Epic Games Store"
 }

@@ -1,5 +1,5 @@
 {
-  "total_count": 1629,
+  "total_count": 1647,
   "free_games": [
     [
       "Warframe",
@@ -9032,6 +9032,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4354730/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Gambonanza Demo",
+      "https://store.steampowered.com/app/4256840/Gambonanza_Demo/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4256840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4256840/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Lootbound Demo",
+      "https://store.steampowered.com/app/4290960/Lootbound_Demo/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4290960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4290960/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Idle Pins",
+      "https://store.steampowered.com/app/1709920/Idle_Pins/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1709920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1709920/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14034,7 +14058,157 @@
       "$1.94",
       "87%",
       null
+    ],
+    [
+      "Paragnosia",
+      "https://store.steampowered.com/app/3017580/Paragnosia/?snr=1_7_7_230_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3017580/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3017580/capsule_616x353.jpg",
+      "$3.99",
+      "$0.00",
+      "100%",
+      null
+    ],
+    [
+      "Summer Memories",
+      "https://store.steampowered.com/app/1227890/Summer_Memories/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1227890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1227890/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Rebel Galaxy",
+      "https://store.steampowered.com/app/290300/Rebel_Galaxy/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/290300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/290300/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Hell Let Loose",
+      "https://store.steampowered.com/app/686810/Hell_Let_Loose/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/686810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/686810/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "Niche - a genetics survival game",
+      "https://store.steampowered.com/app/440650/Niche__a_genetics_survival_game/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/440650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/440650/capsule_616x353.jpg",
+      "$17.99",
+      "$4.49",
+      "75%",
+      null
+    ],
+    [
+      "Sherlock Holmes versus Jack the Ripper",
+      "https://store.steampowered.com/app/11190/Sherlock_Holmes_versus_Jack_the_Ripper/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/11190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/11190/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "Bio Inc. Redemption",
+      "https://store.steampowered.com/app/612470/Bio_Inc_Redemption/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/612470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/612470/capsule_616x353.jpg",
+      "$12.99",
+      "$1.03",
+      "92%",
+      null
+    ],
+    [
+      "Dark Deity",
+      "https://store.steampowered.com/app/1374840/Dark_Deity/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1374840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1374840/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Gal*Gun 2",
+      "https://store.steampowered.com/app/851890/GalGun_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/851890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/851890/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Looney Tunes: Wacky World of Sports",
+      "https://store.steampowered.com/app/2330430/Looney_Tunes_Wacky_World_of_Sports/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2330430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2330430/capsule_616x353.jpg",
+      "$49.99",
+      "$12.49",
+      "75%",
+      null
+    ],
+    [
+      "The Walking Dead: Destinies",
+      "https://store.steampowered.com/app/2192790/The_Walking_Dead_Destinies/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2192790/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2192790/capsule_616x353.jpg",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "Do Not Feed the Monkeys",
+      "https://store.steampowered.com/app/658850/Do_Not_Feed_the_Monkeys/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/658850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/658850/capsule_616x353.jpg",
+      "$15.99",
+      "$2.39",
+      "85%",
+      null
+    ],
+    [
+      "Sherlock Holmes and The Hound of The Baskervilles",
+      "https://store.steampowered.com/app/209230/Sherlock_Holmes_and_The_Hound_of_The_Baskervilles/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/209230/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/209230/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "Voidtrain - Tour de Void",
+      "https://store.steampowered.com/app/4108450/Voidtrain__Tour_de_Void/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4108450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4108450/capsule_616x353.jpg",
+      "$7.99",
+      "$0.00",
+      "100%",
+      null
+    ],
+    [
+      "BROTHER!!! Save him! - Hardcore Platformer",
+      "https://store.steampowered.com/app/1286560/BROTHER_Save_him__Hardcore_Platformer/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1286560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1286560/capsule_616x353.jpg",
+      "$2.99",
+      "$0.00",
+      "100%",
+      null
     ]
   ],
-  "update_time": "2026-02-19 16:23:54"
+  "update_time": "2026-02-19 22:01:08"
 }
