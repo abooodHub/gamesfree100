@@ -1,5 +1,5 @@
 {
-  "total_count": 1623,
+  "total_count": 1629,
   "free_games": [
     [
       "Warframe",
@@ -9024,6 +9024,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3135530/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "John Carpenter's Toxic Commando Demo",
+      "https://store.steampowered.com/app/4354730/John_Carpenters_Toxic_Commando_Demo/?snr=1_7_7_230_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4354730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4354730/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -13976,7 +13984,57 @@
       "$5.99",
       "85%",
       null
+    ],
+    [
+      "RESIDENT EVIL 2 / BIOHAZARD RE:2 Deluxe Edition",
+      "https://store.steampowered.com/sub/281610/?snr=1_7_7_2300_150_5",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$12.49",
+      "75%",
+      null
+    ],
+    [
+      "Green Hell",
+      "https://store.steampowered.com/app/815370/Green_Hell/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/815370/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/815370/capsule_616x353.jpg",
+      "$27.99",
+      "$2.79",
+      "90%",
+      null
+    ],
+    [
+      "FlatOut 2",
+      "https://store.steampowered.com/app/2990/FlatOut_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2990/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Airborne Kingdom",
+      "https://store.steampowered.com/app/982290/Airborne_Kingdom/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/982290/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/982290/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "The Surge",
+      "https://store.steampowered.com/app/378540/The_Surge/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/378540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/378540/capsule_616x353.jpg",
+      "$14.99",
+      "$1.94",
+      "87%",
+      null
     ]
   ],
-  "update_time": "2026-02-19 10:10:26"
+  "update_time": "2026-02-19 16:23:54"
 }
