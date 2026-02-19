@@ -1,5 +1,5 @@
 {
-  "total_count": 1619,
+  "total_count": 1623,
   "free_games": [
     [
       "Warframe",
@@ -9008,6 +9008,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4382040/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "我的小鲨鱼",
+      "https://store.steampowered.com/app/2758540/_/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2758540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2758540/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Finn Dorset's Institute For Livestock Replication",
+      "https://store.steampowered.com/app/3135530/Finn_Dorsets_Institute_For_Livestock_Replication/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3135530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3135530/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -13940,7 +13956,27 @@
       "$6.24",
       "75%",
       null
+    ],
+    [
+      "High On Life",
+      "https://store.steampowered.com/app/1583230/High_On_Life/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1583230/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1583230/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Necromunda: Hired Gun",
+      "https://store.steampowered.com/app/1222370/Necromunda_Hired_Gun/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1222370/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1222370/capsule_616x353.jpg",
+      "$39.99",
+      "$5.99",
+      "85%",
+      null
     ]
   ],
-  "update_time": "2026-02-19 05:48:28"
+  "update_time": "2026-02-19 10:10:26"
 }
