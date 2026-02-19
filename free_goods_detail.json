@@ -1,5 +1,5 @@
 {
-  "total_count": 1593,
+  "total_count": 1619,
   "free_games": [
     [
       "Warframe",
@@ -8952,6 +8952,62 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4037180/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Far Far West Demo",
+      "https://store.steampowered.com/app/3819240/Far_Far_West_Demo/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3819240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3819240/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Data Center Demo",
+      "https://store.steampowered.com/app/4376050/Data_Center_Demo/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4376050/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4376050/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Vacation Cafe Simulator Demo",
+      "https://store.steampowered.com/app/4018360/Vacation_Cafe_Simulator_Demo/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4018360/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4018360/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Crystalfall Demo",
+      "https://store.steampowered.com/app/3346210/Crystalfall_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3346210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3346210/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "The Loopler Demo",
+      "https://store.steampowered.com/app/4154070/The_Loopler_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4154070/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4154070/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Baccarat Online: Baccarist",
+      "https://store.steampowered.com/app/3673460/Baccarat_Online_Baccarist/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3673460/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3673460/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Farm to Table Demo",
+      "https://store.steampowered.com/app/4382040/Farm_to_Table_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4382040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4382040/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -13694,7 +13750,197 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "Coromon",
+      "https://store.steampowered.com/app/1218210/Coromon/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1218210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1218210/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Chernobylite Complete Edition",
+      "https://store.steampowered.com/app/1016800/Chernobylite_Complete_Edition/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1016800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1016800/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "The Testament of Sherlock Holmes",
+      "https://store.steampowered.com/app/205650/The_Testament_of_Sherlock_Holmes/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/205650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/205650/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Trover Saves the Universe",
+      "https://store.steampowered.com/app/1051200/Trover_Saves_the_Universe/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1051200/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1051200/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Company of Heroes",
+      "https://store.steampowered.com/app/228200/Company_of_Heroes/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/228200/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/228200/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Sherlock Holmes: Crimes and Punishments",
+      "https://store.steampowered.com/app/241260/Sherlock_Holmes_Crimes_and_Punishments/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/241260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/241260/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "A Plague Tale: Innocence",
+      "https://store.steampowered.com/app/752590/A_Plague_Tale_Innocence/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/752590/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/752590/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Battlefleet Gothic: Armada 2",
+      "https://store.steampowered.com/app/573100/Battlefleet_Gothic_Armada_2/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/573100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/573100/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Sherlock Holmes: The Devil's Daughter",
+      "https://store.steampowered.com/app/350640/Sherlock_Holmes_The_Devils_Daughter/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/350640/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/350640/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Aliens: Fireteam Elite",
+      "https://store.steampowered.com/app/1549970/Aliens_Fireteam_Elite/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1549970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1549970/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "The Sinking City Remastered",
+      "https://store.steampowered.com/app/750130/The_Sinking_City_Remastered/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/750130/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/750130/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Nobody Wants to Die",
+      "https://store.steampowered.com/app/1939970/Nobody_Wants_to_Die/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1939970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1939970/capsule_616x353.jpg",
+      "$24.99",
+      "$3.74",
+      "85%",
+      null
+    ],
+    [
+      "Sherlock Holmes The Awakened",
+      "https://store.steampowered.com/app/1949030/Sherlock_Holmes_The_Awakened/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1949030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1949030/capsule_616x353.jpg",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
+    ],
+    [
+      "Call of Cthulhu®",
+      "https://store.steampowered.com/app/399810/Call_of_Cthulhu/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/399810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/399810/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "The Surge 2",
+      "https://store.steampowered.com/app/644830/The_Surge_2/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/644830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/644830/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "shapez",
+      "https://store.steampowered.com/app/1318690/shapez/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1318690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1318690/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "Achilles: Legends Untold",
+      "https://store.steampowered.com/app/1314000/Achilles_Legends_Untold/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1314000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1314000/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Tangle Tower",
+      "https://store.steampowered.com/app/359510/Tangle_Tower/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/359510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/359510/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Hotel Renovator",
+      "https://store.steampowered.com/app/1214470/Hotel_Renovator/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1214470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1214470/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-02-18 22:05:46"
+  "update_time": "2026-02-19 05:48:28"
 }
