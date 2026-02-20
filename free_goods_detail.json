@@ -1,5 +1,5 @@
 {
-  "total_count": 1670,
+  "total_count": 1673,
   "free_games": [
     [
       "Warframe",
@@ -9136,6 +9136,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4349450/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Fate Trigger Demo",
+      "https://store.steampowered.com/app/3092530/Fate_Trigger/?snr=1_7_7_230_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3092530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3092530/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "みつめ",
+      "https://store.steampowered.com/app/4113260/_/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4113260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4113260/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14418,7 +14434,17 @@
       "$3.99",
       "80%",
       null
+    ],
+    [
+      "Total War: Medieval II - Definitive Edition",
+      "https://store.steampowered.com/sub/460/?snr=1_7_7_2300_150_9",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-02-20 10:06:09"
+  "update_time": "2026-02-20 16:14:56"
 }
