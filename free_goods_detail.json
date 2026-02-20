@@ -1,5 +1,5 @@
 {
-  "total_count": 1668,
+  "total_count": 1670,
   "free_games": [
     [
       "Warframe",
@@ -14398,7 +14398,27 @@
       "$5.68",
       "80%",
       null
+    ],
+    [
+      "Rock 'N' Roll Defense",
+      "https://store.steampowered.com/app/438480/Rock_N_Roll_Defense/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/438480/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/438480/capsule_616x353.jpg",
+      "$4.99",
+      "$0.49",
+      "90%",
+      null
+    ],
+    [
+      "Police Stories",
+      "https://store.steampowered.com/app/539470/Police_Stories/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/539470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/539470/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-02-20 05:42:56"
+  "update_time": "2026-02-20 10:06:09"
 }
