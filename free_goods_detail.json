@@ -1,5 +1,5 @@
 {
-  "total_count": 1673,
+  "total_count": 1677,
   "free_games": [
     [
       "Warframe",
@@ -9152,6 +9152,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4113260/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "VOSPETKA Simulator Demo",
+      "https://store.steampowered.com/app/4434740/VOSPETKA_Simulator_Demo/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4434740/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4434740/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14444,7 +14452,37 @@
       "$6.24",
       "75%",
       null
+    ],
+    [
+      "Nightingale",
+      "https://store.steampowered.com/app/1928980/Nightingale/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1928980/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1928980/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "The Wild Eight",
+      "https://store.steampowered.com/app/526160/The_Wild_Eight/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/526160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/526160/capsule_616x353.jpg",
+      "$24.99",
+      "$3.74",
+      "85%",
+      null
+    ],
+    [
+      "DC's Justice League: Cosmic Chaos",
+      "https://store.steampowered.com/app/1944850/DCs_Justice_League_Cosmic_Chaos/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1944850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1944850/capsule_616x353.jpg",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-02-20 16:14:56"
+  "update_time": "2026-02-20 21:59:02"
 }
