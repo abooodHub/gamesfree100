@@ -1,5 +1,5 @@
 {
-  "total_count": 1699,
+  "total_count": 1702,
   "free_games": [
     [
       "Warframe",
@@ -9320,6 +9320,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4251130/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Croak Demo",
+      "https://store.steampowered.com/app/4408590/Croak_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4408590/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4408590/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14662,7 +14670,27 @@
       "$0.99",
       "90%",
       null
+    ],
+    [
+      "Don't Escape: 4 Days to Survive",
+      "https://store.steampowered.com/app/611760/Dont_Escape_4_Days_to_Survive/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/611760/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/611760/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Pumpkin Jack",
+      "https://store.steampowered.com/app/1186640/Pumpkin_Jack/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1186640/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1186640/capsule_616x353.jpg",
+      "$29.99",
+      "$3.59",
+      "88%",
+      null
     ]
   ],
-  "update_time": "2026-02-21 05:36:47"
+  "update_time": "2026-02-21 09:54:07"
 }
