@@ -1,5 +1,5 @@
 {
-  "total_count": 1702,
+  "total_count": 1705,
   "free_games": [
     [
       "Warframe",
@@ -9328,6 +9328,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4408590/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Ultimate Hunting™ (Demo)",
+      "https://store.steampowered.com/app/1376880/Ultimate_Hunting/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1376880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1376880/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "SYNTHETIK: Arena",
+      "https://store.steampowered.com/app/984110/SYNTHETIK_Arena/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/984110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/984110/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14690,7 +14706,17 @@
       "$3.59",
       "88%",
       null
+    ],
+    [
+      "Sentinels of Earth-Prime",
+      "https://store.steampowered.com/app/1974290/Sentinels_of_EarthPrime/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1974290/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1974290/capsule_616x353.jpg",
+      "$17.99",
+      "$1.97",
+      "89%",
+      null
     ]
   ],
-  "update_time": "2026-02-21 09:54:07"
+  "update_time": "2026-02-21 16:04:15"
 }
