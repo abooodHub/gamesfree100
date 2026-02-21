@@ -6,12 +6,14 @@ concurrency:
 
 on:
   schedule:
+    # تشغيل كل 6 ساعات (في الساعة 0، 6، 12، 18 UTC)
     - cron: '0 */6 * * *'
   workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     permissions:
       contents: write
@@ -19,26 +21,61 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        timeout-minutes: 5
 
       - name: Setup Python
         uses: actions/setup-python@v4
+        timeout-minutes: 5
         with:
           python-version: '3.10'
 
       - name: Install dependencies
+        timeout-minutes: 5
         run: |
           pip install -r requirements.txt
 
-      - name: Run scripts
+      - name: Run Steam script
+        timeout-minutes: 10
+        continue-on-error: true
         run: |
-          python steam.py
-          python epic.py
+          echo "🎮 جلب ألعاب Steam..."
+          python steam.py || echo "⚠️ فشل جلب ألعاب Steam"
+
+      - name: Run Epic script
+        timeout-minutes: 10
+        continue-on-error: true
+        run: |
+          echo "🎮 جلب ألعاب Epic..."
+          python epic.py || echo "⚠️ فشل جلب ألعاب Epic"
+
+      - name: Update timestamp
+        timeout-minutes: 2
+        run: |
+          echo "⏰ تحديث الوقت..."
           python update_timestamp.py
 
-      - name: Commit changes
+      - name: Check for changes
+        id: check_changes
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+          if [[ -n $(git status --porcelain) ]]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "✅ تم العثور على تغييرات جديدة"
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ لا توجد تغييرات جديدة"
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changes == 'true'
+        timeout-minutes: 5
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto update: $(date)"
+          git commit -m "🎮 تحديث تلقائي للألعاب - $(date +'%Y-%m-%d %H:%M:%S')"
           git push
+
+      - name: No changes to commit
+        if: steps.check_changes.outputs.changes == 'false'
+        run: |
+          echo "ℹ️ لم يتم العثور على ألعاب جديدة في هذا التحديث"
