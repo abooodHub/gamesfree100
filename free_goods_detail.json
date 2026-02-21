@@ -1,5 +1,5 @@
 {
-  "total_count": 1705,
+  "total_count": 1711,
   "free_games": [
     [
       "Warframe",
@@ -9344,6 +9344,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/984110/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Tap Tap Loot Demo",
+      "https://store.steampowered.com/app/3959890/Tap_Tap_Loot/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3959890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3959890/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14716,7 +14724,57 @@
       "$1.97",
       "89%",
       null
+    ],
+    [
+      "Old World",
+      "https://store.steampowered.com/app/597180/Old_World/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/597180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/597180/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Jurassic World Evolution",
+      "https://store.steampowered.com/app/648350/Jurassic_World_Evolution/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/648350/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/648350/capsule_616x353.jpg",
+      "$44.99",
+      "$11.24",
+      "75%",
+      null
+    ],
+    [
+      "My Time at Portia",
+      "https://store.steampowered.com/app/666140/My_Time_at_Portia/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/666140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/666140/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Planet Coaster",
+      "https://store.steampowered.com/app/493340/Planet_Coaster/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/493340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/493340/capsule_616x353.jpg",
+      "$44.99",
+      "$11.24",
+      "75%",
+      null
+    ],
+    [
+      "Warhammer 40,000: Chaos Gate - Daemonhunters",
+      "https://store.steampowered.com/app/1611910/Warhammer_40000_Chaos_Gate__Daemonhunters/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1611910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1611910/capsule_616x353.jpg",
+      "$44.99",
+      "$11.24",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-02-21 16:04:15"
+  "update_time": "2026-02-21 21:47:13"
 }
