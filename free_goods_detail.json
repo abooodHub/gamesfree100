@@ -1,5 +1,5 @@
 {
-  "total_count": 1711,
+  "total_count": 1721,
   "free_games": [
     [
       "Warframe",
@@ -9352,6 +9352,46 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3959890/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Horripilant Demo",
+      "https://store.steampowered.com/app/3771400/Horripilant_Demo/?snr=1_7_7_230_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3771400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3771400/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Synergism",
+      "https://store.steampowered.com/app/3552310/Synergism/?snr=1_7_7_230_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3552310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3552310/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Deep Snow Delivery Demo",
+      "https://store.steampowered.com/app/3281970/Deep_Snow_Delivery/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3281970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3281970/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Poly Bricks Demo",
+      "https://store.steampowered.com/app/3449470/Poly_Bricks/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3449470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3449470/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Frog Sqwad Demo 🐸",
+      "https://store.steampowered.com/app/4359330/Frog_Sqwad_Demo/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4359330/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4359330/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14774,7 +14814,57 @@
       "$11.24",
       "75%",
       null
+    ],
+    [
+      "Fight'N Rage",
+      "https://store.steampowered.com/app/674520/FightN_Rage/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/674520/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/674520/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Curse of the Dead Gods",
+      "https://store.steampowered.com/app/1123770/Curse_of_the_Dead_Gods/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1123770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1123770/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "The Great War: Western Front™",
+      "https://store.steampowered.com/app/2109370/The_Great_War_Western_Front/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2109370/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2109370/capsule_616x353.jpg",
+      "$34.99",
+      "$6.99",
+      "80%",
+      null
+    ],
+    [
+      "Evil West",
+      "https://store.steampowered.com/app/1065310/Evil_West/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1065310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1065310/capsule_616x353.jpg",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "GreedFall",
+      "https://store.steampowered.com/app/606880/GreedFall/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/606880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/606880/capsule_616x353.jpg",
+      "$34.99",
+      "$3.49",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-02-21 21:47:13"
+  "update_time": "2026-02-22 05:49:34"
 }
