@@ -1,5 +1,5 @@
 {
-  "total_count": 1723,
+  "total_count": 1724,
   "free_games": [
     [
       "Warframe",
@@ -14884,7 +14884,17 @@
       "$11.99",
       "80%",
       null
+    ],
+    [
+      "What Remains of Edith Finch",
+      "https://store.steampowered.com/app/501300/What_Remains_of_Edith_Finch/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/501300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/501300/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-02-22 16:05:44"
+  "update_time": "2026-02-22 21:47:39"
 }
