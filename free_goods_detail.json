@@ -1,5 +1,5 @@
 {
-  "total_count": 1721,
+  "total_count": 1722,
   "free_games": [
     [
       "Warframe",
@@ -14864,7 +14864,17 @@
       "$3.49",
       "90%",
       null
+    ],
+    [
+      "PHOGS!",
+      "https://store.steampowered.com/app/850320/PHOGS/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/850320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/850320/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-02-22 05:49:34"
+  "update_time": "2026-02-22 09:58:36"
 }
