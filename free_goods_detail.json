@@ -1,5 +1,5 @@
 {
-  "total_count": 1741,
+  "total_count": 1743,
   "free_games": [
     [
       "Warframe",
@@ -9432,6 +9432,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/590830/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "SpeedRunners 2: King of Speed Demo",
+      "https://store.steampowered.com/app/3183760/SpeedRunners_2_King_of_Speed/?snr=1_7_7_230_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3183760/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3183760/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "The Weeping Swan: Ten Days of the City's Fall Demo",
+      "https://store.steampowered.com/app/4282040/The_Weeping_Swan_Ten_Days_of_the_Citys_Fall_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4282040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4282040/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -15056,5 +15072,5 @@
       null
     ]
   ],
-  "update_time": "2026-02-23 10:16:00"
+  "update_time": "2026-02-23 16:22:16"
 }
