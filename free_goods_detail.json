@@ -1,5 +1,5 @@
 {
-  "total_count": 1724,
+  "total_count": 1737,
   "free_games": [
     [
       "Warframe",
@@ -9392,6 +9392,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4359330/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "RoadCraft Demo",
+      "https://store.steampowered.com/app/2104890/RoadCraft/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2104890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2104890/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Don't Kill Them All Early Demo",
+      "https://store.steampowered.com/app/2322260/Dont_Kill_Them_All/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2322260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2322260/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Double Shoulders",
+      "https://store.steampowered.com/app/3393620/Double_Shoulders/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3393620/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3393620/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "XERA: Survival",
+      "https://store.steampowered.com/app/625340/XERA_Survival/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/625340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/625340/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14894,7 +14926,97 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "Killer Frequency",
+      "https://store.steampowered.com/app/1903620/Killer_Frequency/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1903620/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1903620/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Roadwarden",
+      "https://store.steampowered.com/app/1155970/Roadwarden/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1155970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1155970/capsule_616x353.jpg",
+      "$10.99",
+      "$2.74",
+      "75%",
+      null
+    ],
+    [
+      "Endzone - A World Apart",
+      "https://store.steampowered.com/app/933820/Endzone__A_World_Apart/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/933820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/933820/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "Journey",
+      "https://store.steampowered.com/app/638230/Journey/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/638230/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/638230/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Home Sheep Home: Farmageddon Party Edition",
+      "https://store.steampowered.com/app/259810/Home_Sheep_Home_Farmageddon_Party_Edition/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/259810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/259810/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Mr. Prepper",
+      "https://store.steampowered.com/app/761830/Mr_Prepper/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/761830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/761830/capsule_616x353.jpg",
+      "$19.99",
+      "$3.79",
+      "81%",
+      null
+    ],
+    [
+      "The Pathless",
+      "https://store.steampowered.com/app/1492680/The_Pathless/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1492680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1492680/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Gorogoa",
+      "https://store.steampowered.com/app/557600/Gorogoa/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/557600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/557600/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Leisure Suit Larry - Wet Dreams Don't Dry",
+      "https://store.steampowered.com/app/765870/Leisure_Suit_Larry__Wet_Dreams_Dont_Dry/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/765870/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/765870/capsule_616x353.jpg",
+      "$29.99",
+      "$1.49",
+      "95%",
+      null
     ]
   ],
-  "update_time": "2026-02-22 21:47:39"
+  "update_time": "2026-02-23 05:49:40"
 }
