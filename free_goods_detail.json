@@ -1,5 +1,5 @@
 {
-  "total_count": 1737,
+  "total_count": 1741,
   "free_games": [
     [
       "Warframe",
@@ -9424,6 +9424,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/625340/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "s&box",
+      "https://store.steampowered.com/app/590830/sbox/?snr=1_7_7_230_150_19",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/590830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/590830/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -15016,7 +15024,37 @@
       "$1.49",
       "95%",
       null
+    ],
+    [
+      "Eternights",
+      "https://store.steampowered.com/app/1402110/Eternights/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1402110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1402110/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Among the Sleep - Enhanced Edition",
+      "https://store.steampowered.com/app/250620/Among_the_Sleep__Enhanced_Edition/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/250620/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/250620/capsule_616x353.jpg",
+      "$16.99",
+      "$4.24",
+      "75%",
+      null
+    ],
+    [
+      "Ashen",
+      "https://store.steampowered.com/app/649950/Ashen/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/649950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/649950/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-02-23 05:49:40"
+  "update_time": "2026-02-23 10:16:00"
 }
