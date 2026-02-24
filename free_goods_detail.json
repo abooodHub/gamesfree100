@@ -1,5 +1,5 @@
 {
-  "total_count": 1843,
+  "total_count": 1847,
   "free_games": [
     [
       "Warframe",
@@ -16010,7 +16010,47 @@
       "$2.99",
       "80%",
       null
+    ],
+    [
+      "Monster Hunter Rise + Sunbreak",
+      "https://store.steampowered.com/sub/692569/?snr=1_7_7_2300_150_1",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$59.99",
+      "$9.59",
+      "84%",
+      null
+    ],
+    [
+      "Retro City Rampage™ DX",
+      "https://store.steampowered.com/app/204630/Retro_City_Rampage_DX/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/204630/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/204630/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Super Galaxy Squadron EX Turbo",
+      "https://store.steampowered.com/app/345860/Super_Galaxy_Squadron_EX_Turbo/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/345860/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/345860/capsule_616x353.jpg",
+      "$9.99",
+      "$0.79",
+      "92%",
+      null
+    ],
+    [
+      "Disco Elysium - Soundtrack and Artbooklet",
+      "https://store.steampowered.com/app/1173140/Disco_Elysium__Soundtrack_and_Artbooklet/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1173140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1173140/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-02-24 10:10:43"
+  "update_time": "2026-02-24 16:23:45"
 }
