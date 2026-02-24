@@ -1,5 +1,5 @@
 {
-  "total_count": 1847,
+  "total_count": 1857,
   "free_games": [
     [
       "Warframe",
@@ -16050,7 +16050,107 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "The End Is Nigh",
+      "https://store.steampowered.com/app/583470/The_End_Is_Nigh/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/583470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/583470/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Redout: Enhanced Edition",
+      "https://store.steampowered.com/app/517710/Redout_Enhanced_Edition/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/517710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/517710/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Agents of Mayhem",
+      "https://store.steampowered.com/app/304530/Agents_of_Mayhem/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/304530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/304530/capsule_616x353.jpg",
+      "$29.99",
+      "$1.49",
+      "95%",
+      null
+    ],
+    [
+      "Railroad Corporation",
+      "https://store.steampowered.com/app/797400/Railroad_Corporation/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/797400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/797400/capsule_616x353.jpg",
+      "$35.99",
+      "$5.39",
+      "85%",
+      null
+    ],
+    [
+      "Saints Row: The Third - Gangstas in Space",
+      "https://store.steampowered.com/app/55381/Saints_Row_The_Third__Gangstas_in_Space/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/55381/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/55381/capsule_616x353.jpg",
+      "$6.99",
+      "$0.97",
+      "86%",
+      null
+    ],
+    [
+      "Saints Row The Third - Genkibowl VII",
+      "https://store.steampowered.com/app/55380/Saints_Row_The_Third__Genkibowl_VII/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/55380/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/55380/capsule_616x353.jpg",
+      "$6.99",
+      "$0.97",
+      "86%",
+      null
+    ],
+    [
+      "Red Faction",
+      "https://store.steampowered.com/app/20530/Red_Faction/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/20530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/20530/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Castle of Illusion",
+      "https://store.steampowered.com/app/227600/Castle_of_Illusion/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/227600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/227600/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Intravenous",
+      "https://store.steampowered.com/app/1486630/Intravenous/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1486630/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1486630/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "The Chant",
+      "https://store.steampowered.com/app/1577250/The_Chant/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1577250/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1577250/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-02-24 16:23:45"
+  "update_time": "2026-02-24 22:12:42"
 }
