@@ -1,5 +1,5 @@
 {
-  "total_count": 1908,
+  "total_count": 1910,
   "free_games": [
     [
       "Warframe",
@@ -10040,6 +10040,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3718700/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Chained Wheels Demo",
+      "https://store.steampowered.com/app/4371330/Chained_Wheels_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4371330/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4371330/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -16572,7 +16580,17 @@
       "$2.99",
       "80%",
       null
+    ],
+    [
+      "Super Bullet Break",
+      "https://store.steampowered.com/app/1767170/Super_Bullet_Break/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1767170/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1767170/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-02-25 10:11:43"
+  "update_time": "2026-02-25 16:22:58"
 }
