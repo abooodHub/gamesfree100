@@ -1,5 +1,5 @@
 {
-  "total_count": 1904,
+  "total_count": 1908,
   "free_games": [
     [
       "Warframe",
@@ -10016,6 +10016,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3638700/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "龙胤立志传 Demo",
+      "https://store.steampowered.com/app/3202030/_/?snr=1_7_7_230_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3202030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3202030/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Sherman Commander Demo",
+      "https://store.steampowered.com/app/4199530/Sherman_Commander_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4199530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4199530/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Water Margin Scrolls Demo",
+      "https://store.steampowered.com/app/3718700/Water_Margin_Scrolls_Demo/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3718700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3718700/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -16538,7 +16562,17 @@
       "$3.74",
       "75%",
       null
+    ],
+    [
+      "Worms Revolution",
+      "https://store.steampowered.com/app/200170/Worms_Revolution/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/200170/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/200170/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-02-25 05:47:43"
+  "update_time": "2026-02-25 10:11:43"
 }
