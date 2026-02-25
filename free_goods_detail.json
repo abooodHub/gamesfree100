@@ -1,5 +1,5 @@
 {
-  "total_count": 1910,
+  "total_count": 1915,
   "free_games": [
     [
       "Warframe",
@@ -16590,7 +16590,57 @@
       "$1.99",
       "90%",
       null
+    ],
+    [
+      "UFO ROBOT GRENDIZER – The Feast of the Wolves",
+      "https://store.steampowered.com/app/2295970/UFO_ROBOT_GRENDIZER__The_Feast_of_the_Wolves/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2295970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2295970/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Cardfight!! Vanguard Dear Days",
+      "https://store.steampowered.com/app/1881420/Cardfight_Vanguard_Dear_Days/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1881420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1881420/capsule_616x353.jpg",
+      "$69.99",
+      "$5.59",
+      "92%",
+      null
+    ],
+    [
+      "Battlefleet Gothic: Armada",
+      "https://store.steampowered.com/app/363680/Battlefleet_Gothic_Armada/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/363680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/363680/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "Beholder",
+      "https://store.steampowered.com/app/475550/Beholder/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/475550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/475550/capsule_616x353.jpg",
+      "$13.99",
+      "$1.67",
+      "88%",
+      null
+    ],
+    [
+      "Torchlight",
+      "https://store.steampowered.com/app/41500/Torchlight/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/41500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/41500/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-02-25 16:22:58"
+  "update_time": "2026-02-25 22:15:40"
 }
