@@ -1,5 +1,5 @@
 {
-  "total_count": 1936,
+  "total_count": 1941,
   "free_games": [
     [
       "Warframe",
@@ -16840,7 +16840,57 @@
       "$12.49",
       "75%",
       null
+    ],
+    [
+      "Aliens VS Predator Collection",
+      "https://store.steampowered.com/sub/27828/?snr=1_7_7_2300_150_6",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$23.99",
+      "$5.99",
+      "75%",
+      null
+    ],
+    [
+      "EDGE&TRIGGER",
+      "https://store.steampowered.com/sub/66335/?snr=1_7_7_2300_150_9",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$4.99",
+      "$0.49",
+      "90%",
+      null
+    ],
+    [
+      "The Red Lantern",
+      "https://store.steampowered.com/app/1053710/The_Red_Lantern/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1053710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1053710/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "SteamWorld Heist",
+      "https://store.steampowered.com/app/322190/SteamWorld_Heist/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/322190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/322190/capsule_616x353.jpg",
+      "$14.99",
+      "$1.04",
+      "93%",
+      null
+    ],
+    [
+      "White Shadows",
+      "https://store.steampowered.com/app/1158890/White_Shadows/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1158890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1158890/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-02-26 05:42:59"
+  "update_time": "2026-02-26 10:10:09"
 }
