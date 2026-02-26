@@ -1,5 +1,5 @@
 {
-  "total_count": 6,
+  "total_count": 8,
   "free_games": [
     [
       "Botany Manor",
@@ -60,9 +60,29 @@
       "Free",
       "خصم 100% - مجاني",
       "2026-02-26 16:00:00"
+    ],
+    [
+      "Boxes: Lost Fragments",
+      "https://store.epicgames.com/en-US/p/boxes-lost-fragments-079041",
+      "https://cdn1.epicgames.com/spt-assets/7f8e5cd71ae04eaeb7d782a5946db16f/boxes-lost-fragments-dbecx.png",
+      "Escape a lavish mansion full of mysterious puzzle boxes!",
+      "14.99 USD",
+      "Free",
+      "خصم 100% - مجاني",
+      "2026-03-05 16:00:00"
+    ],
+    [
+      "My Night Job",
+      "https://store.epicgames.com/en-US/p/my-night-job-a416a6",
+      "https://cdn1.epicgames.com/spt-assets/2f10ff8aadbb413a9f5b26bae07977af/my-night-job-1i7ei.jpg",
+      "My Night Job sends players into an abandoned building and sicks hordes of monsters on them. Using more than 60 weapons to defend themselves and save as many survivors as possible. But beware – if too many rooms are thrashed, the end may be nigh-er than you originally thought.",
+      "9.99 USD",
+      "Free",
+      "خصم 100% - مجاني",
+      "2026-03-05 16:00:00"
     ]
   ],
   "discounted_games": [],
-  "update_time": "2026-02-26 16:23:47",
+  "update_time": "2026-02-26 22:02:25",
   "source": "Epic Games Store"
 }
