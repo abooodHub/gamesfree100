@@ -1,5 +1,5 @@
 {
-  "total_count": 1915,
+  "total_count": 1936,
   "free_games": [
     [
       "Warframe",
@@ -10048,6 +10048,46 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4371330/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "WILL: Follow the Light Demo",
+      "https://store.steampowered.com/app/4393620/WILL_Follow_the_Light_Demo/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4393620/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4393620/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "PAPERHEAD Demo",
+      "https://store.steampowered.com/app/2682750/PAPERHEAD_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2682750/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2682750/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Nested Lands Demo",
+      "https://store.steampowered.com/app/2553040/Nested_Lands/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2553040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2553040/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Sector 13: Haunted Woods Demo",
+      "https://store.steampowered.com/app/4287920/Sector_13_Haunted_Woods_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4287920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4287920/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "ULTRAKILL Demo",
+      "https://store.steampowered.com/app/1229490/ULTRAKILL/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1229490/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1229490/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -16640,7 +16680,167 @@
       "$2.99",
       "80%",
       null
+    ],
+    [
+      "Cat Quest II",
+      "https://store.steampowered.com/app/914710/Cat_Quest_II/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/914710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/914710/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "LEGO® Bricktales",
+      "https://store.steampowered.com/app/1898290/LEGO_Bricktales/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1898290/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1898290/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Aliens VS Predator Collection",
+      "https://store.steampowered.com/sub/27828/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$23.99",
+      "$5.99",
+      "75%",
+      null
+    ],
+    [
+      "SteamWorld Dig 2",
+      "https://store.steampowered.com/app/571310/SteamWorld_Dig_2/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/571310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/571310/capsule_616x353.jpg",
+      "$19.99",
+      "$1.19",
+      "94%",
+      null
+    ],
+    [
+      "Spirit of the North",
+      "https://store.steampowered.com/app/1213700/Spirit_of_the_North/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1213700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1213700/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "SteamWorld Build",
+      "https://store.steampowered.com/app/2134770/SteamWorld_Build/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2134770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2134770/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Total War: Medieval II - Definitive Edition",
+      "https://store.steampowered.com/sub/460/?snr=1_7_7_2300_150_4",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "SteamWorld Heist II",
+      "https://store.steampowered.com/app/2396240/SteamWorld_Heist_II/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2396240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2396240/capsule_616x353.jpg",
+      "$38.23",
+      "$9.29",
+      "76%",
+      null
+    ],
+    [
+      "Cat Quest",
+      "https://store.steampowered.com/app/593280/Cat_Quest/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/593280/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/593280/capsule_616x353.jpg",
+      "$12.99",
+      "$2.59",
+      "80%",
+      null
+    ],
+    [
+      "The Gunk",
+      "https://store.steampowered.com/app/1087760/The_Gunk/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1087760/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1087760/capsule_616x353.jpg",
+      "$24.99",
+      "$1.24",
+      "95%",
+      null
+    ],
+    [
+      "Wavetale",
+      "https://store.steampowered.com/app/1823930/Wavetale/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1823930/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1823930/capsule_616x353.jpg",
+      "$29.99",
+      "$1.49",
+      "95%",
+      null
+    ],
+    [
+      "Garfield Lasagna Party",
+      "https://store.steampowered.com/app/2008410/Garfield_Lasagna_Party/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2008410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2008410/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Patron",
+      "https://store.steampowered.com/app/1538570/Patron/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1538570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1538570/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Project Warlock",
+      "https://store.steampowered.com/app/893680/Project_Warlock/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/893680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/893680/capsule_616x353.jpg",
+      "$12.00",
+      "$2.40",
+      "80%",
+      null
+    ],
+    [
+      "SteamWorld Quest: Hand of Gilgamech",
+      "https://store.steampowered.com/app/804010/SteamWorld_Quest_Hand_of_Gilgamech/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/804010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/804010/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "IL-2 Sturmovik: Battle of Kuban",
+      "https://store.steampowered.com/app/629700/IL2_Sturmovik_Battle_of_Kuban/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/629700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/629700/capsule_616x353.jpg",
+      "$49.99",
+      "$12.49",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-02-25 22:15:40"
+  "update_time": "2026-02-26 05:42:59"
 }
