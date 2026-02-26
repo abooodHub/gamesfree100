@@ -1,5 +1,5 @@
 {
-  "total_count": 1941,
+  "total_count": 1942,
   "free_games": [
     [
       "Warframe",
@@ -16890,7 +16890,17 @@
       "$1.99",
       "90%",
       null
+    ],
+    [
+      "Mayhem Brawler",
+      "https://store.steampowered.com/app/1306720/Mayhem_Brawler/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1306720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1306720/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-02-26 10:10:09"
+  "update_time": "2026-02-26 16:23:47"
 }
