@@ -1,5 +1,5 @@
 {
-  "total_count": 2134,
+  "total_count": 2140,
   "free_games": [
     [
       "Warframe",
@@ -18776,7 +18776,67 @@
       "$2.99",
       "90%",
       null
+    ],
+    [
+      "Broforce",
+      "https://store.steampowered.com/app/274190/Broforce/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/274190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/274190/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "EDGE&TRIGGER",
+      "https://store.steampowered.com/sub/66335/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$4.99",
+      "$0.49",
+      "90%",
+      null
+    ],
+    [
+      "Streets of Rogue",
+      "https://store.steampowered.com/app/512900/Streets_of_Rogue/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/512900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/512900/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Might & Magic: Heroes VI",
+      "https://store.steampowered.com/app/48220/Might__Magic_Heroes_VI/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/48220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/48220/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "WRC 6 FIA World Rally Championship",
+      "https://store.steampowered.com/app/458770/WRC_6_FIA_World_Rally_Championship/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/458770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/458770/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "Transference™",
+      "https://store.steampowered.com/app/647570/Transference/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/647570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/647570/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-02-27 10:04:27"
+  "update_time": "2026-02-27 16:15:06"
 }
