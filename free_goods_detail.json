@@ -1,5 +1,5 @@
 {
-  "total_count": 2140,
+  "total_count": 2161,
   "free_games": [
     [
       "Warframe",
@@ -10264,6 +10264,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3071240/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Jujutsu Kaisen Phantom Parade",
+      "https://store.steampowered.com/app/4224240/Jujutsu_Kaisen_Phantom_Parade/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4224240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4224240/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Wild West Pioneers Demo",
+      "https://store.steampowered.com/app/3222640/Wild_West_Pioneers/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3222640/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3222640/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -18836,7 +18852,197 @@
       "$4.99",
       "80%",
       null
+    ],
+    [
+      "War Hospital",
+      "https://store.steampowered.com/app/1553000/War_Hospital/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1553000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1553000/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Vampyr",
+      "https://store.steampowered.com/app/427290/Vampyr/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/427290/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/427290/capsule_616x353.jpg",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
+    ],
+    [
+      "Friends vs Friends",
+      "https://store.steampowered.com/app/1785150/Friends_vs_Friends/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1785150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1785150/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Slime Rancher",
+      "https://store.steampowered.com/app/433340/Slime_Rancher/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Workers & Resources: Soviet Republic",
+      "https://store.steampowered.com/app/784150/Workers__Resources_Soviet_Republic/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/784150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/784150/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Darkwood",
+      "https://store.steampowered.com/app/274520/Darkwood/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/274520/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/274520/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Of Orcs And Men",
+      "https://store.steampowered.com/app/216910/Of_Orcs_And_Men/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/216910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/216910/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "Bum Simulator",
+      "https://store.steampowered.com/app/855740/Bum_Simulator/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/855740/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/855740/capsule_616x353.jpg",
+      "$19.99",
+      "$4.79",
+      "76%",
+      null
+    ],
+    [
+      "Moonglow Bay",
+      "https://store.steampowered.com/app/1361400/Moonglow_Bay/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1361400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1361400/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "Outcast - Second Contact",
+      "https://store.steampowered.com/app/618970/Outcast__Second_Contact/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/618970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/618970/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "Rogue Lords",
+      "https://store.steampowered.com/app/1069690/Rogue_Lords/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1069690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1069690/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "Rytmik Ultimate",
+      "https://store.steampowered.com/app/375840/Rytmik_Ultimate/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/375840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/375840/capsule_616x353.jpg",
+      "$17.99",
+      "$1.79",
+      "90%",
+      null
+    ],
+    [
+      "Assassin’s CreedⓇ Odyssey – Legacy of the First Blade",
+      "https://store.steampowered.com/app/937891/Assassins_CreedR_Odyssey__Legacy_of_the_First_Blade/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/937891/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/937891/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Call of the Sea",
+      "https://store.steampowered.com/app/1042490/Call_of_the_Sea/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1042490/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1042490/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Rytmik Studio",
+      "https://store.steampowered.com/app/657280/Rytmik_Studio/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/657280/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/657280/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Gas Guzzlers Extreme",
+      "https://store.steampowered.com/app/243800/Gas_Guzzlers_Extreme/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/243800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/243800/capsule_616x353.jpg",
+      "$24.99",
+      "$3.74",
+      "85%",
+      null
+    ],
+    [
+      "Shadow Gambit: The Cursed Crew",
+      "https://store.steampowered.com/app/1545560/Shadow_Gambit_The_Cursed_Crew/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1545560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1545560/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Tom Clancy’s The Division™ - Survival",
+      "https://store.steampowered.com/app/556470/Tom_Clancys_The_Division__Survival/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/556470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/556470/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "Just Move:Clean City Messy Battle",
+      "https://store.steampowered.com/app/3414900/Just_MoveClean_City_Messy_Battle/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3414900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3414900/capsule_616x353.jpg",
+      "$7.20",
+      "$0.00",
+      "100%",
+      null
     ]
   ],
-  "update_time": "2026-02-27 16:15:06"
+  "update_time": "2026-02-27 21:56:12"
 }
