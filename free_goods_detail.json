@@ -1,5 +1,5 @@
 {
-  "total_count": 2124,
+  "total_count": 2134,
   "free_games": [
     [
       "Warframe",
@@ -10232,6 +10232,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3426800/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Warlords Battleground: Extraction Demo",
+      "https://store.steampowered.com/app/3684510/Warlords_Battleground_Extraction_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3684510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3684510/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Pandora's Toybox Demo",
+      "https://store.steampowered.com/app/3030190/Pandoras_Toybox/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3030190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3030190/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "How to Make an Atomic Bomb in Your Garden Demo",
+      "https://store.steampowered.com/app/3700980/How_to_Make_an_Atomic_Bomb_in_Your_Garden/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3700980/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3700980/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Voodoo Fishin' Demo",
+      "https://store.steampowered.com/app/3071240/Voodoo_Fishin/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3071240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3071240/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -18684,7 +18716,67 @@
       "$2.49",
       "75%",
       null
+    ],
+    [
+      "EDGE&TRIGGER",
+      "https://store.steampowered.com/sub/66335/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$4.99",
+      "$0.49",
+      "90%",
+      null
+    ],
+    [
+      "Tom Clancy's Ghost Recon® Wildlands - Fallen Ghosts",
+      "https://store.steampowered.com/app/573832/Tom_Clancys_Ghost_Recon_Wildlands__Fallen_Ghosts/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/573832/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/573832/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "WRC 8 FIA World Rally Championship",
+      "https://store.steampowered.com/app/1004750/WRC_8_FIA_World_Rally_Championship/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1004750/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1004750/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Silent Hunter®: Wolves of the Pacific U-Boat Missions",
+      "https://store.steampowered.com/app/15240/Silent_Hunter_Wolves_of_the_Pacific_UBoat_Missions/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/15240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/15240/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Assassin’s CreedⓇ Odyssey - The Fate of Atlantis",
+      "https://store.steampowered.com/app/937892/Assassins_CreedR_Odyssey__The_Fate_of_Atlantis/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/937892/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/937892/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "TT Isle of Man: Ride on the Edge 2",
+      "https://store.steampowered.com/app/1082180/TT_Isle_of_Man_Ride_on_the_Edge_2/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1082180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1082180/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-02-27 05:41:36"
+  "update_time": "2026-02-27 10:04:27"
 }
