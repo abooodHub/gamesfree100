@@ -1,5 +1,5 @@
 {
-  "total_count": 2186,
+  "total_count": 2190,
   "free_games": [
     [
       "Warframe",
@@ -19282,7 +19282,47 @@
       "$1.49",
       "90%",
       null
+    ],
+    [
+      "Silent Hunter 5®: Battle of the Atlantic",
+      "https://store.steampowered.com/app/48110/Silent_Hunter_5_Battle_of_the_Atlantic/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/48110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/48110/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Assassin's Creed® Valhalla - The Siege of Paris",
+      "https://store.steampowered.com/app/2210141/Assassins_Creed_Valhalla__The_Siege_of_Paris/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2210141/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2210141/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "King's Bounty II",
+      "https://store.steampowered.com/app/1135300/Kings_Bounty_II/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1135300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1135300/capsule_616x353.jpg",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
+    ],
+    [
+      "Far Cry® 4 Valley of the Yetis",
+      "https://store.steampowered.com/app/324344/Far_Cry_4_Valley_of_the_Yetis/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/324344/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/324344/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-02-28 16:00:34"
+  "update_time": "2026-02-28 21:43:04"
 }
