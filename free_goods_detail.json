@@ -1,5 +1,5 @@
 {
-  "total_count": 2161,
+  "total_count": 2180,
   "free_games": [
     [
       "Warframe",
@@ -10280,6 +10280,46 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3222640/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Cards and Castles Ultimate",
+      "https://store.steampowered.com/app/3684810/Cards_and_Castles_Ultimate/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3684810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3684810/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Thank You For Your Application Demo",
+      "https://store.steampowered.com/app/3640210/Thank_You_For_Your_Application_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3640210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3640210/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Approximately Up Demo",
+      "https://store.steampowered.com/app/3904850/Approximately_Up/?snr=1_7_7_230_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3904850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3904850/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Ardenfall Demo",
+      "https://store.steampowered.com/app/1837770/Ardenfall_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1837770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1837770/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Antivirus Survivors 2003 Professional Demo",
+      "https://store.steampowered.com/app/4320630/Antivirus_Survivors_2003_Professional_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4320630/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4320630/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -19042,7 +19082,147 @@
       "$0.00",
       "100%",
       null
+    ],
+    [
+      "Haydee 2",
+      "https://store.steampowered.com/app/1444650/Haydee_2/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1444650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1444650/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Othercide",
+      "https://store.steampowered.com/app/798490/Othercide/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/798490/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/798490/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "BLACKTAIL",
+      "https://store.steampowered.com/app/1532690/BLACKTAIL/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1532690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1532690/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Kathy Rain: Director's Cut",
+      "https://store.steampowered.com/app/1395030/Kathy_Rain_Directors_Cut/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1395030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1395030/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Haydee",
+      "https://store.steampowered.com/app/530890/Haydee/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/530890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/530890/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "GemCraft - Chasing Shadows",
+      "https://store.steampowered.com/app/296490/GemCraft__Chasing_Shadows/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/296490/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/296490/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Barn Finders",
+      "https://store.steampowered.com/app/991170/Barn_Finders/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/991170/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/991170/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Severed Steel",
+      "https://store.steampowered.com/app/1227690/Severed_Steel/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1227690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1227690/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "Bilkins' Folly",
+      "https://store.steampowered.com/app/1526370/Bilkins_Folly/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1526370/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1526370/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Don't Escape Trilogy",
+      "https://store.steampowered.com/app/1070550/Dont_Escape_Trilogy/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1070550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1070550/capsule_616x353.jpg",
+      "$4.99",
+      "$1.24",
+      "75%",
+      null
+    ],
+    [
+      "Soundfall",
+      "https://store.steampowered.com/app/1608700/Soundfall/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1608700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1608700/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Deep Sleep Trilogy",
+      "https://store.steampowered.com/app/1146510/Deep_Sleep_Trilogy/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1146510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1146510/capsule_616x353.jpg",
+      "$4.99",
+      "$1.24",
+      "75%",
+      null
+    ],
+    [
+      "Panzer Corps Gold",
+      "https://store.steampowered.com/app/268400/Panzer_Corps_Gold/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/268400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/268400/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "The Unliving",
+      "https://store.steampowered.com/app/986040/The_Unliving/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/986040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/986040/capsule_616x353.jpg",
+      "$16.99",
+      "$3.39",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-02-27 21:56:12"
+  "update_time": "2026-02-28 05:30:45"
 }
