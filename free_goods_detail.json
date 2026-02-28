@@ -1,5 +1,5 @@
 {
-  "total_count": 2180,
+  "total_count": 2182,
   "free_games": [
     [
       "Warframe",
@@ -19222,7 +19222,27 @@
       "$3.39",
       "80%",
       null
+    ],
+    [
+      "Kingdom Come: Deliverance Royal Edition",
+      "https://store.steampowered.com/sub/368776/?snr=1_7_7_2300_150_2",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Assassin's Creed® Valhalla - Wrath of the Druids",
+      "https://store.steampowered.com/app/2210142/Assassins_Creed_Valhalla__Wrath_of_the_Druids/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2210142/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2210142/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-02-28 05:30:45"
+  "update_time": "2026-02-28 09:51:12"
 }
