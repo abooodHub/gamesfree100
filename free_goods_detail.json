@@ -1,5 +1,5 @@
 {
-  "total_count": 2182,
+  "total_count": 2186,
   "free_games": [
     [
       "Warframe",
@@ -19242,7 +19242,47 @@
       "$6.24",
       "75%",
       null
+    ],
+    [
+      "Pinstripe",
+      "https://store.steampowered.com/app/331480/Pinstripe/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/331480/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/331480/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "Whispers of a Machine",
+      "https://store.steampowered.com/app/631570/Whispers_of_a_Machine/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/631570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/631570/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Tails Noir",
+      "https://store.steampowered.com/app/865610/Tails_Noir/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/865610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/865610/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Never Give Up",
+      "https://store.steampowered.com/app/609420/Never_Give_Up/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/609420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/609420/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-02-28 09:51:12"
+  "update_time": "2026-02-28 16:00:34"
 }
