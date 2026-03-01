@@ -1,5 +1,5 @@
 {
-  "total_count": 2190,
+  "total_count": 2198,
   "free_games": [
     [
       "Warframe",
@@ -10320,6 +10320,46 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4320630/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "HAM: The Game Demo",
+      "https://store.steampowered.com/app/4019090/HAM_The_Game/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4019090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4019090/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "アイドルと〇〇しちゃダメですか？ - 無料完結版 -",
+      "https://store.steampowered.com/app/4067070/Can_I_Not_Fall_for_Idols/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4067070/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4067070/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Thrifty Business Demo",
+      "https://store.steampowered.com/app/3693650/Thrifty_Business/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3693650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3693650/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Star Wars Outlaws - Free Demo",
+      "https://store.steampowered.com/app/3515950/Star_Wars_Outlaws__Free_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3515950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3515950/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Zad Archery (Demo)",
+      "https://store.steampowered.com/app/4432820/Zad_Archery_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4432820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4432820/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -19322,7 +19362,37 @@
       "$2.99",
       "80%",
       null
+    ],
+    [
+      "Blade Runner: Enhanced Edition",
+      "https://store.steampowered.com/app/1678420/Blade_Runner_Enhanced_Edition/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1678420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1678420/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "OddBallers",
+      "https://store.steampowered.com/app/1064070/OddBallers/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1064070/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1064070/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "FlatOut 4: Total Insanity",
+      "https://store.steampowered.com/app/402130/FlatOut_4_Total_Insanity/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/402130/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/402130/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-02-28 21:43:04"
+  "update_time": "2026-03-01 05:56:46"
 }
