@@ -1,5 +1,5 @@
 {
-  "total_count": 2198,
+  "total_count": 2199,
   "free_games": [
     [
       "Warframe",
@@ -19392,7 +19392,17 @@
       "$5.99",
       "80%",
       null
+    ],
+    [
+      "Shakedown: Hawaii",
+      "https://store.steampowered.com/app/598730/Shakedown_Hawaii/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/598730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/598730/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-03-01 09:56:48"
+  "update_time": "2026-03-01 16:04:18"
 }
