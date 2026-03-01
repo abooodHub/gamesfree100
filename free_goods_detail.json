@@ -1,5 +1,5 @@
 {
-  "total_count": 2199,
+  "total_count": 2202,
   "free_games": [
     [
       "Warframe",
@@ -19402,7 +19402,37 @@
       "$3.99",
       "80%",
       null
+    ],
+    [
+      "Trailmakers",
+      "https://store.steampowered.com/app/585420/Trailmakers/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/585420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/585420/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Alba: A Wildlife Adventure",
+      "https://store.steampowered.com/app/1337010/Alba_A_Wildlife_Adventure/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1337010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1337010/capsule_616x353.jpg",
+      "$16.99",
+      "$2.54",
+      "85%",
+      null
+    ],
+    [
+      "Assemble with Care",
+      "https://store.steampowered.com/app/1202900/Assemble_with_Care/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1202900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1202900/capsule_616x353.jpg",
+      "$7.99",
+      "$1.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-03-01 16:04:18"
+  "update_time": "2026-03-01 21:44:37"
 }
