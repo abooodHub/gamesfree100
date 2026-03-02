@@ -1,5 +1,5 @@
 {
-  "total_count": 2202,
+  "total_count": 2212,
   "free_games": [
     [
       "Warframe",
@@ -10360,6 +10360,54 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4432820/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Underkeep Demo",
+      "https://store.steampowered.com/app/4346510/Underkeep_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4346510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4346510/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "MMO 98 Demo",
+      "https://store.steampowered.com/app/3907940/MMO_98/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3907940/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3907940/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Pratfall Demo",
+      "https://store.steampowered.com/app/4296600/Pratfall_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4296600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4296600/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "我的美味丈夫 Demo",
+      "https://store.steampowered.com/app/4216120/_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4216120/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4216120/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Ant Colony: Wild Forest Demo",
+      "https://store.steampowered.com/app/4054570/Ant_Colony_Wild_Forest_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4054570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4054570/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "颈椎病 Stiff Neck Demo",
+      "https://store.steampowered.com/app/4000090/Stiff_Neck/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4000090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4000090/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -19432,7 +19480,47 @@
       "$1.99",
       "75%",
       null
+    ],
+    [
+      "Despot's Game: Dystopian Battle Simulator",
+      "https://store.steampowered.com/app/1227280/Despots_Game_Dystopian_Battle_Simulator/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1227280/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1227280/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Dungeons of Sundaria",
+      "https://store.steampowered.com/app/587520/Dungeons_of_Sundaria/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/587520/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/587520/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Rubber Bandits",
+      "https://store.steampowered.com/app/1206610/Rubber_Bandits/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1206610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1206610/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Connection: The Nightmare Within",
+      "https://store.steampowered.com/app/2463620/Connection_The_Nightmare_Within/?snr=1_7_7_2300_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2463620/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2463620/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-03-01 21:44:37"
+  "update_time": "2026-03-02 05:44:18"
 }
