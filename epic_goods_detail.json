@@ -1,86 +1,6 @@
 {
-  "total_count": 10,
+  "total_count": 2,
   "free_games": [
-    [
-      "Botany Manor",
-      "https://store.epicgames.com/en-US/p/botany-manor-e7c456",
-      "https://cdn1.epicgames.com/spt-assets/42d56a88c22d4eaa8977bf5528a2396b/botany-manor-1f7uq.jpg",
-      "Welcome to Botany Manor, a stately home in 19th century England. You play as inhabitant Arabella Greene, a retired botanist. Explore your house and gardens, filled with research, to figure out the ideal habitat of forgotten flora.",
-      "24.99 USD",
-      "Free",
-      "خصم 100% - مجاني",
-      "2026-02-12 16:00:00"
-    ],
-    [
-      "Poison Retro Set",
-      "https://store.epicgames.com/en-US/p/pixel-gun-3d-812855",
-      "https://cdn1.epicgames.com/spt-assets/65338dc60d204dcb98752745bab52374/pixel-gun-3d-1pp3a.jpg",
-      "Step back in time and forward into battle with the Poison Retro Set, inspired by the electrifying Arcade Season.",
-      "24.99 USD",
-      "Free",
-      "خصم 100% - مجاني",
-      "2026-02-12 16:00:00"
-    ],
-    [
-      "The Darkside Detective A Fumble in the Dark",
-      "https://store.epicgames.com/en-US/p/the-darkside-detective-a-fumble-in-the-dark-174fcf",
-      "https://cdn1.epicgames.com/spt-assets/0638bcc62d9f4ba2a53eb9093c54be31/the-darkside-detective-a-fumble-in-the-dark-offer-501mw.jpg",
-      "Join Detective McQueen as he puzzles his way through 6 cases, risking life and pixelated limb to solve the macabre mysteries that plague the poor town.",
-      "14.99 USD",
-      "Free",
-      "خصم 100% - مجاني",
-      "2026-02-19 16:00:00"
-    ],
-    [
-      "Nobody Wants to Die",
-      "https://store.epicgames.com/en-US/p/nobody-wants-to-die-fe21cd",
-      "https://cdn1.epicgames.com/spt-assets/dece0016082647a6af5759dbbedfc8eb/nobody-wants-to-die-13stz.jpg",
-      "Lose yourself in the dystopian world of New York, 2329. In this interactive noir story, lead the investigation using advanced technology as Detective James Karra, who risks it all in pursuit of a serial killer targeting the city’s elite.",
-      "24.99 USD",
-      "Free",
-      "خصم 100% - مجاني",
-      "2026-02-19 16:00:00"
-    ],
-    [
-      "Return to Ash",
-      "https://store.epicgames.com/en-US/p/return-to-ash-dee3ff",
-      "https://cdn1.epicgames.com/spt-assets/07c1bf7c44dc4c2e8567923f03c7d307/return-to-ash-qcdax.png",
-      "“The hospital was empty. Quiet, and brighter than usual... like waking up on a snow day. But I didn't feel cold. I didn't feel much of anything.”",
-      "5.99 USD",
-      "Free",
-      "خصم 100% - مجاني",
-      "2026-02-26 16:00:00"
-    ],
-    [
-      "STALCRAFT: X Starter Edition",
-      "https://store.epicgames.com/en-US/p/stalcraft-x-057c4a",
-      "https://cdn1.epicgames.com/spt-assets/bed02187768e44afb05319f40660d9fa/stalcraft-x-1gxje.jpg",
-      "STALCRAFT: X is a free-to-play MMOFPS with RPG elements.\n\nStart exploring the world of the Zone with a Starter Pack. It includes everything you need for your initial raids: a 7-day Premium, weapons, armor, artifacts, and cosmetics.",
-      "24.99 USD",
-      "Free",
-      "خصم 100% - مجاني",
-      "2026-02-26 16:00:00"
-    ],
-    [
-      "Boxes: Lost Fragments",
-      "https://store.epicgames.com/en-US/p/boxes-lost-fragments-079041",
-      "https://cdn1.epicgames.com/spt-assets/7f8e5cd71ae04eaeb7d782a5946db16f/boxes-lost-fragments-dbecx.png",
-      "Escape a lavish mansion full of mysterious puzzle boxes!",
-      "14.99 USD",
-      "Free",
-      "خصم 100% - مجاني",
-      "2026-03-05 16:00:00"
-    ],
-    [
-      "My Night Job",
-      "https://store.epicgames.com/en-US/p/my-night-job-a416a6",
-      "https://cdn1.epicgames.com/spt-assets/2f10ff8aadbb413a9f5b26bae07977af/my-night-job-1i7ei.jpg",
-      "My Night Job sends players into an abandoned building and sicks hordes of monsters on them. Using more than 60 weapons to defend themselves and save as many survivors as possible. But beware – if too many rooms are thrashed, the end may be nigh-er than you originally thought.",
-      "9.99 USD",
-      "Free",
-      "خصم 100% - مجاني",
-      "2026-03-05 16:00:00"
-    ],
     [
       "Idle Champions of the Forgotten Realms",
       "https://store.epicgames.com/en-US/p/idle-champions-of-the-forgotten-realms",
@@ -103,6 +23,6 @@
     ]
   ],
   "discounted_games": [],
-  "update_time": "2026-03-07 16:03:17",
+  "update_time": "2026-03-08 01:03:50",
   "source": "Epic Games Store"
 }
