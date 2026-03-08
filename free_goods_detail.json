@@ -1,5 +1,5 @@
 {
-  "total_count": 1271,
+  "total_count": 1295,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -8360,6 +8360,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1342260/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Rift Fishing Demo",
+      "https://store.steampowered.com/app/4406650/Rift_Fishing_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4406650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4406650/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -10622,7 +10630,237 @@
       "$2.99",
       "90%",
       null
+    ],
+    [
+      "Tom Clancy's Rainbow Six® Vegas 2",
+      "https://store.steampowered.com/app/15120/Tom_Clancys_Rainbow_Six_Vegas_2/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/15120/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/15120/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Zombie Army Trilogy",
+      "https://store.steampowered.com/app/301640/Zombie_Army_Trilogy/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/301640/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/301640/capsule_616x353.jpg",
+      "$44.99",
+      "$4.49",
+      "90%",
+      null
+    ],
+    [
+      "The Forgotten City",
+      "https://store.steampowered.com/app/874260/The_Forgotten_City/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/874260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/874260/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "The Walking Dead: A New Frontier",
+      "https://store.steampowered.com/app/536220/The_Walking_Dead_A_New_Frontier/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/536220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/536220/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Styx: Shards of Darkness",
+      "https://store.steampowered.com/app/355790/Styx_Shards_of_Darkness/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/355790/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/355790/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Anno 2205™",
+      "https://store.steampowered.com/app/375910/Anno_2205/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/375910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/375910/capsule_616x353.jpg",
+      "$39.99",
+      "$5.99",
+      "85%",
+      null
+    ],
+    [
+      "Clustertruck",
+      "https://store.steampowered.com/app/397950/Clustertruck/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/397950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/397950/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Broforce",
+      "https://store.steampowered.com/app/274190/Broforce/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/274190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/274190/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "The Crew Motorfest | Year 1 Pass",
+      "https://store.steampowered.com/app/2805000/The_Crew_Motorfest__Year_1_Pass/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2805000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2805000/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Warhammer: End Times - Vermintide",
+      "https://store.steampowered.com/app/235540/Warhammer_End_Times__Vermintide/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/235540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/235540/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Cat Quest II",
+      "https://store.steampowered.com/app/914710/Cat_Quest_II/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/914710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/914710/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Hacknet",
+      "https://store.steampowered.com/app/365450/Hacknet/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/365450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/365450/capsule_616x353.jpg",
+      "$9.99",
+      "$1.49",
+      "85%",
+      null
+    ],
+    [
+      "Tinykin",
+      "https://store.steampowered.com/app/1599020/Tinykin/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1599020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1599020/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Just Die Already",
+      "https://store.steampowered.com/app/979070/Just_Die_Already/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/979070/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/979070/capsule_616x353.jpg",
+      "$14.99",
+      "$2.24",
+      "85%",
+      null
+    ],
+    [
+      "WRC 5 FIA World Rally Championship",
+      "https://store.steampowered.com/app/354160/WRC_5_FIA_World_Rally_Championship/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/354160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/354160/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "LEGO® Batman™ 2: DC Super Heroes",
+      "https://store.steampowered.com/app/213330/LEGO_Batman_2_DC_Super_Heroes/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/213330/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/213330/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Flintlock: The Siege of Dawn",
+      "https://store.steampowered.com/app/1832040/Flintlock_The_Siege_of_Dawn/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1832040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1832040/capsule_616x353.jpg",
+      "$44.99",
+      "$11.24",
+      "75%",
+      null
+    ],
+    [
+      "LEGO® Bricktales",
+      "https://store.steampowered.com/app/1898290/LEGO_Bricktales/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1898290/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1898290/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Hadley's Run: A Starship Saga",
+      "https://store.steampowered.com/app/2855990/Hadleys_Run_A_Starship_Saga/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2855990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2855990/capsule_616x353.jpg",
+      "$11.99",
+      "$2.99",
+      "75%",
+      null
+    ],
+    [
+      "Worms Revolution",
+      "https://store.steampowered.com/app/200170/Worms_Revolution/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/200170/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/200170/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Might & Magic® Heroes® VII",
+      "https://store.steampowered.com/app/321960/Might__Magic_Heroes_VII/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/321960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/321960/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Anno 2070™",
+      "https://store.steampowered.com/app/48240/Anno_2070/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/48240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/48240/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Car Mechanic Simulator 2015",
+      "https://store.steampowered.com/app/320300/Car_Mechanic_Simulator_2015/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/320300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/320300/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-03-08 09:45:43"
+  "update_time": "2026-03-08 15:52:33"
 }
