@@ -1,5 +1,5 @@
 {
-  "total_count": 1295,
+  "total_count": 1298,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -8368,6 +8368,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4406650/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "VEIN Demo",
+      "https://store.steampowered.com/app/1857950/VEIN/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1857950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1857950/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -10860,7 +10868,27 @@
       "$1.99",
       "90%",
       null
+    ],
+    [
+      "Hello Neighbor 2",
+      "https://store.steampowered.com/app/1321680/Hello_Neighbor_2/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1321680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1321680/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "100% Orange Juice",
+      "https://store.steampowered.com/app/282800/100_Orange_Juice/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/282800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/282800/capsule_616x353.jpg",
+      "$6.99",
+      "$1.04",
+      "85%",
+      null
     ]
   ],
-  "update_time": "2026-03-08 15:52:33"
+  "update_time": "2026-03-08 21:37:01"
 }
