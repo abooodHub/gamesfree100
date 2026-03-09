@@ -1,5 +1,5 @@
 {
-  "total_count": 1318,
+  "total_count": 1323,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -8448,6 +8448,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4380990/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Huaxia: Warring States Demo",
+      "https://store.steampowered.com/app/2675160/Huaxia_Warring_States_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2675160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2675160/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "凡人修仙传奇",
+      "https://store.steampowered.com/app/3814570/_/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3814570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3814570/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "PngTuber Maker",
+      "https://store.steampowered.com/app/2266940/PngTuber_Maker/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2266940/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2266940/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Infected Shelter",
+      "https://store.steampowered.com/app/926390/Infected_Shelter/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/926390/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/926390/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11070,7 +11102,17 @@
       "$3.74",
       "75%",
       null
+    ],
+    [
+      "Sudden Strike 4",
+      "https://store.steampowered.com/app/373930/Sudden_Strike_4/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/373930/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/373930/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
     ]
   ],
-  "update_time": "2026-03-09 05:13:19"
+  "update_time": "2026-03-09 10:04:42"
 }
