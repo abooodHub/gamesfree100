@@ -1,5 +1,5 @@
 {
-  "total_count": 1298,
+  "total_count": 1318,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -8376,6 +8376,78 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1857950/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "MR DONALD: SAVE VATICAN",
+      "https://store.steampowered.com/app/3520250/MR_DONALD_SAVE_VATICAN/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3520250/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3520250/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Trash Goblin Demo",
+      "https://store.steampowered.com/app/2407830/Trash_Goblin/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2407830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2407830/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Minus Nine",
+      "https://store.steampowered.com/app/4406640/Minus_Nine/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4406640/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4406640/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Deep Dish Dungeon Demo",
+      "https://store.steampowered.com/app/3618740/Deep_Dish_Dungeon_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3618740/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3618740/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Woman Simulator Demo",
+      "https://store.steampowered.com/app/4366130/Woman_Simulator_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4366130/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4366130/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Retro Rewind - Video Store Simulator Demo",
+      "https://store.steampowered.com/app/3858710/Retro_Rewind__Video_Store_Simulator_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3858710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3858710/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Unfortunate Spacemen",
+      "https://store.steampowered.com/app/408900/Unfortunate_Spacemen/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/408900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/408900/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Royal Vermin",
+      "https://store.steampowered.com/app/3660580/Royal_Vermin/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3660580/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3660580/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "The Spotter: Dig or Die Demo",
+      "https://store.steampowered.com/app/4380990/The_Spotter_Dig_or_Die_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4380990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4380990/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -9338,16 +9410,6 @@
       "8.48 SR",
       "75%",
       null
-    ],
-    [
-      "Sudden Strike 4",
-      "https://store.steampowered.com/app/373930/Sudden_Strike_4/?snr=1_7_7_2300_150_4",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/373930/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/373930/capsule_616x353.jpg",
-      "54.95 SR",
-      "8.24 SR",
-      "85%",
-      "2026-03-09 00:00:00"
     ],
     [
       "Cardfight!! Vanguard Dear Days",
@@ -10888,7 +10950,127 @@
       "$1.04",
       "85%",
       null
+    ],
+    [
+      "Steelrising",
+      "https://store.steampowered.com/app/1283400/Steelrising/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/capsule_616x353.jpg",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "Tavern Master",
+      "https://store.steampowered.com/app/1525700/Tavern_Master/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1525700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1525700/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Hitman: Blood Money",
+      "https://store.steampowered.com/app/6860/Hitman_Blood_Money/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6860/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6860/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "I Am Fish",
+      "https://store.steampowered.com/app/1472560/I_Am_Fish/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1472560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1472560/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Mordheim: City of the Damned",
+      "https://store.steampowered.com/app/276810/Mordheim_City_of_the_Damned/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/276810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/276810/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "GRIP: Combat Racing",
+      "https://store.steampowered.com/app/396900/GRIP_Combat_Racing/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/396900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/396900/capsule_616x353.jpg",
+      "$22.48",
+      "$3.73",
+      "83%",
+      null
+    ],
+    [
+      "Cartel Tycoon",
+      "https://store.steampowered.com/app/1220140/Cartel_Tycoon/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1220140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1220140/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Tom Clancy's Ghost Recon Wildlands - Year 2 Pass",
+      "https://store.steampowered.com/app/832700/Tom_Clancys_Ghost_Recon_Wildlands__Year_2_Pass/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/832700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/832700/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Heroes® of Might & Magic® III - HD Edition",
+      "https://store.steampowered.com/app/297000/Heroes_of_Might__Magic_III__HD_Edition/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/297000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/297000/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Warhammer: Chaosbane",
+      "https://store.steampowered.com/app/774241/Warhammer_Chaosbane/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/774241/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/774241/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "The Gunk",
+      "https://store.steampowered.com/app/1087760/The_Gunk/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1087760/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1087760/capsule_616x353.jpg",
+      "$24.99",
+      "$1.24",
+      "95%",
+      null
+    ],
+    [
+      "Heroes of Hammerwatch",
+      "https://store.steampowered.com/app/677120/Heroes_of_Hammerwatch/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/677120/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/677120/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-03-08 21:37:01"
+  "update_time": "2026-03-09 05:13:19"
 }
