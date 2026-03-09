@@ -1,5 +1,5 @@
 {
-  "total_count": 1334,
+  "total_count": 1353,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -8488,6 +8488,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4138970/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "STEINS;GATE ELITE",
+      "https://store.steampowered.com/app/819030/STEINSGATE_ELITE/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/819030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/819030/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11220,7 +11228,187 @@
       "$2.99",
       "80%",
       null
+    ],
+    [
+      "Deponia",
+      "https://store.steampowered.com/app/214340/Deponia/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/214340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/214340/capsule_616x353.jpg",
+      "$29.99",
+      "$0.00",
+      "100%",
+      null
+    ],
+    [
+      "Dead Space",
+      "https://store.steampowered.com/app/1693980/Dead_Space/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1693980/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1693980/capsule_616x353.jpg",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "Orcs Must Die! 3",
+      "https://store.steampowered.com/app/1522820/Orcs_Must_Die_3/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1522820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1522820/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Dungeon Defenders Ultimate Collection",
+      "https://store.steampowered.com/sub/15481/?snr=1_7_7_2300_150_6",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "STEINS;GATE 0",
+      "https://store.steampowered.com/app/825630/STEINSGATE_0/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/825630/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/825630/capsule_616x353.jpg",
+      "$34.99",
+      "$6.99",
+      "80%",
+      null
+    ],
+    [
+      "Fire Pro Wrestling World",
+      "https://store.steampowered.com/app/564230/Fire_Pro_Wrestling_World/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/564230/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/564230/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "STEINS;GATE",
+      "https://store.steampowered.com/app/412830/STEINSGATE/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/412830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/412830/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "AI: THE SOMNIUM FILES - nirvanA Initiative",
+      "https://store.steampowered.com/app/1449200/AI_THE_SOMNIUM_FILES__nirvanA_Initiative/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1449200/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1449200/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Wayfinder",
+      "https://store.steampowered.com/app/1171690/Wayfinder/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1171690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1171690/capsule_616x353.jpg",
+      "$24.99",
+      "$3.74",
+      "85%",
+      null
+    ],
+    [
+      "Danganronpa V3: Killing Harmony",
+      "https://store.steampowered.com/app/567640/Danganronpa_V3_Killing_Harmony/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/567640/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/567640/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Dead Space™ 3",
+      "https://store.steampowered.com/app/1238060/Dead_Space_3/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1238060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1238060/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Danganronpa 2: Goodbye Despair",
+      "https://store.steampowered.com/app/413420/Danganronpa_2_Goodbye_Despair/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/413420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/413420/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Severed Steel",
+      "https://store.steampowered.com/app/1227690/Severed_Steel/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1227690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1227690/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "Re:ZERO -Starting Life in Another World- The Prophecy of the Throne",
+      "https://store.steampowered.com/app/1277510/ReZERO_Starting_Life_in_Another_World_The_Prophecy_of_the_Throne/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1277510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1277510/capsule_616x353.jpg",
+      "$59.99",
+      "$5.99",
+      "90%",
+      null
+    ],
+    [
+      "BlazBlue Centralfiction",
+      "https://store.steampowered.com/app/586140/BlazBlue_Centralfiction/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/586140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/586140/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Tom Clancy's Rainbow Six® Vegas",
+      "https://store.steampowered.com/app/13540/Tom_Clancys_Rainbow_Six_Vegas/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/13540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/13540/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Escape Academy",
+      "https://store.steampowered.com/app/1812090/Escape_Academy/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1812090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1812090/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Cattails: Wildwood Story",
+      "https://store.steampowered.com/app/1882500/Cattails_Wildwood_Story/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1882500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1882500/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-03-09 16:06:45"
+  "update_time": "2026-03-09 21:56:16"
 }
