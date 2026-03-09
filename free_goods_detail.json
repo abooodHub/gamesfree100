@@ -1,5 +1,5 @@
 {
-  "total_count": 1323,
+  "total_count": 1334,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -8480,6 +8480,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/926390/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "拾取宝石后意外觉醒了复制魔王力量的逆天技能",
+      "https://store.steampowered.com/app/4138970/_/?snr=1_7_7_230_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4138970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4138970/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11112,7 +11120,107 @@
       "$2.99",
       "85%",
       null
+    ],
+    [
+      "Tom Clancy’s Ghost Recon® Breakpoint Year 1 Pass",
+      "https://store.steampowered.com/app/2231410/Tom_Clancys_Ghost_Recon_Breakpoint_Year_1_Pass/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2231410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2231410/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Jumping Jazz Cats",
+      "https://store.steampowered.com/app/1951780/Jumping_Jazz_Cats/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1951780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1951780/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Edge Of Eternity",
+      "https://store.steampowered.com/app/269190/Edge_Of_Eternity/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/269190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/269190/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "SteamWorld Heist II",
+      "https://store.steampowered.com/app/2396240/SteamWorld_Heist_II/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2396240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2396240/capsule_616x353.jpg",
+      "$38.23",
+      "$9.29",
+      "76%",
+      null
+    ],
+    [
+      "Hellpoint",
+      "https://store.steampowered.com/app/628670/Hellpoint/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/628670/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/628670/capsule_616x353.jpg",
+      "$34.99",
+      "$6.99",
+      "80%",
+      null
+    ],
+    [
+      "Prince of Persia: Warrior Within™",
+      "https://store.steampowered.com/app/13500/Prince_of_Persia_Warrior_Within/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/13500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/13500/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Deliver Us The Moon",
+      "https://store.steampowered.com/app/428660/Deliver_Us_The_Moon/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/428660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/428660/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "TT Isle Of Man: Ride on the Edge 3",
+      "https://store.steampowered.com/app/1924170/TT_Isle_Of_Man_Ride_on_the_Edge_3/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1924170/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1924170/capsule_616x353.jpg",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "Evoland Legendary Edition",
+      "https://store.steampowered.com/app/1020470/Evoland_Legendary_Edition/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1020470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1020470/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "911 Operator",
+      "https://store.steampowered.com/app/503560/911_Operator/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/503560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/503560/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-03-09 10:04:42"
+  "update_time": "2026-03-09 16:06:45"
 }
