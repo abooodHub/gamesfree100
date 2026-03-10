@@ -1,5 +1,5 @@
 {
-  "total_count": 1397,
+  "total_count": 1417,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -8624,6 +8624,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1649260/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Fish",
+      "https://store.steampowered.com/app/3073680/Fish/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3073680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3073680/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Vellum: Raid Night Study Hall",
+      "https://store.steampowered.com/app/4285470/Vellum_Raid_Night_Study_Hall/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4285470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4285470/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Watch",
+      "https://store.steampowered.com/app/894060/Watch/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/894060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/894060/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Zombidle : REMONSTERED",
+      "https://store.steampowered.com/app/612020/Zombidle__REMONSTERED/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/612020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/612020/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -11816,7 +11848,167 @@
       "$4.49",
       "85%",
       null
+    ],
+    [
+      "Made in Abyss: Binary Star Falling into Darkness",
+      "https://store.steampowered.com/app/1324340/Made_in_Abyss_Binary_Star_Falling_into_Darkness/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1324340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1324340/capsule_616x353.jpg",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "428: Shibuya Scramble",
+      "https://store.steampowered.com/app/648580/428_Shibuya_Scramble/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/648580/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/648580/capsule_616x353.jpg",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "AI: The Somnium Files",
+      "https://store.steampowered.com/app/948740/AI_The_Somnium_Files/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/948740/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/948740/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Zombie Army 4: Dead War",
+      "https://store.steampowered.com/app/694280/Zombie_Army_4_Dead_War/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/694280/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/694280/capsule_616x353.jpg",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "LEGO Batman Trilogy",
+      "https://store.steampowered.com/sub/53403/?snr=1_7_7_2300_150_3",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "STEINS;GATE: My Darling's Embrace",
+      "https://store.steampowered.com/app/970560/STEINSGATE_My_Darlings_Embrace/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/970560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/970560/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Way of the Samurai 4",
+      "https://store.steampowered.com/app/312780/Way_of_the_Samurai_4/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/312780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/312780/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "Conception PLUS: Maidens of the Twelve Stars",
+      "https://store.steampowered.com/app/906510/Conception_PLUS_Maidens_of_the_Twelve_Stars/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/906510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/906510/capsule_616x353.jpg",
+      "$59.99",
+      "$11.99",
+      "80%",
+      null
+    ],
+    [
+      "X-Morph: Defense",
+      "https://store.steampowered.com/app/408410/XMorph_Defense/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/408410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/408410/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Unrailed!",
+      "https://store.steampowered.com/app/1016920/Unrailed/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1016920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1016920/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "ROBOTICS;NOTES ELITE",
+      "https://store.steampowered.com/app/1111380/ROBOTICSNOTES_ELITE/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1111380/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1111380/capsule_616x353.jpg",
+      "$34.99",
+      "$6.99",
+      "80%",
+      null
+    ],
+    [
+      "Way of the Samurai 3",
+      "https://store.steampowered.com/app/427510/Way_of_the_Samurai_3/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/427510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/427510/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Dungeon Defenders Ultimate Collection",
+      "https://store.steampowered.com/sub/15481/?snr=1_7_7_2300_150_2",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "Zero Escape: Zero Time Dilemma",
+      "https://store.steampowered.com/app/311240/Zero_Escape_Zero_Time_Dilemma/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/311240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/311240/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "CHAOS;HEAD NOAH",
+      "https://store.steampowered.com/app/1961950/CHAOSHEAD_NOAH/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1961950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1961950/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "CHAOS;CHILD",
+      "https://store.steampowered.com/app/970570/CHAOSCHILD/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/970570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/970570/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-03-10 05:05:45"
+  "update_time": "2026-03-10 09:53:43"
 }
