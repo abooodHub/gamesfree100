@@ -1,5 +1,5 @@
 {
-  "total_count": 1425,
+  "total_count": 1440,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -8672,6 +8672,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/844870/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Arcanists",
+      "https://store.steampowered.com/app/2901550/Arcanists/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2901550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2901550/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12084,7 +12092,147 @@
       "$2.99",
       "90%",
       null
+    ],
+    [
+      "ONE PIECE PIRATE WARRIORS 3 Gold Edition",
+      "https://store.steampowered.com/sub/70503/?snr=1_7_7_2300_150_6",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$51.98",
+      "$5.19",
+      "90%",
+      null
+    ],
+    [
+      "One Piece Pirate Warriors 3",
+      "https://store.steampowered.com/app/331600/One_Piece_Pirate_Warriors_3/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/331600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/331600/capsule_616x353.jpg",
+      "$51.98",
+      "$5.19",
+      "90%",
+      null
+    ],
+    [
+      "Shift Happens",
+      "https://store.steampowered.com/app/359840/Shift_Happens/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/359840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/359840/capsule_616x353.jpg",
+      "$15.99",
+      "$1.59",
+      "90%",
+      null
+    ],
+    [
+      "Amnesia: Rebirth",
+      "https://store.steampowered.com/app/999220/Amnesia_Rebirth/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/999220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/999220/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Fire Pro Wrestling World - Fire Promoter",
+      "https://store.steampowered.com/app/775630/Fire_Pro_Wrestling_World__Fire_Promoter/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/775630/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/775630/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Sanctum",
+      "https://store.steampowered.com/app/91600/Sanctum/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/91600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/91600/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Necrosmith 2",
+      "https://store.steampowered.com/app/2277320/Necrosmith_2/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2277320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2277320/capsule_616x353.jpg",
+      "$7.99",
+      "$1.99",
+      "75%",
+      null
+    ],
+    [
+      "Partisans 1941",
+      "https://store.steampowered.com/app/1227530/Partisans_1941/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1227530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1227530/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Balrum",
+      "https://store.steampowered.com/app/424250/Balrum/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/424250/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/424250/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "One Piece: Unlimited World Red - Deluxe Edition",
+      "https://store.steampowered.com/app/571720/One_Piece_Unlimited_World_Red__Deluxe_Edition/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/571720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/571720/capsule_616x353.jpg",
+      "$39.99",
+      "$4.79",
+      "88%",
+      null
+    ],
+    [
+      "The Lord of the Rings: Gollum™",
+      "https://store.steampowered.com/app/1265780/The_Lord_of_the_Rings_Gollum/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1265780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1265780/capsule_616x353.jpg",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "One Piece Burning Blood",
+      "https://store.steampowered.com/app/425220/One_Piece_Burning_Blood/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/425220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/425220/capsule_616x353.jpg",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "Zanki Zero: Last Beginning",
+      "https://store.steampowered.com/app/819020/Zanki_Zero_Last_Beginning/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/819020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/819020/capsule_616x353.jpg",
+      "$59.99",
+      "$5.99",
+      "90%",
+      null
+    ],
+    [
+      "Scythe: Digital Edition",
+      "https://store.steampowered.com/app/718560/Scythe_Digital_Edition/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/718560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/718560/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-03-10 16:04:13"
+  "update_time": "2026-03-10 21:53:03"
 }
