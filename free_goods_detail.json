@@ -1,5 +1,5 @@
 {
-  "total_count": 1417,
+  "total_count": 1425,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -8656,6 +8656,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/612020/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Granblue Fantasy",
+      "https://store.steampowered.com/app/767320/Granblue_Fantasy/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/767320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/767320/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "KurtzPel",
+      "https://store.steampowered.com/app/844870/KurtzPel/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/844870/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/844870/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12008,7 +12024,67 @@
       "$4.99",
       "80%",
       null
+    ],
+    [
+      "Blackguards",
+      "https://store.steampowered.com/app/249650/Blackguards/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/249650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/249650/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "Alien: Rogue Incursion VR",
+      "https://store.steampowered.com/app/1850050/Alien_Rogue_Incursion_VR/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1850050/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1850050/capsule_616x353.jpg",
+      "$49.99",
+      "$12.49",
+      "75%",
+      null
+    ],
+    [
+      "Shiren the Wanderer: The Tower of Fortune and the Dice of Fate",
+      "https://store.steampowered.com/app/1178790/Shiren_the_Wanderer_The_Tower_of_Fortune_and_the_Dice_of_Fate/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1178790/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1178790/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Conception II: Children of the Seven Stars",
+      "https://store.steampowered.com/app/458730/Conception_II_Children_of_the_Seven_Stars/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/458730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/458730/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "rFactor 2",
+      "https://store.steampowered.com/app/365960/rFactor_2/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/365960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/365960/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Under The Waves",
+      "https://store.steampowered.com/app/1975440/Under_The_Waves/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1975440/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1975440/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-03-10 09:53:43"
+  "update_time": "2026-03-10 16:04:13"
 }
