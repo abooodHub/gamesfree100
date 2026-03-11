@@ -1,5 +1,5 @@
 {
-  "total_count": 1456,
+  "total_count": 1462,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -12364,7 +12364,67 @@
       "$5.19",
       "90%",
       null
+    ],
+    [
+      "Dark Messiah of Might & Magic",
+      "https://store.steampowered.com/app/2100/Dark_Messiah_of_Might__Magic/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2100/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "METAL SLUG XX",
+      "https://store.steampowered.com/app/975680/METAL_SLUG_XX/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/975680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/975680/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "METAL SLUG 2",
+      "https://store.steampowered.com/app/366260/METAL_SLUG_2/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/366260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/366260/capsule_616x353.jpg",
+      "$6.99",
+      "$1.39",
+      "80%",
+      null
+    ],
+    [
+      "RUNNING WITH RIFLES",
+      "https://store.steampowered.com/app/270150/RUNNING_WITH_RIFLES/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/270150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/270150/capsule_616x353.jpg",
+      "$14.99",
+      "$2.24",
+      "85%",
+      null
+    ],
+    [
+      "METAL SLUG X",
+      "https://store.steampowered.com/app/312610/METAL_SLUG_X/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/312610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/312610/capsule_616x353.jpg",
+      "$7.99",
+      "$1.59",
+      "80%",
+      null
+    ],
+    [
+      "Mortal Shell",
+      "https://store.steampowered.com/app/1110910/Mortal_Shell/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1110910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1110910/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-03-11 16:03:55"
+  "update_time": "2026-03-11 21:56:08"
 }
