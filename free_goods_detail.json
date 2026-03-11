@@ -1,5 +1,5 @@
 {
-  "total_count": 1440,
+  "total_count": 1444,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -8680,6 +8680,78 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2901550/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Pluto Demo",
+      "https://store.steampowered.com/app/4103070/Pluto_Demo/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4103070/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4103070/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Dawn Of Defense Demo",
+      "https://store.steampowered.com/app/4456160/Dawn_Of_Defense_Demo/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4456160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4456160/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Tower Factory Demo",
+      "https://store.steampowered.com/app/2707490/Tower_Factory/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2707490/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2707490/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Outhold Demo",
+      "https://store.steampowered.com/app/3781820/Outhold_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3781820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3781820/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Zombie Defense",
+      "https://store.steampowered.com/app/533780/Zombie_Defense/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/533780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/533780/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "The Backrooms Deluxe 2",
+      "https://store.steampowered.com/app/4066790/The_Backrooms_Deluxe_2/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4066790/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4066790/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Project N.E.K.O.",
+      "https://store.steampowered.com/app/4099310/Project_NEKO/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4099310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4099310/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Godzilla x Kong: Titan Chasers",
+      "https://store.steampowered.com/app/3670140/Godzilla_x_Kong_Titan_Chasers/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3670140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3670140/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "末日战姬：命运交锋",
+      "https://store.steampowered.com/app/4107260/_/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4107260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4107260/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -8864,16 +8936,6 @@
       "2026-03-12 00:00:00"
     ],
     [
-      "Atomic Heart",
-      "https://store.steampowered.com/app/668580/Atomic_Heart/?snr=1_7_7_2300_150_1",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/668580/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/668580/capsule_616x353.jpg",
-      "249.00 SR",
-      "62.25 SR",
-      "75%",
-      "2026-03-11 00:00:00"
-    ],
-    [
       "Far Cry® 6",
       "https://store.steampowered.com/app/2369390/Far_Cry_6/?snr=1_7_7_2300_150_1",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2369390/header.jpg",
@@ -8974,16 +9036,6 @@
       "2026-03-19 00:00:00"
     ],
     [
-      "WRC 7 FIA World Rally Championship",
-      "https://store.steampowered.com/app/621830/WRC_7_FIA_World_Rally_Championship/?snr=1_7_7_2300_150_1",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/621830/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/621830/capsule_616x353.jpg",
-      "53.95 SR",
-      "5.39 SR",
-      "90%",
-      "2026-03-11 00:00:00"
-    ],
-    [
       "Tom Clancy’s The Division™",
       "https://store.steampowered.com/app/365590/Tom_Clancys_The_Division/?snr=1_7_7_2300_150_1",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/365590/header.jpg",
@@ -9024,26 +9076,6 @@
       "2026-03-13 00:00:00"
     ],
     [
-      "WRC 9 FIA World Rally Championship",
-      "https://store.steampowered.com/app/1267540/WRC_9_FIA_World_Rally_Championship/?snr=1_7_7_2300_150_1",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/1267540/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/1267540/capsule_616x353.jpg",
-      "59.95 SR",
-      "5.99 SR",
-      "90%",
-      "2026-03-11 00:00:00"
-    ],
-    [
-      "112 Operator",
-      "https://store.steampowered.com/app/793460/112_Operator/?snr=1_7_7_2300_150_7",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/793460/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/793460/capsule_616x353.jpg",
-      "39.95 SR",
-      "7.99 SR",
-      "80%",
-      "2026-03-11 00:00:00"
-    ],
-    [
       "PHOGS!",
       "https://store.steampowered.com/app/850320/PHOGS/?snr=1_7_7_2300_150_7",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/850320/header.jpg",
@@ -9064,16 +9096,6 @@
       "2026-03-12 00:00:00"
     ],
     [
-      "SpeedRunners",
-      "https://store.steampowered.com/app/207140/SpeedRunners/?snr=1_7_7_2300_150_7",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/207140/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/207140/capsule_616x353.jpg",
-      "32.95 SR",
-      "6.59 SR",
-      "80%",
-      "2026-03-11 00:00:00"
-    ],
-    [
       "Tom Clancy's Splinter Cell®",
       "https://store.steampowered.com/app/13560/Tom_Clancys_Splinter_Cell/?snr=1_7_7_2300_150_7",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/13560/header.jpg",
@@ -9092,16 +9114,6 @@
       "20.28 SR",
       "88%",
       null
-    ],
-    [
-      "Styx: Master of Shadows",
-      "https://store.steampowered.com/app/242640/Styx_Master_of_Shadows/?snr=1_7_7_2300_150_7",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/242640/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/242640/capsule_616x353.jpg",
-      "67.95 SR",
-      "6.79 SR",
-      "90%",
-      "2026-03-11 00:00:00"
     ],
     [
       "Valiant Hearts: The Great War™ / Soldats Inconnus : Mémoires de la Grande Guerre™",
@@ -9192,16 +9204,6 @@
       "8.73 SR",
       "75%",
       null
-    ],
-    [
-      "Scorn",
-      "https://store.steampowered.com/app/698670/Scorn/?snr=1_7_7_2300_150_7",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/698670/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/698670/capsule_616x353.jpg",
-      "189.00 SR",
-      "47.25 SR",
-      "75%",
-      "2026-03-11 00:00:00"
     ],
     [
       "Mr. Prepper",
@@ -9312,16 +9314,6 @@
       "34.75 SR",
       "75%",
       "2026-03-12 00:00:00"
-    ],
-    [
-      "Hello Neighbor",
-      "https://store.steampowered.com/app/521890/Hello_Neighbor/?snr=1_7_7_2300_150_3",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/521890/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/521890/capsule_616x353.jpg",
-      "61.49 SR",
-      "12.29 SR",
-      "80%",
-      "2026-03-11 00:00:00"
     ],
     [
       "Steep™",
@@ -9452,16 +9444,6 @@
       "41.80 SR",
       "80%",
       null
-    ],
-    [
-      "WRC 10 FIA World Rally Championship",
-      "https://store.steampowered.com/app/1462810/WRC_10_FIA_World_Rally_Championship/?snr=1_7_7_2300_150_3",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/1462810/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/1462810/capsule_616x353.jpg",
-      "139.95 SR",
-      "27.99 SR",
-      "80%",
-      "2026-03-11 00:00:00"
     ],
     [
       "Tom Clancy’s Splinter Cell Blacklist",
@@ -9614,16 +9596,6 @@
       "2026-03-12 00:00:00"
     ],
     [
-      "WRC Generations – The FIA WRC Official Game",
-      "https://store.steampowered.com/app/1953520/WRC_Generations__The_FIA_WRC_Official_Game/?snr=1_7_7_2300_150_4",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/1953520/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/1953520/capsule_616x353.jpg",
-      "59.95 SR",
-      "11.99 SR",
-      "80%",
-      "2026-03-11 00:00:00"
-    ],
-    [
       "Far Cry 3 - Blood Dragon",
       "https://store.steampowered.com/app/233270/Far_Cry_3__Blood_Dragon/?snr=1_7_7_2300_150_4",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/233270/header.jpg",
@@ -9642,16 +9614,6 @@
       "8.48 SR",
       "75%",
       null
-    ],
-    [
-      "Cardfight!! Vanguard Dear Days",
-      "https://store.steampowered.com/app/1881420/Cardfight_Vanguard_Dear_Days/?snr=1_7_7_2300_150_4",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/1881420/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/1881420/capsule_616x353.jpg",
-      "130.99 SR",
-      "10.47 SR",
-      "92%",
-      "2026-03-11 00:00:00"
     ],
     [
       "Darkwood",
@@ -9972,16 +9934,6 @@
       "46.25 SR",
       "75%",
       "2026-03-12 00:00:00"
-    ],
-    [
-      "Graveyard Keeper",
-      "https://store.steampowered.com/app/599140/Graveyard_Keeper/?snr=1_7_7_2300_150_2",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/599140/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/599140/capsule_616x353.jpg",
-      "40.95 SR",
-      "8.19 SR",
-      "80%",
-      "2026-03-11 00:00:00"
     ],
     [
       "Watch Dogs®: Legion",
@@ -12232,7 +12184,77 @@
       "$3.99",
       "80%",
       null
+    ],
+    [
+      "World War Z",
+      "https://store.steampowered.com/app/699130/World_War_Z/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/699130/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/699130/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "ONE PIECE: PIRATE WARRIORS 4",
+      "https://store.steampowered.com/app/1089090/ONE_PIECE_PIRATE_WARRIORS_4/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1089090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1089090/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "ONE PIECE World Seeker",
+      "https://store.steampowered.com/app/755500/ONE_PIECE_World_Seeker/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/755500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/755500/capsule_616x353.jpg",
+      "$59.99",
+      "$5.99",
+      "90%",
+      null
+    ],
+    [
+      "ONE PIECE PIRATE WARRIORS 3 Gold Edition",
+      "https://store.steampowered.com/sub/70503/?snr=1_7_7_2300_150_4",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$51.98",
+      "$5.19",
+      "90%",
+      null
+    ],
+    [
+      "Ghostbusters: The Video Game Remastered",
+      "https://store.steampowered.com/app/1449280/Ghostbusters_The_Video_Game_Remastered/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1449280/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1449280/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "Dungeon Defenders Ultimate Collection",
+      "https://store.steampowered.com/sub/15481/?snr=1_7_7_2300_150_3",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "Dakar Desert Rally",
+      "https://store.steampowered.com/app/1839940/Dakar_Desert_Rally/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1839940/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1839940/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-03-10 21:53:03"
+  "update_time": "2026-03-11 05:05:27"
 }
