@@ -1,5 +1,5 @@
 {
-  "total_count": 1452,
+  "total_count": 1456,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -8776,6 +8776,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2134030/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Path of ldle: old Gods Rising Demo",
+      "https://store.steampowered.com/app/4243990/Path_of_Idle_Old_Gods_Rising/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4243990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4243990/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Sky Clash: Lords of Clans 3D",
+      "https://store.steampowered.com/app/630140/Sky_Clash_Lords_of_Clans_3D/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/630140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/630140/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12328,7 +12344,27 @@
       "$3.99",
       "80%",
       null
+    ],
+    [
+      "WRC 7 FIA World Rally Championship",
+      "https://store.steampowered.com/app/621830/WRC_7_FIA_World_Rally_Championship/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/621830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/621830/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "ONE PIECE PIRATE WARRIORS 3 Gold Edition",
+      "https://store.steampowered.com/sub/70503/?snr=1_7_7_2300_150_3",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$51.98",
+      "$5.19",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-03-11 09:56:53"
+  "update_time": "2026-03-11 16:03:55"
 }
