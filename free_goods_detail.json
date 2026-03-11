@@ -1,5 +1,5 @@
 {
-  "total_count": 1444,
+  "total_count": 1452,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -8752,6 +8752,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4107260/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "SYNTHETIK: Arena",
+      "https://store.steampowered.com/app/984110/SYNTHETIK_Arena/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/984110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/984110/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Tricky Doors",
+      "https://store.steampowered.com/app/2552850/Tricky_Doors/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2552850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2552850/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Picma - Picture Enigmas",
+      "https://store.steampowered.com/app/2134030/Picma__Picture_Enigmas/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2134030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2134030/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12254,7 +12278,57 @@
       "$5.99",
       "80%",
       null
+    ],
+    [
+      "Atomic Heart",
+      "https://store.steampowered.com/app/668580/Atomic_Heart/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/668580/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/668580/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "Hello Neighbor",
+      "https://store.steampowered.com/app/521890/Hello_Neighbor/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/521890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/521890/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Cardfight!! Vanguard Dear Days",
+      "https://store.steampowered.com/app/1881420/Cardfight_Vanguard_Dear_Days/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1881420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1881420/capsule_616x353.jpg",
+      "$69.99",
+      "$5.59",
+      "92%",
+      null
+    ],
+    [
+      "WRC 9 FIA World Rally Championship",
+      "https://store.steampowered.com/app/1267540/WRC_9_FIA_World_Rally_Championship/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1267540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1267540/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Graveyard Keeper",
+      "https://store.steampowered.com/app/599140/Graveyard_Keeper/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/599140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/599140/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-03-11 05:05:27"
+  "update_time": "2026-03-11 09:56:53"
 }
