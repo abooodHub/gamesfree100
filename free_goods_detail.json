@@ -1,5 +1,5 @@
 {
-  "total_count": 1479,
+  "total_count": 1482,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -8912,6 +8912,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3601450/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Cards, the Universe and Everything",
+      "https://store.steampowered.com/app/3411830/Cards_the_Universe_and_Everything/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3411830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3411830/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Moonring",
+      "https://store.steampowered.com/app/2373630/Moonring/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2373630/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2373630/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -12564,7 +12580,17 @@
       "$9.99",
       "75%",
       null
+    ],
+    [
+      "Tom Clancy's Splinter Cell®",
+      "https://store.steampowered.com/app/13560/Tom_Clancys_Splinter_Cell/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/13560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/13560/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-03-12 09:58:39"
+  "update_time": "2026-03-12 16:03:33"
 }
