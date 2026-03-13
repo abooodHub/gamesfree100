@@ -1,5 +1,5 @@
 {
-  "total_count": 1524,
+  "total_count": 1544,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -9048,6 +9048,62 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/24790/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "SHRAPNEL",
+      "https://store.steampowered.com/app/4175080/SHRAPNEL/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4175080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4175080/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Ye Guild Clerk!",
+      "https://store.steampowered.com/app/3715020/Ye_Guild_Clerk/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3715020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3715020/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Pigs and Wolf Demo",
+      "https://store.steampowered.com/app/4285870/Pigs_and_Wolf/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4285870/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4285870/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Starborne: Frontiers",
+      "https://store.steampowered.com/app/3021540/Starborne_Frontiers/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3021540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3021540/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "My Auto Clicker",
+      "https://store.steampowered.com/app/3796350/My_Auto_Clicker/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3796350/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3796350/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Rewind 99: Demo Disc",
+      "https://store.steampowered.com/app/4349450/Rewind_99_Demo_Disc/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4349450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4349450/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Froggin' Around Demo",
+      "https://store.steampowered.com/app/4006090/Froggin_Around_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4006090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4006090/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -9102,26 +9158,6 @@
       "2026-03-19 00:00:00"
     ],
     [
-      "Batman™: Arkham Knight",
-      "https://store.steampowered.com/app/208650/Batman_Arkham_Knight/?snr=1_7_7_2300_150_1",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/208650/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/208650/capsule_616x353.jpg",
-      "56.00 SR",
-      "11.20 SR",
-      "80%",
-      "2026-03-13 00:00:00"
-    ],
-    [
-      "Batman: Arkham Collection",
-      "https://store.steampowered.com/sub/320795/?snr=1_7_7_2300_150_1",
-      "https://via.placeholder.com/300x150/222/fff?text=Steam",
-      "https://via.placeholder.com/300x150/222/fff?text=Steam",
-      "99.95 SR",
-      "14.99 SR",
-      "85%",
-      "2026-03-13 00:00:00"
-    ],
-    [
       "Overcooked! 2",
       "https://store.steampowered.com/app/728880/Overcooked_2/?snr=1_7_7_2300_150_1",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/728880/header.jpg",
@@ -9170,26 +9206,6 @@
       "14.00 SR",
       "75%",
       "2026-03-19 00:00:00"
-    ],
-    [
-      "Mortal Kombat 11",
-      "https://store.steampowered.com/app/976310/Mortal_Kombat_11/?snr=1_7_7_2300_150_1",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/976310/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/976310/capsule_616x353.jpg",
-      "399.00 SR",
-      "39.90 SR",
-      "90%",
-      "2026-03-13 00:00:00"
-    ],
-    [
-      "Workers & Resources: Soviet Republic",
-      "https://store.steampowered.com/app/784150/Workers__Resources_Soviet_Republic/?snr=1_7_7_2300_150_1",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/784150/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/784150/capsule_616x353.jpg",
-      "149.95 SR",
-      "37.48 SR",
-      "75%",
-      "2026-03-13 00:00:00"
     ],
     [
       "PHOGS!",
@@ -9260,16 +9276,6 @@
       "17.85 SR",
       "85%",
       null
-    ],
-    [
-      "BLACKTAIL",
-      "https://store.steampowered.com/app/1532690/BLACKTAIL/?snr=1_7_7_2300_150_7",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/1532690/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/1532690/capsule_616x353.jpg",
-      "119.00 SR",
-      "23.80 SR",
-      "80%",
-      "2026-03-13 00:00:00"
     ],
     [
       "War for the Overworld",
@@ -9362,16 +9368,6 @@
       null
     ],
     [
-      "Suicide Squad: Kill the Justice League",
-      "https://store.steampowered.com/app/315210/Suicide_Squad_Kill_the_Justice_League/?snr=1_7_7_2300_150_3",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/315210/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/315210/capsule_616x353.jpg",
-      "262.00 SR",
-      "13.10 SR",
-      "95%",
-      "2026-03-13 00:00:00"
-    ],
-    [
       "HUMANKIND™",
       "https://store.steampowered.com/app/1124300/HUMANKIND/?snr=1_7_7_2300_150_3",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1124300/header.jpg",
@@ -9380,16 +9376,6 @@
       "47.25 SR",
       "75%",
       "2026-03-19 00:00:00"
-    ],
-    [
-      "Injustice™ 2",
-      "https://store.steampowered.com/app/627270/Injustice_2/?snr=1_7_7_2300_150_3",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/627270/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/627270/capsule_616x353.jpg",
-      "199.00 SR",
-      "19.90 SR",
-      "90%",
-      "2026-03-13 00:00:00"
     ],
     [
       "RUINER",
@@ -9422,16 +9408,6 @@
       "2026-03-19 00:00:00"
     ],
     [
-      "LEGO® DC Super-Villains",
-      "https://store.steampowered.com/app/829110/LEGO_DC_SuperVillains/?snr=1_7_7_2300_150_3",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/829110/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/829110/capsule_616x353.jpg",
-      "84.95 SR",
-      "12.74 SR",
-      "85%",
-      "2026-03-13 00:00:00"
-    ],
-    [
       "HUNTDOWN",
       "https://store.steampowered.com/app/598550/HUNTDOWN/?snr=1_7_7_2300_150_3",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/598550/header.jpg",
@@ -9460,16 +9436,6 @@
       "41.80 SR",
       "80%",
       null
-    ],
-    [
-      "Shadow Gambit: The Cursed Crew",
-      "https://store.steampowered.com/app/1545560/Shadow_Gambit_The_Cursed_Crew/?snr=1_7_7_2300_150_3",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/1545560/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/1545560/capsule_616x353.jpg",
-      "149.95 SR",
-      "37.48 SR",
-      "75%",
-      "2026-03-13 00:00:00"
     ],
     [
       "Borderlands 2 Game of the Year",
@@ -9602,26 +9568,6 @@
       null
     ],
     [
-      "Darkwood",
-      "https://store.steampowered.com/app/274520/Darkwood/?snr=1_7_7_2300_150_4",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/274520/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/274520/capsule_616x353.jpg",
-      "49.95 SR",
-      "9.99 SR",
-      "80%",
-      "2026-03-13 00:00:00"
-    ],
-    [
-      "Batman: Arkham City - Game of the Year Edition",
-      "https://store.steampowered.com/app/200260/Batman_Arkham_City__Game_of_the_Year_Edition/?snr=1_7_7_2300_150_4",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/200260/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/200260/capsule_616x353.jpg",
-      "56.00 SR",
-      "11.20 SR",
-      "80%",
-      "2026-03-13 00:00:00"
-    ],
-    [
       "BURIED STARS",
       "https://store.steampowered.com/app/1025960/BURIED_STARS/?snr=1_7_7_2300_150_4",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1025960/header.jpg",
@@ -9660,16 +9606,6 @@
       "5.24 SR",
       "85%",
       "2026-03-15 00:00:00"
-    ],
-    [
-      "Uplink",
-      "https://store.steampowered.com/app/1510/Uplink/?snr=1_7_7_2300_150_4",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/1510/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/1510/capsule_616x353.jpg",
-      "26.75 SR",
-      "5.35 SR",
-      "80%",
-      "2026-03-13 00:00:00"
     ],
     [
       "Animal Shelter",
@@ -9762,26 +9698,6 @@
       null
     ],
     [
-      "Batman™: Arkham Origins",
-      "https://store.steampowered.com/app/209000/Batman_Arkham_Origins/?snr=1_7_7_2300_150_2",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/209000/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/209000/capsule_616x353.jpg",
-      "56.00 SR",
-      "11.20 SR",
-      "80%",
-      "2026-03-13 00:00:00"
-    ],
-    [
-      "Gotham Knights",
-      "https://store.steampowered.com/app/1496790/Gotham_Knights/?snr=1_7_7_2300_150_2",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/1496790/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/1496790/capsule_616x353.jpg",
-      "229.00 SR",
-      "34.35 SR",
-      "85%",
-      "2026-03-13 00:00:00"
-    ],
-    [
       "Undertale",
       "https://store.steampowered.com/app/391540/Undertale/?snr=1_7_7_2300_150_2",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/391540/header.jpg",
@@ -9792,16 +9708,6 @@
       "2026-03-16 00:00:00"
     ],
     [
-      "Slime Rancher",
-      "https://store.steampowered.com/app/433340/Slime_Rancher/?snr=1_7_7_2300_150_2",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/capsule_616x353.jpg",
-      "49.99 SR",
-      "12.49 SR",
-      "75%",
-      "2026-03-13 00:00:00"
-    ],
-    [
       "SOS OPS!",
       "https://store.steampowered.com/app/2475460/SOS_OPS/?snr=1_7_7_2300_150_2",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2475460/header.jpg",
@@ -9810,16 +9716,6 @@
       "2.09 SR",
       "85%",
       "2026-03-19 00:00:00"
-    ],
-    [
-      "LEGO® Batman™ 3: Beyond Gotham",
-      "https://store.steampowered.com/app/313690/LEGO_Batman_3_Beyond_Gotham/?snr=1_7_7_2300_150_2",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/313690/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/313690/capsule_616x353.jpg",
-      "84.95 SR",
-      "12.74 SR",
-      "85%",
-      "2026-03-13 00:00:00"
     ],
     [
       "TEKKEN 7",
@@ -9840,16 +9736,6 @@
       "7.59 SR",
       "80%",
       "2026-03-19 00:00:00"
-    ],
-    [
-      "LEGO Batman Trilogy",
-      "https://store.steampowered.com/sub/53403/?snr=1_7_7_2300_150_2",
-      "https://via.placeholder.com/300x150/222/fff?text=Steam",
-      "https://via.placeholder.com/300x150/222/fff?text=Steam",
-      "190.00 SR",
-      "19.00 SR",
-      "90%",
-      "2026-03-13 00:00:00"
     ],
     [
       "Warhammer 40,000: Gladius - Relics of War",
@@ -12980,7 +12866,307 @@
       "$2.99",
       "90%",
       null
+    ],
+    [
+      "Battlefield 4™",
+      "https://store.steampowered.com/app/1238860/Battlefield_4/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1238860/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1238860/capsule_616x353.jpg",
+      "$39.99",
+      "$1.99",
+      "95%",
+      null
+    ],
+    [
+      "Remnant: From the Ashes",
+      "https://store.steampowered.com/app/617290/Remnant_From_the_Ashes/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/617290/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/617290/capsule_616x353.jpg",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
+    ],
+    [
+      "Just Cause™ 3",
+      "https://store.steampowered.com/app/225540/Just_Cause_3/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/225540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/225540/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Dragon Age™ Inquisition",
+      "https://store.steampowered.com/app/1222690/Dragon_Age_Inquisition/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1222690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1222690/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Need for Speed™ Most Wanted",
+      "https://store.steampowered.com/app/1262560/Need_for_Speed_Most_Wanted/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1262560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1262560/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Unravel Two",
+      "https://store.steampowered.com/app/1225570/Unravel_Two/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1225570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1225570/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "STAR WARS™: Squadrons",
+      "https://store.steampowered.com/app/1222730/STAR_WARS_Squadrons/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1222730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1222730/capsule_616x353.jpg",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
+    ],
+    [
+      "Mirror's Edge™",
+      "https://store.steampowered.com/app/17410/Mirrors_Edge/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/17410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/17410/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Need for Speed™ Hot Pursuit Remastered",
+      "https://store.steampowered.com/app/1328660/Need_for_Speed_Hot_Pursuit_Remastered/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1328660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1328660/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Hotline Miami 2: Wrong Number",
+      "https://store.steampowered.com/app/274170/Hotline_Miami_2_Wrong_Number/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/274170/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/274170/capsule_616x353.jpg",
+      "$14.99",
+      "$2.24",
+      "85%",
+      null
+    ],
+    [
+      "Titan Quest Anniversary Edition",
+      "https://store.steampowered.com/app/475150/Titan_Quest_Anniversary_Edition/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/475150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/475150/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Dragon Age: Origins - Ultimate Edition",
+      "https://store.steampowered.com/app/47810/Dragon_Age_Origins__Ultimate_Edition/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/47810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/47810/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Destroy All Humans!",
+      "https://store.steampowered.com/app/803330/Destroy_All_Humans/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/803330/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/803330/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Need for Speed™",
+      "https://store.steampowered.com/app/1262540/Need_for_Speed/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1262540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1262540/capsule_616x353.jpg",
+      "$29.99",
+      "$3.59",
+      "88%",
+      null
+    ],
+    [
+      "BIOMUTANT",
+      "https://store.steampowered.com/app/597820/BIOMUTANT/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/597820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/597820/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Need for Speed™ Payback",
+      "https://store.steampowered.com/app/1262580/Need_for_Speed_Payback/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1262580/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1262580/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Mirror's Edge™ Catalyst",
+      "https://store.steampowered.com/app/1233570/Mirrors_Edge_Catalyst/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1233570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1233570/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Serious Sam 4",
+      "https://store.steampowered.com/app/257420/Serious_Sam_4/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/257420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/257420/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "EA SPORTS™ PGA TOUR™",
+      "https://store.steampowered.com/app/1677350/EA_SPORTS_PGA_TOUR/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1677350/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1677350/capsule_616x353.jpg",
+      "$69.99",
+      "$6.99",
+      "90%",
+      null
+    ],
+    [
+      "Kane & Lynch 2: Dog Days",
+      "https://store.steampowered.com/app/28000/Kane__Lynch_2_Dog_Days/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/28000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/28000/capsule_616x353.jpg",
+      "$9.99",
+      "$1.49",
+      "85%",
+      null
+    ],
+    [
+      "Darksiders Genesis",
+      "https://store.steampowered.com/app/710920/Darksiders_Genesis/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/710920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/710920/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Expeditions: Rome",
+      "https://store.steampowered.com/app/987840/Expeditions_Rome/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/987840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/987840/capsule_616x353.jpg",
+      "$44.99",
+      "$11.24",
+      "75%",
+      null
+    ],
+    [
+      "SPORE™ Galactic Adventures",
+      "https://store.steampowered.com/app/24720/SPORE_Galactic_Adventures/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/24720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/24720/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "STAR WARS™ Battlefront",
+      "https://store.steampowered.com/app/1237980/STAR_WARS_Battlefront/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1237980/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1237980/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Desperados III",
+      "https://store.steampowered.com/app/610370/Desperados_III/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/610370/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/610370/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "My Friend Pedro",
+      "https://store.steampowered.com/app/557340/My_Friend_Pedro/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/557340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/557340/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Outcast - A New Beginning",
+      "https://store.steampowered.com/app/1013140/Outcast__A_New_Beginning/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1013140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1013140/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Unravel",
+      "https://store.steampowered.com/app/1225560/Unravel/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1225560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1225560/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Zefyr: A Thief's Melody",
+      "https://store.steampowered.com/app/1344990/Zefyr_A_Thiefs_Melody/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1344990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1344990/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Darksiders II Deathinitive Edition",
+      "https://store.steampowered.com/app/388410/Darksiders_II_Deathinitive_Edition/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/388410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/388410/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-03-12 21:56:56"
+  "update_time": "2026-03-13 05:09:25"
 }
