@@ -1,5 +1,5 @@
 {
-  "total_count": 1587,
+  "total_count": 1600,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -9112,6 +9112,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4232190/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Rumble Fighter: Unleashed",
+      "https://store.steampowered.com/app/357500/Rumble_Fighter_Unleashed/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/357500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/357500/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Warhammer Combat Cards",
+      "https://store.steampowered.com/app/1641990/Warhammer_Combat_Cards/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1641990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1641990/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -13594,7 +13610,117 @@
       "$2.99",
       "90%",
       null
+    ],
+    [
+      "Mass Effect™ 3 N7 Digital Deluxe Edition (2012)",
+      "https://store.steampowered.com/app/1238020/Mass_Effect_3_N7_Digital_Deluxe_Edition_2012/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1238020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1238020/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Gunbrella",
+      "https://store.steampowered.com/app/1580180/Gunbrella/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1580180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1580180/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Supreme Commander 2",
+      "https://store.steampowered.com/app/40100/Supreme_Commander_2/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/40100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/40100/capsule_616x353.jpg",
+      "$12.99",
+      "$3.24",
+      "75%",
+      null
+    ],
+    [
+      "Borderlands 2 Game of the Year",
+      "https://store.steampowered.com/sub/32848/?snr=1_7_7_2300_150_4",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$8.79",
+      "78%",
+      null
+    ],
+    [
+      "Need for Speed™ Rivals",
+      "https://store.steampowered.com/app/1262600/Need_for_Speed_Rivals/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1262600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1262600/capsule_616x353.jpg",
+      "$19.99",
+      "$4.39",
+      "78%",
+      null
+    ],
+    [
+      "WILD HEARTS™",
+      "https://store.steampowered.com/app/1938010/WILD_HEARTS/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1938010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1938010/capsule_616x353.jpg",
+      "$69.99",
+      "$6.99",
+      "90%",
+      null
+    ],
+    [
+      "Iratus: Wrath of the Necromancer",
+      "https://store.steampowered.com/app/1293280/Iratus_Wrath_of_the_Necromancer/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1293280/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1293280/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Immortals of Aveum™",
+      "https://store.steampowered.com/app/2009100/Immortals_of_Aveum/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2009100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2009100/capsule_616x353.jpg",
+      "$59.99",
+      "$5.99",
+      "90%",
+      null
+    ],
+    [
+      "Lost in Random™",
+      "https://store.steampowered.com/app/1462570/Lost_in_Random/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1462570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1462570/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Shadow Warrior",
+      "https://store.steampowered.com/app/233130/Shadow_Warrior/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/233130/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/233130/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Supreme Commander",
+      "https://store.steampowered.com/app/9350/Supreme_Commander/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/9350/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/9350/capsule_616x353.jpg",
+      "$12.99",
+      "$2.59",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-03-13 16:02:06"
+  "update_time": "2026-03-13 21:45:15"
 }
