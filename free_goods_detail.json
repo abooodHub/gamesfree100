@@ -1,5 +1,5 @@
 {
-  "total_count": 1570,
+  "total_count": 1587,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -9104,6 +9104,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4006090/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Sato Killing Time Chat.exe",
+      "https://store.steampowered.com/app/4232190/Sato_Killing_Time_Chatexe/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4232190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4232190/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -13426,7 +13434,167 @@
       "$7.49",
       "75%",
       null
+    ],
+    [
+      "LEGO® DC Super-Villains",
+      "https://store.steampowered.com/app/829110/LEGO_DC_SuperVillains/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/829110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/829110/capsule_616x353.jpg",
+      "$39.99",
+      "$5.99",
+      "85%",
+      null
+    ],
+    [
+      "Death's Door",
+      "https://store.steampowered.com/app/894020/Deaths_Door/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/894020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/894020/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Dragon Age II: Ultimate Edition",
+      "https://store.steampowered.com/app/1238040/Dragon_Age_II_Ultimate_Edition/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1238040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1238040/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "GRIS",
+      "https://store.steampowered.com/app/683320/GRIS/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/683320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/683320/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Darksiders III",
+      "https://store.steampowered.com/app/606280/Darksiders_III/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/606280/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/606280/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated",
+      "https://store.steampowered.com/app/969990/SpongeBob_SquarePants_Battle_for_Bikini_Bottom__Rehydrated/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/969990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/969990/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Peggle Deluxe",
+      "https://store.steampowered.com/app/3480/Peggle_Deluxe/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3480/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3480/capsule_616x353.jpg",
+      "$4.99",
+      "$0.99",
+      "80%",
+      null
+    ],
+    [
+      "Gothic 1",
+      "https://store.steampowered.com/app/65540/Gothic_1/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/65540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/65540/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "SimCity™ 4 Deluxe Edition",
+      "https://store.steampowered.com/app/24780/SimCity_4_Deluxe_Edition/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/24780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/24780/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "AEW: Fight Forever",
+      "https://store.steampowered.com/app/1913210/AEW_Fight_Forever/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1913210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1913210/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "DIRT 5",
+      "https://store.steampowered.com/app/1038250/DIRT_5/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1038250/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1038250/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "SUCCUBUS",
+      "https://store.steampowered.com/app/985830/SUCCUBUS/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/985830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/985830/capsule_616x353.jpg",
+      "$24.99",
+      "$3.74",
+      "85%",
+      null
+    ],
+    [
+      "Pikuniku",
+      "https://store.steampowered.com/app/572890/Pikuniku/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/572890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/572890/capsule_616x353.jpg",
+      "$12.99",
+      "$3.24",
+      "75%",
+      null
+    ],
+    [
+      "The Messenger",
+      "https://store.steampowered.com/app/764790/The_Messenger/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/764790/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/764790/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Burnout™ Paradise Remastered",
+      "https://store.steampowered.com/app/1238080/Burnout_Paradise_Remastered/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1238080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1238080/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Shadow Warrior 2",
+      "https://store.steampowered.com/app/324800/Shadow_Warrior_2/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/324800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/324800/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-03-13 09:56:46"
+  "update_time": "2026-03-13 16:02:06"
 }
