@@ -1,5 +1,5 @@
 {
-  "total_count": 1600,
+  "total_count": 1604,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -9128,6 +9128,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1641990/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Retrocycles",
+      "https://store.steampowered.com/app/1306180/Retrocycles/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1306180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1306180/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Shutter Story Demo",
+      "https://store.steampowered.com/app/4107750/Shutter_Story_Demo/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4107750/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4107750/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Uptasia",
+      "https://store.steampowered.com/app/719730/Uptasia/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/719730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/719730/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -13720,7 +13744,17 @@
       "$2.59",
       "80%",
       null
+    ],
+    [
+      "Paleo Pines",
+      "https://store.steampowered.com/app/1202200/Paleo_Pines/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1202200/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1202200/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-03-13 21:45:15"
+  "update_time": "2026-03-14 05:07:19"
 }
