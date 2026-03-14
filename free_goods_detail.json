@@ -1,5 +1,5 @@
 {
-  "total_count": 1607,
+  "total_count": 1608,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -13782,7 +13782,17 @@
       "$3.74",
       "75%",
       null
+    ],
+    [
+      "STAR WARS Jedi: Fallen Order Deluxe Edition",
+      "https://store.steampowered.com/sub/401587/?snr=1_7_7_2300_150_3",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$3.99",
+      "92%",
+      null
     ]
   ],
-  "update_time": "2026-03-14 09:51:04"
+  "update_time": "2026-03-14 15:55:21"
 }
