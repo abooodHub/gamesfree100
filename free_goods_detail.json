@@ -1,5 +1,5 @@
 {
-  "total_count": 1604,
+  "total_count": 1607,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -9152,6 +9152,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/719730/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Pawns of War",
+      "https://store.steampowered.com/app/3509740/Pawns_of_War/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3509740/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3509740/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -13754,7 +13762,27 @@
       "$7.49",
       "75%",
       null
+    ],
+    [
+      "Peggle™ Nights",
+      "https://store.steampowered.com/app/3540/Peggle_Nights/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3540/capsule_616x353.jpg",
+      "$4.99",
+      "$0.99",
+      "80%",
+      null
+    ],
+    [
+      "Dicey Dungeons",
+      "https://store.steampowered.com/app/861540/Dicey_Dungeons/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/861540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/861540/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-03-14 05:07:19"
+  "update_time": "2026-03-14 09:51:04"
 }
