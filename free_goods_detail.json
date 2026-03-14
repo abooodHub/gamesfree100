@@ -1,5 +1,5 @@
 {
-  "total_count": 1608,
+  "total_count": 1613,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -13792,7 +13792,57 @@
       "$3.99",
       "92%",
       null
+    ],
+    [
+      "Hogwarts Legacy",
+      "https://store.steampowered.com/app/990080/Hogwarts_Legacy/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/capsule_616x353.jpg",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "Into The Flames",
+      "https://store.steampowered.com/app/1222300/Into_The_Flames/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1222300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1222300/capsule_616x353.jpg",
+      "$19.99",
+      "$2.39",
+      "88%",
+      null
+    ],
+    [
+      "LEGO® Harry Potter™ Collection",
+      "https://store.steampowered.com/app/2950340/LEGO_Harry_Potter_Collection/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2950340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2950340/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Hotline Miami 2: Wrong Number - Soundtrack",
+      "https://store.steampowered.com/app/355890/Hotline_Miami_2_Wrong_Number__Soundtrack/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/355890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/355890/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "The Pale Beyond",
+      "https://store.steampowered.com/app/1266030/The_Pale_Beyond/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1266030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1266030/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-03-14 15:55:21"
+  "update_time": "2026-03-14 21:41:11"
 }
