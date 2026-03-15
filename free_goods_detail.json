@@ -1,5 +1,5 @@
 {
-  "total_count": 1620,
+  "total_count": 1632,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -9224,6 +9224,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/312990/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "20 Small Mazes",
+      "https://store.steampowered.com/app/2570630/20_Small_Mazes/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2570630/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2570630/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "World of Shooting",
+      "https://store.steampowered.com/app/1678150/World_of_Shooting/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1678150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1678150/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -13896,7 +13912,107 @@
       "$5.99",
       "80%",
       null
+    ],
+    [
+      "Trailmakers",
+      "https://store.steampowered.com/app/585420/Trailmakers/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/585420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/585420/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Inertial Drift",
+      "https://store.steampowered.com/app/1184480/Inertial_Drift/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1184480/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1184480/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "FAR: Lone Sails",
+      "https://store.steampowered.com/app/609320/FAR_Lone_Sails/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/609320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/609320/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "Insurmountable",
+      "https://store.steampowered.com/app/1385100/Insurmountable/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1385100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1385100/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "Silence",
+      "https://store.steampowered.com/app/314790/Silence/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/314790/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/314790/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "This Means Warp",
+      "https://store.steampowered.com/app/1269300/This_Means_Warp/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1269300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1269300/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Shadow Tactics: Aiko's Choice",
+      "https://store.steampowered.com/app/1579380/Shadow_Tactics_Aikos_Choice/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1579380/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1579380/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Yes, Your Grace",
+      "https://store.steampowered.com/app/1115690/Yes_Your_Grace/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1115690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1115690/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Warpips",
+      "https://store.steampowered.com/app/1291010/Warpips/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1291010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1291010/capsule_616x353.jpg",
+      "$16.99",
+      "$2.54",
+      "85%",
+      null
+    ],
+    [
+      "Serious Sam 3: BFE",
+      "https://store.steampowered.com/app/41070/Serious_Sam_3_BFE/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/41070/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/41070/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-03-15 05:32:14"
+  "update_time": "2026-03-15 09:59:53"
 }
