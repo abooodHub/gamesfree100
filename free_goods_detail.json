@@ -1,5 +1,5 @@
 {
-  "total_count": 1613,
+  "total_count": 1620,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -9160,6 +9160,70 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3509740/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "10hit Demo",
+      "https://store.steampowered.com/app/4505330/10hit_Demo/?snr=1_7_7_230_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4505330/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4505330/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Funi Raccoon Game Demo",
+      "https://store.steampowered.com/app/3599690/Funi_Raccoon_Game/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3599690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3599690/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Is This Seat Taken? Demo",
+      "https://store.steampowered.com/app/3035120/Is_This_Seat_Taken/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3035120/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3035120/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "BAKUDO: Boss Rush Demo",
+      "https://store.steampowered.com/app/4386300/BAKUDO_Boss_Rush_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4386300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4386300/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Mimpi Dreams",
+      "https://store.steampowered.com/app/444770/Mimpi_Dreams/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/444770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/444770/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Terra Firma",
+      "https://store.steampowered.com/app/1482770/Terra_Firma/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1482770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1482770/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "In Sink: A Co-Op Escape Prologue",
+      "https://store.steampowered.com/app/2289970/In_Sink_A_CoOp_Escape_Prologue/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2289970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2289970/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "The Expendabros",
+      "https://store.steampowered.com/app/312990/The_Expendabros/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/312990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/312990/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -9654,16 +9718,6 @@
       "2026-03-18 00:00:00"
     ],
     [
-      "Yes, Your Grace",
-      "https://store.steampowered.com/app/1115690/Yes_Your_Grace/?snr=1_7_7_2300_150_4",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/1115690/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/1115690/capsule_616x353.jpg",
-      "34.95 SR",
-      "5.24 SR",
-      "85%",
-      "2026-03-15 00:00:00"
-    ],
-    [
       "Animal Shelter",
       "https://store.steampowered.com/app/1239320/Animal_Shelter/?snr=1_7_7_2300_150_2",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1239320/header.jpg",
@@ -9702,16 +9756,6 @@
       "6.99 SR",
       "90%",
       "2026-03-19 00:00:00"
-    ],
-    [
-      "Trailmakers",
-      "https://store.steampowered.com/app/585420/Trailmakers/?snr=1_7_7_2300_150_2",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/585420/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/585420/capsule_616x353.jpg",
-      "39.95 SR",
-      "9.98 SR",
-      "75%",
-      "2026-03-15 00:00:00"
     ],
     [
       "Planet of Lana",
@@ -13842,7 +13886,17 @@
       "$3.99",
       "80%",
       null
+    ],
+    [
+      "Harry Potter: Quidditch Champions",
+      "https://store.steampowered.com/app/2878600/Harry_Potter_Quidditch_Champions/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2878600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2878600/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-03-14 21:41:11"
+  "update_time": "2026-03-15 05:32:14"
 }
