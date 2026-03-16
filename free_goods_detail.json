@@ -1,5 +1,5 @@
 {
-  "total_count": 1646,
+  "total_count": 1662,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -9272,6 +9272,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3733440/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "The Seven Deadly Sins: Origin",
+      "https://store.steampowered.com/app/3679080/The_Seven_Deadly_Sins_Origin/?snr=1_7_7_230_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3679080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3679080/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Sleeping Dogs",
+      "https://store.steampowered.com/app/202170/Sleeping_Dogs/?snr=1_7_7_2300_150_13",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/202170/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/202170/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Warhammer: Vermintide 2 - Sister of the Thorn Cosmetic Upgrade",
+      "https://store.steampowered.com/app/1629010/Warhammer_Vermintide_2__Sister_of_the_Thorn_Cosmetic_Upgrade/?snr=1_7_7_2300_150_15",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1629010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1629010/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14144,7 +14168,137 @@
       "$1.49",
       "90%",
       null
+    ],
+    [
+      "ArcaniA",
+      "https://store.steampowered.com/app/39690/ArcaniA/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/39690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/39690/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "ONE PIECE PIRATE WARRIORS 3 Gold Edition",
+      "https://store.steampowered.com/sub/70503/?snr=1_7_7_2300_150_9",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$51.98",
+      "$5.19",
+      "90%",
+      null
+    ],
+    [
+      "Zuma Deluxe",
+      "https://store.steampowered.com/app/3330/Zuma_Deluxe/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3330/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3330/capsule_616x353.jpg",
+      "$4.99",
+      "$0.99",
+      "80%",
+      null
+    ],
+    [
+      "Captain Tsubasa: Rise of New Champions",
+      "https://store.steampowered.com/app/1163550/Captain_Tsubasa_Rise_of_New_Champions/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1163550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1163550/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Million Arthur: Arcana Blood",
+      "https://store.steampowered.com/app/989550/Million_Arthur_Arcana_Blood/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/989550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/989550/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Serious Sam Fusion 2017 (beta)",
+      "https://store.steampowered.com/app/564310/Serious_Sam_Fusion_2017_beta/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/564310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/564310/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "SpellForce 3 Reforced",
+      "https://store.steampowered.com/app/311290/SpellForce_3_Reforced/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/311290/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/311290/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Mass Effect 2 (2010) Edition",
+      "https://store.steampowered.com/app/2362420/Mass_Effect_2_2010_Edition/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2362420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2362420/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "UBERMOSH",
+      "https://store.steampowered.com/app/357070/UBERMOSH/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/357070/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/357070/capsule_616x353.jpg",
+      "$4.99",
+      "$0.49",
+      "90%",
+      null
+    ],
+    [
+      "Cardboard Town",
+      "https://store.steampowered.com/app/2198070/Cardboard_Town/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2198070/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2198070/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Monster Jam Steel Titans 2",
+      "https://store.steampowered.com/app/1205480/Monster_Jam_Steel_Titans_2/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1205480/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1205480/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "APE OUT",
+      "https://store.steampowered.com/app/447150/APE_OUT/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/447150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/447150/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "One Hour One Life",
+      "https://store.steampowered.com/app/595690/One_Hour_One_Life/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/595690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/595690/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-03-16 16:16:15"
+  "update_time": "2026-03-16 22:04:14"
 }
