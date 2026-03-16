@@ -1,5 +1,5 @@
 {
-  "total_count": 1637,
+  "total_count": 1646,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -9256,6 +9256,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/661130/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Soccer Field Pro 3D",
+      "https://store.steampowered.com/app/3468160/Soccer_Field_Pro_3D/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3468160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3468160/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Tiny Crate",
+      "https://store.steampowered.com/app/3733440/Tiny_Crate/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3733440/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3733440/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14058,7 +14074,77 @@
       "$2.99",
       "80%",
       null
+    ],
+    [
+      "Car Mechanic Simulator 2021",
+      "https://store.steampowered.com/app/1190000/Car_Mechanic_Simulator_2021/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1190000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1190000/capsule_616x353.jpg",
+      "$24.99",
+      "$4.49",
+      "82%",
+      null
+    ],
+    [
+      "Overcooked! 2",
+      "https://store.steampowered.com/app/728880/Overcooked_2/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/728880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/728880/capsule_616x353.jpg",
+      "$48.49",
+      "$12.12",
+      "75%",
+      null
+    ],
+    [
+      "Thief Simulator",
+      "https://store.steampowered.com/app/704850/Thief_Simulator/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/704850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/704850/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Mini Ninjas",
+      "https://store.steampowered.com/app/35000/Mini_Ninjas/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/35000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/35000/capsule_616x353.jpg",
+      "$9.99",
+      "$1.49",
+      "85%",
+      null
+    ],
+    [
+      "Just Cause",
+      "https://store.steampowered.com/app/6880/Just_Cause/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/6880/capsule_616x353.jpg",
+      "$6.99",
+      "$0.97",
+      "86%",
+      null
+    ],
+    [
+      "Undertale",
+      "https://store.steampowered.com/app/391540/Undertale/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/391540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/391540/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "The Walking Dead",
+      "https://store.steampowered.com/app/207610/The_Walking_Dead/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/207610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/207610/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-03-16 05:33:17"
+  "update_time": "2026-03-16 10:20:17"
 }
