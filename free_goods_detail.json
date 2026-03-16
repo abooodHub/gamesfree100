@@ -1,5 +1,5 @@
 {
-  "total_count": 1636,
+  "total_count": 1637,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -9240,6 +9240,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1678150/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Weed Supermarket Simulator: Prologue",
+      "https://store.steampowered.com/app/4341330/Weed_Supermarket_Simulator_Prologue/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4341330/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4341330/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "ChilloutVR",
+      "https://store.steampowered.com/app/661130/ChilloutVR/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/661130/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/661130/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -9292,26 +9308,6 @@
       "39.75 SR",
       "75%",
       "2026-03-19 00:00:00"
-    ],
-    [
-      "Overcooked! 2",
-      "https://store.steampowered.com/app/728880/Overcooked_2/?snr=1_7_7_2300_150_1",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/728880/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/728880/capsule_616x353.jpg",
-      "86.95 SR",
-      "21.73 SR",
-      "75%",
-      "2026-03-16 00:00:00"
-    ],
-    [
-      "Car Mechanic Simulator 2021",
-      "https://store.steampowered.com/app/1190000/Car_Mechanic_Simulator_2021/?snr=1_7_7_2300_150_1",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/1190000/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/1190000/capsule_616x353.jpg",
-      "51.49 SR",
-      "9.26 SR",
-      "82%",
-      "2026-03-16 00:00:00"
     ],
     [
       "Songs of Conquest",
@@ -9484,16 +9480,6 @@
       "2026-03-19 00:00:00"
     ],
     [
-      "Thief Simulator",
-      "https://store.steampowered.com/app/704850/Thief_Simulator/?snr=1_7_7_2300_150_3",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/704850/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/704850/capsule_616x353.jpg",
-      "40.95 SR",
-      "4.09 SR",
-      "90%",
-      "2026-03-16 00:00:00"
-    ],
-    [
       "City Car Driving",
       "https://store.steampowered.com/app/493490/City_Car_Driving/?snr=1_7_7_2300_150_3",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/493490/header.jpg",
@@ -9522,16 +9508,6 @@
       "4.09 SR",
       "90%",
       "2026-03-19 00:00:00"
-    ],
-    [
-      "Tank Mechanic Simulator",
-      "https://store.steampowered.com/app/407130/Tank_Mechanic_Simulator/?snr=1_7_7_2300_150_3",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/407130/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/407130/capsule_616x353.jpg",
-      "34.95 SR",
-      "4.54 SR",
-      "87%",
-      "2026-03-16 00:00:00"
     ],
     [
       ".hack//G.U. Last Recode",
@@ -9684,16 +9660,6 @@
       "2026-03-19 00:00:00"
     ],
     [
-      "The Walking Dead",
-      "https://store.steampowered.com/app/207610/The_Walking_Dead/?snr=1_7_7_2300_150_4",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/207610/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/207610/capsule_616x353.jpg",
-      "32.95 SR",
-      "3.29 SR",
-      "90%",
-      "2026-03-16 00:00:00"
-    ],
-    [
       "Journey",
       "https://store.steampowered.com/app/638230/Journey/?snr=1_7_7_2300_150_4",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/638230/header.jpg",
@@ -9812,16 +9778,6 @@
       "14.98 SR",
       "75%",
       null
-    ],
-    [
-      "Undertale",
-      "https://store.steampowered.com/app/391540/Undertale/?snr=1_7_7_2300_150_2",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/391540/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/391540/capsule_616x353.jpg",
-      "33.00 SR",
-      "8.25 SR",
-      "75%",
-      "2026-03-16 00:00:00"
     ],
     [
       "SOS OPS!",
@@ -14052,7 +14008,57 @@
       "$0.74",
       "85%",
       null
+    ],
+    [
+      "Orwell: Keeping an Eye On You",
+      "https://store.steampowered.com/app/491950/Orwell_Keeping_an_Eye_On_You/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/491950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/491950/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Totally Reliable Delivery Service",
+      "https://store.steampowered.com/app/1011670/Totally_Reliable_Delivery_Service/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1011670/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1011670/capsule_616x353.jpg",
+      "$14.99",
+      "$2.24",
+      "85%",
+      null
+    ],
+    [
+      "Surgeon Simulator",
+      "https://store.steampowered.com/app/233720/Surgeon_Simulator/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/233720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/233720/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Surgeon Simulator: Experience Reality",
+      "https://store.steampowered.com/app/518920/Surgeon_Simulator_Experience_Reality/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/518920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/518920/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Dungeon Siege III",
+      "https://store.steampowered.com/app/39160/Dungeon_Siege_III/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/39160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/39160/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-03-15 21:41:43"
+  "update_time": "2026-03-16 05:33:17"
 }
