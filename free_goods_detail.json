@@ -1,5 +1,5 @@
 {
-  "total_count": 1662,
+  "total_count": 1667,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -9296,6 +9296,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1629010/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Starship Troopers: Ultimate Bug War! - Demo",
+      "https://store.steampowered.com/app/4307720/Starship_Troopers_Ultimate_Bug_War__Demo/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4307720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4307720/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Smashing Simulator Idle",
+      "https://store.steampowered.com/app/3066060/Smashing_Simulator_Idle/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3066060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3066060/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Warhammer: Vermintide 2 - Warrior Priest Cosmetic Upgrade",
+      "https://store.steampowered.com/app/1782451/Warhammer_Vermintide_2__Warrior_Priest_Cosmetic_Upgrade/?snr=1_7_7_2300_150_15",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1782451/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1782451/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -9670,16 +9694,6 @@
       "2026-03-19 00:00:00"
     ],
     [
-      "The Witness",
-      "https://store.steampowered.com/app/210970/The_Witness/?snr=1_7_7_2300_150_4",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/210970/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/210970/capsule_616x353.jpg",
-      "104.00 SR",
-      "20.80 SR",
-      "80%",
-      "2026-03-17 00:00:00"
-    ],
-    [
       "Children of Morta",
       "https://store.steampowered.com/app/330020/Children_of_Morta/?snr=1_7_7_2300_150_4",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/330020/header.jpg",
@@ -9778,16 +9792,6 @@
       "6.99 SR",
       "90%",
       "2026-03-19 00:00:00"
-    ],
-    [
-      "Planet of Lana",
-      "https://store.steampowered.com/app/1608230/Planet_of_Lana/?snr=1_7_7_2300_150_2",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/1608230/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/1608230/capsule_616x353.jpg",
-      "40.95 SR",
-      "4.09 SR",
-      "90%",
-      "2026-03-17 00:00:00"
     ],
     [
       "20XX",
@@ -14298,7 +14302,47 @@
       "$3.74",
       "75%",
       null
+    ],
+    [
+      "Mass Effect (2007)",
+      "https://store.steampowered.com/app/17460/Mass_Effect_2007/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/17460/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/17460/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Espresso Tycoon",
+      "https://store.steampowered.com/app/1543280/Espresso_Tycoon/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1543280/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1543280/capsule_616x353.jpg",
+      "$19.99",
+      "$3.79",
+      "81%",
+      null
+    ],
+    [
+      "Warplan Pacific",
+      "https://store.steampowered.com/app/1896160/Warplan_Pacific/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1896160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1896160/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Motorcycle Mechanic Simulator 2021",
+      "https://store.steampowered.com/app/1078760/Motorcycle_Mechanic_Simulator_2021/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1078760/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1078760/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-03-16 22:04:14"
+  "update_time": "2026-03-17 05:11:53"
 }
