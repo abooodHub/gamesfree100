@@ -1,5 +1,5 @@
 {
-  "total_count": 1680,
+  "total_count": 1682,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -9336,6 +9336,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1545820/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Cubic Castles",
+      "https://store.steampowered.com/app/317470/Cubic_Castles/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/317470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/317470/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14468,7 +14476,17 @@
       "$2.99",
       "80%",
       null
+    ],
+    [
+      "The Witness",
+      "https://store.steampowered.com/app/210970/The_Witness/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/210970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/210970/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-03-17 10:06:37"
+  "update_time": "2026-03-17 16:15:53"
 }
