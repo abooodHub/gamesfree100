@@ -1,5 +1,5 @@
 {
-  "total_count": 1667,
+  "total_count": 1680,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -9320,6 +9320,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1782451/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "MingJiangSha",
+      "https://store.steampowered.com/app/4190600/MingJiangSha/?snr=1_7_7_230_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4190600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4190600/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Pixel Art Coloring Book",
+      "https://store.steampowered.com/app/1545820/Pixel_Art_Coloring_Book/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1545820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1545820/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14342,7 +14358,117 @@
       "$1.99",
       "90%",
       null
+    ],
+    [
+      "Planet of Lana",
+      "https://store.steampowered.com/app/1608230/Planet_of_Lana/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1608230/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1608230/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "MX vs. ATV Reflex",
+      "https://store.steampowered.com/app/55140/MX_vs_ATV_Reflex/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/55140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/55140/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Bridge Constructor Portal",
+      "https://store.steampowered.com/app/684410/Bridge_Constructor_Portal/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/684410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/684410/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "The Hong Kong Massacre",
+      "https://store.steampowered.com/app/741510/The_Hong_Kong_Massacre/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/741510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/741510/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Worms Ultimate Mayhem",
+      "https://store.steampowered.com/app/70600/Worms_Ultimate_Mayhem/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/70600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/70600/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "SLUDGE LIFE",
+      "https://store.steampowered.com/app/1144770/SLUDGE_LIFE/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1144770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1144770/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Bejeweled® 3",
+      "https://store.steampowered.com/app/78000/Bejeweled_3/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/78000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/78000/capsule_616x353.jpg",
+      "$4.99",
+      "$0.99",
+      "80%",
+      null
+    ],
+    [
+      "MX vs ATV All Out",
+      "https://store.steampowered.com/app/520940/MX_vs_ATV_All_Out/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/520940/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/520940/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Paradise Killer",
+      "https://store.steampowered.com/app/1160220/Paradise_Killer/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1160220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1160220/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Trine 2: Complete Story",
+      "https://store.steampowered.com/app/35720/Trine_2_Complete_Story/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/35720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/35720/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "The Red Strings Club",
+      "https://store.steampowered.com/app/589780/The_Red_Strings_Club/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/589780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/589780/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-03-17 05:11:53"
+  "update_time": "2026-03-17 10:06:37"
 }
