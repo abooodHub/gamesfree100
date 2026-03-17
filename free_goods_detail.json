@@ -1,5 +1,5 @@
 {
-  "total_count": 1682,
+  "total_count": 1684,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -9344,6 +9344,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/317470/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "The Chef's Shift: First Course",
+      "https://store.steampowered.com/app/2516920/The_Chefs_Shift_First_Course/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2516920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2516920/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14486,7 +14494,17 @@
       "$7.99",
       "80%",
       null
+    ],
+    [
+      "Flashing Lights - Police, Firefighting, Emergency Services (EMS) Simulator",
+      "https://store.steampowered.com/app/605740/Flashing_Lights__Police_Firefighting_Emergency_Services_EMS_Simulator/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/605740/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/605740/capsule_616x353.jpg",
+      "$24.99",
+      "$3.99",
+      "84%",
+      null
     ]
   ],
-  "update_time": "2026-03-17 16:15:53"
+  "update_time": "2026-03-17 22:04:55"
 }
