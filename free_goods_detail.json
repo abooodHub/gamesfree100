@@ -1,5 +1,5 @@
 {
-  "total_count": 1694,
+  "total_count": 1695,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -14582,7 +14582,17 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "Battle Chasers: Nightwar",
+      "https://store.steampowered.com/app/451020/Battle_Chasers_Nightwar/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/451020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/451020/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-03-18 10:04:01"
+  "update_time": "2026-03-18 16:16:22"
 }
