@@ -1,5 +1,5 @@
 {
-  "total_count": 1688,
+  "total_count": 1694,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -9408,6 +9408,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3896970/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Rest Area Simulator: Prologue",
+      "https://store.steampowered.com/app/4428790/Rest_Area_Simulator_Prologue/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4428790/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4428790/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "THE CUBE, SAVE US",
+      "https://store.steampowered.com/app/3810880/THE_CUBE_SAVE_US/?snr=1_7_7_230_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3810880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3810880/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Esports Manager 2026 Demo",
+      "https://store.steampowered.com/app/4006000/Esports_Manager_2026_Demo/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4006000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4006000/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Card Hunter",
+      "https://store.steampowered.com/app/293260/Card_Hunter/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/293260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/293260/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14530,7 +14562,27 @@
       "$7.49",
       "75%",
       null
+    ],
+    [
+      "Slay the Spire",
+      "https://store.steampowered.com/app/646570/Slay_the_Spire/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/646570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/646570/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Celeste",
+      "https://store.steampowered.com/app/504230/Celeste/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/504230/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/504230/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-03-18 05:24:17"
+  "update_time": "2026-03-18 10:04:01"
 }
