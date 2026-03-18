@@ -1,5 +1,5 @@
 {
-  "total_count": 1695,
+  "total_count": 1710,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -9440,6 +9440,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/293260/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "StarSavior",
+      "https://store.steampowered.com/app/3609080/StarSavior/?snr=1_7_7_230_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3609080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3609080/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14592,7 +14600,147 @@
       "$7.49",
       "75%",
       null
+    ],
+    [
+      "Jalopy",
+      "https://store.steampowered.com/app/446020/Jalopy/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/446020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/446020/capsule_616x353.jpg",
+      "$14.99",
+      "$1.49",
+      "90%",
+      null
+    ],
+    [
+      "ONE PUNCH MAN: A HERO NOBODY KNOWS",
+      "https://store.steampowered.com/app/991560/ONE_PUNCH_MAN_A_HERO_NOBODY_KNOWS/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/991560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/991560/capsule_616x353.jpg",
+      "$59.99",
+      "$5.99",
+      "90%",
+      null
+    ],
+    [
+      "Hotline Miami Soundtrack",
+      "https://store.steampowered.com/app/219152/Hotline_Miami_Soundtrack/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/219152/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/219152/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Mother Russia Bleeds",
+      "https://store.steampowered.com/app/361300/Mother_Russia_Bleeds/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/361300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/361300/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Sweet Transit",
+      "https://store.steampowered.com/app/1612770/Sweet_Transit/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1612770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1612770/capsule_616x353.jpg",
+      "$34.99",
+      "$6.99",
+      "80%",
+      null
+    ],
+    [
+      "Serious Sam II",
+      "https://store.steampowered.com/app/204340/Serious_Sam_II/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/204340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/204340/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Serious Sam HD: The First Encounter",
+      "https://store.steampowered.com/app/41000/Serious_Sam_HD_The_First_Encounter/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/41000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/41000/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Titan Quest: Atlantis",
+      "https://store.steampowered.com/app/1071200/Titan_Quest_Atlantis/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1071200/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1071200/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Serious Sam 3 VR: BFE",
+      "https://store.steampowered.com/app/567670/Serious_Sam_3_VR_BFE/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/567670/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/567670/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Ride 2",
+      "https://store.steampowered.com/app/477770/Ride_2/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/477770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/477770/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "Shadow Warrior Classic Redux",
+      "https://store.steampowered.com/app/225160/Shadow_Warrior_Classic_Redux/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/225160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/225160/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "BALAN WONDERWORLD",
+      "https://store.steampowered.com/app/1341050/BALAN_WONDERWORLD/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1341050/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1341050/capsule_616x353.jpg",
+      "$39.99",
+      "$5.99",
+      "85%",
+      null
+    ],
+    [
+      "Risen",
+      "https://store.steampowered.com/app/40300/Risen/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/40300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/40300/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Tracks - The Train Set Game",
+      "https://store.steampowered.com/app/657240/Tracks__The_Train_Set_Game/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/657240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/657240/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-03-18 16:16:22"
+  "update_time": "2026-03-18 22:02:12"
 }
