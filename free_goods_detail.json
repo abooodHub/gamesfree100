@@ -1,5 +1,5 @@
 {
-  "total_count": 1687,
+  "total_count": 1708,
   "free_games": [
     [
       "PUBG: BATTLEGROUNDS",
@@ -9488,6 +9488,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3956320/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "MapleStory M",
+      "https://store.steampowered.com/app/3969080/MapleStory_M/?snr=1_7_7_230_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3969080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3969080/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Shardbreakers Demo",
+      "https://store.steampowered.com/app/3256040/Shardbreakers/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3256040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3256040/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Timber Rush Demo",
+      "https://store.steampowered.com/app/4298880/Timber_Rush/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4298880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4298880/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14500,7 +14524,187 @@
       "$1.24",
       "75%",
       null
+    ],
+    [
+      "NBA 2K26",
+      "https://store.steampowered.com/app/3472040/NBA_2K26/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3472040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3472040/capsule_616x353.jpg",
+      "$79.99",
+      "$19.99",
+      "75%",
+      null
+    ],
+    [
+      "Warhammer 40,000: Darktide",
+      "https://store.steampowered.com/app/1361210/Warhammer_40000_Darktide/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1361210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1361210/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Solasta: Crown of the Magister",
+      "https://store.steampowered.com/app/1096530/Solasta_Crown_of_the_Magister/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1096530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1096530/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "This War of Mine",
+      "https://store.steampowered.com/app/282070/This_War_of_Mine/?snr=1_7_7_2300_150_1",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/282070/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/282070/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Songs of Conquest",
+      "https://store.steampowered.com/app/867210/Songs_of_Conquest/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/867210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/867210/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "HUMANKIND™",
+      "https://store.steampowered.com/app/1124300/HUMANKIND/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1124300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1124300/capsule_616x353.jpg",
+      "$49.99",
+      "$12.49",
+      "75%",
+      null
+    ],
+    [
+      "Crysis 2 - Maximum Edition",
+      "https://store.steampowered.com/app/108800/Crysis_2__Maximum_Edition/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/108800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/108800/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Going Under",
+      "https://store.steampowered.com/app/1154810/Going_Under/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1154810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1154810/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Expeditions: Viking",
+      "https://store.steampowered.com/app/445190/Expeditions_Viking/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/445190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/445190/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "HUNTDOWN",
+      "https://store.steampowered.com/app/598550/HUNTDOWN/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/598550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/598550/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "GOD EATER 2 Rage Burst",
+      "https://store.steampowered.com/app/438490/GOD_EATER_2_Rage_Burst/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/438490/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/438490/capsule_616x353.jpg",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "Monster Sanctuary",
+      "https://store.steampowered.com/app/814370/Monster_Sanctuary/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/814370/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/814370/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "20XX",
+      "https://store.steampowered.com/app/322110/20XX/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/322110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/322110/capsule_616x353.jpg",
+      "$14.99",
+      "$2.24",
+      "85%",
+      null
+    ],
+    [
+      "RUINER",
+      "https://store.steampowered.com/app/464060/RUINER/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/464060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/464060/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Children of Morta",
+      "https://store.steampowered.com/app/330020/Children_of_Morta/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/330020/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/330020/capsule_616x353.jpg",
+      "$21.99",
+      "$3.29",
+      "85%",
+      null
+    ],
+    [
+      "Moving Out 2",
+      "https://store.steampowered.com/app/1641700/Moving_Out_2/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1641700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1641700/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "SOS OPS!",
+      "https://store.steampowered.com/app/2475460/SOS_OPS/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2475460/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2475460/capsule_616x353.jpg",
+      "$5.99",
+      "$0.89",
+      "85%",
+      null
+    ],
+    [
+      "Barro",
+      "https://store.steampowered.com/app/618140/Barro/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/618140/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/618140/capsule_616x353.jpg",
+      "$4.99",
+      "$0.49",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-03-19 05:25:01"
+  "update_time": "2026-03-19 10:00:59"
 }
