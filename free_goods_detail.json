@@ -1,5 +1,5 @@
 {
-  "total_count": 1179,
+  "total_count": 1192,
   "free_games": [
     [
       "Apex Legends™",
@@ -8008,6 +8008,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2974330/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "JIAN YING JIANG HU",
+      "https://store.steampowered.com/app/3399860/JIAN_YING_JIANG_HU/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3399860/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3399860/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Gunship Battle Total Warfare",
+      "https://store.steampowered.com/app/3029540/Gunship_Battle_Total_Warfare/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3029540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3029540/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Soda Dungeon",
+      "https://store.steampowered.com/app/564710/Soda_Dungeon/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/564710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/564710/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -9790,7 +9814,107 @@
       "$2.99",
       "85%",
       null
+    ],
+    [
+      "MX vs ATV Legends",
+      "https://store.steampowered.com/app/1205970/MX_vs_ATV_Legends/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1205970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1205970/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Need for Speed™ Unbound",
+      "https://store.steampowered.com/app/1846380/Need_for_Speed_Unbound/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1846380/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1846380/capsule_616x353.jpg",
+      "$69.99",
+      "$6.99",
+      "90%",
+      null
+    ],
+    [
+      "Total War: ATTILA",
+      "https://store.steampowered.com/app/325610/Total_War_ATTILA/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/325610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/325610/capsule_616x353.jpg",
+      "$44.99",
+      "$11.24",
+      "75%",
+      null
+    ],
+    [
+      "Psychonauts 2",
+      "https://store.steampowered.com/app/607080/Psychonauts_2/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/607080/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/607080/capsule_616x353.jpg",
+      "$59.99",
+      "$11.99",
+      "80%",
+      null
+    ],
+    [
+      "Generation Zero®",
+      "https://store.steampowered.com/app/704270/Generation_Zero/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/704270/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/704270/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "The Evil Within 2",
+      "https://store.steampowered.com/app/601430/The_Evil_Within_2/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/601430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/601430/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Chivalry 2 - Special Edition Content",
+      "https://store.steampowered.com/app/1998240/Chivalry_2__Special_Edition_Content/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1998240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1998240/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "Black Mesa",
+      "https://store.steampowered.com/app/362890/Black_Mesa/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/362890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/362890/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Just Cause™ 3",
+      "https://store.steampowered.com/app/225540/Just_Cause_3/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/225540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/225540/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Pillars of Eternity",
+      "https://store.steampowered.com/app/291650/Pillars_of_Eternity/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/291650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/291650/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-03-20 16:02:56"
+  "update_time": "2026-03-20 21:53:12"
 }
