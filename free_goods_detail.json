@@ -1,5 +1,5 @@
 {
-  "total_count": 1157,
+  "total_count": 1179,
   "free_games": [
     [
       "Apex Legends™",
@@ -7968,6 +7968,46 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1647160/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Warhammer Combat Cards",
+      "https://store.steampowered.com/app/1641990/Warhammer_Combat_Cards/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1641990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1641990/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Smashing Simulator Idle",
+      "https://store.steampowered.com/app/3066060/Smashing_Simulator_Idle/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3066060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3066060/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Coloring Game 4",
+      "https://store.steampowered.com/app/1554790/Coloring_Game_4/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1554790/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1554790/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "FATAL FRAME II: Crimson Butterfly REMAKE Demo",
+      "https://store.steampowered.com/app/3920610/FATAL_FRAME_II_Crimson_Butterfly_REMAKE/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3920610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3920610/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "God of War Ragnarök - Digital Deluxe Edition Upgrade",
+      "https://store.steampowered.com/app/2974330/God_of_War_Ragnark__Digital_Deluxe_Edition_Upgrade/?snr=1_7_7_2300_150_15",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2974330/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2974330/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -9580,7 +9620,177 @@
       "$6.24",
       "75%",
       null
+    ],
+    [
+      "Dying Light 2: Stay Human Digital Extras Edition",
+      "https://store.steampowered.com/sub/1150220/?snr=1_7_7_2300_150_4",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$69.99",
+      "$17.49",
+      "75%",
+      null
+    ],
+    [
+      "Dying Light: Definitive 10th Anniversary Edition",
+      "https://store.steampowered.com/sub/1265945/?snr=1_7_7_2300_150_3",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "Green Hell",
+      "https://store.steampowered.com/app/815370/Green_Hell/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/815370/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/815370/capsule_616x353.jpg",
+      "$24.99",
+      "$2.49",
+      "90%",
+      null
+    ],
+    [
+      "Assassin's Creed® Unity",
+      "https://store.steampowered.com/app/289650/Assassins_Creed_Unity/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/289650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/289650/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Wolfenstein II: The New Colossus",
+      "https://store.steampowered.com/app/612880/Wolfenstein_II_The_New_Colossus/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/612880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/612880/capsule_616x353.jpg",
+      "$39.99",
+      "$5.99",
+      "85%",
+      null
+    ],
+    [
+      "Slime Rancher",
+      "https://store.steampowered.com/app/433340/Slime_Rancher/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Halo Wars: Definitive Edition",
+      "https://store.steampowered.com/app/459220/Halo_Wars_Definitive_Edition/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/459220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/459220/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "BATTLETECH",
+      "https://store.steampowered.com/app/637090/BATTLETECH/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/637090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/637090/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
+    ],
+    [
+      "Outlast 2",
+      "https://store.steampowered.com/app/414700/Outlast_2/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/414700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/414700/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Insurgency: Sandstorm",
+      "https://store.steampowered.com/app/581320/Insurgency_Sandstorm/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/581320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/581320/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Undertale",
+      "https://store.steampowered.com/app/391540/Undertale/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/391540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/391540/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "XCOM® 2",
+      "https://store.steampowered.com/app/268500/XCOM_2/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/268500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/268500/capsule_616x353.jpg",
+      "$59.99",
+      "$10.19",
+      "83%",
+      null
+    ],
+    [
+      "Marvel's Midnight Suns",
+      "https://store.steampowered.com/app/368260/Marvels_Midnight_Suns/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/368260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/368260/capsule_616x353.jpg",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "STAR WARS Jedi: Fallen Order Deluxe Edition",
+      "https://store.steampowered.com/sub/401587/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$49.99",
+      "$3.99",
+      "92%",
+      null
+    ],
+    [
+      "Wasteland 3",
+      "https://store.steampowered.com/app/719040/Wasteland_3/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/719040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/719040/capsule_616x353.jpg",
+      "$49.99",
+      "$9.99",
+      "80%",
+      null
+    ],
+    [
+      "Kingdom Come: Deliverance Royal Edition",
+      "https://store.steampowered.com/sub/368776/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Sleeping Dogs: Definitive Edition",
+      "https://store.steampowered.com/app/307690/Sleeping_Dogs_Definitive_Edition/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/307690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/307690/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
     ]
   ],
-  "update_time": "2026-03-20 09:58:29"
+  "update_time": "2026-03-20 16:02:56"
 }
