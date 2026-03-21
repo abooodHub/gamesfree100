@@ -1,5 +1,5 @@
 {
-  "total_count": 1224,
+  "total_count": 1226,
   "free_games": [
     [
       "Apex Legends™",
@@ -8176,6 +8176,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/590830/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Prison Life",
+      "https://store.steampowered.com/app/1904820/Prison_Life/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1904820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1904820/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -10198,7 +10206,17 @@
       "$1.99",
       "80%",
       null
+    ],
+    [
+      "DRAGON BALL FighterZ",
+      "https://store.steampowered.com/app/678950/DRAGON_BALL_FighterZ/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/678950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/678950/capsule_616x353.jpg",
+      "$59.99",
+      "$9.59",
+      "84%",
+      null
     ]
   ],
-  "update_time": "2026-03-21 09:46:51"
+  "update_time": "2026-03-21 15:52:55"
 }
