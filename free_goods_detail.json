@@ -1,5 +1,5 @@
 {
-  "total_count": 1213,
+  "total_count": 1224,
   "free_games": [
     [
       "Apex Legends™",
@@ -8136,6 +8136,46 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/4264660/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Kimi to Kanojo no LILYVAGANZA",
+      "https://store.steampowered.com/app/3099840/Kimi_to_Kanojo_no_LILYVAGANZA/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3099840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3099840/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Half-Life: MMod",
+      "https://store.steampowered.com/app/1761270/HalfLife_MMod/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1761270/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1761270/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Dawn of Ages",
+      "https://store.steampowered.com/app/3247200/Dawn_of_Ages/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3247200/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3247200/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Data Center Demo",
+      "https://store.steampowered.com/app/4376050/Data_Center_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4376050/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4376050/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "s&box",
+      "https://store.steampowered.com/app/590830/sbox/?snr=1_7_7_230_150_19",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/590830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/590830/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -10098,7 +10138,67 @@
       "$1.99",
       "90%",
       null
+    ],
+    [
+      "Dead Space™ 3",
+      "https://store.steampowered.com/app/1238060/Dead_Space_3/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1238060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1238060/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Beyond: Two Souls",
+      "https://store.steampowered.com/app/960990/Beyond_Two_Souls/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/960990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/960990/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Total War: THREE KINGDOMS",
+      "https://store.steampowered.com/app/779340/Total_War_THREE_KINGDOMS/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/779340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/779340/capsule_616x353.jpg",
+      "$59.99",
+      "$11.99",
+      "80%",
+      null
+    ],
+    [
+      "Assassin's Creed® Origins",
+      "https://store.steampowered.com/app/582160/Assassins_Creed_Origins/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/582160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/582160/capsule_616x353.jpg",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "Mortal Kombat 11",
+      "https://store.steampowered.com/app/976310/Mortal_Kombat_11/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/976310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/976310/capsule_616x353.jpg",
+      "$49.99",
+      "$4.99",
+      "90%",
+      null
+    ],
+    [
+      "Left 4 Dead",
+      "https://store.steampowered.com/app/500/Left_4_Dead/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/500/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-03-21 05:04:57"
+  "update_time": "2026-03-21 09:46:51"
 }
