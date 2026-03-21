@@ -1,5 +1,5 @@
 {
-  "total_count": 1226,
+  "total_count": 1242,
   "free_games": [
     [
       "Apex Legends™",
@@ -8184,6 +8184,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1904820/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Idle Hacking: An Inaction RPG",
+      "https://store.steampowered.com/app/4453290/Idle_Hacking_An_Inaction_RPG/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4453290/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4453290/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -10216,7 +10224,157 @@
       "$9.59",
       "84%",
       null
+    ],
+    [
+      "The Outer Worlds",
+      "https://store.steampowered.com/app/578650/The_Outer_Worlds/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/578650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/578650/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Shadow of the Tomb Raider: Definitive Edition",
+      "https://store.steampowered.com/app/750920/Shadow_of_the_Tomb_Raider_Definitive_Edition/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/750920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/750920/capsule_616x353.jpg",
+      "$39.99",
+      "$5.99",
+      "85%",
+      null
+    ],
+    [
+      "LEGO® Harry Potter™ Collection",
+      "https://store.steampowered.com/app/2950340/LEGO_Harry_Potter_Collection/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2950340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2950340/capsule_616x353.jpg",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Darkest Dungeon®",
+      "https://store.steampowered.com/app/262060/Darkest_Dungeon/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/262060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/262060/capsule_616x353.jpg",
+      "$24.99",
+      "$3.74",
+      "85%",
+      null
+    ],
+    [
+      "Still Wakes the Deep",
+      "https://store.steampowered.com/app/1622910/Still_Wakes_the_Deep/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1622910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1622910/capsule_616x353.jpg",
+      "$34.99",
+      "$8.74",
+      "75%",
+      null
+    ],
+    [
+      "Portal",
+      "https://store.steampowered.com/app/400/Portal/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/400/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Ranch Simulator: Build, Hunt, Farm",
+      "https://store.steampowered.com/app/1119730/Ranch_Simulator_Build_Hunt_Farm/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1119730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1119730/capsule_616x353.jpg",
+      "$24.99",
+      "$4.99",
+      "80%",
+      null
+    ],
+    [
+      "DOOM",
+      "https://store.steampowered.com/app/379720/DOOM/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/379720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/379720/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Tom Clancy’s The Division™",
+      "https://store.steampowered.com/app/365590/Tom_Clancys_The_Division/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/365590/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/365590/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "State of Decay 2: Juggernaut Edition",
+      "https://store.steampowered.com/app/495420/State_of_Decay_2_Juggernaut_Edition/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/495420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/495420/capsule_616x353.jpg",
+      "$29.99",
+      "$7.49",
+      "75%",
+      null
+    ],
+    [
+      "Senua’s Saga: Hellblade II",
+      "https://store.steampowered.com/app/2461850/Senuas_Saga_Hellblade_II/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2461850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2461850/capsule_616x353.jpg",
+      "$49.99",
+      "$12.49",
+      "75%",
+      null
+    ],
+    [
+      "Outlast",
+      "https://store.steampowered.com/app/238320/Outlast/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/238320/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/238320/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Rise of the Tomb Raider™",
+      "https://store.steampowered.com/app/391220/Rise_of_the_Tomb_Raider/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/391220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/391220/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Little Nightmares",
+      "https://store.steampowered.com/app/424840/Little_Nightmares/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/424840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/424840/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "ONE PIECE: PIRATE WARRIORS 4",
+      "https://store.steampowered.com/app/1089090/ONE_PIECE_PIRATE_WARRIORS_4/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1089090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1089090/capsule_616x353.jpg",
+      "$39.99",
+      "$9.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-03-21 15:52:55"
+  "update_time": "2026-03-21 21:39:02"
 }
