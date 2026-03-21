@@ -1,5 +1,5 @@
 {
-  "total_count": 1192,
+  "total_count": 1213,
   "free_games": [
     [
       "Apex Legends™",
@@ -8032,6 +8032,110 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/564710/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Dispatch Demo",
+      "https://store.steampowered.com/app/3674060/Dispatch_Demo/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3674060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3674060/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Stellar Blade™ Demo",
+      "https://store.steampowered.com/app/3564860/Stellar_Blade_Demo/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3564860/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3564860/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Tainted Grail: The Fall of Avalon Demo",
+      "https://store.steampowered.com/app/2346630/Tainted_Grail_The_Fall_of_Avalon_Demo/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2346630/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2346630/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Darwin Project",
+      "https://store.steampowered.com/app/544920/Darwin_Project/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/544920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/544920/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "VEIN Demo",
+      "https://store.steampowered.com/app/1857950/VEIN/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1857950/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1857950/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Island Saver",
+      "https://store.steampowered.com/app/1210250/Island_Saver/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1210250/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1210250/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "The Last Caretaker Demo",
+      "https://store.steampowered.com/app/1783560/The_Last_Caretaker/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1783560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1783560/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Train Driver 2",
+      "https://store.steampowered.com/app/3660700/Train_Driver_2/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3660700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3660700/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "修仙小屋",
+      "https://store.steampowered.com/app/2892880/_/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2892880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2892880/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Mash Box",
+      "https://store.steampowered.com/app/3062380/Mash_Box/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3062380/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3062380/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Insanity Clicker",
+      "https://store.steampowered.com/app/393530/Insanity_Clicker/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/393530/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/393530/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Arcanists",
+      "https://store.steampowered.com/app/2901550/Arcanists/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2901550/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2901550/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Dig, Dig, Die Demo",
+      "https://store.steampowered.com/app/4264660/Dig_Dig_Die_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4264660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4264660/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -9914,7 +10018,87 @@
       "$9.99",
       "75%",
       null
+    ],
+    [
+      "Chivalry 2 - King's Edition Content",
+      "https://store.steampowered.com/app/2140440/Chivalry_2__Kings_Edition_Content/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2140440/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2140440/capsule_616x353.jpg",
+      "$9.99",
+      "$0.99",
+      "90%",
+      null
+    ],
+    [
+      "Nuclear Nightmare",
+      "https://store.steampowered.com/app/2909110/Nuclear_Nightmare/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2909110/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2909110/capsule_616x353.jpg",
+      "$6.99",
+      "$1.74",
+      "75%",
+      null
+    ],
+    [
+      "Batman™: Arkham Origins",
+      "https://store.steampowered.com/app/209000/Batman_Arkham_Origins/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/209000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/209000/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Mortal Kombat X",
+      "https://store.steampowered.com/app/307780/Mortal_Kombat_X/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/307780/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/307780/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Kingdom Come: Deliverance Royal Edition",
+      "https://store.steampowered.com/sub/368776/?snr=1_7_7_2300_150_8",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
+    ],
+    [
+      "Killing Floor 2",
+      "https://store.steampowered.com/app/232090/Killing_Floor_2/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/232090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/232090/capsule_616x353.jpg",
+      "$29.99",
+      "$2.99",
+      "90%",
+      null
+    ],
+    [
+      "Don't Starve",
+      "https://store.steampowered.com/app/219740/Dont_Starve/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/219740/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/219740/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Heavy Rain",
+      "https://store.steampowered.com/app/960910/Heavy_Rain/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/960910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/960910/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-03-20 21:53:12"
+  "update_time": "2026-03-21 05:04:57"
 }
