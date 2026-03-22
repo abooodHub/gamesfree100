@@ -1,5 +1,5 @@
 {
-  "total_count": 1270,
+  "total_count": 1271,
   "free_games": [
     [
       "Apex Legends™",
@@ -8304,6 +8304,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/408900/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "King's Quest",
+      "https://store.steampowered.com/app/345390/Kings_Quest/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/345390/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/345390/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -10628,5 +10636,5 @@
       null
     ]
   ],
-  "update_time": "2026-03-22 15:55:08"
+  "update_time": "2026-03-22 21:39:49"
 }
