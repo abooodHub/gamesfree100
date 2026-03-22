@@ -1,5 +1,5 @@
 {
-  "total_count": 1265,
+  "total_count": 1269,
   "free_games": [
     [
       "Apex Legends™",
@@ -8264,6 +8264,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3391260/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Mr. Rightaway",
+      "https://store.steampowered.com/app/3048500/Mr_Rightaway/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3048500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3048500/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "The Expendabros",
+      "https://store.steampowered.com/app/312990/The_Expendabros/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/312990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/312990/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "The Spell Brigade Demo",
+      "https://store.steampowered.com/app/2904000/The_Spell_Brigade/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2904000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2904000/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Nova Roma Demo",
+      "https://store.steampowered.com/app/2426560/Nova_Roma_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2426560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2426560/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -10588,5 +10620,5 @@
       null
     ]
   ],
-  "update_time": "2026-03-22 05:24:57"
+  "update_time": "2026-03-22 09:55:11"
 }
