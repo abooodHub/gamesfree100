@@ -1,5 +1,5 @@
 {
-  "total_count": 1269,
+  "total_count": 1270,
   "free_games": [
     [
       "Apex Legends™",
@@ -8296,6 +8296,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2426560/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Unfortunate Spacemen",
+      "https://store.steampowered.com/app/408900/Unfortunate_Spacemen/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/408900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/408900/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -10620,5 +10628,5 @@
       null
     ]
   ],
-  "update_time": "2026-03-22 09:55:11"
+  "update_time": "2026-03-22 15:55:08"
 }
