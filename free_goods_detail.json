@@ -1,5 +1,5 @@
 {
-  "total_count": 1278,
+  "total_count": 1279,
   "free_games": [
     [
       "Apex Legends™",
@@ -8352,6 +8352,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2512840/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Meow My Crop!",
+      "https://store.steampowered.com/app/4201710/Meow_My_Crop/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4201710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4201710/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -10696,5 +10704,5 @@
       null
     ]
   ],
-  "update_time": "2026-03-23 10:13:32"
+  "update_time": "2026-03-23 16:11:16"
 }
