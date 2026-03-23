@@ -1,5 +1,5 @@
 {
-  "total_count": 1271,
+  "total_count": 1275,
   "free_games": [
     [
       "Apex Legends™",
@@ -8312,6 +8312,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/345390/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Terra Firma",
+      "https://store.steampowered.com/app/1482770/Terra_Firma/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1482770/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1482770/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Tricky Doors",
+      "https://store.steampowered.com/app/2552850/Tricky_Doors/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2552850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2552850/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -10634,7 +10650,27 @@
       "$8.99",
       "85%",
       null
+    ],
+    [
+      "Narvas",
+      "https://store.steampowered.com/app/640700/Narvas/?snr=1_7_7_230_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/640700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/640700/capsule_616x353.jpg",
+      "$8.99",
+      "$0.00",
+      "100%",
+      null
+    ],
+    [
+      "Dying Light 2: Stay Human Digital Extras Edition",
+      "https://store.steampowered.com/sub/1150220/?snr=1_7_7_2300_150_6",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$69.99",
+      "$17.49",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-03-22 21:39:49"
+  "update_time": "2026-03-23 05:26:06"
 }
