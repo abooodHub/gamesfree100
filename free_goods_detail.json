@@ -1,5 +1,5 @@
 {
-  "total_count": 1275,
+  "total_count": 1278,
   "free_games": [
     [
       "Apex Legends™",
@@ -8328,6 +8328,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2552850/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Card Hunter",
+      "https://store.steampowered.com/app/293260/Card_Hunter/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/293260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/293260/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "The Lord of the Rings: Journeys in Middle-earth",
+      "https://store.steampowered.com/app/1003400/The_Lord_of_the_Rings_Journeys_in_Middleearth/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1003400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1003400/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "DORONKO WANKO",
+      "https://store.steampowered.com/app/2512840/DORONKO_WANKO/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2512840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2512840/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -10672,5 +10696,5 @@
       null
     ]
   ],
-  "update_time": "2026-03-23 05:26:06"
+  "update_time": "2026-03-23 10:13:32"
 }
