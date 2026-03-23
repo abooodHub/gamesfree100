@@ -1,5 +1,5 @@
 {
-  "total_count": 1279,
+  "total_count": 1284,
   "free_games": [
     [
       "Apex Legends™",
@@ -10702,7 +10702,57 @@
       "$17.49",
       "75%",
       null
+    ],
+    [
+      "Frostpunk",
+      "https://store.steampowered.com/app/323190/Frostpunk/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/323190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/323190/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
+    ],
+    [
+      "Mass Effect™: Andromeda Deluxe Edition",
+      "https://store.steampowered.com/app/1238000/Mass_Effect_Andromeda_Deluxe_Edition/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1238000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1238000/capsule_616x353.jpg",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
+    ],
+    [
+      "PC Building Simulator",
+      "https://store.steampowered.com/app/621060/PC_Building_Simulator/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/621060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/621060/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Dishonored",
+      "https://store.steampowered.com/app/205100/Dishonored/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/205100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/205100/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Far Cry 3",
+      "https://store.steampowered.com/app/220240/Far_Cry_3/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/220240/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/220240/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-03-23 16:11:16"
+  "update_time": "2026-03-23 21:57:43"
 }
