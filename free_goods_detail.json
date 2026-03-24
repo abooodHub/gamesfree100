@@ -1,5 +1,5 @@
 {
-  "total_count": 1293,
+  "total_count": 1297,
   "free_games": [
     [
       "Apex Legends™",
@@ -8432,6 +8432,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/704920/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Picma - Picture Enigmas",
+      "https://store.steampowered.com/app/2134030/Picma__Picture_Enigmas/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2134030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2134030/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Mining",
+      "https://store.steampowered.com/app/3347520/Mining/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3347520/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3347520/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Rock the Islands",
+      "https://store.steampowered.com/app/2987860/Rock_the_Islands/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2987860/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2987860/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Flag Clicker",
+      "https://store.steampowered.com/app/2996990/Flag_Clicker/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2996990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2996990/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -10826,5 +10858,5 @@
       null
     ]
   ],
-  "update_time": "2026-03-24 05:10:43"
+  "update_time": "2026-03-24 10:06:35"
 }
