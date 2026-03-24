@@ -1,5 +1,5 @@
 {
-  "total_count": 1300,
+  "total_count": 1304,
   "free_games": [
     [
       "Apex Legends™",
@@ -8480,6 +8480,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3021540/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Build Master: MarsVille",
+      "https://store.steampowered.com/app/2366120/Build_Master_MarsVille/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2366120/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2366120/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Cards, the Universe and Everything",
+      "https://store.steampowered.com/app/3411830/Cards_the_Universe_and_Everything/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3411830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3411830/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Uptasia",
+      "https://store.steampowered.com/app/719730/Uptasia/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/719730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/719730/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -10882,7 +10906,17 @@
       "$11.99",
       "85%",
       null
+    ],
+    [
+      "Kingdom Come: Deliverance Royal Edition",
+      "https://store.steampowered.com/sub/368776/?snr=1_7_7_2300_150_6",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$7.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-03-24 16:15:32"
+  "update_time": "2026-03-24 22:05:34"
 }
