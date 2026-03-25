@@ -1,5 +1,5 @@
 {
-  "total_count": 1312,
+  "total_count": 1313,
   "free_games": [
     [
       "Apex Legends™",
@@ -10980,7 +10980,17 @@
       "$7.99",
       "80%",
       null
+    ],
+    [
+      "Batman: Arkham Collection",
+      "https://store.steampowered.com/sub/320795/?snr=1_7_7_2300_150_3",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
     ]
   ],
-  "update_time": "2026-03-25 05:23:40"
+  "update_time": "2026-03-25 10:04:35"
 }
