@@ -1,1 +1,28 @@
-
+{
+  "total_count": 2,
+  "free_games": [
+    [
+      "Electrician Simulator",
+      "https://store.epicgames.com/en-US/p/electrician-simulator-164e9f",
+      "https://cdn1.epicgames.com/spt-assets/d0be4faac92a49ebae039c0e0d386e42/electrician-simulator-1j17y.jpg",
+      "Take on the electrician role and learn the profession's basics! Install sockets, repair worn-out equipment, assemble broken appliances, replace light bulbs, and lay wires at your customers' homes. Be sure to check everything twice, with electricity there are no jokes!",
+      "17.99 USD",
+      "Free",
+      "خصم 100% - مجاني",
+      "2026-03-26 15:00:00"
+    ],
+    [
+      "World of Warships — Epic Anniversary Tachibana Pack",
+      "https://store.epicgames.com/en-US/p/world-of-warships",
+      "https://cdn1.epicgames.com/spt-assets/4eb4296fe40e4130a61adbf2d6b34586/world-of-warships-1ahdf.png",
+      "Get a Premium Japanese destroyer and some Epic permanent camouflages to celebrate our 5th year at Epic Games Store.",
+      "25.00 USD",
+      "Free",
+      "خصم 100% - مجاني",
+      "2026-03-26 15:00:00"
+    ]
+  ],
+  "discounted_games": [],
+  "update_time": "2026-03-25 15:25:04",
+  "source": "Epic Games Store"
+}
