@@ -1,5 +1,5 @@
 {
-  "total_count": 1304,
+  "total_count": 1312,
   "free_games": [
     [
       "Apex Legends™",
@@ -8504,6 +8504,70 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/719730/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Coin",
+      "https://store.steampowered.com/app/3070500/Coin/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3070500/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3070500/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Shrimp",
+      "https://store.steampowered.com/app/3054490/Shrimp/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3054490/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3054490/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Spire of Ash",
+      "https://store.steampowered.com/app/4450160/Spire_of_Ash/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4450160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4450160/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "火焰征程",
+      "https://store.steampowered.com/app/2492430/_/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2492430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2492430/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Froggin' Around Demo",
+      "https://store.steampowered.com/app/4006090/Froggin_Around_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4006090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4006090/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Coloring Game",
+      "https://store.steampowered.com/app/1026820/Coloring_Game/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1026820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1026820/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Cinderia Demo",
+      "https://store.steampowered.com/app/3214610/Cinderia/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3214610/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3214610/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Cookard",
+      "https://store.steampowered.com/app/2919650/Cookard/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2919650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2919650/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -10918,5 +10982,5 @@
       null
     ]
   ],
-  "update_time": "2026-03-24 22:05:34"
+  "update_time": "2026-03-25 05:23:40"
 }
