@@ -1,5 +1,5 @@
 {
-  "total_count": 1290,
+  "total_count": 1294,
   "free_games": [
     [
       "Apex Legends™",
@@ -8200,6 +8200,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1088710/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Emporea: Realms of War and Magic",
+      "https://store.steampowered.com/app/416450/Emporea_Realms_of_War_and_Magic/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/416450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/416450/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Warhammer Combat Cards",
+      "https://store.steampowered.com/app/1641990/Warhammer_Combat_Cards/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1641990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1641990/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "The Expendabros",
+      "https://store.steampowered.com/app/312990/The_Expendabros/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/312990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/312990/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "20 Small Mazes",
+      "https://store.steampowered.com/app/2570630/20_Small_Mazes/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2570630/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2570630/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -10854,5 +10886,5 @@
       null
     ]
   ],
-  "update_time": "2026-03-26 10:11:29"
+  "update_time": "2026-03-26 16:19:38"
 }
