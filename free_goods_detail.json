@@ -1,5 +1,5 @@
 {
-  "total_count": 1276,
+  "total_count": 1290,
   "free_games": [
     [
       "Apex Legends™",
@@ -8160,6 +8160,46 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/922320/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Football Manager 26 Demo",
+      "https://store.steampowered.com/app/3551340/Football_Manager_26/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3551340/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3551340/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Alien Swarm",
+      "https://store.steampowered.com/app/630/Alien_Swarm/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/630/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/630/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Vegas Craps by Pokerist",
+      "https://store.steampowered.com/app/3601450/Vegas_Craps_by_Pokerist/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3601450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3601450/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "100 Asian Cats",
+      "https://store.steampowered.com/app/2667970/100_Asian_Cats/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2667970/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2667970/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Yakuza 3 Remastered",
+      "https://store.steampowered.com/app/1088710/Yakuza_3_Remastered/?snr=1_7_7_230_150_20",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1088710/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1088710/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -10722,7 +10762,97 @@
       "$7.99",
       "80%",
       null
+    ],
+    [
+      "Divinity: Original Sin - Enhanced Edition",
+      "https://store.steampowered.com/app/373420/Divinity_Original_Sin__Enhanced_Edition/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/373420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/373420/capsule_616x353.jpg",
+      "$39.99",
+      "$5.99",
+      "85%",
+      null
+    ],
+    [
+      "Dungeon Defenders",
+      "https://store.steampowered.com/app/65800/Dungeon_Defenders/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/65800/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/65800/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "RPG Maker MV",
+      "https://store.steampowered.com/app/363890/RPG_Maker_MV/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/363890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/363890/capsule_616x353.jpg",
+      "$79.99",
+      "$11.99",
+      "85%",
+      null
+    ],
+    [
+      "HELLDIVERS™ Dive Harder Edition",
+      "https://store.steampowered.com/app/394510/HELLDIVERS_Dive_Harder_Edition/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/394510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/394510/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Streets of Rage 4",
+      "https://store.steampowered.com/app/985890/Streets_of_Rage_4/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/985890/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/985890/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Batman: Arkham Collection",
+      "https://store.steampowered.com/sub/320795/?snr=1_7_7_2300_150_3",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$59.99",
+      "$8.99",
+      "85%",
+      null
+    ],
+    [
+      "Danganronpa 2: Goodbye Despair",
+      "https://store.steampowered.com/app/413420/Danganronpa_2_Goodbye_Despair/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/413420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/413420/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Wolfenstein: The New Order",
+      "https://store.steampowered.com/app/201810/Wolfenstein_The_New_Order/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/201810/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/201810/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "Frostpunk",
+      "https://store.steampowered.com/app/323190/Frostpunk/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/323190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/323190/capsule_616x353.jpg",
+      "$29.99",
+      "$4.49",
+      "85%",
+      null
     ]
   ],
-  "update_time": "2026-03-26 05:29:38"
+  "update_time": "2026-03-26 10:11:29"
 }
