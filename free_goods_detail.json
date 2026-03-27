@@ -1,5 +1,5 @@
 {
-  "total_count": 1656,
+  "total_count": 1665,
   "free_games": [
     [
       "Apex Legends™",
@@ -8520,6 +8520,30 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1844240/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "9Dragons",
+      "https://store.steampowered.com/app/390100/9Dragons/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/390100/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/390100/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Stormshot",
+      "https://store.steampowered.com/app/2554670/Stormshot/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2554670/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2554670/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Closers",
+      "https://store.steampowered.com/app/215830/Closers/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/215830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/215830/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14432,7 +14456,67 @@
       "$0.49",
       "90%",
       null
+    ],
+    [
+      "Rebel Galaxy",
+      "https://store.steampowered.com/app/290300/Rebel_Galaxy/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/290300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/290300/capsule_616x353.jpg",
+      "$19.99",
+      "$1.99",
+      "90%",
+      null
+    ],
+    [
+      "Chasm",
+      "https://store.steampowered.com/app/312200/Chasm/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/312200/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/312200/capsule_616x353.jpg",
+      "$19.99",
+      "$2.99",
+      "85%",
+      null
+    ],
+    [
+      "Lonely Mountains: Downhill",
+      "https://store.steampowered.com/app/711540/Lonely_Mountains_Downhill/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/711540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/711540/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "TOEM: A Photo Adventure",
+      "https://store.steampowered.com/app/1307580/TOEM_A_Photo_Adventure/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1307580/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1307580/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Werewolf: The Apocalypse — Heart of the Forest",
+      "https://store.steampowered.com/app/1342620/Werewolf_The_Apocalypse__Heart_of_the_Forest/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1342620/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1342620/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Rebel Galaxy Outlaw",
+      "https://store.steampowered.com/app/910830/Rebel_Galaxy_Outlaw/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/910830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/910830/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-03-27 16:10:17"
+  "update_time": "2026-03-27 21:58:34"
 }
