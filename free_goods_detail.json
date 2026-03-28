@@ -1,5 +1,5 @@
 {
-  "total_count": 1665,
+  "total_count": 1688,
   "free_games": [
     [
       "Apex Legends™",
@@ -8544,6 +8544,110 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/215830/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Party Bots",
+      "https://store.steampowered.com/app/1859860/Party_Bots/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1859860/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1859860/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Ore Factory Squad ⛏️ Demo",
+      "https://store.steampowered.com/app/4396420/Ore_Factory_Squad__Demo/?snr=1_7_7_230_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4396420/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4396420/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "BidKing Demo",
+      "https://store.steampowered.com/app/4205000/BidKing_Demo/?snr=1_7_7_230_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4205000/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4205000/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "The Eternal Life of Goldman Demo",
+      "https://store.steampowered.com/app/4315490/The_Eternal_Life_of_Goldman_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4315490/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4315490/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Starborne: Frontiers",
+      "https://store.steampowered.com/app/3021540/Starborne_Frontiers/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3021540/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3021540/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "World of Shooting",
+      "https://store.steampowered.com/app/1678150/World_of_Shooting/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1678150/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1678150/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "DYO",
+      "https://store.steampowered.com/app/791470/DYO/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/791470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/791470/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Prison Life",
+      "https://store.steampowered.com/app/1904820/Prison_Life/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1904820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1904820/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Vigil",
+      "https://store.steampowered.com/app/3817090/Vigil/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3817090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3817090/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Hide and Shriek",
+      "https://store.steampowered.com/app/480430/Hide_and_Shriek/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/480430/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/480430/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Tobacco Shop Simulator: Prologue",
+      "https://store.steampowered.com/app/3211690/Tobacco_Shop_Simulator_Prologue/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3211690/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3211690/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Nocturnal Quest: An Idle RPG Adventure",
+      "https://store.steampowered.com/app/2330930/Nocturnal_Quest_An_Idle_RPG_Adventure/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2330930/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2330930/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Tank Team",
+      "https://store.steampowered.com/app/2587450/Tank_Team/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2587450/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2587450/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14516,7 +14620,107 @@
       "$5.99",
       "80%",
       null
+    ],
+    [
+      "Lucky Villager",
+      "https://store.steampowered.com/app/1922210/Lucky_Villager/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1922210/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1922210/capsule_616x353.jpg",
+      "$4.99",
+      "$0.49",
+      "90%",
+      null
+    ],
+    [
+      "PiraCrash!",
+      "https://store.steampowered.com/app/1220200/PiraCrash/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1220200/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1220200/capsule_616x353.jpg",
+      "$5.99",
+      "$0.71",
+      "88%",
+      null
+    ],
+    [
+      "European Ship Simulator",
+      "https://store.steampowered.com/app/299250/European_Ship_Simulator/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/299250/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/299250/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "BioShock Infinite: Burial at Sea - Episode One",
+      "https://store.steampowered.com/app/214931/BioShock_Infinite_Burial_at_Sea__Episode_One/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/214931/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/214931/capsule_616x353.jpg",
+      "$14.99",
+      "$3.74",
+      "75%",
+      null
+    ],
+    [
+      "Cemetery Warrior 4",
+      "https://store.steampowered.com/app/1150990/Cemetery_Warrior_4/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1150990/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1150990/capsule_616x353.jpg",
+      "$29.99",
+      "$1.49",
+      "95%",
+      null
+    ],
+    [
+      "Border Officer",
+      "https://store.steampowered.com/app/1057180/Border_Officer/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1057180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1057180/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
+    ],
+    [
+      "Wanderer",
+      "https://store.steampowered.com/app/2027350/Wanderer/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2027350/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2027350/capsule_616x353.jpg",
+      "$4.99",
+      "$0.49",
+      "90%",
+      null
+    ],
+    [
+      "Dark Jungle",
+      "https://store.steampowered.com/app/2065920/Dark_Jungle/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2065920/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2065920/capsule_616x353.jpg",
+      "$4.99",
+      "$0.49",
+      "90%",
+      null
+    ],
+    [
+      "Sid Meier’s Ace Patrol",
+      "https://store.steampowered.com/app/244070/Sid_Meiers_Ace_Patrol/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/244070/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/244070/capsule_616x353.jpg",
+      "$6.99",
+      "$1.74",
+      "75%",
+      null
+    ],
+    [
+      "Cave Explorer",
+      "https://store.steampowered.com/app/1713050/Cave_Explorer/?snr=1_7_7_2300_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1713050/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1713050/capsule_616x353.jpg",
+      "$4.99",
+      "$0.49",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-03-27 21:58:34"
+  "update_time": "2026-03-28 05:13:44"
 }
