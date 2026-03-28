@@ -1,5 +1,5 @@
 {
-  "total_count": 1702,
+  "total_count": 1710,
   "free_games": [
     [
       "Apex Legends™",
@@ -8680,6 +8680,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3099840/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Angels Pact: Reversal World",
+      "https://store.steampowered.com/app/1477460/Angels_Pact_Reversal_World/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1477460/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1477460/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14852,7 +14860,77 @@
       "$0.79",
       "92%",
       null
+    ],
+    [
+      "IL-2 Sturmovik: Battle of Normandy",
+      "https://store.steampowered.com/app/2118560/IL2_Sturmovik_Battle_of_Normandy/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2118560/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2118560/capsule_616x353.jpg",
+      "$59.99",
+      "$14.99",
+      "75%",
+      null
+    ],
+    [
+      "Biped",
+      "https://store.steampowered.com/app/1071870/Biped/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1071870/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1071870/capsule_616x353.jpg",
+      "$14.99",
+      "$2.24",
+      "85%",
+      null
+    ],
+    [
+      "001 Game Creator: 2025 Edition",
+      "https://store.steampowered.com/app/347400/001_Game_Creator_2025_Edition/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/347400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/347400/capsule_616x353.jpg",
+      "$79.99",
+      "$19.99",
+      "75%",
+      null
+    ],
+    [
+      "The Lost Legends of Redwall™: The Scout Anthology",
+      "https://store.steampowered.com/app/2169570/The_Lost_Legends_of_Redwall_The_Scout_Anthology/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2169570/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2169570/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "RollerCoaster Tycoon®: Deluxe",
+      "https://store.steampowered.com/app/285310/RollerCoaster_Tycoon_Deluxe/?snr=1_7_7_2300_150_3",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/285310/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/285310/capsule_616x353.jpg",
+      "$5.99",
+      "$1.19",
+      "80%",
+      null
+    ],
+    [
+      "RollerCoaster Tycoon® 3: Complete Edition",
+      "https://store.steampowered.com/app/1368820/RollerCoaster_Tycoon_3_Complete_Edition/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1368820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1368820/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
+    ],
+    [
+      "RollerCoaster Tycoon® Classic",
+      "https://store.steampowered.com/app/683900/RollerCoaster_Tycoon_Classic/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/683900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/683900/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-03-28 15:58:30"
+  "update_time": "2026-03-28 21:42:59"
 }
