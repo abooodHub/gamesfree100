@@ -1,5 +1,5 @@
 {
-  "total_count": 1688,
+  "total_count": 1702,
   "free_games": [
     [
       "Apex Legends™",
@@ -8648,6 +8648,38 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2587450/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Nexus Rumble: The Ultimate Showdown",
+      "https://store.steampowered.com/app/3027820/Nexus_Rumble_The_Ultimate_Showdown/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3027820/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3027820/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Pawns of War",
+      "https://store.steampowered.com/app/3509740/Pawns_of_War/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3509740/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3509740/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "GPRO - Classic racing manager",
+      "https://store.steampowered.com/app/2169220/GPRO__Classic_racing_manager/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2169220/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2169220/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Kimi to Kanojo no LILYVAGANZA",
+      "https://store.steampowered.com/app/3099840/Kimi_to_Kanojo_no_LILYVAGANZA/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3099840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3099840/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -14720,7 +14752,107 @@
       "$0.49",
       "90%",
       null
+    ],
+    [
+      "Sniper Ghost Warrior Contracts Digital Deluxe Edition",
+      "https://store.steampowered.com/sub/453455/?snr=1_7_7_2300_150_5",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$39.99",
+      "$3.99",
+      "90%",
+      null
+    ],
+    [
+      "Super Farming Boy",
+      "https://store.steampowered.com/app/659300/Super_Farming_Boy/?snr=1_7_7_2300_150_5",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/659300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/659300/capsule_616x353.jpg",
+      "$12.99",
+      "$2.59",
+      "80%",
+      null
+    ],
+    [
+      "Tools Up!",
+      "https://store.steampowered.com/app/1004490/Tools_Up/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1004490/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1004490/capsule_616x353.jpg",
+      "$19.99",
+      "$3.99",
+      "80%",
+      null
+    ],
+    [
+      "Internet Cafe Simulator",
+      "https://store.steampowered.com/app/1136160/Internet_Cafe_Simulator/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1136160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1136160/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Pilo and the Holobook",
+      "https://store.steampowered.com/app/2423270/Pilo_and_the_Holobook/?snr=1_7_7_2300_150_6",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2423270/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2423270/capsule_616x353.jpg",
+      "$12.99",
+      "$2.59",
+      "80%",
+      null
+    ],
+    [
+      "Wanderlust: Travel Stories",
+      "https://store.steampowered.com/app/1051410/Wanderlust_Travel_Stories/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1051410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1051410/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "Game Builder Tycoon",
+      "https://store.steampowered.com/app/2756470/Game_Builder_Tycoon/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2756470/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2756470/capsule_616x353.jpg",
+      "$4.99",
+      "$0.69",
+      "86%",
+      null
+    ],
+    [
+      "Tiny Room Stories: Town Mystery",
+      "https://store.steampowered.com/app/1259640/Tiny_Room_Stories_Town_Mystery/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1259640/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1259640/capsule_616x353.jpg",
+      "$9.99",
+      "$1.49",
+      "85%",
+      null
+    ],
+    [
+      "Aspire: Ina's Tale",
+      "https://store.steampowered.com/app/1720090/Aspire_Inas_Tale/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1720090/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1720090/capsule_616x353.jpg",
+      "$12.99",
+      "$2.59",
+      "80%",
+      null
+    ],
+    [
+      "Who Is This Man",
+      "https://store.steampowered.com/app/1008510/Who_Is_This_Man/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1008510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1008510/capsule_616x353.jpg",
+      "$9.99",
+      "$0.79",
+      "92%",
+      null
     ]
   ],
-  "update_time": "2026-03-28 05:13:44"
+  "update_time": "2026-03-28 10:01:12"
 }
