@@ -1,5 +1,5 @@
 {
-  "total_count": 1740,
+  "total_count": 1750,
   "free_games": [
     [
       "Apex Legends™",
@@ -8792,6 +8792,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1442670/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Unfortunate Spacemen",
+      "https://store.steampowered.com/app/408900/Unfortunate_Spacemen/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/408900/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/408900/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "SAMURAI SHODOWN",
+      "https://store.steampowered.com/app/1342260/SAMURAI_SHODOWN/?snr=1_7_7_2300_150_13",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1342260/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1342260/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -15204,7 +15220,87 @@
       "$12.49",
       "75%",
       null
+    ],
+    [
+      "RollerCoaster Tycoon World™: Deluxe Edition",
+      "https://store.steampowered.com/app/405580/RollerCoaster_Tycoon_World_Deluxe_Edition/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/405580/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/405580/capsule_616x353.jpg",
+      "$4.99",
+      "$1.24",
+      "75%",
+      null
+    ],
+    [
+      "Happy Souls",
+      "https://store.steampowered.com/app/3028300/Happy_Souls/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3028300/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3028300/capsule_616x353.jpg",
+      "$39.99",
+      "$1.99",
+      "95%",
+      null
+    ],
+    [
+      "Red Wings: American Aces",
+      "https://store.steampowered.com/app/1654680/Red_Wings_American_Aces/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1654680/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1654680/capsule_616x353.jpg",
+      "$11.99",
+      "$1.79",
+      "85%",
+      null
+    ],
+    [
+      "Witchaven",
+      "https://store.steampowered.com/app/1655410/Witchaven/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1655410/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1655410/capsule_616x353.jpg",
+      "$7.99",
+      "$1.59",
+      "80%",
+      null
+    ],
+    [
+      "Battle Ram",
+      "https://store.steampowered.com/app/1262060/Battle_Ram/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1262060/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1262060/capsule_616x353.jpg",
+      "$29.99",
+      "$1.49",
+      "95%",
+      null
+    ],
+    [
+      "Asleep: Act 1",
+      "https://store.steampowered.com/app/1583850/Asleep_Act_1/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1583850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1583850/capsule_616x353.jpg",
+      "$9.99",
+      "$1.49",
+      "85%",
+      null
+    ],
+    [
+      "Dr Livingstone, I Presume? Reversed Escape Room",
+      "https://store.steampowered.com/app/1237510/Dr_Livingstone_I_Presume_Reversed_Escape_Room/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1237510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1237510/capsule_616x353.jpg",
+      "$14.99",
+      "$2.24",
+      "85%",
+      null
+    ],
+    [
+      "Lab Inspect",
+      "https://store.steampowered.com/app/2206720/Lab_Inspect/?snr=1_7_7_2300_150_8",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2206720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2206720/capsule_616x353.jpg",
+      "$4.99",
+      "$0.49",
+      "90%",
+      null
     ]
   ],
-  "update_time": "2026-03-29 05:33:53"
+  "update_time": "2026-03-29 10:06:32"
 }
