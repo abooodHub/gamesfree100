@@ -1,5 +1,5 @@
 {
-  "total_count": 1750,
+  "total_count": 1756,
   "free_games": [
     [
       "Apex Legends™",
@@ -8808,6 +8808,14 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1342260/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Rocky Idle Demo",
+      "https://store.steampowered.com/app/3852250/Rocky_Idle/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3852250/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3852250/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -15300,7 +15308,57 @@
       "$0.49",
       "90%",
       null
+    ],
+    [
+      "Buzz Aldrin's Space Program Manager",
+      "https://store.steampowered.com/app/308270/Buzz_Aldrins_Space_Program_Manager/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/308270/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/308270/capsule_616x353.jpg",
+      "$29.99",
+      "$5.99",
+      "80%",
+      null
+    ],
+    [
+      "Golfing Over It with Alva Majo",
+      "https://store.steampowered.com/app/817510/Golfing_Over_It_with_Alva_Majo/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/817510/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/817510/capsule_616x353.jpg",
+      "$4.99",
+      "$1.24",
+      "75%",
+      null
+    ],
+    [
+      "PONG Quest™",
+      "https://store.steampowered.com/app/1177030/PONG_Quest/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1177030/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1177030/capsule_616x353.jpg",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
+    ],
+    [
+      "OVIVO",
+      "https://store.steampowered.com/app/597700/OVIVO/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/597700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/597700/capsule_616x353.jpg",
+      "$9.99",
+      "$1.99",
+      "80%",
+      null
+    ],
+    [
+      "Terrordrome - Reign of the Legends",
+      "https://store.steampowered.com/app/1291170/Terrordrome__Reign_of_the_Legends/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1291170/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1291170/capsule_616x353.jpg",
+      "$19.99",
+      "$4.99",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-03-29 10:06:32"
+  "update_time": "2026-03-29 15:59:20"
 }
