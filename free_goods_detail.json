@@ -1,5 +1,5 @@
 {
-  "total_count": 1756,
+  "total_count": 1762,
   "free_games": [
     [
       "Apex Legends™",
@@ -8816,6 +8816,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3852250/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "2025: Mosaic Retrospective",
+      "https://store.steampowered.com/app/4266120/2025_Mosaic_Retrospective/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4266120/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4266120/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Cards, the Universe and Everything",
+      "https://store.steampowered.com/app/3411830/Cards_the_Universe_and_Everything/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3411830/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3411830/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -15358,7 +15374,47 @@
       "$4.99",
       "75%",
       null
+    ],
+    [
+      "Wall World",
+      "https://store.steampowered.com/app/2187290/Wall_World/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2187290/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2187290/capsule_616x353.jpg",
+      "$6.99",
+      "$1.04",
+      "85%",
+      null
+    ],
+    [
+      "FRONT MISSION 1st: Remake",
+      "https://store.steampowered.com/app/2399730/FRONT_MISSION_1st_Remake/?snr=1_7_7_2300_150_2",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2399730/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2399730/capsule_616x353.jpg",
+      "$34.99",
+      "$6.99",
+      "80%",
+      null
+    ],
+    [
+      "Catch the Turtle",
+      "https://store.steampowered.com/app/4335910/Catch_the_Turtle/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4335910/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4335910/capsule_616x353.jpg",
+      "$199.99",
+      "$9.99",
+      "95%",
+      null
+    ],
+    [
+      "Breakout: Recharged",
+      "https://store.steampowered.com/app/1714190/Breakout_Recharged/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1714190/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1714190/capsule_616x353.jpg",
+      "$9.99",
+      "$2.49",
+      "75%",
+      null
     ]
   ],
-  "update_time": "2026-03-29 15:59:20"
+  "update_time": "2026-03-29 21:44:27"
 }
