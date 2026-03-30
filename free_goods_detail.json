@@ -1,5 +1,5 @@
 {
-  "total_count": 1775,
+  "total_count": 1777,
   "free_games": [
     [
       "Apex Legends™",
@@ -8896,6 +8896,22 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/1754720/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Battle Grounds III",
+      "https://store.steampowered.com/app/1057700/Battle_Grounds_III/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1057700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1057700/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "CRACKED",
+      "https://store.steampowered.com/app/3917010/CRACKED/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3917010/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3917010/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -15530,5 +15546,5 @@
       null
     ]
   ],
-  "update_time": "2026-03-30 05:36:41"
+  "update_time": "2026-03-30 10:44:39"
 }
