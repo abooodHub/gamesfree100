@@ -1,5 +1,5 @@
 {
-  "total_count": 1762,
+  "total_count": 1775,
   "free_games": [
     [
       "Apex Legends™",
@@ -8832,6 +8832,70 @@
       "https://cdn.cloudflare.steamstatic.com/steam/apps/3411830/capsule_616x353.jpg",
       "",
       "مجاني"
+    ],
+    [
+      "Winds of Valen",
+      "https://store.steampowered.com/app/4135880/Winds_of_Valen/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4135880/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4135880/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Sniper Dan Demo",
+      "https://store.steampowered.com/app/2841650/Sniper_Dan/?snr=1_7_7_230_150_9",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2841650/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2841650/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Ale & Tale Tavern: First Pints",
+      "https://store.steampowered.com/app/2870840/Ale__Tale_Tavern_First_Pints/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2870840/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2870840/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "The New Flesh",
+      "https://store.steampowered.com/app/3692660/The_New_Flesh/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3692660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/3692660/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Zero Stress King: Idle Defense Demo",
+      "https://store.steampowered.com/app/4271160/Zero_Stress_King_Idle_Defense/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4271160/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4271160/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Silly Linguine Cat Simulator Deluxe Online",
+      "https://store.steampowered.com/app/4368350/Silly_Linguine_Cat_Simulator_Deluxe_Online/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4368350/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4368350/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "Dig, Dig, Die Demo",
+      "https://store.steampowered.com/app/4264660/Dig_Dig_Die_Demo/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4264660/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/4264660/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
+      "英雄黄昏-文字三国志&曹贼模拟器",
+      "https://store.steampowered.com/app/1754720/_/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1754720/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1754720/capsule_616x353.jpg",
+      "",
+      "مجاني"
     ]
   ],
   "discounted_games": [
@@ -15414,7 +15478,57 @@
       "$2.49",
       "75%",
       null
+    ],
+    [
+      "Mad Smartphone Tycoon",
+      "https://store.steampowered.com/app/2891120/Mad_Smartphone_Tycoon/?snr=1_7_7_2300_150_4",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2891120/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2891120/capsule_616x353.jpg",
+      "$11.99",
+      "$2.15",
+      "82%",
+      null
+    ],
+    [
+      "Dangerous Waters",
+      "https://store.steampowered.com/app/1600/Dangerous_Waters/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1600/capsule_616x353.jpg",
+      "$24.99",
+      "$6.24",
+      "75%",
+      null
+    ],
+    [
+      "Barro F22",
+      "https://store.steampowered.com/app/1958600/Barro_F22/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1958600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1958600/capsule_616x353.jpg",
+      "$4.99",
+      "$0.49",
+      "90%",
+      null
+    ],
+    [
+      "pureya",
+      "https://store.steampowered.com/app/1268960/pureya/?snr=1_7_7_2300_150_7",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1268960/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1268960/capsule_616x353.jpg",
+      "$5.99",
+      "$1.49",
+      "75%",
+      null
+    ],
+    [
+      "Railroad Tycoon Collection",
+      "https://store.steampowered.com/sub/326/?snr=1_7_7_2300_150_7",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "https://via.placeholder.com/300x150/222/fff?text=Steam",
+      "$14.99",
+      "$2.99",
+      "80%",
+      null
     ]
   ],
-  "update_time": "2026-03-29 21:44:27"
+  "update_time": "2026-03-30 05:36:41"
 }
