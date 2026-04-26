@@ -372,26 +372,27 @@ def save_epic_games_data(games_list):
             elif discount_text and any(x in discount_text for x in ["90%", "95%", "99%"]):
                 discounted_games.append(game)
         
-        # دمج مع البيانات الموجودة (بعد التنظيف)
+        # دمج مع البيانات الموجودة — الألعاب المنتهية لا تُضاف
         if existing_data:
             existing_free = existing_data.get("free_games", [])
             existing_discounted = existing_data.get("discounted_games", [])
-            
-            # إضافة الألعاب الجديدة فقط (تجنب التكرار بالاسم+الرابط)
+
+            # الألعاب القديمة المجانية: أضف فقط غير المنتهية
             existing_free_keys = set((g[0], g[1]) for g in existing_free if len(g) > 1)
             for game in free_games:
                 key = (game[0], game[1])
-                if key not in existing_free_keys:
+                if key not in existing_free_keys and not is_game_expired(game):
                     existing_free.append(game)
                     existing_free_keys.add(key)
-            
+
+            # الألعاب القديمة المخصومة: أضف فقط غير المنتهية
             existing_discounted_keys = set((g[0], g[1]) for g in existing_discounted if len(g) > 1)
             for game in discounted_games:
                 key = (game[0], game[1])
-                if key not in existing_discounted_keys:
+                if key not in existing_discounted_keys and not is_game_expired(game):
                     existing_discounted.append(game)
                     existing_discounted_keys.add(key)
-            
+
             free_games = existing_free
             discounted_games = existing_discounted
         
