@@ -1,28 +1,18 @@
 {
-  "total_count": 2,
+  "total_count": 1,
   "free_games": [
     [
-      "Luto",
-      "https://store.epicgames.com/en-US/p/luto-0a4ab3",
-      "https://cdn1.epicgames.com/spt-assets/eda0432529164b29b8a659d627d660e4/luto-14zrp.png",
-      "Luto is a psychological horror experience where you take on the role of someone unable to leave their home. Every attempt to escape will lead you deeper into the unknown, where nothing is as it seems and everything will test your senses.",
+      "Foretales",
+      "https://store.epicgames.com/en-US/p/foretales-d6c5bd",
+      "https://cdn1.epicgames.com/spt-assets/2b593b82aea84695b1608d74d3850ceb/foretales-offer-urvzn.jpg",
+      "Decide the fate of the world in this ingenious story-driven card game.\n\nForetales offers a unique take on the adventure genre, with a multitude of playstyles and story paths through which you can save the world… or bring about its end.",
       "19.99 USD",
       "Free",
       "خصم 100% - مجاني",
-      "2026-07-23 15:00:00"
-    ],
-    [
-      "Echo Generation: Midnight Edition",
-      "https://store.epicgames.com/en-US/p/echo-generation-midnight-edition-069026",
-      "https://cdn1.epicgames.com/spt-assets/d85d8cbcd8bd43308d262ba62af5b5ce/echo-generation-midnight-edition-49ac1.jpg",
-      "Lead a gang of kids to uncover spooky mysteries, battle creatures, and explore the supernatural side of your hometown in Echo Generation, a turn-based adventure set in the 90s.",
-      "24.99 USD",
-      "Free",
-      "خصم 100% - مجاني",
-      "2026-07-23 15:00:00"
+      "2026-07-30 15:00:00"
     ]
   ],
   "discounted_games": [],
-  "update_time": "2026-07-23 17:15:34",
+  "update_time": "2026-07-23 22:26:43",
   "source": "Epic Games Store"
 }
