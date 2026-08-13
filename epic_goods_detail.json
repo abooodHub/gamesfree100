@@ -1,28 +1,18 @@
 {
-  "total_count": 2,
+  "total_count": 1,
   "free_games": [
     [
-      "Beacon Pines",
-      "https://store.epicgames.com/en-US/p/beacon-pines-629fc3",
-      "https://cdn1.epicgames.com/spt-assets/c89a3b955d704c3c97ddd2aba5265a38/beacon-pines-offer-1l6ky.jpg",
-      "Beacon Pines is a cute and creepy adventure game. Sneak out late, make new friends, uncover hidden truths, and collect words that will change the course of fate!",
-      "19.99 USD",
+      "Caravan SandWitch",
+      "https://store.epicgames.com/en-US/p/caravan-sandwitch-05ff58",
+      "https://cdn1.epicgames.com/spt-assets/95b9a9a220e8483c8c1a70ad692de4b3/caravan-sandwitch-1uz0l.jpg",
+      "Embark on a journey across vast landscapes in Caravan SandWitch, a captivating narrative-driven exploration adventure.",
+      "24.99 USD",
       "Free",
       "خصم 100% - مجاني",
-      "2026-08-13 15:00:00"
-    ],
-    [
-      "We Were Here Together",
-      "https://store.epicgames.com/en-US/p/we-were-here-together-6a6d66",
-      "https://cdn1.epicgames.com/spt-assets/f24f7e149dc64df18f14dfab4f6dae4d/we-were-here-together-1w9jc.png",
-      "As we explore these frozen wastes, misfortune strikes once again. Through the fierce blizzard, a flare lights the sky, followed by a cry for help over the radio - broken, dying... No one else can come to their rescue. Can we make it back - together?",
-      "12.99 USD",
-      "Free",
-      "خصم 100% - مجاني",
-      "2026-08-13 15:00:00"
+      "2026-08-20 15:00:00"
     ]
   ],
   "discounted_games": [],
-  "update_time": "2026-08-13 16:23:38",
+  "update_time": "2026-08-13 22:09:31",
   "source": "Epic Games Store"
 }
