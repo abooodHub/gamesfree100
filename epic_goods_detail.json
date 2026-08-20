@@ -1,18 +1,28 @@
 {
-  "total_count": 1,
+  "total_count": 2,
   "free_games": [
     [
-      "Caravan SandWitch",
-      "https://store.epicgames.com/en-US/p/caravan-sandwitch-05ff58",
-      "https://cdn1.epicgames.com/spt-assets/95b9a9a220e8483c8c1a70ad692de4b3/caravan-sandwitch-1uz0l.jpg",
-      "Embark on a journey across vast landscapes in Caravan SandWitch, a captivating narrative-driven exploration adventure.",
+      "Cardpocalypse Standard Edition",
+      "https://store.epicgames.com/en-US/p/cardpocalypse",
+      "https://cdn1.epicgames.com/offer/2bfd5ca43ef443739ada168e017e1b78/s1_2560x1440-8d68e37943d666ad0f05093481c4d7df",
+      "10-year old Jess accidentally gets everybody's favorite collectible card game banned in Dudsdale Elementary - even worse, it’s her first day! But when troubles arise and mutants from the game start to come to life, and it’s up to Jess and her friends to stop them. Become a Meg...",
       "24.99 USD",
       "Free",
       "خصم 100% - مجاني",
-      "2026-08-20 15:00:00"
+      "2026-08-27 15:00:00"
+    ],
+    [
+      "Epic Mage Bundle",
+      "https://store.epicgames.com/en-US/p/albion-online-7eb24d",
+      "https://cdn1.epicgames.com/spt-assets/92837229023341268267ff64cae425a5/albion-online-7k7df.png",
+      "Claim a magical Free Gift valued at more than $55! Enhance your Albion journey with enchanted vanity items, two unique mount skins, and a treasure trove of essential progression rewards.",
+      "0.00 USD",
+      "Free",
+      "خصم 100% - مجاني",
+      "2026-08-27 15:00:00"
     ]
   ],
   "discounted_games": [],
-  "update_time": "2026-08-20 15:59:09",
+  "update_time": "2026-08-20 21:48:12",
   "source": "Epic Games Store"
 }
