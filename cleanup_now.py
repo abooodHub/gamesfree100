@@ -2,7 +2,7 @@
 سكريبت تنظيف فوري - يحذف الألعاب المنتهية من free_goods_detail.json
 يفحص كل لعبة مخصومة عبر Steam API ويحذف ما انتهى خصمه
 """
-import json, re, time, datetime, sys
+import json, re, time, datetime, sys, os, tempfile
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import requests
 from requests.adapters import HTTPAdapter
@@ -16,7 +16,9 @@ def make_session():
     sess.mount('https://', HTTPAdapter(max_retries=retries))
     return sess
 
-SESSION = make_session()
+ACTIVE = "active"
+EXPIRED = "expired"
+UNKNOWN = "unknown"
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
     'Accept-Language': 'en-US,en;q=0.9',
@@ -37,32 +39,34 @@ def is_date_expired(end_date):
     return False
 
 def check_steam_discount(appid, name):
-    """True = لا يزال مخصوماً بشكل مجاني، False = انتهى"""
+    """يعيد ACTIVE أو EXPIRED أو UNKNOWN عند تعذر التحقق."""
     url = f"https://store.steampowered.com/api/appdetails?appids={appid}&cc=us&l=english"
+    session = make_session()
     for attempt in range(3):
         try:
-            r = SESSION.get(url, headers=HEADERS, timeout=15)
+            r = session.get(url, headers=HEADERS, timeout=15)
             if r.status_code == 429:
                 time.sleep(10 + attempt * 5)
                 continue
             r.raise_for_status()
             data = r.json().get(str(appid), {})
             if not data.get('success'):
-                return False
+                print(f"  ⚠️ استجابة غير حاسمة: {name} → سيبقى العرض")
+                return UNKNOWN
             app = data.get('data', {})
             if app.get('is_free'):
-                return True  # مجاني دائماً
+                return ACTIVE
             price = app.get('price_overview', {})
             if not price:
-                return False
+                return EXPIRED
             still = price.get('discount_percent', 0) > 0 and price.get('final', 1) == 0
             if not still:
                 print(f"  🗑️ انتهى خصمها: {name} (discount={price.get('discount_percent',0)}%, price={price.get('final',0)})")
-            return still
+            return ACTIVE if still else EXPIRED
         except Exception:
             time.sleep(3 + attempt * 2)
-    print(f"  ⚠️ فشل فحص API: {name} → سيُحذف احتياطاً")
-    return False
+    print(f"  ⚠️ فشل فحص API: {name} → سيبقى العرض حتى تحقق ناجح")
+    return UNKNOWN
 
 # ── تحميل الملف ──────────────────────────────────────────────
 print("=" * 55)
@@ -116,16 +120,16 @@ print(f"\n  📡 فحص {len(needs_api)} لعبة عبر Steam API (قد يست�
 def worker(g):
     appid = extract_appid(g[1])
     if not appid:
-        return (g, True)  # بدون appid نبقيها
+        return (g, UNKNOWN)  # بدون appid لا نحذف دون تحقق حاسم
     return (g, check_steam_discount(appid, g[0]))
 
 with ThreadPoolExecutor(max_workers=8) as executor:
     futures = {executor.submit(worker, g): g for g in needs_api}
     done = 0
     for future in as_completed(futures):
-        game, keep = future.result()
+        game, verification = future.result()
         done += 1
-        if keep:
+        if verification != EXPIRED:
             cleaned_dis.append(game)
         else:
             removed_dis += 1
@@ -138,10 +142,15 @@ print(f"\nالمخصومة: حُذف {removed_dis} منتهية، تبقّى {le
 data['free_games']       = cleaned_free
 data['discounted_games'] = cleaned_dis
 data['total_count']      = len(cleaned_free) + len(cleaned_dis)
-data['update_time']      = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+data['update_time']      = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds').replace('+00:00', 'Z')
 
-with open('free_goods_detail.json', 'w', encoding='utf-8') as f:
+target_path = os.path.abspath('free_goods_detail.json')
+with tempfile.NamedTemporaryFile('w', encoding='utf-8', dir=os.path.dirname(target_path), delete=False) as f:
     json.dump(data, f, ensure_ascii=False, indent=2)
+    f.flush()
+    os.fsync(f.fileno())
+    temp_path = f.name
+os.replace(temp_path, target_path)
 
 print("\n" + "=" * 55)
 print("✅ تم حفظ free_goods_detail.json")

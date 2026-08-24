@@ -5,12 +5,16 @@ import queue
 import time
 import json
 import os
-import pytz
 import bs4
 from bs4 import Tag
 import re
 from typing import Optional, Tuple
 import threading
+import tempfile
+import sys
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
 MONTHS = {
     'january': 1, 'february': 2, 'march': 3, 'april': 4, 'may': 5, 'june': 6,
@@ -196,17 +200,22 @@ def get_end_date_from_store_page(url: str) -> Optional[str]:
         return None
     return None
 
-# جلسة HTTP مشتركة مع آلية إعادة المحاولة لتحسين الأداء والموثوقية
-SESSION: Optional[requests.Session] = None
+# جلسة مستقلة لكل thread لأن requests.Session ليست thread-safe.
+_THREAD_LOCAL = threading.local()
+ACTIVE = "active"
+EXPIRED = "expired"
+UNKNOWN = "unknown"
+FETCH_STATS = {"success": 0, "failure": 0}
+FETCH_STATS_LOCK = threading.Lock()
 
 def make_session() -> requests.Session:
-    """تهيئة جلسة HTTP مشتركة مع معادلات إعادة المحاولة والاتصال المستمر
+    """تهيئة جلسة HTTP خاصة بالـthread مع إعادة المحاولة والاتصال المستمر
     - تقلل من تكلفة إنشاء اتصال لكل طلب
     - تضيف إعادة محاولات تلقائية على الأخطاء المؤقتة
     """
-    global SESSION
-    if SESSION:
-        return SESSION
+    existing = getattr(_THREAD_LOCAL, "session", None)
+    if existing:
+        return existing
     sess = requests.Session()
     try:
         from requests.adapters import HTTPAdapter
@@ -217,7 +226,7 @@ def make_session() -> requests.Session:
         sess.mount('https://', adapter)
     except Exception:
         pass
-    SESSION = sess
+    _THREAD_LOCAL.session = sess
     return sess
 
 # عناوين البحث في Steam
@@ -252,10 +261,15 @@ def fetch_Steam_json_response(url: str) -> dict:
         try:
             resp = sess.get(url, headers=headers, timeout=15)
             resp.raise_for_status()
-            return resp.json()
+            payload = resp.json()
+            with FETCH_STATS_LOCK:
+                FETCH_STATS["success"] += 1
+            return payload
         except Exception as e:
             print(f"خطأ في جلب البيانات: {e}")
             time.sleep(2)
+    with FETCH_STATS_LOCK:
+        FETCH_STATS["failure"] += 1
     return {}
 
 def extract_price_info(discount_block: Tag) -> Tuple[str, str, str, Optional[str]]:
@@ -474,11 +488,11 @@ def is_game_expired(game):
         return False
 
 
-def verify_discount_still_active_via_api(appid: str, game_name: str) -> bool:
+def verify_discount_still_active_via_api(appid: str, game_name: str) -> str:
     """
     يتحقق عبر Steam storefront API إذا كانت اللعبة لا تزال بخصم فعلي.
     يُستخدم للألعاب القديمة (من الملف السابق) التي لم تظهر في نتائج Steam الجديدة.
-    يعيد True إذا كانت اللعبة لا تزال مخصومة بشكل فعلي، False إذا انتهى خصمها.
+    يعيد ACTIVE أو EXPIRED أو UNKNOWN عند تعذر التحقق.
     """
     try:
         url = f"https://store.steampowered.com/api/appdetails?appids={appid}&cc=us&l=english"
@@ -497,14 +511,14 @@ def verify_discount_still_active_via_api(appid: str, game_name: str) -> bool:
                 data = resp.json()
                 app_data = data.get(str(appid), {})
                 if not app_data.get('success'):
-                    # التطبيق غير موجود أو لم ترجع بيانات صالحة → اعتبره منتهياً
-                    print(f"⚠️ لا توجد بيانات من API للعبة: {game_name} (appid={appid})")
-                    return False
-                price_info = app_data.get('data', {}).get('price_overview', {})
+                    print(f"⚠️ استجابة غير حاسمة للعبة: {game_name} (appid={appid}) → سيبقى العرض")
+                    return UNKNOWN
+                product_data = app_data.get('data', {})
+                if product_data.get('is_free', False):
+                    return ACTIVE
+                price_info = product_data.get('price_overview', {})
                 if not price_info:
-                    # لعبة مجانية أصلاً (Free to Play) → تعتبر نشطة دائماً
-                    is_free = app_data.get('data', {}).get('is_free', False)
-                    return bool(is_free)
+                    return EXPIRED
                 discount_percent = price_info.get('discount_percent', 0)
                 final_price = price_info.get('final', 0)
                 # لا تزال مخصومة إذا كانت نسبة الخصم > 0 والسعر النهائي = 0
@@ -513,16 +527,15 @@ def verify_discount_still_active_via_api(appid: str, game_name: str) -> bool:
                     print(f"🚫 انتهى خصم اللعبة: {game_name} (discount={discount_percent}%, price={final_price})")
                 else:
                     print(f"✅ خصم لا يزال نشطاً: {game_name} (discount={discount_percent}%)")
-                return still_active
+                return ACTIVE if still_active else EXPIRED
             except Exception as e:
                 time.sleep(3.0 + attempt * 2.0)
                 continue
-        # لو فشلت كل المحاولات، نحتاط ونزيل اللعبة
-        print(f"⚠️ فشل التحقق من API للعبة: {game_name} → ستُحذف احتياطاً")
-        return False
+        print(f"⚠️ فشل التحقق من API للعبة: {game_name} → سيبقى العرض حتى تحقق ناجح")
+        return UNKNOWN
     except Exception as e:
         print(f"خطأ في verify_discount_still_active_via_api: {e}")
-        return False
+        return UNKNOWN
 
 
 def clean_expired_games(games_list):
@@ -607,6 +620,9 @@ print("✅ تم البحث في 2000 لعبة للعثور على خصومات 1
 
 # معالجة النتائج وإزالة التكرار
 print("\n🔄 معالجة النتائج وإزالة التكرار...")
+
+if FETCH_STATS["success"] == 0:
+    raise SystemExit("❌ فشل جميع طلبات Steam؛ لن يتم استبدال البيانات الحالية")
 
 final_free_list = []
 final_discounted_list = []
@@ -777,10 +793,13 @@ for game in existing_discounted_games:
                 removed_old_discounted += 1
                 continue
             # ثانياً: تأكيد عبر Steam API (لأن الخصم قد ينتهي بدون تاريخ مخزّن)
-            if verify_discount_still_active_via_api(appid, game[0]):
+            verification = verify_discount_still_active_via_api(appid, game[0])
+            if verification != EXPIRED:
                 merged_discounted_games.append(game)
                 all_new_appids.add(appid)
                 kept_old_discounted += 1
+                if verification == UNKNOWN:
+                    print(f"⚠️ تم الاحتفاظ مؤقتاً لعدم اكتمال التحقق: {game[0]}")
             else:
                 removed_old_discounted += 1
                 print(f"🗑️ حُذفت (انتهى خصمها): {game[0]}")
@@ -797,19 +816,29 @@ print("\n🔍 فحص وتنظيف الألعاب المنتهية...")
 merged_free_games = clean_expired_games(merged_free_games)
 merged_discounted_games = clean_expired_games(merged_discounted_games)
 
+# ترتيب ثابت يقلل ضوضاء تاريخ Git الناتجة عن اكتمال الـthreads بترتيب مختلف.
+merged_free_games.sort(key=lambda game: (str(game[0]).casefold(), str(game[1])))
+merged_discounted_games.sort(key=lambda game: (str(game[0]).casefold(), str(game[1])))
+
 # حفظ البيانات النهائية
 print("\n💾 حفظ البيانات في ملف JSON...")
-with open("free_goods_detail.json", "w", encoding="utf-8") as fp:
-    json.dump({
-        "total_count": len(merged_free_games) + len(merged_discounted_games),
-        "free_games": merged_free_games,
-        "discounted_games": merged_discounted_games,
-        "update_time": datetime.datetime.now(tz=pytz.timezone("Asia/Riyadh")).strftime('%Y-%m-%d %H:%M:%S')
-    }, fp, ensure_ascii=False, indent=2)
+output_data = {
+    "total_count": len(merged_free_games) + len(merged_discounted_games),
+    "free_games": merged_free_games,
+    "discounted_games": merged_discounted_games,
+    "update_time": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds').replace('+00:00', 'Z')
+}
+target_path = os.path.abspath("free_goods_detail.json")
+with tempfile.NamedTemporaryFile("w", encoding="utf-8", dir=os.path.dirname(target_path), delete=False) as fp:
+    json.dump(output_data, fp, ensure_ascii=False, indent=2)
+    fp.flush()
+    os.fsync(fp.fileno())
+    temp_path = fp.name
+os.replace(temp_path, target_path)
 
 print("✅ تم حفظ البيانات بنجاح في ملف free_goods_detail.json")
 print(f"\n🎉 تم الانتهاء من جلب الألعاب!")
 print(f"🎮 إجمالي الألعاب المجانية: {len(merged_free_games)}")
 print(f"💰 إجمالي الألعاب المخصومة: {len(merged_discounted_games)}")
 print(f"📈 إجمالي جميع الألعاب: {len(merged_free_games) + len(merged_discounted_games)}")
-print(f"⏰ وقت التحديث: {datetime.datetime.now(tz=pytz.timezone('Asia/Riyadh')).strftime('%Y-%m-%d %H:%M:%S')}")
+print(f"⏰ وقت التحديث: {datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds').replace('+00:00', 'Z')}")
