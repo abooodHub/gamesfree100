@@ -8,9 +8,13 @@ Epic Games Balash - Fetch free games from Epic Games Store
 import requests
 import json
 import datetime
-import pytz
-from concurrent.futures import ThreadPoolExecutor, as_completed
 import time
+import os
+import tempfile
+import sys
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
 def get_epic_free_games():
     """
@@ -345,7 +349,6 @@ def save_epic_games_data(games_list):
         # قراءة البيانات الموجودة وتنظيفها من الألعاب المنتهية
         existing_data = {}
         try:
-            import os
             if os.path.exists("epic_goods_detail.json"):
                 with open("epic_goods_detail.json", "r", encoding="utf-8") as f:
                     existing_data = json.load(f)
@@ -395,17 +398,25 @@ def save_epic_games_data(games_list):
 
             free_games = existing_free
             discounted_games = existing_discounted
+
+        free_games.sort(key=lambda game: (str(game[0]).casefold(), str(game[1])))
+        discounted_games.sort(key=lambda game: (str(game[0]).casefold(), str(game[1])))
         
         data = {
-            "total_count": len(free_games),
+            "total_count": len(free_games) + len(discounted_games),
             "free_games": free_games,
             "discounted_games": discounted_games,
-            "update_time": datetime.datetime.now(tz=pytz.timezone("Asia/Shanghai")).strftime('%Y-%m-%d %H:%M:%S'),
+            "update_time": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds').replace('+00:00', 'Z'),
             "source": "Epic Games Store"
         }
         
-        with open("epic_goods_detail.json", "w", encoding="utf-8") as fp:
+        target_path = os.path.abspath("epic_goods_detail.json")
+        with tempfile.NamedTemporaryFile("w", encoding="utf-8", dir=os.path.dirname(target_path), delete=False) as fp:
             json.dump(data, fp, ensure_ascii=False, indent=2)
+            fp.flush()
+            os.fsync(fp.fileno())
+            temp_path = fp.name
+        os.replace(temp_path, target_path)
         
         print(f"\n✅ تم حفظ بيانات Epic Games بنجاح في epic_goods_detail.json")
         print(f"📊 الألعاب المجانية: {len(free_games)}, الألعاب بخصم: {len(discounted_games)}")
@@ -443,11 +454,14 @@ def main():
                 if len(game) > 7 and game[7]:  # تاريخ الانتهاء
                     print(f"   ينتهي في: {game[7]}")
                 print()
+            return 0
         else:
             print("❌ فشل في حفظ البيانات")
+            return 1
     else:
         print("⚠️ لم يتم العثور على ألعاب مجانية من Epic Games حالياً")
         print("قد يكون السبب عدم وجود عروض مجانية أو تغيّر في API")
+        return 1
 
 if __name__ == "__main__":
-    main() 
+    raise SystemExit(main())

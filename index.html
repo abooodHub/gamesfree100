@@ -5,6 +5,9 @@
 	<meta charset="UTF-8">
 	<title>🎮 Games100 - ألعاب مجانية ومخصومة من Steam, Epic | Free & Discounted Games</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="referrer" content="strict-origin-when-cross-origin">
+	<meta http-equiv="Content-Security-Policy"
+		content="default-src 'self'; script-src 'self' https://www.googletagmanager.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
 
 	<!-- Primary Meta Tags -->
 	<meta name="title" content="🎮 Games100 - ألعاب مجانية ومخصومة من Steam, Epic | Free & Discounted Games">
@@ -68,11 +71,6 @@
 			"alternateName": "GamesFree100",
 			"url": "https://gamesfree100.online",
 			"description": "موقع متخصص في عرض الألعاب المجانية من جميع المتاجر العالمية",
-			"potentialAction": {
-				"@type": "SearchAction",
-				"target": "https://gamesfree100.online/?search={search_term_string}",
-				"query-input": "required name=search_term_string"
-			},
 			"publisher": {
 				"@type": "Organization",
 				"name": "Games100",
@@ -83,32 +81,13 @@
 		}
 		</script>
 
-	<script>
-		(function () {
-			var host = location.hostname;
-			var isLocal = (host === 'localhost' || host === '127.0.0.1');
-			if (!isLocal) {
-				var ga = document.createElement('script');
-				ga.async = true; ga.src = 'https://www.googletagmanager.com/gtag/js?id=G-QXTT04YVZT';
-				document.head.appendChild(ga);
-				window.dataLayer = window.dataLayer || [];
-				function gtag() { dataLayer.push(arguments); } window.gtag = gtag;
-				gtag('js', new Date());
-				gtag('config', 'G-QXTT04YVZT');
-				var ad = document.createElement('script');
-				ad.async = true; ad.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5733631729581057';
-				ad.setAttribute('crossorigin', 'anonymous');
-				document.head.appendChild(ad);
-			}
-		})();
-	</script>
 </head>
 
 <body>
 	<div class="container">
 		<header class="header">
 			<a href="#gamesGrid" class="skip-link">تخطي إلى المحتوى</a>
-			<div class="logo">🎮 Games100</div>
+			<h1 class="logo">🎮 Games100</h1>
 			<nav class="header-nav">
 				<a href="index.html" class="nav-link active" aria-current="page" accesskey="h">🏠 الرئيسية</a>
 			</nav>
@@ -120,17 +99,15 @@
 
 
 
-		<nav class="tabs" role="tablist" aria-label="متاجر الألعاب">
-			<button type="button" class="tab active" data-tab="all" aria-label="عرض جميع الألعاب" aria-selected="true"
-				tabindex="0">الكل</button>
-			<button type="button" class="tab" data-tab="steam" aria-label="ألعاب Steam" aria-selected="false"
-				tabindex="-1">Steam</button>
-			<button type="button" class="tab" data-tab="epic" aria-label="ألعاب Epic" aria-selected="false"
-				tabindex="-1">Epic</button>
+		<nav class="tabs" aria-label="تصفية حسب متجر الألعاب">
+			<button type="button" class="tab active" data-tab="all" aria-pressed="true">الكل</button>
+			<button type="button" class="tab" data-tab="steam" aria-pressed="false">Steam</button>
+			<button type="button" class="tab" data-tab="epic" aria-pressed="false">Epic</button>
 
 		</nav>
 
-		<div class="update-bar" id="updateBar" role="status" aria-live="polite">آخر تحديث: ...</div>
+		<div class="update-bar" id="updateBar">آخر تحديث: ...</div>
+		<div class="data-status info" id="dataStatus" role="status" aria-live="polite" hidden></div>
 
 		<main class="games-grid" id="gamesGrid" role="main" aria-label="قائمة الألعاب المجانية">
 			<!-- سيتم تحميل الألعاب هنا -->
@@ -174,6 +151,16 @@
 			</div>
 		</div>
 	</footer>
+
+	<div class="cookie-banner" id="cookieConsent" role="region" aria-label="Cookie preferences" hidden>
+		<div class="cookie-content">
+			<p id="cookieConsentText">نستخدم ملفات قياس اختيارية لتحسين الموقع.</p>
+			<div class="cookie-buttons">
+				<button type="button" class="cookie-btn accept" id="acceptCookies">موافق</button>
+				<button type="button" class="cookie-btn reject" id="rejectCookies">رفض</button>
+			</div>
+		</div>
+	</div>
 
 
 

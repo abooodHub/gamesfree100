@@ -1,7 +1,7 @@
 name: Update Free Games
 
 concurrency:
-  group: github-pages
+  group: games-data-update
   cancel-in-progress: true
 
 on:
@@ -12,33 +12,48 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     permissions:
       contents: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
-          python-version: '3.10'
+          python-version: '3.12'
+          cache: pip
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Run static checks
+        run: |
+          node --check script.js
 
       - name: Run scripts
         run: |
           python steam.py
           python epic.py
+          python build_public_feed.py
           python update_timestamp.py
+
+      - name: Validate generated output
+        run: |
+          python -m unittest discover -s tests -p "test_*.py" -v
 
       - name: Commit changes
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add .
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto update: $(date)"
-          git push
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- free_goods_detail.json epic_goods_detail.json deals.json update_timestamp.json
+          if git diff --cached --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "chore(data): refresh free games $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+            git push
+          fi
