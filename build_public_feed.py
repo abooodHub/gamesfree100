@@ -36,6 +36,15 @@ def valid_https_url(value: Any, allowed_hosts: set[str] | None = None) -> str | 
     return value.strip()
 
 
+def canonical_store_url(value: Any, store: str) -> str | None:
+    safe_url = valid_https_url(value, ALLOWED_STORE_HOSTS[store])
+    if safe_url is None:
+        return None
+    parsed = urlparse(safe_url)
+    # Steam يغيّر معاملات snr باستمرار؛ ليست جزءًا من هوية العرض.
+    return parsed._replace(query="", fragment="").geturl()
+
+
 def normalize_utc_timestamp(value: Any) -> str | None:
     if not isinstance(value, str) or not value.strip():
         return None
@@ -55,7 +64,7 @@ def normalize_game(raw: Any, store: str) -> dict[str, Any] | None:
         return None
 
     title = str(raw[0] or "").strip()
-    store_url = valid_https_url(raw[1], ALLOWED_STORE_HOSTS[store])
+    store_url = canonical_store_url(raw[1], store)
     discount_label = str(raw[6] or "").strip()
     if not title or not store_url or "100%" not in discount_label:
         return None
@@ -133,9 +142,33 @@ def atomic_write(filepath: Path, data: dict[str, Any]) -> None:
             temp_path.unlink()
 
 
+def load_existing_feed(filepath: Path) -> dict[str, Any] | None:
+    try:
+        with filepath.open("r", encoding="utf-8") as feed_file:
+            feed = json.load(feed_file)
+        if isinstance(feed, dict) and isinstance(feed.get("deals"), list):
+            return feed
+    except (OSError, json.JSONDecodeError):
+        pass
+    return None
+
+
+def catalog_changed(existing: dict[str, Any] | None, deals: list[dict[str, Any]]) -> bool:
+    """قارن المحتوى الذي يراه الزائر وتجاهل أوقات الفحص المتغيرة."""
+    if existing is None or existing.get("schema_version") != 1:
+        return True
+    return existing.get("deals") != deals
+
+
 def main() -> int:
     try:
         deals, sources = load_deals()
+        output_path = ROOT / "deals.json"
+        existing_feed = load_existing_feed(output_path)
+        if not catalog_changed(existing_feed, deals):
+            print(f"ℹ️ لا يوجد تغير في كتالوج العروض: {len(deals)} عروض نشطة")
+            return 0
+
         feed = {
             "schema_version": 1,
             "generated_at": utc_now_iso(),
@@ -143,8 +176,8 @@ def main() -> int:
             "sources": sources,
             "deals": deals,
         }
-        atomic_write(ROOT / "deals.json", feed)
-        print(f"✅ تم إنشاء deals.json: {len(deals)} عروض نشطة")
+        atomic_write(output_path, feed)
+        print(f"✅ تم تحديث deals.json: {len(deals)} عروض نشطة")
         return 0
     except (OSError, ValueError, json.JSONDecodeError) as error:
         print(f"❌ فشل إنشاء feed الواجهة: {error}")

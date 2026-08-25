@@ -12,7 +12,6 @@ let countdownId = null;
 const themes = ['dark', 'light', 'ocean', 'violet'];
 const DATA_REFRESH_MS = 6 * 60 * 60 * 1000;
 const EXPIRY_CHECK_MS = 60 * 1000;
-const STEAM_MISSING_END_MAX_AGE_MS = 12 * 60 * 60 * 1000;
 const ANALYTICS_ID = 'G-QXTT04YVZT';
 
 const storeNames = {
@@ -124,11 +123,6 @@ function isGameExpired(game) {
     if (game.endAt) {
         const endDate = parseDateTime(game.endAt, 'Z');
         return endDate ? endDate.getTime() <= Date.now() : false;
-    }
-    if (game.store === 'steam' && game.discount.includes('100%')) {
-        const updateTime = gamesData.steam && gamesData.steam.update_time;
-        const updatedAt = parseDateTime(updateTime, '+03:00');
-        if (updatedAt) return updatedAt.getTime() + STEAM_MISSING_END_MAX_AGE_MS <= Date.now();
     }
     return false;
 }
