@@ -6,6 +6,7 @@ from pathlib import Path
 
 from bs4 import BeautifulSoup
 
+import build_public_feed
 import update_timestamp
 
 
@@ -42,6 +43,38 @@ class DataValidationTests(unittest.TestCase):
             self.assertTrue(deal["url"].startswith("https://"))
             self.assertEqual(deal["discount_percent"], 100)
 
+    def test_catalog_comparison_ignores_volatile_metadata(self):
+        deals = [{"id": "steam-1", "title": "Example"}]
+        existing = {
+            "schema_version": 1,
+            "generated_at": "2026-01-01T00:00:00Z",
+            "sources": {"steam": {"last_success": "2026-01-01T00:00:00Z"}},
+            "deals": deals,
+        }
+        self.assertFalse(build_public_feed.catalog_changed(existing, deals.copy()))
+        self.assertTrue(build_public_feed.catalog_changed(existing, deals + [{"id": "epic-2"}]))
+
+    def test_store_url_removes_tracking_parameters(self):
+        first = build_public_feed.canonical_store_url(
+            "https://store.steampowered.com/app/123/Game/?snr=first#details", "steam"
+        )
+        second = build_public_feed.canonical_store_url(
+            "https://store.steampowered.com/app/123/Game/?snr=second", "steam"
+        )
+        self.assertEqual(first, "https://store.steampowered.com/app/123/Game/")
+        self.assertEqual(first, second)
+
+    def test_unchanged_catalog_does_not_rewrite_feed(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            target = Path(temp_dir) / "deals.json"
+            original = {"schema_version": 1, "generated_at": "old", "deals": []}
+            build_public_feed.atomic_write(target, original)
+            before = target.read_bytes()
+            existing = build_public_feed.load_existing_feed(target)
+            if build_public_feed.catalog_changed(existing, []):
+                build_public_feed.atomic_write(target, {**original, "generated_at": "new"})
+            self.assertEqual(target.read_bytes(), before)
+
 
 class FrontendStructureTests(unittest.TestCase):
     @classmethod
@@ -69,6 +102,24 @@ class FrontendStructureTests(unittest.TestCase):
         forbidden = ["innerHTML", "outerHTML", "insertAdjacentHTML", "serviceWorker.register", "onerror="]
         for token in forbidden:
             self.assertNotIn(token, self.script)
+
+    def test_frontend_does_not_expire_steam_deals_by_feed_age(self):
+        self.assertNotIn("STEAM_MISSING_END_MAX_AGE_MS", self.script)
+
+
+class WorkflowStructureTests(unittest.TestCase):
+    def test_update_workflow_commits_only_catalog_changes(self):
+        workflow = (ROOT / ".github" / "workflows" / "update.yml").read_text(encoding="utf-8")
+        self.assertIn("git diff --quiet -- deals.json", workflow)
+        self.assertIn("No catalog changes; skipping commit", workflow)
+        self.assertNotIn("git add .", workflow)
+
+    def test_ci_runs_without_store_scrapers(self):
+        workflow = (ROOT / ".github" / "workflows" / "ci.yml").read_text(encoding="utf-8")
+        self.assertIn("pull_request:", workflow)
+        self.assertIn("python -m unittest", workflow)
+        self.assertNotIn("python steam.py", workflow)
+        self.assertNotIn("python epic.py", workflow)
 
 
 if __name__ == "__main__":

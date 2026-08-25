@@ -16,6 +16,7 @@ jobs:
 
     permissions:
       contents: write
+      actions: write
 
     steps:
       - name: Checkout repository
@@ -48,12 +49,27 @@ jobs:
 
       - name: Commit changes
         run: |
+          if git diff --quiet -- deals.json; then
+            echo "No catalog changes; skipping commit and Pages deployment"
+            exit 0
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -- free_goods_detail.json epic_goods_detail.json deals.json update_timestamp.json
-          if git diff --cached --quiet; then
-            echo "No data changes to commit"
-          else
-            git commit -m "chore(data): refresh free games $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
-            git push
-          fi
+          git commit -m "chore(data): update free-game catalog $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          git push
+
+      - name: Keep Actions history tidy
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cutoff="$(date -u -d '14 days ago' +'%Y-%m-%dT%H:%M:%SZ')"
+          gh api --paginate \
+            "repos/${GITHUB_REPOSITORY}/actions/runs?per_page=100" \
+            --jq ".workflow_runs[] | select(.status == \"completed\" and .created_at < \"${cutoff}\") | .id" |
+          while read -r run_id; do
+            if [ -n "$run_id" ]; then
+              gh api --method DELETE "repos/${GITHUB_REPOSITORY}/actions/runs/${run_id}"
+            fi
+          done
