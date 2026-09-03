@@ -1,28 +1,18 @@
 {
-  "total_count": 2,
+  "total_count": 1,
   "free_games": [
     [
-      "Breathedge",
-      "https://store.epicgames.com/en-US/p/breathedge",
-      "https://cdn1.epicgames.com/08ae29e4f70a4b62aa055e383381aa82/offer/egs-breathedge-redruinssoftworks-s1-2560x1440-76fd08cd9c2d-2560x1440-783424f6d4a7f32a0e75fc074f2f928e.jpg",
-      "Survive in outer space! Together with your immortal chicken, discover the truth behind your sudden spaceship crash. Craft tools, pilot vehicles, and even control space stations to survive and explore the wreckage.",
-      "24.99 USD",
+      "Alone With You",
+      "https://store.epicgames.com/en-US/p/alone-with-you-028a15",
+      "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-cllc3.png",
+      "ALONE WITH YOU is a sci-fi point-and-click adventure game that tells a rich story about relationships. You're the last survivor of a doomed space colony, trying to escape a planet before it implodes around you.",
+      "9.99 USD",
       "Free",
       "خصم 100% - مجاني",
-      "2026-09-03 15:00:00"
-    ],
-    [
-      "Rival Stars Horse Racing : Desktop Edition",
-      "https://store.epicgames.com/en-US/p/rival-stars-horse-racing-dd09de",
-      "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-scu1x.jpg",
-      "With stunning, realistic horses, an in-depth breeding system, and a range of exciting game modes, Rival Stars Horse Racing offers horse fans the ultimate racing and riding experience. Take the reins and become an equestrian legend!",
-      "24.99 USD",
-      "Free",
-      "خصم 100% - مجاني",
-      "2026-09-03 15:00:00"
+      "2026-09-10 15:00:00"
     ]
   ],
   "discounted_games": [],
-  "update_time": "2026-08-27T22:05:32Z",
+  "update_time": "2026-09-03T16:11:49Z",
   "source": "Epic Games Store"
 }
