@@ -1,5 +1,5 @@
 {
-  "total_count": 1860,
+  "total_count": 1861,
   "free_games": [
     [
       "1.76复古沉默",
@@ -7227,7 +7227,7 @@
     ],
     [
       "March of Empires",
-      "https://store.steampowered.com/app/702320/March_of_Empires/?snr=1_7_7_230_150_2",
+      "https://store.steampowered.com/app/702320/March_of_Empires/?snr=1_7_7_230_150_3",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/702320/header.jpg",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/702320/capsule_616x353.jpg",
       "",
@@ -8083,7 +8083,7 @@
     ],
     [
       "No More Room in Hell",
-      "https://store.steampowered.com/app/224260/No_More_Room_in_Hell/?snr=1_7_7_230_150_3",
+      "https://store.steampowered.com/app/224260/No_More_Room_in_Hell/?snr=1_7_7_230_150_2",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/224260/header.jpg",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/224260/capsule_616x353.jpg",
       "",
@@ -14162,6 +14162,14 @@
       "مجاني"
     ],
     [
+      "Wyldernook",
+      "https://store.steampowered.com/app/1622400/Wyldernook/?snr=1_7_7_230_150_10",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1622400/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1622400/capsule_616x353.jpg",
+      "",
+      "مجاني"
+    ],
+    [
       "XCOM 2: Alien Hunters",
       "https://store.steampowered.com/app/433090/XCOM_2_Alien_Hunters/?snr=1_7_7_2300_150_10",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/433090/header.jpg",
@@ -14883,5 +14891,5 @@
     ]
   ],
   "discounted_games": [],
-  "update_time": "2026-09-08T02:41:02Z"
+  "update_time": "2026-09-08T02:51:33Z"
 }

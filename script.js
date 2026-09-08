@@ -9,6 +9,10 @@ let refreshIntervalId = null;
 let expiryIntervalId = null;
 let countdownId = null;
 let visibleLimit = 48;
+let storeHealth = {};
+let healthLoaded = false;
+let healthUnavailable = false;
+const STORE_STALE_MS = 12 * 60 * 60 * 1000;
 
 const themes = ['dark', 'light', 'ocean', 'violet'];
 const DATA_REFRESH_MS = 6 * 60 * 60 * 1000;
@@ -26,6 +30,13 @@ const storeNames = {
         partialError: stores => `تعذر تحديث: ${stores}. يتم عرض البيانات المتاحة.`,
         retry: 'إعادة المحاولة', endsIn: 'ينتهي خلال', daysLeft: 'يوم', hoursLeft: 'ساعة',
         freeToPlay: 'مجاني دائماً', more: 'عرض المزيد', free: 'مجاني',
+        healthTitle: 'حالة تحديث المتاجر', healthOk: 'تم التحقق بنجاح',
+        healthError: 'تعذر تحديث بيانات المتجر', healthStale: 'تأخر التحديث',
+        healthUnknown: 'حالة التحقق غير متاحة', healthLoading: 'جاري التحقق من الحالة…',
+        lastSuccess: 'آخر تحقق ناجح', lastAttempt: 'آخر محاولة', neverChecked: 'غير متاح',
+        healthRetained: 'نعرض آخر بيانات متاحة؛ قد تكون بعض العروض تغيرت.',
+        healthDelay: 'مرّت أكثر من 12 ساعة دون تحقق ناجح.',
+        healthFetchError: 'تعذر تحميل حالة التحديث. ستتم إعادة المحاولة تلقائياً.',
         currentPrice: 'السعر الحالي', originalPrice: 'السعر الأصلي', discountedPrice: 'السعر بعد الخصم',
         home: 'الرئيسية', skip: 'تخطي إلى قائمة الألعاب', theme: 'تغيير المظهر',
         language: 'Switch to English', gamesLabel: 'قائمة الألعاب المجانية',
@@ -43,6 +54,13 @@ const storeNames = {
         partialError: stores => `Could not refresh: ${stores}. Showing available data.`,
         retry: 'Try again', endsIn: 'Ends in', daysLeft: 'days', hoursLeft: 'hours',
         freeToPlay: 'Free to play', more: 'Show more', free: 'Free',
+        healthTitle: 'Store update status', healthOk: 'Verified successfully',
+        healthError: 'Could not update store data', healthStale: 'Update delayed',
+        healthUnknown: 'Verification status unavailable', healthLoading: 'Loading update status…',
+        lastSuccess: 'Last successful check', lastAttempt: 'Last attempt', neverChecked: 'Unavailable',
+        healthRetained: 'Showing the latest available data; some offers may have changed.',
+        healthDelay: 'More than 12 hours have passed without a successful check.',
+        healthFetchError: 'Could not load update status. We will retry automatically.',
         currentPrice: 'Current price', originalPrice: 'Original price', discountedPrice: 'Discounted price',
         home: 'Home', skip: 'Skip to the games list', theme: 'Change theme',
         language: 'التبديل إلى العربية', gamesLabel: 'Free games list',
@@ -161,7 +179,67 @@ async function loadPublicFeed() {
     return data;
 }
 
+function storeHealthState(source, unavailable = healthUnavailable, now = Date.now()) {
+    if (unavailable || !source) return 'unknown';
+    if (source.status === 'error') return 'error';
+    const success = parseDateTime(source.last_success, '+03:00');
+    if (!success || success.getTime() > now + 5 * 60 * 1000) return 'unknown';
+    if (now - success.getTime() >= STORE_STALE_MS) return 'stale';
+    return source.status === 'ok' ? 'ok' : 'unknown';
+}
+
+function renderStoreHealth() {
+    const container = document.getElementById('storeStatuses');
+    if (!container) return;
+    const words = storeNames[lang];
+    container.setAttribute('aria-label', words.healthTitle);
+    const cards = ['steam', 'epic'].map(store => {
+        const source = storeHealth[store];
+        const state = storeHealthState(source);
+        const card = createElement('article', { className: `store-health ${state}` });
+        card.appendChild(createElement('h2', { text: words[store] }));
+        const label = { ok: words.healthOk, error: words.healthError, stale: words.healthStale, unknown: words.healthUnknown }[state];
+        card.appendChild(createElement('p', { className: 'health-label', text: healthLoaded ? label : words.healthLoading }));
+        for (const [key, labelText] of [['last_success', words.lastSuccess], ['last_attempt', words.lastAttempt]]) {
+            const date = source && parseDateTime(source[key], '+03:00');
+            const line = createElement('p', { className: 'health-time' });
+            line.appendChild(document.createTextNode(`${labelText}: `));
+            line.appendChild(date ? createElement('time', { text: formatUpdateTime(source[key]), attrs: { datetime: date.toISOString() } }) : document.createTextNode(words.neverChecked));
+            card.appendChild(line);
+        }
+        if (healthUnavailable) card.appendChild(createElement('p', { className: 'health-note', text: words.healthFetchError }));
+        else if (state === 'error' || state === 'stale') {
+            card.appendChild(createElement('p', { className: 'health-note', text: state === 'stale' ? `${words.healthDelay} ${words.healthRetained}` : words.healthRetained }));
+        }
+        return card;
+    });
+    container.replaceChildren(...cards);
+}
+
+async function fetchStoreHealth() {
+    const controller = new AbortController();
+    const timeout = window.setTimeout(() => controller.abort(), 12000);
+    try {
+        const response = await fetch('update_timestamp.json', { cache: 'no-cache', signal: controller.signal });
+        if (!response.ok) throw new Error('Status unavailable');
+        const data = await response.json();
+        if (!data || !data.sources || !['steam', 'epic'].every(store => {
+            const source = data.sources[store];
+            return source && ['ok', 'error', 'unknown'].includes(source.status);
+        })) throw new Error('Invalid store status');
+        storeHealth = data.sources;
+        healthUnavailable = false;
+    } catch {
+        healthUnavailable = true;
+    } finally {
+        window.clearTimeout(timeout);
+        healthLoaded = true;
+        renderStoreHealth();
+    }
+}
+
 async function fetchAllData() {
+    fetchStoreHealth();
     const hadExistingData = hasLoadedData;
     setDataStatus('', 'info');
     if (!hadExistingData) showLoading();
@@ -194,6 +272,7 @@ async function fetchAllData() {
 function setupAutoRefresh() {
     if (refreshIntervalId) return;
     refreshIntervalId = window.setInterval(fetchAllData, DATA_REFRESH_MS);
+    window.setInterval(fetchStoreHealth, 5 * 60 * 1000);
 }
 
 function setupExpiredGamesCheck() {
@@ -473,6 +552,7 @@ function updateInterface() {
     updateNavigation();
     updateFooterContent();
     updateCookieBannerText();
+    renderStoreHealth();
     if (hasLoadedData) {
         renderGames();
         updateBar();

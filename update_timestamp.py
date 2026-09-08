@@ -94,35 +94,45 @@ def atomic_write_json(filepath: str, data: dict[str, Any]) -> None:
             os.unlink(temp_path)
 
 
-def main() -> int:
-    print("🔍 التحقق من ملفات مصادر الألعاب...")
-    sources: dict[str, dict[str, Any]] = {}
-    latest_success: datetime.datetime | None = None
-
+def source_status(name, filepath, outcome=None, attempted_at=None, previous=None):
+    previous = previous or {}
+    last_success = previous.get("last_success")
+    status = previous.get("status", "unknown")
     try:
-        for name, filepath in SOURCE_FILES.items():
-            result = validate_source(name, filepath)
-            updated_at = result.pop("updated_at")
-            latest_success = max(latest_success, updated_at) if latest_success else updated_at
-            sources[name] = {
-                **result,
-                "last_success": updated_at.isoformat(timespec="seconds").replace("+00:00", "Z"),
-                "status": "ok",
-            }
-            print(f"✅ {name}: {sources[name]['total_count']} عنصر")
-    except (OSError, ValueError, json.JSONDecodeError) as error:
-        print(f"❌ فشل التحقق من البيانات: {error}")
-        return 1
+        result = validate_source(name, filepath)
+        last_success = result["updated_at"].isoformat(timespec="seconds").replace("+00:00", "Z")
+        valid = True
+    except (OSError, ValueError, TypeError):
+        valid = False
+    if outcome is not None:
+        status = "ok" if outcome == "success" and valid else "error"
+    elif not valid:
+        status = "error"
+    return {
+        "last_success": last_success,
+        "last_attempt": attempted_at if outcome is not None else previous.get("last_attempt"),
+        "status": status,
+    }
 
+
+def main() -> int:
+    try:
+        with open("update_timestamp.json", encoding="utf-8") as source_file:
+            previous = json.load(source_file).get("sources", {})
+    except (OSError, ValueError, AttributeError):
+        previous = {}
+    now = utc_now_iso()
+    sources = {
+        name: source_status(name, filepath, os.environ.get(f"{name.upper()}_OUTCOME"),
+                            now, previous.get(name))
+        for name, filepath in SOURCE_FILES.items()
+    }
     summary = {
-        "last_attempt": utc_now_iso(),
-        "last_update": latest_success.isoformat(timespec="seconds").replace("+00:00", "Z"),
+        "schema_version": 1,
         "sources": sources,
-        "updated_files": len(sources),
-        "total_files": len(SOURCE_FILES),
     }
     atomic_write_json("update_timestamp.json", summary)
-    print("✅ تم إنشاء update_timestamp.json من أوقات نجاح المصادر")
+    print("✅ تم حفظ حالة التحقق لكل متجر")
     return 0
 
 

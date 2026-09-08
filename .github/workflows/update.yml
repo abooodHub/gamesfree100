@@ -35,13 +35,28 @@ jobs:
       - name: Run static checks
         run: |
           node --check script.js
+          node --test tests/test_frontend.cjs
 
-      - name: Run scripts
-        run: |
-          python steam.py
-          python epic.py
-          python build_public_feed.py
-          python update_timestamp.py
+      - name: Fetch Steam
+        id: steam
+        continue-on-error: true
+        timeout-minutes: 7
+        run: python steam.py
+
+      - name: Fetch Epic
+        id: epic
+        continue-on-error: true
+        timeout-minutes: 3
+        run: python epic.py
+
+      - name: Record store status
+        env:
+          STEAM_OUTCOME: ${{ steps.steam.outcome }}
+          EPIC_OUTCOME: ${{ steps.epic.outcome }}
+        run: python update_timestamp.py
+
+      - name: Build public feed
+        run: python build_public_feed.py
 
       - name: Validate generated output
         run: |
@@ -49,8 +64,8 @@ jobs:
 
       - name: Commit changes
         run: |
-          if git diff --quiet -- deals.json; then
-            echo "No catalog changes; skipping commit and Pages deployment"
+          if git diff --quiet -- deals.json update_timestamp.json; then
+            echo "No catalog or status changes; skipping commit and Pages deployment"
             exit 0
           fi
           git config user.name "github-actions[bot]"

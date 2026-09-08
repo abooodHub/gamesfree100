@@ -112,10 +112,10 @@ class FrontendStructureTests(unittest.TestCase):
 
 
 class WorkflowStructureTests(unittest.TestCase):
-    def test_update_workflow_commits_only_catalog_changes(self):
+    def test_update_workflow_publishes_status_even_without_catalog_changes(self):
         workflow = (ROOT / ".github" / "workflows" / "update.yml").read_text(encoding="utf-8")
-        self.assertIn("git diff --quiet -- deals.json", workflow)
-        self.assertIn("No catalog changes; skipping commit", workflow)
+        self.assertIn("git diff --quiet -- deals.json update_timestamp.json", workflow)
+        self.assertIn("No catalog or status changes; skipping commit", workflow)
         self.assertNotIn("git add .", workflow)
 
     def test_ci_runs_without_store_scrapers(self):
@@ -163,6 +163,34 @@ class CollectorRegressionTests(unittest.TestCase):
         game["price"]["totalPrice"]["discountPrice"] = 0
         promo["startDate"] = "2026-09-09T00:00:00Z"
         self.assertIsNone(epic.active_free_promotion(game, now))
+
+
+class StoreStatusTests(unittest.TestCase):
+    def test_failed_refresh_preserves_last_success(self):
+        with tempfile.TemporaryDirectory() as directory:
+            target = Path(directory) / "source.json"
+            target.write_text(json.dumps({"free_games": [], "discounted_games": [], "total_count": 0, "update_time": "2026-09-08T01:00:00Z"}))
+            result = update_timestamp.source_status("steam", str(target), "failure", "2026-09-08T07:00:00Z")
+            self.assertEqual(result, {"last_success": "2026-09-08T01:00:00Z", "last_attempt": "2026-09-08T07:00:00Z", "status": "error"})
+            recovered = update_timestamp.source_status("steam", str(target), "success", "2026-09-08T08:00:00Z", result)
+            self.assertEqual(recovered["status"], "ok")
+
+    def test_corrupt_source_does_not_erase_previous_success(self):
+        previous = {"last_success": "2026-09-08T01:00:00Z", "status": "ok"}
+        result = update_timestamp.source_status("steam", "missing-file.json", "success", "2026-09-08T07:00:00Z", previous)
+        self.assertEqual(result["status"], "error")
+        self.assertEqual(result["last_success"], previous["last_success"])
+
+    def test_validation_without_fetch_does_not_claim_success(self):
+        result = update_timestamp.source_status("steam", str(ROOT / "free_goods_detail.json"))
+        self.assertEqual(result["status"], "unknown")
+        self.assertIsNone(result["last_attempt"])
+
+    def test_workflow_records_independent_outcomes(self):
+        workflow = (ROOT / ".github/workflows/update.yml").read_text(encoding="utf-8")
+        self.assertEqual(workflow.count("continue-on-error: true"), 2)
+        self.assertIn("STEAM_OUTCOME: ${{ steps.steam.outcome }}", workflow)
+        self.assertIn("EPIC_OUTCOME: ${{ steps.epic.outcome }}", workflow)
 
 
 if __name__ == "__main__":
