@@ -2,13 +2,13 @@
   "schema_version": 1,
   "sources": {
     "steam": {
-      "last_success": "2026-09-08T16:23:07Z",
-      "last_attempt": "2026-09-08T16:23:10Z",
+      "last_success": "2026-09-08T20:57:48Z",
+      "last_attempt": "2026-09-08T20:57:51Z",
       "status": "ok"
     },
     "epic": {
-      "last_success": "2026-09-08T16:23:10Z",
-      "last_attempt": "2026-09-08T16:23:10Z",
+      "last_success": "2026-09-08T20:57:51Z",
+      "last_attempt": "2026-09-08T20:57:51Z",
       "status": "ok"
     }
   }
