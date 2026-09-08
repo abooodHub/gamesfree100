@@ -6,6 +6,7 @@ import datetime
 import hashlib
 import json
 import os
+import re
 import sys
 import tempfile
 from pathlib import Path
@@ -59,16 +60,17 @@ def normalize_utc_timestamp(value: Any) -> str | None:
     return parsed.astimezone(datetime.timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
 
-def normalize_game(raw: Any, store: str) -> dict[str, Any] | None:
-    if not isinstance(raw, list) or len(raw) < 7:
+def normalize_game(raw: Any, store: str, free_to_play: bool = False) -> dict[str, Any] | None:
+    if not isinstance(raw, list) or len(raw) < (6 if free_to_play else 7):
         return None
 
     title = str(raw[0] or "").strip()
     store_url = canonical_store_url(raw[1], store)
-    discount_label = str(raw[6] or "").strip()
-    if not title or not store_url or "100%" not in discount_label:
+    discount_label = "مجاني دائماً" if free_to_play else str(raw[6] or "").strip()
+    if not title or not store_url:
         return None
-    if "Coming Soon" in discount_label or "مجاني دائماً" in discount_label:
+    if not free_to_play and (not re.search(r"(?<!\d)100%(?!\d)", discount_label)
+                             or "Coming Soon" in discount_label or "مجاني دائماً" in discount_label):
         return None
 
     image = valid_https_url(raw[2])
@@ -88,16 +90,17 @@ def normalize_game(raw: Any, store: str) -> dict[str, Any] | None:
         "image": image,
         "fallback_image": fallback_image,
         "original_price": str(raw[4] or "").strip(),
-        "current_price": str(raw[5] or "").strip(),
+        "current_price": "Free" if free_to_play else str(raw[5] or "").strip(),
         "discount_label": discount_label,
-        "discount_percent": 100,
+        "discount_percent": 0 if free_to_play else 100,
+        "offer_type": "free_to_play" if free_to_play else "giveaway",
         "end_at": end_at,
     }
 
 
 def load_deals() -> tuple[list[dict[str, Any]], dict[str, dict[str, Any]]]:
     configs = {
-        "steam": ("free_goods_detail.json", ["discounted_games"]),
+        "steam": ("free_goods_detail.json", ["discounted_games", "free_games"]),
         "epic": ("epic_goods_detail.json", ["free_games", "discounted_games"]),
     }
     deals: list[dict[str, Any]] = []
@@ -118,12 +121,12 @@ def load_deals() -> tuple[list[dict[str, Any]], dict[str, dict[str, Any]]]:
 
         for list_name in list_names:
             for raw_game in data.get(list_name, []):
-                game = normalize_game(raw_game, store)
+                game = normalize_game(raw_game, store, store == "steam" and list_name == "free_games")
                 if game and game["id"] not in seen:
                     seen.add(game["id"])
                     deals.append(game)
 
-    deals.sort(key=lambda game: (game["end_at"] or "9999", game["title"].casefold(), game["id"]))
+    deals.sort(key=lambda game: (game["offer_type"] == "free_to_play", game["end_at"] or "9999", game["title"].casefold(), game["id"]))
     return deals, sources
 
 

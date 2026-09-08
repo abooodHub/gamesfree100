@@ -8,6 +8,7 @@ let hasLoadedData = false;
 let refreshIntervalId = null;
 let expiryIntervalId = null;
 let countdownId = null;
+let visibleLimit = 48;
 
 const themes = ['dark', 'light', 'ocean', 'violet'];
 const DATA_REFRESH_MS = 6 * 60 * 60 * 1000;
@@ -24,6 +25,7 @@ const storeNames = {
         loadError: 'تعذر تحميل بيانات الألعاب. تحقق من الاتصال ثم حاول مجدداً.',
         partialError: stores => `تعذر تحديث: ${stores}. يتم عرض البيانات المتاحة.`,
         retry: 'إعادة المحاولة', endsIn: 'ينتهي خلال', daysLeft: 'يوم', hoursLeft: 'ساعة',
+        freeToPlay: 'مجاني دائماً', more: 'عرض المزيد', free: 'مجاني',
         currentPrice: 'السعر الحالي', originalPrice: 'السعر الأصلي', discountedPrice: 'السعر بعد الخصم',
         home: 'الرئيسية', skip: 'تخطي إلى قائمة الألعاب', theme: 'تغيير المظهر',
         language: 'Switch to English', gamesLabel: 'قائمة الألعاب المجانية',
@@ -40,6 +42,7 @@ const storeNames = {
         loadError: 'Could not load game data. Check your connection and try again.',
         partialError: stores => `Could not refresh: ${stores}. Showing available data.`,
         retry: 'Try again', endsIn: 'Ends in', daysLeft: 'days', hoursLeft: 'hours',
+        freeToPlay: 'Free to play', more: 'Show more', free: 'Free',
         currentPrice: 'Current price', originalPrice: 'Original price', discountedPrice: 'Discounted price',
         home: 'Home', skip: 'Skip to the games list', theme: 'Change theme',
         language: 'التبديل إلى العربية', gamesLabel: 'Free games list',
@@ -130,6 +133,7 @@ function isGameExpired(game) {
 function normalizePublicDeal(rawDeal) {
     if (!rawDeal || typeof rawDeal !== 'object') return null;
     if (!['steam', 'epic'].includes(rawDeal.store)) return null;
+    if (rawDeal.offer_type !== 'free_to_play' && rawDeal.discount_percent !== 100) return null;
     const title = String(rawDeal.title || '').trim();
     const url = String(rawDeal.url || '').trim();
     if (!title || !safeStoreUrl(url, rawDeal.store)) return null;
@@ -141,6 +145,7 @@ function normalizePublicDeal(rawDeal) {
         originalPrice: String(rawDeal.original_price || ''),
         currentPrice: String(rawDeal.current_price || ''),
         discount: String(rawDeal.discount_label || ''),
+        offerType: rawDeal.offer_type || 'giveaway',
         endAt: rawDeal.end_at ? String(rawDeal.end_at) : null,
         store: rawDeal.store
     };
@@ -244,7 +249,20 @@ function renderGames() {
         return;
     }
     const fragment = document.createDocumentFragment();
-    visibleGames.forEach((game, index) => fragment.appendChild(gameCard(game, index)));
+    visibleGames.slice(0, visibleLimit).forEach((game, index) => fragment.appendChild(gameCard(game, index)));
+    if (visibleGames.length > visibleLimit) {
+        const wrapper = createElement('div', { className: 'no-games' });
+        const button = createElement('button', { className: 'retry-btn', text: storeNames[lang].more, attrs: { type: 'button' } });
+        button.addEventListener('click', () => {
+            const firstNewIndex = visibleLimit;
+            visibleLimit += 48;
+            renderGames();
+            const nextLink = grid.querySelectorAll('.btn-shop')[firstNewIndex];
+            if (nextLink) nextLink.focus();
+        });
+        wrapper.appendChild(button);
+        fragment.appendChild(wrapper);
+    }
     grid.appendChild(fragment);
 }
 
@@ -269,7 +287,7 @@ function createGameImage(game, isFirstCard) {
 
 function appendPriceInfo(card, game) {
     const original = game.originalPrice.trim();
-    const current = game.currentPrice.trim();
+    const current = game.offerType === 'free_to_play' ? storeNames[lang].free : game.currentPrice.trim();
     if (!original && !current) return;
     const priceInfo = createElement('div', { className: 'price-info' });
     const appendPair = (label, value, valueClass) => {
@@ -307,7 +325,7 @@ function gameCard(game, index) {
         createElement('span', { text: storeNames[lang][game.store] })
     );
     card.appendChild(storeBadge);
-    if (game.discount) card.appendChild(createElement('div', { className: 'discount-badge', text: game.discount }));
+    if (game.discount) card.appendChild(createElement('div', { className: 'discount-badge', text: game.offerType === 'free_to_play' ? storeNames[lang].freeToPlay : game.discount }));
     card.appendChild(createGameImage(game, index === 0));
     card.appendChild(createElement('h2', { className: 'game-title', text: game.title }));
     appendPriceInfo(card, game);
@@ -368,6 +386,7 @@ function startUpdateCountdown() {
 }
 
 function activateTab(nextTab, updateUrl = true) {
+    visibleLimit = 48;
     tab = ['all', 'steam', 'epic'].includes(nextTab) ? nextTab : 'all';
     document.querySelectorAll('.tab').forEach(button => {
         const active = button.dataset.tab === tab;
@@ -530,7 +549,7 @@ function initApp() {
     initTabs();
     initCookieConsent();
     updateInterface();
-    const isHomePage = window.location.pathname.endsWith('index.html') || window.location.pathname === '/';
+    const isHomePage = Boolean(document.getElementById('gamesGrid'));
     if (isHomePage) {
         fetchAllData();
         setupAutoRefresh();
