@@ -63,18 +63,12 @@ html,body{margin:0;padding:0;min-height:100vh;background:var(--bg);color:var(--t
 .logo-text{font-weight:800;color:var(--accent)}
 .logo-subtitle{color:var(--muted)}
 .card-store-icon,.tab-icon{width:20px;height:20px;vertical-align:middle;margin-inline-end:4px}
-.cookie-banner{position:fixed;bottom:0;left:0;right:0;background:#1a1e26;border-top:2px solid var(--accent);padding:16px;z-index:1000}.cookie-banner[hidden]{display:none}.cookie-content p{margin:0}
-.cookie-content{max-width:1180px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px}
-.cookie-buttons{display:flex;gap:10px}
-.cookie-btn{padding:8px 14px;border-radius:10px;font-weight:700;cursor:pointer}
-.cookie-btn.accept{background:var(--accent);color:#0d0f12}
-.cookie-btn.reject{background:transparent;color:var(--muted);border:1px solid #283041}
 .loading{display:inline-block;width:18px;height:18px;border:3px solid #283041;border-radius:50%;border-top-color:var(--accent);animation:spin 1s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 @keyframes fadeUp{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
 .no-games{grid-column:1/-1;text-align:center;color:var(--muted);font-size:1rem;padding:24px 10px}.game-thumb-placeholder{display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#1d222b,#11151c)}.data-status{margin:0 0 16px;padding:10px 12px;border-radius:10px;text-align:center}.data-status[hidden]{display:none}.data-status.warning{color:#ffe0a3;background:#5d430f;border:1px solid #8b6418}.data-status.error{color:#ffd6d6;background:#5b2020;border:1px solid #873030}.retry-btn{border:0;border-radius:10px;padding:10px 16px;background:var(--accent);color:#0d0f12;font-weight:800;cursor:pointer}
 .hero{display:none}
-.tab:focus-visible,.lang-btn:focus-visible,.theme-btn:focus-visible,.btn-shop:focus-visible,.nav-link:focus-visible,.retry-btn:focus-visible,.cookie-btn:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.tab:focus-visible,.lang-btn:focus-visible,.theme-btn:focus-visible,.btn-shop:focus-visible,.nav-link:focus-visible,.retry-btn:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
 @media(prefers-reduced-motion:reduce){.fade-in{animation:none}.tab,.lang-btn,.game-card,.btn-shop{transition:none}}
 
 [data-theme="light"]{--bg:#f6f7f9;--surface:#ffffff;--card:#ffffff;--text:#0e1116;--muted:#5b6573;--shadow:0 6px 16px rgba(0,0,0,.12)}
@@ -97,4 +91,4 @@ html,body{margin:0;padding:0;min-height:100vh;background:var(--bg);color:var(--t
 [data-theme="violet"] .store-badge{background:#140f2680;border:1px solid #2a2047}
 [data-theme="violet"] .price-info{background:#20173d;border:1px solid #2a2047}
 [data-theme="violet"] .footer{background:#0f0b1a;border-top:1px solid #2a2047}
-@media(max-width:768px){.header{position:static;flex-direction:column;gap:10px}.games-grid{gap:12px}.game-thumb{height:auto}.cookie-content{flex-direction:column;text-align:center}}
+@media(max-width:768px){.header{position:static;flex-direction:column;gap:10px}.games-grid{gap:12px}.game-thumb{height:auto}}

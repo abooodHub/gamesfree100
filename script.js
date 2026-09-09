@@ -12,7 +12,6 @@ let countdownId = null;
 const themes = ['dark', 'light', 'ocean', 'violet'];
 const DATA_REFRESH_MS = 6 * 60 * 60 * 1000;
 const EXPIRY_CHECK_MS = 60 * 1000;
-const ANALYTICS_ID = 'G-QXTT04YVZT';
 
 const storeNames = {
     ar: {
@@ -27,9 +26,7 @@ const storeNames = {
         currentPrice: 'السعر الحالي', originalPrice: 'السعر الأصلي', discountedPrice: 'السعر بعد الخصم',
         home: 'الرئيسية', skip: 'تخطي إلى قائمة الألعاب', theme: 'تغيير المظهر',
         language: 'Switch to English', gamesLabel: 'قائمة الألعاب المجانية',
-        tabsLabel: 'تصفية حسب متجر الألعاب',
-        consentText: 'نستخدم ملفات قياس اختيارية لتحسين الموقع. لن يتم تشغيل Google Analytics إلا بعد موافقتك.',
-        accept: 'موافق', reject: 'رفض'
+        tabsLabel: 'تصفية حسب متجر الألعاب'
     },
     en: {
         steam: 'Steam', epic: 'Epic', all: 'All',
@@ -43,9 +40,7 @@ const storeNames = {
         currentPrice: 'Current price', originalPrice: 'Original price', discountedPrice: 'Discounted price',
         home: 'Home', skip: 'Skip to the games list', theme: 'Change theme',
         language: 'التبديل إلى العربية', gamesLabel: 'Free games list',
-        tabsLabel: 'Filter by game store',
-        consentText: 'We use optional measurement cookies to improve the site. Google Analytics will only load after you consent.',
-        accept: 'Accept', reject: 'Reject'
+        tabsLabel: 'Filter by game store'
     }
 };
 
@@ -453,57 +448,11 @@ function updateInterface() {
     updateTabs();
     updateNavigation();
     updateFooterContent();
-    updateCookieBannerText();
     if (hasLoadedData) {
         renderGames();
         updateBar();
         startUpdateCountdown();
     }
-}
-
-function loadAnalytics() {
-    if (document.querySelector(`script[data-analytics-id="${ANALYTICS_ID}"]`)) return;
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = function gtag() { window.dataLayer.push(arguments); };
-    window.gtag('js', new Date());
-    window.gtag('config', ANALYTICS_ID, { anonymize_ip: true });
-    const script = document.createElement('script');
-    script.async = true;
-    script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(ANALYTICS_ID)}`;
-    script.dataset.analyticsId = ANALYTICS_ID;
-    document.head.appendChild(script);
-}
-
-function initCookieConsent() {
-    const banner = document.getElementById('cookieConsent');
-    const acceptButton = document.getElementById('acceptCookies');
-    const rejectButton = document.getElementById('rejectCookies');
-    if (!banner || !acceptButton || !rejectButton) return;
-    const consent = safeStorageGet('cookieConsent');
-    if (consent === 'accepted') {
-        banner.hidden = true;
-        loadAnalytics();
-    } else if (consent === 'rejected') banner.hidden = true;
-    else banner.hidden = false;
-
-    acceptButton.addEventListener('click', () => {
-        safeStorageSet('cookieConsent', 'accepted');
-        banner.hidden = true;
-        loadAnalytics();
-    });
-    rejectButton.addEventListener('click', () => {
-        safeStorageSet('cookieConsent', 'rejected');
-        banner.hidden = true;
-    });
-}
-
-function updateCookieBannerText() {
-    const text = document.getElementById('cookieConsentText');
-    const acceptButton = document.getElementById('acceptCookies');
-    const rejectButton = document.getElementById('rejectCookies');
-    if (text) text.textContent = storeNames[lang].consentText;
-    if (acceptButton) acceptButton.textContent = storeNames[lang].accept;
-    if (rejectButton) rejectButton.textContent = storeNames[lang].reject;
 }
 
 function applyTheme() {
@@ -528,7 +477,6 @@ function initApp() {
     initLanguageToggle();
     initThemeToggle();
     initTabs();
-    initCookieConsent();
     updateInterface();
     const isHomePage = window.location.pathname.endsWith('index.html') || window.location.pathname === '/';
     if (isHomePage) {

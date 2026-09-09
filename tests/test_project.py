@@ -94,9 +94,12 @@ class FrontendStructureTests(unittest.TestCase):
         self.assertTrue(all(tab.get("aria-pressed") in {"true", "false"} for tab in tabs))
         self.assertTrue(all(tab.get("tabindex") is None for tab in tabs))
 
-    def test_consent_and_security_policy_exist(self):
-        self.assertIsNotNone(self.soup.select_one("#cookieConsent"))
+    def test_analytics_and_consent_banner_are_removed(self):
+        self.assertIsNone(self.soup.select_one("#cookieConsent"))
         self.assertIsNotNone(self.soup.find("meta", attrs={"http-equiv": "Content-Security-Policy"}))
+        self.assertNotIn("googletagmanager", self.html)
+        self.assertNotIn("google-analytics", self.html)
+        self.assertNotIn("ANALYTICS_ID", self.script)
 
     def test_frontend_does_not_use_html_injection_or_broken_service_worker(self):
         forbidden = ["innerHTML", "outerHTML", "insertAdjacentHTML", "serviceWorker.register", "onerror="]
