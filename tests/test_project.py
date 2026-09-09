@@ -2,10 +2,6 @@ import datetime
 import json
 import tempfile
 import unittest
-from unittest.mock import patch, Mock
-
-import steam
-import epic
 from pathlib import Path
 
 from bs4 import BeautifulSoup
@@ -41,11 +37,11 @@ class DataValidationTests(unittest.TestCase):
         feed = json.loads(feed_path.read_text(encoding="utf-8"))
         self.assertEqual(feed["schema_version"], 1)
         self.assertEqual(feed["total_count"], len(feed["deals"]))
-        self.assertLess(feed_path.stat().st_size, 2_000_000)
+        self.assertLess(feed_path.stat().st_size, 50_000)
         for deal in feed["deals"]:
             self.assertIn(deal["store"], {"steam", "epic"})
             self.assertTrue(deal["url"].startswith("https://"))
-            self.assertEqual(deal["discount_percent"], 0 if deal.get("offer_type") == "free_to_play" else 100)
+            self.assertEqual(deal["discount_percent"], 100)
 
     def test_catalog_comparison_ignores_volatile_metadata(self):
         deals = [{"id": "steam-1", "title": "Example"}]
@@ -112,10 +108,10 @@ class FrontendStructureTests(unittest.TestCase):
 
 
 class WorkflowStructureTests(unittest.TestCase):
-    def test_update_workflow_publishes_status_even_without_catalog_changes(self):
+    def test_update_workflow_commits_only_catalog_changes(self):
         workflow = (ROOT / ".github" / "workflows" / "update.yml").read_text(encoding="utf-8")
-        self.assertIn("git diff --quiet -- deals.json update_timestamp.json", workflow)
-        self.assertIn("No catalog or status changes; skipping commit", workflow)
+        self.assertIn("git diff --quiet -- deals.json", workflow)
+        self.assertIn("No catalog changes; skipping commit", workflow)
         self.assertNotIn("git add .", workflow)
 
     def test_ci_runs_without_store_scrapers(self):
@@ -124,73 +120,6 @@ class WorkflowStructureTests(unittest.TestCase):
         self.assertIn("python -m unittest", workflow)
         self.assertNotIn("python steam.py", workflow)
         self.assertNotIn("python epic.py", workflow)
-
-
-
-class CollectorRegressionTests(unittest.TestCase):
-    def test_steam_modern_free_price_with_paid_upgrade(self):
-        html = '<a class="search_result_row" href="https://store.steampowered.com/app/730/"><span class="title">Counter-Strike 2</span><div data-price-final="1499"><div class="discount_final_price free">Free</div></div></a>'
-        with patch.object(steam, "fetch_Steam_json_response", return_value={"results_html": html}):
-            self.assertEqual(steam.get_free_goods(0, use_free_to_play=True), 1)
-
-    def test_missing_steam_price_is_unknown(self):
-        response = Mock(status_code=200)
-        response.json.return_value = {"123": {"success": True, "data": {}}}
-        with patch.object(steam, "make_session") as session:
-            session.return_value.get.return_value = response
-            self.assertEqual(steam.verify_discount_still_active_via_api("123", "Test"), steam.UNKNOWN)
-
-    def test_free_to_play_is_not_a_fake_discount(self):
-        row = ["Test", "https://store.steampowered.com/app/123/", "", "", "", "Free"]
-        deal = build_public_feed.normalize_game(row, "steam", free_to_play=True)
-        self.assertEqual(deal["offer_type"], "free_to_play")
-        self.assertEqual(deal["discount_percent"], 0)
-        self.assertIsNone(build_public_feed.normalize_game(row, "steam"))
-
-    def test_paid_and_expired_discounts_are_excluded(self):
-        row = ["Test", "https://store.steampowered.com/app/123/", "", "", "$10", "$1", "90%", None]
-        self.assertIsNone(build_public_feed.normalize_game(row, "steam"))
-        row[6:] = ["100%", "2000-01-01T00:00:00Z"]
-        self.assertIsNone(build_public_feed.normalize_game(row, "steam"))
-
-    def test_epic_requires_current_promotion_and_zero_price(self):
-        now = datetime.datetime(2026, 9, 8, tzinfo=datetime.timezone.utc)
-        promo = {"startDate": "2026-09-01T00:00:00Z", "endDate": "2026-09-10T00:00:00Z", "discountSetting": {"discountType": "PERCENTAGE", "discountPercentage": 0}}
-        game = {"price": {"totalPrice": {"discountPrice": 0, "originalPrice": 1000}}, "promotions": {"promotionalOffers": [{"promotionalOffers": [promo]}]}}
-        self.assertEqual(epic.active_free_promotion(game, now), promo["endDate"])
-        game["price"]["totalPrice"]["discountPrice"] = 100
-        self.assertIsNone(epic.active_free_promotion(game, now))
-        game["price"]["totalPrice"]["discountPrice"] = 0
-        promo["startDate"] = "2026-09-09T00:00:00Z"
-        self.assertIsNone(epic.active_free_promotion(game, now))
-
-
-class StoreStatusTests(unittest.TestCase):
-    def test_failed_refresh_preserves_last_success(self):
-        with tempfile.TemporaryDirectory() as directory:
-            target = Path(directory) / "source.json"
-            target.write_text(json.dumps({"free_games": [], "discounted_games": [], "total_count": 0, "update_time": "2026-09-08T01:00:00Z"}))
-            result = update_timestamp.source_status("steam", str(target), "failure", "2026-09-08T07:00:00Z")
-            self.assertEqual(result, {"last_success": "2026-09-08T01:00:00Z", "last_attempt": "2026-09-08T07:00:00Z", "status": "error"})
-            recovered = update_timestamp.source_status("steam", str(target), "success", "2026-09-08T08:00:00Z", result)
-            self.assertEqual(recovered["status"], "ok")
-
-    def test_corrupt_source_does_not_erase_previous_success(self):
-        previous = {"last_success": "2026-09-08T01:00:00Z", "status": "ok"}
-        result = update_timestamp.source_status("steam", "missing-file.json", "success", "2026-09-08T07:00:00Z", previous)
-        self.assertEqual(result["status"], "error")
-        self.assertEqual(result["last_success"], previous["last_success"])
-
-    def test_validation_without_fetch_does_not_claim_success(self):
-        result = update_timestamp.source_status("steam", str(ROOT / "free_goods_detail.json"))
-        self.assertEqual(result["status"], "unknown")
-        self.assertIsNone(result["last_attempt"])
-
-    def test_workflow_records_independent_outcomes(self):
-        workflow = (ROOT / ".github/workflows/update.yml").read_text(encoding="utf-8")
-        self.assertEqual(workflow.count("continue-on-error: true"), 2)
-        self.assertIn("STEAM_OUTCOME: ${{ steps.steam.outcome }}", workflow)
-        self.assertIn("EPIC_OUTCOME: ${{ steps.epic.outcome }}", workflow)
 
 
 if __name__ == "__main__":

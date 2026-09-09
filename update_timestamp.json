@@ -1,15 +1,26 @@
 {
-  "schema_version": 1,
+  "last_attempt": "2026-09-03T16:11:49Z",
+  "last_update": "2026-09-03T16:11:49Z",
   "sources": {
     "steam": {
-      "last_success": "2026-09-08T20:57:48Z",
-      "last_attempt": "2026-09-08T20:57:51Z",
+      "name": "steam",
+      "file": "free_goods_detail.json",
+      "total_count": 2125,
+      "free_count": 1855,
+      "discounted_count": 270,
+      "last_success": "2026-09-03T16:11:46Z",
       "status": "ok"
     },
     "epic": {
-      "last_success": "2026-09-08T20:57:51Z",
-      "last_attempt": "2026-09-08T20:57:51Z",
+      "name": "epic",
+      "file": "epic_goods_detail.json",
+      "total_count": 1,
+      "free_count": 1,
+      "discounted_count": 0,
+      "last_success": "2026-09-03T16:11:49Z",
       "status": "ok"
     }
-  }
+  },
+  "updated_files": 2,
+  "total_files": 2
 }

@@ -16,26 +16,6 @@ import sys
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
-def active_free_promotion(game, now=None):
-    now = now or datetime.datetime.now(datetime.timezone.utc)
-    price = game.get("price", {}).get("totalPrice", {})
-    if price.get("discountPrice") != 0 or price.get("originalPrice", 0) <= 0:
-        return None
-    for group in (game.get("promotions") or {}).get("promotionalOffers", []):
-        for promo in group.get("promotionalOffers", []):
-            setting = promo.get("discountSetting", {})
-            if setting.get("discountType") != "PERCENTAGE" or setting.get("discountPercentage") != 0:
-                continue
-            try:
-                start = datetime.datetime.fromisoformat(promo["startDate"].replace("Z", "+00:00"))
-                end = datetime.datetime.fromisoformat(promo["endDate"].replace("Z", "+00:00"))
-                if start <= now < end:
-                    return promo["endDate"]
-            except (KeyError, ValueError, TypeError):
-                continue
-    return None
-
-
 def get_epic_free_games():
     """
     جلب الألعاب المجانية من Epic Games Store
@@ -134,11 +114,7 @@ def get_epic_free_games():
                                                 is_free = True
                                                 discount_percentage = calculated_discount
                             
-                            active_end = active_free_promotion(game)
-                            is_free = active_end is not None
                             if is_free:
-                                end_date = active_end
-                                discount_percentage = 0
                                 game_name = game.get('title', 'Unknown Game')
                                 
                                 # بناء رابط اللعبة
@@ -205,7 +181,7 @@ def get_epic_free_games():
                                                         has_coming_soon = True
                                                         break
                                     
-                                    if has_coming_soon and not active_end:
+                                    if has_coming_soon:
                                         discount_text = "Coming Soon - مجاني قريباً"
                                 
                                 # بناء البيانات النهائية
@@ -399,7 +375,30 @@ def save_epic_games_data(games_list):
             elif discount_text and any(x in discount_text for x in ["90%", "95%", "99%"]):
                 discounted_games.append(game)
         
-        # الاستجابة الناجحة هي المرجع؛ لا تُبقِ أسعاراً أو مواعيد قديمة.
+        # دمج مع البيانات الموجودة — الألعاب المنتهية لا تُضاف
+        if existing_data:
+            existing_free = existing_data.get("free_games", [])
+            existing_discounted = existing_data.get("discounted_games", [])
+
+            # الألعاب القديمة المجانية: أضف فقط غير المنتهية
+            existing_free_keys = set((g[0], g[1]) for g in existing_free if len(g) > 1)
+            for game in free_games:
+                key = (game[0], game[1])
+                if key not in existing_free_keys and not is_game_expired(game):
+                    existing_free.append(game)
+                    existing_free_keys.add(key)
+
+            # الألعاب القديمة المخصومة: أضف فقط غير المنتهية
+            existing_discounted_keys = set((g[0], g[1]) for g in existing_discounted if len(g) > 1)
+            for game in discounted_games:
+                key = (game[0], game[1])
+                if key not in existing_discounted_keys and not is_game_expired(game):
+                    existing_discounted.append(game)
+                    existing_discounted_keys.add(key)
+
+            free_games = existing_free
+            discounted_games = existing_discounted
+
         free_games.sort(key=lambda game: (str(game[0]).casefold(), str(game[1])))
         discounted_games.sort(key=lambda game: (str(game[0]).casefold(), str(game[1])))
         
