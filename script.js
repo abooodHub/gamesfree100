@@ -19,13 +19,13 @@ const storeNames = {
         shop: 'رابط الحصول على العرض',
         shopFor: (title, store) => `احصل على ${title} من ${store}`,
         update: 'آخر تحديث', nextUpdate: 'التحديث القادم خلال',
-        noGames: 'لا توجد ألعاب مجانية حالياً', loading: 'جاري تحميل العروض...',
+        noGames: 'لا توجد عروض بخصم 100% حالياً', loading: 'جاري تحميل العروض...',
         loadError: 'تعذر تحميل بيانات الألعاب. تحقق من الاتصال ثم حاول مجدداً.',
         partialError: stores => `تعذر تحديث: ${stores}. يتم عرض البيانات المتاحة.`,
         retry: 'إعادة المحاولة', endsIn: 'ينتهي خلال', daysLeft: 'يوم', hoursLeft: 'ساعة',
         currentPrice: 'السعر الحالي', originalPrice: 'السعر الأصلي', discountedPrice: 'السعر بعد الخصم',
         home: 'الرئيسية', skip: 'تخطي إلى قائمة الألعاب', theme: 'تغيير المظهر',
-        language: 'Switch to English', gamesLabel: 'قائمة الألعاب المجانية',
+        language: 'Switch to English', gamesLabel: 'قائمة عروض خصم 100%',
         tabsLabel: 'تصفية حسب متجر الألعاب'
     },
     en: {
@@ -33,13 +33,13 @@ const storeNames = {
         shop: 'Get this offer',
         shopFor: (title, store) => `Get ${title} from ${store}`,
         update: 'Last update', nextUpdate: 'Next update in',
-        noGames: 'No free games found', loading: 'Loading offers...',
+        noGames: 'No 100% off deals are available now', loading: 'Loading offers...',
         loadError: 'Could not load game data. Check your connection and try again.',
         partialError: stores => `Could not refresh: ${stores}. Showing available data.`,
         retry: 'Try again', endsIn: 'Ends in', daysLeft: 'days', hoursLeft: 'hours',
         currentPrice: 'Current price', originalPrice: 'Original price', discountedPrice: 'Discounted price',
         home: 'Home', skip: 'Skip to the games list', theme: 'Change theme',
-        language: 'التبديل إلى العربية', gamesLabel: 'Free games list',
+        language: 'التبديل إلى العربية', gamesLabel: '100% off deals list',
         tabsLabel: 'Filter by game store'
     }
 };
@@ -125,6 +125,7 @@ function isGameExpired(game) {
 function normalizePublicDeal(rawDeal) {
     if (!rawDeal || typeof rawDeal !== 'object') return null;
     if (!['steam', 'epic'].includes(rawDeal.store)) return null;
+    if (rawDeal.discount_percent !== 100) return null;
     const title = String(rawDeal.title || '').trim();
     const url = String(rawDeal.url || '').trim();
     if (!title || !safeStoreUrl(url, rawDeal.store)) return null;
@@ -478,7 +479,7 @@ function initApp() {
     initThemeToggle();
     initTabs();
     updateInterface();
-    const isHomePage = window.location.pathname.endsWith('index.html') || window.location.pathname === '/';
+    const isHomePage = Boolean(document.getElementById('gamesGrid'));
     if (isHomePage) {
         fetchAllData();
         setupAutoRefresh();

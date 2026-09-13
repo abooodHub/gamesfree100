@@ -1,467 +1,189 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Epic Games Balash - جلب الألعاب المجانية من Epic Games
-Epic Games Balash - Fetch free games from Epic Games Store
-"""
+"""Collect currently active 100% discounts from Epic Games Store."""
+
+from __future__ import annotations
+
+import datetime
+import json
+import os
+import sys
+import tempfile
+from pathlib import Path
+from typing import Any
 
 import requests
-import json
-import datetime
-import time
-import os
-import tempfile
-import sys
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
-def get_epic_free_games():
-    """
-    جلب الألعاب المجانية من Epic Games Store
-    Fetch free games from Epic Games Store
-    """
-    print("بدء جلب الألعاب المجانية من Epic Games...")
-    
-    free_games = []
-    
-    # 1. Epic Games API للعروض المجانية الحالية
-    url1 = "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions"
-    
-    # 2. Epic Games API للعروض والخصومات
-    url2 = "https://store-site-backend-static-ipv4.ak.epicgames.com/freeGamesPromotions"
-    
-    # Headers مطلوبة للوصول لـ Epic API
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-        'Accept': 'application/json',
-        'Accept-Language': 'en-US,en;q=0.9,ar;q=0.8',
-        'Origin': 'https://store.epicgames.com',
-        'Referer': 'https://store.epicgames.com/'
-    }
-    
-    urls_to_try = [url1, url2]
-    
-    for url in urls_to_try:
-        try:
-            print(f"جاري الاتصال بـ Epic Games API: {url}")
-            response = requests.get(url, headers=headers, timeout=30)
-            response.raise_for_status()
-            
-            data = response.json()
-            print("تم جلب البيانات بنجاح من Epic Games")
-            
-            # استخراج الألعاب المجانية من البيانات
-            if 'data' in data and 'Catalog' in data['data']:
-                catalog = data['data']['Catalog']
-                
-                if 'searchStore' in catalog and 'elements' in catalog['searchStore']:
-                    games = catalog['searchStore']['elements']
-                    
-                    for game in games:
-                        # التحقق من أن اللعبة مجانية أو لديها خصم عالي
-                        if 'promotions' in game and game['promotions']:
-                            promotions = game['promotions']
-                            
-                            # البحث عن عروض مجانية أو خصومات عالية
-                            is_free = False
-                            discount_percentage = 0
-                            end_date = None
-                            original_price = ""
-                            discounted_price = ""
-                            
-                            # فحص العروض الحالية
-                            if 'promotionalOffers' in promotions:
-                                for offer in promotions['promotionalOffers']:
-                                    for promo in offer['promotionalOffers']:
-                                        if promo.get('discountSetting', {}).get('discountType') == 'PERCENTAGE':
-                                            discount_percentage = promo['discountSetting']['discountPercentage']
-                                            if discount_percentage == 0:  # مجانية 100%
-                                                is_free = True
-                                                end_date = promo.get('endDate')
-                                                break
-                            
-                            # فحص العروض المستقبلية أيضاً
-                            if not is_free and 'upcomingPromotionalOffers' in promotions:
-                                for offer in promotions['upcomingPromotionalOffers']:
-                                    for promo in offer['promotionalOffers']:
-                                        if promo.get('discountSetting', {}).get('discountType') == 'PERCENTAGE':
-                                            discount_percentage = promo['discountSetting']['discountPercentage']
-                                            if discount_percentage == 0:  # مجانية 100%
-                                                is_free = True
-                                                end_date = promo.get('endDate')
-                                                break
-                            
-                            # فحص السعر الأساسي للعبة
-                            if 'price' in game and game['price']:
-                                price_data = game['price']
-                                if 'totalPrice' in price_data:
-                                    total_price = price_data['totalPrice']
-                                    
-                                    # إذا كان السعر الحالي 0، فهي مجانية
-                                    if total_price.get('discountPrice', 0) == 0:
-                                        is_free = True
-                                        original_price = f"{total_price.get('originalPrice', 0) / 100:.2f} USD"
-                                        discounted_price = "Free"
-                                    elif total_price.get('originalPrice', 0) > 0:
-                                        original_price = f"{total_price.get('originalPrice', 0) / 100:.2f} USD"
-                                        discounted_price = f"{total_price.get('discountPrice', 0) / 100:.2f} USD"
-                                        
-                                        # حساب نسبة الخصم
-                                        if total_price.get('originalPrice', 0) > 0:
-                                            calculated_discount = ((total_price.get('originalPrice', 0) - total_price.get('discountPrice', 0)) / total_price.get('originalPrice', 0)) * 100
-                                            if calculated_discount >= 90:  # خصم 90% أو أكثر
-                                                is_free = True
-                                                discount_percentage = calculated_discount
-                            
-                            if is_free:
-                                game_name = game.get('title', 'Unknown Game')
-                                
-                                # بناء رابط اللعبة
-                                game_url = ""
-                                if 'catalogNs' in game and 'mappings' in game['catalogNs']:
-                                    mappings = game['catalogNs']['mappings']
-                                    if mappings and len(mappings) > 0:
-                                        page_slug = mappings[0].get('pageSlug', '')
-                                        if page_slug:
-                                            game_url = f"https://store.epicgames.com/en-US/p/{page_slug}"
-                                
-                                if not game_url:
-                                    # محاولة بديلة للحصول على الرابط
-                                    if 'id' in game:
-                                        game_url = f"https://store.epicgames.com/en-US/p/{game['id']}"
-                                    else:
-                                        game_url = "https://store.epicgames.com/"
-                                
-                                # استخراج صورة اللعبة
-                                image_url = ""
-                                if 'keyImages' in game:
-                                    # البحث عن أفضل صورة متاحة
-                                    for img_type in ['OfferImageWide', 'Thumbnail', 'DieselStoreFrontWide', 'DieselStoreFrontTall']:
-                                        for img in game['keyImages']:
-                                            if img.get('type') == img_type:
-                                                image_url = img.get('url', '')
-                                                break
-                                        if image_url:
-                                            break
-                                
-                                # استخراج وصف اللعبة
-                                description = game.get('description', '')
-                                if not description:
-                                    description = game.get('longDescription', '')
-                                
-                                # تنسيق تاريخ الانتهاء
-                                formatted_end_date = None
-                                if end_date:
-                                    try:
-                                        # Epic يستخدم تنسيق ISO 8601
-                                        end_datetime = datetime.datetime.fromisoformat(end_date.replace('Z', '+00:00'))
-                                        formatted_end_date = end_datetime.strftime('%Y-%m-%d %H:%M:%S')
-                                    except:
-                                        formatted_end_date = None
-                                
-                                # تحديد نسبة الخصم للعرض
-                                discount_text = ""
-                                if discount_percentage == 0:
-                                    discount_text = "خصم 100% - مجاني"
-                                elif discount_percentage > 0:
-                                    discount_text = f"خصم {discount_percentage:.0f}%"
-                                
-                                # التحقق من الألعاب التي تحتوي على "Coming Soon"
-                                if 'promotions' in game and game['promotions']:
-                                    promotions = game['promotions']
-                                    has_coming_soon = False
-                                    
-                                    # فحص العروض المستقبلية للعثور على "Coming Soon"
-                                    if 'upcomingPromotionalOffers' in promotions:
-                                        for offer in promotions['upcomingPromotionalOffers']:
-                                            for promo in offer['promotionalOffers']:
-                                                if promo.get('discountSetting', {}).get('discountType') == 'PERCENTAGE':
-                                                    if promo['discountSetting']['discountPercentage'] == 0:
-                                                        has_coming_soon = True
-                                                        break
-                                    
-                                    if has_coming_soon:
-                                        discount_text = "Coming Soon - مجاني قريباً"
-                                
-                                # بناء البيانات النهائية
-                                game_data = [
-                                    game_name,                    # [0] اسم اللعبة
-                                    game_url,                     # [1] رابط اللعبة
-                                    image_url,                    # [2] صورة اللعبة
-                                    description,                  # [3] وصف اللعبة
-                                    original_price,               # [4] السعر الأصلي
-                                    discounted_price,             # [5] السعر بعد الخصم
-                                    discount_text,                # [6] نسبة الخصم
-                                    formatted_end_date            # [7] تاريخ انتهاء العرض
-                                ]
-                                
-                                # التحقق من عدم وجود اللعبة مسبقاً
-                                game_exists = False
-                                for existing_game in free_games:
-                                    if existing_game[0] == game_name and existing_game[1] == game_url:
-                                        game_exists = True
-                                        break
-                                
-                                if not game_exists:
-                                    free_games.append(game_data)
-                                    print(f"تم العثور على لعبة مجانية: {game_name}")
-                                    if discount_text:
-                                        print(f"  الخصم: {discount_text}")
-            
-            # إضافة تأخير قصير بين الطلبات
-            time.sleep(1)
-            
-        except requests.exceptions.RequestException as e:
-            print(f"خطأ في الاتصال بـ Epic Games API ({url}): {e}")
-            continue
-        except json.JSONDecodeError as e:
-            print(f"خطأ في تحليل بيانات Epic Games: {e}")
-            continue
-        except Exception as e:
-            print(f"خطأ غير متوقع: {e}")
-            continue
-    
-    # لا نضيف الألعاب المجانية دائماً - فقط الألعاب التي عليها خصم 100%
-    print("تم تجاهل الألعاب المجانية دائماً - نريد فقط الألعاب التي عليها خصم 100%")
-    
-    print(f"إجمالي الألعاب المجانية من Epic: {len(free_games)}")
-    return free_games
+ROOT = Path(__file__).resolve().parent
+OUTPUT_PATH = ROOT / "epic_goods_detail.json"
+ENDPOINTS = (
+    "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions",
+    "https://store-site-backend-static-ipv4.ak.epicgames.com/freeGamesPromotions",
+)
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36",
+    "Accept": "application/json",
+    "Accept-Language": "en-US,en;q=0.9",
+}
 
-def get_epic_additional_games():
-    """
-    جلب ألعاب مجانية إضافية من Epic Games
-    """
-    additional_games = []
-    
-    # قائمة ببعض الألعاب المجانية الثابتة في Epic Games
-    permanent_free_games = [
-        {
-            "name": "Fortnite",
-            "url": "https://store.epicgames.com/en-US/p/fortnite",
-            "image": "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Ffortnite%2Fhome%2Ffortnite-br-1200x1600-1200x1600-63bb5bb2f96f.jpg",
-            "description": "Fortnite is the completely free multiplayer game where you and your friends collaborate to create your dream world or compete against each other in Battle Royale.",
-        },
-        {
-            "name": "Rocket League",
-            "url": "https://store.epicgames.com/en-US/p/rocket-league",
-            "image": "https://cdn1.epicgames.com/spt/9408a40499f647de8ecebfe41ae03c55/rocket-league-35bma.jpg",
-            "description": "Winner or nominee of more than 150 'Game of the Year' awards, Rocket League is one of the most critically-acclaimed sports games of all time.",
-        },
-        {
-            "name": "Fall Guys",
-            "url": "https://store.epicgames.com/en-US/p/fall-guys",
-            "image": "https://cdn1.epicgames.com/spt/b7c1c96f72274bbcb5fbbf93dd8b6dc5/fall-guys-offer-6ow21.jpg",
-            "description": "Fall Guys is a free, cross-platform massively multiplayer party royale game where up to 60 players compete in rounds of escalating chaos until one victor remains!",
-        }
+
+def utc_now() -> datetime.datetime:
+    return datetime.datetime.now(datetime.timezone.utc)
+
+
+def make_session() -> requests.Session:
+    session = requests.Session()
+    retry = Retry(
+        total=3,
+        connect=3,
+        read=3,
+        status=3,
+        backoff_factor=0.7,
+        status_forcelist=(429, 500, 502, 503, 504),
+        allowed_methods=("GET",),
+        respect_retry_after_header=True,
+    )
+    session.mount("https://", HTTPAdapter(max_retries=retry))
+    return session
+
+
+def parse_utc(value: Any) -> datetime.datetime | None:
+    if not isinstance(value, str):
+        return None
+    try:
+        parsed = datetime.datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=datetime.timezone.utc)
+    return parsed.astimezone(datetime.timezone.utc)
+
+
+def active_free_end(game: dict[str, Any], now: datetime.datetime | None = None) -> str | None:
+    """Return the end timestamp for an active giveaway, never an upcoming offer."""
+    now = now or utc_now()
+    price = game.get("price", {}).get("totalPrice", {})
+    if price.get("originalPrice", 0) <= 0 or price.get("discountPrice") != 0:
+        return None
+    promotions = (game.get("promotions") or {}).get("promotionalOffers", [])
+    for group in promotions:
+        for promotion in group.get("promotionalOffers", []):
+            setting = promotion.get("discountSetting", {})
+            start = parse_utc(promotion.get("startDate"))
+            end = parse_utc(promotion.get("endDate"))
+            if (
+                setting.get("discountType") == "PERCENTAGE"
+                and setting.get("discountPercentage") == 0
+                and start is not None
+                and end is not None
+                and start <= now < end
+            ):
+                return end.isoformat(timespec="seconds").replace("+00:00", "Z")
+    return None
+
+
+def game_url(game: dict[str, Any]) -> str | None:
+    mappings = game.get("catalogNs", {}).get("mappings", [])
+    for mapping in mappings:
+        slug = mapping.get("pageSlug")
+        if isinstance(slug, str) and slug.strip():
+            return f"https://store.epicgames.com/en-US/p/{slug.strip()}"
+    product_slug = game.get("productSlug")
+    if isinstance(product_slug, str) and product_slug.strip():
+        slug = product_slug.strip().removesuffix("/home")
+        return f"https://store.epicgames.com/en-US/p/{slug}"
+    return None
+
+
+def image_url(game: dict[str, Any]) -> str:
+    preferred = ("OfferImageWide", "DieselStoreFrontWide", "Thumbnail", "DieselStoreFrontTall")
+    images = game.get("keyImages", [])
+    for image_type in preferred:
+        for image in images:
+            if image.get("type") == image_type and isinstance(image.get("url"), str):
+                return image["url"]
+    return ""
+
+
+def normalize_game(game: dict[str, Any], now: datetime.datetime | None = None) -> list[Any] | None:
+    end_at = active_free_end(game, now)
+    url = game_url(game)
+    title = str(game.get("title") or "").strip()
+    if not end_at or not url or not title:
+        return None
+    price = game["price"]["totalPrice"]
+    currency = str(price.get("currencyCode") or price.get("currency") or "USD")
+    original = f"{price['originalPrice'] / 100:.2f} {currency}"
+    return [
+        title,
+        url,
+        image_url(game),
+        str(game.get("description") or game.get("longDescription") or ""),
+        original,
+        "Free",
+        "خصم 100% - مجاني",
+        end_at,
     ]
-    
-    for game in permanent_free_games:
-        game_data = [
-            game["name"],                          # [0] اسم اللعبة
-            game["url"],                           # [1] رابط اللعبة  
-            game["image"],                         # [2] صورة اللعبة
-            game["description"],                   # [3] وصف اللعبة
-            "Free",                                # [4] السعر الأصلي
-            "Free",                                # [5] السعر الحالي
-            "مجاني دائماً",                        # [6] نوع العرض
-            None                                   # [7] تاريخ الانتهاء
-        ]
-        additional_games.append(game_data)
-    
-    return additional_games
 
-def is_game_expired(game):
-    """
-    التحقق من انتهاء صلاحية اللعبة
-    Check if a game's discount period has expired
-    """
-    try:
-        # البحث عن تاريخ الانتهاء في game[7]
-        end_date = None
-        
-        if len(game) > 7 and game[7] and game[7] != 'null' and game[7] != 'None':
-            end_date = game[7]
-        
-        # إذا لم يكن هناك تاريخ انتهاء، اللعبة ليست منتهية (مجانية دائماً)
-        if not end_date:
-            return False
-        
-        # التحقق من انتهاء التاريخ
+
+def fetch_catalog() -> list[dict[str, Any]] | None:
+    session = make_session()
+    for endpoint in ENDPOINTS:
         try:
-            end_datetime = None
-            try:
-                end_datetime = datetime.datetime.fromisoformat(end_date.replace('Z', '+00:00'))
-                if end_datetime.tzinfo:
-                    end_datetime = end_datetime.replace(tzinfo=None)
-            except Exception:
-                try:
-                    end_datetime = datetime.datetime.strptime(end_date, '%Y-%m-%d %H:%M:%S')
-                except Exception:
-                    end_datetime = datetime.datetime.strptime(end_date, '%Y-%m-%d')
-            now = datetime.datetime.now()
-            is_expired = end_datetime <= now
-            
-            if is_expired:
-                print(f"⏰ اللعبة منتهية: {game[0]} (انتهت في {end_date})")
-            
-            return is_expired
-        except Exception as e:
-            print(f"خطأ في تحليل تاريخ الانتهاء: {e}")
-            return False
-            
-    except Exception as e:
-        print(f"خطأ في التحقق من انتهاء اللعبة: {e}")
-        return False
+            response = session.get(
+                endpoint,
+                params={"locale": "en-US", "country": "US", "allowCountries": "US"},
+                headers=HEADERS,
+                timeout=30,
+            )
+            response.raise_for_status()
+            elements = response.json()["data"]["Catalog"]["searchStore"]["elements"]
+            if not isinstance(elements, list):
+                raise ValueError("invalid Epic catalog")
+            return elements
+        except (requests.RequestException, KeyError, TypeError, ValueError, json.JSONDecodeError) as error:
+            print(f"⚠️ تعذر جلب Epic من {endpoint}: {error}")
+    return None
 
-def clean_expired_games(games_list):
-    """
-    تنظيف قائمة الألعاب من الألعاب المنتهية
-    Clean the games list from expired games
-    """
-    if not games_list:
-        return []
-    
-    cleaned_games = []
-    expired_count = 0
-    
-    for game in games_list:
-        if not is_game_expired(game):
-            cleaned_games.append(game)
-        else:
-            expired_count += 1
-    
-    if expired_count > 0:
-        print(f"🗑️ تم إزالة {expired_count} لعبة منتهية من القائمة")
-    
-    return cleaned_games
 
-def save_epic_games_data(games_list):
-    """
-    حفظ بيانات الألعاب المجانية من Epic في ملف JSON
-    Save Epic free games data to JSON file
-    """
+def atomic_write(data: dict[str, Any]) -> None:
+    temp_path: Path | None = None
     try:
-        # تنظيف الألعاب المنتهية من القائمة الجديدة
-        print("\n🔍 فحص الألعاب الجديدة للتأكد من عدم انتهائها...")
-        games_list = clean_expired_games(games_list)
-        
-        # قراءة البيانات الموجودة وتنظيفها من الألعاب المنتهية
-        existing_data = {}
-        try:
-            if os.path.exists("epic_goods_detail.json"):
-                with open("epic_goods_detail.json", "r", encoding="utf-8") as f:
-                    existing_data = json.load(f)
-                    
-                print("\n🔍 فحص الألعاب الموجودة في الملف...")
-                if "free_games" in existing_data:
-                    existing_data["free_games"] = clean_expired_games(existing_data["free_games"])
-                if "discounted_games" in existing_data:
-                    existing_data["discounted_games"] = clean_expired_games(existing_data["discounted_games"])
-        except Exception as e:
-            print(f"⚠️ لم يتم العثور على ملف سابق أو حدث خطأ: {e}")
-        
-        # فصل الألعاب المجانية عن الألعاب بخصم
-        free_games = []
-        discounted_games = []
-        
-        for game in games_list:
-            discount_text = game[6] if len(game) > 6 else ""
-            
-            # الألعاب التي عليها خصم 100% فقط (بدون Coming Soon) وليس مجاني دائماً
-            if discount_text and "100%" in discount_text and "Coming Soon" not in discount_text and "مجاني دائماً" not in discount_text:
-                free_games.append(game)
-            # إذا كانت لديها خصم عالي (90% أو أكثر)
-            elif discount_text and any(x in discount_text for x in ["90%", "95%", "99%"]):
-                discounted_games.append(game)
-        
-        # دمج مع البيانات الموجودة — الألعاب المنتهية لا تُضاف
-        if existing_data:
-            existing_free = existing_data.get("free_games", [])
-            existing_discounted = existing_data.get("discounted_games", [])
+        with tempfile.NamedTemporaryFile("w", encoding="utf-8", dir=ROOT, delete=False) as output:
+            json.dump(data, output, ensure_ascii=False, indent=2)
+            output.flush()
+            os.fsync(output.fileno())
+            temp_path = Path(output.name)
+        os.replace(temp_path, OUTPUT_PATH)
+    finally:
+        if temp_path and temp_path.exists():
+            temp_path.unlink()
 
-            # الألعاب القديمة المجانية: أضف فقط غير المنتهية
-            existing_free_keys = set((g[0], g[1]) for g in existing_free if len(g) > 1)
-            for game in free_games:
-                key = (game[0], game[1])
-                if key not in existing_free_keys and not is_game_expired(game):
-                    existing_free.append(game)
-                    existing_free_keys.add(key)
 
-            # الألعاب القديمة المخصومة: أضف فقط غير المنتهية
-            existing_discounted_keys = set((g[0], g[1]) for g in existing_discounted if len(g) > 1)
-            for game in discounted_games:
-                key = (game[0], game[1])
-                if key not in existing_discounted_keys and not is_game_expired(game):
-                    existing_discounted.append(game)
-                    existing_discounted_keys.add(key)
-
-            free_games = existing_free
-            discounted_games = existing_discounted
-
-        free_games.sort(key=lambda game: (str(game[0]).casefold(), str(game[1])))
-        discounted_games.sort(key=lambda game: (str(game[0]).casefold(), str(game[1])))
-        
-        data = {
-            "total_count": len(free_games) + len(discounted_games),
-            "free_games": free_games,
-            "discounted_games": discounted_games,
-            "update_time": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds').replace('+00:00', 'Z'),
-            "source": "Epic Games Store"
-        }
-        
-        target_path = os.path.abspath("epic_goods_detail.json")
-        with tempfile.NamedTemporaryFile("w", encoding="utf-8", dir=os.path.dirname(target_path), delete=False) as fp:
-            json.dump(data, fp, ensure_ascii=False, indent=2)
-            fp.flush()
-            os.fsync(fp.fileno())
-            temp_path = fp.name
-        os.replace(temp_path, target_path)
-        
-        print(f"\n✅ تم حفظ بيانات Epic Games بنجاح في epic_goods_detail.json")
-        print(f"📊 الألعاب المجانية: {len(free_games)}, الألعاب بخصم: {len(discounted_games)}")
-        return True
-        
-    except Exception as e:
-        print(f"❌ خطأ في حفظ بيانات Epic Games: {e}")
-        return False
-
-def main():
-    """
-    الدالة الرئيسية
-    Main function
-    """
-    print("=" * 50)
-    print("🎮 Epic Games Balash - جلب الألعاب المجانية")
-    print("🎮 Epic Games Balash - Fetch Free Games")
-    print("=" * 50)
-    
-    # جلب الألعاب المجانية من Epic
-    epic_games = get_epic_free_games()
-    
-    if epic_games:
-        # حفظ البيانات
-        if save_epic_games_data(epic_games):
-            print(f"✅ تم تحديث قائمة الألعاب المجانية من Epic بنجاح!")
-            print(f"📊 عدد الألعاب: {len(epic_games)}")
-            
-            # عرض قائمة الألعاب
-            print("\n📋 قائمة الألعاب المجانية من Epic:")
-            for i, game in enumerate(epic_games, 1):
-                print(f"{i}. {game[0]}")
-                if len(game) > 6 and game[6]:  # نسبة الخصم
-                    print(f"   العرض: {game[6]}")
-                if len(game) > 7 and game[7]:  # تاريخ الانتهاء
-                    print(f"   ينتهي في: {game[7]}")
-                print()
-            return 0
-        else:
-            print("❌ فشل في حفظ البيانات")
-            return 1
-    else:
-        print("⚠️ لم يتم العثور على ألعاب مجانية من Epic Games حالياً")
-        print("قد يكون السبب عدم وجود عروض مجانية أو تغيّر في API")
+def main() -> int:
+    print("🔍 البحث عن عروض Epic النشطة ذات خصم 100% فقط...")
+    catalog = fetch_catalog()
+    if catalog is None:
+        print("❌ فشل جلب Epic؛ لن يتم استبدال البيانات الحالية")
         return 1
+    games = [normalized for game in catalog if (normalized := normalize_game(game))]
+    unique = {(game[0], game[1]): game for game in games}
+    games = sorted(unique.values(), key=lambda game: (str(game[7]), str(game[0]).casefold()))
+    atomic_write({
+        "total_count": len(games),
+        "free_games": games,
+        "discounted_games": [],
+        "update_time": utc_now().isoformat(timespec="seconds").replace("+00:00", "Z"),
+        "source": "Epic Games Store",
+    })
+    print(f"✅ تم حفظ {len(games)} عرض Epic نشط بخصم 100%")
+    return 0
+
 
 if __name__ == "__main__":
     raise SystemExit(main())

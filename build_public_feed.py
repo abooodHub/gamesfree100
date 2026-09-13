@@ -6,6 +6,7 @@ import datetime
 import hashlib
 import json
 import os
+import re
 import sys
 import tempfile
 from pathlib import Path
@@ -66,7 +67,7 @@ def normalize_game(raw: Any, store: str) -> dict[str, Any] | None:
     title = str(raw[0] or "").strip()
     store_url = canonical_store_url(raw[1], store)
     discount_label = str(raw[6] or "").strip()
-    if not title or not store_url or "100%" not in discount_label:
+    if not title or not store_url or not re.search(r"(?<!\d)100%(?!\d)", discount_label):
         return None
     if "Coming Soon" in discount_label or "مجاني دائماً" in discount_label:
         return None

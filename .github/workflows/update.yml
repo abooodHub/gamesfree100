@@ -36,10 +36,22 @@ jobs:
         run: |
           node --check script.js
 
-      - name: Run scripts
+      - name: Fetch Steam deals
+        id: steam
+        continue-on-error: true
+        run: python steam.py
+
+      - name: Fetch Epic deals
+        id: epic
+        continue-on-error: true
+        run: python epic.py
+
+      - name: Require at least one available store
+        if: steps.steam.outcome == 'failure' && steps.epic.outcome == 'failure'
+        run: exit 1
+
+      - name: Build data files
         run: |
-          python steam.py
-          python epic.py
           python build_public_feed.py
           python update_timestamp.py
 

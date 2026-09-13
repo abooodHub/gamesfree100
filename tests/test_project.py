@@ -3,10 +3,13 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 from bs4 import BeautifulSoup
 
 import build_public_feed
+import epic
+import steam
 import update_timestamp
 
 
@@ -64,6 +67,12 @@ class DataValidationTests(unittest.TestCase):
         self.assertEqual(first, "https://store.steampowered.com/app/123/Game/")
         self.assertEqual(first, second)
 
+    def test_discount_label_must_be_exactly_100_percent(self):
+        row = ["Game", "https://store.steampowered.com/app/123/Game/", "", "", "$10", "$0", "1100%", None]
+        self.assertIsNone(build_public_feed.normalize_game(row, "steam"))
+        row[6] = "خصم 100% - مجاني"
+        self.assertIsNotNone(build_public_feed.normalize_game(row, "steam"))
+
     def test_unchanged_catalog_does_not_rewrite_feed(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             target = Path(temp_dir) / "deals.json"
@@ -109,6 +118,12 @@ class FrontendStructureTests(unittest.TestCase):
     def test_frontend_does_not_expire_steam_deals_by_feed_age(self):
         self.assertNotIn("STEAM_MISSING_END_MAX_AGE_MS", self.script)
 
+    def test_frontend_accepts_only_100_percent_deals(self):
+        self.assertIn("rawDeal.discount_percent !== 100", self.script)
+
+    def test_frontend_loads_on_project_subpaths(self):
+        self.assertIn("Boolean(document.getElementById('gamesGrid'))", self.script)
+
 
 class WorkflowStructureTests(unittest.TestCase):
     def test_update_workflow_commits_only_catalog_changes(self):
@@ -117,12 +132,62 @@ class WorkflowStructureTests(unittest.TestCase):
         self.assertIn("No catalog changes; skipping commit", workflow)
         self.assertNotIn("git add .", workflow)
 
+    def test_store_collectors_run_independently(self):
+        workflow = (ROOT / ".github" / "workflows" / "update.yml").read_text(encoding="utf-8")
+        self.assertIn("id: steam", workflow)
+        self.assertIn("id: epic", workflow)
+        self.assertEqual(workflow.count("continue-on-error: true"), 2)
+        self.assertIn("steps.steam.outcome == 'failure' && steps.epic.outcome == 'failure'", workflow)
+
     def test_ci_runs_without_store_scrapers(self):
         workflow = (ROOT / ".github" / "workflows" / "ci.yml").read_text(encoding="utf-8")
         self.assertIn("pull_request:", workflow)
         self.assertIn("python -m unittest", workflow)
         self.assertNotIn("python steam.py", workflow)
         self.assertNotIn("python epic.py", workflow)
+
+
+class CollectorTests(unittest.TestCase):
+    def test_steam_row_requires_exact_100_percent_discount(self):
+        html = '''
+        <a class="search_result_row" href="https://store.steampowered.com/app/123/Game/?snr=test">
+          <span class="title">Game</span>
+          <div class="search_discount_block" data-discount="100">
+            <div class="discount_original_price">$10</div>
+            <div class="discount_final_price">Free</div>
+          </div>
+        </a>'''
+        row = BeautifulSoup(html, "html.parser").select_one("a")
+        parsed = steam.parse_search_row(row)
+        self.assertEqual(parsed["appid"], "123")
+        self.assertEqual(parsed["url"], "https://store.steampowered.com/app/123/Game/")
+        row.select_one(".search_discount_block")["data-discount"] = "90"
+        self.assertIsNone(steam.parse_search_row(row))
+
+    def test_steam_permanent_free_game_is_not_an_active_discount(self):
+        with patch.object(steam, "fetch_app_details", return_value={"type": "game", "is_free": True}):
+            self.assertEqual(steam.discount_status("123"), steam.EXPIRED)
+        active = {"type": "game", "is_free": False, "price_overview": {"discount_percent": 100, "final": 0}}
+        with patch.object(steam, "fetch_app_details", return_value=active):
+            self.assertEqual(steam.discount_status("123"), steam.ACTIVE)
+
+    def test_epic_uses_current_promotion_only(self):
+        now = datetime.datetime(2026, 9, 13, 12, tzinfo=datetime.timezone.utc)
+        promotion = {
+            "startDate": "2026-09-12T00:00:00Z",
+            "endDate": "2026-09-14T00:00:00Z",
+            "discountSetting": {"discountType": "PERCENTAGE", "discountPercentage": 0},
+        }
+        game = {
+            "price": {"totalPrice": {"originalPrice": 1000, "discountPrice": 0}},
+            "promotions": {"promotionalOffers": [{"promotionalOffers": [promotion]}]},
+        }
+        self.assertEqual(epic.active_free_end(game, now), "2026-09-14T00:00:00Z")
+        promotion["startDate"] = "2026-09-14T00:00:00Z"
+        self.assertIsNone(epic.active_free_end(game, now))
+        promotion["startDate"] = "2026-09-12T00:00:00Z"
+        game["price"]["totalPrice"]["originalPrice"] = 0
+        self.assertIsNone(epic.active_free_end(game, now))
 
 
 if __name__ == "__main__":
