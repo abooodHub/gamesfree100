@@ -22,7 +22,7 @@ const storeNames = {
         noGames: 'لا توجد عروض بخصم 100% حالياً', loading: 'جاري تحميل العروض...',
         loadError: 'تعذر تحميل بيانات الألعاب. تحقق من الاتصال ثم حاول مجدداً.',
         partialError: stores => `تعذر تحديث: ${stores}. يتم عرض البيانات المتاحة.`,
-        retry: 'إعادة المحاولة', endsIn: 'ينتهي خلال', daysLeft: 'يوم', hoursLeft: 'ساعة',
+        retry: 'إعادة المحاولة', endsIn: 'ينتهي خلال', daysLeft: 'يوم', hoursLeft: 'ساعة', minutesLeft: 'دقيقة',
         currentPrice: 'السعر الحالي', originalPrice: 'السعر الأصلي', discountedPrice: 'السعر بعد الخصم',
         home: 'الرئيسية', skip: 'تخطي إلى قائمة الألعاب', theme: 'تغيير المظهر',
         language: 'Switch to English', gamesLabel: 'قائمة عروض خصم 100%',
@@ -36,7 +36,7 @@ const storeNames = {
         noGames: 'No 100% off deals are available now', loading: 'Loading offers...',
         loadError: 'Could not load game data. Check your connection and try again.',
         partialError: stores => `Could not refresh: ${stores}. Showing available data.`,
-        retry: 'Try again', endsIn: 'Ends in', daysLeft: 'days', hoursLeft: 'hours',
+        retry: 'Try again', endsIn: 'Ends in', daysLeft: 'days', hoursLeft: 'hours', minutesLeft: 'minutes',
         currentPrice: 'Current price', originalPrice: 'Original price', discountedPrice: 'Discounted price',
         home: 'Home', skip: 'Skip to the games list', theme: 'Change theme',
         language: 'التبديل إلى العربية', gamesLabel: '100% off deals list',
@@ -195,7 +195,7 @@ function setupExpiredGamesCheck() {
         if (allGames.length !== previousCount) {
             renderGames();
             updateHomeCount();
-        }
+        } else updateDealCountdowns();
     }, EXPIRY_CHECK_MS);
 }
 
@@ -279,16 +279,46 @@ function appendPriceInfo(card, game) {
     card.appendChild(priceInfo);
 }
 
+function formatTimeLeft(timeLeft) {
+    const totalMinutes = Math.max(1, Math.ceil(timeLeft / 60000));
+    const days = Math.floor(totalMinutes / 1440);
+    const hours = Math.floor((totalMinutes % 1440) / 60);
+    const minutes = totalMinutes % 60;
+    const parts = [];
+    if (days) parts.push(`${days} ${storeNames[lang].daysLeft}`);
+    if (hours) parts.push(`${hours} ${storeNames[lang].hoursLeft}`);
+    if (minutes || !parts.length) parts.push(`${minutes} ${storeNames[lang].minutesLeft}`);
+    return parts.join(lang === 'ar' ? ' و' : ', ');
+}
+
+function updateCountdownElement(element) {
+    const endDate = parseDateTime(element.getAttribute('datetime') || '', 'Z');
+    if (!endDate) return;
+    const timeLeft = endDate.getTime() - Date.now();
+    if (timeLeft > 0) element.textContent = formatTimeLeft(timeLeft);
+}
+
+function updateDealCountdowns() {
+    document.querySelectorAll('time.end-date-value[datetime]').forEach(updateCountdownElement);
+}
+
 function appendEndDate(card, game) {
     const endDate = parseDateTime(game.endAt || '', 'Z');
     if (!endDate) return;
     const timeLeft = endDate.getTime() - Date.now();
     if (timeLeft <= 0) return;
-    const hours = Math.max(1, Math.ceil(timeLeft / (60 * 60 * 1000)));
-    const value = hours < 24 ? `${hours} ${storeNames[lang].hoursLeft}` : `${Math.ceil(hours / 24)} ${storeNames[lang].daysLeft}`;
     const wrapper = createElement('div', { className: 'end-date-info' });
     wrapper.appendChild(createElement('span', { className: 'end-date-label', text: `${storeNames[lang].endsIn}: ` }));
-    wrapper.appendChild(createElement('span', { className: 'end-date-value', text: value }));
+    wrapper.appendChild(createElement('time', {
+        className: 'end-date-value',
+        text: formatTimeLeft(timeLeft),
+        attrs: {
+            datetime: game.endAt,
+            title: endDate.toLocaleString(lang === 'ar' ? 'ar-SA' : 'en-US', {
+                dateStyle: 'medium', timeStyle: 'short'
+            })
+        }
+    }));
     card.appendChild(wrapper);
 }
 

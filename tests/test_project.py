@@ -45,6 +45,9 @@ class DataValidationTests(unittest.TestCase):
             self.assertIn(deal["store"], {"steam", "epic"})
             self.assertTrue(deal["url"].startswith("https://"))
             self.assertEqual(deal["discount_percent"], 100)
+            self.assertIsNotNone(deal["end_at"])
+            end_at = datetime.datetime.fromisoformat(deal["end_at"].replace("Z", "+00:00"))
+            self.assertIsNotNone(end_at.tzinfo)
 
     def test_catalog_comparison_ignores_volatile_metadata(self):
         deals = [{"id": "steam-1", "title": "Example"}]
@@ -123,6 +126,11 @@ class FrontendStructureTests(unittest.TestCase):
 
     def test_frontend_loads_on_project_subpaths(self):
         self.assertIn("Boolean(document.getElementById('gamesGrid'))", self.script)
+
+    def test_each_card_gets_a_live_countdown(self):
+        self.assertIn("time.end-date-value[datetime]", self.script)
+        self.assertIn("updateDealCountdowns()", self.script)
+        self.assertIn("minutesLeft", self.script)
 
 
 class WorkflowStructureTests(unittest.TestCase):
