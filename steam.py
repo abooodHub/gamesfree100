@@ -144,7 +144,7 @@ def fetch_storefront(appid: str) -> str | None:
         response = make_session().get(
             f"https://store.steampowered.com/app/{appid}/",
             params={"cc": "us", "l": "english"},
-            headers=HEADERS,
+            headers={**HEADERS, "Cookie": "timezoneOffset=0,0"},
             timeout=20,
         )
         response.raise_for_status()
@@ -190,6 +190,48 @@ def storefront_has_temporary_giveaway(html: str) -> bool:
     return False
 
 
+def parse_storefront_giveaway_end(
+    html: str, now: datetime.datetime | None = None
+) -> str | None:
+    """Parse Steam's English free-to-keep deadline as UTC.
+
+    ``fetch_storefront`` pins Steam's display timezone to UTC. Steam omits the
+    year in this label, so an already-passed month/day belongs to the next year.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    for purchase in soup.select(".game_area_purchase_game"):
+        if not storefront_has_temporary_giveaway(str(purchase)):
+            continue
+        notice = purchase.select_one(".game_purchase_discount_quantity")
+        match = re.search(
+            r"free to keep.+?before\s+([a-z]{3,9})\s+(\d{1,2})\s*@\s*"
+            r"(\d{1,2}):(\d{2})\s*(am|pm)",
+            notice.get_text(" ", strip=True),
+            flags=re.IGNORECASE,
+        )
+        if not match:
+            continue
+        try:
+            month = datetime.datetime.strptime(match.group(1)[:3], "%b").month
+            day, hour, minute = map(int, match.group(2, 3, 4))
+            meridiem = match.group(5).casefold()
+            hour = hour % 12 + (12 if meridiem == "pm" else 0)
+            current = now or datetime.datetime.now(datetime.timezone.utc)
+            if current.tzinfo is None:
+                current = current.replace(tzinfo=datetime.timezone.utc)
+            else:
+                current = current.astimezone(datetime.timezone.utc)
+            end = datetime.datetime(
+                current.year, month, day, hour, minute, tzinfo=datetime.timezone.utc
+            )
+            if end <= current:
+                end = end.replace(year=current.year + 1)
+            return end.isoformat(timespec="seconds").replace("+00:00", "Z")
+        except ValueError:
+            continue
+    return None
+
+
 def discount_status(appid: str) -> str:
     """Return ACTIVE only for a game with an exact 100% temporary discount."""
     data = fetch_app_details(appid)
@@ -216,7 +258,7 @@ def fetch_discount_end(appid: str) -> str | None:
         return None
     match = re.search(r'"discount_expiration"\s*:\s*(\d+)', html)
     if not match:
-        return None
+        return parse_storefront_giveaway_end(html)
     try:
         timestamp = int(match.group(1))
         if timestamp > 10**12:

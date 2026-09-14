@@ -176,6 +176,13 @@ class CollectorTests(unittest.TestCase):
           <div class="discount_final_price">$0.00</div>
         </div>'''
         self.assertTrue(steam.storefront_has_temporary_giveaway(giveaway_html))
+        self.assertEqual(
+            steam.parse_storefront_giveaway_end(
+                giveaway_html,
+                datetime.datetime(2026, 9, 14, tzinfo=datetime.timezone.utc),
+            ),
+            "2026-09-21T23:59:00Z",
+        )
         self.assertFalse(steam.storefront_has_temporary_giveaway(
             '<div class="game_area_purchase_game"><div>Free To Play</div></div>'
         ))
