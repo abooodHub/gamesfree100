@@ -139,20 +139,7 @@ def fetch_app_details(appid: str) -> dict[str, Any] | None:
         return None
 
 
-def discount_status(appid: str) -> str:
-    """Return ACTIVE only for a game with an exact 100% temporary discount."""
-    data = fetch_app_details(appid)
-    if data is None:
-        return UNKNOWN
-    if data.get("type") != "game" or data.get("is_free") is True:
-        return EXPIRED
-    price = data.get("price_overview")
-    if not isinstance(price, dict):
-        return EXPIRED
-    return ACTIVE if price.get("discount_percent") == 100 and price.get("final") == 0 else EXPIRED
-
-
-def fetch_discount_end(appid: str) -> str | None:
+def fetch_storefront(appid: str) -> str | None:
     try:
         response = make_session().get(
             f"https://store.steampowered.com/app/{appid}/",
@@ -161,16 +148,83 @@ def fetch_discount_end(appid: str) -> str | None:
             timeout=20,
         )
         response.raise_for_status()
-        match = re.search(r'"discount_expiration"\s*:\s*(\d+)', response.text)
-        if not match:
-            return None
+        return response.text
+    except requests.RequestException:
+        return None
+
+
+def storefront_has_temporary_giveaway(html: str) -> bool:
+    """Recognize Steam's temporary free-to-keep purchase block.
+
+    Steam sets ``is_free`` to true in appdetails during some limited giveaways,
+    exactly as it does for permanently free games. The storefront purchase
+    block carries the information needed to distinguish the two cases.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    for purchase in soup.select(".game_area_purchase_game"):
+        license_form = purchase.select_one(
+            'form[action*="/freelicense/addfreelicense/"]'
+        )
+        notice = purchase.select_one(".game_purchase_discount_quantity")
+        percent = purchase.select_one(".discount_pct")
+        original = purchase.select_one(".discount_original_price")
+        final = purchase.select_one(".discount_final_price")
+        if not all((license_form, notice, percent, original, final)):
+            continue
+
+        notice_text = notice.get_text(" ", strip=True).casefold()
+        percent_text = re.sub(r"\s+", "", percent.get_text(" ", strip=True))
+        original_text = original.get_text(" ", strip=True)
+        final_text = final.get_text(" ", strip=True).casefold()
+        is_zero = "free" in final_text or bool(
+            re.fullmatch(r"[$€£]?\s*0(?:[.,]00)?", final_text)
+        )
+        if (
+            "free to keep" in notice_text
+            and "before" in notice_text
+            and percent_text == "-100%"
+            and re.search(r"[1-9]", original_text)
+            and is_zero
+        ):
+            return True
+    return False
+
+
+def discount_status(appid: str) -> str:
+    """Return ACTIVE only for a game with an exact 100% temporary discount."""
+    data = fetch_app_details(appid)
+    if data is not None and data.get("type") != "game":
+        return EXPIRED
+    if data is not None:
+        price = data.get("price_overview")
+        if (
+            isinstance(price, dict)
+            and price.get("discount_percent") == 100
+            and price.get("final") == 0
+        ):
+            return ACTIVE
+
+    storefront = fetch_storefront(appid)
+    if storefront is None:
+        return UNKNOWN
+    return ACTIVE if storefront_has_temporary_giveaway(storefront) else EXPIRED
+
+
+def fetch_discount_end(appid: str) -> str | None:
+    html = fetch_storefront(appid)
+    if html is None:
+        return None
+    match = re.search(r'"discount_expiration"\s*:\s*(\d+)', html)
+    if not match:
+        return None
+    try:
         timestamp = int(match.group(1))
         if timestamp > 10**12:
             timestamp //= 1000
         return datetime.datetime.fromtimestamp(timestamp, datetime.timezone.utc).isoformat(
             timespec="seconds"
         ).replace("+00:00", "Z")
-    except (requests.RequestException, OSError, ValueError):
+    except (OSError, ValueError):
         return None
 
 

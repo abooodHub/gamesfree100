@@ -1,6 +1,17 @@
 {
-  "total_count": 0,
+  "total_count": 1,
   "free_games": [],
-  "discounted_games": [],
-  "update_time": "2026-09-12T21:28:25Z"
+  "discounted_games": [
+    [
+      "Crystal Crisis",
+      "https://store.steampowered.com/app/447700/Crystal_Crisis/",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/447700/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/447700/capsule_616x353.jpg",
+      "$19.99",
+      "$0.00",
+      "100%",
+      null
+    ]
+  ],
+  "update_time": "2026-09-14T11:19:35Z"
 }

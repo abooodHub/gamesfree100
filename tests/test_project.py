@@ -164,9 +164,32 @@ class CollectorTests(unittest.TestCase):
         row.select_one(".search_discount_block")["data-discount"] = "90"
         self.assertIsNone(steam.parse_search_row(row))
 
-    def test_steam_permanent_free_game_is_not_an_active_discount(self):
-        with patch.object(steam, "fetch_app_details", return_value={"type": "game", "is_free": True}):
+    def test_steam_distinguishes_temporary_giveaway_from_permanent_free(self):
+        giveaway_html = '''
+        <div class="game_area_purchase_game">
+          <form action="https://store.steampowered.com/freelicense/addfreelicense/"></form>
+          <p class="game_purchase_discount_quantity">
+            Free to keep when you get it before Sep 21 @ 11:59pm.
+          </p>
+          <div class="discount_pct">-100%</div>
+          <div class="discount_original_price">$19.99</div>
+          <div class="discount_final_price">$0.00</div>
+        </div>'''
+        self.assertTrue(steam.storefront_has_temporary_giveaway(giveaway_html))
+        self.assertFalse(steam.storefront_has_temporary_giveaway(
+            '<div class="game_area_purchase_game"><div>Free To Play</div></div>'
+        ))
+
+        details = {"type": "game", "is_free": True}
+        with patch.object(steam, "fetch_app_details", return_value=details), patch.object(
+            steam, "fetch_storefront", return_value=giveaway_html
+        ):
+            self.assertEqual(steam.discount_status("123"), steam.ACTIVE)
+        with patch.object(steam, "fetch_app_details", return_value=details), patch.object(
+            steam, "fetch_storefront", return_value="<html>Free To Play</html>"
+        ):
             self.assertEqual(steam.discount_status("123"), steam.EXPIRED)
+
         active = {"type": "game", "is_free": False, "price_overview": {"discount_percent": 100, "final": 0}}
         with patch.object(steam, "fetch_app_details", return_value=active):
             self.assertEqual(steam.discount_status("123"), steam.ACTIVE)
