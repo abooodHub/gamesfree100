@@ -203,18 +203,30 @@ def parse_storefront_giveaway_end(
         if not storefront_has_temporary_giveaway(str(purchase)):
             continue
         notice = purchase.select_one(".game_purchase_discount_quantity")
-        match = re.search(
-            r"free to keep.+?before\s+([a-z]{3,9})\s+(\d{1,2})\s*@\s*"
-            r"(\d{1,2}):(\d{2})\s*(am|pm)",
-            notice.get_text(" ", strip=True),
+        notice_text = notice.get_text(" ", strip=True)
+        month_first = re.search(
+            r"free to keep.+?before\s+(?P<month>[a-z]{3,9})\s+"
+            r"(?P<day>\d{1,2})\s*@\s*(?P<hour>\d{1,2}):"
+            r"(?P<minute>\d{2})\s*(?P<meridiem>am|pm)",
+            notice_text,
             flags=re.IGNORECASE,
         )
-        if not match:
+        day_first = re.search(
+            r"free to keep.+?before\s+(?P<day>\d{1,2})\s+"
+            r"(?P<month>[a-z]{3,9})\s*@\s*(?P<hour>\d{1,2}):"
+            r"(?P<minute>\d{2})\s*(?P<meridiem>am|pm)",
+            notice_text,
+            flags=re.IGNORECASE,
+        )
+        match = month_first or day_first
+        if match is None:
             continue
         try:
-            month = datetime.datetime.strptime(match.group(1)[:3], "%b").month
-            day, hour, minute = map(int, match.group(2, 3, 4))
-            meridiem = match.group(5).casefold()
+            month = datetime.datetime.strptime(match.group("month")[:3], "%b").month
+            day = int(match.group("day"))
+            hour = int(match.group("hour"))
+            minute = int(match.group("minute"))
+            meridiem = match.group("meridiem").casefold()
             hour = hour % 12 + (12 if meridiem == "pm" else 0)
             current = now or datetime.datetime.now(datetime.timezone.utc)
             if current.tzinfo is None:

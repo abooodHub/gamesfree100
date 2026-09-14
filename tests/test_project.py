@@ -183,6 +183,16 @@ class CollectorTests(unittest.TestCase):
             ),
             "2026-09-21T23:59:00Z",
         )
+        day_first_html = giveaway_html.replace(
+            "Sep 21 @ 11:59pm", "22 Sep @ 9:59am"
+        )
+        self.assertEqual(
+            steam.parse_storefront_giveaway_end(
+                day_first_html,
+                datetime.datetime(2026, 9, 14, tzinfo=datetime.timezone.utc),
+            ),
+            "2026-09-22T09:59:00Z",
+        )
         self.assertFalse(steam.storefront_has_temporary_giveaway(
             '<div class="game_area_purchase_game"><div>Free To Play</div></div>'
         ))
