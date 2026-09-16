@@ -1,5 +1,5 @@
 {
-  "total_count": 1,
+  "total_count": 2,
   "free_games": [],
   "discounted_games": [
     [
@@ -11,7 +11,17 @@
       "$0.00",
       "100%",
       "2026-09-22T06:59:00Z"
+    ],
+    [
+      "Space Menace",
+      "https://store.steampowered.com/app/2000040/Space_Menace/",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2000040/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2000040/capsule_616x353.jpg",
+      "$6.99",
+      "$0.00",
+      "100%",
+      "2026-09-23T17:00:00Z"
     ]
   ],
-  "update_time": "2026-09-14T12:46:35Z"
+  "update_time": "2026-09-16T21:06:45Z"
 }
