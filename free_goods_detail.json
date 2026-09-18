@@ -1,5 +1,5 @@
 {
-  "total_count": 2,
+  "total_count": 3,
   "free_games": [],
   "discounted_games": [
     [
@@ -13,6 +13,16 @@
       "2026-09-22T06:59:00Z"
     ],
     [
+      "Deadshot",
+      "https://store.steampowered.com/app/2484180/Deadshot/",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2484180/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2484180/capsule_616x353.jpg",
+      "$4.99",
+      "$0.00",
+      "100%",
+      "2026-09-23T17:00:00Z"
+    ],
+    [
       "Space Menace",
       "https://store.steampowered.com/app/2000040/Space_Menace/",
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2000040/header.jpg",
@@ -23,5 +33,5 @@
       "2026-09-23T17:00:00Z"
     ]
   ],
-  "update_time": "2026-09-17T16:38:50Z"
+  "update_time": "2026-09-18T20:41:38Z"
 }
