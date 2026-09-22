@@ -1,17 +1,7 @@
 {
-  "total_count": 3,
+  "total_count": 2,
   "free_games": [],
   "discounted_games": [
-    [
-      "Crystal Crisis",
-      "https://store.steampowered.com/app/447700/Crystal_Crisis/",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/447700/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/447700/capsule_616x353.jpg",
-      "$19.99",
-      "$0.00",
-      "100%",
-      "2026-09-22T06:59:00Z"
-    ],
     [
       "Deadshot",
       "https://store.steampowered.com/app/2484180/Deadshot/",
@@ -33,5 +23,5 @@
       "2026-09-23T17:00:00Z"
     ]
   ],
-  "update_time": "2026-09-18T20:41:38Z"
+  "update_time": "2026-09-22T11:17:42Z"
 }
