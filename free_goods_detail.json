@@ -1,6 +1,17 @@
 {
-  "total_count": 0,
+  "total_count": 1,
   "free_games": [],
-  "discounted_games": [],
-  "update_time": "2026-10-01T22:31:17Z"
+  "discounted_games": [
+    [
+      "Pony Island",
+      "https://store.steampowered.com/app/405640/Pony_Island/",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/405640/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/405640/capsule_616x353.jpg",
+      "$4.99",
+      "$0.00",
+      "100%",
+      "2026-10-12T17:00:00Z"
+    ]
+  ],
+  "update_time": "2026-10-08T23:08:48Z"
 }
