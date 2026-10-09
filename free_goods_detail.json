@@ -1,7 +1,17 @@
 {
-  "total_count": 1,
+  "total_count": 2,
   "free_games": [],
   "discounted_games": [
+    [
+      "Fireside Feelings",
+      "https://store.steampowered.com/app/2990600/Fireside_Feelings/",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2990600/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/2990600/capsule_616x353.jpg",
+      "$7.99",
+      "$0.00",
+      "100%",
+      "2026-10-12T17:00:00Z"
+    ],
     [
       "Pony Island",
       "https://store.steampowered.com/app/405640/Pony_Island/",
@@ -13,5 +23,5 @@
       "2026-10-12T17:00:00Z"
     ]
   ],
-  "update_time": "2026-10-08T23:08:48Z"
+  "update_time": "2026-10-09T22:28:09Z"
 }
