@@ -1,14 +1,14 @@
 {
-  "last_attempt": "2026-10-28T22:24:05Z",
-  "last_update": "2026-10-28T22:24:05Z",
+  "last_attempt": "2026-10-29T22:37:01Z",
+  "last_update": "2026-10-29T22:36:59Z",
   "sources": {
     "steam": {
       "name": "steam",
       "file": "free_goods_detail.json",
-      "total_count": 0,
+      "total_count": 1,
       "free_count": 0,
-      "discounted_count": 0,
-      "last_success": "2026-10-28T22:24:04Z",
+      "discounted_count": 1,
+      "last_success": "2026-10-29T22:36:59Z",
       "status": "ok"
     },
     "epic": {
