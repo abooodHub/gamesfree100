@@ -1,7 +1,17 @@
 {
-  "total_count": 1,
+  "total_count": 2,
   "free_games": [],
   "discounted_games": [
+    [
+      "Asleep: Act 1",
+      "https://store.steampowered.com/app/1583850/Asleep_Act_1/",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1583850/header.jpg",
+      "https://cdn.cloudflare.steamstatic.com/steam/apps/1583850/capsule_616x353.jpg",
+      "$9.99",
+      "$0.00",
+      "100%",
+      "2026-11-02T18:00:00Z"
+    ],
     [
       "Hexologic",
       "https://store.steampowered.com/app/785890/Hexologic/",
@@ -13,5 +23,5 @@
       "2026-10-31T17:00:00Z"
     ]
   ],
-  "update_time": "2026-10-30T05:11:44Z"
+  "update_time": "2026-10-30T22:05:52Z"
 }
