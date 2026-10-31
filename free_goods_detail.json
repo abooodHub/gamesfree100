@@ -1,5 +1,5 @@
 {
-  "total_count": 2,
+  "total_count": 1,
   "free_games": [],
   "discounted_games": [
     [
@@ -11,17 +11,7 @@
       "$0.00",
       "100%",
       "2026-11-02T18:00:00Z"
-    ],
-    [
-      "Hexologic",
-      "https://store.steampowered.com/app/785890/Hexologic/",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/785890/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/785890/capsule_616x353.jpg",
-      "$4.99",
-      "$0.00",
-      "100%",
-      "2026-10-31T17:00:00Z"
     ]
   ],
-  "update_time": "2026-10-30T22:05:52Z"
+  "update_time": "2026-10-31T17:11:34Z"
 }
