@@ -1,17 +1,6 @@
 {
-  "total_count": 1,
+  "total_count": 0,
   "free_games": [],
-  "discounted_games": [
-    [
-      "Asleep: Act 1",
-      "https://store.steampowered.com/app/1583850/Asleep_Act_1/",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/1583850/header.jpg",
-      "https://cdn.cloudflare.steamstatic.com/steam/apps/1583850/capsule_616x353.jpg",
-      "$9.99",
-      "$0.00",
-      "100%",
-      "2026-11-02T18:00:00Z"
-    ]
-  ],
-  "update_time": "2026-10-31T17:11:34Z"
+  "discounted_games": [],
+  "update_time": "2026-11-03T00:47:10Z"
 }
