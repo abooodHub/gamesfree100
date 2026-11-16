@@ -1,13 +1,12 @@
 // بيانات المتاجر والحالة العامة
-const gamesData = { steam: null, epic: null };
 let allGames = [];
 let lang = 'ar';
 let tab = 'all';
 let theme = safeStorageGet('games100_theme') || 'dark';
-let hasLoadedData = false;
-let refreshIntervalId = null;
-let expiryIntervalId = null;
-let countdownId = null;
+let feed = null;
+let loadFailed = false;
+let loading = false;
+let expiryTimer = null;
 
 const themes = ['dark', 'light', 'ocean', 'violet'];
 const DATA_REFRESH_MS = 6 * 60 * 60 * 1000;
@@ -18,10 +17,11 @@ const storeNames = {
         steam: 'ستيم', epic: 'إيبك', all: 'الكل',
         shop: 'رابط الحصول على العرض',
         shopFor: (title, store) => `احصل على ${title} من ${store}`,
-        update: 'آخر تحديث', nextUpdate: 'التحديث القادم خلال',
+        update: 'آخر تغيير للعروض', free: 'مجاني',
         noGames: 'لا توجد عروض بخصم 100% حالياً', loading: 'جاري تحميل العروض...',
         loadError: 'تعذر تحميل بيانات الألعاب. تحقق من الاتصال ثم حاول مجدداً.',
-        partialError: stores => `تعذر تحديث: ${stores}. يتم عرض البيانات المتاحة.`,
+        partialError: stores => `تعذر التحقق من كل العروض في ${stores}. تُعرض البيانات المتاحة.`,
+        refreshError: 'تعذر تحديث البيانات. تُعرض العروض المتاحة من آخر تحميل.',
         retry: 'إعادة المحاولة', endsIn: 'ينتهي خلال', daysLeft: 'يوم', hoursLeft: 'ساعة', minutesLeft: 'دقيقة',
         currentPrice: 'السعر الحالي', originalPrice: 'السعر الأصلي', discountedPrice: 'السعر بعد الخصم',
         home: 'الرئيسية', skip: 'تخطي إلى قائمة الألعاب', theme: 'تغيير المظهر',
@@ -32,10 +32,11 @@ const storeNames = {
         steam: 'Steam', epic: 'Epic', all: 'All',
         shop: 'Get this offer',
         shopFor: (title, store) => `Get ${title} from ${store}`,
-        update: 'Last update', nextUpdate: 'Next update in',
+        update: 'Offers last changed', free: 'Free',
         noGames: 'No 100% off deals are available now', loading: 'Loading offers...',
         loadError: 'Could not load game data. Check your connection and try again.',
-        partialError: stores => `Could not refresh: ${stores}. Showing available data.`,
+        partialError: stores => `Some offers from ${stores} could not be verified. Showing available data.`,
+        refreshError: 'Could not refresh. Showing available offers from the last load.',
         retry: 'Try again', endsIn: 'Ends in', daysLeft: 'days', hoursLeft: 'hours', minutesLeft: 'minutes',
         currentPrice: 'Current price', originalPrice: 'Original price', discountedPrice: 'Discounted price',
         home: 'Home', skip: 'Skip to the games list', theme: 'Change theme',
@@ -66,8 +67,7 @@ function loadInitialState() {
 
 function syncUrlState() {
     const url = new URL(window.location.href);
-    if (lang === 'ar') url.searchParams.delete('lang');
-    else url.searchParams.set('lang', lang);
+    url.searchParams.set('lang', lang);
     if (tab === 'all') url.searchParams.delete('tab');
     else url.searchParams.set('tab', tab);
     window.history.replaceState({}, '', `${url.pathname}${url.search}${url.hash}`);
@@ -87,9 +87,11 @@ function createElement(tag, options = {}) {
 
 function safeHttpsUrl(value) {
     if (typeof value !== 'string' || !value.trim()) return null;
+    const text = value.trim();
+    if (!/^https:\/\//i.test(text) || /[\s\\]/.test(text)) return null;
     try {
-        const url = new URL(value, window.location.origin);
-        return url.protocol === 'https:' ? url.href : null;
+        const url = new URL(text);
+        return url.protocol === 'https:' && !url.username && !url.password && !url.port ? url.href : null;
     } catch { return null; }
 }
 
@@ -104,22 +106,17 @@ function safeStoreUrl(value, store) {
     return allowedHosts[store].has(url.hostname.toLowerCase()) ? url.href : null;
 }
 
-function parseDateTime(value, legacyOffset = 'Z') {
+function parseDateTime(value) {
     if (!value || typeof value !== 'string') return null;
     const text = value.trim();
     let normalized = text;
-    if (/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$/.test(text)) normalized = `${text.replace(' ', 'T')}${legacyOffset}`;
-    else if (/^\d{4}-\d{2}-\d{2}$/.test(text)) normalized = `${text}T00:00:00${legacyOffset}`;
+    if (/^\d{4}-\d{2}-\d{2}[ T]\d{2}:\d{2}:\d{2}$/.test(text)) normalized = `${text.replace(' ', 'T')}Z`;
     const parsed = new Date(normalized);
     return Number.isNaN(parsed.getTime()) ? null : parsed;
 }
 
 function isGameExpired(game) {
-    if (game.endAt) {
-        const endDate = parseDateTime(game.endAt, 'Z');
-        return endDate ? endDate.getTime() <= Date.now() : false;
-    }
-    return false;
+    return game.endAt !== null && Date.parse(game.endAt) <= Date.now();
 }
 
 function normalizePublicDeal(rawDeal) {
@@ -127,8 +124,9 @@ function normalizePublicDeal(rawDeal) {
     if (!['steam', 'epic'].includes(rawDeal.store)) return null;
     if (rawDeal.discount_percent !== 100) return null;
     const title = String(rawDeal.title || '').trim();
-    const url = String(rawDeal.url || '').trim();
-    if (!title || !safeStoreUrl(url, rawDeal.store)) return null;
+    const url = safeStoreUrl(rawDeal.url, rawDeal.store);
+    const endAt = parseDateTime(rawDeal.end_at);
+    if (!title || !url || (!endAt && (rawDeal.end_at || rawDeal.store === 'epic'))) return null;
     return {
         title,
         url,
@@ -136,74 +134,87 @@ function normalizePublicDeal(rawDeal) {
         capsule: String(rawDeal.fallback_image || ''),
         originalPrice: String(rawDeal.original_price || ''),
         currentPrice: String(rawDeal.current_price || ''),
-        discount: String(rawDeal.discount_label || ''),
-        endAt: rawDeal.end_at ? String(rawDeal.end_at) : null,
+        endAt: endAt ? endAt.toISOString() : null,
         store: rawDeal.store
     };
 }
 
 async function loadPublicFeed() {
-    const response = await fetch('deals.json', { cache: 'no-cache' });
-    if (!response.ok) throw new Error(`deals.json: HTTP ${response.status}`);
-    const data = await response.json();
-    if (!data || data.schema_version !== 1 || !Array.isArray(data.deals) || !data.sources) {
-        throw new Error('deals.json: invalid data schema');
+    const controller = new AbortController();
+    const timeout = window.setTimeout(() => controller.abort(), 15000);
+    try {
+        const response = await fetch('deals.json', { cache: 'no-cache', signal: controller.signal });
+        if (!response.ok) throw new Error(`deals.json: HTTP ${response.status}`);
+        const data = await response.json();
+        if (!data || data.schema_version !== 1 || !Array.isArray(data.deals)
+            || data.total_count !== data.deals.length || !data.sources || typeof data.sources !== 'object') {
+            throw new Error('deals.json: invalid data schema');
+        }
+        return data;
+    } finally {
+        window.clearTimeout(timeout);
     }
-    return data;
 }
 
 async function fetchAllData() {
-    const hadExistingData = hasLoadedData;
-    setDataStatus('', 'info');
-    if (!hadExistingData) showLoading();
+    if (loading) return;
+    loading = true;
+    loadFailed = false;
+    if (!feed) showLoading();
 
     try {
-        const feed = await loadPublicFeed();
-        gamesData.steam = { update_time: feed.sources.steam && feed.sources.steam.last_success };
-        gamesData.epic = { update_time: feed.sources.epic && feed.sources.epic.last_success };
+        feed = await loadPublicFeed();
         allGames = feed.deals
             .map(normalizePublicDeal)
             .filter(Boolean)
             .filter(game => !isGameExpired(game));
-        hasLoadedData = true;
-        renderGames();
-        updateBar();
-        startUpdateCountdown();
-        updateHomeCount();
-        setDataStatus('', 'info');
-        if (!expiryIntervalId) setupExpiredGamesCheck();
     } catch (error) {
         console.error('Failed to load public deals feed:', error);
-        if (!hadExistingData) {
-            hasLoadedData = false;
-            renderLoadError();
-        }
-        setDataStatus(storeNames[lang].loadError, 'error');
+        loadFailed = true;
+    } finally {
+        loading = false;
+        renderData();
+        if (feed) checkExpiredGames();
     }
 }
 
-function setupAutoRefresh() {
-    if (refreshIntervalId) return;
-    refreshIntervalId = window.setInterval(fetchAllData, DATA_REFRESH_MS);
+function checkExpiredGames() {
+    window.clearTimeout(expiryTimer);
+    const previousCount = allGames.length;
+    allGames = allGames.filter(game => !isGameExpired(game));
+    if (allGames.length !== previousCount) {
+        renderGames();
+        updateHomeCount();
+    } else updateDealCountdowns();
+
+    const now = Date.now();
+    const nextCheck = allGames.reduce((delay, game) => game.endAt
+        ? Math.min(delay, Math.max(0, Date.parse(game.endAt) - now)) : delay, EXPIRY_CHECK_MS);
+    if (allGames.some(game => game.endAt)) expiryTimer = window.setTimeout(checkExpiredGames, nextCheck);
 }
 
-function setupExpiredGamesCheck() {
-    if (expiryIntervalId) return;
-    expiryIntervalId = window.setInterval(() => {
-        const previousCount = allGames.length;
-        allGames = allGames.filter(game => !isGameExpired(game));
-        if (allGames.length !== previousCount) {
-            renderGames();
-            updateHomeCount();
-        } else updateDealCountdowns();
-    }, EXPIRY_CHECK_MS);
+function renderData() {
+    const strings = storeNames[lang];
+    if (!feed) {
+        if (loadFailed) renderMessage(strings.loadError, true);
+        else if (loading) showLoading();
+        return;
+    }
+    const failedStores = ['steam', 'epic']
+        .filter(store => ['partial', 'failed'].includes(feed.sources[store]?.status))
+        .map(store => strings[store]);
+    const stores = new Intl.ListFormat(lang).format(failedStores);
+    const warning = loadFailed ? strings.refreshError : stores ? strings.partialError(stores) : '';
+    setDataStatus(warning);
+    renderGames();
+    updateBar();
+    updateHomeCount();
 }
 
-function setDataStatus(message, type) {
+function setDataStatus(message) {
     const status = document.getElementById('dataStatus');
     if (!status) return;
     status.textContent = message;
-    status.className = `data-status ${type || 'info'}`;
     status.hidden = !message;
 }
 
@@ -211,7 +222,7 @@ function renderMessage(message, withRetry = false) {
     const grid = document.getElementById('gamesGrid');
     grid.replaceChildren();
     const wrapper = createElement('div', { className: 'no-games' });
-    wrapper.appendChild(createElement('p', { text: message }));
+    wrapper.appendChild(createElement('p', { text: message, attrs: { role: 'status' } }));
     if (withRetry) {
         const retryButton = createElement('button', { className: 'retry-btn', text: storeNames[lang].retry, attrs: { type: 'button' } });
         retryButton.addEventListener('click', fetchAllData);
@@ -225,11 +236,9 @@ function showLoading() {
     grid.replaceChildren();
     const wrapper = createElement('div', { className: 'no-games' });
     wrapper.appendChild(createElement('div', { className: 'loading', attrs: { 'aria-hidden': 'true' } }));
-    wrapper.appendChild(createElement('p', { text: storeNames[lang].loading }));
+    wrapper.appendChild(createElement('p', { text: storeNames[lang].loading, attrs: { role: 'status' } }));
     grid.appendChild(wrapper);
 }
-
-function renderLoadError() { renderMessage(storeNames[lang].loadError, true); }
 
 function renderGames() {
     const grid = document.getElementById('gamesGrid');
@@ -245,32 +254,32 @@ function renderGames() {
 }
 
 function createGameImage(game, isFirstCard) {
-    const source = safeHttpsUrl(game.image);
+    const capsule = safeHttpsUrl(game.capsule);
+    const source = safeHttpsUrl(game.image) || capsule;
     if (!source) return createElement('div', { className: 'game-thumb game-thumb-placeholder' });
     const image = createElement('img', {
         className: 'game-thumb',
-        attrs: { src: source, alt: game.title, loading: isFirstCard ? 'eager' : 'lazy', decoding: 'async' }
+        attrs: { src: source, alt: '', loading: isFirstCard ? 'eager' : 'lazy', decoding: 'async' }
     });
     if (isFirstCard) image.setAttribute('fetchpriority', 'high');
-    const capsule = safeHttpsUrl(game.capsule);
     image.addEventListener('error', () => {
         if (capsule && image.src !== capsule) {
             image.src = capsule;
             return;
         }
-        image.replaceWith(createElement('div', { className: 'game-thumb game-thumb-placeholder', attrs: { 'aria-label': game.title } }));
+        image.replaceWith(createElement('div', { className: 'game-thumb game-thumb-placeholder' }));
     });
     return image;
 }
 
 function appendPriceInfo(card, game) {
     const original = game.originalPrice.trim();
-    const current = game.currentPrice.trim();
+    const current = /^free$/i.test(game.currentPrice.trim()) ? storeNames[lang].free : game.currentPrice.trim();
     if (!original && !current) return;
     const priceInfo = createElement('div', { className: 'price-info' });
     const appendPair = (label, value, valueClass) => {
         priceInfo.appendChild(createElement('span', { className: 'price-label', text: label }));
-        priceInfo.appendChild(createElement('span', { className: `price-value ${valueClass}`, text: value }));
+        priceInfo.appendChild(createElement('bdi', { className: `price-value ${valueClass}`, text: value }));
     };
     if (original && current && original !== current) {
         appendPair(storeNames[lang].originalPrice, original, 'old');
@@ -292,7 +301,7 @@ function formatTimeLeft(timeLeft) {
 }
 
 function updateCountdownElement(element) {
-    const endDate = parseDateTime(element.getAttribute('datetime') || '', 'Z');
+    const endDate = parseDateTime(element.getAttribute('datetime'));
     if (!endDate) return;
     const timeLeft = endDate.getTime() - Date.now();
     if (timeLeft > 0) element.textContent = formatTimeLeft(timeLeft);
@@ -303,7 +312,7 @@ function updateDealCountdowns() {
 }
 
 function appendEndDate(card, game) {
-    const endDate = parseDateTime(game.endAt || '', 'Z');
+    const endDate = parseDateTime(game.endAt);
     if (!endDate) return;
     const timeLeft = endDate.getTime() - Date.now();
     if (timeLeft <= 0) return;
@@ -333,9 +342,9 @@ function gameCard(game, index) {
         createElement('span', { text: storeNames[lang][game.store] })
     );
     card.appendChild(storeBadge);
-    if (game.discount) card.appendChild(createElement('div', { className: 'discount-badge', text: game.discount }));
+    card.appendChild(createElement('div', { className: 'discount-badge', text: '-100%', attrs: { dir: 'ltr' } }));
     card.appendChild(createGameImage(game, index === 0));
-    card.appendChild(createElement('h2', { className: 'game-title', text: game.title }));
+    card.appendChild(createElement('h2', { className: 'game-title', text: game.title, attrs: { dir: 'auto' } }));
     appendPriceInfo(card, game);
     appendEndDate(card, game);
 
@@ -350,47 +359,14 @@ function gameCard(game, index) {
     return card;
 }
 
-function getLatestUpdateTime() {
-    return Object.values(gamesData).map(data => data && data.update_time).filter(Boolean).sort().reverse()[0] || '';
-}
-
-function formatUpdateTime(value) {
-    const date = parseDateTime(value, '+03:00');
-    if (!date) return value;
-    return new Intl.DateTimeFormat(lang === 'ar' ? 'ar-SA' : 'en', {
-        dateStyle: 'medium',
-        timeStyle: 'short'
-    }).format(date);
-}
-
 function updateBar() {
     const bar = document.getElementById('updateBar');
-    if (!bar) return;
-    const lastUpdate = getLatestUpdateTime();
     bar.replaceChildren();
-    if (!lastUpdate) return;
-    bar.appendChild(document.createTextNode(`${storeNames[lang].update}: ${formatUpdateTime(lastUpdate)} • ${storeNames[lang].nextUpdate}: `));
-    bar.appendChild(createElement('span', { text: '--:--:--', attrs: { id: 'nextUpdateCountdown', 'aria-hidden': 'true' } }));
-}
-
-function startUpdateCountdown() {
-    if (countdownId) window.clearInterval(countdownId);
-    const updatedAt = parseDateTime(getLatestUpdateTime(), '+03:00');
-    if (!updatedAt) return;
-    const tick = () => {
-        const element = document.getElementById('nextUpdateCountdown');
-        if (!element) return;
-        const elapsed = Math.max(0, Date.now() - updatedAt.getTime());
-        let remaining = DATA_REFRESH_MS - (elapsed % DATA_REFRESH_MS);
-        if (!Number.isFinite(remaining) || remaining <= 0) remaining = DATA_REFRESH_MS;
-        const hours = Math.floor(remaining / 3600000);
-        const minutes = Math.floor((remaining % 3600000) / 60000);
-        const seconds = Math.floor((remaining % 60000) / 1000);
-        const pad = value => String(value).padStart(2, '0');
-        element.textContent = `${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
-    };
-    tick();
-    countdownId = window.setInterval(tick, 1000);
+    const date = parseDateTime(feed.generated_at);
+    if (!date) return;
+    const formatted = Intl.DateTimeFormat(lang, { dateStyle: 'medium', timeStyle: 'short' }).format(date);
+    bar.append(document.createTextNode(`${storeNames[lang].update}: `),
+        createElement('time', { text: formatted, attrs: { datetime: date.toISOString() } }));
 }
 
 function activateTab(nextTab, updateUrl = true) {
@@ -400,7 +376,7 @@ function activateTab(nextTab, updateUrl = true) {
         button.classList.toggle('active', active);
         button.setAttribute('aria-pressed', String(active));
     });
-    if (hasLoadedData) renderGames();
+    if (feed) renderGames();
     if (updateUrl) syncUrlState();
 }
 
@@ -448,11 +424,11 @@ function updateLanguageState() {
 function updateNavigation() {
     const skipLink = document.querySelector('.skip-link');
     const tabs = document.querySelector('.tabs');
-    const gamesGrid = document.getElementById('gamesGrid');
+    const main = document.getElementById('mainContent');
     const themeButton = document.getElementById('themeBtn');
     if (skipLink) skipLink.textContent = storeNames[lang].skip;
     if (tabs) tabs.setAttribute('aria-label', storeNames[lang].tabsLabel);
-    if (gamesGrid) gamesGrid.setAttribute('aria-label', storeNames[lang].gamesLabel);
+    if (main) main.setAttribute('aria-label', storeNames[lang].gamesLabel);
     if (themeButton) themeButton.setAttribute('aria-label', storeNames[lang].theme);
     updateHomeCount();
 }
@@ -460,7 +436,7 @@ function updateNavigation() {
 function updateHomeCount() {
     const link = document.querySelector('.header-nav .nav-link[href="index.html"]');
     if (!link) return;
-    const count = hasLoadedData ? allGames.length : 0;
+    const count = allGames.length;
     link.textContent = `🏠 ${storeNames[lang].home}${count ? ` (${count})` : ''}`;
 }
 
@@ -479,11 +455,7 @@ function updateInterface() {
     updateTabs();
     updateNavigation();
     updateFooterContent();
-    if (hasLoadedData) {
-        renderGames();
-        updateBar();
-        startUpdateCountdown();
-    }
+    renderData();
 }
 
 function applyTheme() {
@@ -512,7 +484,10 @@ function initApp() {
     const isHomePage = Boolean(document.getElementById('gamesGrid'));
     if (isHomePage) {
         fetchAllData();
-        setupAutoRefresh();
+        window.setInterval(fetchAllData, DATA_REFRESH_MS);
+        document.addEventListener('visibilitychange', () => {
+            if (!document.hidden && feed) checkExpiredGames();
+        });
     }
 }
 

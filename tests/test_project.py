@@ -3,7 +3,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
-from unittest.mock import patch
+from unittest.mock import Mock, patch
 
 from bs4 import BeautifulSoup
 
@@ -45,15 +45,16 @@ class DataValidationTests(unittest.TestCase):
             self.assertIn(deal["store"], {"steam", "epic"})
             self.assertTrue(deal["url"].startswith("https://"))
             self.assertEqual(deal["discount_percent"], 100)
-            self.assertIsNotNone(deal["end_at"])
-            end_at = datetime.datetime.fromisoformat(deal["end_at"].replace("Z", "+00:00"))
-            self.assertIsNotNone(end_at.tzinfo)
+            if deal["store"] == "epic" or deal["end_at"] is not None:
+                self.assertIsNotNone(deal["end_at"])
+                self.assertIsNotNone(datetime.datetime.fromisoformat(deal["end_at"]).tzinfo)
 
     def test_catalog_comparison_ignores_volatile_metadata(self):
         deals = [{"id": "steam-1", "title": "Example"}]
         existing = {
             "schema_version": 1,
             "generated_at": "2026-01-01T00:00:00Z",
+            "total_count": 1,
             "sources": {"steam": {"last_success": "2026-01-01T00:00:00Z"}},
             "deals": deals,
         }
@@ -69,6 +70,14 @@ class DataValidationTests(unittest.TestCase):
         )
         self.assertEqual(first, "https://store.steampowered.com/app/123/Game/")
         self.assertEqual(first, second)
+        for url in (
+            "https://[broken",
+            "https://user@store.steampowered.com/app/123/",
+            "https://store.steampowered.com:8080/app/123/",
+            "https://store.steampowered.com\\@example.com/app/123/",
+        ):
+            with self.subTest(url=url):
+                self.assertIsNone(build_public_feed.canonical_store_url(url, "steam"))
 
     def test_discount_label_must_be_exactly_100_percent(self):
         row = ["Game", "https://store.steampowered.com/app/123/Game/", "", "", "$10", "$0", "1100%", None]
@@ -76,16 +85,43 @@ class DataValidationTests(unittest.TestCase):
         row[6] = "خصم 100% - مجاني"
         self.assertIsNotNone(build_public_feed.normalize_game(row, "steam"))
 
-    def test_unchanged_catalog_does_not_rewrite_feed(self):
+    def test_unchanged_feed_is_published_only_for_store_status_transitions(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             target = Path(temp_dir) / "deals.json"
-            original = {"schema_version": 1, "generated_at": "old", "deals": []}
+            original = {
+                "schema_version": 1,
+                "generated_at": "old",
+                "total_count": 0,
+                "deals": [],
+                "sources": {"steam": {"status": "ok", "last_success": "previous"}},
+            }
             build_public_feed.atomic_write(target, original)
             before = target.read_bytes()
-            existing = build_public_feed.load_existing_feed(target)
-            if build_public_feed.catalog_changed(existing, []):
-                build_public_feed.atomic_write(target, {**original, "generated_at": "new"})
-            self.assertEqual(target.read_bytes(), before)
+            steam_source = {"status": "ok", "last_success": "new"}
+            with patch.object(build_public_feed, "ROOT", target.parent), patch.object(
+                build_public_feed, "load_deals", return_value=([], {"steam": steam_source})
+            ):
+                self.assertEqual(build_public_feed.main(), 0)
+                self.assertEqual(target.read_bytes(), before)
+                steam_source["status"] = "failed"
+                self.assertEqual(build_public_feed.main(), 0)
+                changed = build_public_feed.load_existing_feed(target)
+                self.assertEqual(changed["generated_at"], original["generated_at"])
+                self.assertEqual(changed["sources"]["steam"]["status"], "failed")
+                steam_source["status"] = "ok"
+                self.assertEqual(build_public_feed.main(), 0)
+                self.assertEqual(build_public_feed.load_existing_feed(target)["sources"]["steam"]["status"], "ok")
+
+    def test_store_outcome_overrides_saved_source_status(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            path = Path(temp_dir) / "data.json"
+            update_timestamp.atomic_write_json(path, {
+                "total_count": 0, "status": "partial", "update_time": "2026-01-01T00:00:00Z",
+            })
+            with patch.dict("os.environ", {"STEAM_OUTCOME": "success"}):
+                self.assertEqual(update_timestamp.validate_source("steam", str(path))["status"], "partial")
+            with patch.dict("os.environ", {"STEAM_OUTCOME": "failure"}):
+                self.assertEqual(update_timestamp.validate_source("steam", str(path))["status"], "failed")
 
 
 class FrontendStructureTests(unittest.TestCase):
@@ -99,6 +135,8 @@ class FrontendStructureTests(unittest.TestCase):
         self.assertEqual(len(self.soup.find_all("h1")), 1)
         self.assertIsNotNone(self.soup.find("main"))
         self.assertIsNotNone(self.soup.find("footer"))
+        skip_target = self.soup.select_one(".skip-link")["href"]
+        self.assertEqual(self.soup.select_one(skip_target)["tabindex"], "-1")
 
     def test_tabs_are_normal_keyboard_accessible_buttons(self):
         tabs = self.soup.select("button.tab")
@@ -134,10 +172,11 @@ class FrontendStructureTests(unittest.TestCase):
 
 
 class WorkflowStructureTests(unittest.TestCase):
-    def test_update_workflow_commits_only_catalog_changes(self):
+    def test_update_workflow_commits_only_catalog_or_status_changes(self):
         workflow = (ROOT / ".github" / "workflows" / "update.yml").read_text(encoding="utf-8")
         self.assertIn("git diff --quiet -- deals.json", workflow)
-        self.assertIn("No catalog changes; skipping commit", workflow)
+        self.assertIn("No catalog or store status changes; skipping commit", workflow)
+        self.assertIn("workflows/update.yml/runs?status=completed", workflow)
         self.assertNotIn("git add .", workflow)
 
     def test_store_collectors_run_independently(self):
@@ -206,18 +245,50 @@ class CollectorTests(unittest.TestCase):
         ))
 
         details = {"type": "game", "is_free": True}
+        now = datetime.datetime(2026, 9, 14, tzinfo=datetime.timezone.utc)
         with patch.object(steam, "fetch_app_details", return_value=details), patch.object(
             steam, "fetch_storefront", return_value=giveaway_html
         ):
-            self.assertEqual(steam.discount_status("123"), steam.ACTIVE)
+            self.assertEqual(steam.inspect_discount("123", now), (steam.ACTIVE, "2026-09-21T23:59:00Z"))
+            self.assertEqual(steam.inspect_discount("123", now.replace(day=22)), (steam.EXPIRED, None))
         with patch.object(steam, "fetch_app_details", return_value=details), patch.object(
-            steam, "fetch_storefront", return_value="<html>Free To Play</html>"
+            steam, "fetch_storefront", return_value='<div class="game_area_purchase_game">Free To Play</div>'
         ):
-            self.assertEqual(steam.discount_status("123"), steam.EXPIRED)
+            self.assertEqual(steam.inspect_discount("123"), (steam.EXPIRED, None))
+        with patch.object(steam, "fetch_app_details", return_value=details), patch.object(
+            steam, "fetch_storefront", return_value="<html>Age verification</html>"
+        ):
+            self.assertEqual(steam.inspect_discount("123"), (steam.UNKNOWN, None))
 
         active = {"type": "game", "is_free": False, "price_overview": {"discount_percent": 100, "final": 0}}
-        with patch.object(steam, "fetch_app_details", return_value=active):
-            self.assertEqual(steam.discount_status("123"), steam.ACTIVE)
+        with patch.object(steam, "fetch_app_details", return_value=active), patch.object(
+            steam, "fetch_storefront", return_value=None
+        ):
+            self.assertEqual(steam.inspect_discount("123"), (steam.ACTIVE, None))
+
+    def test_steam_empty_search_accepts_the_store_sentinel(self):
+        with patch.object(steam, "make_session") as make_session:
+            response = Mock()
+            make_session.return_value.__enter__.return_value.get.return_value = response
+            response.json.return_value = {"success": 1, "start": -1, "total_count": 0, "results_html": ""}
+            self.assertEqual(steam.fetch_search_page(0), ([], 0))
+            response.json.return_value["total_count"] = 1
+            with self.assertRaises(RuntimeError):
+                steam.fetch_search_page(0)
+
+    def test_steam_preserves_rediscovered_deal_when_verification_fails(self):
+        candidate = {"appid": "123", "title": "Game", "url": "https://store.steampowered.com/app/123/Game/"}
+        existing = steam.candidate_to_row(candidate, "2026-12-01T12:00:00Z")
+        with patch.object(steam, "fetch_search_page", return_value=([Mock()], 1)), patch.object(
+            steam, "parse_search_row", return_value=candidate
+        ), patch.object(steam, "inspect_discount", return_value=(steam.UNKNOWN, None)):
+            self.assertEqual(steam.collect([existing]), ([existing], False))
+        with patch.object(steam, "fetch_search_page", return_value=([], 0)), patch.object(
+            steam, "inspect_discount", return_value=(steam.ACTIVE, "2026-12-02T12:00:00Z")
+        ):
+            games, complete = steam.collect([existing])
+            self.assertTrue(complete)
+            self.assertEqual(games[0][7], "2026-12-02T12:00:00Z")
 
     def test_epic_uses_current_promotion_only(self):
         now = datetime.datetime(2026, 9, 13, 12, tzinfo=datetime.timezone.utc)
@@ -236,6 +307,22 @@ class CollectorTests(unittest.TestCase):
         promotion["startDate"] = "2026-09-12T00:00:00Z"
         game["price"]["totalPrice"]["originalPrice"] = 0
         self.assertIsNone(epic.active_free_end(game, now))
+
+    def test_epic_only_publishes_games_and_uses_valid_product_mapping(self):
+        now = datetime.datetime(2026, 9, 13, 12, tzinfo=datetime.timezone.utc)
+        game = {
+            "offerType": "ADD_ON", "title": "Game", "productSlug": "example/home",
+            "catalogNs": {"mappings": [{"pageSlug": "../free-games", "pageType": "productHome"}]},
+            "price": {"totalPrice": {"originalPrice": 1000, "discountPrice": 0}},
+            "promotions": {"promotionalOffers": [{"promotionalOffers": [{
+                "startDate": "2026-09-12T00:00:00Z",
+                "endDate": "2026-09-14T00:00:00Z",
+                "discountSetting": {"discountType": "PERCENTAGE", "discountPercentage": 0},
+            }]}]},
+        }
+        self.assertIsNone(epic.normalize_game(game, now))
+        game["offerType"] = "BASE_GAME"
+        self.assertEqual(epic.normalize_game(game, now)[1], "https://store.epicgames.com/en-US/p/example")
 
 
 if __name__ == "__main__":
