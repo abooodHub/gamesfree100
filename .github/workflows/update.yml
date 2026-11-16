@@ -2,15 +2,16 @@ name: Update Free Games
 
 concurrency:
   group: games-data-update
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '17 */6 * * *'
   workflow_dispatch:
 
 jobs:
   update:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
@@ -39,18 +40,19 @@ jobs:
       - name: Fetch Steam deals
         id: steam
         continue-on-error: true
+        timeout-minutes: 7
         run: python steam.py
 
       - name: Fetch Epic deals
         id: epic
         continue-on-error: true
+        timeout-minutes: 5
         run: python epic.py
 
-      - name: Require at least one available store
-        if: steps.steam.outcome == 'failure' && steps.epic.outcome == 'failure'
-        run: exit 1
-
       - name: Build data files
+        env:
+          STEAM_OUTCOME: ${{ steps.steam.outcome }}
+          EPIC_OUTCOME: ${{ steps.epic.outcome }}
         run: |
           python build_public_feed.py
           python update_timestamp.py
@@ -62,7 +64,7 @@ jobs:
       - name: Commit changes
         run: |
           if git diff --quiet -- deals.json; then
-            echo "No catalog changes; skipping commit and Pages deployment"
+            echo "No catalog or store status changes; skipping commit and Pages deployment"
             exit 0
           fi
           git config user.name "github-actions[bot]"
@@ -71,17 +73,21 @@ jobs:
           git commit -m "chore(data): update free-game catalog $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
           git push
 
+      - name: Require at least one available store
+        if: steps.steam.outcome == 'failure' && steps.epic.outcome == 'failure'
+        run: exit 1
+
       - name: Keep Actions history tidy
         if: always()
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           cutoff="$(date -u -d '14 days ago' +'%Y-%m-%dT%H:%M:%SZ')"
-          gh api --paginate \
-            "repos/${GITHUB_REPOSITORY}/actions/runs?per_page=100" \
-            --jq ".workflow_runs[] | select(.status == \"completed\" and .created_at < \"${cutoff}\") | .id" |
+          run_ids=$(gh api --paginate \
+            "repos/${GITHUB_REPOSITORY}/actions/workflows/update.yml/runs?status=completed&per_page=100" \
+            --jq ".workflow_runs[] | select(.created_at < \"${cutoff}\") | .id")
           while read -r run_id; do
             if [ -n "$run_id" ]; then
               gh api --method DELETE "repos/${GITHUB_REPOSITORY}/actions/runs/${run_id}"
             fi
-          done
+          done <<< "$run_ids"

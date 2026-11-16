@@ -31,7 +31,7 @@
 	<meta property="og:title" content="🎮 Games100 - ألعاب مجانية مؤقتاً بخصم 100%">
 	<meta property="og:description"
 		content="عروض الألعاب المدفوعة المتاحة مجاناً مؤقتاً بخصم 100% على Steam وEpic Games.">
-	<meta property="og:image" content="icons/logo.svg">
+	<meta property="og:image" content="https://gamesfree100.online/icons/logo.svg">
 	<meta property="og:site_name" content="Games100">
 	<meta property="og:locale" content="ar_AR">
 
@@ -40,7 +40,7 @@
 	<meta property="twitter:url" content="https://gamesfree100.online/">
 	<meta property="twitter:title" content="🎮 Games100 - ألعاب مجانية مؤقتاً بخصم 100%">
 	<meta property="twitter:description" content="عروض الألعاب المدفوعة المتاحة مجاناً مؤقتاً بخصم 100% على Steam وEpic Games.">
-	<meta property="twitter:image" content="icons/logo.svg">
+	<meta name="twitter:image" content="https://gamesfree100.online/icons/logo.svg">
 
 	<!-- Additional SEO Meta Tags -->
 	<meta name="theme-color" content="#1a1a1a">
@@ -70,7 +70,7 @@
 			"name": "Games100",
 			"alternateName": "GamesFree100",
 			"url": "https://gamesfree100.online",
-			"description": "موقع متخصص في عرض الألعاب المجانية من جميع المتاجر العالمية",
+			"description": "عروض الألعاب المدفوعة المتاحة مجاناً مؤقتاً على Steam وEpic Games",
 			"publisher": {
 				"@type": "Organization",
 				"name": "Games100",
@@ -86,7 +86,7 @@
 <body>
 	<div class="container">
 		<header class="header">
-			<a href="#gamesGrid" class="skip-link">تخطي إلى المحتوى</a>
+			<a href="#mainContent" class="skip-link">تخطي إلى المحتوى</a>
 			<h1 class="logo">🎮 Games100</h1>
 			<nav class="header-nav">
 				<a href="index.html" class="nav-link active" aria-current="page" accesskey="h">🏠 الرئيسية</a>
@@ -106,22 +106,18 @@
 
 		</nav>
 
-		<div class="update-bar" id="updateBar">آخر تحديث: ...</div>
-		<div class="data-status info" id="dataStatus" role="status" aria-live="polite" hidden></div>
-
-		<main class="games-grid" id="gamesGrid" role="main" aria-label="قائمة عروض خصم 100%">
-			<!-- سيتم تحميل الألعاب هنا -->
+		<main id="mainContent" tabindex="-1" aria-label="قائمة عروض خصم 100%">
+			<div class="update-bar" id="updateBar"></div>
+			<div class="data-status warning" id="dataStatus" role="status" hidden></div>
+			<div class="games-grid" id="gamesGrid"></div>
+			<noscript>
+				<p class="no-games">فعّل JavaScript لعرض الألعاب. <span lang="en">Enable JavaScript to view offers.</span></p>
+			</noscript>
 		</main>
 	</div>
 
 	<footer class="footer" role="contentinfo">
 		<div class="footer-container">
-			<div class="footer-grid">
-
-
-
-
-			</div>
 
 			<div class="footer-bottom">
 				<div class="footer-logo">

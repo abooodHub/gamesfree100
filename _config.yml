@@ -1,0 +1,11 @@
+exclude:
+  - build_public_feed.py
+  - cleanup_now.py
+  - epic.py
+  - epic_goods_detail.json
+  - free_goods_detail.json
+  - README.md
+  - requirements.txt
+  - steam.py
+  - tests/
+  - update_timestamp.py

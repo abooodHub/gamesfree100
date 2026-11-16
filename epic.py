@@ -5,16 +5,16 @@
 from __future__ import annotations
 
 import datetime
-import json
-import os
+import re
 import sys
-import tempfile
 from pathlib import Path
 from typing import Any
 
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+
+from update_timestamp import atomic_write_json, utc_now_iso
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -67,42 +67,45 @@ def parse_utc(value: Any) -> datetime.datetime | None:
 def active_free_end(game: dict[str, Any], now: datetime.datetime | None = None) -> str | None:
     """Return the end timestamp for an active giveaway, never an upcoming offer."""
     now = now or utc_now()
-    price = game.get("price", {}).get("totalPrice", {})
-    if price.get("originalPrice", 0) <= 0 or price.get("discountPrice") != 0:
+    price = (game.get("price") or {}).get("totalPrice") or {}
+    original = price.get("originalPrice")
+    discount = price.get("discountPrice")
+    if type(original) is not int or original <= 0 or type(discount) is not int or discount != 0:
         return None
-    promotions = (game.get("promotions") or {}).get("promotionalOffers", [])
+    promotions = (game.get("promotions") or {}).get("promotionalOffers") or []
+    ends = []
     for group in promotions:
-        for promotion in group.get("promotionalOffers", []):
-            setting = promotion.get("discountSetting", {})
+        for promotion in group.get("promotionalOffers") or []:
+            setting = promotion.get("discountSetting") or {}
             start = parse_utc(promotion.get("startDate"))
             end = parse_utc(promotion.get("endDate"))
             if (
                 setting.get("discountType") == "PERCENTAGE"
-                and setting.get("discountPercentage") == 0
+                and type(setting.get("discountPercentage")) is int
+                and setting["discountPercentage"] == 0
                 and start is not None
                 and end is not None
                 and start <= now < end
             ):
-                return end.isoformat(timespec="seconds").replace("+00:00", "Z")
-    return None
+                ends.append(end)
+    return max(ends).isoformat(timespec="seconds").replace("+00:00", "Z") if ends else None
 
 
 def game_url(game: dict[str, Any]) -> str | None:
-    mappings = game.get("catalogNs", {}).get("mappings", [])
-    for mapping in mappings:
-        slug = mapping.get("pageSlug")
-        if isinstance(slug, str) and slug.strip():
-            return f"https://store.epicgames.com/en-US/p/{slug.strip()}"
-    product_slug = game.get("productSlug")
-    if isinstance(product_slug, str) and product_slug.strip():
-        slug = product_slug.strip().removesuffix("/home")
-        return f"https://store.epicgames.com/en-US/p/{slug}"
+    mappings = (game.get("catalogNs") or {}).get("mappings") or []
+    slugs = [mapping.get("pageSlug") for mapping in mappings if mapping.get("pageType") in {None, "productHome"}]
+    slugs.append(game.get("productSlug"))
+    for value in slugs:
+        if isinstance(value, str):
+            slug = value.strip().removesuffix("/home")
+            if re.fullmatch(r"[a-zA-Z0-9][a-zA-Z0-9_-]*", slug):
+                return f"https://store.epicgames.com/en-US/p/{slug}"
     return None
 
 
 def image_url(game: dict[str, Any]) -> str:
     preferred = ("OfferImageWide", "DieselStoreFrontWide", "Thumbnail", "DieselStoreFrontTall")
-    images = game.get("keyImages", [])
+    images = game.get("keyImages") or []
     for image_type in preferred:
         for image in images:
             if image.get("type") == image_type and isinstance(image.get("url"), str):
@@ -111,14 +114,21 @@ def image_url(game: dict[str, Any]) -> str:
 
 
 def normalize_game(game: dict[str, Any], now: datetime.datetime | None = None) -> list[Any] | None:
+    offer_type = game.get("offerType")
+    categories = {category.get("path") for category in game.get("categories") or []}
+    if offer_type != "BASE_GAME" and not (offer_type == "BUNDLE" and "bundles/games" in categories):
+        return None
     end_at = active_free_end(game, now)
+    if not end_at:
+        return None
     url = game_url(game)
     title = str(game.get("title") or "").strip()
-    if not end_at or not url or not title:
-        return None
+    if not url or not title:
+        raise ValueError("Active Epic promotion is missing a game title or store URL")
     price = game["price"]["totalPrice"]
     currency = str(price.get("currencyCode") or price.get("currency") or "USD")
-    original = f"{price['originalPrice'] / 100:.2f} {currency}"
+    decimals = (price.get("currencyInfo") or {}).get("decimals", 2)
+    original = f"{price['originalPrice'] / 10**decimals:.{decimals}f} {currency}"
     return [
         title,
         url,
@@ -132,37 +142,27 @@ def normalize_game(game: dict[str, Any], now: datetime.datetime | None = None) -
 
 
 def fetch_catalog() -> list[dict[str, Any]] | None:
-    session = make_session()
-    for endpoint in ENDPOINTS:
-        try:
-            response = session.get(
-                endpoint,
-                params={"locale": "en-US", "country": "US", "allowCountries": "US"},
-                headers=HEADERS,
-                timeout=30,
-            )
-            response.raise_for_status()
-            elements = response.json()["data"]["Catalog"]["searchStore"]["elements"]
-            if not isinstance(elements, list):
-                raise ValueError("invalid Epic catalog")
-            return elements
-        except (requests.RequestException, KeyError, TypeError, ValueError, json.JSONDecodeError) as error:
-            print(f"⚠️ تعذر جلب Epic من {endpoint}: {error}")
+    with make_session() as session:
+        for endpoint in ENDPOINTS:
+            try:
+                response = session.get(
+                    endpoint,
+                    params={"locale": "en-US", "country": "US", "allowCountries": "US"},
+                    headers=HEADERS,
+                    timeout=30,
+                )
+                response.raise_for_status()
+                elements = response.json()["data"]["Catalog"]["searchStore"]["elements"]
+                if not isinstance(elements, list) or not all(isinstance(game, dict) for game in elements):
+                    raise ValueError("invalid Epic catalog")
+                return elements
+            except (requests.RequestException, KeyError, TypeError, ValueError) as error:
+                print(f"⚠️ تعذر جلب Epic من {endpoint}: {error}")
     return None
 
 
 def atomic_write(data: dict[str, Any]) -> None:
-    temp_path: Path | None = None
-    try:
-        with tempfile.NamedTemporaryFile("w", encoding="utf-8", dir=ROOT, delete=False) as output:
-            json.dump(data, output, ensure_ascii=False, indent=2)
-            output.flush()
-            os.fsync(output.fileno())
-            temp_path = Path(output.name)
-        os.replace(temp_path, OUTPUT_PATH)
-    finally:
-        if temp_path and temp_path.exists():
-            temp_path.unlink()
+    atomic_write_json(OUTPUT_PATH, data)
 
 
 def main() -> int:
@@ -171,14 +171,19 @@ def main() -> int:
     if catalog is None:
         print("❌ فشل جلب Epic؛ لن يتم استبدال البيانات الحالية")
         return 1
-    games = [normalized for game in catalog if (normalized := normalize_game(game))]
-    unique = {(game[0], game[1]): game for game in games}
+    now = utc_now()
+    try:
+        games = [normalized for game in catalog if (normalized := normalize_game(game, now))]
+    except (AttributeError, TypeError, ValueError) as error:
+        print(f"❌ تعذر التحقق من بيانات Epic: {error}")
+        return 1
+    unique = {game[1]: game for game in sorted(games, key=lambda game: game[7])}
     games = sorted(unique.values(), key=lambda game: (str(game[7]), str(game[0]).casefold()))
     atomic_write({
         "total_count": len(games),
         "free_games": games,
         "discounted_games": [],
-        "update_time": utc_now().isoformat(timespec="seconds").replace("+00:00", "Z"),
+        "update_time": utc_now_iso(),
         "source": "Epic Games Store",
     })
     print(f"✅ تم حفظ {len(games)} عرض Epic نشط بخصم 100%")
