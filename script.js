@@ -9,7 +9,7 @@ let loading = false;
 let expiryTimer = null;
 
 const themes = ['dark', 'light', 'ocean', 'violet'];
-const DATA_REFRESH_MS = 6 * 60 * 60 * 1000;
+const DATA_REFRESH_MS = 15 * 60 * 1000;
 const EXPIRY_CHECK_MS = 60 * 1000;
 
 const storeNames = {
@@ -17,7 +17,7 @@ const storeNames = {
         steam: 'ستيم', epic: 'إيبك', all: 'الكل',
         shop: 'رابط الحصول على العرض',
         shopFor: (title, store) => `احصل على ${title} من ${store}`,
-        update: 'آخر تغيير للعروض', free: 'مجاني',
+        update: 'آخر فحص ناجح', free: 'مجاني',
         noGames: 'لا توجد عروض بخصم 100% حالياً', loading: 'جاري تحميل العروض...',
         loadError: 'تعذر تحميل بيانات الألعاب. تحقق من الاتصال ثم حاول مجدداً.',
         partialError: stores => `تعذر التحقق من كل العروض في ${stores}. تُعرض البيانات المتاحة.`,
@@ -32,7 +32,7 @@ const storeNames = {
         steam: 'Steam', epic: 'Epic', all: 'All',
         shop: 'Get this offer',
         shopFor: (title, store) => `Get ${title} from ${store}`,
-        update: 'Offers last changed', free: 'Free',
+        update: 'Last successful check', free: 'Free',
         noGames: 'No 100% off deals are available now', loading: 'Loading offers...',
         loadError: 'Could not load game data. Check your connection and try again.',
         partialError: stores => `Some offers from ${stores} could not be verified. Showing available data.`,
@@ -362,7 +362,10 @@ function gameCard(game, index) {
 function updateBar() {
     const bar = document.getElementById('updateBar');
     bar.replaceChildren();
-    const date = parseDateTime(feed.generated_at);
+    const date = ['steam', 'epic']
+        .map(store => parseDateTime(feed.sources[store]?.last_success))
+        .filter(Boolean)
+        .sort((first, second) => second - first)[0];
     if (!date) return;
     const formatted = Intl.DateTimeFormat(lang, { dateStyle: 'medium', timeStyle: 'short' }).format(date);
     bar.append(document.createTextNode(`${storeNames[lang].update}: `),

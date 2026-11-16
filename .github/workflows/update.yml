@@ -64,13 +64,13 @@ jobs:
       - name: Commit changes
         run: |
           if git diff --quiet -- deals.json; then
-            echo "No catalog or store status changes; skipping commit and Pages deployment"
+            echo "No public feed changes; skipping commit and Pages deployment"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -- free_goods_detail.json epic_goods_detail.json deals.json update_timestamp.json
-          git commit -m "chore(data): update free-game catalog $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          git commit -m "chore(data): refresh free-game feed $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
           git push
 
       - name: Require at least one available store

@@ -85,7 +85,7 @@ class DataValidationTests(unittest.TestCase):
         row[6] = "خصم 100% - مجاني"
         self.assertIsNotNone(build_public_feed.normalize_game(row, "steam"))
 
-    def test_unchanged_feed_is_published_only_for_store_status_transitions(self):
+    def test_unchanged_catalog_publishes_new_success_time_and_store_status(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             target = Path(temp_dir) / "deals.json"
             original = {
@@ -97,17 +97,24 @@ class DataValidationTests(unittest.TestCase):
             }
             build_public_feed.atomic_write(target, original)
             before = target.read_bytes()
-            steam_source = {"status": "ok", "last_success": "new"}
+            steam_source = {"status": "ok", "last_success": "previous"}
             with patch.object(build_public_feed, "ROOT", target.parent), patch.object(
                 build_public_feed, "load_deals", return_value=([], {"steam": steam_source})
             ):
                 self.assertEqual(build_public_feed.main(), 0)
                 self.assertEqual(target.read_bytes(), before)
+                steam_source["last_success"] = "new"
+                self.assertEqual(build_public_feed.main(), 0)
+                updated = build_public_feed.load_existing_feed(target)
+                self.assertEqual(updated["generated_at"], original["generated_at"])
+                self.assertEqual(updated["deals"], original["deals"])
+                self.assertEqual(updated["sources"]["steam"]["last_success"], "new")
                 steam_source["status"] = "failed"
                 self.assertEqual(build_public_feed.main(), 0)
                 changed = build_public_feed.load_existing_feed(target)
                 self.assertEqual(changed["generated_at"], original["generated_at"])
                 self.assertEqual(changed["sources"]["steam"]["status"], "failed")
+                self.assertEqual(changed["sources"]["steam"]["last_success"], "new")
                 steam_source["status"] = "ok"
                 self.assertEqual(build_public_feed.main(), 0)
                 self.assertEqual(build_public_feed.load_existing_feed(target)["sources"]["steam"]["status"], "ok")
@@ -172,10 +179,10 @@ class FrontendStructureTests(unittest.TestCase):
 
 
 class WorkflowStructureTests(unittest.TestCase):
-    def test_update_workflow_commits_only_catalog_or_status_changes(self):
+    def test_update_workflow_commits_public_feed_changes(self):
         workflow = (ROOT / ".github" / "workflows" / "update.yml").read_text(encoding="utf-8")
         self.assertIn("git diff --quiet -- deals.json", workflow)
-        self.assertIn("No catalog or store status changes; skipping commit", workflow)
+        self.assertIn("No public feed changes; skipping commit", workflow)
         self.assertIn("workflows/update.yml/runs?status=completed", workflow)
         self.assertNotIn("git add .", workflow)
 

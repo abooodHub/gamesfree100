@@ -160,13 +160,8 @@ def main() -> int:
         output_path = ROOT / "deals.json"
         existing_feed = load_existing_feed(output_path)
         changed = catalog_changed(existing_feed, deals)
-        previous_sources = existing_feed.get("sources", {}) if existing_feed else {}
-        previous_status = {
-            store: source.get("status") for store, source in previous_sources.items()
-            if isinstance(source, dict)
-        } if isinstance(previous_sources, dict) else {}
-        if not changed and previous_status == {store: source["status"] for store, source in sources.items()}:
-            print(f"ℹ️ لا يوجد تغير في كتالوج العروض أو حالة المتاجر: {len(deals)} عروض نشطة")
+        if not changed and existing_feed.get("sources") == sources:
+            print(f"ℹ️ لا توجد بيانات جديدة للنشر: {len(deals)} عروض نشطة")
             return 0
 
         feed = {
