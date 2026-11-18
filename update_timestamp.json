@@ -1,6 +1,6 @@
 {
-  "last_attempt": "2026-11-18T00:56:41Z",
-  "last_update": "2026-11-18T00:56:41Z",
+  "last_attempt": "2026-11-18T15:37:25Z",
+  "last_update": "2026-11-18T15:37:25Z",
   "sources": {
     "steam": {
       "name": "steam",
@@ -9,7 +9,7 @@
       "free_count": 0,
       "discounted_count": 0,
       "status": "ok",
-      "last_success": "2026-11-18T00:56:41Z"
+      "last_success": "2026-11-18T15:37:24Z"
     },
     "epic": {
       "name": "epic",
@@ -18,7 +18,7 @@
       "free_count": 1,
       "discounted_count": 0,
       "status": "ok",
-      "last_success": "2026-11-18T00:56:41Z"
+      "last_success": "2026-11-18T15:37:25Z"
     }
   },
   "updated_files": 2,
