@@ -8,9 +8,11 @@ import datetime
 import json
 import re
 import sys
+import threading
 from concurrent.futures import ThreadPoolExecutor
+from contextlib import contextmanager
 from pathlib import Path
-from typing import Any
+from typing import Any, Iterator
 from urllib.parse import urlparse, urlunparse
 
 import requests
@@ -35,6 +37,11 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36",
     "Accept-Language": "en-US,en;q=0.9",
 }
+STOREFRONT_COOKIE = (
+    "timezoneOffset=0,0; birthtime=631152000; "
+    "lastagecheckage=1-January-1990; wants_mature_content=1"
+)
+_SHARED_STATE: tuple[threading.local, list[requests.Session], threading.Lock] | None = None
 
 
 def make_session() -> requests.Session:
@@ -51,6 +58,43 @@ def make_session() -> requests.Session:
     )
     session.mount("https://", HTTPAdapter(max_retries=retry))
     return session
+
+
+@contextmanager
+def _shared_sessions() -> Iterator[None]:
+    """Reuse one Session per worker thread across a collection run."""
+    global _SHARED_STATE
+    previous = _SHARED_STATE
+    state: tuple[threading.local, list[requests.Session], threading.Lock] = (
+        threading.local(),
+        [],
+        threading.Lock(),
+    )
+    _SHARED_STATE = state
+    try:
+        yield
+    finally:
+        _SHARED_STATE = previous
+        for session in state[1]:
+            session.close()
+
+
+@contextmanager
+def _get_session() -> Iterator[requests.Session]:
+    state = _SHARED_STATE
+    if state is not None:
+        local, pool, lock = state
+        session = getattr(local, "session", None)
+        if session is None:
+            session = make_session()
+            local.session = session
+            with lock:
+                pool.append(session)
+        yield session
+        return
+
+    with make_session() as session:
+        yield session
 
 
 def canonical_app_url(value: Any) -> str | None:
@@ -88,7 +132,7 @@ def fetch_search_page(start: int) -> tuple[list[Tag], int]:
         "l": "english",
     }
     try:
-        with make_session() as session:
+        with _get_session() as session:
             response = session.get(
                 SEARCH_URL,
                 params=params,
@@ -137,13 +181,13 @@ def parse_search_row(row: Tag) -> dict[str, str] | None:
         "title": title.get_text(" ", strip=True),
         "url": url,
         "original_price": original_price,
-        "current_price": "$0.00",
+        "current_price": "Free",
     }
 
 
 def fetch_app_details(appid: str) -> dict[str, Any] | None:
     try:
-        with make_session() as session:
+        with _get_session() as session:
             response = session.get(
                 APP_DETAILS_URL,
                 params={"appids": appid, "cc": "us", "l": "english"},
@@ -162,11 +206,11 @@ def fetch_app_details(appid: str) -> dict[str, Any] | None:
 
 def fetch_storefront(appid: str) -> str | None:
     try:
-        with make_session() as session:
+        with _get_session() as session:
             response = session.get(
                 f"https://store.steampowered.com/app/{appid}/",
                 params={"cc": "us", "l": "english"},
-                headers={**HEADERS, "Cookie": "timezoneOffset=0,0; birthtime=631152000; lastagecheckage=1-January-1990"},
+                headers={**HEADERS, "Cookie": STOREFRONT_COOKIE},
                 timeout=20,
             )
         response.raise_for_status()
@@ -176,7 +220,10 @@ def fetch_storefront(appid: str) -> str | None:
 
 
 def is_zero_price(text: str) -> bool:
-    return text.casefold() == "free" or bool(re.fullmatch(r"[$€£]?\s*0(?:[.,]00)?", text))
+    normalized = text.strip().casefold()
+    return normalized == "free" or bool(
+        re.fullmatch(r"(?:[$€£]\s*0(?:[.,]00)?|0(?:[.,]00)?\s*[$€£])", normalized)
+    )
 
 
 def giveaway_notices(html: str) -> list[str]:
@@ -219,12 +266,20 @@ def parse_storefront_giveaway_end(
     return parse_giveaway_end(giveaway_notices(html), now)
 
 
+def _ensure_utc(value: datetime.datetime | None) -> datetime.datetime:
+    current = value or datetime.datetime.now(datetime.timezone.utc)
+    if current.tzinfo is None:
+        return current.replace(tzinfo=datetime.timezone.utc)
+    return current.astimezone(datetime.timezone.utc)
+
+
 def parse_giveaway_end(notices: list[str], now: datetime.datetime | None = None) -> str | None:
     """Parse Steam's English free-to-keep deadline as UTC.
 
     ``fetch_storefront`` pins Steam's display timezone to UTC. Steam omits the
     year in this label. December offers can end in January of the next year.
     """
+    current = _ensure_utc(now)
     for notice_text in notices:
         month_first = re.search(
             r"free to keep.+?before\s+(?P<month>[a-z]{3,9})\s+"
@@ -252,11 +307,6 @@ def parse_giveaway_end(notices: list[str], now: datetime.datetime | None = None)
             minute = int(match.group("minute"))
             meridiem = match.group("meridiem").casefold()
             hour = hour % 12 + (12 if meridiem == "pm" else 0)
-            current = now or datetime.datetime.now(datetime.timezone.utc)
-            if current.tzinfo is None:
-                current = current.replace(tzinfo=datetime.timezone.utc)
-            else:
-                current = current.astimezone(datetime.timezone.utc)
             end = datetime.datetime(
                 current.year, month, day, hour, minute, tzinfo=datetime.timezone.utc
             )
@@ -287,15 +337,16 @@ def inspect_discount(appid: str, now: datetime.datetime | None = None) -> tuple[
 
     notices = giveaway_notices(storefront)
     if notices:
-        now = now or datetime.datetime.now(datetime.timezone.utc)
-        end = parse_giveaway_end(notices, now)
-        if end and datetime.datetime.fromisoformat(end) <= now:
+        current = _ensure_utc(now)
+        end = parse_giveaway_end(notices, current)
+        if end and datetime.datetime.fromisoformat(end) <= current:
             return EXPIRED, None
         return ACTIVE, end
     if api_active:
         return ACTIVE, parse_discount_expiration(storefront)
-    if data and data.get("type") == "game" and BeautifulSoup(storefront, "html.parser").select_one(".game_area_purchase_game"):
-        return EXPIRED, None
+    if data and data.get("type") == "game":
+        if BeautifulSoup(storefront, "html.parser").select_one(".game_area_purchase_game"):
+            return EXPIRED, None
     return UNKNOWN, None
 
 
@@ -342,45 +393,46 @@ def atomic_write(data: dict[str, Any]) -> None:
 
 
 def collect(previous: list[Any]) -> tuple[list[list[Any]], bool]:
-    first_page, total = fetch_search_page(0)
-    candidates: dict[str, dict[str, str]] = {}
-    start, rows = 0, first_page
-    while True:
-        for row in rows:
-            candidate = parse_search_row(row)
-            if candidate:
-                candidates[candidate["appid"]] = candidate
-        start += SEARCH_PAGE_SIZE
-        if start >= total:
-            break
-        rows, total = fetch_search_page(start)
-
-    previous_by_appid = {
-        appid: game for game in previous
-        if isinstance(game, list) and len(game) >= 7 and game[6] == "100%"
-        and (appid := extract_appid(game[1]))
-    }
-    ids_to_verify = sorted(set(candidates) | set(previous_by_appid))
-    active: list[list[Any]] = []
-    complete = True
-    with ThreadPoolExecutor(max_workers=4) as executor:
-        results = executor.map(inspect_discount, ids_to_verify)
-        for appid, (status, end_at) in zip(ids_to_verify, results, strict=True):
-            previous_game = previous_by_appid.get(appid)
-            if status == UNKNOWN:
-                complete = False
-                print(f"⚠️ تعذر التحقق من عرض Steam للتطبيق {appid}")
-                if previous_game:
-                    active.append(previous_game)
-            elif status == ACTIVE:
-                candidate = candidates.get(appid)
+    with _shared_sessions():
+        first_page, total = fetch_search_page(0)
+        candidates: dict[str, dict[str, str]] = {}
+        start, rows = 0, first_page
+        while True:
+            for row in rows:
+                candidate = parse_search_row(row)
                 if candidate:
-                    previous_end = previous_game[7] if previous_game and len(previous_game) > 7 else None
-                    active.append(candidate_to_row(candidate, end_at or previous_end))
-                elif previous_game:
-                    active.append([*previous_game[:7], end_at] if end_at else previous_game)
+                    candidates[candidate["appid"]] = candidate
+            start += SEARCH_PAGE_SIZE
+            if start >= total:
+                break
+            rows, total = fetch_search_page(start)
 
-    return sorted(active, key=lambda game: (str(game[0]).casefold(), str(game[1]))), complete
+        previous_by_appid = {
+            appid: game for game in previous
+            if isinstance(game, list) and len(game) >= 7 and game[6] == "100%"
+            and (appid := extract_appid(game[1]))
+        }
+        ids_to_verify = sorted(set(candidates) | set(previous_by_appid))
+        active: list[list[Any]] = []
+        complete = True
+        with ThreadPoolExecutor(max_workers=4) as executor:
+            results = executor.map(inspect_discount, ids_to_verify)
+            for appid, (status, end_at) in zip(ids_to_verify, results, strict=True):
+                previous_game = previous_by_appid.get(appid)
+                if status == UNKNOWN:
+                    complete = False
+                    print(f"⚠️ تعذر التحقق من عرض Steam للتطبيق {appid}")
+                    if previous_game:
+                        active.append(previous_game)
+                elif status == ACTIVE:
+                    candidate = candidates.get(appid)
+                    if candidate:
+                        previous_end = previous_game[7] if previous_game and len(previous_game) > 7 else None
+                        active.append(candidate_to_row(candidate, end_at or previous_end))
+                    elif previous_game:
+                        active.append([*previous_game[:7], end_at] if end_at else previous_game)
+
+        return sorted(active, key=lambda game: (str(game[0]).casefold(), str(game[1]))), complete
 
 
 def main() -> int:

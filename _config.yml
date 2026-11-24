@@ -8,4 +8,5 @@ exclude:
   - requirements.txt
   - steam.py
   - tests/
+  - update_timestamp.json
   - update_timestamp.py

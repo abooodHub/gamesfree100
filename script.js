@@ -7,6 +7,7 @@ let feed = null;
 let loadFailed = false;
 let loading = false;
 let expiryTimer = null;
+let lastRenderedSignature = null;
 
 const themes = ['dark', 'light', 'ocean', 'violet'];
 const DATA_REFRESH_MS = 15 * 60 * 1000;
@@ -14,6 +15,7 @@ const EXPIRY_CHECK_MS = 60 * 1000;
 
 const storeNames = {
     ar: {
+        pageTitle: '🎮 Games100 - ألعاب مجانية مؤقتاً بخصم 100% من Steam وEpic',
         steam: 'ستيم', epic: 'إيبك', all: 'الكل',
         shop: 'رابط الحصول على العرض',
         shopFor: (title, store) => `احصل على ${title} من ${store}`,
@@ -23,12 +25,15 @@ const storeNames = {
         partialError: stores => `تعذر التحقق من كل العروض في ${stores}. تُعرض البيانات المتاحة.`,
         refreshError: 'تعذر تحديث البيانات. تُعرض العروض المتاحة من آخر تحميل.',
         retry: 'إعادة المحاولة', endsIn: 'ينتهي خلال', daysLeft: 'يوم', hoursLeft: 'ساعة', minutesLeft: 'دقيقة',
+        daysMany: 'أيام', hoursMany: 'ساعات', minutesMany: 'دقائق',
+        dayTwo: 'يومان', hourTwo: 'ساعتان', minuteTwo: 'دقيقتان',
         currentPrice: 'السعر الحالي', originalPrice: 'السعر الأصلي', discountedPrice: 'السعر بعد الخصم',
         home: 'الرئيسية', skip: 'تخطي إلى قائمة الألعاب', theme: 'تغيير المظهر',
         language: 'Switch to English', gamesLabel: 'قائمة عروض خصم 100%',
         tabsLabel: 'تصفية حسب متجر الألعاب'
     },
     en: {
+        pageTitle: '🎮 Games100 - Temporary 100% Off Games on Steam & Epic',
         steam: 'Steam', epic: 'Epic', all: 'All',
         shop: 'Get this offer',
         shopFor: (title, store) => `Get ${title} from ${store}`,
@@ -37,7 +42,8 @@ const storeNames = {
         loadError: 'Could not load game data. Check your connection and try again.',
         partialError: stores => `Some offers from ${stores} could not be verified. Showing available data.`,
         refreshError: 'Could not refresh. Showing available offers from the last load.',
-        retry: 'Try again', endsIn: 'Ends in', daysLeft: 'days', hoursLeft: 'hours', minutesLeft: 'minutes',
+        retry: 'Try again', endsIn: 'Ends in', daysLeft: 'day', hoursLeft: 'hour', minutesLeft: 'minute',
+        daysMany: 'days', hoursMany: 'hours', minutesMany: 'minutes',
         currentPrice: 'Current price', originalPrice: 'Original price', discountedPrice: 'Discounted price',
         home: 'Home', skip: 'Skip to the games list', theme: 'Change theme',
         language: 'التبديل إلى العربية', gamesLabel: '100% off deals list',
@@ -219,6 +225,7 @@ function setDataStatus(message) {
 }
 
 function renderMessage(message, withRetry = false) {
+    lastRenderedSignature = null;
     const grid = document.getElementById('gamesGrid');
     grid.replaceChildren();
     const wrapper = createElement('div', { className: 'no-games' });
@@ -232,6 +239,7 @@ function renderMessage(message, withRetry = false) {
 }
 
 function showLoading() {
+    lastRenderedSignature = null;
     const grid = document.getElementById('gamesGrid');
     grid.replaceChildren();
     const wrapper = createElement('div', { className: 'no-games' });
@@ -241,13 +249,19 @@ function showLoading() {
 }
 
 function renderGames() {
-    const grid = document.getElementById('gamesGrid');
-    grid.replaceChildren();
     const visibleGames = tab === 'all' ? allGames : allGames.filter(game => game.store === tab);
     if (!visibleGames.length) {
         renderMessage(storeNames[lang].noGames);
         return;
     }
+    const signature = JSON.stringify([lang, tab, visibleGames]);
+    if (signature === lastRenderedSignature) {
+        updateDealCountdowns();
+        return;
+    }
+    lastRenderedSignature = signature;
+    const grid = document.getElementById('gamesGrid');
+    grid.replaceChildren();
     const fragment = document.createDocumentFragment();
     visibleGames.forEach((game, index) => fragment.appendChild(gameCard(game, index)));
     grid.appendChild(fragment);
@@ -256,25 +270,28 @@ function renderGames() {
 function createGameImage(game, isFirstCard) {
     const capsule = safeHttpsUrl(game.capsule);
     const source = safeHttpsUrl(game.image) || capsule;
-    if (!source) return createElement('div', { className: 'game-thumb game-thumb-placeholder' });
+    if (!source) return createElement('div', { className: 'game-thumb game-thumb-placeholder', attrs: { 'aria-hidden': 'true' } });
     const image = createElement('img', {
         className: 'game-thumb',
         attrs: { src: source, alt: '', loading: isFirstCard ? 'eager' : 'lazy', decoding: 'async' }
     });
     if (isFirstCard) image.setAttribute('fetchpriority', 'high');
+    let triedFallback = source === capsule;
     image.addEventListener('error', () => {
-        if (capsule && image.src !== capsule) {
+        if (capsule && !triedFallback) {
+            triedFallback = true;
             image.src = capsule;
             return;
         }
-        image.replaceWith(createElement('div', { className: 'game-thumb game-thumb-placeholder' }));
+        image.replaceWith(createElement('div', { className: 'game-thumb game-thumb-placeholder', attrs: { 'aria-hidden': 'true' } }));
     });
     return image;
 }
 
 function appendPriceInfo(card, game) {
     const original = game.originalPrice.trim();
-    const current = /^free$/i.test(game.currentPrice.trim()) ? storeNames[lang].free : game.currentPrice.trim();
+    const rawCurrent = game.currentPrice.trim();
+    const current = /^(?:free|[$€£]?\s*0(?:[.,]00)?)$/i.test(rawCurrent) ? storeNames[lang].free : rawCurrent;
     if (!original && !current) return;
     const priceInfo = createElement('div', { className: 'price-info' });
     const appendPair = (label, value, valueClass) => {
@@ -288,15 +305,26 @@ function appendPriceInfo(card, game) {
     card.appendChild(priceInfo);
 }
 
+function formatTimeUnit(count, unit) {
+    const strings = storeNames[lang];
+    if (lang === 'ar') {
+        if (count === 1) return `1 ${strings[`${unit}sLeft`]}`;
+        if (count === 2) return strings[`${unit}Two`];
+        if (count <= 10) return `${count} ${strings[`${unit}sMany`]}`;
+        return `${count} ${strings[`${unit}sLeft`]}`;
+    }
+    return `${count} ${count === 1 ? strings[`${unit}sLeft`] : strings[`${unit}sMany`]}`;
+}
+
 function formatTimeLeft(timeLeft) {
     const totalMinutes = Math.max(1, Math.ceil(timeLeft / 60000));
     const days = Math.floor(totalMinutes / 1440);
     const hours = Math.floor((totalMinutes % 1440) / 60);
     const minutes = totalMinutes % 60;
     const parts = [];
-    if (days) parts.push(`${days} ${storeNames[lang].daysLeft}`);
-    if (hours) parts.push(`${hours} ${storeNames[lang].hoursLeft}`);
-    if (minutes || !parts.length) parts.push(`${minutes} ${storeNames[lang].minutesLeft}`);
+    if (days) parts.push(formatTimeUnit(days, 'day'));
+    if (hours) parts.push(formatTimeUnit(hours, 'hour'));
+    if (minutes || !parts.length) parts.push(formatTimeUnit(minutes, 'minute'));
     return parts.join(lang === 'ar' ? ' و' : ', ');
 }
 
@@ -367,7 +395,8 @@ function updateBar() {
         .filter(Boolean)
         .sort((first, second) => second - first)[0];
     if (!date) return;
-    const formatted = Intl.DateTimeFormat(lang, { dateStyle: 'medium', timeStyle: 'short' }).format(date);
+    const locale = lang === 'ar' ? 'ar-SA' : 'en-US';
+    const formatted = new Intl.DateTimeFormat(locale, { dateStyle: 'medium', timeStyle: 'short' }).format(date);
     bar.append(document.createTextNode(`${storeNames[lang].update}: `),
         createElement('time', { text: formatted, attrs: { datetime: date.toISOString() } }));
 }
@@ -418,6 +447,7 @@ function updateLanguageState() {
     const button = document.getElementById('langBtn');
     document.documentElement.lang = lang;
     document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    document.title = storeNames[lang].pageTitle;
     if (button) {
         button.textContent = lang === 'ar' ? 'EN' : 'AR';
         button.setAttribute('aria-label', storeNames[lang].language);

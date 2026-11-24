@@ -1,5 +1,7 @@
 import datetime
 import json
+import shutil
+import subprocess
 import tempfile
 import unittest
 from pathlib import Path
@@ -330,6 +332,174 @@ class CollectorTests(unittest.TestCase):
         self.assertIsNone(epic.normalize_game(game, now))
         game["offerType"] = "BASE_GAME"
         self.assertEqual(epic.normalize_game(game, now)[1], "https://store.epicgames.com/en-US/p/example")
+
+    def test_epic_supports_bundles_null_decimals_and_partial_skip(self):
+        now = datetime.datetime(2026, 9, 13, 12, tzinfo=datetime.timezone.utc)
+        promo = [{
+            "promotionalOffers": [{
+                "startDate": "2026-09-12T00:00:00Z",
+                "endDate": "2026-09-14T00:00:00Z",
+                "discountSetting": {"discountType": "PERCENTAGE", "discountPercentage": 0},
+            }]
+        }]
+        bundle = {
+            "offerType": "BUNDLE",
+            "title": "Bundle Game",
+            "categories": [{"path": "bundles/games"}],
+            "productSlug": "bundle-game",
+            "price": {"totalPrice": {"originalPrice": 1500, "discountPrice": 0, "currencyInfo": {"decimals": None}}},
+            "promotions": {"promotionalOffers": promo},
+        }
+        normalized = epic.normalize_game(bundle, now)
+        self.assertEqual(normalized[1], "https://store.epicgames.com/en-US/bundles/bundle-game")
+        self.assertEqual(normalized[4], "15.00 USD")
+
+        broken = {
+            "offerType": "BASE_GAME",
+            "title": "",
+            "price": {"totalPrice": {"originalPrice": 1000, "discountPrice": 0}},
+            "promotions": {"promotionalOffers": promo},
+        }
+        with tempfile.TemporaryDirectory() as temp_dir:
+            output_path = Path(temp_dir) / "epic_goods_detail.json"
+            with patch.object(epic, "OUTPUT_PATH", output_path), patch.object(
+                epic, "utc_now", return_value=now
+            ), patch.object(epic, "fetch_catalog", return_value=[bundle, broken]):
+                self.assertEqual(epic.main(), 0)
+            saved = json.loads(output_path.read_text(encoding="utf-8"))
+            self.assertEqual(saved["status"], "partial")
+            self.assertEqual(saved["total_count"], 1)
+
+            with patch.object(epic, "OUTPUT_PATH", output_path), patch.object(
+                epic, "utc_now", return_value=now
+            ), patch.object(epic, "fetch_catalog", return_value=[broken]):
+                self.assertEqual(epic.main(), 1)
+
+    def test_steam_hardening_cookies_naive_now_prices_and_expiration(self):
+        self.assertTrue(steam.is_zero_price("Free"))
+        self.assertTrue(steam.is_zero_price("$0.00"))
+        self.assertTrue(steam.is_zero_price("0,00€"))
+        self.assertFalse(steam.is_zero_price("$0.49"))
+
+        future_ts = int((datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(days=2)).timestamp())
+        past_ts = int((datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=1)).timestamp())
+        self.assertIsNotNone(steam.parse_discount_expiration(f'"discount_expiration": {future_ts}'))
+        self.assertIsNone(steam.parse_discount_expiration(f'"discount_expiration": {past_ts}'))
+        self.assertIsNone(steam.parse_discount_expiration(
+            f'"discount_expiration": {future_ts}, "discount_expiration": {future_ts + 60}'
+        ))
+
+        with patch.object(steam, "make_session") as make_session:
+            response = Mock(url="https://store.steampowered.com/app/123/Game/", text="<html></html>")
+            session = make_session.return_value.__enter__.return_value
+            session.get.return_value = response
+            self.assertEqual(steam.fetch_storefront("123"), "<html></html>")
+            cookie = session.get.call_args.kwargs["headers"]["Cookie"]
+            self.assertIn("wants_mature_content=1", cookie)
+
+        with patch.object(steam, "make_session") as make_session:
+            session = Mock()
+            search_resp = Mock()
+            search_resp.json.return_value = {"success": 1, "start": -1, "total_count": 0, "results_html": ""}
+            app_resp = Mock()
+            app_resp.json.return_value = {"123": {"success": True, "data": {"type": "game"}}}
+            store_resp = Mock(
+                url="https://store.steampowered.com/app/123/Game/",
+                text='<div class="game_area_purchase_game">Free To Play</div>',
+            )
+            session.get.side_effect = [search_resp, app_resp, store_resp]
+            make_session.return_value = session
+            candidate = {"appid": "123", "title": "Game", "url": "https://store.steampowered.com/app/123/Game/"}
+            existing = steam.candidate_to_row(candidate, "2026-12-01T12:00:00Z")
+            self.assertEqual(steam.collect([existing]), ([], True))
+            self.assertLessEqual(make_session.call_count, 2)
+            self.assertGreaterEqual(session.close.call_count, 1)
+
+        giveaway_html = '''
+        <div class="game_area_purchase_game">
+          <form action="https://store.steampowered.com/freelicense/addfreelicense/"></form>
+          <p class="game_purchase_discount_quantity">Free to keep when you get it before Sep 21 @ 11:59pm.</p>
+          <div class="discount_pct">-100%</div>
+          <div class="discount_original_price">$9.99</div>
+          <div class="discount_final_price">$0.00</div>
+        </div>'''
+        with patch.object(steam, "fetch_app_details", return_value={"type": "game"}), patch.object(
+            steam, "fetch_storefront", return_value=giveaway_html
+        ):
+            self.assertEqual(
+                steam.inspect_discount("123", datetime.datetime(2026, 9, 14, 12, 0)),
+                (steam.ACTIVE, "2026-09-21T23:59:00Z"),
+            )
+
+    def test_build_public_feed_filters_invalid_urls_and_expired_deals(self):
+        self.assertIsNone(build_public_feed.valid_https_url("https://store.steampowered.com:/app/123/"))
+        future = (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(days=1)).isoformat()
+        past = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=1)).isoformat()
+        self.assertIsNone(build_public_feed.normalize_game(
+            ["Game", "https://store.steampowered.com/app/123/", "", "", "$10", "Free", "100%", past],
+            "steam",
+        ))
+        self.assertIsNone(build_public_feed.normalize_game(
+            ["Game", "https://store.steampowered.com/app/123/", "", "", "$10", "Free", "100% coming soon", future],
+            "steam",
+        ))
+        self.assertIsNone(build_public_feed.normalize_game(
+            ["Game", "https://store.steampowered.com/app/123/", "", "", "$10", "Free", "100% مجاني دائماً", future],
+            "steam",
+        ))
+
+    def test_frontend_script_runtime_helpers(self):
+        if shutil.which("node") is None:
+            self.skipTest("node is not installed")
+        js_check = r"""
+        const fs = require('fs');
+        const vm = require('vm');
+        const code = fs.readFileSync('script.js', 'utf8');
+        const storage = new Map();
+        const noop = () => {};
+        const sandbox = {
+          window: {
+            location: { href: 'https://gamesfree100.online/', search: '' },
+            history: { replaceState: noop },
+            setTimeout, clearTimeout, setInterval,
+          },
+          document: {
+            addEventListener: noop,
+            documentElement: { setAttribute: noop },
+            getElementById: () => null,
+            querySelectorAll: () => [],
+            querySelector: () => null,
+          },
+          localStorage: {
+            getItem: k => storage.get(k) ?? null,
+            setItem: (k, v) => storage.set(k, String(v)),
+          },
+          URL, URLSearchParams, Intl, Date, console,
+        };
+        const ctx = vm.createContext(sandbox);
+        vm.runInContext(code, ctx);
+        const assert = (cond, msg) => { if (!cond) throw new Error(msg); };
+        assert(
+          ctx.safeHttpsUrl('https://cdn.example.com/a.jpg') === 'https://cdn.example.com/a.jpg',
+          'valid https failed'
+        );
+        assert(ctx.safeHttpsUrl('https://user@cdn.example.com/a.jpg') === null, 'userinfo should fail');
+        assert(ctx.safeStoreUrl('https://store.steampowered.com/app/1/', 'epic') === null, 'cross-store failed');
+        assert(ctx.normalizePublicDeal({
+          store: 'epic', title: 'Test', url: 'https://store.epicgames.com/en-US/p/test',
+          discount_percent: 100, end_at: '2099-01-01T00:00:00Z'
+        }) !== null, 'valid epic deal rejected');
+        assert(ctx.normalizePublicDeal({
+          store: 'epic', title: 'NoEnd', url: 'https://store.epicgames.com/en-US/p/test',
+          discount_percent: 100, end_at: null
+        }) === null, 'epic deal without end_at should be rejected');
+        vm.runInContext("lang = 'en'", ctx);
+        assert(ctx.formatTimeLeft(2 * 60 * 60 * 1000 + 60 * 1000) === '2 hours, 1 minute', 'en plural failed');
+        vm.runInContext("lang = 'ar'", ctx);
+        assert(ctx.formatTimeLeft(2 * 86400000 + 5 * 3600000) === 'يومان و5 ساعات', 'ar dual/plural failed');
+        """
+        result = subprocess.run(["node", "-e", js_check], cwd=ROOT, capture_output=True, text=True)
+        self.assertEqual(result.returncode, 0, msg=result.stderr or result.stdout)
 
 
 if __name__ == "__main__":

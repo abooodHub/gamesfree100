@@ -93,13 +93,20 @@ def active_free_end(game: dict[str, Any], now: datetime.datetime | None = None) 
 
 def game_url(game: dict[str, Any]) -> str | None:
     mappings = (game.get("catalogNs") or {}).get("mappings") or []
-    slugs = [mapping.get("pageSlug") for mapping in mappings if mapping.get("pageType") in {None, "productHome"}]
-    slugs.append(game.get("productSlug"))
-    for value in slugs:
+    offer_mappings = game.get("offerMappings") or []
+    is_bundle = game.get("offerType") == "BUNDLE"
+    slugs: list[tuple[Any, str]] = [
+        (mapping.get("pageSlug"), "bundles" if is_bundle or mapping.get("pageType") == "bundle" else "p")
+        for mapping in (*mappings, *offer_mappings)
+        if isinstance(mapping, dict) and mapping.get("pageType") in {None, "productHome", "bundle"}
+    ]
+    slugs.append((game.get("productSlug"), "bundles" if is_bundle else "p"))
+    slugs.append((game.get("urlSlug"), "bundles" if is_bundle else "p"))
+    for value, section in slugs:
         if isinstance(value, str):
             slug = value.strip().removesuffix("/home")
             if re.fullmatch(r"[a-zA-Z0-9][a-zA-Z0-9_-]*", slug):
-                return f"https://store.epicgames.com/en-US/p/{slug}"
+                return f"https://store.epicgames.com/en-US/{section}/{slug}"
     return None
 
 
@@ -127,7 +134,8 @@ def normalize_game(game: dict[str, Any], now: datetime.datetime | None = None) -
         raise ValueError("Active Epic promotion is missing a game title or store URL")
     price = game["price"]["totalPrice"]
     currency = str(price.get("currencyCode") or price.get("currency") or "USD")
-    decimals = (price.get("currencyInfo") or {}).get("decimals", 2)
+    raw_decimals = (price.get("currencyInfo") or {}).get("decimals")
+    decimals = raw_decimals if type(raw_decimals) is int and 0 <= raw_decimals <= 6 else 2
     original = f"{price['originalPrice'] / 10**decimals:.{decimals}f} {currency}"
     return [
         title,
@@ -172,10 +180,19 @@ def main() -> int:
         print("❌ فشل جلب Epic؛ لن يتم استبدال البيانات الحالية")
         return 1
     now = utc_now()
-    try:
-        games = [normalized for game in catalog if (normalized := normalize_game(game, now))]
-    except (AttributeError, TypeError, ValueError) as error:
-        print(f"❌ تعذر التحقق من بيانات Epic: {error}")
+    games: list[list[Any]] = []
+    skipped = 0
+    for game in catalog:
+        try:
+            normalized = normalize_game(game, now)
+            if normalized:
+                games.append(normalized)
+        except (AttributeError, TypeError, ValueError) as error:
+            skipped += 1
+            title = game.get("title", "unknown") if isinstance(game, dict) else "unknown"
+            print(f"⚠️ تعذر التحقق من عرض Epic ({title}): {error}")
+    if skipped and not games:
+        print("❌ تعذر التحقق من بيانات Epic؛ لن يتم استبدال البيانات الحالية")
         return 1
     unique = {game[1]: game for game in sorted(games, key=lambda game: game[7])}
     games = sorted(unique.values(), key=lambda game: (str(game[7]), str(game[0]).casefold()))
@@ -183,6 +200,7 @@ def main() -> int:
         "total_count": len(games),
         "free_games": games,
         "discounted_games": [],
+        "status": "partial" if skipped else "ok",
         "update_time": utc_now_iso(),
         "source": "Epic Games Store",
     })

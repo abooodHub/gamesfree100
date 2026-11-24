@@ -32,7 +32,13 @@ def valid_https_url(value: Any, allowed_hosts: set[str] | None = None) -> str | 
         return None
     try:
         parsed = urlparse(text)
-        if parsed.scheme != "https" or not parsed.hostname or parsed.username is not None or parsed.port is not None:
+        if (
+            parsed.scheme != "https"
+            or not parsed.hostname
+            or parsed.username is not None
+            or parsed.port is not None
+            or parsed.hostname.lower() != parsed.netloc.lower()
+        ):
             return None
     except ValueError:
         return None
